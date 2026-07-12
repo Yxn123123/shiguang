@@ -1,7 +1,59 @@
 {
   "version": 1,
-  "updated_at": "2026-07-12T00:00:00Z",
+  "updated_at": "2026-07-12T04:48:24.017489Z",
   "cards": [
+    {
+      "id": "auto-f579243b1b7ca2dd",
+      "title": "法国如何三比零击败卫冕冠军巴西",
+      "lead": "1998年世界杯决赛，东道主法国以三比零击败卫冕冠军巴西，首次捧起世界杯。",
+      "explanation": "1998年世界杯决赛，东道主法国以三比零击败上届冠军巴西，并首次赢得世界杯冠军。一个比分串起了赛事背景、对阵身份与历史结果。",
+      "angle": "从世界杯决赛的比分切入，呈现东道主法国击败卫冕冠军巴西的时刻。",
+      "category": "历史",
+      "source_name": "Wikimedia On This Day：1998年",
+      "source_url": "https://zh.wikipedia.org/wiki/1998%E5%B9%B4",
+      "evidence": "在第十六屆世界盃足球賽中，東道主法國以三比零擊敗上屆冠軍巴西，首次奪得世界杯足球赛冠军。",
+      "created_at": "2026-07-12",
+      "source_type": "AI审核 · gpt-5.6-luna"
+    },
+    {
+      "id": "auto-442ba41a8759811b",
+      "title": "日本投降后，谁先驶入了东京湾？",
+      "lead": "日本投降后，“圣迭戈”号成为首艘驶入东京湾的盟军主要战舰。",
+      "explanation": "日本投降后，“圣迭戈”号成为首艘驶入东京湾的盟军主要战舰。这个先后顺序让它在战争结束这一历史节点上留下了明确记录。",
+      "angle": "从战后进入东京湾的先后顺序切入，呈现一艘巡洋舰在投降时刻的历史位置。",
+      "category": "历史",
+      "source_name": "中文维基百科：圣迭戈号轻巡洋舰",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%9C%A3%E8%BF%AD%E6%88%88%E5%8F%B7%E8%BD%BB%E5%B7%A1%E6%B4%8B%E8%88%B0",
+      "evidence": "日本投降后，她成为首艘驶入东京湾的盟军主要战舰。",
+      "created_at": "2026-07-12",
+      "source_type": "AI审核 · gpt-5.6-luna"
+    },
+    {
+      "id": "auto-71c75177d1ecfdcb",
+      "title": "广西化石记录中的埃笠姆鲱目“末代鱼类”",
+      "lead": "广西曾生活过目前已知最晚的埃笠姆鲱目鱼类桂鲱。",
+      "explanation": "桂鲱属只有一个物种，即幸存桂鲱。它生活在约3300万至2800万年前的广西渐新世，是目前已知生存年代最晚的埃笠姆鲱目鱼类，留下了化石记录中的“末代成员”。",
+      "angle": "从广西渐新世化石切入，认识一支已经灭绝鱼类谱系的最晚成员。",
+      "category": "生物",
+      "source_name": "中文维基百科：桂鲱属",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%A1%82%E9%B2%B1%E5%B1%9E",
+      "evidence": "桂鲱属生存于渐新世（约3300万至2800万年前）的中国广西壮族自治区，它是目前已知生存年代最晚的埃笠姆鲱目鱼类。",
+      "created_at": "2026-07-12",
+      "source_type": "AI审核 · gpt-5.6-luna"
+    },
+    {
+      "id": "auto-c6dab0f28ad3223c",
+      "title": "《魔法公主》上映后成日本票房焦点",
+      "lead": "《魔法公主》1997年上映后，曾成为日本数月来票房最高的电影。",
+      "explanation": "《魔法公主》1997年上映后，成为日本数月来票房最高的电影，显示出这部动画作品当时突出的商业表现。",
+      "angle": "从一部动画电影的商业表现切入，突出《魔法公主》上映后的票房成绩。",
+      "category": "艺术",
+      "source_name": "Wikimedia On This Day：1997年",
+      "source_url": "https://zh.wikipedia.org/wiki/1997%E5%B9%B4",
+      "evidence": "宮崎駿的動畫電影《魔法公主》 上映，成為日本數月來票房最高的電影。",
+      "created_at": "2026-07-12",
+      "source_type": "AI审核 · gpt-5.6-luna"
+    },
     {
       "id": "seed-moon-distance",
       "title": "月球每年都在离地球更远一点。",

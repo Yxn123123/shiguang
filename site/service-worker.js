@@ -1,4 +1,4 @@
-const CACHE = "shiguang-v10";
+const CACHE = "shiguang-v11";
 const SHELL = [
   "./",
   "./index.html",
@@ -34,6 +34,14 @@ self.addEventListener("fetch", (event) => {
   if (event.request.method !== "GET") return;
 
   const url = new URL(event.request.url);
+
+  if (
+    url.origin === self.location.origin &&
+    url.pathname.endsWith("/runtime-config.js")
+  ) {
+    event.respondWith(fetch(event.request));
+    return;
+  }
 
   if (
     url.origin === self.location.origin &&

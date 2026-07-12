@@ -1,0 +1,4 @@
+window.SHIGUANG_CONFIG = {
+  SUPABASE_URL: "",
+  SUPABASE_KEY: ""
+};

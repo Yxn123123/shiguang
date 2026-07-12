@@ -27,6 +27,29 @@ jobs:
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
+      - name: Write runtime config
+        shell: bash
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          config = {
+              "SUPABASE_URL": os.environ.get("SUPABASE_URL", ""),
+              "SUPABASE_KEY": os.environ.get("SUPABASE_KEY", ""),
+          }
+          Path("site/runtime-config.js").write_text(
+              "window.SHIGUANG_CONFIG = "
+              + json.dumps(config, ensure_ascii=False)
+              + ";\n",
+              encoding="utf-8",
+          )
+          PY
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:

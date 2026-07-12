@@ -34,6 +34,13 @@ const state = {
   installPrompt: null
 };
 
+const PROGRESS_STATUSES = new Set(["read", "favorite", "explored"]);
+const runtimeConfig = window.SHIGUANG_CONFIG || {};
+const supabaseConfig = {
+  url: String(runtimeConfig.SUPABASE_URL || "").replace(/\/+$/, ""),
+  key: String(runtimeConfig.SUPABASE_KEY || "")
+};
+
 const dom = {
   brandButton: document.querySelector("#brandButton"),
   updateStatus: document.querySelector("#updateStatus"),
@@ -165,6 +172,32 @@ function getSet(key) {
 
 function saveSet(key, values) {
   writeJson(key, [...values]);
+}
+
+function canRecordProgress() {
+  return Boolean(supabaseConfig.url && supabaseConfig.key);
+}
+
+function recordProgress(cardId, status) {
+  if (!cardId || !PROGRESS_STATUSES.has(status) || !canRecordProgress()) {
+    return Promise.resolve(false);
+  }
+
+  return fetch(`${supabaseConfig.url}/rest/v1/user_progress`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      apikey: supabaseConfig.key,
+      Authorization: `Bearer ${supabaseConfig.key}`,
+      Prefer: "return=minimal"
+    },
+    body: JSON.stringify({
+      card_id: cardId,
+      status
+    })
+  })
+    .then((response) => response.ok)
+    .catch(() => false);
 }
 
 function getFavorites() {
@@ -600,6 +633,7 @@ function ensureRandomCard(forceNext = false) {
 
   state.randomCardId = queue.shift();
   writeJson(STORE.randomQueue, queue);
+  recordProgress(state.randomCardId, "explored");
   return state.cardMap.get(state.randomCardId) || null;
 }
 
@@ -664,6 +698,7 @@ function advanceRandomCard({ markRead = false, putBack = false } = {}) {
     const read = getRead();
     read.add(cardId);
     saveSet(STORE.read, read);
+    recordProgress(cardId, "read");
   }
 
   if (putBack) {
@@ -689,6 +724,7 @@ function toggleRandomFavorite() {
     showToast("已取消收藏");
   } else {
     favorites.add(cardId);
+    recordProgress(cardId, "favorite");
     showToast("已收藏");
   }
 
@@ -918,6 +954,7 @@ function completeCurrent() {
   if (state.detailOrigin === "daily") {
     read.add(card.id);
     saveSet(STORE.read, read);
+    recordProgress(card.id, "read");
     showToast("已读完");
     nextDailyCard(card.id);
     return;
@@ -928,6 +965,7 @@ function completeCurrent() {
     showToast("已标记为未读");
   } else {
     read.add(card.id);
+    recordProgress(card.id, "read");
     showToast("已标记为已读");
   }
 
@@ -947,6 +985,7 @@ function toggleFavorite() {
     showToast("已取消收藏");
   } else {
     favorites.add(cardId);
+    recordProgress(cardId, "favorite");
     showToast("已收藏");
   }
 

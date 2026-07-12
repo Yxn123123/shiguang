@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate high-quality Chinese knowledge cards from public source material."""
+"""Generate reviewed Chinese knowledge cards with a high-yield, low-waste pipeline."""
 
 from __future__ import annotations
 
@@ -9,11 +9,13 @@ import os
 import random
 import re
 import sys
+import unicodedata
 from dataclasses import asdict, dataclass
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from difflib import SequenceMatcher
 from pathlib import Path
 from typing import Iterable
+from urllib.parse import quote
 
 import requests
 from bs4 import BeautifulSoup
@@ -22,14 +24,22 @@ from pydantic import BaseModel, Field
 
 ROOT = Path(__file__).resolve().parents[1]
 CARDS_PATH = ROOT / "site" / "data" / "cards.json"
+STATE_PATH = ROOT / "data" / "generation_state.json"
+
 MODEL = os.getenv("OPENAI_MODEL", "gpt-5.6-luna")
 MAX_NEW_CARDS = int(os.getenv("MAX_NEW_CARDS", "8"))
-USER_AGENT = "ShiguangKnowledgePWA/1.0 (personal educational project)"
+MAX_CANDIDATES = int(os.getenv("MAX_CANDIDATES", "24"))
+SEEN_TTL_DAYS = int(os.getenv("SEEN_TTL_DAYS", "7"))
+
+USER_AGENT = "ShiguangKnowledgePWA/1.4 (personal educational project)"
 SESSION = requests.Session()
 SESSION.headers.update({"User-Agent": USER_AGENT})
-TIMEOUT = 20
+TIMEOUT = 22
 
 CATEGORIES = ["生物", "科学", "历史", "艺术", "科技", "生活", "综合"]
+MIN_REVIEW_SCORE = 78
+
+USAGE = {"input_tokens": 0, "output_tokens": 0}
 
 
 @dataclass
@@ -40,6 +50,7 @@ class Candidate:
     title: str
     excerpt: str
     category_hint: str = "综合"
+    source_rank: int = 9
 
 
 class Proposal(BaseModel):
@@ -79,6 +90,10 @@ def utc_now() -> datetime:
     return datetime.now(timezone.utc)
 
 
+def iso_now() -> str:
+    return utc_now().isoformat().replace("+00:00", "Z")
+
+
 def request_json(url: str, **params) -> dict:
     response = SESSION.get(url, params=params, timeout=TIMEOUT)
     response.raise_for_status()
@@ -89,9 +104,91 @@ def normalize_space(text: str) -> str:
     return re.sub(r"\s+", " ", text or "").strip()
 
 
-def batch(items: list[str], size: int) -> Iterable[list[str]]:
+def canonical_text(text: str) -> str:
+    text = unicodedata.normalize("NFKC", text or "").lower()
+    return "".join(char for char in text if char.isalnum())
+
+
+def batch(items: list, size: int) -> Iterable[list]:
     for index in range(0, len(items), size):
         yield items[index : index + size]
+
+
+def record_usage(response) -> None:
+    usage = getattr(response, "usage", None)
+    if not usage:
+        return
+    USAGE["input_tokens"] += int(getattr(usage, "input_tokens", 0) or 0)
+    USAGE["output_tokens"] += int(getattr(usage, "output_tokens", 0) or 0)
+
+
+def load_cards() -> dict:
+    if not CARDS_PATH.exists():
+        return {"version": 1, "updated_at": None, "cards": []}
+    return json.loads(CARDS_PATH.read_text(encoding="utf-8"))
+
+
+def load_state() -> dict:
+    if not STATE_PATH.exists():
+        return {"version": 1, "seen": {}}
+    try:
+        payload = json.loads(STATE_PATH.read_text(encoding="utf-8"))
+        if not isinstance(payload.get("seen"), dict):
+            payload["seen"] = {}
+        return payload
+    except (json.JSONDecodeError, OSError):
+        return {"version": 1, "seen": {}}
+
+
+def save_state(state: dict) -> None:
+    STATE_PATH.parent.mkdir(parents=True, exist_ok=True)
+    cutoff = utc_now() - timedelta(days=45)
+    pruned = {}
+
+    for source_id, info in state.get("seen", {}).items():
+        try:
+            last_seen = datetime.fromisoformat(
+                str(info.get("last_seen", "")).replace("Z", "+00:00")
+            )
+        except ValueError:
+            continue
+        if last_seen >= cutoff:
+            pruned[source_id] = info
+
+    state["version"] = 1
+    state["updated_at"] = iso_now()
+    state["seen"] = pruned
+    STATE_PATH.write_text(
+        json.dumps(state, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+
+def seen_recently(source_id: str, state: dict) -> bool:
+    info = state.get("seen", {}).get(source_id)
+    if not info:
+        return False
+    try:
+        last_seen = datetime.fromisoformat(
+            str(info.get("last_seen", "")).replace("Z", "+00:00")
+        )
+    except ValueError:
+        return False
+    return last_seen >= utc_now() - timedelta(days=SEEN_TTL_DAYS)
+
+
+def mark_seen(
+    state: dict,
+    candidate: Candidate,
+    outcome: str,
+    reason: str = "",
+) -> None:
+    state.setdefault("seen", {})[candidate.source_id] = {
+        "last_seen": iso_now(),
+        "source_url": candidate.source_url,
+        "outcome": outcome,
+        "reason": normalize_space(reason)[:180],
+    }
 
 
 def wikipedia_extracts(titles: list[str]) -> dict[str, dict]:
@@ -103,8 +200,9 @@ def wikipedia_extracts(titles: list[str]) -> dict[str, dict]:
             prop="extracts|info",
             exintro=1,
             explaintext=1,
-            exchars=1600,
+            exchars=1500,
             inprop="url",
+            redirects=1,
             titles="|".join(title_batch),
             format="json",
             origin="*",
@@ -115,63 +213,140 @@ def wikipedia_extracts(titles: list[str]) -> dict[str, dict]:
     return result
 
 
-def fetch_wikipedia_dyk() -> list[Candidate]:
-    payload = request_json(
-        "https://zh.wikipedia.org/w/api.php",
-        action="parse",
-        page="Template:Dyk",
-        prop="text",
-        format="json",
-        origin="*",
-    )
-    html = payload.get("parse", {}).get("text", {}).get("*", "")
+def parse_dyk_html(html: str) -> list[tuple[str, str]]:
     soup = BeautifulSoup(html, "html.parser")
-
-    raw: list[tuple[str, str, str]] = []
-    seen: set[str] = set()
+    entries: list[tuple[str, str]] = []
 
     for item in soup.select("li"):
-        question = normalize_space(item.get_text(" ", strip=True))
-        if len(question) < 12 or len(question) > 130:
+        question_text = normalize_space(item.get_text(" ", strip=True))
+        if not 12 <= len(question_text) <= 130:
             continue
-        if not question.endswith(("？", "?")):
+        if not question_text.endswith(("？", "?")):
             continue
 
-        links = []
-        for anchor in item.select("a[href^='/wiki/']"):
-            title = anchor.get("title", "")
+        anchors = []
+        for anchor in item.select("a"):
+            title = normalize_space(anchor.get("title", ""))
+            href = anchor.get("href", "")
             if not title or ":" in title:
                 continue
-            links.append(anchor)
+            if not (href.startswith("/wiki/") or href.startswith("./")):
+                continue
+            anchors.append(anchor)
 
-        if not links:
+        if not anchors:
             continue
 
-        preferred = item.select_one("b a[href^='/wiki/'], strong a[href^='/wiki/']") or links[0]
-        article_title = preferred.get("title", "")
-        if not article_title or article_title in seen:
-            continue
-        seen.add(article_title)
-        source_url = "https://zh.wikipedia.org" + preferred.get("href", "")
-        raw.append((question, article_title, source_url))
+        preferred = (
+            item.select_one("b a, strong a")
+            or anchors[0]
+        )
+        article_title = normalize_space(preferred.get("title", ""))
+        if article_title and ":" not in article_title:
+            entries.append((question_text, article_title))
 
-    pages = wikipedia_extracts([item[1] for item in raw[:24]])
+    return entries
+
+
+def fetch_wikipedia_dyk_history() -> list[Candidate]:
+    revision_ids: list[int | None] = [None]
+
+    try:
+        revision_payload = request_json(
+            "https://zh.wikipedia.org/w/api.php",
+            action="query",
+            prop="revisions",
+            titles="Template:Dyk",
+            rvprop="ids|timestamp",
+            rvlimit=30,
+            format="json",
+            origin="*",
+        )
+        pages = revision_payload.get("query", {}).get("pages", {}).values()
+        revisions = []
+        for page in pages:
+            revisions.extend(page.get("revisions", []))
+
+        # Sampling spaced revisions gives older, more varied DYK questions,
+        # instead of paying AI to reread almost identical revisions.
+        revision_ids.extend(
+            revision.get("revid")
+            for revision in revisions[3::4][:7]
+            if revision.get("revid")
+        )
+    except requests.RequestException:
+        pass
+
+    raw: list[tuple[str, str]] = []
+    seen_titles: set[str] = set()
+
+    for revision_id in revision_ids:
+        try:
+            params = {
+                "action": "parse",
+                "prop": "text",
+                "format": "json",
+                "origin": "*",
+            }
+            if revision_id:
+                params["oldid"] = revision_id
+            else:
+                params["page"] = "Template:Dyk"
+
+            payload = request_json(
+                "https://zh.wikipedia.org/w/api.php",
+                **params,
+            )
+            html = payload.get("parse", {}).get("text", {}).get("*", "")
+        except requests.RequestException:
+            continue
+
+        for question_text, article_title in parse_dyk_html(html):
+            if article_title in seen_titles:
+                continue
+            seen_titles.add(article_title)
+            raw.append((question_text, article_title))
+
+    pages = wikipedia_extracts([title for _, title in raw[:70]])
     candidates: list[Candidate] = []
 
-    for question, article_title, source_url in raw[:24]:
-        page = pages.get(article_title, {})
+    for question_text, article_title in raw[:70]:
+        page = pages.get(article_title)
+        if not page:
+            # Redirect-normalized title may differ; try a loose lookup.
+            page = next(
+                (
+                    value
+                    for key, value in pages.items()
+                    if canonical_text(key) == canonical_text(article_title)
+                ),
+                {},
+            )
+
         extract = normalize_space(page.get("extract", ""))
         if len(extract) < 120:
             continue
+
+        page_id = page.get("pageid", article_title)
+        full_url = page.get(
+            "fullurl",
+            "https://zh.wikipedia.org/wiki/"
+            + quote(article_title.replace(" ", "_")),
+        )
+
         candidates.append(
             Candidate(
-                source_id=f"wiki-dyk:{page.get('pageid', article_title)}",
+                source_id=f"wiki-dyk:{page_id}",
                 source_name=f"中文维基百科：{article_title}",
-                source_url=page.get("fullurl", source_url),
-                title=question,
-                excerpt=f"栏目问题：{question}\n词条摘要：{extract}",
+                source_url=full_url,
+                title=question_text,
+                excerpt=f"栏目问题：{question_text}\n词条摘要：{extract}",
+                category_hint="综合",
+                source_rank=0,
             )
         )
+
+    random.SystemRandom().shuffle(candidates)
     return candidates
 
 
@@ -182,7 +357,10 @@ def fetch_on_this_day() -> list[Candidate]:
     language = "zh"
 
     for language_code in ("zh", "en"):
-        url = f"https://api.wikimedia.org/feed/v1/wikipedia/{language_code}/onthisday/all/{month_day}"
+        url = (
+            f"https://api.wikimedia.org/feed/v1/wikipedia/"
+            f"{language_code}/onthisday/all/{month_day}"
+        )
         try:
             response = SESSION.get(url, timeout=TIMEOUT)
             response.raise_for_status()
@@ -196,7 +374,7 @@ def fetch_on_this_day() -> list[Candidate]:
         return []
 
     candidates: list[Candidate] = []
-    events = payload.get("events", [])[:10]
+    events = payload.get("events", [])[:12]
 
     for index, event in enumerate(events):
         text = normalize_space(event.get("text", ""))
@@ -205,23 +383,28 @@ def fetch_on_this_day() -> list[Candidate]:
         page = pages[0] if pages else {}
         page_title = page.get("normalizedtitle") or page.get("title") or f"{year}年事件"
         extract = normalize_space(page.get("extract", ""))
-        url = (
+        source_url = (
             page.get("content_urls", {})
             .get("desktop", {})
             .get("page", "")
         )
-        if len(text) < 30:
+
+        if len(text) < 35 or len(extract) < 100:
             continue
+
         candidates.append(
             Candidate(
                 source_id=f"onthisday:{language}:{month_day}:{year}:{index}",
                 source_name=f"Wikimedia On This Day：{page_title}",
-                source_url=url or f"https://{language}.wikipedia.org/wiki/{page_title}",
+                source_url=source_url or f"https://{language}.wikipedia.org/wiki/{page_title}",
                 title=f"{year}年的今天：{text}",
                 excerpt=f"事件：{text}\n相关页面摘要：{extract}",
                 category_hint="历史",
+                source_rank=3,
             )
         )
+
+    random.SystemRandom().shuffle(candidates)
     return candidates
 
 
@@ -231,18 +414,20 @@ def fetch_nasa_apod() -> list[Candidate]:
         payload = request_json(
             "https://api.nasa.gov/planetary/apod",
             api_key=api_key,
-            count=3,
+            count=4,
             thumbs=True,
         )
     except requests.RequestException:
         return []
 
     candidates: list[Candidate] = []
+
     for item in payload if isinstance(payload, list) else []:
         explanation = normalize_space(item.get("explanation", ""))
         title = normalize_space(item.get("title", ""))
-        if len(explanation) < 120:
+        if len(explanation) < 160:
             continue
+
         candidates.append(
             Candidate(
                 source_id=f"nasa-apod:{item.get('date', title)}",
@@ -251,18 +436,20 @@ def fetch_nasa_apod() -> list[Candidate]:
                 title=title,
                 excerpt=explanation,
                 category_hint="科学",
+                source_rank=1,
             )
         )
+
     return candidates
 
 
 def fetch_met_objects() -> list[Candidate]:
-    rng = random.Random(utc_now().date().isoformat())
+    rng = random.SystemRandom()
     queries = ["ancient", "textile", "instrument", "ceramic", "painting", "jewelry"]
     rng.shuffle(queries)
     candidates: list[Candidate] = []
 
-    for query in queries[:2]:
+    for query in queries[:3]:
         try:
             search = request_json(
                 "https://collectionapi.metmuseum.org/public/collection/v1/search",
@@ -272,7 +459,8 @@ def fetch_met_objects() -> list[Candidate]:
             object_ids = search.get("objectIDs") or []
             if not object_ids:
                 continue
-            object_id = rng.choice(object_ids[: min(len(object_ids), 200)])
+
+            object_id = rng.choice(object_ids[: min(len(object_ids), 500)])
             item = request_json(
                 f"https://collectionapi.metmuseum.org/public/collection/v1/objects/{object_id}"
             )
@@ -285,36 +473,50 @@ def fetch_met_objects() -> list[Candidate]:
 
         facts = {
             "作品": title,
+            "用途或对象": normalize_space(item.get("objectName", "")),
             "年代": normalize_space(item.get("objectDate", "")),
             "文化": normalize_space(item.get("culture", "")),
+            "地区": normalize_space(item.get("geographyType", ""))
+            + " "
+            + normalize_space(item.get("country", "")),
             "材质": normalize_space(item.get("medium", "")),
+            "尺寸": normalize_space(item.get("dimensions", "")),
             "类别": normalize_space(item.get("classification", "")),
-            "部门": normalize_space(item.get("department", "")),
             "说明": normalize_space(item.get("creditLine", "")),
         }
-        excerpt = "\n".join(f"{key}：{value}" for key, value in facts.items() if value)
-        if len(excerpt) < 60:
+        excerpt = "\n".join(
+            f"{key}：{normalize_space(value)}"
+            for key, value in facts.items()
+            if normalize_space(value)
+        )
+
+        if len(excerpt) < 90:
             continue
 
         candidates.append(
             Candidate(
                 source_id=f"met:{object_id}",
                 source_name=f"The Metropolitan Museum of Art：{title}",
-                source_url=item.get("objectURL", "https://www.metmuseum.org/art/collection"),
+                source_url=item.get(
+                    "objectURL",
+                    "https://www.metmuseum.org/art/collection",
+                ),
                 title=title,
                 excerpt=excerpt,
                 category_hint="艺术",
+                source_rank=2,
             )
         )
+
     return candidates
 
 
 def fetch_candidates() -> list[Candidate]:
     providers = [
-        ("Wikipedia DYK", fetch_wikipedia_dyk),
-        ("Wikimedia On This Day", fetch_on_this_day),
+        ("Wikipedia DYK history", fetch_wikipedia_dyk_history),
         ("NASA APOD", fetch_nasa_apod),
         ("The Met", fetch_met_objects),
+        ("Wikimedia On This Day", fetch_on_this_day),
     ]
     collected: list[Candidate] = []
 
@@ -332,41 +534,128 @@ def fetch_candidates() -> list[Candidate]:
     return list(unique.values())
 
 
-EXTRACTION_INSTRUCTIONS = """
-你是“拾光”知识编辑。任务不是概括文章，而是从候选材料中找出真正适合轻阅读的、具体且可验证的小知识。
+def candidate_is_low_information(candidate: Candidate) -> bool:
+    text = normalize_space(candidate.excerpt)
+    if len(text) < 90:
+        return True
 
-硬性规则：
-1. 只能依据候选材料，禁止补充材料之外的事实。
-2. 每个候选最多生成1条；没有值得记住的知识点就直接不输出。
-3. 自动拒绝：纯人物生平、机构简介、职位定义、国家概况、军舰参数、普通日期罗列、宽泛主题介绍。
-4. 禁止标题模板：“X有什么值得注意的地方”“X是什么”“关于X你知道吗”。
-5. 标题应是具体事实或自然问题，8—34个汉字，读完就能知道意外点。
-6. lead 15—55字；explanation 55—150字；angle 20—70字。
-7. evidence 必须从候选原文中原样摘取，最多80字。
-8. 分类只能是：生物、科学、历史、艺术、科技、生活、综合。
-9. 宁缺毋滥。普通或无趣内容不要输出。
+    # Free rejection before any token is spent.
+    weak_labels = (
+        "出生于",
+        "逝世于",
+        "是一名政治人物",
+        "是一位政治人物",
+        "是美国政治人物",
+    )
+    hits = sum(label in text for label in weak_labels)
+    return hits >= 2 and candidate.source_rank >= 3
+
+
+def select_candidates(
+    candidates: list[Candidate],
+    cards: list[dict],
+    state: dict,
+) -> tuple[list[Candidate], dict[str, int]]:
+    existing_urls = {
+        normalize_space(card.get("source_url", ""))
+        for card in cards
+        if card.get("source_url")
+    }
+    counts = {
+        "duplicate_source": 0,
+        "seen_recently": 0,
+        "low_information": 0,
+        "candidate_limit": 0,
+    }
+    selected: list[Candidate] = []
+
+    candidates.sort(
+        key=lambda item: (
+            item.source_rank,
+            random.random(),
+        )
+    )
+
+    for candidate in candidates:
+        if candidate.source_url in existing_urls:
+            counts["duplicate_source"] += 1
+            continue
+        if seen_recently(candidate.source_id, state):
+            counts["seen_recently"] += 1
+            continue
+        if candidate_is_low_information(candidate):
+            counts["low_information"] += 1
+            continue
+
+        selected.append(candidate)
+        if len(selected) >= MAX_CANDIDATES:
+            counts["candidate_limit"] = max(0, len(candidates) - len(selected))
+            break
+
+    return selected, counts
+
+
+EXTRACTION_INSTRUCTIONS = """
+你是“拾光”知识编辑。请从候选材料里找适合普通人轻阅读的具体知识。
+
+标准：
+1. 只能依据候选材料，不能补充原文没有的事实。
+2. 每个候选最多生成1条；实在普通、只有人物履历或参数时不输出。
+3. 优先保留：反直觉的时间关系、日常现象背后的原因、设计细节、语言与历史误区、生物和材料的特殊机制。
+4. 拒绝：纯人物生平、职位定义、国家概况、军舰参数、普通日期罗列、宽泛主题介绍。
+5. 禁止模板标题：“X有什么值得注意的地方”“X是什么”“关于X你知道吗”。
+6. 标题8—36个汉字，直接呈现具体事实或自然问题。
+7. lead 15—60字；explanation 50—160字；angle 20—75字。
+8. evidence 必须逐字复制候选材料中的一句或一段，不能翻译、改写或补标点，最多100字。
+9. 分类只能是：生物、科学、历史、艺术、科技、生活、综合。
+10. confidence 代表“这个事实是否值得做成卡片”，明确具体且有一点意外感即可达到75以上，不要求每条都惊世骇俗。
 """.strip()
+
 
 REVIEW_INSTRUCTIONS = """
-你是严格的知识内容主编。逐条审查候选卡，只有同时满足以下条件才批准：
-- 是具体、出乎意料但不猎奇造假的事实；
-- 标题与正文完全对应；
-- 所有事实都能由提供的原文证据支持；
-- 不是百科定义、人物简介、机构介绍、职位说明或参数罗列；
-- 中文自然，不像机器套模板；
-- 首屏适合手机阅读；
-- evidence 是来源中的原句；
-- 不涉及未经来源支持的医疗建议或时效性政治判断。
+你是“拾光”的内容主编。你的任务是校正和审核，不要为了显得严格而一律拒绝。
 
-可以在不增加新事实的前提下精简和润色。质量低于82分必须拒绝。
+评分维度：
+- 来源支持与事实准确：35分
+- 具体程度：25分
+- 阅读收获与意外感：20分
+- 中文自然：10分
+- 手机阅读长度：10分
+
+硬性拒绝：
+- 核心事实无法由来源支持；
+- 只是人物、机构、职位或国家简介；
+- 标题和正文说的不是同一件事；
+- 是宽泛空话或模板化标题；
+- evidence 不是来源中的原文。
+
+处理原则：
+- 可以在不增加事实的前提下修改标题、lead、解释和角度。
+- evidence 有轻微截取问题时，直接从来源中重新复制一段原文。
+- 质量达到78分且没有硬性问题，应 approved=true。
+- 中等但清楚、有来源、读完能学到一点的知识，可以通过；不要求每条都“震撼”。
 """.strip()
 
 
-def extract_proposals(client: OpenAI, candidates: list[Candidate]) -> list[Proposal]:
+def compact_candidate(candidate: Candidate) -> dict:
+    return {
+        "source_id": candidate.source_id,
+        "source_name": candidate.source_name,
+        "source_url": candidate.source_url,
+        "title": candidate.title,
+        "excerpt": candidate.excerpt[:1250],
+        "category_hint": candidate.category_hint,
+    }
+
+
+def extract_proposals(
+    client: OpenAI,
+    candidates: list[Candidate],
+) -> list[Proposal]:
     proposals: list[Proposal] = []
 
-    for candidate_batch in batch(candidates, 6):
-        input_data = [asdict(candidate) for candidate in candidate_batch]
+    for candidate_batch in batch(candidates, 10):
+        input_data = [compact_candidate(candidate) for candidate in candidate_batch]
         response = client.responses.parse(
             model=MODEL,
             reasoning={"effort": "low"},
@@ -374,68 +663,26 @@ def extract_proposals(client: OpenAI, candidates: list[Candidate]) -> list[Propo
                 {"role": "system", "content": EXTRACTION_INSTRUCTIONS},
                 {
                     "role": "user",
-                    "content": "请从以下候选材料中提取知识卡：\n"
-                    + json.dumps(input_data, ensure_ascii=False, indent=2),
+                    "content": "从这些候选中提取可用知识卡："
+                    + json.dumps(
+                        input_data,
+                        ensure_ascii=False,
+                        separators=(",", ":"),
+                    ),
                 },
             ],
             text_format=ProposalBatch,
         )
+        record_usage(response)
         parsed = response.output_parsed
         if parsed:
             proposals.extend(parsed.cards)
+
     return proposals
-
-
-def review_proposals(
-    client: OpenAI,
-    proposals: list[Proposal],
-    candidate_map: dict[str, Candidate],
-) -> list[ReviewItem]:
-    approved: list[ReviewItem] = []
-
-    for proposal_batch in batch(proposals, 8):
-        review_input = []
-        for proposal in proposal_batch:
-            candidate = candidate_map.get(proposal.source_id)
-            if not candidate:
-                continue
-            review_input.append(
-                {
-                    "proposal": proposal.model_dump(),
-                    "source": asdict(candidate),
-                }
-            )
-
-        if not review_input:
-            continue
-
-        response = client.responses.parse(
-            model=MODEL,
-            reasoning={"effort": "low"},
-            input=[
-                {"role": "system", "content": REVIEW_INSTRUCTIONS},
-                {
-                    "role": "user",
-                    "content": "请审核以下知识卡和来源：\n"
-                    + json.dumps(review_input, ensure_ascii=False, indent=2),
-                },
-            ],
-            text_format=ReviewBatch,
-        )
-        parsed = response.output_parsed
-        if parsed:
-            approved.extend(parsed.items)
-    return approved
 
 
 def normalized(text: str) -> str:
     return re.sub(r"[\W_]+", "", text.lower())
-
-
-def evidence_supported(evidence: str, source_text: str) -> bool:
-    evidence_norm = normalize_space(evidence)
-    source_norm = normalize_space(source_text)
-    return len(evidence_norm) >= 8 and evidence_norm in source_norm
 
 
 def title_is_bad(title: str) -> bool:
@@ -453,43 +700,174 @@ def similar_to_existing(title: str, existing_titles: list[str]) -> bool:
     target = normalized(title)
     for other in existing_titles:
         ratio = SequenceMatcher(None, target, normalized(other)).ratio()
-        if ratio >= 0.78:
+        if ratio >= 0.80:
             return True
     return False
 
 
-def load_cards() -> dict:
-    if not CARDS_PATH.exists():
-        return {"version": 1, "updated_at": None, "cards": []}
-    return json.loads(CARDS_PATH.read_text(encoding="utf-8"))
+def prequalify_proposals(
+    proposals: list[Proposal],
+    candidate_map: dict[str, Candidate],
+    existing_cards: list[dict],
+) -> tuple[list[Proposal], dict[str, int]]:
+    existing_titles = [card.get("title", "") for card in existing_cards]
+    counts = {
+        "low_confidence": 0,
+        "missing_candidate": 0,
+        "bad_title": 0,
+        "bad_category": 0,
+        "similar_title": 0,
+    }
+    accepted: list[Proposal] = []
+
+    for proposal in proposals:
+        candidate = candidate_map.get(proposal.source_id)
+        if not candidate:
+            counts["missing_candidate"] += 1
+            continue
+
+        title = normalize_space(proposal.title)
+        if proposal.confidence < 68:
+            counts["low_confidence"] += 1
+            continue
+        if not 8 <= len(title) <= 38 or title_is_bad(title):
+            counts["bad_title"] += 1
+            continue
+        if proposal.category not in CATEGORIES:
+            counts["bad_category"] += 1
+            continue
+        if similar_to_existing(title, existing_titles):
+            counts["similar_title"] += 1
+            continue
+
+        accepted.append(proposal)
+
+    return accepted, counts
+
+
+def review_proposals(
+    client: OpenAI,
+    proposals: list[Proposal],
+    candidate_map: dict[str, Candidate],
+) -> list[ReviewItem]:
+    reviewed: list[ReviewItem] = []
+
+    for proposal_batch in batch(proposals, 10):
+        review_input = []
+        for proposal in proposal_batch:
+            candidate = candidate_map.get(proposal.source_id)
+            if not candidate:
+                continue
+            review_input.append(
+                {
+                    "proposal": proposal.model_dump(),
+                    "source": compact_candidate(candidate),
+                }
+            )
+
+        if not review_input:
+            continue
+
+        response = client.responses.parse(
+            model=MODEL,
+            reasoning={"effort": "low"},
+            input=[
+                {"role": "system", "content": REVIEW_INSTRUCTIONS},
+                {
+                    "role": "user",
+                    "content": "审核并修正以下知识卡："
+                    + json.dumps(
+                        review_input,
+                        ensure_ascii=False,
+                        separators=(",", ":"),
+                    ),
+                },
+            ],
+            text_format=ReviewBatch,
+        )
+        record_usage(response)
+        parsed = response.output_parsed
+        if parsed:
+            reviewed.extend(parsed.items)
+
+    return reviewed
+
+
+def evidence_supported(evidence: str, source_text: str) -> bool:
+    evidence_key = canonical_text(evidence)
+    source_key = canonical_text(source_text)
+    return len(evidence_key) >= 8 and evidence_key in source_key
 
 
 def build_new_cards(
     reviews: list[ReviewItem],
     candidate_map: dict[str, Candidate],
     existing_cards: list[dict],
-) -> list[dict]:
+) -> tuple[list[dict], dict[str, int], dict[str, str]]:
     existing_titles = [item.get("title", "") for item in existing_cards]
-    existing_urls = {item.get("source_url", "") for item in existing_cards}
+    existing_urls = {
+        item.get("source_url", "")
+        for item in existing_cards
+        if item.get("source_url")
+    }
+
+    counts = {
+        "model_rejected": 0,
+        "score_below_78": 0,
+        "bad_title": 0,
+        "bad_category": 0,
+        "evidence_mismatch": 0,
+        "duplicate_source": 0,
+        "similar_title": 0,
+    }
+    reasons: dict[str, str] = {}
     new_cards: list[dict] = []
 
-    for item in sorted(reviews, key=lambda value: value.quality_score, reverse=True):
-        if not item.approved or item.quality_score < 82:
-            continue
+    for item in sorted(
+        reviews,
+        key=lambda value: value.quality_score,
+        reverse=True,
+    ):
         candidate = candidate_map.get(item.source_id)
         if not candidate:
             continue
 
+        if not item.approved:
+            counts["model_rejected"] += 1
+            reasons[item.source_id] = item.rejection_reason or "AI主编未批准"
+            print(
+                f"[reject:model] {item.source_id} "
+                f"score={item.quality_score} "
+                f"reason={normalize_space(item.rejection_reason)}"
+            )
+            continue
+
+        if item.quality_score < MIN_REVIEW_SCORE:
+            counts["score_below_78"] += 1
+            reasons[item.source_id] = f"质量分 {item.quality_score}"
+            continue
+
         title = normalize_space(item.title)
-        if not 8 <= len(title) <= 36 or title_is_bad(title):
+
+        if not 8 <= len(title) <= 38 or title_is_bad(title):
+            counts["bad_title"] += 1
+            reasons[item.source_id] = "标题格式未通过"
             continue
         if item.category not in CATEGORIES:
+            counts["bad_category"] += 1
+            reasons[item.source_id] = "分类无效"
             continue
         if not evidence_supported(item.evidence, candidate.excerpt):
+            counts["evidence_mismatch"] += 1
+            reasons[item.source_id] = "证据未能在原文中匹配"
             continue
         if candidate.source_url in existing_urls:
+            counts["duplicate_source"] += 1
+            reasons[item.source_id] = "来源已经使用过"
             continue
         if similar_to_existing(title, existing_titles):
+            counts["similar_title"] += 1
+            reasons[item.source_id] = "与已有标题过于相似"
             continue
 
         digest = hashlib.sha256(
@@ -498,6 +876,7 @@ def build_new_cards(
 
         card = {
             "id": f"auto-{digest}",
+            "source_id": candidate.source_id,
             "title": title,
             "lead": normalize_space(item.lead),
             "explanation": normalize_space(item.explanation),
@@ -508,15 +887,27 @@ def build_new_cards(
             "evidence": normalize_space(item.evidence),
             "created_at": utc_now().date().isoformat(),
             "source_type": f"AI审核 · {MODEL}",
+            "quality_score": item.quality_score,
         }
+
         new_cards.append(card)
         existing_titles.append(title)
         existing_urls.add(candidate.source_url)
+        reasons[item.source_id] = "accepted"
 
         if len(new_cards) >= MAX_NEW_CARDS:
             break
 
-    return new_cards
+    return new_cards, counts, reasons
+
+
+def print_counts(label: str, counts: dict[str, int]) -> None:
+    useful = ", ".join(
+        f"{key}={value}"
+        for key, value in counts.items()
+        if value
+    )
+    print(f"[filter:{label}] {useful or 'none'}")
 
 
 def main() -> int:
@@ -524,12 +915,26 @@ def main() -> int:
         print("OPENAI_API_KEY is missing.", file=sys.stderr)
         return 2
 
-    candidates = fetch_candidates()
-    if not candidates:
-        print("No source candidates were fetched.", file=sys.stderr)
-        return 1
+    payload = load_cards()
+    existing_cards = payload.get("cards", [])
+    state = load_state()
 
-    print(f"[pipeline] total candidates: {len(candidates)}")
+    candidates = fetch_candidates()
+    print(f"[pipeline] fetched candidates: {len(candidates)}")
+
+    selected, source_filter_counts = select_candidates(
+        candidates,
+        existing_cards,
+        state,
+    )
+    print_counts("before_ai", source_filter_counts)
+    print(f"[pipeline] candidates sent to AI: {len(selected)}")
+
+    if not selected:
+        print("[pipeline] no unseen candidate; no AI call was made")
+        save_state(state)
+        return 0
+
     base_url = os.getenv("OPENAI_BASE_URL", "").strip()
     client = OpenAI(
         api_key=os.environ["OPENAI_API_KEY"],
@@ -537,29 +942,74 @@ def main() -> int:
     )
     if base_url:
         print(f"[pipeline] using custom base URL: {base_url}")
-    proposals = extract_proposals(client, candidates)
+
+    proposals = extract_proposals(client, selected)
     print(f"[pipeline] extracted proposals: {len(proposals)}")
 
-    candidate_map = {item.source_id: item for item in candidates}
-    reviews = review_proposals(client, proposals, candidate_map)
+    candidate_map = {item.source_id: item for item in selected}
+    prequalified, proposal_filter_counts = prequalify_proposals(
+        proposals,
+        candidate_map,
+        existing_cards,
+    )
+    print_counts("before_review", proposal_filter_counts)
+    print(f"[pipeline] proposals sent to review: {len(prequalified)}")
+
+    reviews: list[ReviewItem] = []
+    if prequalified:
+        reviews = review_proposals(client, prequalified, candidate_map)
     print(f"[pipeline] reviewed items: {len(reviews)}")
 
-    payload = load_cards()
-    existing_cards = payload.get("cards", [])
-    new_cards = build_new_cards(reviews, candidate_map, existing_cards)
+    new_cards, final_counts, reasons = build_new_cards(
+        reviews,
+        candidate_map,
+        existing_cards,
+    )
+    print_counts("final", final_counts)
+
+    proposal_ids = {proposal.source_id for proposal in proposals}
+    reviewed_ids = {item.source_id for item in reviews}
+    accepted_ids = {card["source_id"] for card in new_cards}
+
+    for candidate in selected:
+        if candidate.source_id in accepted_ids:
+            mark_seen(state, candidate, "accepted")
+        elif candidate.source_id in reasons:
+            mark_seen(
+                state,
+                candidate,
+                "rejected",
+                reasons[candidate.source_id],
+            )
+        elif candidate.source_id in reviewed_ids:
+            mark_seen(state, candidate, "reviewed_not_saved")
+        elif candidate.source_id in proposal_ids:
+            mark_seen(state, candidate, "filtered_before_review")
+        else:
+            mark_seen(state, candidate, "no_proposal")
+
+    save_state(state)
+
+    print(
+        "[usage] "
+        f"input_tokens={USAGE['input_tokens']} "
+        f"output_tokens={USAGE['output_tokens']}"
+    )
 
     if not new_cards:
-        print("[pipeline] no card passed the quality gate")
+        print("[pipeline] no card passed this run")
         return 0
 
     merged = new_cards + existing_cards
     payload["version"] = 1
-    payload["updated_at"] = utc_now().isoformat().replace("+00:00", "Z")
+    payload["updated_at"] = iso_now()
     payload["cards"] = merged[:300]
+
     CARDS_PATH.write_text(
         json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
+
     print(f"[pipeline] added {len(new_cards)} cards")
     return 0
 

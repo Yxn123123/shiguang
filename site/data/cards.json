@@ -1,7 +1,22 @@
 {
   "version": 1,
-  "updated_at": "2026-07-12T04:48:24.017489Z",
+  "updated_at": "2026-07-12T09:06:04.830863Z",
   "cards": [
+    {
+      "id": "auto-0c11e89861b26e63",
+      "source_id": "onthisday:en:07/12:1995:9",
+      "title": "一次成功的地震预测：1995年缅甸—中国地震",
+      "lead": "1995年，中国地震学家曾成功预测缅甸—中国地震，使伤亡人数降至11人。",
+      "explanation": "地震学研究地震，以及弹性波在行星内部和表面的产生与传播，也关注海啸等地震造成的环境影响。来源还记载，中国地震学家曾成功预测1995年缅甸—中国地震，使伤亡人数降至11人。这张卡的重点是这起具体事件，不延伸为对现代地震预测能力的普遍判断。",
+      "angle": "从一则具体的历史事件切入，说明地震学曾被用于地震预测和减灾，而不只是震后分析。",
+      "category": "科学",
+      "source_name": "Wikimedia On This Day：Seismology",
+      "source_url": "https://en.wikipedia.org/wiki/Seismology",
+      "evidence": "事件：Chinese seismologists successfully predict the 1995 Myanmar–China earthquake, reducing the number of casualties to 11.",
+      "created_at": "2026-07-12",
+      "source_type": "AI审核 · gpt-5.6-luna",
+      "quality_score": 82
+    },
     {
       "id": "auto-f579243b1b7ca2dd",
       "title": "法国如何三比零击败卫冕冠军巴西",

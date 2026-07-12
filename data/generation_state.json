@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "seen": {
+    "met:313650": {
+      "last_seen": "2026-07-12T09:06:04.830494Z",
+      "source_url": "https://www.metmuseum.org/art/collection/search/313650",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "met:311936": {
+      "last_seen": "2026-07-12T09:06:04.830508Z",
+      "source_url": "https://www.metmuseum.org/art/collection/search/311936",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "met:324921": {
+      "last_seen": "2026-07-12T09:06:04.830514Z",
+      "source_url": "https://www.metmuseum.org/art/collection/search/324921",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "onthisday:en:07/12:2012:2": {
+      "last_seen": "2026-07-12T09:06:04.830518Z",
+      "source_url": "https://en.wikipedia.org/wiki/Syrian_civil_war",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "onthisday:en:07/12:2006:5": {
+      "last_seen": "2026-07-12T09:06:04.830521Z",
+      "source_url": "https://en.wikipedia.org/wiki/2006_Hezbollah_cross-border_raid",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "onthisday:en:07/12:1975:11": {
+      "last_seen": "2026-07-12T09:06:04.830525Z",
+      "source_url": "https://en.wikipedia.org/wiki/S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "onthisday:en:07/12:2001:6": {
+      "last_seen": "2026-07-12T09:06:04.830528Z",
+      "source_url": "https://en.wikipedia.org/wiki/Space_Shuttle_program",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "onthisday:en:07/12:2007:4": {
+      "last_seen": "2026-07-12T09:06:04.830531Z",
+      "source_url": "https://en.wikipedia.org/wiki/United_States_Army",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "onthisday:en:07/12:2024:0": {
+      "last_seen": "2026-07-12T09:06:04.830534Z",
+      "source_url": "https://en.wikipedia.org/wiki/Gazpromavia_Flight_9608",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "onthisday:en:07/12:1979:10": {
+      "last_seen": "2026-07-12T09:06:04.830538Z",
+      "source_url": "https://en.wikipedia.org/wiki/Kiribati",
+      "outcome": "rejected",
+      "reason": "分类无效"
+    },
+    "onthisday:en:07/12:1998:8": {
+      "last_seen": "2026-07-12T09:06:04.830542Z",
+      "source_url": "https://en.wikipedia.org/wiki/France_national_football_team",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "onthisday:en:07/12:1998:7": {
+      "last_seen": "2026-07-12T09:06:04.830546Z",
+      "source_url": "https://en.wikipedia.org/wiki/Ulster_Volunteer_Force",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "onthisday:en:07/12:2013:1": {
+      "last_seen": "2026-07-12T09:06:04.830549Z",
+      "source_url": "https://en.wikipedia.org/wiki/Br%C3%A9tigny-sur-Orge_train_crash",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "onthisday:en:07/12:1995:9": {
+      "last_seen": "2026-07-12T09:06:04.830552Z",
+      "source_url": "https://en.wikipedia.org/wiki/Seismology",
+      "outcome": "accepted",
+      "reason": ""
+    }
+  },
+  "updated_at": "2026-07-12T09:06:04.830661Z"
+}

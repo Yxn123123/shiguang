@@ -1,27 +1,27 @@
 {
   "version": 1,
-  "updated_at": "2026-07-12T10:14:15.847071Z",
+  "updated_at": "2026-07-12T10:24:36.478258Z",
   "approved_cards": 29,
   "pending_candidates": 0,
   "last_run": {
-    "github_run_id": "29188666985",
+    "github_run_id": "29188943454",
     "source": "web",
-    "started_at": "2026-07-12T10:12:56.013894Z",
-    "finished_at": "2026-07-12T10:14:15.846876Z",
-    "duration_seconds": 79.83,
+    "started_at": "2026-07-12T10:24:03.216364Z",
+    "finished_at": "2026-07-12T10:24:36.478086Z",
+    "duration_seconds": 33.26,
     "target_new_cards": 12,
     "rounds": 1,
-    "harvested": 11,
-    "new_candidates": 11,
+    "harvested": 3,
+    "new_candidates": 3,
     "pool_before": 0,
     "pool_after": 0,
-    "processed": 11,
-    "proposals": 7,
-    "reviewed": 7,
-    "added": 6,
-    "pass_rate": 54.5,
-    "input_tokens": 21625,
-    "output_tokens": 3450,
+    "processed": 3,
+    "proposals": 2,
+    "reviewed": 2,
+    "added": 0,
+    "pass_rate": 0.0,
+    "input_tokens": 11859,
+    "output_tokens": 1311,
     "filters": {
       "harvest": {
         "already_in_pool": 0,
@@ -48,7 +48,7 @@
         "score_below_78": 0,
         "bad_title": 0,
         "bad_category": 0,
-        "evidence_mismatch": 1,
+        "evidence_mismatch": 2,
         "duplicate_source": 0,
         "similar_title": 0
       }
@@ -57,14 +57,67 @@
       "大都会博物馆": {
         "processed": 3,
         "accepted": 0
-      },
-      "英文维基分类": {
-        "processed": 8,
-        "accepted": 6
       }
     }
   },
   "recent_runs": [
+    {
+      "github_run_id": "29188943454",
+      "source": "web",
+      "started_at": "2026-07-12T10:24:03.216364Z",
+      "finished_at": "2026-07-12T10:24:36.478086Z",
+      "duration_seconds": 33.26,
+      "target_new_cards": 12,
+      "rounds": 1,
+      "harvested": 3,
+      "new_candidates": 3,
+      "pool_before": 0,
+      "pool_after": 0,
+      "processed": 3,
+      "proposals": 2,
+      "reviewed": 2,
+      "added": 0,
+      "pass_rate": 0.0,
+      "input_tokens": 11859,
+      "output_tokens": 1311,
+      "filters": {
+        "harvest": {
+          "already_in_pool": 0,
+          "already_published": 0,
+          "seen_recently": 0,
+          "low_information": 0,
+          "pool_limit": 0
+        },
+        "before_ai": {
+          "invalid_record": 0,
+          "duplicate_source": 0,
+          "seen_recently": 0,
+          "low_information": 0
+        },
+        "before_review": {
+          "low_confidence": 0,
+          "missing_candidate": 0,
+          "bad_title": 0,
+          "bad_category": 0,
+          "similar_title": 0
+        },
+        "final": {
+          "model_rejected": 0,
+          "score_below_78": 0,
+          "bad_title": 0,
+          "bad_category": 0,
+          "evidence_mismatch": 2,
+          "duplicate_source": 0,
+          "similar_title": 0
+        }
+      },
+      "source_stats": {
+        "大都会博物馆": {
+          "processed": 3,
+          "accepted": 0
+        }
+      }
+    },
     {
       "github_run_id": "29188666985",
       "source": "web",

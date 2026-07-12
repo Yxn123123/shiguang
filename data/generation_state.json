@@ -150,7 +150,25 @@
       "source_url": "https://www.metmuseum.org/art/collection/search/344511",
       "outcome": "no_proposal",
       "reason": ""
+    },
+    "met:170413": {
+      "last_seen": "2026-07-12T10:24:36.477364Z",
+      "source_url": "https://www.metmuseum.org/art/collection/search/170413",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "met:548683": {
+      "last_seen": "2026-07-12T10:24:36.477385Z",
+      "source_url": "https://www.metmuseum.org/art/collection/search/548683",
+      "outcome": "rejected",
+      "reason": "证据未能在原文中匹配"
+    },
+    "met:313335": {
+      "last_seen": "2026-07-12T10:24:36.477394Z",
+      "source_url": "https://www.metmuseum.org/art/collection/search/313335",
+      "outcome": "rejected",
+      "reason": "证据未能在原文中匹配"
     }
   },
-  "updated_at": "2026-07-12T10:14:15.846594Z"
+  "updated_at": "2026-07-12T10:24:36.477783Z"
 }

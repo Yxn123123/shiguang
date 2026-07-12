@@ -42,6 +42,9 @@ HARVEST_TARGET_PENDING = int(
     os.getenv("HARVEST_TARGET_PENDING", "240")
 )
 HARVEST_MAX_PASSES = int(os.getenv("HARVEST_MAX_PASSES", "4"))
+MIN_CANDIDATES_TO_GENERATE = int(
+    os.getenv("MIN_CANDIDATES_TO_GENERATE", "20")
+)
 PIPELINE_MODE = os.getenv("PIPELINE_MODE", "generate").strip() or "generate"
 SEEN_TTL_DAYS = int(os.getenv("SEEN_TTL_DAYS", "30"))
 
@@ -681,83 +684,226 @@ def random_title_is_weak(title: str) -> bool:
     return len(title) < 3 or len(title) > 90
 
 
+def fetch_random_titles(
+    language: str,
+    count: int,
+) -> list[str]:
+    """Use list=random first; this is more reliable than generator=random."""
+    titles: list[str] = []
+    seen: set[str] = set()
+    request_limit = 50
+
+    for _ in range(max(1, (count + request_limit - 1) // request_limit) + 1):
+        try:
+            payload = request_json(
+                f"https://{language}.wikipedia.org/w/api.php",
+                action="query",
+                list="random",
+                rnnamespace=0,
+                rnlimit=request_limit,
+                format="json",
+                origin="*",
+            )
+        except requests.RequestException as exc:
+            print(
+                f"[source:error] {language} random titles: {exc}",
+                file=sys.stderr,
+            )
+            continue
+
+        for item in payload.get("query", {}).get("random", []):
+            title = normalize_space(item.get("title", ""))
+            if not title or title in seen or random_title_is_weak(title):
+                continue
+            seen.add(title)
+            titles.append(title)
+            if len(titles) >= count:
+                return titles
+
+    return titles
+
+
 def fetch_wikipedia_random_samples(
     language: str,
     request_count: int,
     source_rank: int = 4,
 ) -> list[Candidate]:
-    """Fetch random article introductions to keep the raw reserve stocked."""
-    candidates: list[Candidate] = []
-    requests_needed = max(1, (request_count + 19) // 20)
+    """Fetch random titles, then retrieve introductions in separate calls."""
+    titles = fetch_random_titles(language, request_count * 2)
+    if not titles:
+        return []
 
-    for _ in range(requests_needed):
-        try:
-            payload = request_json(
-                f"https://{language}.wikipedia.org/w/api.php",
-                action="query",
-                generator="random",
-                grnnamespace=0,
-                grnlimit=20,
-                prop="extracts|info|pageprops",
-                exintro=1,
-                explaintext=1,
-                exchars=1500,
-                inprop="url",
-                format="json",
-                origin="*",
+    try:
+        pages = wikipedia_extracts(titles, language)
+    except requests.RequestException as exc:
+        print(
+            f"[source:error] {language} random extracts: {exc}",
+            file=sys.stderr,
+        )
+        return []
+
+    candidates: list[Candidate] = []
+    for title in titles:
+        page = pages.get(title)
+        if not page:
+            page = next(
+                (
+                    value
+                    for key, value in pages.items()
+                    if canonical_text(key) == canonical_text(title)
+                ),
+                {},
             )
-        except requests.RequestException:
+
+        extract = normalize_space(page.get("extract", ""))
+        page_title = normalize_space(page.get("title", title))
+        if not page_title or random_title_is_weak(page_title):
+            continue
+        if len(extract) < 180:
             continue
 
-        for page in payload.get("query", {}).get("pages", {}).values():
-            title = normalize_space(page.get("title", ""))
+        page_id = page.get("pageid", page_title)
+        full_url = page.get(
+            "fullurl",
+            f"https://{language}.wikipedia.org/wiki/"
+            + quote(page_title.replace(" ", "_")),
+        )
+        candidates.append(
+            Candidate(
+                source_id=f"wiki-random:{language}:{page_id}",
+                source_name=f"{language.upper()} Wikipedia：{page_title}",
+                source_url=full_url,
+                title=page_title,
+                excerpt=extract,
+                category_hint="综合",
+                source_rank=source_rank,
+            )
+        )
+
+        if len(candidates) >= request_count:
+            break
+
+    random.SystemRandom().shuffle(candidates)
+    return candidates
+
+
+def fetch_category_member_titles(
+    language: str,
+    category: str,
+    limit: int = 40,
+) -> list[str]:
+    try:
+        payload = request_json(
+            f"https://{language}.wikipedia.org/w/api.php",
+            action="query",
+            list="categorymembers",
+            cmtitle=f"Category:{category}",
+            cmnamespace=0,
+            cmtype="page",
+            cmlimit=min(500, max(1, limit)),
+            format="json",
+            origin="*",
+        )
+    except requests.RequestException as exc:
+        print(
+            f"[source:error] {language} category {category}: {exc}",
+            file=sys.stderr,
+        )
+        return []
+
+    return [
+        normalize_space(item.get("title", ""))
+        for item in payload.get("query", {}).get("categorymembers", [])
+        if normalize_space(item.get("title", ""))
+    ]
+
+
+def fetch_wikipedia_topic_samples() -> list[Candidate]:
+    """Build a broad, mechanism-heavy reserve from reliable topic categories."""
+    topics = [
+        ("en", "Biological processes", "生物"),
+        ("en", "Physical phenomena", "科学"),
+        ("en", "Earth sciences", "科学"),
+        ("en", "Food science", "生活"),
+        ("en", "Materials science", "科技"),
+        ("en", "History of technology", "历史"),
+        ("en", "Art techniques", "艺术"),
+        ("en", "Human behavior", "生活"),
+        ("en", "Linguistics", "综合"),
+        ("en", "Ecology", "生物"),
+        ("en", "Astronomy", "科学"),
+        ("en", "Neuroscience", "生物"),
+        ("en", "Chemistry", "科学"),
+        ("en", "Engineering", "科技"),
+        ("en", "Everyday life", "生活"),
+    ]
+    rng = random.SystemRandom()
+    rng.shuffle(topics)
+
+    candidates: list[Candidate] = []
+    for language, category, hint in topics:
+        titles = fetch_category_member_titles(language, category, 35)
+        rng.shuffle(titles)
+        titles = titles[:24]
+        if not titles:
+            continue
+
+        try:
+            pages = wikipedia_extracts(titles, language)
+        except requests.RequestException as exc:
+            print(
+                f"[source:error] {language} topic extracts {category}: {exc}",
+                file=sys.stderr,
+            )
+            continue
+
+        added_here = 0
+        for title in titles:
+            page = pages.get(title) or {}
+            page_title = normalize_space(page.get("title", title))
             extract = normalize_space(page.get("extract", ""))
-            pageprops = page.get("pageprops", {})
-
-            if "disambiguation" in pageprops:
-                continue
-            if random_title_is_weak(title):
-                continue
-            if not 180 <= len(extract) <= 1500:
+            if random_title_is_weak(page_title) or len(extract) < 180:
                 continue
 
-            page_id = page.get("pageid", title)
+            page_id = page.get("pageid", page_title)
             full_url = page.get(
                 "fullurl",
                 f"https://{language}.wikipedia.org/wiki/"
-                + quote(title.replace(" ", "_")),
+                + quote(page_title.replace(" ", "_")),
             )
             candidates.append(
                 Candidate(
-                    source_id=f"wiki-random:{language}:{page_id}",
-                    source_name=f"{language.upper()} Wikipedia：{title}",
+                    source_id=f"wiki-topic:{language}:{page_id}",
+                    source_name=f"{language.upper()} Wikipedia：{page_title}",
                     source_url=full_url,
-                    title=title,
+                    title=page_title,
                     excerpt=extract,
-                    category_hint="综合",
-                    source_rank=source_rank,
+                    category_hint=hint,
+                    source_rank=2,
                 )
             )
+            added_here += 1
+            if added_here >= 12:
+                break
 
-    unique = {candidate.source_id: candidate for candidate in candidates}
+    unique = {item.source_id: item for item in candidates}
     result = list(unique.values())
-    random.SystemRandom().shuffle(result)
-    return result[:request_count]
+    rng.shuffle(result)
+    return result
+
+
 
 def fetch_candidates(harvest_pass: int = 0) -> list[Candidate]:
-    providers = [
-        ("Chinese Wikipedia DYK history", fetch_wikipedia_dyk_history),
-        ("English Wikipedia recent additions", fetch_english_recent_additions),
-        ("Wikipedia category samples", fetch_wikipedia_category_samples),
-        ("NASA APOD", fetch_nasa_apod),
-        ("The Met", fetch_met_objects),
-        ("Wikimedia On This Day", fetch_on_this_day),
-    ]
     collected: list[Candidate] = []
 
-    # Expensive/static sources are read on the first pass only. Later passes
-    # rely on random article introductions to reach a genuine reserve level.
     if harvest_pass == 0:
+        providers = [
+            ("Chinese Wikipedia DYK history", fetch_wikipedia_dyk_history),
+            ("English Wikipedia recent additions", fetch_english_recent_additions),
+            ("Wikipedia topic samples", fetch_wikipedia_topic_samples),
+            ("NASA APOD", fetch_nasa_apod),
+            ("Wikimedia On This Day", fetch_on_this_day),
+        ]
         for name, provider in providers:
             try:
                 items = provider()
@@ -766,9 +912,11 @@ def fetch_candidates(harvest_pass: int = 0) -> list[Candidate]:
             except Exception as exc:
                 print(f"[source] {name} failed: {exc}", file=sys.stderr)
 
+    # Each pass asks for fresh random titles. Separate title and extract requests
+    # avoid the empty result seen with MediaWiki generator=random.
     random_requests = [
-        ("English Wikipedia random", "en", 90, 4),
-        ("Chinese Wikipedia random", "zh", 50, 4),
+        ("English Wikipedia random", "en", 100, 4),
+        ("Chinese Wikipedia random", "zh", 60, 4),
     ]
     for name, language, count, rank in random_requests:
         try:
@@ -791,21 +939,32 @@ def fetch_candidates(harvest_pass: int = 0) -> list[Candidate]:
     return list(unique.values())
 
 
+
 def candidate_is_low_information(candidate: Candidate) -> bool:
     text = normalize_space(candidate.excerpt)
-    if len(text) < 90:
+    if len(text) < 120:
         return True
 
-    # Free rejection before any token is spent.
     weak_labels = (
         "出生于",
         "逝世于",
         "是一名政治人物",
         "是一位政治人物",
         "是美国政治人物",
+        "born ",
+        "died ",
+        "politician",
     )
-    hits = sum(label in text for label in weak_labels)
-    return hits >= 2 and candidate.source_rank >= 3
+    hits = sum(label.lower() in text.lower() for label in weak_labels)
+    if hits >= 2 and candidate.source_rank >= 3:
+        return True
+
+    # Thin catalogue metadata repeatedly failed the evidence check and is not
+    # suitable for the general knowledge pool.
+    if candidate.source_id.startswith("met:"):
+        return True
+
+    return False
 
 
 def select_candidates(
@@ -1146,15 +1305,59 @@ def save_harvest_status(
     )
 
 
+def save_harvest_status(
+    *,
+    cards_count: int,
+    pending_count: int,
+    stats: dict,
+) -> None:
+    POOL_STATUS_PATH.parent.mkdir(parents=True, exist_ok=True)
+    payload = load_pool_status()
+    payload.update(
+        {
+            "version": 1,
+            "updated_at": iso_now(),
+            "approved_cards": cards_count,
+            "pending_candidates": pending_count,
+            "last_harvest": stats,
+        }
+    )
+    POOL_STATUS_PATH.write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+
+def candidate_family(candidate: Candidate) -> str:
+    source_id = candidate.source_id
+    if source_id.startswith("wiki-dyk:"):
+        return "中文维基你知道吗"
+    if source_id.startswith("en-dyk:"):
+        return "英文维基你知道吗"
+    if source_id.startswith("wiki-topic:"):
+        return "维基主题分类"
+    if source_id.startswith("wiki-random:en:"):
+        return "英文维基随机"
+    if source_id.startswith("wiki-random:zh:"):
+        return "中文维基随机"
+    if source_id.startswith("nasa-apod:"):
+        return "NASA APOD"
+    if source_id.startswith("onthisday:"):
+        return "历史上的今天"
+    return "其他"
+
+
 def harvest_until_reserve(
     pool_payload: dict,
     cards: list[dict],
     state: dict,
-) -> tuple[int, int, dict[str, int], int]:
+) -> tuple[int, int, dict[str, int], int, dict[str, int]]:
     total_fetched = 0
     total_added = 0
     combined_counts: dict[str, int] = {}
+    source_counts: dict[str, int] = {}
     passes_used = 0
+    consecutive_empty_passes = 0
 
     while (
         len(pool_payload.get("candidates", [])) < HARVEST_TARGET_PENDING
@@ -1163,6 +1366,10 @@ def harvest_until_reserve(
         fetched = fetch_candidates(passes_used)
         passes_used += 1
         total_fetched += len(fetched)
+
+        for candidate in fetched:
+            family = candidate_family(candidate)
+            source_counts[family] = source_counts.get(family, 0) + 1
 
         added, counts = merge_candidates_into_pool(
             pool_payload,
@@ -1179,11 +1386,25 @@ def harvest_until_reserve(
             f"pending={len(pool_payload.get('candidates', []))}"
         )
 
-        # Avoid looping pointlessly if a pass produced no new material.
-        if not fetched or added == 0:
+        if added == 0:
+            consecutive_empty_passes += 1
+        else:
+            consecutive_empty_passes = 0
+
+        # One bad API pass should not abort stocking. Stop only after two
+        # consecutive empty passes.
+        if consecutive_empty_passes >= 2:
             break
 
-    return total_fetched, total_added, combined_counts, passes_used
+    return (
+        total_fetched,
+        total_added,
+        combined_counts,
+        passes_used,
+        source_counts,
+    )
+
+
 
 EXTRACTION_INSTRUCTIONS = """
 你是“拾光”知识编辑。请从候选材料里找适合普通人轻阅读的具体知识。
@@ -1522,6 +1743,7 @@ def main() -> int:
     new_candidates = 0
     harvest_passes = 0
     harvest_filter_counts: dict[str, int] = {}
+    harvest_source_counts: dict[str, int] = {}
 
     if pool_before < POOL_MIN_PENDING or PIPELINE_MODE == "harvest":
         (
@@ -1529,6 +1751,7 @@ def main() -> int:
             new_candidates,
             harvest_filter_counts,
             harvest_passes,
+            harvest_source_counts,
         ) = harvest_until_reserve(
             pool_payload,
             existing_cards,
@@ -1558,6 +1781,7 @@ def main() -> int:
             "added": new_candidates,
             "pool_before": pool_before,
             "pool_after": len(pool_payload.get("candidates", [])),
+            "source_counts": harvest_source_counts,
         }
         save_harvest_status(
             cards_count=len(existing_cards),
@@ -1568,6 +1792,49 @@ def main() -> int:
             f"[harvest] finished with "
             f"{len(pool_payload.get('candidates', []))} pending candidates"
         )
+        return 0
+
+    pending_now = len(pool_payload.get("candidates", []))
+    if pending_now < MIN_CANDIDATES_TO_GENERATE:
+        run_stats = {
+            "github_run_id": github_run_id,
+            "source": RUN_SOURCE,
+            "started_at": started_at.isoformat().replace("+00:00", "Z"),
+            "finished_at": iso_now(),
+            "target_new_cards": target_new_cards,
+            "rounds": 0,
+            "harvested": harvested,
+            "new_candidates": new_candidates,
+            "harvest_passes": harvest_passes,
+            "pool_before": pool_before,
+            "pool_after": pending_now,
+            "processed": 0,
+            "proposals": 0,
+            "reviewed": 0,
+            "added": 0,
+            "pass_rate": 0,
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "message": (
+                f"候选池只有 {pending_now} 条，低于 "
+                f"{MIN_CANDIDATES_TO_GENERATE} 条；本次未调用AI"
+            ),
+            "filters": {
+                "harvest": harvest_filter_counts,
+                "before_ai": {},
+                "before_review": {},
+                "final": {},
+            },
+            "source_stats": {},
+        }
+        save_candidate_pool(pool_payload)
+        save_state(state)
+        save_pool_status(
+            cards_count=len(existing_cards),
+            pending_count=pending_now,
+            run_stats=run_stats,
+        )
+        print(f"[pipeline] {run_stats['message']}")
         return 0
 
     if not os.getenv("OPENAI_API_KEY"):

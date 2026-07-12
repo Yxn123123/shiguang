@@ -7,6 +7,8 @@ const STORE = {
   randomQueue: "shiguang_random_queue_v1",
   triggerEndpoint: "shiguang_trigger_endpoint_v1",
   triggerSecret: "shiguang_trigger_secret_v1",
+  activeRun: "shiguang_active_run_v1",
+  lastSupplyState: "shiguang_last_supply_state_v1",
   backupVersion: 2
 };
 
@@ -131,6 +133,10 @@ const dom = {
   lastPassRate: document.querySelector("#lastPassRate"),
   lastTokenCount: document.querySelector("#lastTokenCount"),
   poolStatusNote: document.querySelector("#poolStatusNote"),
+  supplyTaskCard: document.querySelector("#supplyTaskCard"),
+  supplyTaskTitle: document.querySelector("#supplyTaskTitle"),
+  supplyTaskDetail: document.querySelector("#supplyTaskDetail"),
+  supplyTaskLink: document.querySelector("#supplyTaskLink"),
 
   toast: document.querySelector("#toast")
 };
@@ -1036,6 +1042,186 @@ function updateTriggerState() {
 }
 
 
+
+function readActiveRun() {
+  return readJson(STORE.activeRun, null);
+}
+
+function saveActiveRun(run) {
+  writeJson(STORE.activeRun, run);
+}
+
+function clearActiveRun() {
+  localStorage.removeItem(STORE.activeRun);
+}
+
+function setSupplyTaskState(
+  taskState,
+  title,
+  detail,
+  htmlUrl = ""
+) {
+  dom.supplyTaskCard.dataset.state = taskState;
+  dom.supplyTaskTitle.textContent = title;
+  dom.supplyTaskDetail.textContent = detail;
+
+  const icons = {
+    idle: "○",
+    queued: "…",
+    running: "↻",
+    publishing: "↑",
+    success: "✓",
+    cooldown: "◷",
+    error: "!"
+  };
+  dom.supplyTaskCard.querySelector(".supply-task-icon").textContent =
+    icons[taskState] || "○";
+
+  if (htmlUrl) {
+    dom.supplyTaskLink.href = htmlUrl;
+    dom.supplyTaskLink.hidden = false;
+  } else {
+    dom.supplyTaskLink.hidden = true;
+    dom.supplyTaskLink.removeAttribute("href");
+  }
+
+  writeJson(STORE.lastSupplyState, {
+    taskState,
+    title,
+    detail,
+    htmlUrl,
+    savedAt: new Date().toISOString()
+  });
+}
+
+function restoreSupplyTaskState() {
+  const saved = readJson(STORE.lastSupplyState, null);
+  if (!saved) return;
+  setSupplyTaskState(
+    saved.taskState || "idle",
+    saved.title || "当前没有生成任务",
+    saved.detail || "",
+    saved.htmlUrl || ""
+  );
+}
+
+function setReplenishButtonBusy(busy, label = "") {
+  state.loadingSupply = busy;
+  dom.replenishButton.disabled = busy;
+  dom.replenishButton.textContent =
+    label || (busy ? "后台处理中……" : "立即补充知识库");
+}
+
+function elapsedText(startedAt) {
+  const started = new Date(startedAt || Date.now()).getTime();
+  const seconds = Math.max(0, Math.floor((Date.now() - started) / 1000));
+  if (seconds < 60) return `${seconds}秒`;
+  return `${Math.floor(seconds / 60)}分${seconds % 60}秒`;
+}
+
+async function fetchWorkerResult(runId) {
+  return workerRequest(`/result?run_id=${encodeURIComponent(runId)}`);
+}
+
+async function refreshPublishedCardsInBackground(expectedCount) {
+  for (let attempt = 0; attempt < 18; attempt += 1) {
+    await sleep(attempt === 0 ? 4000 : 7000);
+    try {
+      const payload = await fetchCardsPayload();
+      const count = Array.isArray(payload.cards) ? payload.cards.length : 0;
+      if (count >= expectedCount) {
+        applyCardsPayload(payload);
+        await refreshPoolStatus();
+        return;
+      }
+    } catch {
+      // Pages may still be publishing.
+    }
+  }
+}
+
+function applyImmediateRunResult(result) {
+  const lastRun = result?.last_run || result?.run || null;
+  if (!lastRun) return 0;
+
+  const added = Number(lastRun.added || 0);
+  const approved = Number(result.approved_cards || state.cards.length + added);
+  const pending = Number(result.pending_candidates || 0);
+
+  applyPoolStatus({
+    approved_cards: approved,
+    pending_candidates: pending,
+    last_run: lastRun
+  });
+
+  setSupplyTaskState(
+    "publishing",
+    `生成完成：新增 ${added} 条`,
+    "GitHub 已保存结果，网页正在发布新知识；现在不需要再次点击。",
+    lastRun.html_url || ""
+  );
+
+  refreshPublishedCardsInBackground(approved).then(() => {
+    setSupplyTaskState(
+      "success",
+      `本次新增 ${added} 条知识`,
+      `正式知识库现有约 ${approved} 条，候选池剩余 ${pending} 条。`
+    );
+  });
+
+  return added;
+}
+
+async function resumeSupplyTracking() {
+  const settings = triggerSettings();
+  if (!settings.endpoint || !settings.secret) return;
+
+  const active = readActiveRun();
+  if (active?.runId) {
+    setReplenishButtonBusy(true, "后台处理中……");
+    pollSupply(
+      active.runId,
+      active.beforeCount || state.cards.length,
+      active.htmlUrl || "",
+      active.startedAt || new Date().toISOString()
+    ).catch((error) => {
+      setSupplyTaskState(
+        "error",
+        "无法继续读取任务状态",
+        error.message || "稍后重新打开数据页即可。"
+      );
+      setReplenishButtonBusy(false);
+    });
+    return;
+  }
+
+  try {
+    const latest = await workerRequest("/latest");
+    if (
+      latest?.run_id &&
+      ["queued", "in_progress", "waiting", "requested", "pending"]
+        .includes(latest.status)
+    ) {
+      const run = {
+        runId: latest.run_id,
+        beforeCount: state.cards.length,
+        startedAt: latest.created_at || new Date().toISOString(),
+        htmlUrl: latest.html_url || ""
+      };
+      saveActiveRun(run);
+      setReplenishButtonBusy(true, "后台处理中……");
+      pollSupply(
+        run.runId,
+        run.beforeCount,
+        run.htmlUrl,
+        run.startedAt
+      ).catch(() => {});
+    }
+  } catch {
+    // Background status recovery is helpful, not required for reading.
+  }
+}
+
 function formatCompactNumber(value) {
   const number = Number(value || 0);
   if (number >= 1000000) return `${(number / 1000000).toFixed(1)}M`;
@@ -1185,55 +1371,148 @@ function applyCardsPayload(payload) {
   render();
 }
 
-async function pollSupply(runId, beforeCount) {
-  for (let attempt = 0; attempt < 50; attempt += 1) {
-    await sleep(6000);
+async function pollSupply(
+  runId,
+  beforeCount,
+  htmlUrl = "",
+  startedAt = new Date().toISOString()
+) {
+  saveActiveRun({
+    runId,
+    beforeCount,
+    htmlUrl,
+    startedAt
+  });
+
+  setReplenishButtonBusy(true, "后台处理中……");
+
+  for (let attempt = 0; attempt < 90; attempt += 1) {
+    setSupplyTaskState(
+      attempt < 2 ? "queued" : "running",
+      attempt < 2 ? "任务已提交" : "正在筛选并审核知识",
+      `后台已运行 ${elapsedText(startedAt)}。离开页面也不会中断。`,
+      htmlUrl
+    );
+
     const status = await workerRequest(
       `/status?run_id=${encodeURIComponent(runId)}`
     );
 
-    if (status.status !== "completed") continue;
-
-    if (status.conclusion !== "success") {
-      throw new Error("后台补充任务没有成功");
-    }
-
-    // The workflow writes pool_status.json even when zero cards pass.
-    // Matching the GitHub run id lets the page stop waiting immediately.
-    for (let publishAttempt = 0; publishAttempt < 24; publishAttempt += 1) {
-      await sleep(publishAttempt === 0 ? 4500 : 5500);
-
-      try {
-        const [cardsPayload, poolPayload] = await Promise.all([
-          fetchCardsPayload(),
-          fetchPoolStatus()
-        ]);
-
-        const lastRun = poolPayload?.last_run || {};
-        const runMatched =
-          String(lastRun.github_run_id || "") === String(runId);
-
-        if (!runMatched) continue;
-
-        applyCardsPayload(cardsPayload);
-        applyPoolStatus(poolPayload);
-        return Number(lastRun.added || 0);
-      } catch {
-        // GitHub Pages may still be publishing the committed data files.
+    if (status.status === "completed") {
+      if (status.conclusion !== "success") {
+        clearActiveRun();
+        setReplenishButtonBusy(false);
+        setSupplyTaskState(
+          "error",
+          "本次后台任务失败",
+          "GitHub Actions 已结束，但没有成功完成。可打开任务查看日志。",
+          status.html_url || htmlUrl
+        );
+        throw new Error("后台补充任务没有成功");
       }
+
+      // Read the committed result directly through the Worker. This does not
+      // wait for GitHub Pages deployment or browser cache.
+      for (let resultAttempt = 0; resultAttempt < 24; resultAttempt += 1) {
+        try {
+          const result = await fetchWorkerResult(runId);
+          clearActiveRun();
+          setReplenishButtonBusy(false);
+          return applyImmediateRunResult(result);
+        } catch (error) {
+          if (error.status !== 202) throw error;
+          await sleep(3000);
+        }
+      }
+
+      clearActiveRun();
+      setReplenishButtonBusy(false);
+      setSupplyTaskState(
+        "publishing",
+        "任务已经完成",
+        "结果已提交，网页正在发布。稍后重新打开数据页即可看到新增数量。",
+        status.html_url || htmlUrl
+      );
+      return 0;
     }
 
-    const payload = await fetchCardsPayload();
-    const count = Array.isArray(payload.cards) ? payload.cards.length : 0;
-    applyCardsPayload(payload);
-    return Math.max(0, count - beforeCount);
+    await sleep(6000);
   }
 
-  throw new Error("后台任务仍在运行，请稍后刷新");
+  throw new Error("后台仍在运行，稍后重新打开数据页会自动继续跟踪");
+}
+
+async function startOrJoinSupplyRun(payload) {
+  const runId = payload?.run_id;
+  if (!runId) throw new Error("没有获得任务编号");
+
+  const run = {
+    runId,
+    beforeCount: state.cards.length,
+    startedAt: payload.created_at || new Date().toISOString(),
+    htmlUrl: payload.html_url || ""
+  };
+  saveActiveRun(run);
+
+  return pollSupply(
+    run.runId,
+    run.beforeCount,
+    run.htmlUrl,
+    run.startedAt
+  );
+}
+
+async function showCooldownState(error) {
+  const seconds = Math.max(1, Number(error.payload?.retry_after || 60));
+  const until = Date.now() + seconds * 1000;
+
+  setReplenishButtonBusy(true, "冷却中……");
+
+  try {
+    const latest = await workerRequest("/latest");
+    if (latest?.run_id) {
+      try {
+        const result = await fetchWorkerResult(latest.run_id);
+        applyImmediateRunResult(result);
+      } catch {
+        setSupplyTaskState(
+          "cooldown",
+          "刚刚已经运行过",
+          `为避免重复消耗，约 ${Math.ceil(seconds / 60)} 分钟后才能再次启动。`,
+          latest.html_url || ""
+        );
+      }
+    }
+  } catch {
+    setSupplyTaskState(
+      "cooldown",
+      "刚刚已经运行过",
+      `为避免重复消耗，约 ${Math.ceil(seconds / 60)} 分钟后才能再次启动。`
+    );
+  }
+
+  const timer = window.setInterval(() => {
+    const remaining = Math.max(0, Math.ceil((until - Date.now()) / 1000));
+    if (remaining <= 0) {
+      window.clearInterval(timer);
+      setReplenishButtonBusy(false);
+      setSupplyTaskState(
+        "idle",
+        "可以再次补充",
+        "候选原料会由后台定时补充，通常无需连续点击。"
+      );
+      return;
+    }
+    dom.replenishButton.textContent =
+      `约 ${Math.ceil(remaining / 60)} 分钟后可重试`;
+  }, 1000);
 }
 
 async function replenishKnowledge() {
-  if (state.loadingSupply) return;
+  if (state.loadingSupply) {
+    showToast("已有任务正在处理，不需要重复点击");
+    return;
+  }
 
   const settings = triggerSettings();
   if (!settings.endpoint || !settings.secret) {
@@ -1241,9 +1520,12 @@ async function replenishKnowledge() {
     return;
   }
 
-  state.loadingSupply = true;
-  dom.replenishButton.disabled = true;
-  dom.replenishButton.textContent = "正在启动……";
+  setReplenishButtonBusy(true, "正在提交……");
+  setSupplyTaskState(
+    "queued",
+    "正在提交后台任务",
+    "只会启动一次；重复点击不会生成多个任务。"
+  );
 
   try {
     const payload = await workerRequest("/trigger", {
@@ -1251,35 +1533,47 @@ async function replenishKnowledge() {
       body: JSON.stringify({ source: "web" })
     });
 
-    if (!payload.run_id) throw new Error("没有获得任务编号");
-
-    dom.replenishButton.textContent = "正在筛选知识……";
-    const added = await pollSupply(payload.run_id, state.cards.length);
-    showToast(added ? `后台新增 ${added} 条知识` : "本轮没有筛出新知识");
+    const added = await startOrJoinSupplyRun(payload);
+    showToast(
+      added ? `本次新增 ${added} 条知识` : "本轮没有筛出新知识"
+    );
   } catch (error) {
     if (error.status === 409 && error.payload?.run_id) {
+      setSupplyTaskState(
+        "running",
+        "已有任务正在运行",
+        "已自动接入现有任务，不会重复调用 AI。",
+        error.payload.html_url || ""
+      );
       try {
-        dom.replenishButton.textContent = "正在接入已有任务……";
-        const added = await pollSupply(error.payload.run_id, state.cards.length);
-        showToast(added ? `后台新增 ${added} 条知识` : "本轮没有筛出新知识");
+        const added = await startOrJoinSupplyRun(error.payload);
+        showToast(
+          added ? `本次新增 ${added} 条知识` : "本轮没有筛出新知识"
+        );
       } catch (nestedError) {
-        showToast(nestedError.message);
+        setSupplyTaskState(
+          "error",
+          "读取任务状态失败",
+          nestedError.message || "稍后重新打开数据页即可继续。"
+        );
+        setReplenishButtonBusy(false);
       }
     } else if (error.status === 429) {
-      const minutes = Math.max(
-        1,
-        Math.ceil((error.payload?.retry_after || 60) / 60)
-      );
-      showToast(`刚运行过，请约 ${minutes} 分钟后再试`);
+      await showCooldownState(error);
+      showToast("刚刚已经运行过，不需要重复生成");
     } else {
+      clearActiveRun();
+      setReplenishButtonBusy(false);
+      setSupplyTaskState(
+        "error",
+        "后台补充失败",
+        error.message || "稍后再试。"
+      );
       showToast(error.message || "后台补充失败");
     }
-  } finally {
-    state.loadingSupply = false;
-    dom.replenishButton.disabled = false;
-    dom.replenishButton.textContent = "立即补充知识库";
   }
 }
+
 
 function exportData() {
   const payload = {
@@ -1470,7 +1764,10 @@ function init() {
   bindEvents();
   renderCategoryFilters();
   updateTriggerState();
-  loadCards();
+  restoreSupplyTaskState();
+  loadCards().then(() => {
+    resumeSupplyTracking();
+  });
   refreshPoolStatus();
   registerServiceWorker();
 }

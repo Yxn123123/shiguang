@@ -335,6 +335,17 @@
         平时阅读和探索不会调用 AI。只有这里主动补充后台库存，或定时任务运行时，才会使用模型。
       </p>
 
+      <div id="supplyTaskCard" class="supply-task-card" data-state="idle">
+        <div class="supply-task-icon" aria-hidden="true">○</div>
+        <div class="supply-task-copy">
+          <strong id="supplyTaskTitle">当前没有生成任务</strong>
+          <p id="supplyTaskDetail">候选原料会由后台定时补充，平时不需要反复点击。</p>
+        </div>
+        <a id="supplyTaskLink" target="_blank" rel="noopener noreferrer" hidden>
+          查看任务
+        </a>
+      </div>
+
       <label class="setting-field">
         <span>加载服务地址</span>
         <input id="triggerEndpointInput" type="url" inputmode="url"

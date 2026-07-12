@@ -125,6 +125,12 @@ const dom = {
   triggerSecretInput: document.querySelector("#triggerSecretInput"),
   saveTriggerSettingsButton: document.querySelector("#saveTriggerSettingsButton"),
   replenishButton: document.querySelector("#replenishButton"),
+  poolStatusTime: document.querySelector("#poolStatusTime"),
+  pendingCandidateCount: document.querySelector("#pendingCandidateCount"),
+  lastAddedCount: document.querySelector("#lastAddedCount"),
+  lastPassRate: document.querySelector("#lastPassRate"),
+  lastTokenCount: document.querySelector("#lastTokenCount"),
+  poolStatusNote: document.querySelector("#poolStatusNote"),
 
   toast: document.querySelector("#toast")
 };
@@ -1029,6 +1035,65 @@ function updateTriggerState() {
   dom.triggerSettingsState.classList.toggle("ready", ready);
 }
 
+
+function formatCompactNumber(value) {
+  const number = Number(value || 0);
+  if (number >= 1000000) return `${(number / 1000000).toFixed(1)}M`;
+  if (number >= 1000) return `${(number / 1000).toFixed(1)}K`;
+  return String(number);
+}
+
+async function fetchPoolStatus() {
+  const response = await fetch(`data/pool_status.json?t=${Date.now()}`, {
+    cache: "no-store"
+  });
+  if (!response.ok) throw new Error("读取后台库存状态失败");
+  return response.json();
+}
+
+function applyPoolStatus(payload) {
+  const lastRun = payload?.last_run || null;
+  dom.pendingCandidateCount.textContent = String(
+    payload?.pending_candidates || 0
+  );
+
+  if (!lastRun) {
+    dom.lastAddedCount.textContent = "0";
+    dom.lastPassRate.textContent = "—";
+    dom.lastTokenCount.textContent = "—";
+    dom.poolStatusTime.textContent = "尚未运行";
+    dom.poolStatusNote.textContent =
+      "第一次批量补充后，这里会显示候选库存、通过率和消耗。";
+    return;
+  }
+
+  dom.lastAddedCount.textContent = String(lastRun.added || 0);
+  dom.lastPassRate.textContent =
+    `${Number(lastRun.pass_rate || 0).toFixed(1)}%`;
+
+  const totalTokens =
+    Number(lastRun.input_tokens || 0) +
+    Number(lastRun.output_tokens || 0);
+  dom.lastTokenCount.textContent = formatCompactNumber(totalTokens);
+  dom.poolStatusTime.textContent = formatDate(lastRun.finished_at);
+
+  dom.poolStatusNote.textContent =
+    `上次处理 ${lastRun.processed || 0} 个候选，` +
+    `形成 ${lastRun.proposals || 0} 个提案，` +
+    `审核 ${lastRun.reviewed || 0} 条，` +
+    `最终新增 ${lastRun.added || 0} 条。`;
+}
+
+async function refreshPoolStatus() {
+  try {
+    const payload = await fetchPoolStatus();
+    applyPoolStatus(payload);
+    return payload;
+  } catch {
+    return null;
+  }
+}
+
 function openDataDialog() {
   const read = getRead();
   const favorites = getFavorites();
@@ -1043,6 +1108,7 @@ function openDataDialog() {
   dom.triggerEndpointInput.value = settings.endpoint;
   dom.triggerSecretInput.value = settings.secret;
   updateTriggerState();
+  refreshPoolStatus();
 
   dom.dataDialog.showModal();
 }
@@ -1132,18 +1198,35 @@ async function pollSupply(runId, beforeCount) {
       throw new Error("后台补充任务没有成功");
     }
 
-    for (let publishAttempt = 0; publishAttempt < 20; publishAttempt += 1) {
-      await sleep(publishAttempt === 0 ? 4500 : 6500);
-      const payload = await fetchCardsPayload();
-      const count = Array.isArray(payload.cards) ? payload.cards.length : 0;
+    // The workflow writes pool_status.json even when zero cards pass.
+    // Matching the GitHub run id lets the page stop waiting immediately.
+    for (let publishAttempt = 0; publishAttempt < 24; publishAttempt += 1) {
+      await sleep(publishAttempt === 0 ? 4500 : 5500);
 
-      if (count > beforeCount) {
-        applyCardsPayload(payload);
-        return count - beforeCount;
+      try {
+        const [cardsPayload, poolPayload] = await Promise.all([
+          fetchCardsPayload(),
+          fetchPoolStatus()
+        ]);
+
+        const lastRun = poolPayload?.last_run || {};
+        const runMatched =
+          String(lastRun.github_run_id || "") === String(runId);
+
+        if (!runMatched) continue;
+
+        applyCardsPayload(cardsPayload);
+        applyPoolStatus(poolPayload);
+        return Number(lastRun.added || 0);
+      } catch {
+        // GitHub Pages may still be publishing the committed data files.
       }
     }
 
-    return 0;
+    const payload = await fetchCardsPayload();
+    const count = Array.isArray(payload.cards) ? payload.cards.length : 0;
+    applyCardsPayload(payload);
+    return Math.max(0, count - beforeCount);
   }
 
   throw new Error("后台任务仍在运行，请稍后刷新");
@@ -1388,6 +1471,7 @@ function init() {
   renderCategoryFilters();
   updateTriggerState();
   loadCards();
+  refreshPoolStatus();
   registerServiceWorker();
 }
 

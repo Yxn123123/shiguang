@@ -1,4 +1,4 @@
-const CACHE = "shiguang-v7";
+const CACHE = "shiguang-v8";
 const SHELL = [
   "./",
   "./index.html",
@@ -6,6 +6,7 @@ const SHELL = [
   "./app.js",
   "./manifest.webmanifest",
   "./data/cards.json",
+  "./data/pool_status.json",
   "./icons/icon.svg"
 ];
 
@@ -36,7 +37,8 @@ self.addEventListener("fetch", (event) => {
 
   if (
     url.origin === self.location.origin &&
-    url.pathname.endsWith("/data/cards.json")
+    (url.pathname.endsWith("/data/cards.json") ||
+     url.pathname.endsWith("/data/pool_status.json"))
   ) {
     event.respondWith(
       fetch(event.request)

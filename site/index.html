@@ -282,6 +282,39 @@
       <div><strong id="totalFavorites">0</strong><span>收藏</span></div>
     </div>
 
+    <section class="pool-dashboard">
+      <div class="pool-dashboard-head">
+        <div>
+          <span>KNOWLEDGE SUPPLY</span>
+          <h3>后台库存</h3>
+        </div>
+        <span id="poolStatusTime" class="pool-status-time">尚未运行</span>
+      </div>
+
+      <div class="pool-metrics">
+        <div>
+          <strong id="pendingCandidateCount">0</strong>
+          <span>待处理候选</span>
+        </div>
+        <div>
+          <strong id="lastAddedCount">0</strong>
+          <span>上次新增</span>
+        </div>
+        <div>
+          <strong id="lastPassRate">—</strong>
+          <span>上次通过率</span>
+        </div>
+        <div>
+          <strong id="lastTokenCount">—</strong>
+          <span>上次 Token</span>
+        </div>
+      </div>
+
+      <p id="poolStatusNote" class="pool-status-note">
+        第一次批量补充后，这里会显示候选库存、通过率和消耗。
+      </p>
+    </section>
+
     <button id="exportButton" class="modal-action primary" type="button">导出个人记录</button>
     <label class="modal-action file-action">
       导入个人记录

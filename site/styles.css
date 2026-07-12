@@ -1047,3 +1047,76 @@ main { min-height: 65vh; }
     grid-column: 1 / -1;
   }
 }
+
+
+.pool-dashboard {
+  margin: 18px 0 20px;
+  padding: 18px;
+  border: 1px solid #cfddd3;
+  border-radius: 17px;
+  background: var(--green-pale);
+}
+
+.pool-dashboard-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.pool-dashboard-head span:first-child {
+  color: var(--green);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .15em;
+}
+
+.pool-dashboard-head h3 {
+  margin: 4px 0 0;
+  font: 500 22px/1.2 var(--serif);
+}
+
+.pool-status-time {
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.pool-metrics {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin-top: 15px;
+}
+
+.pool-metrics div {
+  padding: 13px 8px;
+  border-radius: 13px;
+  background: rgba(255,255,255,.72);
+  text-align: center;
+}
+
+.pool-metrics strong {
+  display: block;
+  color: var(--green);
+  font: 500 24px/1 var(--serif);
+}
+
+.pool-metrics span {
+  display: block;
+  margin-top: 6px;
+  color: var(--muted);
+  font-size: 10px;
+}
+
+.pool-status-note {
+  margin: 13px 0 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.65;
+}
+
+@media (max-width: 430px) {
+  .pool-metrics {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

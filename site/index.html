@@ -68,11 +68,71 @@
           <div>
             <span class="eyebrow">EXPLORE</span>
             <h1>探索知识库</h1>
-            <p>这里浏览的是后台已经准备好的知识，不会因为翻页而调用 AI。</p>
+            <p>随机看一条，或进入完整列表慢慢找。两种方式都只读取已有知识，不会调用 AI。</p>
           </div>
-          <span id="exploreCount" class="result-count">0 条</span>
+          <span id="exploreCount" class="result-count">0 条未读</span>
         </header>
 
+        <div id="exploreModeTabs" class="explore-mode-tabs">
+          <button class="explore-mode-tab active" data-mode="random" type="button">
+            随机探索
+          </button>
+          <button class="explore-mode-tab" data-mode="library" type="button">
+            浏览知识库
+          </button>
+        </div>
+
+        <section id="randomExplorePanel" class="random-explore-panel">
+          <div class="random-overview">
+            <span>随机从未读知识中抽取，本轮不会重复。</span>
+            <strong id="randomUnreadCount">0 条可探索</strong>
+          </div>
+
+          <article id="randomCard" class="random-card">
+            <div class="meta-row">
+              <span id="randomCardNumber" class="card-number">RANDOM</span>
+              <div class="meta-pills">
+                <span id="randomCategoryLabel">综合</span>
+                <span>未读</span>
+              </div>
+            </div>
+
+            <h2 id="randomCardTitle" class="random-card-title"></h2>
+            <p id="randomCardLead" class="random-card-lead"></p>
+
+            <div class="divider"></div>
+
+            <section class="explanation">
+              <h3>为什么会这样？</h3>
+              <p id="randomCardExplanation"></p>
+            </section>
+
+            <aside class="angle-box">
+              <strong>换个角度</strong>
+              <p id="randomCardAngle"></p>
+            </aside>
+
+            <div class="random-actions">
+              <button id="randomSkipButton" class="outline-button" type="button">先换一条</button>
+              <button id="randomLaterButton" class="outline-button" type="button">稍后再看</button>
+              <button id="randomFavoriteButton" class="outline-button" type="button">收藏</button>
+              <button id="randomDislikeButton" class="outline-button danger" type="button">不感兴趣</button>
+              <button id="randomCompleteButton" class="solid-button" type="button">看完，继续探索</button>
+            </div>
+
+            <a id="randomSourceLink" class="random-source-link" target="_blank" rel="noopener noreferrer">
+              查看原始来源 ↗
+            </a>
+          </article>
+
+          <div id="randomEmpty" class="state-box compact-state" hidden>
+            <div class="empty-symbol">◌</div>
+            <h2>暂时没有新的未读知识</h2>
+            <p>可以切换到“浏览知识库”查看已读内容，或在数据页补充后台库存。</p>
+          </div>
+        </section>
+
+        <section id="libraryExplorePanel" hidden>
         <div class="search-box">
           <span aria-hidden="true">⌕</span>
           <input id="searchInput" type="search" placeholder="搜索标题、结论或解释">
@@ -108,6 +168,7 @@
         <button id="showMoreButton" class="outline-button show-more" type="button" hidden>
           再显示一些
         </button>
+        </section>
       </section>
 
       <section id="mineHome" class="mine-home" hidden>
@@ -203,7 +264,7 @@
     <button id="laterButton" class="dock-secondary" type="button">稍后</button>
     <button id="completeButton" class="dock-primary" type="button">看完，下一条</button>
     <button id="favoriteButton" class="dock-icon" type="button" aria-label="收藏">♡</button>
-    <button id="dislikeButton" class="dock-icon" type="button" aria-label="不感兴趣">×</button>
+    <button id="dislikeButton" class="dock-secondary" type="button">不感兴趣</button>
   </div>
 
   <dialog id="dataDialog" class="modal">

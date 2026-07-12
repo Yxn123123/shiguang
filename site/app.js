@@ -4,6 +4,7 @@ const STORE = {
   read: "shiguang_read_v2",
   later: "shiguang_later_v2",
   daily: "shiguang_daily_v2",
+  randomQueue: "shiguang_random_queue_v1",
   triggerEndpoint: "shiguang_trigger_endpoint_v1",
   triggerSecret: "shiguang_trigger_secret_v1",
   backupVersion: 2
@@ -20,6 +21,8 @@ const state = {
   detailOrigin: "daily",
   currentCardId: null,
   dailyRecord: null,
+  exploreMode: "random",
+  randomCardId: null,
   exploreStatus: "unread",
   exploreCategory: "全部",
   exploreSort: "newest",
@@ -51,6 +54,24 @@ const dom = {
 
   exploreHome: document.querySelector("#exploreHome"),
   exploreCount: document.querySelector("#exploreCount"),
+  exploreModeTabs: [...document.querySelectorAll(".explore-mode-tab")],
+  randomExplorePanel: document.querySelector("#randomExplorePanel"),
+  libraryExplorePanel: document.querySelector("#libraryExplorePanel"),
+  randomUnreadCount: document.querySelector("#randomUnreadCount"),
+  randomCard: document.querySelector("#randomCard"),
+  randomEmpty: document.querySelector("#randomEmpty"),
+  randomCardNumber: document.querySelector("#randomCardNumber"),
+  randomCategoryLabel: document.querySelector("#randomCategoryLabel"),
+  randomCardTitle: document.querySelector("#randomCardTitle"),
+  randomCardLead: document.querySelector("#randomCardLead"),
+  randomCardExplanation: document.querySelector("#randomCardExplanation"),
+  randomCardAngle: document.querySelector("#randomCardAngle"),
+  randomSkipButton: document.querySelector("#randomSkipButton"),
+  randomLaterButton: document.querySelector("#randomLaterButton"),
+  randomFavoriteButton: document.querySelector("#randomFavoriteButton"),
+  randomDislikeButton: document.querySelector("#randomDislikeButton"),
+  randomCompleteButton: document.querySelector("#randomCompleteButton"),
+  randomSourceLink: document.querySelector("#randomSourceLink"),
   searchInput: document.querySelector("#searchInput"),
   statusFilters: [...document.querySelectorAll("#statusFilters .filter-chip")],
   categoryFilters: document.querySelector("#categoryFilters"),
@@ -400,8 +421,6 @@ function filteredExploreCards() {
   const query = normalizeSearch(dom.searchInput.value);
 
   let cards = state.cards.filter((card) => {
-    if (disliked.has(card.id) && state.exploreStatus !== "all") return false;
-
     if (state.exploreStatus === "unread" && read.has(card.id)) return false;
     if (state.exploreStatus === "read" && !read.has(card.id)) return false;
     if (state.exploreStatus === "favorite" && !favorites.has(card.id)) return false;
@@ -482,6 +501,13 @@ function renderKnowledgeList(container, cards, origin, emptyText) {
       meta.appendChild(favorite);
     }
 
+    if (getDisliked().has(card.id)) {
+      const hiddenTag = document.createElement("span");
+      hiddenTag.className = "item-tag hidden-tag";
+      hiddenTag.textContent = "不感兴趣";
+      meta.appendChild(hiddenTag);
+    }
+
     const date = document.createElement("time");
     date.textContent = formatDate(card.created_at);
     meta.appendChild(date);
@@ -502,9 +528,217 @@ function renderKnowledgeList(container, cards, origin, emptyText) {
   });
 }
 
+
+function shuffleIds(ids) {
+  const copy = [...ids];
+  for (let index = copy.length - 1; index > 0; index -= 1) {
+    const swapIndex = Math.floor(Math.random() * (index + 1));
+    [copy[index], copy[swapIndex]] = [copy[swapIndex], copy[index]];
+  }
+  return copy;
+}
+
+function randomEligibleCards() {
+  const read = getRead();
+  const later = getLater();
+  const disliked = getDisliked();
+
+  return state.cards.filter((card) =>
+    !read.has(card.id) &&
+    !later.has(card.id) &&
+    !disliked.has(card.id)
+  );
+}
+
+function loadRandomQueue() {
+  const eligibleIds = new Set(randomEligibleCards().map((card) => card.id));
+  let queue = readJson(STORE.randomQueue, [])
+    .filter((id) => eligibleIds.has(id));
+
+  if (!queue.length) {
+    queue = shuffleIds([...eligibleIds]);
+  }
+
+  writeJson(STORE.randomQueue, queue);
+  return queue;
+}
+
+function ensureRandomCard(forceNext = false) {
+  const eligibleIds = new Set(randomEligibleCards().map((card) => card.id));
+
+  if (
+    !forceNext &&
+    state.randomCardId &&
+    eligibleIds.has(state.randomCardId)
+  ) {
+    return state.cardMap.get(state.randomCardId);
+  }
+
+  let queue = loadRandomQueue().filter((id) => id !== state.randomCardId);
+
+  if (!queue.length) {
+    state.randomCardId = null;
+    return null;
+  }
+
+  state.randomCardId = queue.shift();
+  writeJson(STORE.randomQueue, queue);
+  return state.cardMap.get(state.randomCardId) || null;
+}
+
+function setExploreMode(mode) {
+  state.exploreMode = mode;
+
+  dom.exploreModeTabs.forEach((button) => {
+    button.classList.toggle("active", button.dataset.mode === mode);
+  });
+
+  if (mode === "random") {
+    ensureRandomCard();
+  }
+
+  renderExplore();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+function renderRandomExplore() {
+  const eligible = randomEligibleCards();
+  dom.randomUnreadCount.textContent = `${eligible.length} 条可探索`;
+  dom.exploreCount.textContent = `${eligible.length} 条未读`;
+
+  const card = ensureRandomCard();
+
+  if (!card) {
+    dom.randomCard.hidden = true;
+    dom.randomEmpty.hidden = false;
+    return;
+  }
+
+  dom.randomCard.hidden = false;
+  dom.randomEmpty.hidden = true;
+
+  const favorites = getFavorites();
+  const later = getLater();
+
+  dom.randomCardNumber.textContent = "RANDOM";
+  dom.randomCategoryLabel.textContent = card.category || "综合";
+  dom.randomCardTitle.textContent = card.title;
+  dom.randomCardLead.textContent = card.lead;
+  dom.randomCardExplanation.textContent = card.explanation;
+  dom.randomCardAngle.textContent = card.angle;
+
+  dom.randomFavoriteButton.textContent = favorites.has(card.id)
+    ? "已收藏"
+    : "收藏";
+  dom.randomLaterButton.textContent = later.has(card.id)
+    ? "已稍后"
+    : "稍后再看";
+
+  dom.randomSourceLink.href = card.source_url || "#";
+  dom.randomSourceLink.textContent =
+    `查看原始来源：${card.source_name || "原文"} ↗`;
+}
+
+function advanceRandomCard({ markRead = false, putBack = false } = {}) {
+  const cardId = state.randomCardId;
+  if (!cardId) return;
+
+  if (markRead) {
+    const read = getRead();
+    read.add(cardId);
+    saveSet(STORE.read, read);
+  }
+
+  if (putBack) {
+    const eligibleIds = new Set(randomEligibleCards().map((card) => card.id));
+    const queue = loadRandomQueue().filter((id) => id !== cardId);
+    if (eligibleIds.has(cardId)) queue.push(cardId);
+    writeJson(STORE.randomQueue, queue);
+  }
+
+  state.randomCardId = null;
+  ensureRandomCard(true);
+  renderExplore();
+}
+
+function toggleRandomFavorite() {
+  const cardId = state.randomCardId;
+  if (!cardId) return;
+
+  const favorites = getFavorites();
+
+  if (favorites.has(cardId)) {
+    favorites.delete(cardId);
+    showToast("已取消收藏");
+  } else {
+    favorites.add(cardId);
+    showToast("已收藏");
+  }
+
+  saveSet(STORE.favorites, favorites);
+  renderRandomExplore();
+  updateCounts();
+}
+
+function toggleRandomLater() {
+  const cardId = state.randomCardId;
+  if (!cardId) return;
+
+  const later = getLater();
+
+  if (later.has(cardId)) {
+    later.delete(cardId);
+    saveSet(STORE.later, later);
+    showToast("已移出稍后再看");
+    renderRandomExplore();
+    return;
+  }
+
+  later.add(cardId);
+  saveSet(STORE.later, later);
+  showToast("已加入稍后再看");
+
+  state.randomCardId = null;
+  ensureRandomCard(true);
+  renderExplore();
+}
+
+function dislikeRandomCard() {
+  const cardId = state.randomCardId;
+  if (!cardId) return;
+
+  const confirmed = window.confirm(
+    "确定不再在每日推荐和随机探索中显示这条知识吗？"
+  );
+  if (!confirmed) return;
+
+  const disliked = getDisliked();
+  disliked.add(cardId);
+  saveSet(STORE.disliked, disliked);
+
+  state.randomCardId = null;
+  ensureRandomCard(true);
+  showToast("已放入“不感兴趣”");
+  renderExplore();
+}
+
 function renderExplore() {
   hideAllViews();
   dom.exploreHome.hidden = false;
+
+  dom.exploreModeTabs.forEach((button) => {
+    button.classList.toggle("active", button.dataset.mode === state.exploreMode);
+  });
+
+  if (state.exploreMode === "random") {
+    dom.randomExplorePanel.hidden = false;
+    dom.libraryExplorePanel.hidden = true;
+    renderRandomExplore();
+    return;
+  }
+
+  dom.randomExplorePanel.hidden = true;
+  dom.libraryExplorePanel.hidden = false;
   renderCategoryFilters();
 
   const all = filteredExploreCards();
@@ -581,13 +815,8 @@ function openDetail(cardId, origin) {
   state.currentCardId = cardId;
   state.detailOrigin = origin;
 
-  // “探索中看过”按用户主动打开详情计算，因此不会再进入每日推荐。
-  if (origin === "explore") {
-    const read = getRead();
-    read.add(cardId);
-    saveSet(STORE.read, read);
-  }
-
+  // 进入详情不立即算已读。只有主动点击“标记为已读”
+  // 或随机探索中的“看完，继续探索”才改变阅读状态。
   render();
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
@@ -636,6 +865,9 @@ function renderDetail() {
   dom.favoriteButton.textContent = favorites.has(card.id) ? "♥" : "♡";
   dom.favoriteButton.classList.toggle("saved", favorites.has(card.id));
   dom.laterButton.textContent = later.has(card.id) ? "已稍后" : "稍后";
+  dom.dislikeButton.textContent = getDisliked().has(card.id)
+    ? "恢复"
+    : "不感兴趣";
 
   if (state.detailOrigin === "daily") {
     dom.completeButton.textContent = read.has(card.id)
@@ -735,6 +967,20 @@ function dislikeCurrent() {
   if (!cardId) return;
 
   const disliked = getDisliked();
+
+  if (disliked.has(cardId)) {
+    disliked.delete(cardId);
+    saveSet(STORE.disliked, disliked);
+    showToast("已恢复到知识库");
+    renderDetail();
+    return;
+  }
+
+  const confirmed = window.confirm(
+    "确定不再在每日推荐和随机探索中显示这条知识吗？"
+  );
+  if (!confirmed) return;
+
   disliked.add(cardId);
   saveSet(STORE.disliked, disliked);
 
@@ -742,7 +988,11 @@ function dislikeCurrent() {
   favorites.delete(cardId);
   saveSet(STORE.favorites, favorites);
 
-  showToast("已减少这类内容");
+  const later = getLater();
+  later.delete(cardId);
+  saveSet(STORE.later, later);
+
+  showToast("已放入“不感兴趣”");
   state.currentCardId = null;
   render();
 }
@@ -1022,6 +1272,25 @@ function bindEvents() {
   dom.mainTabs.forEach((tab) => {
     tab.addEventListener("click", () => setView(tab.dataset.view));
   });
+
+  dom.exploreModeTabs.forEach((button) => {
+    button.addEventListener("click", () => {
+      setExploreMode(button.dataset.mode);
+    });
+  });
+
+  dom.randomSkipButton.addEventListener("click", () => {
+    advanceRandomCard({ putBack: true });
+  });
+
+  dom.randomCompleteButton.addEventListener("click", () => {
+    advanceRandomCard({ markRead: true });
+    showToast("已读完，继续探索");
+  });
+
+  dom.randomFavoriteButton.addEventListener("click", toggleRandomFavorite);
+  dom.randomLaterButton.addEventListener("click", toggleRandomLater);
+  dom.randomDislikeButton.addEventListener("click", dislikeRandomCard);
 
   dom.searchInput.addEventListener("input", () => {
     state.exploreLimit = PAGE_SIZE;

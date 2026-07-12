@@ -11,10 +11,11 @@ const state = {
   index: 0,
   view: "discover",
   category: "综合",
+  detailFromList: false,
   installPrompt: null
 };
 
-const categories = ["综合","生物","科学","历史","艺术","科技","生活"];
+const categories = ["综合", "生物", "科学", "历史", "艺术", "科技", "生活"];
 
 const dom = {
   updateStatus: document.querySelector("#updateStatus"),
@@ -27,7 +28,13 @@ const dom = {
   emptyState: document.querySelector("#emptyState"),
   emptyTitle: document.querySelector("#emptyTitle"),
   emptyText: document.querySelector("#emptyText"),
+  listView: document.querySelector("#listView"),
+  listEyebrow: document.querySelector("#listEyebrow"),
+  listTitle: document.querySelector("#listTitle"),
+  listCount: document.querySelector("#listCount"),
+  listItems: document.querySelector("#listItems"),
   knowledgeView: document.querySelector("#knowledgeView"),
+  backToListButton: document.querySelector("#backToListButton"),
   cardNumber: document.querySelector("#cardNumber"),
   categoryLabel: document.querySelector("#categoryLabel"),
   dateLabel: document.querySelector("#dateLabel"),
@@ -39,6 +46,7 @@ const dom = {
   closeMoreButton: document.querySelector("#closeMoreButton"),
   evidenceText: document.querySelector("#evidenceText"),
   sourceLink: document.querySelector("#sourceLink"),
+  dock: document.querySelector("#dock"),
   previousButton: document.querySelector("#previousButton"),
   dislikeButton: document.querySelector("#dislikeButton"),
   interestButton: document.querySelector("#interestButton"),
@@ -68,6 +76,18 @@ function writeStore(key, value) {
   localStorage.setItem(key, JSON.stringify(value));
 }
 
+function getFavorites() {
+  return readStore(STORE.favorites);
+}
+
+function getHistory() {
+  return readStore(STORE.history);
+}
+
+function getDisliked() {
+  return readStore(STORE.disliked);
+}
+
 function shuffle(items) {
   const copy = [...items];
   for (let i = copy.length - 1; i > 0; i -= 1) {
@@ -81,18 +101,6 @@ function currentCard() {
   return state.visible[state.index];
 }
 
-function getFavorites() {
-  return readStore(STORE.favorites);
-}
-
-function getHistory() {
-  return readStore(STORE.history);
-}
-
-function getDisliked() {
-  return readStore(STORE.disliked);
-}
-
 function formatDate(value) {
   if (!value) return "已整理";
   const date = new Date(value);
@@ -102,20 +110,24 @@ function formatDate(value) {
 
 function renderCategories() {
   dom.categoryNav.innerHTML = "";
+
   categories.forEach((category) => {
     const button = document.createElement("button");
     button.type = "button";
     button.className = "category-chip";
     button.textContent = category;
     button.classList.toggle("active", category === state.category);
+
     button.addEventListener("click", () => {
       state.category = category;
       state.index = 0;
+      state.detailFromList = false;
       renderCategories();
       closeMore();
-      applyFilters(true);
+      applyFilters(state.view === "discover");
       render();
     });
+
     dom.categoryNav.appendChild(button);
   });
 }
@@ -124,11 +136,11 @@ function applyFilters(reshuffle = false) {
   let cards = [];
 
   if (state.view === "favorites") {
-    const ids = new Set(getFavorites());
-    cards = state.cards.filter((card) => ids.has(card.id));
+    const cardMap = new Map(state.cards.map((card) => [card.id, card]));
+    cards = getFavorites().map((id) => cardMap.get(id)).filter(Boolean);
   } else if (state.view === "history") {
-    const map = new Map(state.cards.map((card) => [card.id, card]));
-    cards = getHistory().map((entry) => map.get(entry.id)).filter(Boolean);
+    const cardMap = new Map(state.cards.map((card) => [card.id, card]));
+    cards = getHistory().map((entry) => cardMap.get(entry.id)).filter(Boolean);
   } else {
     const disliked = new Set(getDisliked());
     cards = state.cards.filter((card) => !disliked.has(card.id));
@@ -147,6 +159,7 @@ function setView(view) {
   state.view = view;
   state.category = "综合";
   state.index = 0;
+  state.detailFromList = false;
 
   dom.tabs.forEach((tab) => {
     tab.classList.toggle("active", tab.dataset.view === view);
@@ -161,6 +174,7 @@ function setView(view) {
 
 function markHistory(card) {
   if (!card) return;
+
   let history = getHistory().filter((entry) => entry.id !== card.id);
   history.unshift({ id: card.id, viewedAt: new Date().toISOString() });
   writeStore(STORE.history, history.slice(0, 300));
@@ -168,27 +182,114 @@ function markHistory(card) {
 
 function render() {
   dom.favoriteCount.textContent = String(getFavorites().length);
-
-  const card = currentCard();
-  const hasCard = Boolean(card);
-
   dom.loadingState.hidden = true;
-  dom.knowledgeView.hidden = !hasCard;
-  dom.emptyState.hidden = hasCard;
 
-  if (!hasCard) {
-    const messages = {
-      favorites: ["还没有收藏", "看到喜欢的知识时，点一下底部的收藏按钮。"],
-      history: ["还没有阅读历史", "你看过的内容会自动出现在这里。"],
-      discover: ["暂时没有推荐内容", "可以在“数据”中恢复不感兴趣的内容。"]
-    };
-    const [title, text] = messages[state.view] || messages.discover;
-    dom.emptyTitle.textContent = title;
-    dom.emptyText.textContent = text;
+  const listMode = state.view !== "discover" && !state.detailFromList;
+
+  dom.listView.hidden = !listMode;
+  dom.knowledgeView.hidden = listMode || !currentCard();
+  dom.dock.hidden = listMode;
+  dom.emptyState.hidden = true;
+
+  if (listMode) {
+    renderCollectionList();
+    return;
+  }
+
+  renderCard();
+}
+
+function renderCollectionList() {
+  const isFavorites = state.view === "favorites";
+  dom.listEyebrow.textContent = isFavorites ? "SAVED" : "RECENT";
+  dom.listTitle.textContent = isFavorites ? "我的收藏" : "最近看过";
+  dom.listCount.textContent = `${state.visible.length} 条`;
+  dom.listItems.innerHTML = "";
+
+  if (!state.visible.length) {
+    showEmpty(
+      isFavorites ? "还没有收藏" : "还没有阅读历史",
+      isFavorites
+        ? "在推荐页看到喜欢的内容时，点一下收藏按钮。"
+        : "打开过的知识会自动出现在这里。"
+    );
+    return;
+  }
+
+  state.visible.forEach((card) => {
+    const item = document.createElement("button");
+    item.type = "button";
+    item.className = "collection-item";
+    item.dataset.cardId = card.id;
+
+    const meta = document.createElement("div");
+    meta.className = "collection-item-meta";
+
+    const category = document.createElement("span");
+    category.textContent = card.category || "综合";
+
+    const date = document.createElement("time");
+    date.textContent = formatDate(card.created_at);
+
+    meta.append(category, date);
+
+    const title = document.createElement("h2");
+    title.textContent = card.title;
+
+    const lead = document.createElement("p");
+    lead.textContent = card.lead;
+
+    const arrow = document.createElement("span");
+    arrow.className = "collection-arrow";
+    arrow.textContent = "›";
+    arrow.setAttribute("aria-hidden", "true");
+
+    item.append(meta, title, lead, arrow);
+    item.addEventListener("click", () => openListCard(card.id));
+    dom.listItems.appendChild(item);
+  });
+}
+
+function openListCard(cardId) {
+  const index = state.visible.findIndex((card) => card.id === cardId);
+  if (index < 0) return;
+
+  state.index = index;
+  state.detailFromList = true;
+  closeMore();
+  render();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+function returnToList() {
+  state.detailFromList = false;
+  closeMore();
+  applyFilters();
+  render();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+function renderCard() {
+  const card = currentCard();
+
+  dom.listView.hidden = true;
+  dom.dock.hidden = false;
+
+  if (!card) {
+    dom.knowledgeView.hidden = true;
+    showEmpty(
+      state.view === "discover" ? "暂时没有推荐内容" : "这条内容已经不在列表中",
+      state.view === "discover"
+        ? "可以在“数据”中恢复不感兴趣的内容。"
+        : "返回列表继续查看其他内容。"
+    );
     updateControls();
     return;
   }
 
+  dom.emptyState.hidden = true;
+  dom.knowledgeView.hidden = false;
+  dom.backToListButton.hidden = !state.detailFromList;
   dom.cardNumber.textContent = String(state.index + 1).padStart(3, "0");
   dom.categoryLabel.textContent = card.category || "综合";
   dom.dateLabel.textContent = formatDate(card.created_at);
@@ -204,13 +305,24 @@ function render() {
   dom.favoriteButton.textContent = saved ? "♥" : "♡";
   dom.favoriteButton.classList.toggle("saved", saved);
 
+  dom.dislikeButton.hidden = state.view !== "discover";
   markHistory(card);
   updateControls();
+}
+
+function showEmpty(title, text) {
+  dom.listView.hidden = true;
+  dom.knowledgeView.hidden = true;
+  dom.dock.hidden = true;
+  dom.emptyState.hidden = false;
+  dom.emptyTitle.textContent = title;
+  dom.emptyText.textContent = text;
 }
 
 function updateControls() {
   const hasCard = Boolean(currentCard());
   const multiple = state.visible.length > 1;
+
   dom.previousButton.disabled = !hasCard || !multiple;
   dom.dislikeButton.disabled = !hasCard;
   dom.interestButton.disabled = !hasCard;
@@ -220,6 +332,7 @@ function updateControls() {
 
 function move(step) {
   if (!state.visible.length) return;
+
   closeMore();
   state.index = (state.index + step + state.visible.length) % state.visible.length;
   render();
@@ -227,6 +340,8 @@ function move(step) {
 }
 
 function dislikeCurrent() {
+  if (state.view !== "discover") return;
+
   const card = currentCard();
   if (!card) return;
 
@@ -246,8 +361,9 @@ function toggleFavorite() {
   if (!card) return;
 
   let favorites = getFavorites();
+  const removing = favorites.includes(card.id);
 
-  if (favorites.includes(card.id)) {
+  if (removing) {
     favorites = favorites.filter((id) => id !== card.id);
     showToast("已取消收藏");
   } else {
@@ -257,12 +373,17 @@ function toggleFavorite() {
 
   writeStore(STORE.favorites, favorites);
 
-  if (state.view === "favorites") applyFilters();
+  if (state.view === "favorites" && removing) {
+    state.detailFromList = false;
+    applyFilters();
+  }
+
   render();
 }
 
 function showMore() {
   if (!currentCard()) return;
+
   dom.moreSection.hidden = false;
   dom.interestButton.textContent = "已展开";
   dom.moreSection.scrollIntoView({ behavior: "smooth", block: "nearest" });
@@ -295,7 +416,10 @@ function exportData() {
     history: getHistory(),
     disliked: getDisliked()
   };
-  const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
+
+  const blob = new Blob([JSON.stringify(payload, null, 2)], {
+    type: "application/json"
+  });
   const url = URL.createObjectURL(blob);
   const anchor = document.createElement("a");
   anchor.href = url;
@@ -307,11 +431,14 @@ function exportData() {
 
 async function importData(file) {
   if (!file) return;
+
   try {
     const payload = JSON.parse(await file.text());
     if (Array.isArray(payload.favorites)) writeStore(STORE.favorites, payload.favorites);
     if (Array.isArray(payload.history)) writeStore(STORE.history, payload.history);
     if (Array.isArray(payload.disliked)) writeStore(STORE.disliked, payload.disliked);
+
+    state.detailFromList = false;
     applyFilters(state.view === "discover");
     render();
     dom.dataDialog.close();
@@ -325,6 +452,7 @@ async function importData(file) {
 
 function restoreDisliked() {
   writeStore(STORE.disliked, []);
+  state.detailFromList = false;
   applyFilters(true);
   render();
   dom.dataDialog.close();
@@ -333,8 +461,12 @@ function restoreDisliked() {
 
 async function loadCards() {
   try {
-    const response = await fetch(`data/cards.json?t=${Date.now()}`, { cache: "no-store" });
+    const response = await fetch(`data/cards.json?t=${Date.now()}`, {
+      cache: "no-store"
+    });
+
     if (!response.ok) throw new Error("读取失败");
+
     const payload = await response.json();
     state.cards = Array.isArray(payload.cards) ? payload.cards : [];
     dom.updateStatus.textContent = `${state.cards.length}条 · ${formatDate(payload.updated_at)}`;
@@ -351,6 +483,7 @@ function bindEvents() {
     tab.addEventListener("click", () => setView(tab.dataset.view));
   });
 
+  dom.backToListButton.addEventListener("click", returnToList);
   dom.previousButton.addEventListener("click", () => move(-1));
   dom.nextButton.addEventListener("click", () => move(1));
   dom.dislikeButton.addEventListener("click", dislikeCurrent);
@@ -376,6 +509,7 @@ function bindEvents() {
 
   dom.installButton.addEventListener("click", async () => {
     if (!state.installPrompt) return;
+
     state.installPrompt.prompt();
     await state.installPrompt.userChoice;
     state.installPrompt = null;

@@ -44,7 +44,22 @@
         <p id="emptyText">先回到推荐页看看。</p>
       </section>
 
+      <section id="listView" class="collection-view" hidden>
+        <header class="collection-head">
+          <div>
+            <span id="listEyebrow" class="collection-eyebrow">SAVED</span>
+            <h1 id="listTitle">我的收藏</h1>
+          </div>
+          <span id="listCount" class="collection-count">0 条</span>
+        </header>
+        <div id="listItems" class="collection-list"></div>
+      </section>
+
       <article id="knowledgeView" class="knowledge-view" hidden>
+        <button id="backToListButton" class="back-to-list" type="button" hidden>
+          ← 返回列表
+        </button>
+
         <div class="meta-row">
           <span id="cardNumber" class="card-number">001</span>
           <div class="meta-pills">
@@ -88,7 +103,7 @@
     <div class="bottom-space"></div>
   </div>
 
-  <div class="dock">
+  <div id="dock" class="dock">
     <button id="previousButton" class="dock-icon" type="button" aria-label="上一条">←</button>
     <button id="dislikeButton" class="dock-secondary" type="button">不感兴趣</button>
     <button id="interestButton" class="dock-primary" type="button">感兴趣</button>

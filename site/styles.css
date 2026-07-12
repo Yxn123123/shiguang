@@ -11,6 +11,7 @@
 }
 
 * { box-sizing: border-box; }
+[hidden] { display: none !important; }
 html { min-height: 100%; background: var(--paper); }
 body {
   margin: 0;
@@ -271,6 +272,104 @@ button { font: inherit; }
   text-decoration: none;
 }
 
+
+.collection-view {
+  max-width: 850px;
+  padding: 18px 0 52px;
+  animation: enter .22s ease both;
+}
+.collection-head {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 12px 0 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--line);
+}
+.collection-eyebrow {
+  color: var(--green);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .18em;
+}
+.collection-head h1 {
+  margin: 5px 0 0;
+  font: 500 clamp(30px,4vw,44px)/1.15 Georgia,"Songti SC",serif;
+}
+.collection-count {
+  flex: 0 0 auto;
+  color: var(--muted);
+  font-size: 13px;
+}
+.collection-list {
+  display: grid;
+}
+.collection-item {
+  position: relative;
+  width: 100%;
+  padding: 20px 46px 20px 0;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  color: inherit;
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+}
+.collection-item:hover {
+  padding-left: 12px;
+  background: linear-gradient(90deg,var(--green-pale),transparent 76%);
+}
+.collection-item-meta {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 8px;
+  color: var(--muted);
+  font-size: 11px;
+}
+.collection-item-meta span {
+  padding: 4px 7px;
+  border-radius: 999px;
+  color: var(--green);
+  background: var(--green-soft);
+  font-weight: 700;
+}
+.collection-item h2 {
+  margin: 0;
+  font: 500 clamp(20px,2.6vw,28px)/1.35 Georgia,"Songti SC",serif;
+  text-wrap: pretty;
+}
+.collection-item p {
+  display: -webkit-box;
+  margin: 8px 0 0;
+  overflow: hidden;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.65;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.collection-arrow {
+  position: absolute;
+  top: 50%;
+  right: 7px;
+  color: #9ca39e;
+  font: 300 30px/1 Georgia,serif;
+  transform: translateY(-50%);
+}
+.back-to-list {
+  display: inline-flex;
+  margin: 0 0 20px;
+  padding: 7px 11px;
+  border: 0;
+  border-radius: 999px;
+  color: var(--green);
+  background: var(--green-soft);
+  cursor: pointer;
+}
+.back-to-list:hover { background: #dce9df; }
+
 .bottom-space { height: 108px; }
 .dock {
   position: fixed;
@@ -375,6 +474,11 @@ button:disabled { opacity: .38; cursor: not-allowed; }
   #previousButton { display: none; }
 }
 @media (max-width: 430px) {
+  .collection-view { padding-top: 10px; }
+  .collection-head { align-items: flex-start; }
+  .collection-item { padding-top: 17px; padding-bottom: 17px; }
+  .collection-item h2 { font-size: 21px; }
+
   .shell { padding-left: 17px; padding-right: 17px; }
   .top-actions { gap: 1px; }
   .text-button { padding: 7px 7px; font-size: 13px; }

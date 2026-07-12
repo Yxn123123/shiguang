@@ -51,7 +51,8 @@ MAX_CANDIDATES_PER_ROUND = int(os.getenv("MAX_CANDIDATES_PER_ROUND", "24"))
 MAX_PROCESS_ROUNDS = int(os.getenv("MAX_PROCESS_ROUNDS", "3"))
 MAX_POOL_SIZE = int(os.getenv("MAX_POOL_SIZE", "1000"))
 MAX_CARDS_STORED = int(os.getenv("MAX_CARDS_STORED", "2000"))
-HARVEST_TARGET_PENDING = int(os.getenv("HARVEST_TARGET_PENDING", "200"))
+HARVEST_TARGET_PENDING = int(os.getenv("HARVEST_TARGET_PENDING", "500"))
+HARVEST_REFILL_TRIGGER = int(os.getenv("HARVEST_REFILL_TRIGGER", "300"))
 HARVEST_MAX_PASSES = int(os.getenv("HARVEST_MAX_PASSES", "4"))
 HARVEST_MIN_ADDED = int(os.getenv("HARVEST_MIN_ADDED", "20"))
 MIN_CANDIDATES_TO_GENERATE = int(os.getenv("MIN_CANDIDATES_TO_GENERATE", "20"))
@@ -1077,15 +1078,26 @@ def run_harvest(started_at: datetime, cards_payload: dict, pool_payload: dict, s
     existing_cards = cards_payload.get("cards", [])
     pool_before = len(pool_payload.get("candidates", []))
     prune_counts = prune_unusable_pool_records(pool_payload)
-    harvested, added, filters, passes, source_counts = harvest_until_reserve(pool_payload, existing_cards, state)
+    pool_after_prune = len(pool_payload.get("candidates", []))
+    refill_needed = pool_after_prune < HARVEST_REFILL_TRIGGER
+    if refill_needed:
+        harvested, added, filters, passes, source_counts = harvest_until_reserve(pool_payload, existing_cards, state)
+    else:
+        harvested, added, filters, passes, source_counts = 0, 0, {}, 0, {}
     merge_counts(filters, prune_counts)
     pool_after = len(pool_payload.get("candidates", []))
     inventory_sufficient = pool_before >= HARVEST_TARGET_PENDING or pool_after >= HARVEST_TARGET_PENDING
     attempted_harvest = passes > 0
     ok_sources = [name for name, info in HARVEST_DIAGNOSTICS.get("sources", {}).items() if info.get("ok")]
-    success = inventory_sufficient or (attempted_harvest and added >= HARVEST_MIN_ADDED and bool(ok_sources))
+    success = (
+        inventory_sufficient
+        or not refill_needed
+        or (attempted_harvest and added >= HARVEST_MIN_ADDED and bool(ok_sources))
+    )
     if inventory_sufficient:
         message = "候选池库存充足，无需补充"
+    elif not refill_needed:
+        message = "候选池库存尚可，等待继续消耗"
     elif success:
         message = "候选囤货成功"
     else:
@@ -1100,6 +1112,9 @@ def run_harvest(started_at: datetime, cards_payload: dict, pool_payload: dict, s
         "added": added,
         "pool_before": pool_before,
         "pool_after": pool_after,
+        "target_pool_size": HARVEST_TARGET_PENDING,
+        "refill_trigger": HARVEST_REFILL_TRIGGER,
+        "refill_needed": refill_needed,
         "source_counts": source_counts,
         "success": success,
         "min_added_for_success": HARVEST_MIN_ADDED,
@@ -1107,7 +1122,19 @@ def run_harvest(started_at: datetime, cards_payload: dict, pool_payload: dict, s
         "diagnostic_report": "data/harvest_report.json",
         "message": message,
     }
-    HARVEST_DIAGNOSTICS.update({"started_at": stats["started_at"], "finished_at": stats["finished_at"], "summary": stats, "filters": filters})
+    HARVEST_DIAGNOSTICS.update(
+        {
+            "started_at": stats["started_at"],
+            "finished_at": stats["finished_at"],
+            "pool_before": pool_before,
+            "pool_after": pool_after,
+            "target_pool_size": HARVEST_TARGET_PENDING,
+            "refill_trigger": HARVEST_REFILL_TRIGGER,
+            "refill_needed": refill_needed,
+            "summary": stats,
+            "filters": filters,
+        }
+    )
     save_harvest_report(HARVEST_DIAGNOSTICS)
     if success:
         save_candidate_pool(pool_payload)
@@ -1116,6 +1143,8 @@ def run_harvest(started_at: datetime, cards_payload: dict, pool_payload: dict, s
     print_counts("harvest", filters)
     print(f"[harvest] fetched={harvested} added={added} pending={len(pool_payload.get('candidates', []))}")
     if inventory_sufficient:
+        return 0
+    if not refill_needed:
         return 0
     if not ok_sources:
         print("[harvest] all major sources failed", file=sys.stderr)

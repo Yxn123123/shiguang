@@ -34,7 +34,8 @@ jobs:
         env:
           RUN_SOURCE: harvest_schedule
           PIPELINE_MODE: harvest
-          HARVEST_TARGET_PENDING: "200"
+          HARVEST_TARGET_PENDING: "500"
+          HARVEST_REFILL_TRIGGER: "300"
           HARVEST_MAX_PASSES: "4"
           HARVEST_MIN_ADDED: "20"
           MAX_POOL_SIZE: "1000"

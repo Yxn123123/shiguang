@@ -122,6 +122,7 @@ class CandidatePipelineTests(unittest.TestCase):
                 "CANDIDATE_POOL_PATH": cards.CANDIDATE_POOL_PATH,
                 "STATE_PATH": cards.STATE_PATH,
                 "HARVEST_TARGET_PENDING": cards.HARVEST_TARGET_PENDING,
+                "HARVEST_REFILL_TRIGGER": cards.HARVEST_REFILL_TRIGGER,
                 "HARVEST_MIN_ADDED": cards.HARVEST_MIN_ADDED,
                 "HARVEST_DIAGNOSTICS": cards.HARVEST_DIAGNOSTICS,
             }
@@ -131,6 +132,7 @@ class CandidatePipelineTests(unittest.TestCase):
                 cards.CANDIDATE_POOL_PATH = tmp_path / "data" / "candidate_pool.json"
                 cards.STATE_PATH = tmp_path / "data" / "generation_state.json"
                 cards.HARVEST_TARGET_PENDING = 2
+                cards.HARVEST_REFILL_TRIGGER = 1
                 cards.HARVEST_MIN_ADDED = 20
                 cards.HARVEST_DIAGNOSTICS = {
                     "version": 1,
@@ -178,6 +180,79 @@ class CandidatePipelineTests(unittest.TestCase):
                 self.assertEqual(
                     status["last_harvest"]["message"],
                     "候选池库存充足，无需补充",
+                )
+                report = json.loads(cards.HARVEST_REPORT_PATH.read_text(encoding="utf-8"))
+                self.assertEqual(report["pool_before"], 2)
+                self.assertEqual(report["pool_after"], 2)
+                self.assertEqual(report["target_pool_size"], 2)
+                self.assertEqual(report["refill_trigger"], 1)
+                self.assertFalse(report["refill_needed"])
+            finally:
+                for name, value in originals.items():
+                    setattr(cards, name, value)
+
+    def test_harvest_waits_when_pool_is_between_trigger_and_target(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            tmp_path = Path(tmp)
+            originals = {
+                "POOL_STATUS_PATH": cards.POOL_STATUS_PATH,
+                "HARVEST_REPORT_PATH": cards.HARVEST_REPORT_PATH,
+                "CANDIDATE_POOL_PATH": cards.CANDIDATE_POOL_PATH,
+                "STATE_PATH": cards.STATE_PATH,
+                "HARVEST_TARGET_PENDING": cards.HARVEST_TARGET_PENDING,
+                "HARVEST_REFILL_TRIGGER": cards.HARVEST_REFILL_TRIGGER,
+                "HARVEST_MIN_ADDED": cards.HARVEST_MIN_ADDED,
+                "HARVEST_DIAGNOSTICS": cards.HARVEST_DIAGNOSTICS,
+            }
+            try:
+                cards.POOL_STATUS_PATH = tmp_path / "site" / "data" / "pool_status.json"
+                cards.HARVEST_REPORT_PATH = tmp_path / "data" / "harvest_report.json"
+                cards.CANDIDATE_POOL_PATH = tmp_path / "data" / "candidate_pool.json"
+                cards.STATE_PATH = tmp_path / "data" / "generation_state.json"
+                cards.HARVEST_TARGET_PENDING = 5
+                cards.HARVEST_REFILL_TRIGGER = 3
+                cards.HARVEST_MIN_ADDED = 20
+                cards.HARVEST_DIAGNOSTICS = {
+                    "version": 1,
+                    "generated_at": None,
+                    "user_agent": cards.USER_AGENT,
+                    "sources": {},
+                    "requests": [],
+                }
+                pool = {
+                    "version": 1,
+                    "candidates": [
+                        {
+                            "source_id": f"wiki-topic:en:{index}",
+                            "source_name": "Wikipedia",
+                            "source_url": f"https://example.test/{index}",
+                            "title": f"Topic {index}",
+                            "excerpt": "A" * 220,
+                            "category_hint": "科学",
+                            "source_rank": 1,
+                        }
+                        for index in range(3)
+                    ],
+                }
+
+                exit_code = cards.run_harvest(
+                    cards.utc_now(),
+                    {"version": 1, "cards": []},
+                    pool,
+                    {"version": 1, "seen": {}},
+                )
+
+                status = json.loads(cards.POOL_STATUS_PATH.read_text(encoding="utf-8"))
+                self.assertEqual(exit_code, 0)
+                self.assertTrue(status["last_harvest"]["success"])
+                self.assertEqual(status["last_harvest"]["passes"], 0)
+                self.assertEqual(status["last_harvest"]["added"], 0)
+                self.assertEqual(status["last_harvest"]["target_pool_size"], 5)
+                self.assertEqual(status["last_harvest"]["refill_trigger"], 3)
+                self.assertFalse(status["last_harvest"]["refill_needed"])
+                self.assertEqual(
+                    status["last_harvest"]["message"],
+                    "候选池库存尚可，等待继续消耗",
                 )
             finally:
                 for name, value in originals.items():

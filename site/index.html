@@ -20,6 +20,7 @@
       </a>
       <div class="top-actions">
         <span id="updateStatus" class="update-status">读取中</span>
+        <button id="loadMoreButton" class="text-button load-more-top" type="button">加载新知</button>
         <button id="dataButton" class="text-button" type="button">数据</button>
         <button id="installButton" class="text-button" type="button" hidden>安装</button>
       </div>
@@ -136,6 +137,38 @@
     <p class="modal-note">
       收藏、历史和不感兴趣记录保存在当前手机或浏览器中。清除浏览器数据前，建议先导出备份。
     </p>
+
+    <section class="trigger-settings">
+      <div class="trigger-settings-head">
+        <div>
+          <span>ON-DEMAND</span>
+          <h3>网页按需加载</h3>
+        </div>
+        <span id="triggerSettingsState" class="trigger-settings-state">未连接</span>
+      </div>
+
+      <label class="setting-field">
+        <span>加载服务地址</span>
+        <input id="triggerEndpointInput" type="url" inputmode="url"
+               placeholder="https://你的-worker.workers.dev">
+      </label>
+
+      <label class="setting-field">
+        <span>个人触发码</span>
+        <input id="triggerSecretInput" type="password" autocomplete="off"
+               placeholder="只保存在当前设备">
+      </label>
+
+      <button id="saveTriggerSettingsButton" class="modal-action primary" type="button">
+        保存加载设置
+      </button>
+
+      <p class="modal-note">
+        这里保存的不是 GitHub 密钥，只是你给加载按钮设置的个人触发码。
+        GitHub 令牌和 AI 密钥只保存在云端。
+      </p>
+    </section>
+
   </dialog>
 
   <div id="toast" class="toast" role="status"></div>

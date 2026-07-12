@@ -1,4 +1,4 @@
-const CACHE = "shiguang-v2";
+const CACHE = "shiguang-v3";
 const SHELL = [
   "./",
   "./index.html",

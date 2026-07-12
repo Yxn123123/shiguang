@@ -2,7 +2,9 @@ const STORE = {
   favorites: "shiguang_favorites_v1",
   history: "shiguang_history_v1",
   disliked: "shiguang_disliked_v1",
-  backupVersion: 1
+  backupVersion: 1,
+  triggerEndpoint: "shiguang_trigger_endpoint_v1",
+  triggerSecret: "shiguang_trigger_secret_v1"
 };
 
 const state = {
@@ -12,13 +14,16 @@ const state = {
   view: "discover",
   category: "综合",
   detailFromList: false,
-  installPrompt: null
+  installPrompt: null,
+  loadingMore: false,
+  currentRunId: null
 };
 
 const categories = ["综合", "生物", "科学", "历史", "艺术", "科技", "生活"];
 
 const dom = {
   updateStatus: document.querySelector("#updateStatus"),
+  loadMoreButton: document.querySelector("#loadMoreButton"),
   dataButton: document.querySelector("#dataButton"),
   installButton: document.querySelector("#installButton"),
   tabs: [...document.querySelectorAll(".main-tab")],
@@ -60,6 +65,10 @@ const dom = {
   exportButton: document.querySelector("#exportButton"),
   importInput: document.querySelector("#importInput"),
   restoreButton: document.querySelector("#restoreButton"),
+  triggerEndpointInput: document.querySelector("#triggerEndpointInput"),
+  triggerSecretInput: document.querySelector("#triggerSecretInput"),
+  saveTriggerSettingsButton: document.querySelector("#saveTriggerSettingsButton"),
+  triggerSettingsState: document.querySelector("#triggerSettingsState"),
   toast: document.querySelector("#toast")
 };
 
@@ -401,10 +410,234 @@ function showToast(message) {
   showToast.timer = setTimeout(() => dom.toast.classList.remove("show"), 1600);
 }
 
+
+function normalizeEndpoint(value) {
+  return String(value || "").trim().replace(/\/+$/, "");
+}
+
+function getTriggerSettings() {
+  return {
+    endpoint: normalizeEndpoint(localStorage.getItem(STORE.triggerEndpoint)),
+    secret: localStorage.getItem(STORE.triggerSecret) || ""
+  };
+}
+
+function updateTriggerSettingsState() {
+  const { endpoint, secret } = getTriggerSettings();
+  const ready = Boolean(endpoint && secret);
+  dom.triggerSettingsState.textContent = ready ? "已连接" : "未连接";
+  dom.triggerSettingsState.classList.toggle("ready", ready);
+}
+
+function saveTriggerSettings() {
+  const endpoint = normalizeEndpoint(dom.triggerEndpointInput.value);
+  const secret = dom.triggerSecretInput.value.trim();
+
+  if (!endpoint.startsWith("https://")) {
+    showToast("服务地址需要以 https:// 开头");
+    return;
+  }
+
+  if (secret.length < 20) {
+    showToast("触发码至少需要20位");
+    return;
+  }
+
+  localStorage.setItem(STORE.triggerEndpoint, endpoint);
+  localStorage.setItem(STORE.triggerSecret, secret);
+  updateTriggerSettingsState();
+  dom.dataDialog.close();
+  showToast("加载服务已连接");
+}
+
+function setLoadButtonState(text, busy = false) {
+  state.loadingMore = busy;
+  dom.loadMoreButton.disabled = busy;
+  dom.loadMoreButton.textContent = text;
+  dom.loadMoreButton.classList.toggle("working", busy);
+}
+
+async function apiRequest(path, options = {}) {
+  const { endpoint, secret } = getTriggerSettings();
+  const response = await fetch(`${endpoint}${path}`, {
+    ...options,
+    headers: {
+      "Content-Type": "application/json",
+      "X-Trigger-Key": secret,
+      ...(options.headers || {})
+    }
+  });
+
+  let payload = {};
+  try {
+    payload = await response.json();
+  } catch {
+    payload = {};
+  }
+
+  if (!response.ok) {
+    const error = new Error(payload.message || `请求失败（${response.status}）`);
+    error.status = response.status;
+    error.payload = payload;
+    throw error;
+  }
+
+  return payload;
+}
+
+async function fetchLatestCardsPayload() {
+  const response = await fetch(`data/cards.json?t=${Date.now()}`, {
+    cache: "no-store"
+  });
+  if (!response.ok) throw new Error("读取知识库失败");
+  return response.json();
+}
+
+function applyCardsPayload(payload) {
+  state.cards = Array.isArray(payload.cards) ? payload.cards : [];
+  dom.updateStatus.textContent = `${state.cards.length}条 · ${formatDate(payload.updated_at)}`;
+  state.detailFromList = false;
+  applyFilters(state.view === "discover");
+  render();
+}
+
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+async function waitForPublishedCards(beforeCount, beforeUpdatedAt) {
+  setLoadButtonState("正在发布…", true);
+
+  for (let attempt = 0; attempt < 20; attempt += 1) {
+    await sleep(attempt === 0 ? 5000 : 7000);
+
+    try {
+      const payload = await fetchLatestCardsPayload();
+      const count = Array.isArray(payload.cards) ? payload.cards.length : 0;
+      const changed =
+        count > beforeCount ||
+        (payload.updated_at && payload.updated_at !== beforeUpdatedAt);
+
+      if (changed) {
+        applyCardsPayload(payload);
+        const added = Math.max(0, count - beforeCount);
+        setLoadButtonState("加载新知", false);
+        showToast(added ? `新增 ${added} 条知识` : "知识库已更新");
+        return;
+      }
+    } catch {
+      // Pages may still be deploying. Keep polling.
+    }
+  }
+
+  setLoadButtonState("加载新知", false);
+  showToast("本轮没有筛出合格的新知识");
+}
+
+async function pollGenerationRun(runId, beforeCount, beforeUpdatedAt) {
+  state.currentRunId = runId;
+  setLoadButtonState("正在筛选…", true);
+
+  for (let attempt = 0; attempt < 45; attempt += 1) {
+    await sleep(6000);
+
+    try {
+      const payload = await apiRequest(`/status?run_id=${encodeURIComponent(runId)}`);
+      if (payload.status !== "completed") continue;
+
+      if (payload.conclusion === "success") {
+        await waitForPublishedCards(beforeCount, beforeUpdatedAt);
+      } else {
+        setLoadButtonState("加载新知", false);
+        showToast("生成任务没有成功，请到 Actions 查看");
+      }
+      state.currentRunId = null;
+      return;
+    } catch (error) {
+      if (error.status === 404) continue;
+      setLoadButtonState("加载新知", false);
+      showToast(error.message || "查询生成进度失败");
+      state.currentRunId = null;
+      return;
+    }
+  }
+
+  setLoadButtonState("加载新知", false);
+  showToast("任务仍在运行，可稍后刷新查看");
+  state.currentRunId = null;
+}
+
+async function triggerMoreKnowledge() {
+  if (state.loadingMore) return;
+
+  const settings = getTriggerSettings();
+  if (!settings.endpoint || !settings.secret) {
+    openDataDialog();
+    dom.triggerEndpointInput.focus();
+    showToast("先连接网页加载服务");
+    return;
+  }
+
+  const beforeCount = state.cards.length;
+  let beforeUpdatedAt = "";
+  try {
+    const payload = await fetchLatestCardsPayload();
+    beforeUpdatedAt = payload.updated_at || "";
+  } catch {
+    beforeUpdatedAt = "";
+  }
+
+  setLoadButtonState("正在启动…", true);
+
+  try {
+    const payload = await apiRequest("/trigger", {
+      method: "POST",
+      body: JSON.stringify({ source: "web" })
+    });
+
+    const runId = payload.run_id;
+    if (!runId) throw new Error("没有获得任务编号");
+    showToast("已经开始寻找新知识");
+    await pollGenerationRun(runId, beforeCount, beforeUpdatedAt);
+  } catch (error) {
+    setLoadButtonState("加载新知", false);
+
+    if (error.status === 409 && error.payload?.run_id) {
+      showToast("已有任务在运行，正在接入");
+      await pollGenerationRun(
+        error.payload.run_id,
+        beforeCount,
+        beforeUpdatedAt
+      );
+      return;
+    }
+
+    if (error.status === 429) {
+      const minutes = Math.max(1, Math.ceil((error.payload?.retry_after || 60) / 60));
+      showToast(`刚加载过，请约 ${minutes} 分钟后再试`);
+      return;
+    }
+
+    if (error.status === 401) {
+      openDataDialog();
+      showToast("个人触发码不正确");
+      return;
+    }
+
+    showToast(error.message || "无法启动加载任务");
+  }
+}
+
 function openDataDialog() {
   dom.totalCards.textContent = String(state.cards.length);
   dom.totalFavorites.textContent = String(getFavorites().length);
   dom.totalHistory.textContent = String(getHistory().length);
+
+  const settings = getTriggerSettings();
+  dom.triggerEndpointInput.value = settings.endpoint;
+  dom.triggerSecretInput.value = settings.secret;
+  updateTriggerSettingsState();
+
   dom.dataDialog.showModal();
 }
 
@@ -491,11 +724,13 @@ function bindEvents() {
   dom.closeMoreButton.addEventListener("click", closeMore);
   dom.favoriteButton.addEventListener("click", toggleFavorite);
 
+  dom.loadMoreButton.addEventListener("click", triggerMoreKnowledge);
   dom.dataButton.addEventListener("click", openDataDialog);
   dom.closeDataButton.addEventListener("click", () => dom.dataDialog.close());
   dom.exportButton.addEventListener("click", exportData);
   dom.importInput.addEventListener("change", () => importData(dom.importInput.files[0]));
   dom.restoreButton.addEventListener("click", restoreDisliked);
+  dom.saveTriggerSettingsButton.addEventListener("click", saveTriggerSettings);
 
   dom.dataDialog.addEventListener("click", (event) => {
     if (event.target === dom.dataDialog) dom.dataDialog.close();
@@ -524,6 +759,7 @@ function registerServiceWorker() {
 }
 
 function init() {
+  updateTriggerSettingsState();
   renderCategories();
   bindEvents();
   loadCards();

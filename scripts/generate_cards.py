@@ -530,7 +530,13 @@ def main() -> int:
         return 1
 
     print(f"[pipeline] total candidates: {len(candidates)}")
-    client = OpenAI()
+    base_url = os.getenv("OPENAI_BASE_URL", "").strip()
+    client = OpenAI(
+        api_key=os.environ["OPENAI_API_KEY"],
+        base_url=base_url or None,
+    )
+    if base_url:
+        print(f"[pipeline] using custom base URL: {base_url}")
     proposals = extract_proposals(client, candidates)
     print(f"[pipeline] extracted proposals: {len(proposals)}")
 

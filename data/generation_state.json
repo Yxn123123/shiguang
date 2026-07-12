@@ -84,7 +84,73 @@
       "source_url": "https://en.wikipedia.org/wiki/Seismology",
       "outcome": "accepted",
       "reason": ""
+    },
+    "met:468081": {
+      "last_seen": "2026-07-12T10:14:15.845645Z",
+      "source_url": "https://www.metmuseum.org/art/collection/search/468081",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "en-category:47526": {
+      "last_seen": "2026-07-12T10:14:15.845659Z",
+      "source_url": "https://en.wikipedia.org/wiki/Convection",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "en-category:387491": {
+      "last_seen": "2026-07-12T10:14:15.845666Z",
+      "source_url": "https://en.wikipedia.org/wiki/Chatoyancy",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "en-category:67555055": {
+      "last_seen": "2026-07-12T10:14:15.845670Z",
+      "source_url": "https://en.wikipedia.org/wiki/Focal_molography",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "en-category:4024": {
+      "last_seen": "2026-07-12T10:14:15.845675Z",
+      "source_url": "https://en.wikipedia.org/wiki/Butterfly_effect",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "en-category:35537980": {
+      "last_seen": "2026-07-12T10:14:15.845678Z",
+      "source_url": "https://en.wikipedia.org/wiki/Acoustic_attenuation",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "en-category:598536": {
+      "last_seen": "2026-07-12T10:14:15.845682Z",
+      "source_url": "https://en.wikipedia.org/wiki/Einstein_ring",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "met:551999": {
+      "last_seen": "2026-07-12T10:14:15.845686Z",
+      "source_url": "https://www.metmuseum.org/art/collection/search/551999",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "en-category:37232": {
+      "last_seen": "2026-07-12T10:14:15.845691Z",
+      "source_url": "https://en.wikipedia.org/wiki/Fermat%27s_principle",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "en-category:172333": {
+      "last_seen": "2026-07-12T10:14:15.845695Z",
+      "source_url": "https://en.wikipedia.org/wiki/Dispersion_(optics)",
+      "outcome": "rejected",
+      "reason": "证据未能在原文中匹配"
+    },
+    "met:344511": {
+      "last_seen": "2026-07-12T10:14:15.845700Z",
+      "source_url": "https://www.metmuseum.org/art/collection/search/344511",
+      "outcome": "no_proposal",
+      "reason": ""
     }
   },
-  "updated_at": "2026-07-12T09:06:04.830661Z"
+  "updated_at": "2026-07-12T10:14:15.846594Z"
 }

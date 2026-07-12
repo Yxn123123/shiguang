@@ -1,8 +1,130 @@
 {
   "version": 1,
-  "updated_at": null,
-  "approved_cards": 0,
+  "updated_at": "2026-07-12T10:14:15.847071Z",
+  "approved_cards": 29,
   "pending_candidates": 0,
-  "last_run": null,
-  "recent_runs": []
+  "last_run": {
+    "github_run_id": "29188666985",
+    "source": "web",
+    "started_at": "2026-07-12T10:12:56.013894Z",
+    "finished_at": "2026-07-12T10:14:15.846876Z",
+    "duration_seconds": 79.83,
+    "target_new_cards": 12,
+    "rounds": 1,
+    "harvested": 11,
+    "new_candidates": 11,
+    "pool_before": 0,
+    "pool_after": 0,
+    "processed": 11,
+    "proposals": 7,
+    "reviewed": 7,
+    "added": 6,
+    "pass_rate": 54.5,
+    "input_tokens": 21625,
+    "output_tokens": 3450,
+    "filters": {
+      "harvest": {
+        "already_in_pool": 0,
+        "already_published": 0,
+        "seen_recently": 0,
+        "low_information": 0,
+        "pool_limit": 0
+      },
+      "before_ai": {
+        "invalid_record": 0,
+        "duplicate_source": 0,
+        "seen_recently": 0,
+        "low_information": 0
+      },
+      "before_review": {
+        "low_confidence": 0,
+        "missing_candidate": 0,
+        "bad_title": 0,
+        "bad_category": 0,
+        "similar_title": 0
+      },
+      "final": {
+        "model_rejected": 0,
+        "score_below_78": 0,
+        "bad_title": 0,
+        "bad_category": 0,
+        "evidence_mismatch": 1,
+        "duplicate_source": 0,
+        "similar_title": 0
+      }
+    },
+    "source_stats": {
+      "大都会博物馆": {
+        "processed": 3,
+        "accepted": 0
+      },
+      "英文维基分类": {
+        "processed": 8,
+        "accepted": 6
+      }
+    }
+  },
+  "recent_runs": [
+    {
+      "github_run_id": "29188666985",
+      "source": "web",
+      "started_at": "2026-07-12T10:12:56.013894Z",
+      "finished_at": "2026-07-12T10:14:15.846876Z",
+      "duration_seconds": 79.83,
+      "target_new_cards": 12,
+      "rounds": 1,
+      "harvested": 11,
+      "new_candidates": 11,
+      "pool_before": 0,
+      "pool_after": 0,
+      "processed": 11,
+      "proposals": 7,
+      "reviewed": 7,
+      "added": 6,
+      "pass_rate": 54.5,
+      "input_tokens": 21625,
+      "output_tokens": 3450,
+      "filters": {
+        "harvest": {
+          "already_in_pool": 0,
+          "already_published": 0,
+          "seen_recently": 0,
+          "low_information": 0,
+          "pool_limit": 0
+        },
+        "before_ai": {
+          "invalid_record": 0,
+          "duplicate_source": 0,
+          "seen_recently": 0,
+          "low_information": 0
+        },
+        "before_review": {
+          "low_confidence": 0,
+          "missing_candidate": 0,
+          "bad_title": 0,
+          "bad_category": 0,
+          "similar_title": 0
+        },
+        "final": {
+          "model_rejected": 0,
+          "score_below_78": 0,
+          "bad_title": 0,
+          "bad_category": 0,
+          "evidence_mismatch": 1,
+          "duplicate_source": 0,
+          "similar_title": 0
+        }
+      },
+      "source_stats": {
+        "大都会博物馆": {
+          "processed": 3,
+          "accepted": 0
+        },
+        "英文维基分类": {
+          "processed": 8,
+          "accepted": 6
+        }
+      }
+    }
+  ]
 }

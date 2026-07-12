@@ -1,0 +1,19 @@
+{
+  "name": "拾光 · 每天一点新知识",
+  "short_name": "拾光",
+  "description": "每天自动更新、适合手机轻阅读的个人知识应用。",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fbfaf7",
+  "theme_color": "#fbfaf7",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

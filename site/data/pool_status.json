@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-12T11:39:40.593528Z",
+  "updated_at": "2026-07-12T14:03:27.774818Z",
   "approved_cards": 29,
   "pending_candidates": 200,
   "last_run": {
@@ -181,30 +181,20 @@
     }
   ],
   "last_harvest": {
-    "github_run_id": "",
-    "source": "local_test",
-    "started_at": "2026-07-12T11:38:24.361853Z",
-    "finished_at": "2026-07-12T11:39:40.585531Z",
-    "passes": 1,
-    "fetched": 269,
-    "added": 200,
-    "pool_before": 0,
+    "github_run_id": "29195445991",
+    "source": "harvest_schedule",
+    "started_at": "2026-07-12T14:03:27.755275Z",
+    "finished_at": "2026-07-12T14:03:27.774311Z",
+    "passes": 0,
+    "fetched": 0,
+    "added": 0,
+    "pool_before": 200,
     "pool_after": 200,
-    "source_counts": {
-      "维基主题分类": 142,
-      "NASA APOD": 4,
-      "英文维基随机": 100,
-      "中文维基随机": 23
-    },
-    "success": true,
+    "source_counts": {},
+    "success": false,
     "min_added_for_success": 20,
-    "ok_sources": [
-      "Wikipedia topic samples",
-      "NASA APOD",
-      "English Wikipedia random pass 1",
-      "Chinese Wikipedia random pass 1"
-    ],
+    "ok_sources": [],
     "diagnostic_report": "data/harvest_report.json",
-    "message": "候选囤货成功"
+    "message": "候选囤货未达标：新增 0 条，成功阈值 20 条"
   }
 }

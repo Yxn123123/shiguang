@@ -291,28 +291,55 @@
         <span id="poolStatusTime" class="pool-status-time">尚未运行</span>
       </div>
 
-      <div class="pool-metrics">
-        <div>
-          <strong id="pendingCandidateCount">0</strong>
-          <span>待处理候选</span>
+      <div class="pool-subsection">
+        <span class="pool-subtitle">候选囤货</span>
+        <div class="pool-metrics">
+          <div>
+            <strong id="pendingCandidateCount">0</strong>
+            <span>当前候选</span>
+          </div>
+          <div>
+            <strong id="harvestFetchedCount">—</strong>
+            <span>上次抓取</span>
+          </div>
+          <div>
+            <strong id="harvestAddedCount">—</strong>
+            <span>上次入池</span>
+          </div>
+          <div>
+            <strong id="harvestPoolAfter">—</strong>
+            <span>囤货后库存</span>
+          </div>
         </div>
-        <div>
-          <strong id="lastAddedCount">0</strong>
-          <span>上次新增</span>
-        </div>
-        <div>
-          <strong id="lastPassRate">—</strong>
-          <span>上次通过率</span>
-        </div>
-        <div>
-          <strong id="lastTokenCount">—</strong>
-          <span>上次 Token</span>
-        </div>
+        <p id="harvestStatusNote" class="pool-status-note">
+          候选池会自动补充，不调用 AI。
+        </p>
       </div>
 
-      <p id="poolStatusNote" class="pool-status-note">
-        第一次批量补充后，这里会显示候选库存、通过率和消耗。
-      </p>
+      <div class="pool-subsection">
+        <span class="pool-subtitle">AI 生成</span>
+        <div class="pool-metrics">
+          <div>
+            <strong id="lastAddedCount">0</strong>
+            <span>上次新增</span>
+          </div>
+          <div>
+            <strong id="lastPassRate">—</strong>
+            <span>上次通过率</span>
+          </div>
+          <div>
+            <strong id="lastTokenCount">—</strong>
+            <span>上次 Token</span>
+          </div>
+          <div>
+            <strong id="lastProcessedCount">—</strong>
+            <span>上次处理</span>
+          </div>
+        </div>
+        <p id="poolStatusNote" class="pool-status-note">
+          AI 生成和候选囤货现在分开统计。
+        </p>
+      </div>
     </section>
 
     <button id="exportButton" class="modal-action primary" type="button">导出个人记录</button>

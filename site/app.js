@@ -129,9 +129,14 @@ const dom = {
   replenishButton: document.querySelector("#replenishButton"),
   poolStatusTime: document.querySelector("#poolStatusTime"),
   pendingCandidateCount: document.querySelector("#pendingCandidateCount"),
+  harvestFetchedCount: document.querySelector("#harvestFetchedCount"),
+  harvestAddedCount: document.querySelector("#harvestAddedCount"),
+  harvestPoolAfter: document.querySelector("#harvestPoolAfter"),
+  harvestStatusNote: document.querySelector("#harvestStatusNote"),
   lastAddedCount: document.querySelector("#lastAddedCount"),
   lastPassRate: document.querySelector("#lastPassRate"),
   lastTokenCount: document.querySelector("#lastTokenCount"),
+  lastProcessedCount: document.querySelector("#lastProcessedCount"),
   poolStatusNote: document.querySelector("#poolStatusNote"),
   supplyTaskCard: document.querySelector("#supplyTaskCard"),
   supplyTaskTitle: document.querySelector("#supplyTaskTitle"),
@@ -1239,35 +1244,67 @@ async function fetchPoolStatus() {
 
 function applyPoolStatus(payload) {
   const lastRun = payload?.last_run || null;
+  const lastHarvest = payload?.last_harvest || null;
+
   dom.pendingCandidateCount.textContent = String(
     payload?.pending_candidates || 0
   );
+
+  if (lastHarvest) {
+    dom.harvestFetchedCount.textContent = String(
+      lastHarvest.fetched || 0
+    );
+    dom.harvestAddedCount.textContent = String(
+      lastHarvest.added || 0
+    );
+    dom.harvestPoolAfter.textContent = String(
+      lastHarvest.pool_after || 0
+    );
+    dom.harvestStatusNote.textContent =
+      `上次囤货运行 ${lastHarvest.passes || 0} 轮，` +
+      `抓取 ${lastHarvest.fetched || 0} 条，` +
+      `实际入池 ${lastHarvest.added || 0} 条。`;
+  } else {
+    dom.harvestFetchedCount.textContent = "—";
+    dom.harvestAddedCount.textContent = "—";
+    dom.harvestPoolAfter.textContent = "—";
+    dom.harvestStatusNote.textContent =
+      "候选池会自动补充，不调用 AI。";
+  }
 
   if (!lastRun) {
     dom.lastAddedCount.textContent = "0";
     dom.lastPassRate.textContent = "—";
     dom.lastTokenCount.textContent = "—";
+    dom.lastProcessedCount.textContent = "—";
     dom.poolStatusTime.textContent = "尚未运行";
     dom.poolStatusNote.textContent =
-      "第一次批量补充后，这里会显示候选库存、通过率和消耗。";
+      "第一次批量生成后，这里会显示通过率和消耗。";
     return;
   }
 
   dom.lastAddedCount.textContent = String(lastRun.added || 0);
   dom.lastPassRate.textContent =
     `${Number(lastRun.pass_rate || 0).toFixed(1)}%`;
+  dom.lastProcessedCount.textContent = String(lastRun.processed || 0);
 
   const totalTokens =
     Number(lastRun.input_tokens || 0) +
     Number(lastRun.output_tokens || 0);
   dom.lastTokenCount.textContent = formatCompactNumber(totalTokens);
-  dom.poolStatusTime.textContent = formatDate(lastRun.finished_at);
+  dom.poolStatusTime.textContent = formatDate(
+    payload.updated_at || lastRun.finished_at
+  );
 
-  dom.poolStatusNote.textContent =
-    `上次处理 ${lastRun.processed || 0} 个候选，` +
-    `形成 ${lastRun.proposals || 0} 个提案，` +
-    `审核 ${lastRun.reviewed || 0} 条，` +
-    `最终新增 ${lastRun.added || 0} 条。`;
+  if (lastRun.message) {
+    dom.poolStatusNote.textContent = lastRun.message;
+  } else {
+    dom.poolStatusNote.textContent =
+      `上次处理 ${lastRun.processed || 0} 个候选，` +
+      `形成 ${lastRun.proposals || 0} 个提案，` +
+      `审核 ${lastRun.reviewed || 0} 条，` +
+      `最终新增 ${lastRun.added || 0} 条。`;
+  }
 }
 
 async function refreshPoolStatus() {

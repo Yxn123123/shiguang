@@ -38,6 +38,11 @@ MAX_PROCESS_ROUNDS = int(os.getenv("MAX_PROCESS_ROUNDS", "3"))
 POOL_MIN_PENDING = int(os.getenv("POOL_MIN_PENDING", "160"))
 MAX_POOL_SIZE = int(os.getenv("MAX_POOL_SIZE", "1000"))
 MAX_CARDS_STORED = int(os.getenv("MAX_CARDS_STORED", "2000"))
+HARVEST_TARGET_PENDING = int(
+    os.getenv("HARVEST_TARGET_PENDING", "240")
+)
+HARVEST_MAX_PASSES = int(os.getenv("HARVEST_MAX_PASSES", "4"))
+PIPELINE_MODE = os.getenv("PIPELINE_MODE", "generate").strip() or "generate"
 SEEN_TTL_DAYS = int(os.getenv("SEEN_TTL_DAYS", "30"))
 
 USER_AGENT = "ShiguangKnowledgePWA/2.2 (personal educational project)"
@@ -659,7 +664,87 @@ def fetch_met_objects() -> list[Candidate]:
     return candidates
 
 
-def fetch_candidates() -> list[Candidate]:
+
+def random_title_is_weak(title: str) -> bool:
+    lowered = title.lower()
+    weak_prefixes = (
+        "list of ",
+        "outline of ",
+        "index of ",
+        "timeline of ",
+        "glossary of ",
+    )
+    if lowered.startswith(weak_prefixes):
+        return True
+    if re.fullmatch(r"\d{3,4}", title):
+        return True
+    return len(title) < 3 or len(title) > 90
+
+
+def fetch_wikipedia_random_samples(
+    language: str,
+    request_count: int,
+    source_rank: int = 4,
+) -> list[Candidate]:
+    """Fetch random article introductions to keep the raw reserve stocked."""
+    candidates: list[Candidate] = []
+    requests_needed = max(1, (request_count + 19) // 20)
+
+    for _ in range(requests_needed):
+        try:
+            payload = request_json(
+                f"https://{language}.wikipedia.org/w/api.php",
+                action="query",
+                generator="random",
+                grnnamespace=0,
+                grnlimit=20,
+                prop="extracts|info|pageprops",
+                exintro=1,
+                explaintext=1,
+                exchars=1500,
+                inprop="url",
+                format="json",
+                origin="*",
+            )
+        except requests.RequestException:
+            continue
+
+        for page in payload.get("query", {}).get("pages", {}).values():
+            title = normalize_space(page.get("title", ""))
+            extract = normalize_space(page.get("extract", ""))
+            pageprops = page.get("pageprops", {})
+
+            if "disambiguation" in pageprops:
+                continue
+            if random_title_is_weak(title):
+                continue
+            if not 180 <= len(extract) <= 1500:
+                continue
+
+            page_id = page.get("pageid", title)
+            full_url = page.get(
+                "fullurl",
+                f"https://{language}.wikipedia.org/wiki/"
+                + quote(title.replace(" ", "_")),
+            )
+            candidates.append(
+                Candidate(
+                    source_id=f"wiki-random:{language}:{page_id}",
+                    source_name=f"{language.upper()} Wikipedia：{title}",
+                    source_url=full_url,
+                    title=title,
+                    excerpt=extract,
+                    category_hint="综合",
+                    source_rank=source_rank,
+                )
+            )
+
+    unique = {candidate.source_id: candidate for candidate in candidates}
+    result = list(unique.values())
+    random.SystemRandom().shuffle(result)
+    return result[:request_count]
+
+def fetch_candidates(harvest_pass: int = 0) -> list[Candidate]:
     providers = [
         ("Chinese Wikipedia DYK history", fetch_wikipedia_dyk_history),
         ("English Wikipedia recent additions", fetch_english_recent_additions),
@@ -670,10 +755,32 @@ def fetch_candidates() -> list[Candidate]:
     ]
     collected: list[Candidate] = []
 
-    for name, provider in providers:
+    # Expensive/static sources are read on the first pass only. Later passes
+    # rely on random article introductions to reach a genuine reserve level.
+    if harvest_pass == 0:
+        for name, provider in providers:
+            try:
+                items = provider()
+                print(f"[source] {name}: {len(items)} candidates")
+                collected.extend(items)
+            except Exception as exc:
+                print(f"[source] {name} failed: {exc}", file=sys.stderr)
+
+    random_requests = [
+        ("English Wikipedia random", "en", 90, 4),
+        ("Chinese Wikipedia random", "zh", 50, 4),
+    ]
+    for name, language, count, rank in random_requests:
         try:
-            items = provider()
-            print(f"[source] {name}: {len(items)} candidates")
+            items = fetch_wikipedia_random_samples(
+                language,
+                count,
+                rank,
+            )
+            print(
+                f"[source] {name} pass={harvest_pass + 1}: "
+                f"{len(items)} candidates"
+            )
             collected.extend(items)
         except Exception as exc:
             print(f"[source] {name} failed: {exc}", file=sys.stderr)
@@ -1015,6 +1122,69 @@ def source_family(source_id: str) -> str:
         return "历史上的今天"
     return "其他"
 
+
+def save_harvest_status(
+    *,
+    cards_count: int,
+    pending_count: int,
+    stats: dict,
+) -> None:
+    POOL_STATUS_PATH.parent.mkdir(parents=True, exist_ok=True)
+    payload = load_pool_status()
+    payload.update(
+        {
+            "version": 1,
+            "updated_at": iso_now(),
+            "approved_cards": cards_count,
+            "pending_candidates": pending_count,
+            "last_harvest": stats,
+        }
+    )
+    POOL_STATUS_PATH.write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+
+def harvest_until_reserve(
+    pool_payload: dict,
+    cards: list[dict],
+    state: dict,
+) -> tuple[int, int, dict[str, int], int]:
+    total_fetched = 0
+    total_added = 0
+    combined_counts: dict[str, int] = {}
+    passes_used = 0
+
+    while (
+        len(pool_payload.get("candidates", [])) < HARVEST_TARGET_PENDING
+        and passes_used < HARVEST_MAX_PASSES
+    ):
+        fetched = fetch_candidates(passes_used)
+        passes_used += 1
+        total_fetched += len(fetched)
+
+        added, counts = merge_candidates_into_pool(
+            pool_payload,
+            fetched,
+            cards,
+            state,
+        )
+        total_added += added
+        merge_counts(combined_counts, counts)
+
+        print(
+            f"[harvest {passes_used}] fetched={len(fetched)} "
+            f"added={added} "
+            f"pending={len(pool_payload.get('candidates', []))}"
+        )
+
+        # Avoid looping pointlessly if a pass produced no new material.
+        if not fetched or added == 0:
+            break
+
+    return total_fetched, total_added, combined_counts, passes_used
+
 EXTRACTION_INSTRUCTIONS = """
 你是“拾光”知识编辑。请从候选材料里找适合普通人轻阅读的具体知识。
 
@@ -1350,25 +1520,55 @@ def main() -> int:
     pool_before = len(pool_payload.get("candidates", []))
     harvested = 0
     new_candidates = 0
+    harvest_passes = 0
     harvest_filter_counts: dict[str, int] = {}
 
-    if pool_before < POOL_MIN_PENDING:
-        fetched = fetch_candidates()
-        harvested = len(fetched)
-        print(f"[pool] harvested candidates: {harvested}")
-        new_candidates, harvest_filter_counts = merge_candidates_into_pool(
+    if pool_before < POOL_MIN_PENDING or PIPELINE_MODE == "harvest":
+        (
+            harvested,
+            new_candidates,
+            harvest_filter_counts,
+            harvest_passes,
+        ) = harvest_until_reserve(
             pool_payload,
-            fetched,
             existing_cards,
             state,
         )
         print_counts("harvest", harvest_filter_counts)
-        print(f"[pool] added pending candidates: {new_candidates}")
+        print(
+            f"[pool] reserve after harvest: "
+            f"{len(pool_payload.get('candidates', []))}"
+        )
     else:
         print(
             f"[pool] pending candidates already sufficient: "
             f"{pool_before} >= {POOL_MIN_PENDING}"
         )
+
+    if PIPELINE_MODE == "harvest":
+        save_candidate_pool(pool_payload)
+        save_state(state)
+        harvest_stats = {
+            "github_run_id": github_run_id,
+            "source": RUN_SOURCE,
+            "started_at": started_at.isoformat().replace("+00:00", "Z"),
+            "finished_at": iso_now(),
+            "passes": harvest_passes,
+            "fetched": harvested,
+            "added": new_candidates,
+            "pool_before": pool_before,
+            "pool_after": len(pool_payload.get("candidates", [])),
+        }
+        save_harvest_status(
+            cards_count=len(existing_cards),
+            pending_count=len(pool_payload.get("candidates", [])),
+            stats=harvest_stats,
+        )
+        print(
+            f"[harvest] finished with "
+            f"{len(pool_payload.get('candidates', []))} pending candidates"
+        )
+        return 0
 
     if not os.getenv("OPENAI_API_KEY"):
         run_stats = {
@@ -1379,6 +1579,7 @@ def main() -> int:
             "target_new_cards": target_new_cards,
             "harvested": harvested,
             "new_candidates": new_candidates,
+            "harvest_passes": harvest_passes,
             "pool_before": pool_before,
             "pool_after": len(pool_payload.get("candidates", [])),
             "processed": 0,
@@ -1570,6 +1771,7 @@ def main() -> int:
         "rounds": rounds_used,
         "harvested": harvested,
         "new_candidates": new_candidates,
+        "harvest_passes": harvest_passes,
         "pool_before": pool_before,
         "pool_after": len(pool_payload.get("candidates", [])),
         "processed": processed_total,

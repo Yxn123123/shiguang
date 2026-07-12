@@ -7,13 +7,15 @@ on:
         description: "Trigger source"
         required: false
         default: "manual"
+      target_new_cards:
+        description: "Optional target number of approved cards"
+        required: false
+        default: ""
   schedule:
     - cron: "17 23 * * *"
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
   group: "knowledge-generation"
@@ -35,15 +37,20 @@ jobs:
       - name: Install generator dependencies
         run: pip install -r requirements.txt
 
-      - name: Generate and review new cards
+      - name: Replenish candidate and knowledge pools
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
           OPENAI_MODEL: gpt-5.6-luna
           NASA_API_KEY: ${{ secrets.NASA_API_KEY }}
-          MAX_NEW_CARDS: "8"
-          MAX_CANDIDATES: "24"
-          SEEN_TTL_DAYS: "7"
+          RUN_SOURCE: ${{ github.event.inputs.source || github.event_name }}
+          TARGET_NEW_CARDS: ${{ github.event.inputs.target_new_cards }}
+          MAX_CANDIDATES_PER_ROUND: "24"
+          MAX_PROCESS_ROUNDS: "3"
+          POOL_MIN_PENDING: "160"
+          MAX_POOL_SIZE: "1000"
+          MAX_CARDS_STORED: "2000"
+          SEEN_TTL_DAYS: "30"
         run: |
           if [ -z "$OPENAI_API_KEY" ]; then
             echo "OPENAI_API_KEY has not been configured."
@@ -51,36 +58,16 @@ jobs:
           fi
           python scripts/generate_cards.py
 
-      - name: Commit generation results
+      - name: Commit pool and knowledge updates
         run: |
-          if git diff --quiet -- site/data/cards.json data/generation_state.json; then
-            echo "No generated file changes to commit."
+          CHANGED_FILES="site/data/cards.json site/data/pool_status.json data/candidate_pool.json data/generation_state.json"
+
+          if [ -z "$(git status --porcelain -- $CHANGED_FILES)" ]; then
+            echo "No pool or card changes to commit."
           else
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add site/data/cards.json data/generation_state.json
-            git commit -m "content: record knowledge generation"
+            git add $CHANGED_FILES
+            git commit -m "content: replenish knowledge pool"
             git push
           fi
-
-      - name: Configure Pages
-        uses: actions/configure-pages@v5
-
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: "site"
-
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: generate
-    concurrency:
-      group: "pages"
-      cancel-in-progress: false
-    steps:
-      - name: Deploy Pages
-        id: deployment
-        uses: actions/deploy-pages@v4

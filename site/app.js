@@ -1260,7 +1260,7 @@ function applyPoolStatus(payload) {
     dom.harvestPoolAfter.textContent = String(
       lastHarvest.pool_after || 0
     );
-    dom.harvestStatusNote.textContent =
+    dom.harvestStatusNote.textContent = lastHarvest.message ||
       `上次囤货运行 ${lastHarvest.passes || 0} 轮，` +
       `抓取 ${lastHarvest.fetched || 0} 条，` +
       `实际入池 ${lastHarvest.added || 0} 条。`;

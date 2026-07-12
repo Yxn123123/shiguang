@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate reviewed Chinese knowledge cards with a high-yield, low-waste pipeline."""
+"""Harvest public candidates or generate reviewed Chinese knowledge cards."""
 
 from __future__ import annotations
 
@@ -9,6 +9,7 @@ import os
 import random
 import re
 import sys
+import time
 import unicodedata
 from dataclasses import asdict, dataclass
 from datetime import datetime, timedelta, timezone
@@ -18,45 +19,63 @@ from typing import Iterable
 from urllib.parse import quote
 
 import requests
-from bs4 import BeautifulSoup
-from openai import OpenAI
-from pydantic import BaseModel, Field
+
+try:
+    from openai import OpenAI
+except ImportError:
+    OpenAI = None  # type: ignore[assignment]
+
+try:
+    from pydantic import BaseModel, Field
+except ImportError:
+    class BaseModel:  # type: ignore[no-redef]
+        def model_dump(self) -> dict:
+            return dict(getattr(self, "__dict__", {}))
+
+    def Field(*args, **kwargs):  # type: ignore[no-redef]
+        return None
+
 
 ROOT = Path(__file__).resolve().parents[1]
 CARDS_PATH = ROOT / "site" / "data" / "cards.json"
 STATE_PATH = ROOT / "data" / "generation_state.json"
 CANDIDATE_POOL_PATH = ROOT / "data" / "candidate_pool.json"
 POOL_STATUS_PATH = ROOT / "site" / "data" / "pool_status.json"
+HARVEST_REPORT_PATH = ROOT / "data" / "harvest_report.json"
 
 MODEL = os.getenv("OPENAI_MODEL", "gpt-5.6-luna")
 RUN_SOURCE = os.getenv("RUN_SOURCE", "scheduled").strip() or "scheduled"
+PIPELINE_MODE = os.getenv("PIPELINE_MODE", "generate").strip() or "generate"
 TARGET_NEW_CARDS_ENV = os.getenv("TARGET_NEW_CARDS", "").strip()
-MAX_CANDIDATES_PER_ROUND = int(
-    os.getenv("MAX_CANDIDATES_PER_ROUND", "24")
-)
+MAX_CANDIDATES_PER_ROUND = int(os.getenv("MAX_CANDIDATES_PER_ROUND", "24"))
 MAX_PROCESS_ROUNDS = int(os.getenv("MAX_PROCESS_ROUNDS", "3"))
-POOL_MIN_PENDING = int(os.getenv("POOL_MIN_PENDING", "160"))
 MAX_POOL_SIZE = int(os.getenv("MAX_POOL_SIZE", "1000"))
 MAX_CARDS_STORED = int(os.getenv("MAX_CARDS_STORED", "2000"))
-HARVEST_TARGET_PENDING = int(
-    os.getenv("HARVEST_TARGET_PENDING", "240")
-)
+HARVEST_TARGET_PENDING = int(os.getenv("HARVEST_TARGET_PENDING", "200"))
 HARVEST_MAX_PASSES = int(os.getenv("HARVEST_MAX_PASSES", "4"))
-MIN_CANDIDATES_TO_GENERATE = int(
-    os.getenv("MIN_CANDIDATES_TO_GENERATE", "20")
-)
-PIPELINE_MODE = os.getenv("PIPELINE_MODE", "generate").strip() or "generate"
+HARVEST_MIN_ADDED = int(os.getenv("HARVEST_MIN_ADDED", "20"))
+MIN_CANDIDATES_TO_GENERATE = int(os.getenv("MIN_CANDIDATES_TO_GENERATE", "20"))
 SEEN_TTL_DAYS = int(os.getenv("SEEN_TTL_DAYS", "30"))
 
-USER_AGENT = "ShiguangKnowledgePWA/2.2 (personal educational project)"
+USER_AGENT = (
+    "ShiguangKnowledgePWA/2.5 "
+    "(+https://github.com/Yxn123123/shiguang; educational knowledge cards)"
+)
+TIMEOUT = (8, 24)
+RETRYABLE_STATUS_CODES = {429, 500, 502, 503, 504}
 SESSION = requests.Session()
 SESSION.headers.update({"User-Agent": USER_AGENT})
-TIMEOUT = 22
 
 CATEGORIES = ["生物", "科学", "历史", "艺术", "科技", "生活", "综合"]
 MIN_REVIEW_SCORE = 78
-
 USAGE = {"input_tokens": 0, "output_tokens": 0}
+HARVEST_DIAGNOSTICS: dict = {
+    "version": 1,
+    "generated_at": None,
+    "user_agent": USER_AGENT,
+    "sources": {},
+    "requests": [],
+}
 
 
 @dataclass
@@ -111,12 +130,6 @@ def iso_now() -> str:
     return utc_now().isoformat().replace("+00:00", "Z")
 
 
-def request_json(url: str, **params) -> dict:
-    response = SESSION.get(url, params=params, timeout=TIMEOUT)
-    response.raise_for_status()
-    return response.json()
-
-
 def normalize_space(text: str) -> str:
     return re.sub(r"\s+", " ", text or "").strip()
 
@@ -131,37 +144,158 @@ def batch(items: list, size: int) -> Iterable[list]:
         yield items[index : index + size]
 
 
-def record_usage(response) -> None:
-    usage = getattr(response, "usage", None)
-    if not usage:
-        return
-    USAGE["input_tokens"] += int(getattr(usage, "input_tokens", 0) or 0)
-    USAGE["output_tokens"] += int(getattr(usage, "output_tokens", 0) or 0)
+def response_excerpt(text: str, limit: int = 260) -> str:
+    return normalize_space(text)[:limit]
+
+
+def retry_after_seconds(value: str | None) -> float | None:
+    if not value:
+        return None
+    try:
+        return max(0.0, float(value))
+    except ValueError:
+        return None
+
+
+def source_report(source_name: str) -> dict:
+    return HARVEST_DIAGNOSTICS.setdefault("sources", {}).setdefault(
+        source_name,
+        {
+            "attempted": False,
+            "ok": False,
+            "titles": 0,
+            "summaries": 0,
+            "candidates": 0,
+            "errors": [],
+        },
+    )
+
+
+def add_source_error(source_name: str, message: str) -> None:
+    source_report(source_name).setdefault("errors", []).append(
+        normalize_space(message)[:260]
+    )
+
+
+def record_request_attempt(
+    *,
+    source_name: str,
+    url: str,
+    attempt: int,
+    status_code: int | None = None,
+    error_type: str = "",
+    response_text: str = "",
+    timed_out: bool = False,
+    rate_limited: bool = False,
+    retry_after: float | None = None,
+) -> None:
+    HARVEST_DIAGNOSTICS.setdefault("requests", []).append(
+        {
+            "source": source_name,
+            "url": url,
+            "attempt": attempt,
+            "status_code": status_code,
+            "error_type": error_type,
+            "response_excerpt": response_excerpt(response_text),
+            "timed_out": timed_out,
+            "rate_limited": rate_limited,
+            "retry_after_seconds": retry_after,
+        }
+    )
+
+
+def request_json(url: str, *, source_name: str = "", **params) -> dict:
+    label = source_name or url
+    last_error: Exception | None = None
+    for attempt in range(1, 4):
+        response = None
+        try:
+            response = SESSION.get(url, params=params, timeout=TIMEOUT)
+            retry_after = retry_after_seconds(response.headers.get("Retry-After"))
+            record_request_attempt(
+                source_name=label,
+                url=response.url,
+                attempt=attempt,
+                status_code=response.status_code,
+                response_text=response.text,
+                rate_limited=response.status_code == 429,
+                retry_after=retry_after,
+            )
+            if response.status_code in RETRYABLE_STATUS_CODES and attempt < 3:
+                wait = retry_after if response.status_code == 429 and retry_after is not None else 2 ** (attempt - 1)
+                time.sleep(min(float(wait), 12.0))
+                continue
+            response.raise_for_status()
+            try:
+                return response.json()
+            except ValueError as exc:
+                add_source_error(
+                    label,
+                    f"JSON parse error: {exc}; body={response_excerpt(response.text)}",
+                )
+                raise
+        except requests.Timeout as exc:
+            last_error = exc
+            record_request_attempt(
+                source_name=label,
+                url=response.url if response is not None else url,
+                attempt=attempt,
+                error_type=type(exc).__name__,
+                timed_out=True,
+            )
+        except requests.RequestException as exc:
+            last_error = exc
+            record_request_attempt(
+                source_name=label,
+                url=response.url if response is not None else url,
+                attempt=attempt,
+                status_code=getattr(response, "status_code", None),
+                error_type=type(exc).__name__,
+                response_text=getattr(response, "text", ""),
+            )
+        if attempt < 3:
+            time.sleep(2 ** (attempt - 1))
+    message = f"{type(last_error).__name__}: {last_error}" if last_error else "request failed"
+    add_source_error(label, message)
+    if last_error:
+        raise last_error
+    raise requests.RequestException(message)
+
+
+def load_json(path: Path, fallback: dict) -> dict:
+    if not path.exists():
+        return fallback
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return fallback
+
+
+def write_json(path: Path, payload: dict) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
 
 
 def load_cards() -> dict:
-    if not CARDS_PATH.exists():
-        return {"version": 1, "updated_at": None, "cards": []}
-    return json.loads(CARDS_PATH.read_text(encoding="utf-8"))
+    payload = load_json(CARDS_PATH, {"version": 1, "updated_at": None, "cards": []})
+    if not isinstance(payload.get("cards"), list):
+        payload["cards"] = []
+    return payload
 
 
 def load_state() -> dict:
-    if not STATE_PATH.exists():
-        return {"version": 1, "seen": {}}
-    try:
-        payload = json.loads(STATE_PATH.read_text(encoding="utf-8"))
-        if not isinstance(payload.get("seen"), dict):
-            payload["seen"] = {}
-        return payload
-    except (json.JSONDecodeError, OSError):
-        return {"version": 1, "seen": {}}
+    payload = load_json(STATE_PATH, {"version": 1, "seen": {}})
+    if not isinstance(payload.get("seen"), dict):
+        payload["seen"] = {}
+    return payload
 
 
 def save_state(state: dict) -> None:
-    STATE_PATH.parent.mkdir(parents=True, exist_ok=True)
     cutoff = utc_now() - timedelta(days=45)
     pruned = {}
-
     for source_id, info in state.get("seen", {}).items():
         try:
             last_seen = datetime.fromisoformat(
@@ -171,14 +305,83 @@ def save_state(state: dict) -> None:
             continue
         if last_seen >= cutoff:
             pruned[source_id] = info
-
     state["version"] = 1
     state["updated_at"] = iso_now()
     state["seen"] = pruned
-    STATE_PATH.write_text(
-        json.dumps(state, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
+    write_json(STATE_PATH, state)
+
+
+def load_candidate_pool() -> dict:
+    payload = load_json(
+        CANDIDATE_POOL_PATH,
+        {"version": 1, "updated_at": None, "candidates": []},
     )
+    if not isinstance(payload.get("candidates"), list):
+        payload["candidates"] = []
+    return payload
+
+
+def save_candidate_pool(payload: dict) -> None:
+    payload["version"] = 1
+    payload["updated_at"] = iso_now()
+    payload["candidates"] = payload.get("candidates", [])[:MAX_POOL_SIZE]
+    write_json(CANDIDATE_POOL_PATH, payload)
+
+
+def load_pool_status() -> dict:
+    payload = load_json(
+        POOL_STATUS_PATH,
+        {
+            "version": 1,
+            "updated_at": None,
+            "approved_cards": 0,
+            "pending_candidates": 0,
+            "last_run": None,
+            "recent_runs": [],
+        },
+    )
+    payload.setdefault("recent_runs", [])
+    return payload
+
+
+def save_pool_status(*, cards_count: int, pending_count: int, run_stats: dict) -> None:
+    payload = load_pool_status()
+    recent_runs = [
+        item
+        for item in payload.get("recent_runs", [])
+        if item.get("github_run_id") != run_stats.get("github_run_id")
+    ]
+    recent_runs.insert(0, run_stats)
+    payload.update(
+        {
+            "version": 1,
+            "updated_at": iso_now(),
+            "approved_cards": cards_count,
+            "pending_candidates": pending_count,
+            "last_run": run_stats,
+            "recent_runs": recent_runs[:20],
+        }
+    )
+    write_json(POOL_STATUS_PATH, payload)
+
+
+def save_harvest_status(*, cards_count: int, pending_count: int, stats: dict) -> None:
+    payload = load_pool_status()
+    payload.update(
+        {
+            "version": 1,
+            "updated_at": iso_now(),
+            "approved_cards": cards_count,
+            "pending_candidates": pending_count,
+            "last_harvest": stats,
+        }
+    )
+    write_json(POOL_STATUS_PATH, payload)
+
+
+def save_harvest_report(report: dict) -> None:
+    report["generated_at"] = iso_now()
+    write_json(HARVEST_REPORT_PATH, report)
 
 
 def seen_recently(source_id: str, state: dict) -> bool:
@@ -194,12 +397,7 @@ def seen_recently(source_id: str, state: dict) -> bool:
     return last_seen >= utc_now() - timedelta(days=SEEN_TTL_DAYS)
 
 
-def mark_seen(
-    state: dict,
-    candidate: Candidate,
-    outcome: str,
-    reason: str = "",
-) -> None:
+def mark_seen(state: dict, candidate: Candidate, outcome: str, reason: str = "") -> None:
     state.setdefault("seen", {})[candidate.source_id] = {
         "last_seen": iso_now(),
         "source_url": candidate.source_url,
@@ -208,14 +406,12 @@ def mark_seen(
     }
 
 
-def wikipedia_extracts(
-    titles: list[str],
-    language: str = "zh",
-) -> dict[str, dict]:
+def wikipedia_extracts(titles: list[str], language: str, source_name: str) -> dict[str, dict]:
     result: dict[str, dict] = {}
-    for title_batch in batch(titles, 18):
+    for title_batch in batch(titles, 20):
         payload = request_json(
             f"https://{language}.wikipedia.org/w/api.php",
+            source_name=source_name,
             action="query",
             prop="extracts|info",
             exintro=1,
@@ -230,587 +426,109 @@ def wikipedia_extracts(
         for page in payload.get("query", {}).get("pages", {}).values():
             if page.get("title"):
                 result[page["title"]] = page
+    time.sleep(0.35)
     return result
-
-
-def parse_dyk_html(html: str) -> list[tuple[str, str]]:
-    soup = BeautifulSoup(html, "html.parser")
-    entries: list[tuple[str, str]] = []
-
-    for item in soup.select("li"):
-        question_text = normalize_space(item.get_text(" ", strip=True))
-        if not 12 <= len(question_text) <= 130:
-            continue
-        if not question_text.endswith(("？", "?")):
-            continue
-
-        anchors = []
-        for anchor in item.select("a"):
-            title = normalize_space(anchor.get("title", ""))
-            href = anchor.get("href", "")
-            if not title or ":" in title:
-                continue
-            if not (href.startswith("/wiki/") or href.startswith("./")):
-                continue
-            anchors.append(anchor)
-
-        if not anchors:
-            continue
-
-        preferred = (
-            item.select_one("b a, strong a")
-            or anchors[0]
-        )
-        article_title = normalize_space(preferred.get("title", ""))
-        if article_title and ":" not in article_title:
-            entries.append((question_text, article_title))
-
-    return entries
-
-
-def fetch_wikipedia_dyk_history() -> list[Candidate]:
-    revision_ids: list[int | None] = [None]
-
-    try:
-        revision_payload = request_json(
-            "https://zh.wikipedia.org/w/api.php",
-            action="query",
-            prop="revisions",
-            titles="Template:Dyk",
-            rvprop="ids|timestamp",
-            rvlimit=200,
-            format="json",
-            origin="*",
-        )
-        pages = revision_payload.get("query", {}).get("pages", {}).values()
-        revisions = []
-        for page in pages:
-            revisions.extend(page.get("revisions", []))
-
-        # Sampling spaced revisions gives older, more varied DYK questions,
-        # instead of paying AI to reread almost identical revisions.
-        revision_ids.extend(
-            revision.get("revid")
-            for revision in revisions[3::8][:24]
-            if revision.get("revid")
-        )
-    except requests.RequestException:
-        pass
-
-    raw: list[tuple[str, str]] = []
-    seen_titles: set[str] = set()
-
-    for revision_id in revision_ids:
-        try:
-            params = {
-                "action": "parse",
-                "prop": "text",
-                "format": "json",
-                "origin": "*",
-            }
-            if revision_id:
-                params["oldid"] = revision_id
-            else:
-                params["page"] = "Template:Dyk"
-
-            payload = request_json(
-                "https://zh.wikipedia.org/w/api.php",
-                **params,
-            )
-            html = payload.get("parse", {}).get("text", {}).get("*", "")
-        except requests.RequestException:
-            continue
-
-        for question_text, article_title in parse_dyk_html(html):
-            if article_title in seen_titles:
-                continue
-            seen_titles.add(article_title)
-            raw.append((question_text, article_title))
-
-    pages = wikipedia_extracts([title for _, title in raw[:180]], "zh")
-    candidates: list[Candidate] = []
-
-    for question_text, article_title in raw[:180]:
-        page = pages.get(article_title)
-        if not page:
-            # Redirect-normalized title may differ; try a loose lookup.
-            page = next(
-                (
-                    value
-                    for key, value in pages.items()
-                    if canonical_text(key) == canonical_text(article_title)
-                ),
-                {},
-            )
-
-        extract = normalize_space(page.get("extract", ""))
-        if len(extract) < 120:
-            continue
-
-        page_id = page.get("pageid", article_title)
-        full_url = page.get(
-            "fullurl",
-            "https://zh.wikipedia.org/wiki/"
-            + quote(article_title.replace(" ", "_")),
-        )
-
-        candidates.append(
-            Candidate(
-                source_id=f"wiki-dyk:{page_id}",
-                source_name=f"中文维基百科：{article_title}",
-                source_url=full_url,
-                title=question_text,
-                excerpt=f"栏目问题：{question_text}\n词条摘要：{extract}",
-                category_hint="综合",
-                source_rank=0,
-            )
-        )
-
-    random.SystemRandom().shuffle(candidates)
-    return candidates
-
-
-
-def fetch_english_recent_additions() -> list[Candidate]:
-    """Read a larger, high-yield DYK page from English Wikipedia."""
-    try:
-        payload = request_json(
-            "https://en.wikipedia.org/w/api.php",
-            action="parse",
-            page="Wikipedia:Recent additions",
-            prop="text",
-            format="json",
-            origin="*",
-        )
-    except requests.RequestException:
-        return []
-
-    html = payload.get("parse", {}).get("text", {}).get("*", "")
-    raw = parse_dyk_html(html)
-
-    seen_titles: set[str] = set()
-    unique_raw: list[tuple[str, str]] = []
-    for question_text, article_title in raw:
-        if article_title in seen_titles:
-            continue
-        seen_titles.add(article_title)
-        unique_raw.append((question_text, article_title))
-
-    # Shuffle before truncating so successive harvests are not tied to page order.
-    random.SystemRandom().shuffle(unique_raw)
-    unique_raw = unique_raw[:180]
-
-    pages = wikipedia_extracts(
-        [title for _, title in unique_raw],
-        "en",
-    )
-    candidates: list[Candidate] = []
-
-    for question_text, article_title in unique_raw:
-        page = pages.get(article_title)
-        if not page:
-            page = next(
-                (
-                    value
-                    for key, value in pages.items()
-                    if canonical_text(key) == canonical_text(article_title)
-                ),
-                {},
-            )
-
-        extract = normalize_space(page.get("extract", ""))
-        if len(extract) < 140:
-            continue
-
-        page_id = page.get("pageid", article_title)
-        full_url = page.get(
-            "fullurl",
-            "https://en.wikipedia.org/wiki/"
-            + quote(article_title.replace(" ", "_")),
-        )
-
-        candidates.append(
-            Candidate(
-                source_id=f"en-dyk:{page_id}",
-                source_name=f"English Wikipedia DYK：{article_title}",
-                source_url=full_url,
-                title=question_text,
-                excerpt=f"DYK question: {question_text}\nArticle introduction: {extract}",
-                category_hint="综合",
-                source_rank=0,
-            )
-        )
-
-    return candidates
-
-
-def fetch_wikipedia_category_samples() -> list[Candidate]:
-    """Sample article introductions from categories that tend to contain mechanisms."""
-    categories = [
-        ("Biological phenomena", "生物"),
-        ("Physical phenomena", "科学"),
-        ("Optical phenomena", "科学"),
-        ("Food science", "生活"),
-        ("Materials science", "科技"),
-        ("History of technology", "历史"),
-        ("Art techniques", "艺术"),
-    ]
-    rng = random.SystemRandom()
-    rng.shuffle(categories)
-    candidates: list[Candidate] = []
-
-    for category_name, category_hint in categories:
-        try:
-            payload = request_json(
-                "https://en.wikipedia.org/w/api.php",
-                action="query",
-                generator="categorymembers",
-                gcmtitle=f"Category:{category_name}",
-                gcmtype="page",
-                gcmlimit=40,
-                prop="extracts|info",
-                exintro=1,
-                explaintext=1,
-                exchars=1400,
-                inprop="url",
-                format="json",
-                origin="*",
-            )
-        except requests.RequestException:
-            continue
-
-        pages = list(payload.get("query", {}).get("pages", {}).values())
-        rng.shuffle(pages)
-
-        for page in pages[:8]:
-            title = normalize_space(page.get("title", ""))
-            extract = normalize_space(page.get("extract", ""))
-            if not title or len(extract) < 150:
-                continue
-
-            candidates.append(
-                Candidate(
-                    source_id=f"en-category:{page.get('pageid', title)}",
-                    source_name=f"English Wikipedia：{title}",
-                    source_url=page.get(
-                        "fullurl",
-                        "https://en.wikipedia.org/wiki/"
-                        + quote(title.replace(" ", "_")),
-                    ),
-                    title=title,
-                    excerpt=extract,
-                    category_hint=category_hint,
-                    source_rank=2,
-                )
-            )
-
-    return candidates
-
-def fetch_on_this_day() -> list[Candidate]:
-    today = utc_now()
-    month_day = f"{today.month:02d}/{today.day:02d}"
-    payload = None
-    language = "zh"
-
-    for language_code in ("zh", "en"):
-        url = (
-            f"https://api.wikimedia.org/feed/v1/wikipedia/"
-            f"{language_code}/onthisday/all/{month_day}"
-        )
-        try:
-            response = SESSION.get(url, timeout=TIMEOUT)
-            response.raise_for_status()
-            payload = response.json()
-            language = language_code
-            break
-        except requests.RequestException:
-            continue
-
-    if not payload:
-        return []
-
-    candidates: list[Candidate] = []
-    events = payload.get("events", [])[:12]
-
-    for index, event in enumerate(events):
-        text = normalize_space(event.get("text", ""))
-        year = event.get("year", "")
-        pages = event.get("pages", [])
-        page = pages[0] if pages else {}
-        page_title = page.get("normalizedtitle") or page.get("title") or f"{year}年事件"
-        extract = normalize_space(page.get("extract", ""))
-        source_url = (
-            page.get("content_urls", {})
-            .get("desktop", {})
-            .get("page", "")
-        )
-
-        if len(text) < 35 or len(extract) < 100:
-            continue
-
-        candidates.append(
-            Candidate(
-                source_id=f"onthisday:{language}:{month_day}:{year}:{index}",
-                source_name=f"Wikimedia On This Day：{page_title}",
-                source_url=source_url or f"https://{language}.wikipedia.org/wiki/{page_title}",
-                title=f"{year}年的今天：{text}",
-                excerpt=f"事件：{text}\n相关页面摘要：{extract}",
-                category_hint="历史",
-                source_rank=3,
-            )
-        )
-
-    random.SystemRandom().shuffle(candidates)
-    return candidates
-
-
-def fetch_nasa_apod() -> list[Candidate]:
-    api_key = os.getenv("NASA_API_KEY", "DEMO_KEY")
-    try:
-        payload = request_json(
-            "https://api.nasa.gov/planetary/apod",
-            api_key=api_key,
-            count=4,
-            thumbs=True,
-        )
-    except requests.RequestException:
-        return []
-
-    candidates: list[Candidate] = []
-
-    for item in payload if isinstance(payload, list) else []:
-        explanation = normalize_space(item.get("explanation", ""))
-        title = normalize_space(item.get("title", ""))
-        if len(explanation) < 160:
-            continue
-
-        candidates.append(
-            Candidate(
-                source_id=f"nasa-apod:{item.get('date', title)}",
-                source_name=f"NASA Astronomy Picture of the Day：{title}",
-                source_url=item.get("url") or item.get("hdurl") or "https://apod.nasa.gov/",
-                title=title,
-                excerpt=explanation,
-                category_hint="科学",
-                source_rank=1,
-            )
-        )
-
-    return candidates
-
-
-def fetch_met_objects() -> list[Candidate]:
-    rng = random.SystemRandom()
-    queries = ["ancient", "textile", "instrument", "ceramic", "painting", "jewelry"]
-    rng.shuffle(queries)
-    candidates: list[Candidate] = []
-
-    for query in queries[:3]:
-        try:
-            search = request_json(
-                "https://collectionapi.metmuseum.org/public/collection/v1/search",
-                hasImages="true",
-                q=query,
-            )
-            object_ids = search.get("objectIDs") or []
-            if not object_ids:
-                continue
-
-            object_id = rng.choice(object_ids[: min(len(object_ids), 500)])
-            item = request_json(
-                f"https://collectionapi.metmuseum.org/public/collection/v1/objects/{object_id}"
-            )
-        except requests.RequestException:
-            continue
-
-        title = normalize_space(item.get("title", ""))
-        if not title:
-            continue
-
-        facts = {
-            "作品": title,
-            "用途或对象": normalize_space(item.get("objectName", "")),
-            "年代": normalize_space(item.get("objectDate", "")),
-            "文化": normalize_space(item.get("culture", "")),
-            "地区": normalize_space(item.get("geographyType", ""))
-            + " "
-            + normalize_space(item.get("country", "")),
-            "材质": normalize_space(item.get("medium", "")),
-            "尺寸": normalize_space(item.get("dimensions", "")),
-            "类别": normalize_space(item.get("classification", "")),
-            "说明": normalize_space(item.get("creditLine", "")),
-        }
-        excerpt = "\n".join(
-            f"{key}：{normalize_space(value)}"
-            for key, value in facts.items()
-            if normalize_space(value)
-        )
-
-        if len(excerpt) < 90:
-            continue
-
-        candidates.append(
-            Candidate(
-                source_id=f"met:{object_id}",
-                source_name=f"The Metropolitan Museum of Art：{title}",
-                source_url=item.get(
-                    "objectURL",
-                    "https://www.metmuseum.org/art/collection",
-                ),
-                title=title,
-                excerpt=excerpt,
-                category_hint="艺术",
-                source_rank=2,
-            )
-        )
-
-    return candidates
-
 
 
 def random_title_is_weak(title: str) -> bool:
     lowered = title.lower()
-    weak_prefixes = (
-        "list of ",
-        "outline of ",
-        "index of ",
-        "timeline of ",
-        "glossary of ",
-    )
-    if lowered.startswith(weak_prefixes):
+    if lowered.startswith(("list of ", "outline of ", "index of ", "timeline of ", "glossary of ")):
         return True
-    if re.fullmatch(r"\d{3,4}", title):
-        return True
-    return len(title) < 3 or len(title) > 90
+    return bool(re.fullmatch(r"\d{3,4}", title)) or len(title) < 3 or len(title) > 90
 
 
-def fetch_random_titles(
-    language: str,
-    count: int,
-) -> list[str]:
-    """Use list=random first; this is more reliable than generator=random."""
+def fetch_random_titles(language: str, count: int, source_name: str) -> list[str]:
     titles: list[str] = []
     seen: set[str] = set()
-    request_limit = 50
-
-    for _ in range(max(1, (count + request_limit - 1) // request_limit) + 1):
-        try:
-            payload = request_json(
-                f"https://{language}.wikipedia.org/w/api.php",
-                action="query",
-                list="random",
-                rnnamespace=0,
-                rnlimit=request_limit,
-                format="json",
-                origin="*",
-            )
-        except requests.RequestException as exc:
-            print(
-                f"[source:error] {language} random titles: {exc}",
-                file=sys.stderr,
-            )
-            continue
-
+    while len(titles) < count:
+        payload = request_json(
+            f"https://{language}.wikipedia.org/w/api.php",
+            source_name=source_name,
+            action="query",
+            list="random",
+            rnnamespace=0,
+            rnlimit=min(50, count - len(titles) + 20),
+            format="json",
+            origin="*",
+        )
         for item in payload.get("query", {}).get("random", []):
             title = normalize_space(item.get("title", ""))
-            if not title or title in seen or random_title_is_weak(title):
-                continue
-            seen.add(title)
-            titles.append(title)
+            if title and title not in seen and not random_title_is_weak(title):
+                titles.append(title)
+                seen.add(title)
             if len(titles) >= count:
-                return titles
-
+                break
+        time.sleep(0.35)
+        if not payload.get("query", {}).get("random"):
+            break
     return titles
 
 
-def fetch_wikipedia_random_samples(
+def candidate_from_wikipedia_page(
+    *,
+    source_id_prefix: str,
     language: str,
-    request_count: int,
-    source_rank: int = 4,
-) -> list[Candidate]:
-    """Fetch random titles, then retrieve introductions in separate calls."""
-    titles = fetch_random_titles(language, request_count * 2)
-    if not titles:
-        return []
-
-    try:
-        pages = wikipedia_extracts(titles, language)
-    except requests.RequestException as exc:
-        print(
-            f"[source:error] {language} random extracts: {exc}",
-            file=sys.stderr,
-        )
-        return []
-
-    candidates: list[Candidate] = []
-    for title in titles:
-        page = pages.get(title)
-        if not page:
-            page = next(
-                (
-                    value
-                    for key, value in pages.items()
-                    if canonical_text(key) == canonical_text(title)
-                ),
-                {},
-            )
-
-        extract = normalize_space(page.get("extract", ""))
-        page_title = normalize_space(page.get("title", title))
-        if not page_title or random_title_is_weak(page_title):
-            continue
-        if len(extract) < 180:
-            continue
-
-        page_id = page.get("pageid", page_title)
-        full_url = page.get(
+    page: dict,
+    category_hint: str,
+    source_rank: int,
+) -> Candidate | None:
+    title = normalize_space(page.get("title", ""))
+    extract = normalize_space(page.get("extract", ""))
+    if not title or random_title_is_weak(title) or len(extract) < 180:
+        return None
+    page_id = page.get("pageid", title)
+    return Candidate(
+        source_id=f"{source_id_prefix}:{language}:{page_id}",
+        source_name=f"{language.upper()} Wikipedia：{title}",
+        source_url=page.get(
             "fullurl",
-            f"https://{language}.wikipedia.org/wiki/"
-            + quote(page_title.replace(" ", "_")),
-        )
-        candidates.append(
-            Candidate(
-                source_id=f"wiki-random:{language}:{page_id}",
-                source_name=f"{language.upper()} Wikipedia：{page_title}",
-                source_url=full_url,
-                title=page_title,
-                excerpt=extract,
-                category_hint="综合",
-                source_rank=source_rank,
-            )
-        )
+            f"https://{language}.wikipedia.org/wiki/{quote(title.replace(' ', '_'))}",
+        ),
+        title=title,
+        excerpt=extract,
+        category_hint=category_hint,
+        source_rank=source_rank,
+    )
 
+
+def fetch_wikipedia_random_samples(language: str, request_count: int, source_rank: int = 4) -> list[Candidate]:
+    source_name = f"{language.upper()} Wikipedia random"
+    titles = fetch_random_titles(language, request_count * 2, source_name)
+    pages = wikipedia_extracts(titles, language, source_name) if titles else {}
+    candidates = []
+    for title in titles:
+        page = pages.get(title) or next(
+            (value for key, value in pages.items() if canonical_text(key) == canonical_text(title)),
+            {},
+        )
+        candidate = candidate_from_wikipedia_page(
+            source_id_prefix="wiki-random",
+            language=language,
+            page=page,
+            category_hint="综合",
+            source_rank=source_rank,
+        )
+        if candidate:
+            candidates.append(candidate)
         if len(candidates) >= request_count:
             break
-
     random.SystemRandom().shuffle(candidates)
     return candidates
 
 
-def fetch_category_member_titles(
-    language: str,
-    category: str,
-    limit: int = 40,
-) -> list[str]:
-    try:
-        payload = request_json(
-            f"https://{language}.wikipedia.org/w/api.php",
-            action="query",
-            list="categorymembers",
-            cmtitle=f"Category:{category}",
-            cmnamespace=0,
-            cmtype="page",
-            cmlimit=min(500, max(1, limit)),
-            format="json",
-            origin="*",
-        )
-    except requests.RequestException as exc:
-        print(
-            f"[source:error] {language} category {category}: {exc}",
-            file=sys.stderr,
-        )
-        return []
-
+def fetch_category_member_titles(language: str, category: str, limit: int, source_name: str) -> list[str]:
+    payload = request_json(
+        f"https://{language}.wikipedia.org/w/api.php",
+        source_name=source_name,
+        action="query",
+        list="categorymembers",
+        cmtitle=f"Category:{category}",
+        cmnamespace=0,
+        cmtype="page",
+        cmlimit=min(500, max(1, limit)),
+        format="json",
+        origin="*",
+    )
     return [
         normalize_space(item.get("title", ""))
         for item in payload.get("query", {}).get("categorymembers", [])
@@ -819,7 +537,6 @@ def fetch_category_member_titles(
 
 
 def fetch_wikipedia_topic_samples() -> list[Candidate]:
-    """Build a broad, mechanism-heavy reserve from reliable topic categories."""
     topics = [
         ("en", "Biological processes", "生物"),
         ("en", "Physical phenomena", "科学"),
@@ -832,184 +549,155 @@ def fetch_wikipedia_topic_samples() -> list[Candidate]:
         ("en", "Linguistics", "综合"),
         ("en", "Ecology", "生物"),
         ("en", "Astronomy", "科学"),
-        ("en", "Neuroscience", "生物"),
-        ("en", "Chemistry", "科学"),
         ("en", "Engineering", "科技"),
         ("en", "Everyday life", "生活"),
     ]
     rng = random.SystemRandom()
     rng.shuffle(topics)
-
     candidates: list[Candidate] = []
+    source_name = "Wikipedia topic samples"
     for language, category, hint in topics:
-        titles = fetch_category_member_titles(language, category, 35)
+        titles = fetch_category_member_titles(language, category, 35, source_name)
         rng.shuffle(titles)
-        titles = titles[:24]
-        if not titles:
-            continue
-
-        try:
-            pages = wikipedia_extracts(titles, language)
-        except requests.RequestException as exc:
-            print(
-                f"[source:error] {language} topic extracts {category}: {exc}",
-                file=sys.stderr,
-            )
-            continue
-
+        pages = wikipedia_extracts(titles[:24], language, source_name) if titles else {}
         added_here = 0
-        for title in titles:
+        for title in titles[:24]:
             page = pages.get(title) or {}
-            page_title = normalize_space(page.get("title", title))
-            extract = normalize_space(page.get("extract", ""))
-            if random_title_is_weak(page_title) or len(extract) < 180:
-                continue
-
-            page_id = page.get("pageid", page_title)
-            full_url = page.get(
-                "fullurl",
-                f"https://{language}.wikipedia.org/wiki/"
-                + quote(page_title.replace(" ", "_")),
+            candidate = candidate_from_wikipedia_page(
+                source_id_prefix="wiki-topic",
+                language=language,
+                page=page,
+                category_hint=hint,
+                source_rank=2,
             )
-            candidates.append(
-                Candidate(
-                    source_id=f"wiki-topic:{language}:{page_id}",
-                    source_name=f"{language.upper()} Wikipedia：{page_title}",
-                    source_url=full_url,
-                    title=page_title,
-                    excerpt=extract,
-                    category_hint=hint,
-                    source_rank=2,
-                )
-            )
-            added_here += 1
+            if candidate:
+                candidates.append(candidate)
+                added_here += 1
             if added_here >= 12:
                 break
-
     unique = {item.source_id: item for item in candidates}
     result = list(unique.values())
     rng.shuffle(result)
     return result
 
 
+def fetch_nasa_apod() -> list[Candidate]:
+    payload = request_json(
+        "https://api.nasa.gov/planetary/apod",
+        source_name="NASA APOD",
+        api_key=os.getenv("NASA_API_KEY", "DEMO_KEY"),
+        count=4,
+        thumbs=True,
+    )
+    candidates = []
+    for item in payload if isinstance(payload, list) else []:
+        title = normalize_space(item.get("title", ""))
+        explanation = normalize_space(item.get("explanation", ""))
+        if title and len(explanation) >= 160:
+            candidates.append(
+                Candidate(
+                    source_id=f"nasa-apod:{item.get('date', title)}",
+                    source_name=f"NASA Astronomy Picture of the Day：{title}",
+                    source_url=item.get("url") or item.get("hdurl") or "https://apod.nasa.gov/",
+                    title=title,
+                    excerpt=explanation,
+                    category_hint="科学",
+                    source_rank=1,
+                )
+            )
+    return candidates
+
+
+def fetch_on_this_day() -> list[Candidate]:
+    today = utc_now()
+    month_day = f"{today.month:02d}/{today.day:02d}"
+    payload = None
+    language = "en"
+    for language_code in ("zh", "en"):
+        try:
+            payload = request_json(
+                f"https://api.wikimedia.org/feed/v1/wikipedia/{language_code}/onthisday/all/{month_day}",
+                source_name=f"Wikimedia On This Day {language_code}",
+            )
+            language = language_code
+            break
+        except (requests.RequestException, ValueError) as exc:
+            add_source_error(f"Wikimedia On This Day {language_code}", f"{type(exc).__name__}: {exc}")
+    if not payload:
+        return []
+    candidates = []
+    for index, event in enumerate(payload.get("events", [])[:16]):
+        text = normalize_space(event.get("text", ""))
+        year = event.get("year", "")
+        pages = event.get("pages", [])
+        page = pages[0] if pages else {}
+        title = page.get("normalizedtitle") or page.get("title") or f"{year} event"
+        extract = normalize_space(page.get("extract", ""))
+        source_url = page.get("content_urls", {}).get("desktop", {}).get("page", "")
+        if len(text) >= 35 and len(extract) >= 100:
+            candidates.append(
+                Candidate(
+                    source_id=f"onthisday:{language}:{month_day}:{year}:{index}",
+                    source_name=f"Wikimedia On This Day：{title}",
+                    source_url=source_url or f"https://{language}.wikipedia.org/wiki/{quote(str(title))}",
+                    title=f"{year}: {text}",
+                    excerpt=f"事件：{text}\n相关页面摘要：{extract}",
+                    category_hint="历史",
+                    source_rank=3,
+                )
+            )
+    return candidates
+
+
+def run_source(name: str, provider) -> list[Candidate]:
+    report = source_report(name)
+    report["attempted"] = True
+    try:
+        items = provider()
+    except (requests.RequestException, ValueError) as exc:
+        add_source_error(name, f"{type(exc).__name__}: {exc}")
+        print(f"[source] {name}: failed {type(exc).__name__}: {exc}", file=sys.stderr)
+        return []
+    report["titles"] += len([item for item in items if normalize_space(item.title)])
+    report["summaries"] += len([item for item in items if normalize_space(item.excerpt)])
+    report["candidates"] += len(items)
+    report["ok"] = report["ok"] or bool(items)
+    print(
+        f"[source] {name}: titles={report['titles']} "
+        f"summaries={report['summaries']} candidates={len(items)}"
+    )
+    return items
+
 
 def fetch_candidates(harvest_pass: int = 0) -> list[Candidate]:
     collected: list[Candidate] = []
-
     if harvest_pass == 0:
-        providers = [
-            ("Chinese Wikipedia DYK history", fetch_wikipedia_dyk_history),
-            ("English Wikipedia recent additions", fetch_english_recent_additions),
-            ("Wikipedia topic samples", fetch_wikipedia_topic_samples),
-            ("NASA APOD", fetch_nasa_apod),
-            ("Wikimedia On This Day", fetch_on_this_day),
-        ]
-        for name, provider in providers:
-            try:
-                items = provider()
-                print(f"[source] {name}: {len(items)} candidates")
-                collected.extend(items)
-            except Exception as exc:
-                print(f"[source] {name} failed: {exc}", file=sys.stderr)
-
-    # Each pass asks for fresh random titles. Separate title and extract requests
-    # avoid the empty result seen with MediaWiki generator=random.
-    random_requests = [
-        ("English Wikipedia random", "en", 100, 4),
-        ("Chinese Wikipedia random", "zh", 60, 4),
-    ]
-    for name, language, count, rank in random_requests:
-        try:
-            items = fetch_wikipedia_random_samples(
-                language,
-                count,
-                rank,
-            )
-            print(
-                f"[source] {name} pass={harvest_pass + 1}: "
-                f"{len(items)} candidates"
-            )
-            collected.extend(items)
-        except Exception as exc:
-            print(f"[source] {name} failed: {exc}", file=sys.stderr)
-
-    unique: dict[str, Candidate] = {}
-    for item in collected:
-        unique[item.source_id] = item
-    return list(unique.values())
-
+        collected.extend(run_source("Wikipedia topic samples", fetch_wikipedia_topic_samples))
+        collected.extend(run_source("NASA APOD", fetch_nasa_apod))
+        collected.extend(run_source("Wikimedia On This Day", fetch_on_this_day))
+    collected.extend(
+        run_source(
+            f"English Wikipedia random pass {harvest_pass + 1}",
+            lambda: fetch_wikipedia_random_samples("en", 100, 4),
+        )
+    )
+    collected.extend(
+        run_source(
+            f"Chinese Wikipedia random pass {harvest_pass + 1}",
+            lambda: fetch_wikipedia_random_samples("zh", 60, 4),
+        )
+    )
+    return list({item.source_id: item for item in collected}.values())
 
 
 def candidate_is_low_information(candidate: Candidate) -> bool:
     text = normalize_space(candidate.excerpt)
-    if len(text) < 120:
-        return True
-
-    weak_labels = (
-        "出生于",
-        "逝世于",
-        "是一名政治人物",
-        "是一位政治人物",
-        "是美国政治人物",
-        "born ",
-        "died ",
-        "politician",
-    )
-    hits = sum(label.lower() in text.lower() for label in weak_labels)
-    if hits >= 2 and candidate.source_rank >= 3:
-        return True
-
-    # Thin catalogue metadata repeatedly failed the evidence check and is not
-    # suitable for the general knowledge pool.
     if candidate.source_id.startswith("met:"):
         return True
-
-    return False
-
-
-def select_candidates(
-    candidates: list[Candidate],
-    cards: list[dict],
-    state: dict,
-) -> tuple[list[Candidate], dict[str, int]]:
-    existing_urls = {
-        normalize_space(card.get("source_url", ""))
-        for card in cards
-        if card.get("source_url")
-    }
-    counts = {
-        "duplicate_source": 0,
-        "seen_recently": 0,
-        "low_information": 0,
-        "candidate_limit": 0,
-    }
-    selected: list[Candidate] = []
-
-    candidates.sort(
-        key=lambda item: (
-            item.source_rank,
-            random.random(),
-        )
-    )
-
-    for candidate in candidates:
-        if candidate.source_url in existing_urls:
-            counts["duplicate_source"] += 1
-            continue
-        if seen_recently(candidate.source_id, state):
-            counts["seen_recently"] += 1
-            continue
-        if candidate_is_low_information(candidate):
-            counts["low_information"] += 1
-            continue
-
-        selected.append(candidate)
-        if len(selected) >= MAX_CANDIDATES:
-            counts["candidate_limit"] = max(0, len(candidates) - len(selected))
-            break
-
-    return selected, counts
-
+    if len(text) < 120:
+        return True
+    weak_labels = ("born ", "died ", "politician", "出生于", "逝世于", "是一名政治人物")
+    return sum(label.lower() in text.lower() for label in weak_labels) >= 2 and candidate.source_rank >= 3
 
 
 def candidate_to_record(candidate: Candidate) -> dict:
@@ -1033,83 +721,24 @@ def candidate_from_record(record: dict) -> Candidate | None:
         return None
 
 
-def load_candidate_pool() -> dict:
-    if not CANDIDATE_POOL_PATH.exists():
-        return {"version": 1, "updated_at": None, "candidates": []}
-    try:
-        payload = json.loads(
-            CANDIDATE_POOL_PATH.read_text(encoding="utf-8")
-        )
-    except (json.JSONDecodeError, OSError):
-        return {"version": 1, "updated_at": None, "candidates": []}
-
-    if not isinstance(payload.get("candidates"), list):
-        payload["candidates"] = []
-    return payload
-
-
-def save_candidate_pool(payload: dict) -> None:
-    CANDIDATE_POOL_PATH.parent.mkdir(parents=True, exist_ok=True)
-    payload["version"] = 1
-    payload["updated_at"] = iso_now()
-    payload["candidates"] = payload.get("candidates", [])[:MAX_POOL_SIZE]
-    CANDIDATE_POOL_PATH.write_text(
-        json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
-    )
+def prune_unusable_pool_records(pool_payload: dict) -> dict[str, int]:
+    counts = {"invalid_record": 0, "low_information": 0}
+    kept = []
+    for record in pool_payload.get("candidates", []):
+        candidate = candidate_from_record(record)
+        if not candidate:
+            counts["invalid_record"] += 1
+        elif candidate_is_low_information(candidate):
+            counts["low_information"] += 1
+        else:
+            kept.append(record)
+    pool_payload["candidates"] = kept
+    return counts
 
 
-def load_pool_status() -> dict:
-    if not POOL_STATUS_PATH.exists():
-        return {
-            "version": 1,
-            "updated_at": None,
-            "approved_cards": 0,
-            "pending_candidates": 0,
-            "last_run": None,
-            "recent_runs": [],
-        }
-
-    try:
-        payload = json.loads(
-            POOL_STATUS_PATH.read_text(encoding="utf-8")
-        )
-    except (json.JSONDecodeError, OSError):
-        payload = {}
-
-    payload.setdefault("recent_runs", [])
-    return payload
-
-
-def save_pool_status(
-    *,
-    cards_count: int,
-    pending_count: int,
-    run_stats: dict,
-) -> None:
-    POOL_STATUS_PATH.parent.mkdir(parents=True, exist_ok=True)
-    payload = load_pool_status()
-    recent_runs = [
-        item
-        for item in payload.get("recent_runs", [])
-        if item.get("github_run_id") != run_stats.get("github_run_id")
-    ]
-    recent_runs.insert(0, run_stats)
-
-    payload.update(
-        {
-            "version": 1,
-            "updated_at": iso_now(),
-            "approved_cards": cards_count,
-            "pending_candidates": pending_count,
-            "last_run": run_stats,
-            "recent_runs": recent_runs[:20],
-        }
-    )
-    POOL_STATUS_PATH.write_text(
-        json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
-    )
+def merge_counts(target: dict[str, int], source: dict[str, int]) -> None:
+    for key, value in source.items():
+        target[key] = target.get(key, 0) + int(value)
 
 
 def merge_candidates_into_pool(
@@ -1118,24 +747,10 @@ def merge_candidates_into_pool(
     cards: list[dict],
     state: dict,
 ) -> tuple[int, dict[str, int]]:
-    existing_source_ids = {
-        str(card.get("source_id", ""))
-        for card in cards
-        if card.get("source_id")
-    }
-    existing_urls = {
-        normalize_space(card.get("source_url", ""))
-        for card in cards
-        if card.get("source_url")
-    }
-
+    existing_source_ids = {str(card.get("source_id", "")) for card in cards if card.get("source_id")}
+    existing_urls = {normalize_space(card.get("source_url", "")) for card in cards if card.get("source_url")}
     records = pool_payload.get("candidates", [])
-    pool_ids = {
-        str(record.get("source_id", ""))
-        for record in records
-        if record.get("source_id")
-    }
-
+    pool_ids = {str(record.get("source_id", "")) for record in records if record.get("source_id")}
     counts = {
         "already_in_pool": 0,
         "already_published": 0,
@@ -1144,196 +759,27 @@ def merge_candidates_into_pool(
         "pool_limit": 0,
     }
     added = 0
-
-    # High-ranked sources are kept first if the pending pool reaches its cap.
-    fetched = sorted(
-        fetched,
-        key=lambda item: (item.source_rank, random.random()),
-    )
-
-    for candidate in fetched:
+    for candidate in sorted(fetched, key=lambda item: (item.source_rank, random.random())):
         if candidate.source_id in pool_ids:
             counts["already_in_pool"] += 1
-            continue
-        if (
-            candidate.source_id in existing_source_ids
-            or normalize_space(candidate.source_url) in existing_urls
-        ):
+        elif candidate.source_id in existing_source_ids or normalize_space(candidate.source_url) in existing_urls:
             counts["already_published"] += 1
-            continue
-        if seen_recently(candidate.source_id, state):
+        elif seen_recently(candidate.source_id, state):
             counts["seen_recently"] += 1
-            continue
-        if candidate_is_low_information(candidate):
+        elif candidate_is_low_information(candidate):
             counts["low_information"] += 1
-            continue
-        if len(records) >= MAX_POOL_SIZE:
+        elif len(records) >= MAX_POOL_SIZE:
             counts["pool_limit"] += 1
-            continue
-
-        records.append(candidate_to_record(candidate))
-        pool_ids.add(candidate.source_id)
-        added += 1
-
-    records.sort(
-        key=lambda record: (
-            int(record.get("source_rank", 9)),
-            str(record.get("added_at", "")),
-        )
-    )
+        else:
+            records.append(candidate_to_record(candidate))
+            pool_ids.add(candidate.source_id)
+            added += 1
+    records.sort(key=lambda record: (int(record.get("source_rank", 9)), str(record.get("added_at", ""))))
     pool_payload["candidates"] = records[:MAX_POOL_SIZE]
     return added, counts
 
 
-def select_pool_batch(
-    pool_payload: dict,
-    cards: list[dict],
-    state: dict,
-    limit: int,
-) -> tuple[list[Candidate], list[str], dict[str, int]]:
-    records = pool_payload.get("candidates", [])
-    existing_urls = {
-        normalize_space(card.get("source_url", ""))
-        for card in cards
-        if card.get("source_url")
-    }
-    selected: list[Candidate] = []
-    selected_ids: list[str] = []
-    counts = {
-        "invalid_record": 0,
-        "duplicate_source": 0,
-        "seen_recently": 0,
-        "low_information": 0,
-    }
-
-    # Shuffle within source-rank bands so each run consumes a different mixture.
-    records.sort(
-        key=lambda record: (
-            int(record.get("source_rank", 9)),
-            random.random(),
-        )
-    )
-
-    for record in records:
-        candidate = candidate_from_record(record)
-        if not candidate:
-            counts["invalid_record"] += 1
-            continue
-        if normalize_space(candidate.source_url) in existing_urls:
-            counts["duplicate_source"] += 1
-            continue
-        if seen_recently(candidate.source_id, state):
-            counts["seen_recently"] += 1
-            continue
-        if candidate_is_low_information(candidate):
-            counts["low_information"] += 1
-            continue
-
-        selected.append(candidate)
-        selected_ids.append(candidate.source_id)
-        if len(selected) >= limit:
-            break
-
-    return selected, selected_ids, counts
-
-
-def remove_candidates_from_pool(
-    pool_payload: dict,
-    source_ids: set[str],
-) -> None:
-    pool_payload["candidates"] = [
-        record
-        for record in pool_payload.get("candidates", [])
-        if str(record.get("source_id", "")) not in source_ids
-    ]
-
-
-def resolved_target_new_cards() -> int:
-    if TARGET_NEW_CARDS_ENV:
-        try:
-            return max(1, min(40, int(TARGET_NEW_CARDS_ENV)))
-        except ValueError:
-            pass
-
-    if RUN_SOURCE in {"web", "manual", "workflow_dispatch"}:
-        return 12
-    return 5
-
-
-def resolved_max_rounds() -> int:
-    if RUN_SOURCE in {"web", "manual", "workflow_dispatch"}:
-        return MAX_PROCESS_ROUNDS
-    return 1
-
-
 def source_family(source_id: str) -> str:
-    if source_id.startswith("wiki-dyk:"):
-        return "中文维基你知道吗"
-    if source_id.startswith("en-dyk:"):
-        return "英文维基你知道吗"
-    if source_id.startswith("en-category:"):
-        return "英文维基分类"
-    if source_id.startswith("nasa-apod:"):
-        return "NASA APOD"
-    if source_id.startswith("met:"):
-        return "大都会博物馆"
-    if source_id.startswith("onthisday:"):
-        return "历史上的今天"
-    return "其他"
-
-
-def save_harvest_status(
-    *,
-    cards_count: int,
-    pending_count: int,
-    stats: dict,
-) -> None:
-    POOL_STATUS_PATH.parent.mkdir(parents=True, exist_ok=True)
-    payload = load_pool_status()
-    payload.update(
-        {
-            "version": 1,
-            "updated_at": iso_now(),
-            "approved_cards": cards_count,
-            "pending_candidates": pending_count,
-            "last_harvest": stats,
-        }
-    )
-    POOL_STATUS_PATH.write_text(
-        json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
-    )
-
-
-def save_harvest_status(
-    *,
-    cards_count: int,
-    pending_count: int,
-    stats: dict,
-) -> None:
-    POOL_STATUS_PATH.parent.mkdir(parents=True, exist_ok=True)
-    payload = load_pool_status()
-    payload.update(
-        {
-            "version": 1,
-            "updated_at": iso_now(),
-            "approved_cards": cards_count,
-            "pending_candidates": pending_count,
-            "last_harvest": stats,
-        }
-    )
-    POOL_STATUS_PATH.write_text(
-        json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
-    )
-
-
-def candidate_family(candidate: Candidate) -> str:
-    source_id = candidate.source_id
-    if source_id.startswith("wiki-dyk:"):
-        return "中文维基你知道吗"
-    if source_id.startswith("en-dyk:"):
-        return "英文维基你知道吗"
     if source_id.startswith("wiki-topic:"):
         return "维基主题分类"
     if source_id.startswith("wiki-random:en:"):
@@ -1344,107 +790,93 @@ def candidate_family(candidate: Candidate) -> str:
         return "NASA APOD"
     if source_id.startswith("onthisday:"):
         return "历史上的今天"
+    if source_id.startswith("met:"):
+        return "大都会博物馆"
     return "其他"
 
 
-def harvest_until_reserve(
-    pool_payload: dict,
-    cards: list[dict],
-    state: dict,
-) -> tuple[int, int, dict[str, int], int, dict[str, int]]:
+def harvest_until_reserve(pool_payload: dict, cards: list[dict], state: dict) -> tuple[int, int, dict[str, int], int, dict[str, int]]:
     total_fetched = 0
     total_added = 0
     combined_counts: dict[str, int] = {}
     source_counts: dict[str, int] = {}
     passes_used = 0
     consecutive_empty_passes = 0
-
-    while (
-        len(pool_payload.get("candidates", [])) < HARVEST_TARGET_PENDING
-        and passes_used < HARVEST_MAX_PASSES
-    ):
+    while len(pool_payload.get("candidates", [])) < HARVEST_TARGET_PENDING and passes_used < HARVEST_MAX_PASSES:
         fetched = fetch_candidates(passes_used)
         passes_used += 1
         total_fetched += len(fetched)
-
         for candidate in fetched:
-            family = candidate_family(candidate)
+            family = source_family(candidate.source_id)
             source_counts[family] = source_counts.get(family, 0) + 1
-
-        added, counts = merge_candidates_into_pool(
-            pool_payload,
-            fetched,
-            cards,
-            state,
-        )
+        added, counts = merge_candidates_into_pool(pool_payload, fetched, cards, state)
+        if len(pool_payload.get("candidates", [])) > HARVEST_TARGET_PENDING:
+            overflow = len(pool_payload["candidates"]) - HARVEST_TARGET_PENDING
+            pool_payload["candidates"] = pool_payload["candidates"][:HARVEST_TARGET_PENDING]
+            added = max(0, added - overflow)
+            counts["pool_limit"] = counts.get("pool_limit", 0) + overflow
         total_added += added
         merge_counts(combined_counts, counts)
-
-        print(
-            f"[harvest {passes_used}] fetched={len(fetched)} "
-            f"added={added} "
-            f"pending={len(pool_payload.get('candidates', []))}"
-        )
-
-        if added == 0:
-            consecutive_empty_passes += 1
-        else:
-            consecutive_empty_passes = 0
-
-        # One bad API pass should not abort stocking. Stop only after two
-        # consecutive empty passes.
+        print(f"[harvest {passes_used}] fetched={len(fetched)} added={added} pending={len(pool_payload.get('candidates', []))}")
+        consecutive_empty_passes = consecutive_empty_passes + 1 if added == 0 else 0
         if consecutive_empty_passes >= 2:
             break
+    return total_fetched, total_added, combined_counts, passes_used, source_counts
 
-    return (
-        total_fetched,
-        total_added,
-        combined_counts,
-        passes_used,
-        source_counts,
-    )
 
+def select_pool_batch(
+    pool_payload: dict,
+    cards: list[dict],
+    state: dict,
+    limit: int,
+) -> tuple[list[Candidate], list[str], dict[str, int]]:
+    records = pool_payload.get("candidates", [])
+    existing_urls = {normalize_space(card.get("source_url", "")) for card in cards if card.get("source_url")}
+    selected: list[Candidate] = []
+    selected_ids: list[str] = []
+    counts = {"invalid_record": 0, "duplicate_source": 0, "seen_recently": 0, "low_information": 0}
+    records.sort(key=lambda record: (int(record.get("source_rank", 9)), random.random()))
+    for record in records:
+        candidate = candidate_from_record(record)
+        if not candidate:
+            counts["invalid_record"] += 1
+        elif normalize_space(candidate.source_url) in existing_urls:
+            counts["duplicate_source"] += 1
+        elif seen_recently(candidate.source_id, state):
+            counts["seen_recently"] += 1
+        elif candidate_is_low_information(candidate):
+            counts["low_information"] += 1
+        else:
+            selected.append(candidate)
+            selected_ids.append(candidate.source_id)
+            if len(selected) >= limit:
+                break
+    return selected, selected_ids, counts
+
+
+def remove_candidates_from_pool(pool_payload: dict, source_ids: set[str]) -> None:
+    pool_payload["candidates"] = [
+        record
+        for record in pool_payload.get("candidates", [])
+        if str(record.get("source_id", "")) not in source_ids
+    ]
 
 
 EXTRACTION_INSTRUCTIONS = """
 你是“拾光”知识编辑。请从候选材料里找适合普通人轻阅读的具体知识。
-
-标准：
-1. 只能依据候选材料，不能补充原文没有的事实。
-2. 每个候选最多生成1条；实在普通、只有人物履历或参数时不输出。
-3. 优先保留：反直觉的时间关系、日常现象背后的原因、设计细节、语言与历史误区、生物和材料的特殊机制。
-4. 拒绝：纯人物生平、职位定义、国家概况、军舰参数、普通日期罗列、宽泛主题介绍。
-5. 禁止模板标题：“X有什么值得注意的地方”“X是什么”“关于X你知道吗”。
-6. 标题8—36个汉字，直接呈现具体事实或自然问题。
-7. lead 15—60字；explanation 50—160字；angle 20—75字。
-8. evidence 必须逐字复制候选材料中的一句或一段，不能翻译、改写或补标点，最多100字。
-9. 分类只能是：生物、科学、历史、艺术、科技、生活、综合。
-10. confidence 代表“这个事实是否值得做成卡片”，明确具体且有一点意外感即可达到75以上，不要求每条都惊世骇俗。
+只能依据候选材料，不能补充原文没有的事实。每个候选最多生成1条。
+优先保留反直觉的时间关系、日常现象背后的原因、设计细节、语言与历史误区、生物和材料机制。
+拒绝纯人物生平、职位定义、国家概况、军舰参数、普通日期罗列和宽泛主题介绍。
+标题8到36个汉字，直接呈现具体事实或自然问题。分类只能是：生物、科学、历史、艺术、科技、生活、综合。
+evidence 必须逐字复制候选材料中的一句或一段，不能翻译、改写或补标点，最多100字。
 """.strip()
 
 
 REVIEW_INSTRUCTIONS = """
-你是“拾光”的内容主编。你的任务是校正和审核，不要为了显得严格而一律拒绝。
-
-评分维度：
-- 来源支持与事实准确：35分
-- 具体程度：25分
-- 阅读收获与意外感：20分
-- 中文自然：10分
-- 手机阅读长度：10分
-
-硬性拒绝：
-- 核心事实无法由来源支持；
-- 只是人物、机构、职位或国家简介；
-- 标题和正文说的不是同一件事；
-- 是宽泛空话或模板化标题；
-- evidence 不是来源中的原文。
-
-处理原则：
-- 可以在不增加事实的前提下修改标题、lead、解释和角度。
-- evidence 有轻微截取问题时，直接从来源中重新复制一段原文。
-- 质量达到78分且没有硬性问题，应 approved=true。
-- 中等但清楚、有来源、读完能学到一点的知识，可以通过；不要求每条都“震撼”。
+你是“拾光”的内容主编。审核时只依据候选来源，不要为了显得严格而一律拒绝。
+硬性拒绝：核心事实无法由来源支持；只是人物、机构、职位或国家简介；标题和正文说的不是同一件事；
+宽泛空话或模板化标题；evidence 不是来源中的原文。
+可以在不增加事实的前提下修改标题、lead、解释和角度。质量达到78分且没有硬性问题，应 approved=true。
 """.strip()
 
 
@@ -1459,14 +891,16 @@ def compact_candidate(candidate: Candidate) -> dict:
     }
 
 
-def extract_proposals(
-    client: OpenAI,
-    candidates: list[Candidate],
-) -> list[Proposal]:
-    proposals: list[Proposal] = []
+def record_usage(response) -> None:
+    usage = getattr(response, "usage", None)
+    if usage:
+        USAGE["input_tokens"] += int(getattr(usage, "input_tokens", 0) or 0)
+        USAGE["output_tokens"] += int(getattr(usage, "output_tokens", 0) or 0)
 
+
+def extract_proposals(client: OpenAI, candidates: list[Candidate]) -> list[Proposal]:
+    proposals: list[Proposal] = []
     for candidate_batch in batch(candidates, 10):
-        input_data = [compact_candidate(candidate) for candidate in candidate_batch]
         response = client.responses.parse(
             model=MODEL,
             reasoning={"effort": "low"},
@@ -1475,20 +909,14 @@ def extract_proposals(
                 {
                     "role": "user",
                     "content": "从这些候选中提取可用知识卡："
-                    + json.dumps(
-                        input_data,
-                        ensure_ascii=False,
-                        separators=(",", ":"),
-                    ),
+                    + json.dumps([compact_candidate(item) for item in candidate_batch], ensure_ascii=False, separators=(",", ":")),
                 },
             ],
             text_format=ProposalBatch,
         )
         record_usage(response)
-        parsed = response.output_parsed
-        if parsed:
-            proposals.extend(parsed.cards)
-
+        if response.output_parsed:
+            proposals.extend(response.output_parsed.cards)
     return proposals
 
 
@@ -1497,23 +925,15 @@ def normalized(text: str) -> str:
 
 
 def title_is_bad(title: str) -> bool:
-    bad_patterns = [
-        r"有什么值得注意",
-        r"是什么[？?]?$",
-        r"关于.+你知道",
-        r"简介[？?]?$",
-        r"谁是.+[？?]?$",
-    ]
-    return any(re.search(pattern, title) for pattern in bad_patterns)
+    return any(
+        re.search(pattern, title)
+        for pattern in (r"有什么值得注意", r"是什么[？?]?$", r"关于.+你知道", r"简介[？?]?$", r"谁是.+[？?]?$")
+    )
 
 
 def similar_to_existing(title: str, existing_titles: list[str]) -> bool:
     target = normalized(title)
-    for other in existing_titles:
-        ratio = SequenceMatcher(None, target, normalized(other)).ratio()
-        if ratio >= 0.80:
-            return True
-    return False
+    return any(SequenceMatcher(None, target, normalized(other)).ratio() >= 0.80 for other in existing_titles)
 
 
 def prequalify_proposals(
@@ -1522,92 +942,53 @@ def prequalify_proposals(
     existing_cards: list[dict],
 ) -> tuple[list[Proposal], dict[str, int]]:
     existing_titles = [card.get("title", "") for card in existing_cards]
-    counts = {
-        "low_confidence": 0,
-        "missing_candidate": 0,
-        "bad_title": 0,
-        "bad_category": 0,
-        "similar_title": 0,
-    }
+    counts = {"low_confidence": 0, "missing_candidate": 0, "bad_title": 0, "bad_category": 0, "similar_title": 0}
     accepted: list[Proposal] = []
-
     for proposal in proposals:
-        candidate = candidate_map.get(proposal.source_id)
-        if not candidate:
-            counts["missing_candidate"] += 1
-            continue
-
         title = normalize_space(proposal.title)
-        if proposal.confidence < 68:
+        if proposal.source_id not in candidate_map:
+            counts["missing_candidate"] += 1
+        elif proposal.confidence < 68:
             counts["low_confidence"] += 1
-            continue
-        if not 8 <= len(title) <= 38 or title_is_bad(title):
+        elif not 8 <= len(title) <= 38 or title_is_bad(title):
             counts["bad_title"] += 1
-            continue
-        if proposal.category not in CATEGORIES:
+        elif proposal.category not in CATEGORIES:
             counts["bad_category"] += 1
-            continue
-        if similar_to_existing(title, existing_titles):
+        elif similar_to_existing(title, existing_titles):
             counts["similar_title"] += 1
-            continue
-
-        accepted.append(proposal)
-
+        else:
+            accepted.append(proposal)
     return accepted, counts
 
 
-def review_proposals(
-    client: OpenAI,
-    proposals: list[Proposal],
-    candidate_map: dict[str, Candidate],
-) -> list[ReviewItem]:
+def review_proposals(client: OpenAI, proposals: list[Proposal], candidate_map: dict[str, Candidate]) -> list[ReviewItem]:
     reviewed: list[ReviewItem] = []
-
     for proposal_batch in batch(proposals, 10):
-        review_input = []
-        for proposal in proposal_batch:
-            candidate = candidate_map.get(proposal.source_id)
-            if not candidate:
-                continue
-            review_input.append(
-                {
-                    "proposal": proposal.model_dump(),
-                    "source": compact_candidate(candidate),
-                }
-            )
-
+        review_input = [
+            {"proposal": proposal.model_dump(), "source": compact_candidate(candidate_map[proposal.source_id])}
+            for proposal in proposal_batch
+            if proposal.source_id in candidate_map
+        ]
         if not review_input:
             continue
-
         response = client.responses.parse(
             model=MODEL,
             reasoning={"effort": "low"},
             input=[
                 {"role": "system", "content": REVIEW_INSTRUCTIONS},
-                {
-                    "role": "user",
-                    "content": "审核并修正以下知识卡："
-                    + json.dumps(
-                        review_input,
-                        ensure_ascii=False,
-                        separators=(",", ":"),
-                    ),
-                },
+                {"role": "user", "content": "审核并修正以下知识卡：" + json.dumps(review_input, ensure_ascii=False, separators=(",", ":"))},
             ],
             text_format=ReviewBatch,
         )
         record_usage(response)
-        parsed = response.output_parsed
-        if parsed:
-            reviewed.extend(parsed.items)
-
+        if response.output_parsed:
+            reviewed.extend(response.output_parsed.items)
     return reviewed
 
 
 def evidence_supported(evidence: str, source_text: str) -> bool:
     evidence_key = canonical_text(evidence)
-    source_key = canonical_text(source_text)
-    return len(evidence_key) >= 8 and evidence_key in source_key
+    return len(evidence_key) >= 8 and evidence_key in canonical_text(source_text)
 
 
 def build_new_cards(
@@ -1617,196 +998,136 @@ def build_new_cards(
     limit: int,
 ) -> tuple[list[dict], dict[str, int], dict[str, str]]:
     existing_titles = [item.get("title", "") for item in existing_cards]
-    existing_urls = {
-        item.get("source_url", "")
-        for item in existing_cards
-        if item.get("source_url")
-    }
-
-    counts = {
-        "model_rejected": 0,
-        "score_below_78": 0,
-        "bad_title": 0,
-        "bad_category": 0,
-        "evidence_mismatch": 0,
-        "duplicate_source": 0,
-        "similar_title": 0,
-    }
+    existing_urls = {item.get("source_url", "") for item in existing_cards if item.get("source_url")}
+    counts = {"model_rejected": 0, "score_below_78": 0, "bad_title": 0, "bad_category": 0, "evidence_mismatch": 0, "duplicate_source": 0, "similar_title": 0}
     reasons: dict[str, str] = {}
     new_cards: list[dict] = []
-
-    for item in sorted(
-        reviews,
-        key=lambda value: value.quality_score,
-        reverse=True,
-    ):
+    for item in sorted(reviews, key=lambda value: value.quality_score, reverse=True):
         candidate = candidate_map.get(item.source_id)
+        title = normalize_space(item.title)
         if not candidate:
             continue
-
         if not item.approved:
             counts["model_rejected"] += 1
             reasons[item.source_id] = item.rejection_reason or "AI主编未批准"
-            print(
-                f"[reject:model] {item.source_id} "
-                f"score={item.quality_score} "
-                f"reason={normalize_space(item.rejection_reason)}"
-            )
-            continue
-
-        if item.quality_score < MIN_REVIEW_SCORE:
+        elif item.quality_score < MIN_REVIEW_SCORE:
             counts["score_below_78"] += 1
             reasons[item.source_id] = f"质量分 {item.quality_score}"
-            continue
-
-        title = normalize_space(item.title)
-
-        if not 8 <= len(title) <= 38 or title_is_bad(title):
+        elif not 8 <= len(title) <= 38 or title_is_bad(title):
             counts["bad_title"] += 1
             reasons[item.source_id] = "标题格式未通过"
-            continue
-        if item.category not in CATEGORIES:
+        elif item.category not in CATEGORIES:
             counts["bad_category"] += 1
             reasons[item.source_id] = "分类无效"
-            continue
-        if not evidence_supported(item.evidence, candidate.excerpt):
+        elif not evidence_supported(item.evidence, candidate.excerpt):
             counts["evidence_mismatch"] += 1
             reasons[item.source_id] = "证据未能在原文中匹配"
-            continue
-        if candidate.source_url in existing_urls:
+        elif candidate.source_url in existing_urls:
             counts["duplicate_source"] += 1
             reasons[item.source_id] = "来源已经使用过"
-            continue
-        if similar_to_existing(title, existing_titles):
+        elif similar_to_existing(title, existing_titles):
             counts["similar_title"] += 1
             reasons[item.source_id] = "与已有标题过于相似"
-            continue
-
-        digest = hashlib.sha256(
-            f"{title}|{candidate.source_url}".encode("utf-8")
-        ).hexdigest()[:16]
-
-        card = {
-            "id": f"auto-{digest}",
-            "source_id": candidate.source_id,
-            "title": title,
-            "lead": normalize_space(item.lead),
-            "explanation": normalize_space(item.explanation),
-            "angle": normalize_space(item.angle),
-            "category": item.category,
-            "source_name": candidate.source_name,
-            "source_url": candidate.source_url,
-            "evidence": normalize_space(item.evidence),
-            "created_at": utc_now().date().isoformat(),
-            "source_type": f"AI审核 · {MODEL}",
-            "quality_score": item.quality_score,
-        }
-
-        new_cards.append(card)
-        existing_titles.append(title)
-        existing_urls.add(candidate.source_url)
-        reasons[item.source_id] = "accepted"
-
+        else:
+            digest = hashlib.sha256(f"{title}|{candidate.source_url}".encode("utf-8")).hexdigest()[:16]
+            new_cards.append(
+                {
+                    "id": f"auto-{digest}",
+                    "source_id": candidate.source_id,
+                    "title": title,
+                    "lead": normalize_space(item.lead),
+                    "explanation": normalize_space(item.explanation),
+                    "angle": normalize_space(item.angle),
+                    "category": item.category,
+                    "source_name": candidate.source_name,
+                    "source_url": candidate.source_url,
+                    "evidence": normalize_space(item.evidence),
+                    "created_at": utc_now().date().isoformat(),
+                    "source_type": f"AI审核 · {MODEL}",
+                    "quality_score": item.quality_score,
+                }
+            )
+            existing_titles.append(title)
+            existing_urls.add(candidate.source_url)
+            reasons[item.source_id] = "accepted"
         if len(new_cards) >= limit:
             break
-
     return new_cards, counts, reasons
 
 
 def print_counts(label: str, counts: dict[str, int]) -> None:
-    useful = ", ".join(
-        f"{key}={value}"
-        for key, value in counts.items()
-        if value
-    )
+    useful = ", ".join(f"{key}={value}" for key, value in counts.items() if value)
     print(f"[filter:{label}] {useful or 'none'}")
 
 
-def merge_counts(target: dict[str, int], source: dict[str, int]) -> None:
-    for key, value in source.items():
-        target[key] = target.get(key, 0) + int(value)
+def resolved_target_new_cards() -> int:
+    if TARGET_NEW_CARDS_ENV:
+        try:
+            return max(1, min(40, int(TARGET_NEW_CARDS_ENV)))
+        except ValueError:
+            pass
+    return 12 if RUN_SOURCE in {"web", "manual", "workflow_dispatch"} else 5
 
 
-def main() -> int:
-    started_at = utc_now()
-    target_new_cards = resolved_target_new_cards()
-    max_rounds = resolved_max_rounds()
-    github_run_id = os.getenv("GITHUB_RUN_ID", "")
+def resolved_max_rounds() -> int:
+    return MAX_PROCESS_ROUNDS if RUN_SOURCE in {"web", "manual", "workflow_dispatch"} else 1
 
-    payload = load_cards()
-    existing_cards = payload.get("cards", [])
-    state = load_state()
-    pool_payload = load_candidate_pool()
 
+def run_harvest(started_at: datetime, cards_payload: dict, pool_payload: dict, state: dict) -> int:
+    existing_cards = cards_payload.get("cards", [])
     pool_before = len(pool_payload.get("candidates", []))
-    harvested = 0
-    new_candidates = 0
-    harvest_passes = 0
-    harvest_filter_counts: dict[str, int] = {}
-    harvest_source_counts: dict[str, int] = {}
-
-    if pool_before < POOL_MIN_PENDING or PIPELINE_MODE == "harvest":
-        (
-            harvested,
-            new_candidates,
-            harvest_filter_counts,
-            harvest_passes,
-            harvest_source_counts,
-        ) = harvest_until_reserve(
-            pool_payload,
-            existing_cards,
-            state,
-        )
-        print_counts("harvest", harvest_filter_counts)
-        print(
-            f"[pool] reserve after harvest: "
-            f"{len(pool_payload.get('candidates', []))}"
-        )
-    else:
-        print(
-            f"[pool] pending candidates already sufficient: "
-            f"{pool_before} >= {POOL_MIN_PENDING}"
-        )
-
-    if PIPELINE_MODE == "harvest":
+    prune_counts = prune_unusable_pool_records(pool_payload)
+    harvested, added, filters, passes, source_counts = harvest_until_reserve(pool_payload, existing_cards, state)
+    merge_counts(filters, prune_counts)
+    ok_sources = [name for name, info in HARVEST_DIAGNOSTICS.get("sources", {}).items() if info.get("ok")]
+    success = added >= HARVEST_MIN_ADDED and bool(ok_sources)
+    stats = {
+        "github_run_id": os.getenv("GITHUB_RUN_ID", ""),
+        "source": RUN_SOURCE,
+        "started_at": started_at.isoformat().replace("+00:00", "Z"),
+        "finished_at": iso_now(),
+        "passes": passes,
+        "fetched": harvested,
+        "added": added,
+        "pool_before": pool_before,
+        "pool_after": len(pool_payload.get("candidates", [])),
+        "source_counts": source_counts,
+        "success": success,
+        "min_added_for_success": HARVEST_MIN_ADDED,
+        "ok_sources": ok_sources,
+        "diagnostic_report": "data/harvest_report.json",
+        "message": "候选囤货成功" if success else f"候选囤货未达标：新增 {added} 条，成功阈值 {HARVEST_MIN_ADDED} 条",
+    }
+    HARVEST_DIAGNOSTICS.update({"started_at": stats["started_at"], "finished_at": stats["finished_at"], "summary": stats, "filters": filters})
+    save_harvest_report(HARVEST_DIAGNOSTICS)
+    if success:
         save_candidate_pool(pool_payload)
         save_state(state)
-        harvest_stats = {
-            "github_run_id": github_run_id,
-            "source": RUN_SOURCE,
-            "started_at": started_at.isoformat().replace("+00:00", "Z"),
-            "finished_at": iso_now(),
-            "passes": harvest_passes,
-            "fetched": harvested,
-            "added": new_candidates,
-            "pool_before": pool_before,
-            "pool_after": len(pool_payload.get("candidates", [])),
-            "source_counts": harvest_source_counts,
-        }
-        save_harvest_status(
-            cards_count=len(existing_cards),
-            pending_count=len(pool_payload.get("candidates", [])),
-            stats=harvest_stats,
-        )
-        print(
-            f"[harvest] finished with "
-            f"{len(pool_payload.get('candidates', []))} pending candidates"
-        )
-        return 0
+    save_harvest_status(cards_count=len(existing_cards), pending_count=len(pool_payload.get("candidates", [])), stats=stats)
+    print_counts("harvest", filters)
+    print(f"[harvest] fetched={harvested} added={added} pending={len(pool_payload.get('candidates', []))}")
+    if not ok_sources:
+        print("[harvest] all major sources failed", file=sys.stderr)
+        return 1
+    if added < HARVEST_MIN_ADDED:
+        print(f"[harvest] added {added}, below required {HARVEST_MIN_ADDED}", file=sys.stderr)
+        return 1
+    return 0
 
+
+def run_generate(started_at: datetime, cards_payload: dict, pool_payload: dict, state: dict) -> int:
+    target_new_cards = resolved_target_new_cards()
+    existing_cards = cards_payload.get("cards", [])
     pending_now = len(pool_payload.get("candidates", []))
     if pending_now < MIN_CANDIDATES_TO_GENERATE:
         run_stats = {
-            "github_run_id": github_run_id,
+            "github_run_id": os.getenv("GITHUB_RUN_ID", ""),
             "source": RUN_SOURCE,
             "started_at": started_at.isoformat().replace("+00:00", "Z"),
             "finished_at": iso_now(),
             "target_new_cards": target_new_cards,
             "rounds": 0,
-            "harvested": harvested,
-            "new_candidates": new_candidates,
-            "harvest_passes": harvest_passes,
-            "pool_before": pool_before,
+            "pool_before": pending_now,
             "pool_after": pending_now,
             "processed": 0,
             "proposals": 0,
@@ -1815,231 +1136,87 @@ def main() -> int:
             "pass_rate": 0,
             "input_tokens": 0,
             "output_tokens": 0,
-            "message": (
-                f"候选池只有 {pending_now} 条，低于 "
-                f"{MIN_CANDIDATES_TO_GENERATE} 条；本次未调用AI"
-            ),
-            "filters": {
-                "harvest": harvest_filter_counts,
-                "before_ai": {},
-                "before_review": {},
-                "final": {},
-            },
+            "message": f"候选池只有 {pending_now} 条，低于 {MIN_CANDIDATES_TO_GENERATE} 条；本次未调用AI",
+            "filters": {"before_ai": {}, "before_review": {}, "final": {}},
             "source_stats": {},
         }
         save_candidate_pool(pool_payload)
         save_state(state)
-        save_pool_status(
-            cards_count=len(existing_cards),
-            pending_count=pending_now,
-            run_stats=run_stats,
-        )
+        save_pool_status(cards_count=len(existing_cards), pending_count=pending_now, run_stats=run_stats)
         print(f"[pipeline] {run_stats['message']}")
         return 0
-
     if not os.getenv("OPENAI_API_KEY"):
-        run_stats = {
-            "github_run_id": github_run_id,
-            "source": RUN_SOURCE,
-            "started_at": started_at.isoformat().replace("+00:00", "Z"),
-            "finished_at": iso_now(),
-            "target_new_cards": target_new_cards,
-            "harvested": harvested,
-            "new_candidates": new_candidates,
-            "harvest_passes": harvest_passes,
-            "pool_before": pool_before,
-            "pool_after": len(pool_payload.get("candidates", [])),
-            "processed": 0,
-            "proposals": 0,
-            "reviewed": 0,
-            "added": 0,
-            "pass_rate": 0,
-            "input_tokens": 0,
-            "output_tokens": 0,
-            "message": "OPENAI_API_KEY is missing",
-        }
-        save_candidate_pool(pool_payload)
-        save_state(state)
-        save_pool_status(
-            cards_count=len(existing_cards),
-            pending_count=len(pool_payload.get("candidates", [])),
-            run_stats=run_stats,
-        )
         print("OPENAI_API_KEY is missing.", file=sys.stderr)
         return 2
-
-    base_url = os.getenv("OPENAI_BASE_URL", "").strip()
-    client = OpenAI(
-        api_key=os.environ["OPENAI_API_KEY"],
-        base_url=base_url or None,
-    )
-    if base_url:
-        print(f"[pipeline] using custom base URL: {base_url}")
-
+    if OpenAI is None:
+        print("OpenAI SDK is not installed.", file=sys.stderr)
+        return 2
+    client = OpenAI(api_key=os.environ["OPENAI_API_KEY"], base_url=os.getenv("OPENAI_BASE_URL", "").strip() or None)
     all_new_cards: list[dict] = []
-    processed_total = 0
-    proposals_total = 0
-    reviewed_total = 0
-    rounds_used = 0
-
+    processed_total = proposals_total = reviewed_total = rounds_used = 0
     source_stats: dict[str, dict[str, int]] = {}
     before_ai_counts: dict[str, int] = {}
     before_review_counts: dict[str, int] = {}
     final_filter_counts: dict[str, int] = {}
-
-    for round_index in range(max_rounds):
+    for _ in range(resolved_max_rounds()):
         remaining = target_new_cards - len(all_new_cards)
         if remaining <= 0:
             break
-
-        cards_for_dedup = all_new_cards + existing_cards
-        selected, selected_ids, pool_filter_counts = select_pool_batch(
-            pool_payload,
-            cards_for_dedup,
-            state,
-            MAX_CANDIDATES_PER_ROUND,
-        )
+        selected, selected_ids, pool_filter_counts = select_pool_batch(pool_payload, all_new_cards + existing_cards, state, MAX_CANDIDATES_PER_ROUND)
         merge_counts(before_ai_counts, pool_filter_counts)
-
         if not selected:
-            print("[pipeline] candidate pool has no usable pending item")
             break
-
         rounds_used += 1
         processed_total += len(selected)
-        print(
-            f"[round {round_index + 1}] candidates sent to AI: "
-            f"{len(selected)}"
-        )
-
         for candidate in selected:
             family = source_family(candidate.source_id)
-            source_stats.setdefault(
-                family,
-                {"processed": 0, "accepted": 0},
-            )
+            source_stats.setdefault(family, {"processed": 0, "accepted": 0})
             source_stats[family]["processed"] += 1
-
         proposals = extract_proposals(client, selected)
         proposals_total += len(proposals)
-        print(
-            f"[round {round_index + 1}] extracted proposals: "
-            f"{len(proposals)}"
-        )
-
         candidate_map = {item.source_id: item for item in selected}
-        prequalified, proposal_filter_counts = prequalify_proposals(
-            proposals,
-            candidate_map,
-            cards_for_dedup,
-        )
+        prequalified, proposal_filter_counts = prequalify_proposals(proposals, candidate_map, all_new_cards + existing_cards)
         merge_counts(before_review_counts, proposal_filter_counts)
-        print(
-            f"[round {round_index + 1}] proposals sent to review: "
-            f"{len(prequalified)}"
-        )
-
-        reviews: list[ReviewItem] = []
-        if prequalified:
-            reviews = review_proposals(
-                client,
-                prequalified,
-                candidate_map,
-            )
+        reviews = review_proposals(client, prequalified, candidate_map) if prequalified else []
         reviewed_total += len(reviews)
-
-        new_cards, round_final_counts, reasons = build_new_cards(
-            reviews,
-            candidate_map,
-            cards_for_dedup,
-            remaining,
-        )
+        new_cards, round_final_counts, reasons = build_new_cards(reviews, candidate_map, all_new_cards + existing_cards, remaining)
         merge_counts(final_filter_counts, round_final_counts)
-
         all_new_cards.extend(new_cards)
         accepted_ids = {card["source_id"] for card in new_cards}
         proposal_ids = {proposal.source_id for proposal in proposals}
         reviewed_ids = {item.source_id for item in reviews}
-
         for candidate in selected:
             family = source_family(candidate.source_id)
             if candidate.source_id in accepted_ids:
                 source_stats[family]["accepted"] += 1
                 mark_seen(state, candidate, "accepted")
             elif candidate.source_id in reasons:
-                mark_seen(
-                    state,
-                    candidate,
-                    "rejected",
-                    reasons[candidate.source_id],
-                )
+                mark_seen(state, candidate, "rejected", reasons[candidate.source_id])
             elif candidate.source_id in reviewed_ids:
-                mark_seen(
-                    state,
-                    candidate,
-                    "reviewed_not_saved",
-                )
+                mark_seen(state, candidate, "reviewed_not_saved")
             elif candidate.source_id in proposal_ids:
-                mark_seen(
-                    state,
-                    candidate,
-                    "filtered_before_review",
-                )
+                mark_seen(state, candidate, "filtered_before_review")
             else:
                 mark_seen(state, candidate, "no_proposal")
-
-        # Every selected item has now consumed its AI opportunity. Remove it from
-        # the raw candidate queue so the next click works on genuinely new material.
-        remove_candidates_from_pool(
-            pool_payload,
-            set(selected_ids),
-        )
-
-        print(
-            f"[round {round_index + 1}] added cards: "
-            f"{len(new_cards)}"
-        )
-
-    print_counts("before_ai", before_ai_counts)
-    print_counts("before_review", before_review_counts)
-    print_counts("final", final_filter_counts)
-
+        remove_candidates_from_pool(pool_payload, set(selected_ids))
     if all_new_cards:
-        merged = all_new_cards + existing_cards
-        payload["version"] = 1
-        payload["updated_at"] = iso_now()
-        payload["cards"] = merged[:MAX_CARDS_STORED]
-        CARDS_PATH.write_text(
-            json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
-            encoding="utf-8",
-        )
-
+        cards_payload["version"] = 1
+        cards_payload["updated_at"] = iso_now()
+        cards_payload["cards"] = (all_new_cards + existing_cards)[:MAX_CARDS_STORED]
+        write_json(CARDS_PATH, cards_payload)
     save_candidate_pool(pool_payload)
     save_state(state)
-
-    finished_at = utc_now()
-    duration_seconds = round(
-        (finished_at - started_at).total_seconds(),
-        2,
-    )
-    pass_rate = (
-        round(len(all_new_cards) / processed_total * 100, 1)
-        if processed_total
-        else 0
-    )
-
+    duration_seconds = round((utc_now() - started_at).total_seconds(), 2)
+    pass_rate = round(len(all_new_cards) / processed_total * 100, 1) if processed_total else 0
     run_stats = {
-        "github_run_id": github_run_id,
+        "github_run_id": os.getenv("GITHUB_RUN_ID", ""),
         "source": RUN_SOURCE,
         "started_at": started_at.isoformat().replace("+00:00", "Z"),
-        "finished_at": finished_at.isoformat().replace("+00:00", "Z"),
+        "finished_at": iso_now(),
         "duration_seconds": duration_seconds,
         "target_new_cards": target_new_cards,
         "rounds": rounds_used,
-        "harvested": harvested,
-        "new_candidates": new_candidates,
-        "harvest_passes": harvest_passes,
-        "pool_before": pool_before,
+        "pool_before": pending_now,
         "pool_after": len(pool_payload.get("candidates", [])),
         "processed": processed_total,
         "proposals": proposals_total,
@@ -2048,45 +1225,23 @@ def main() -> int:
         "pass_rate": pass_rate,
         "input_tokens": USAGE["input_tokens"],
         "output_tokens": USAGE["output_tokens"],
-        "filters": {
-            "harvest": harvest_filter_counts,
-            "before_ai": before_ai_counts,
-            "before_review": before_review_counts,
-            "final": final_filter_counts,
-        },
+        "filters": {"before_ai": before_ai_counts, "before_review": before_review_counts, "final": final_filter_counts},
         "source_stats": source_stats,
     }
-
-    current_cards_count = (
-        len(payload.get("cards", []))
-        if all_new_cards
-        else len(existing_cards)
-    )
-    save_pool_status(
-        cards_count=current_cards_count,
-        pending_count=len(pool_payload.get("candidates", [])),
-        run_stats=run_stats,
-    )
-
-    print(
-        "[usage] "
-        f"input_tokens={USAGE['input_tokens']} "
-        f"output_tokens={USAGE['output_tokens']}"
-    )
-    print(
-        "[pool] "
-        f"approved_cards={current_cards_count} "
-        f"pending_candidates={len(pool_payload.get('candidates', []))} "
-        f"added={len(all_new_cards)} "
-        f"pass_rate={pass_rate}%"
-    )
-
-    if not all_new_cards:
-        print("[pipeline] no card passed this replenishment run")
-        return 0
-
-    print(f"[pipeline] added {len(all_new_cards)} cards")
+    save_pool_status(cards_count=len(cards_payload.get("cards", existing_cards)), pending_count=len(pool_payload.get("candidates", [])), run_stats=run_stats)
+    print(f"[pipeline] added {len(all_new_cards)} cards; pending={len(pool_payload.get('candidates', []))}")
     return 0
+
+
+def main() -> int:
+    started_at = utc_now()
+    cards_payload = load_cards()
+    state = load_state()
+    pool_payload = load_candidate_pool()
+    prune_unusable_pool_records(pool_payload)
+    if PIPELINE_MODE == "harvest":
+        return run_harvest(started_at, cards_payload, pool_payload, state)
+    return run_generate(started_at, cards_payload, pool_payload, state)
 
 
 if __name__ == "__main__":

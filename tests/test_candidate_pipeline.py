@@ -113,6 +113,76 @@ class CandidatePipelineTests(unittest.TestCase):
             finally:
                 cards.POOL_STATUS_PATH = original_path
 
+    def test_harvest_succeeds_when_pool_is_already_full(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            tmp_path = Path(tmp)
+            originals = {
+                "POOL_STATUS_PATH": cards.POOL_STATUS_PATH,
+                "HARVEST_REPORT_PATH": cards.HARVEST_REPORT_PATH,
+                "CANDIDATE_POOL_PATH": cards.CANDIDATE_POOL_PATH,
+                "STATE_PATH": cards.STATE_PATH,
+                "HARVEST_TARGET_PENDING": cards.HARVEST_TARGET_PENDING,
+                "HARVEST_MIN_ADDED": cards.HARVEST_MIN_ADDED,
+                "HARVEST_DIAGNOSTICS": cards.HARVEST_DIAGNOSTICS,
+            }
+            try:
+                cards.POOL_STATUS_PATH = tmp_path / "site" / "data" / "pool_status.json"
+                cards.HARVEST_REPORT_PATH = tmp_path / "data" / "harvest_report.json"
+                cards.CANDIDATE_POOL_PATH = tmp_path / "data" / "candidate_pool.json"
+                cards.STATE_PATH = tmp_path / "data" / "generation_state.json"
+                cards.HARVEST_TARGET_PENDING = 2
+                cards.HARVEST_MIN_ADDED = 20
+                cards.HARVEST_DIAGNOSTICS = {
+                    "version": 1,
+                    "generated_at": None,
+                    "user_agent": cards.USER_AGENT,
+                    "sources": {},
+                    "requests": [],
+                }
+                pool = {
+                    "version": 1,
+                    "candidates": [
+                        {
+                            "source_id": "wiki-topic:en:1",
+                            "source_name": "Wikipedia",
+                            "source_url": "https://example.test/1",
+                            "title": "Convection",
+                            "excerpt": "A" * 220,
+                            "category_hint": "科学",
+                            "source_rank": 1,
+                        },
+                        {
+                            "source_id": "wiki-topic:en:2",
+                            "source_name": "Wikipedia",
+                            "source_url": "https://example.test/2",
+                            "title": "Reflection",
+                            "excerpt": "B" * 220,
+                            "category_hint": "科学",
+                            "source_rank": 1,
+                        },
+                    ],
+                }
+
+                exit_code = cards.run_harvest(
+                    cards.utc_now(),
+                    {"version": 1, "cards": []},
+                    pool,
+                    {"version": 1, "seen": {}},
+                )
+
+                status = json.loads(cards.POOL_STATUS_PATH.read_text(encoding="utf-8"))
+                self.assertEqual(exit_code, 0)
+                self.assertTrue(status["last_harvest"]["success"])
+                self.assertEqual(status["last_harvest"]["passes"], 0)
+                self.assertEqual(status["last_harvest"]["added"], 0)
+                self.assertEqual(
+                    status["last_harvest"]["message"],
+                    "候选池库存充足，无需补充",
+                )
+            finally:
+                for name, value in originals.items():
+                    setattr(cards, name, value)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -1079,8 +1079,17 @@ def run_harvest(started_at: datetime, cards_payload: dict, pool_payload: dict, s
     prune_counts = prune_unusable_pool_records(pool_payload)
     harvested, added, filters, passes, source_counts = harvest_until_reserve(pool_payload, existing_cards, state)
     merge_counts(filters, prune_counts)
+    pool_after = len(pool_payload.get("candidates", []))
+    inventory_sufficient = pool_before >= HARVEST_TARGET_PENDING or pool_after >= HARVEST_TARGET_PENDING
+    attempted_harvest = passes > 0
     ok_sources = [name for name, info in HARVEST_DIAGNOSTICS.get("sources", {}).items() if info.get("ok")]
-    success = added >= HARVEST_MIN_ADDED and bool(ok_sources)
+    success = inventory_sufficient or (attempted_harvest and added >= HARVEST_MIN_ADDED and bool(ok_sources))
+    if inventory_sufficient:
+        message = "候选池库存充足，无需补充"
+    elif success:
+        message = "候选囤货成功"
+    else:
+        message = f"候选囤货未达标：新增 {added} 条，成功阈值 {HARVEST_MIN_ADDED} 条"
     stats = {
         "github_run_id": os.getenv("GITHUB_RUN_ID", ""),
         "source": RUN_SOURCE,
@@ -1090,13 +1099,13 @@ def run_harvest(started_at: datetime, cards_payload: dict, pool_payload: dict, s
         "fetched": harvested,
         "added": added,
         "pool_before": pool_before,
-        "pool_after": len(pool_payload.get("candidates", [])),
+        "pool_after": pool_after,
         "source_counts": source_counts,
         "success": success,
         "min_added_for_success": HARVEST_MIN_ADDED,
         "ok_sources": ok_sources,
         "diagnostic_report": "data/harvest_report.json",
-        "message": "候选囤货成功" if success else f"候选囤货未达标：新增 {added} 条，成功阈值 {HARVEST_MIN_ADDED} 条",
+        "message": message,
     }
     HARVEST_DIAGNOSTICS.update({"started_at": stats["started_at"], "finished_at": stats["finished_at"], "summary": stats, "filters": filters})
     save_harvest_report(HARVEST_DIAGNOSTICS)
@@ -1106,10 +1115,12 @@ def run_harvest(started_at: datetime, cards_payload: dict, pool_payload: dict, s
     save_harvest_status(cards_count=len(existing_cards), pending_count=len(pool_payload.get("candidates", [])), stats=stats)
     print_counts("harvest", filters)
     print(f"[harvest] fetched={harvested} added={added} pending={len(pool_payload.get('candidates', []))}")
+    if inventory_sufficient:
+        return 0
     if not ok_sources:
         print("[harvest] all major sources failed", file=sys.stderr)
         return 1
-    if added < HARVEST_MIN_ADDED:
+    if attempted_harvest and added < HARVEST_MIN_ADDED:
         print(f"[harvest] added {added}, below required {HARVEST_MIN_ADDED}", file=sys.stderr)
         return 1
     return 0

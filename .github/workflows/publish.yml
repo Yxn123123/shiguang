@@ -5,7 +5,7 @@ on:
     branches: ["main"]
   workflow_dispatch:
   schedule:
-    - cron: "17 7 * * *"
+    - cron: "17 23 * * *"
 
 permissions:
   contents: write
@@ -35,6 +35,7 @@ jobs:
       - name: Generate and review new cards
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
           OPENAI_MODEL: gpt-5.6-luna
           NASA_API_KEY: ${{ secrets.NASA_API_KEY }}
           MAX_NEW_CARDS: "8"

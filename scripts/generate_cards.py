@@ -785,11 +785,71 @@ def candidate_rejection_reason(candidate: Candidate) -> str | None:
     ):
         return "random_without_knowledge_hook"
 
+    if candidate_hook_score(candidate) < 2:
+        return "weak_hook_score"
+
     return None
 
 
 def candidate_is_low_information(candidate: Candidate) -> bool:
     return candidate_rejection_reason(candidate) is not None
+
+
+def count_matches(text: str, markers: tuple[str, ...]) -> int:
+    return sum(1 for marker in markers if marker in text)
+
+
+def candidate_hook_score(candidate: Candidate) -> int:
+    title = normalize_space(candidate.title)
+    text = normalize_space(candidate.excerpt)
+    lowered_title = title.lower()
+    lowered_text = text.lower()
+    score = 0
+
+    mechanism_markers = (
+        "because", "caused by", "causes", "effect", "phenomenon", "mechanism", "process",
+        "results from", "due to", "explains", "allows", "prevents", "forms", "changes",
+        "形成", "导致", "因为", "原因", "机制", "现象", "过程", "解释", "使得", "可以", "避免",
+    )
+    counterintuitive_markers = (
+        "unusual", "surprising", "unexpected", "counterintuitive", "paradox", "mystery",
+        "first", "oldest", "longer than", "more than", "less than", "not actually",
+        "反直觉", "意外", "罕见", "首次", "最早", "最晚", "并不是", "不一定", "竟然",
+    )
+    concrete_markers = (
+        "experiment", "observed", "measured", "material", "design", "structure", "color",
+        "light", "sound", "heat", "water", "ice", "animal", "plant", "language", "word",
+        "实验", "观测", "测量", "材料", "设计", "结构", "颜色", "光", "声音", "热", "水", "冰", "动物", "植物", "语言",
+    )
+    low_value_markers = (
+        "association", "society", "committee", "standard", "classification", "taxonomy",
+        "standards", "guideline", "guidelines", "recommendation", "recommendations",
+        "code of practice", "codex", "specification", "framework", "organization", "institute", "university",
+        "协会", "委员会", "标准", "规范", "分类", "组织", "机构", "大学",
+    )
+    term_markers = (" refers to ", " is a type of ", " is a term ", " is defined as ", "指的是", "定义为")
+
+    score += min(4, count_matches(lowered_text, mechanism_markers))
+    score += min(3, count_matches(lowered_text + " " + lowered_title, counterintuitive_markers))
+    score += min(3, count_matches(lowered_text + " " + lowered_title, concrete_markers))
+    if candidate_has_explicit_topic(candidate):
+        score += 2
+    if normalized_category(candidate.category_hint) != "综合":
+        score += 1
+    if "?" in title or "？" in title:
+        score += 1
+    if 4 <= len(title) <= 70:
+        score += 1
+
+    score -= min(4, count_matches(lowered_title + " " + lowered_text, low_value_markers))
+    if count_matches(lowered_text, term_markers) and not count_matches(lowered_text, mechanism_markers):
+        score -= 2
+    if re.fullmatch(r"[A-Z0-9/.-]{2,12}", title):
+        score -= 3
+    if len(title.split()) <= 2 and candidate.source_id.startswith("wiki-random:"):
+        score -= 1
+
+    return score
 
 
 def candidate_to_record(candidate: Candidate) -> dict:
@@ -938,7 +998,8 @@ def candidate_selection_key(candidate: Candidate) -> tuple[float, float]:
     random_penalty = 1.5 if candidate.source_id.startswith("wiki-random:") else 0.0
     vague_penalty = 1.0 if normalized_category(candidate.category_hint) == "综合" else 0.0
     explicit_bonus = -1.2 if candidate_has_explicit_topic(candidate) else 0.0
-    return (candidate.source_rank + random_penalty + vague_penalty + explicit_bonus, random.random())
+    hook_bonus = min(3.0, max(0, candidate_hook_score(candidate)) * 0.35)
+    return (candidate.source_rank + random_penalty + vague_penalty + explicit_bonus - hook_bonus, random.random())
 
 
 def batch_category_targets(limit: int) -> dict[str, int]:
@@ -1013,6 +1074,7 @@ def select_pool_batch(
     selected = [selected_by_id[source_id] for source_id in selected_ids]
     counts["explicit_topic_selected"] = sum(1 for candidate in selected if candidate_has_explicit_topic(candidate))
     counts["random_selected"] = sum(1 for candidate in selected if candidate.source_id.startswith("wiki-random:"))
+    counts["average_hook_score"] = round(sum(candidate_hook_score(candidate) for candidate in selected) / len(selected), 2) if selected else 0
     return selected, selected_ids, counts
 
 

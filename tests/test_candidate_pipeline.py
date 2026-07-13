@@ -63,6 +63,38 @@ class CandidatePipelineTests(unittest.TestCase):
         self.assertEqual(cards.candidate_rejection_reason(list_page), "weak_title")
         self.assertIsNone(cards.candidate_rejection_reason(mechanism))
 
+    def test_candidate_hook_score_keeps_high_potential_knowledge(self) -> None:
+        high_potential = cards.Candidate(
+            source_id="wiki-topic:en:ice",
+            source_name="Wikipedia",
+            source_url="https://example.test/ice",
+            title="Ice floats because it becomes less dense",
+            excerpt=(
+                "Ice floats because water forms an unusual crystal structure. "
+                "The mechanism creates more open space between molecules, so solid ice is less dense than liquid water. "
+                "This surprising effect allows lakes to freeze from the top while water remains below. "
+            ),
+            category_hint="科学",
+            source_rank=2,
+        )
+        low_value = cards.Candidate(
+            source_id="wiki-topic:en:standard",
+            source_name="Wikipedia",
+            source_url="https://example.test/standard",
+            title="Codex Alimentarius",
+            excerpt=(
+                "The Codex Alimentarius is a collection of internationally recognized standards, codes of practice, "
+                "guidelines, and other recommendations relating to foods and food safety. "
+            ) * 2,
+            category_hint="生活",
+            source_rank=2,
+        )
+
+        self.assertGreaterEqual(cards.candidate_hook_score(high_potential), 6)
+        self.assertIsNone(cards.candidate_rejection_reason(high_potential))
+        self.assertLess(cards.candidate_hook_score(low_value), 2)
+        self.assertEqual(cards.candidate_rejection_reason(low_value), "weak_hook_score")
+
     def test_semantic_fields_normalize_topic_and_tags(self) -> None:
         topic, tags = cards.semantic_fields(" 天文 ", ["引力", "观测", "引力", "很长的标签名称会被截断"], "科学")
 
@@ -169,6 +201,42 @@ class CandidatePipelineTests(unittest.TestCase):
         self.assertIn("艺术", selected_categories)
         self.assertGreaterEqual(counts["explicit_topic_selected"], 4)
         self.assertEqual(len(selected_ids), len(set(selected_ids)))
+        self.assertGreaterEqual(counts["average_hook_score"], 2)
+
+    def test_select_pool_batch_prefers_higher_hook_within_category(self) -> None:
+        def record(candidate: cards.Candidate) -> dict:
+            return cards.candidate_to_record(candidate)
+
+        high = cards.Candidate(
+            source_id="wiki-topic:en:high",
+            source_name="Wikipedia",
+            source_url="https://example.test/high",
+            title="Why some glass does not flow like liquid",
+            excerpt=(
+                "Glass is an amorphous solid, not a slow-moving liquid. "
+                "The unusual structure explains why old window thickness mostly results from manufacturing, not flow. "
+            ) * 3,
+            category_hint="科学",
+            source_rank=2,
+        )
+        medium = cards.Candidate(
+            source_id="wiki-topic:en:medium",
+            source_name="Wikipedia",
+            source_url="https://example.test/medium",
+            title="Annual cycle",
+            excerpt=(
+                "An annual cycle refers to a set of changes or events that occur once each year. "
+                "It is a term used in many fields and contexts. "
+            ) * 3,
+            category_hint="科学",
+            source_rank=2,
+        )
+        pool = {"version": 1, "candidates": [record(medium), record(high)]}
+
+        selected, _, counts = cards.select_pool_batch(pool, [], {"seen": {}}, 1)
+
+        self.assertEqual(selected[0].source_id, "wiki-topic:en:high")
+        self.assertGreater(counts["average_hook_score"], 2)
 
     def test_semantic_duplicate_detects_same_topic_overlap(self) -> None:
         existing = [

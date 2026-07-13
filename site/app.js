@@ -31,6 +31,11 @@ const state = {
   exploreSort: "newest",
   exploreLimit: PAGE_SIZE,
   mineSection: "favorites",
+  progress: {
+    read: new Set(),
+    favorite: new Set(),
+    loaded: false
+  },
   loadingSupply: false,
   installPrompt: null
 };
@@ -197,37 +202,220 @@ function getAnonymousId() {
   return anonymousId;
 }
 
-function recordProgress(cardId, status) {
-  if (!cardId || !PROGRESS_STATUSES.has(status) || !canRecordProgress()) {
-    return Promise.resolve(false);
+function progressWarning(message, detail = {}) {
+  console.warn("[progress]", message, detail);
+}
+
+function progressEndpoint(query = {}) {
+  const params = new URLSearchParams(query);
+  const suffix = params.toString() ? `?${params.toString()}` : "";
+  return `${supabaseConfig.url}/rest/v1/user_progress${suffix}`;
+}
+
+async function parseProgressResponse(response) {
+  const text = await response.text();
+  if (!text) return null;
+  try {
+    return JSON.parse(text);
+  } catch {
+    return text.slice(0, 300);
+  }
+}
+
+async function requestProgress(path, options = {}, context = {}) {
+  if (!canRecordProgress()) {
+    progressWarning("Supabase progress config is missing", context);
+    return { ok: false, status: 0, payload: null };
   }
 
+  try {
+    const response = await fetch(path, {
+      ...options,
+      headers: {
+        apikey: supabaseConfig.key,
+        Authorization: `Bearer ${supabaseConfig.key}`,
+        ...(options.headers || {})
+      }
+    });
+    const payload = await parseProgressResponse(response);
+
+    if (!response.ok) {
+      progressWarning("Supabase progress request failed", {
+        ...context,
+        status: response.status,
+        payload
+      });
+    }
+
+    return { ok: response.ok, status: response.status, payload };
+  } catch (error) {
+    progressWarning("Supabase progress request errored", {
+      ...context,
+      error: error instanceof Error ? error.message : String(error)
+    });
+    return { ok: false, status: 0, payload: null };
+  }
+}
+
+function applyProgressRows(rows) {
+  const validIds = new Set(state.cards.map((card) => card.id));
+  const read = new Set();
+  const favorite = new Set();
+
+  (Array.isArray(rows) ? rows : []).forEach((row) => {
+    const cardId = String(row.card_id || "");
+    if (!validIds.has(cardId)) return;
+
+    if (row.status === "read") read.add(cardId);
+    if (row.status === "favorite") favorite.add(cardId);
+  });
+
+  state.progress.read = read;
+  state.progress.favorite = favorite;
+  state.progress.loaded = true;
+}
+
+async function loadRemoteProgress() {
   const anonymousId = getAnonymousId();
 
-  return fetch(`${supabaseConfig.url}/rest/v1/user_progress`, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      apikey: supabaseConfig.key,
-      Authorization: `Bearer ${supabaseConfig.key}`,
-      Prefer: "return=minimal"
+  if (!canRecordProgress()) {
+    applyProgressRows([]);
+    progressWarning("Using empty progress because Supabase is not configured", {
+      anonymous_id: anonymousId
+    });
+    return false;
+  }
+
+  const result = await requestProgress(
+    progressEndpoint({
+      select: "card_id,status",
+      anonymous_id: `eq.${anonymousId}`,
+      user_id: "is.null",
+      active: "eq.true",
+      status: "in.(read,favorite)"
+    }),
+    {
+      method: "GET",
+      headers: {
+        "Content-Type": "application/json"
+      }
     },
-    body: JSON.stringify({
+    {
+      action: "load",
+      anonymous_id: anonymousId
+    }
+  );
+
+  if (result.ok) {
+    applyProgressRows(result.payload);
+    return true;
+  }
+
+  applyProgressRows([]);
+  return false;
+}
+
+function updateProgressState(cardId, status, active) {
+  const target = status === "read" ? state.progress.read : state.progress.favorite;
+  if (active) {
+    target.add(cardId);
+  } else {
+    target.delete(cardId);
+  }
+}
+
+async function insertProgressRow(cardId, status, active = true) {
+  const anonymousId = getAnonymousId();
+
+  return requestProgress(
+    progressEndpoint(),
+    {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Prefer: "return=representation"
+      },
+      body: JSON.stringify({
+        anonymous_id: anonymousId,
+        card_id: cardId,
+        status,
+        active
+      })
+    },
+    {
+      action: "insert",
       card_id: cardId,
       status,
+      active,
       anonymous_id: anonymousId
-    })
-  })
-    .then((response) => response.ok)
-    .catch(() => false);
+    }
+  );
+}
+
+async function patchProgressRows(cardId, status, active) {
+  const anonymousId = getAnonymousId();
+
+  return requestProgress(
+    progressEndpoint({
+      anonymous_id: `eq.${anonymousId}`,
+      user_id: "is.null",
+      card_id: `eq.${cardId}`,
+      status: `eq.${status}`
+    }),
+    {
+      method: "PATCH",
+      headers: {
+        "Content-Type": "application/json",
+        Prefer: "return=representation"
+      },
+      body: JSON.stringify({ active })
+    },
+    {
+      action: "update",
+      card_id: cardId,
+      status,
+      active,
+      anonymous_id: anonymousId
+    }
+  );
+}
+
+async function setProgressStatus(cardId, status, active) {
+  if (!cardId || !["read", "favorite"].includes(status)) return false;
+
+  const patchResult = await patchProgressRows(cardId, status, active);
+  if (!patchResult.ok) return false;
+
+  const updatedRows = Array.isArray(patchResult.payload)
+    ? patchResult.payload.length
+    : 0;
+
+  if (updatedRows === 0 && active) {
+    const insertResult = await insertProgressRow(cardId, status, true);
+    if (!insertResult.ok && insertResult.status === 409) {
+      const retryResult = await patchProgressRows(cardId, status, true);
+      if (!retryResult.ok) return false;
+    } else if (!insertResult.ok) {
+      return false;
+    }
+  }
+
+  updateProgressState(cardId, status, active);
+  return true;
+}
+
+async function recordExploredProgress(cardId) {
+  if (!cardId) return false;
+  const result = await insertProgressRow(cardId, "explored", true);
+  return result.ok;
 }
 
 function getFavorites() {
-  return getSet(STORE.favorites);
+  return new Set(state.progress.favorite);
 }
 
 function getRead() {
-  return getSet(STORE.read);
+  return new Set(state.progress.read);
 }
 
 function getLater() {
@@ -655,7 +843,7 @@ function ensureRandomCard(forceNext = false) {
 
   state.randomCardId = queue.shift();
   writeJson(STORE.randomQueue, queue);
-  recordProgress(state.randomCardId, "explored");
+  recordExploredProgress(state.randomCardId);
   return state.cardMap.get(state.randomCardId) || null;
 }
 
@@ -712,15 +900,16 @@ function renderRandomExplore() {
     `查看原始来源：${card.source_name || "原文"} ↗`;
 }
 
-function advanceRandomCard({ markRead = false, putBack = false } = {}) {
+async function advanceRandomCard({ markRead = false, putBack = false } = {}) {
   const cardId = state.randomCardId;
-  if (!cardId) return;
+  if (!cardId) return false;
 
   if (markRead) {
-    const read = getRead();
-    read.add(cardId);
-    saveSet(STORE.read, read);
-    recordProgress(cardId, "read");
+    const synced = await setProgressStatus(cardId, "read", true);
+    if (!synced) {
+      showToast("同步失败，请稍后再试");
+      return false;
+    }
   }
 
   if (putBack) {
@@ -733,24 +922,27 @@ function advanceRandomCard({ markRead = false, putBack = false } = {}) {
   state.randomCardId = null;
   ensureRandomCard(true);
   renderExplore();
+  return true;
 }
 
-function toggleRandomFavorite() {
+async function toggleRandomFavorite() {
   const cardId = state.randomCardId;
   if (!cardId) return;
 
   const favorites = getFavorites();
+  const nextActive = !favorites.has(cardId);
+  const synced = await setProgressStatus(cardId, "favorite", nextActive);
+  if (!synced) {
+    showToast("同步失败，请稍后再试");
+    return;
+  }
 
   if (favorites.has(cardId)) {
-    favorites.delete(cardId);
     showToast("已取消收藏");
   } else {
-    favorites.add(cardId);
-    recordProgress(cardId, "favorite");
     showToast("已收藏");
   }
 
-  saveSet(STORE.favorites, favorites);
   renderRandomExplore();
   updateCounts();
 }
@@ -967,51 +1159,58 @@ function nextDailyCard(currentId) {
   }
 }
 
-function completeCurrent() {
+async function completeCurrent() {
   const card = state.cardMap.get(state.currentCardId);
   if (!card) return;
 
   const read = getRead();
 
   if (state.detailOrigin === "daily") {
-    read.add(card.id);
-    saveSet(STORE.read, read);
-    recordProgress(card.id, "read");
+    const synced = await setProgressStatus(card.id, "read", true);
+    if (!synced) {
+      showToast("同步失败，请稍后再试");
+      return;
+    }
     showToast("已读完");
     nextDailyCard(card.id);
     return;
   }
 
-  if (read.has(card.id)) {
-    read.delete(card.id);
+  const nextActive = !read.has(card.id);
+  const synced = await setProgressStatus(card.id, "read", nextActive);
+  if (!synced) {
+    showToast("同步失败，请稍后再试");
+    return;
+  }
+
+  if (!nextActive) {
     showToast("已标记为未读");
   } else {
-    read.add(card.id);
-    recordProgress(card.id, "read");
     showToast("已标记为已读");
   }
 
-  saveSet(STORE.read, read);
   renderDetail();
   updateCounts();
 }
 
-function toggleFavorite() {
+async function toggleFavorite() {
   const cardId = state.currentCardId;
   if (!cardId) return;
 
   const favorites = getFavorites();
+  const nextActive = !favorites.has(cardId);
+  const synced = await setProgressStatus(cardId, "favorite", nextActive);
+  if (!synced) {
+    showToast("同步失败，请稍后再试");
+    return;
+  }
 
-  if (favorites.has(cardId)) {
-    favorites.delete(cardId);
+  if (!nextActive) {
     showToast("已取消收藏");
   } else {
-    favorites.add(cardId);
-    recordProgress(cardId, "favorite");
     showToast("已收藏");
   }
 
-  saveSet(STORE.favorites, favorites);
   renderDetail();
   updateCounts();
 }
@@ -1040,7 +1239,7 @@ function toggleLater() {
   }
 }
 
-function dislikeCurrent() {
+async function dislikeCurrent() {
   const cardId = state.currentCardId;
   if (!cardId) return;
 
@@ -1059,12 +1258,16 @@ function dislikeCurrent() {
   );
   if (!confirmed) return;
 
+  if (getFavorites().has(cardId)) {
+    const synced = await setProgressStatus(cardId, "favorite", false);
+    if (!synced) {
+      showToast("同步失败，请稍后再试");
+      return;
+    }
+  }
+
   disliked.add(cardId);
   saveSet(STORE.disliked, disliked);
-
-  const favorites = getFavorites();
-  favorites.delete(cardId);
-  saveSet(STORE.favorites, favorites);
 
   const later = getLater();
   later.delete(cardId);
@@ -1459,14 +1662,16 @@ async function fetchCardsPayload() {
   return response.json();
 }
 
-function applyCardsPayload(payload) {
+function applyCardsPayload(payload, { renderNow = true } = {}) {
   state.cards = Array.isArray(payload.cards) ? payload.cards : [];
   state.cardMap = new Map(state.cards.map((card) => [card.id, card]));
   dom.updateStatus.textContent =
     `知识库 ${state.cards.length} 条 · ${formatDate(payload.updated_at)}`;
 
-  ensureDailyRecord();
-  render();
+  if (renderNow) {
+    ensureDailyRecord();
+    render();
+  }
 }
 
 async function pollSupply(
@@ -1732,8 +1937,12 @@ async function importData(file) {
 
 async function loadCards() {
   try {
+    getAnonymousId();
     const payload = await fetchCardsPayload();
-    applyCardsPayload(payload);
+    applyCardsPayload(payload, { renderNow: false });
+    await loadRemoteProgress();
+    ensureDailyRecord();
+    render();
     dom.loadingState.hidden = true;
   } catch {
     dom.loadingState.textContent = "暂时无法读取知识库，请稍后刷新。";
@@ -1758,9 +1967,9 @@ function bindEvents() {
     advanceRandomCard({ putBack: true });
   });
 
-  dom.randomCompleteButton.addEventListener("click", () => {
-    advanceRandomCard({ markRead: true });
-    showToast("已读完，继续探索");
+  dom.randomCompleteButton.addEventListener("click", async () => {
+    const completed = await advanceRandomCard({ markRead: true });
+    if (completed) showToast("已读完，继续探索");
   });
 
   dom.randomFavoriteButton.addEventListener("click", toggleRandomFavorite);

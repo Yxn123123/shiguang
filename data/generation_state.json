@@ -168,7 +168,151 @@
       "source_url": "https://www.metmuseum.org/art/collection/search/313335",
       "outcome": "rejected",
       "reason": "证据未能在原文中匹配"
+    },
+    "wiki-topic:en:33934108": {
+      "last_seen": "2026-07-13T05:24:43.973253Z",
+      "source_url": "https://en.wikipedia.org/wiki/Digital_infinity",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:2964506": {
+      "last_seen": "2026-07-13T05:24:43.973268Z",
+      "source_url": "https://en.wikipedia.org/wiki/Double_articulation",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:10930626": {
+      "last_seen": "2026-07-13T05:24:43.973274Z",
+      "source_url": "https://en.wikipedia.org/wiki/Description_error",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:1515853": {
+      "last_seen": "2026-07-13T05:24:43.973280Z",
+      "source_url": "https://en.wikipedia.org/wiki/Food_engineering",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:42306483": {
+      "last_seen": "2026-07-13T05:24:43.973284Z",
+      "source_url": "https://en.wikipedia.org/wiki/Denunciation",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:63035175": {
+      "last_seen": "2026-07-13T05:24:43.973288Z",
+      "source_url": "https://en.wikipedia.org/wiki/Behavioural_archaeology",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:867975": {
+      "last_seen": "2026-07-13T05:24:43.973292Z",
+      "source_url": "https://en.wikipedia.org/wiki/Aeolipile",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:177680": {
+      "last_seen": "2026-07-13T05:24:43.973296Z",
+      "source_url": "https://en.wikipedia.org/wiki/History_of_aviation",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:52481827": {
+      "last_seen": "2026-07-13T05:24:43.973299Z",
+      "source_url": "https://en.wikipedia.org/wiki/50_Things_That_Made_the_Modern_Economy",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:31838482": {
+      "last_seen": "2026-07-13T05:24:43.973302Z",
+      "source_url": "https://en.wikipedia.org/wiki/Drexler%E2%80%93Smalley_debate_on_molecular_nanotechnology",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:73877676": {
+      "last_seen": "2026-07-13T05:24:43.973306Z",
+      "source_url": "https://en.wikipedia.org/wiki/Marine_construction",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:27616733": {
+      "last_seen": "2026-07-13T05:24:43.973309Z",
+      "source_url": "https://en.wikipedia.org/wiki/Advanced_composite_materials_(engineering)",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:177515": {
+      "last_seen": "2026-07-13T05:24:43.973312Z",
+      "source_url": "https://en.wikipedia.org/wiki/Molecular_engineering",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:37188422": {
+      "last_seen": "2026-07-13T05:24:43.973316Z",
+      "source_url": "https://en.wikipedia.org/wiki/Brewster_angle_microscope",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:2785135": {
+      "last_seen": "2026-07-13T05:24:43.973319Z",
+      "source_url": "https://en.wikipedia.org/wiki/Imbibition",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:334986": {
+      "last_seen": "2026-07-13T05:24:43.973322Z",
+      "source_url": "https://en.wikipedia.org/wiki/Allopatric_speciation",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:24544": {
+      "last_seen": "2026-07-13T05:24:43.973325Z",
+      "source_url": "https://en.wikipedia.org/wiki/Photosynthesis",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:563120": {
+      "last_seen": "2026-07-13T05:24:43.973328Z",
+      "source_url": "https://en.wikipedia.org/wiki/Biological_rhythm",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "nasa-apod:2025-04-13": {
+      "last_seen": "2026-07-13T05:24:43.973333Z",
+      "source_url": "https://apod.nasa.gov/apod/image/2504/MarsPit_mro_960.jpg",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "nasa-apod:2004-07-08": {
+      "last_seen": "2026-07-13T05:24:43.973336Z",
+      "source_url": "https://apod.nasa.gov/apod/image/0407/040523cruxa_seip_c1.jpg",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "nasa-apod:1997-06-20": {
+      "last_seen": "2026-07-13T05:24:43.973340Z",
+      "source_url": "https://apod.nasa.gov/apod/image/9706/ngc1850_hst.jpg",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:55852028": {
+      "last_seen": "2026-07-13T05:24:43.973343Z",
+      "source_url": "https://en.wikipedia.org/wiki/Dresselhaus_effect",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:5565588": {
+      "last_seen": "2026-07-13T05:24:43.973346Z",
+      "source_url": "https://en.wikipedia.org/wiki/Climate_system",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:7555": {
+      "last_seen": "2026-07-13T05:24:43.973349Z",
+      "source_url": "https://en.wikipedia.org/wiki/Casimir_effect",
+      "outcome": "accepted",
+      "reason": ""
     }
   },
-  "updated_at": "2026-07-12T20:10:11.656948Z"
+  "updated_at": "2026-07-13T05:24:43.978345Z"
 }

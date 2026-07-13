@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-13T20:46:19.060486Z",
+  "updated_at": "2026-07-13T20:50:53.918323Z",
   "candidates": [
     {
       "source_id": "nasa-apod:2006-09-11",
@@ -59,16 +59,6 @@
       "title": "Pharmaceutical engineering",
       "excerpt": "Pharmaceutical engineering is a branch of engineering focused on discovering, formulating, and manufacturing medication, analytical and quality control processes, and on designing, building, and improving manufacturing sites that produce drugs. It utilizes the fields of chemical engineering, biomedical engineering, pharmaceutical sciences, and industrial engineering.",
       "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.566020Z"
-    },
-    {
-      "source_id": "wiki-topic:en:1983326",
-      "source_name": "EN Wikipedia：History of the automobile",
-      "source_url": "https://en.wikipedia.org/wiki/History_of_the_automobile",
-      "title": "History of the automobile",
-      "excerpt": "Crude ideas and designs of automobiles can be traced back to ancient and medieval times. In 1649, Hans Hautsch of Nuremberg built a clockwork-driven carriage. In 1672, a small-scale steam-powered vehicle was created by Ferdinand Verbiest; the first steam-powered automobile capable of human transportation was built by Nicolas-Joseph Cugnot in 1769. Inventors began to branch out at the start of the 19th century, creating the de Rivaz engine, one of the first internal combustion engines, and an early electric motor. Samuel Brown later tested the first industrially applied internal combustion engine in 1826. Only two of these were made. Development was hindered in the mid-19th century by a backlash against large vehicles, yet progress continued on some internal combustion engines. The engine evolved as engineers created two- and four-cycle combustion engines and began using gasoline. The first modern car—a practical, marketable automobile for everyday use—and the first car in series production appeared in 1886, when Carl Benz developed a gasoline-powered automobile and made several identical copies. In 1890, Gottlieb Daimler, inventor of the high-speed liquid petroleum-fueled engine, and...",
-      "category_hint": "历史",
       "source_rank": 2,
       "added_at": "2026-07-12T11:39:40.566020Z"
     },
@@ -199,16 +189,6 @@
       "title": "Digital history",
       "excerpt": "Digital history is the use of digital media to further historical analysis, presentation, and research. It is a branch of the digital humanities and an extension of quantitative history, cliometrics, and computing. Digital history is commonly known as digital public history, concerned primarily with engaging online audiences with historical content, or digital research methods, that further academic research. Digital history outputs include: digital archives, online presentations, data and information visualizations, interactive maps, timelines, audio files, and virtual worlds. These outputs are designed to enhance accessibility to users, facilitating engagement with historical content. Recent digital history projects focus on creativity, collaboration, and technical innovation, text mining, corpus linguistics, network analysis, 3D modeling, and big data analysis. By utilizing these resources, the user can rapidly develop new analyses that can link to, extend, and bring to life existing histories.",
       "category_hint": "历史",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.568006Z"
-    },
-    {
-      "source_id": "wiki-topic:en:74446282",
-      "source_name": "EN Wikipedia：Competence (polyseme)",
-      "source_url": "https://en.wikipedia.org/wiki/Competence_(polyseme)",
-      "title": "Competence (polyseme)",
-      "excerpt": "Competence (also called competency or capability) is a polyseme indicating a variety of different notions. In current literature, three notions are most evident. The first notion is that of a general competence, which is someone's capacity or ability to perform effectively on a specified set of behavioral attributes (e.g. performances, skills, attitudes, tasks, roles, talents, and so forth). The second notion refers to someone's capacity or ability to successfully perform a specific behavioral attribute — be it overt or covert — like learning a language, reading a book or playing a musical instrument. In both notions, someone may be qualified as being competent. In a third notion, a competence is the behavioral attribute itself, instead of a general or specific capacity or ability. One may for example excel at the competence of baking, at the competency of ceramics, or at the capability of reflexivity. The pluralized forms of competence and competency are respectively competences and competencies. According to Boyatzis (2008) competencies are part of a behavioral approach to emotional, social, and cognitive intelligence. Moreover, competence is measurable and can be developed through...",
-      "category_hint": "生活",
       "source_rank": 2,
       "added_at": "2026-07-12T11:39:40.568006Z"
     },
@@ -363,16 +343,6 @@
       "added_at": "2026-07-12T11:39:40.569010Z"
     },
     {
-      "source_id": "wiki-topic:en:7555",
-      "source_name": "EN Wikipedia：Casimir effect",
-      "source_url": "https://en.wikipedia.org/wiki/Casimir_effect",
-      "title": "Casimir effect",
-      "excerpt": "In quantum field theory, the Casimir effect (or Casimir force) is a physical force acting on the macroscopic boundaries of a confined space which arises from the quantum fluctuations of a field. The term Casimir pressure is sometimes used when it is described in units of force per unit area. It is named after the Dutch physicist Hendrik Casimir, who predicted the effect for electromagnetic systems in 1948. In the same year Casimir, together with Dirk Polder, described a similar effect experienced by a neutral atom in the vicinity of a macroscopic interface which is called the Casimir–Polder force. Their result is a generalization of the London–van der Waals force and includes retardation due to the finite speed of light. The fundamental principles leading to the London–van der Waals force, the Casimir force, and the Casimir–Polder force can be formulated on the same footing. In 1997, a direct experiment by Steven K. Lamoreaux quantitatively measured the Casimir force to be within 5% of the value predicted by the theory. The Casimir effect can be understood by the idea that the presence of macroscopic material interfaces, such as electrical conductors and dielectrics, alters the vacuum...",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.569010Z"
-    },
-    {
       "source_id": "wiki-topic:en:65462416",
       "source_name": "EN Wikipedia：Exoplanet Explorers",
       "source_url": "https://en.wikipedia.org/wiki/Exoplanet_Explorers",
@@ -408,16 +378,6 @@
       "source_url": "https://en.wikipedia.org/wiki/Advanced_materials_industry_in_China",
       "title": "Advanced materials industry in China",
       "excerpt": "As an important part of the national sustainable development strategy, the development of advanced materials is advancing the competitive nature and state of the art for Chinese industry. The State has put advanced materials high on its development agenda for the next decade and listed it among the key high-tech industry sectors that would be given priority for development by the State Council. At present, the pace of building China's advanced materials industry is accelerating. Advanced materials have been key fields in China's national R&D system (National High Technology Research and Development Program (863 Program) and National Basic Research Program (973 Program)).",
-      "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.570020Z"
-    },
-    {
-      "source_id": "wiki-topic:en:177515",
-      "source_name": "EN Wikipedia：Molecular engineering",
-      "source_url": "https://en.wikipedia.org/wiki/Molecular_engineering",
-      "title": "Molecular engineering",
-      "excerpt": "Molecular engineering is an emerging field of study concerned with the design and testing of molecular properties, behavior and interactions in order to assemble better materials, systems, and processes for specific functions. This approach, in which observable properties of a macroscopic system are influenced by direct alteration of a molecular structure, falls into the broader category of “bottom-up” design. This field is utmost relevant to Cheminformatics, when related to the research in the Computational Sciences. Molecular engineering is highly interdisciplinary by nature, encompassing aspects of chemical engineering, materials science, bioengineering, electrical engineering, physics, mechanical engineering, and chemistry. There is also considerable overlap with nanotechnology, in that both are concerned with the behavior of materials on the scale of nanometers or smaller. Given the highly fundamental nature of molecular interactions, there are a plethora of potential application areas, limited perhaps only by one's imagination and the laws of physics. However, some of the early successes of molecular engineering have come in the fields of immunotherapy, synthetic biology, and...",
       "category_hint": "科技",
       "source_rank": 2,
       "added_at": "2026-07-12T11:39:40.570020Z"
@@ -533,16 +493,6 @@
       "added_at": "2026-07-12T11:39:40.571009Z"
     },
     {
-      "source_id": "wiki-topic:en:737798",
-      "source_name": "EN Wikipedia：Hydroxyl radical",
-      "source_url": "https://en.wikipedia.org/wiki/Hydroxyl_radical",
-      "title": "Hydroxyl radical",
-      "excerpt": "The hydroxyl radical, denoted as •OH or HO•, is the neutral form of the hydroxide ion (OH–). As a free radical, it is highly reactive and consequently short-lived, making it a pivotal species in radical chemistry. In nature, hydroxyl radicals are most notably produced from the decomposition of hydroperoxides (ROOH) or, in atmospheric chemistry, by the reaction of excited atomic oxygen with water. They are also significant in radiation chemistry, where their formation can lead to hydrogen peroxide and oxygen, which in turn can accelerate corrosion and stress corrosion cracking in environments such as nuclear reactor coolant systems. Other important formation pathways include the UV-light dissociation of hydrogen peroxide (H2O2) and the Fenton reaction, where trace amounts of reduced transition metals catalyze the breakdown of peroxide. In organic synthesis, hydroxyl radicals are most commonly generated by photolysis of 1-Hydroxy-2(1H)-pyridinethione. The hydroxyl radical is often referred to as the \"detergent\" of the troposphere because it reacts with many pollutants, often acting as the first step to their removal. It also has an important role in eliminating some greenhouse gases like...",
-      "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.571009Z"
-    },
-    {
       "source_id": "wiki-topic:en:2002552",
       "source_name": "EN Wikipedia：Bancroft Award",
       "source_url": "https://en.wikipedia.org/wiki/Bancroft_Award",
@@ -619,16 +569,6 @@
       "title": "Empirical evidence for the spherical shape of Earth",
       "excerpt": "The roughly spherical shape of Earth can be empirically evidenced by many different types of observation, ranging from ground level, flight, or orbit. The spherical shape causes a number of effects and phenomena that when combined disprove flat Earth beliefs. These include the visibility of distant objects on Earth's surface; lunar eclipses; appearance of the Moon; observation of the sky from a certain altitude; observation of certain fixed stars from different locations; observing the Sun; surface navigation; grid distortion on a spherical surface; weather systems; gravity; and modern technology.",
       "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.572028Z"
-    },
-    {
-      "source_id": "wiki-topic:en:3189819",
-      "source_name": "EN Wikipedia：History of candle making",
-      "source_url": "https://en.wikipedia.org/wiki/History_of_candle_making",
-      "title": "History of candle making",
-      "excerpt": "Candle making was developed independently in a number of countries around the world. Candles were primarily made from tallow and beeswax in Europe from the Roman period until the modern era, when spermaceti (from sperm whales) was used in the 18th and 19th centuries, and purified animal fats (stearin) and paraffin wax since the 19th century. In China, textual evidence suggests that candles may have been made from whale fat in the Qin dynasty (221–206 BCE). Chinese candles may be made from beeswax, or stillingia tallow from Chinese tallow tree, or Chinese wax derived from insects. While the Japanese may use Japan wax from the Japanese wax tree. In India, wax from boiling cinnamon was used for temple candles. In Europe, a number of techniques were used to make candles in the early periods. These may be dipping or drawing a wick in molten wax or tallow, shaping it by hand by rolling soft wax around a wick, or pouring wax or tallow over the wick. Moulds were used later, and in the 19th century, large-scale industrial manufacturing technique was introduced for the mass production of candles. Candle use declined with the arrival of other methods of lighting such as electric light, although...",
-      "category_hint": "历史",
       "source_rank": 2,
       "added_at": "2026-07-12T11:39:40.572028Z"
     },
@@ -1093,16 +1033,6 @@
       "added_at": "2026-07-12T11:39:40.576001Z"
     },
     {
-      "source_id": "wiki-topic:en:10469455",
-      "source_name": "EN Wikipedia：Immunoglobulin class switching",
-      "source_url": "https://en.wikipedia.org/wiki/Immunoglobulin_class_switching",
-      "title": "Immunoglobulin class switching",
-      "excerpt": "Immunoglobulin class switching, also known as isotype switching, isotypic commutation or class-switch recombination (CSR), is a biological mechanism that changes a B cell's production of immunoglobulin from one type to another, such as from the isotype IgM to the isotype IgG. During this process, the constant-region portion of the antibody heavy chain is changed, but the variable region of the heavy chain stays the same (the terms variable and constant refer to changes or lack thereof between antibodies that target different epitopes). Since the variable region does not change, class switching does not affect antigen specificity. Instead, the antibody retains affinity for the same antigens, but can interact with different effector molecules.",
-      "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.576001Z"
-    },
-    {
       "source_id": "wiki-topic:en:3690837",
       "source_name": "EN Wikipedia：Bifidobacterium animalis",
       "source_url": "https://en.wikipedia.org/wiki/Bifidobacterium_animalis",
@@ -1293,16 +1223,6 @@
       "added_at": "2026-07-12T20:09:32.387806Z"
     },
     {
-      "source_id": "wiki-topic:en:27501700",
-      "source_name": "EN Wikipedia：Experimental language",
-      "source_url": "https://en.wikipedia.org/wiki/Experimental_language",
-      "title": "Experimental language",
-      "excerpt": "An experimental language is a constructed language designed for linguistics research, often on the relationship between language and thought. One particular assumption having received much attention in fiction is popularly known as the Sapir–Whorf hypothesis. The claim is that the structure of a language somehow affects the way its speakers perceive their world, either strongly, in which case \"language determines thought\" (linguistic determinism), or weakly, in which case \"language influences thought\" (linguistic relativity). (For a list of languages that are merely mentioned, see the relevant section in List of constructed languages.) The extreme case of the strong version of the hypothesis would be the idea that words have a power inherent to themselves such that their use determines not just our thoughts, but even that which our thoughts are about, i.e. reality itself.",
-      "category_hint": "综合",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.387887Z"
-    },
-    {
       "source_id": "wiki-topic:en:148550",
       "source_name": "EN Wikipedia：Antiferromagnetism",
       "source_url": "https://en.wikipedia.org/wiki/Antiferromagnetism",
@@ -1403,16 +1323,6 @@
       "added_at": "2026-07-12T20:09:32.388520Z"
     },
     {
-      "source_id": "wiki-topic:en:3522161",
-      "source_name": "EN Wikipedia：Askaryan radiation",
-      "source_url": "https://en.wikipedia.org/wiki/Askaryan_radiation",
-      "title": "Askaryan radiation",
-      "excerpt": "The Askaryan radiation also known as Askaryan effect is the phenomenon whereby a particle traveling faster than the phase velocity of light in a dense dielectric (such as salt, ice or the lunar regolith) produces a shower of secondary charged particles which contains a charge anisotropy and emits a cone of coherent radiation in the radio or microwave part of the electromagnetic spectrum. The signal is a result of the Cherenkov radiation from individual particles in the shower. Wavelengths greater than the extent of the shower interfere constructively and thus create a radio or microwave signal which is strongest at the Cherenkov angle. The effect is named after Gurgen Askaryan, a Soviet-Armenian physicist who postulated it in 1962. The radiation was first observed experimentally in 2000, 38 years after its theoretical prediction. So far the effect has been observed in silica sand, rock salt, ice, and Earth's atmosphere. The effect is of primary interest in using bulk matter to detect ultra-high energy neutrinos. The Antarctic Impulse Transient Antenna (ANITA) experiment uses antennas attached to a balloon flying over Antarctica to detect the Askaryan radiation produced by showers of...",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.388578Z"
-    },
-    {
       "source_id": "wiki-topic:en:71498816",
       "source_name": "EN Wikipedia：Anthropology of technology",
       "source_url": "https://en.wikipedia.org/wiki/Anthropology_of_technology",
@@ -1451,26 +1361,6 @@
       "category_hint": "科学",
       "source_rank": 2,
       "added_at": "2026-07-12T20:09:32.388801Z"
-    },
-    {
-      "source_id": "wiki-topic:en:252137",
-      "source_name": "EN Wikipedia：Food science",
-      "source_url": "https://en.wikipedia.org/wiki/Food_science",
-      "title": "Food science",
-      "excerpt": "Food science (or bromatology) is the study of food and its chemical properties. Its scope overlaps with agricultural science and nutritional science and extends to the scientific aspects of food safety and food processing, informing the development of food technology. Food science is an interdisciplinary field that integrates concepts from chemistry, physics, physiology, microbiology, and biochemistry. It evolved from early preservation practices such as salting to an organized research-driven field central to modern food production. The field includes several subdisciplines such as food chemistry, food technology, and molecular gastronomy, which examine the composition and processes used to produce and preserve food. Food scientists develop new products, design processing methods to produce these foods, select packaging materials, conduct shelf life and sensory evaluation studies of products using survey panels or potential consumers, and perform microbiological and chemical testing. They may study more fundamental phenomena that are directly linked to the production of food products and its properties.",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.388853Z"
-    },
-    {
-      "source_id": "wiki-topic:en:31135308",
-      "source_name": "EN Wikipedia：Elephant trunk (astronomy)",
-      "source_url": "https://en.wikipedia.org/wiki/Elephant_trunk_(astronomy)",
-      "title": "Elephant trunk (astronomy)",
-      "excerpt": "Elephant trunks (more formally, cold molecular pillars) are a type of interstellar matter formations found in molecular clouds. They are located in the neighborhood of massive O type and B type stars, which, through their intense radiation, can create expanding regions of ionized gas known as H II regions. Elephant trunks resemble massive pillars or columns of gas and dust, but they come in various shapes, lengths, and colors. Astronomers study elephant trunks because of their unique formation process and use 2-D and 3-D simulations to try to understand how this phenomenon occurs.",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.388888Z"
     },
     {
       "source_id": "wiki-topic:en:13630663",
@@ -1563,16 +1453,6 @@
       "added_at": "2026-07-12T20:09:32.389396Z"
     },
     {
-      "source_id": "wiki-topic:en:24544",
-      "source_name": "EN Wikipedia：Photosynthesis",
-      "source_url": "https://en.wikipedia.org/wiki/Photosynthesis",
-      "title": "Photosynthesis",
-      "excerpt": "Photosynthesis is a system of biological processes by which photopigment-bearing autotrophic organisms, such as most plants, algae and cyanobacteria, convert light energy — typically from sunlight — into the chemical energy necessary to fuel their metabolism. The term photosynthesis usually refers to oxygenic photosynthesis, a process that releases oxygen as a byproduct of water splitting. Photosynthetic organisms store the converted chemical energy within the bonds of intracellular organic compounds (complex compounds containing carbon), typically carbohydrates like sugars (mainly glucose, fructose and sucrose), starches, phytoglycogen and cellulose. When needing to use this stored energy, an organism's cells then metabolize the organic compounds through cellular respiration. Photosynthesis plays a critical role in producing and maintaining the oxygen content of the Earth's atmosphere, and it supplies most of the biological energy necessary for complex life on Earth. Some organisms also perform anoxygenic photosynthesis, which does not produce oxygen. Some bacteria (e.g. purple bacteria) use bacteriochlorophyll to split hydrogen sulfide as a reductant instead of water, releasing sulfur...",
-      "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.389527Z"
-    },
-    {
       "source_id": "wiki-topic:en:515382",
       "source_name": "EN Wikipedia：Beamline",
       "source_url": "https://en.wikipedia.org/wiki/Beamline",
@@ -1621,16 +1501,6 @@
       "category_hint": "历史",
       "source_rank": 2,
       "added_at": "2026-07-12T20:09:32.389688Z"
-    },
-    {
-      "source_id": "wiki-topic:en:277664",
-      "source_name": "EN Wikipedia：Aharonov–Bohm effect",
-      "source_url": "https://en.wikipedia.org/wiki/Aharonov%E2%80%93Bohm_effect",
-      "title": "Aharonov–Bohm effect",
-      "excerpt": "The Aharonov–Bohm effect, sometimes called the Ehrenberg–Siday–Aharonov–Bohm effect, is a quantum-mechanical phenomenon in which an electrically charged particle is affected by an electromagnetic potential ( φ {\\displaystyle \\varphi } , A {\\displaystyle \\mathbf {A} } ), despite being confined to a region in which both the magnetic field B {\\displaystyle \\mathbf {B} } and electric field E {\\displaystyle \\mathbf {E} } are zero. The underlying mechanism is the coupling of the electromagnetic potential with the complex phase of a charged particle's wave function, and the Aharonov–Bohm effect is accordingly illustrated by interference experiments. The most commonly described case, sometimes called the Aharonov–Bohm solenoid effect, takes place when the wave function of a charged particle passing around a long solenoid experiences a phase shift as a result of the enclosed magnetic field, despite the magnetic field being negligible in the region through which the...",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.389774Z"
     },
     {
       "source_id": "wiki-topic:en:7754370",
@@ -1883,16 +1753,6 @@
       "added_at": "2026-07-12T20:09:32.391761Z"
     },
     {
-      "source_id": "wiki-topic:en:19622",
-      "source_name": "EN Wikipedia：Materials science",
-      "source_url": "https://en.wikipedia.org/wiki/Materials_science",
-      "title": "Materials science",
-      "excerpt": "Materials science is an interdisciplinary field concerned with understanding the relationships between the structure of materials and their properties and using this knowledge to design materials for specific applications. The internal structure of a material—from atomic arrangements to microscopic features—strongly influences its mechanical, electrical, thermal, and optical behavior. In engineering practice, materials science and engineering are often described through the processing–structure–properties–performance paradigm, in which processing determines structure, structure determines properties, and properties ultimately control the performance of a material in service. The intellectual origins of materials science stem from the Age of Enlightenment, when researchers began to use analytical thinking from chemistry, physics, and engineering to understand ancient, phenomenological observations in metallurgy and mineralogy. Materials science still incorporates elements of physics, chemistry, and engineering. As such, the field was long considered by academic institutions as a sub-field of these related fields. Beginning in the 1940s, materials science began to be more widely recognized...",
-      "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.391861Z"
-    },
-    {
       "source_id": "wiki-topic:en:7635675",
       "source_name": "EN Wikipedia：Bubble raft",
       "source_url": "https://en.wikipedia.org/wiki/Bubble_raft",
@@ -1901,16 +1761,6 @@
       "category_hint": "科技",
       "source_rank": 2,
       "added_at": "2026-07-12T20:09:32.391908Z"
-    },
-    {
-      "source_id": "wiki-topic:en:47862666",
-      "source_name": "EN Wikipedia：Cooking oil",
-      "source_url": "https://en.wikipedia.org/wiki/Cooking_oil",
-      "title": "Cooking oil",
-      "excerpt": "Cooking oil (also known as edible oil) is a plant or animal liquid fat used in frying, baking, and other types of cooking. Oil allows higher cooking temperatures than water, making cooking faster and more flavorful, while likewise distributing heat, reducing burning and uneven cooking. It sometimes imparts its own flavor. Cooking oil is also used in food preparation and flavoring not involving heat, such as salad dressings and bread dips. Cooking oil is typically a liquid at room temperature, although some oils that contain saturated fat, such as coconut oil, palm oil and palm kernel oil, are solid. There are a wide variety of cooking oils from plant sources, such as olive oil, palm oil, soybean oil, canola oil (rapeseed oil), corn oil, peanut oil, sesame oil, sunflower oil and other vegetable oils, as well as animal-based oils like butter, ghee, schmaltz, and lard. Oil can be flavored with aromatic foodstuffs such as herbs, chilies or garlic. Cooking spray is an aerosol of cooking oil.",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.391960Z"
     },
     {
       "source_id": "wiki-topic:en:21559940",
@@ -1993,16 +1843,6 @@
       "added_at": "2026-07-13T20:44:59.345037Z"
     },
     {
-      "source_id": "wiki-topic:en:26488448",
-      "source_name": "EN Wikipedia：Biosorption",
-      "source_url": "https://en.wikipedia.org/wiki/Biosorption",
-      "title": "Biosorption",
-      "excerpt": "Biosorption is a physiochemical process that occurs naturally in certain biomass which allows it to passively concentrate and bind contaminants onto its cellular structure. Biosorption can be defined as the ability of biological materials to accumulate heavy metals from wastewater through metabolically mediated or physico-chemical pathways of uptake. Though using biomass in environmental cleanup has been in practice for a while, scientists and engineers are hoping this phenomenon will provide an economical alternative for removing toxic heavy metals from industrial wastewater and aid in environmental remediation.",
-      "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-13T20:44:59.345135Z"
-    },
-    {
       "source_id": "wiki-topic:en:35215882",
       "source_name": "EN Wikipedia：Isothermal microcalorimetry",
       "source_url": "https://en.wikipedia.org/wiki/Isothermal_microcalorimetry",
@@ -2013,16 +1853,6 @@
       "added_at": "2026-07-13T20:44:59.345352Z"
     },
     {
-      "source_id": "wiki-topic:en:55742877",
-      "source_name": "EN Wikipedia：Droplet cluster",
-      "source_url": "https://en.wikipedia.org/wiki/Droplet_cluster",
-      "title": "Droplet cluster",
-      "excerpt": "Droplet cluster is a self-assembled levitating monolayer of microdroplets usually arranged into a hexagonally ordered structure over a locally heated thin (about 1 mm) layer of water. The droplet cluster is typologically similar to colloidal crystals. The phenomenon was observed for the first time in 2004, and it has been extensively studied after that. Growing condensing droplets with a typical diameter of 0.01 mm – 0.2 mm levitate at an equilibrium height, where their weight is equilibrated by the drag force of the ascending air-vapor jet rising over the heated spot. At the same time, the droplets are dragged towards the center of the heated spot; however, they do not merge, forming an ordered hexagonal (densest packed) pattern due to an aerodynamic repulsive pressure force from gas flow between the droplets. The spot is usually heated by a laser beam or another source of heat to 60 °C – 95 °C, although the phenomenon was observed also at temperatures slightly above 20 °C. The height of levitation and the distance between the droplets are of the same order as their diameters. Due to complex nature of aerodynamic forces between the microdroplets in an ascending jet, the droplets do...",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-13T20:44:59.345644Z"
-    },
-    {
       "source_id": "wiki-topic:en:1004014",
       "source_name": "EN Wikipedia：Pale Blue Dot",
       "source_url": "https://en.wikipedia.org/wiki/Pale_Blue_Dot",
@@ -2031,16 +1861,6 @@
       "category_hint": "科学",
       "source_rank": 2,
       "added_at": "2026-07-13T20:44:59.345829Z"
-    },
-    {
-      "source_id": "wiki-topic:en:23789867",
-      "source_name": "EN Wikipedia：Critical language awareness",
-      "source_url": "https://en.wikipedia.org/wiki/Critical_language_awareness",
-      "title": "Critical language awareness",
-      "excerpt": "In linguistics, critical language awareness (CLA) refers to an understanding of social, political, and ideological aspects of language, linguistic variation, and discourse. It functions as a pedagogical application of a critical discourse analysis (CDA), which is a research approach that regards language as a social practice. More specifically, critical language awareness is a consideration of how features of language such as words, grammar, and discourse choices reproduce, reinforce, or challenge certain ideologies and struggles for power and dominance. Regarding linguistic variation, linguist Norman Fairclough argued that it is insufficient to teach students to use \"appropriate\" language without considering why that language is preferred and who makes that decision (as well as the implications for speakers who do not use \"appropriate language\"). CLA generally includes consideration of how a person may be marginalized by speaking a particular way, especially if that way of speaking serves as an index of their race, ethnicity, religion, social status, etc. Because power is reproduced through language, CLA is \"a prerequisite for effective democratic citizenship, and should therefore...",
-      "category_hint": "综合",
-      "source_rank": 2,
-      "added_at": "2026-07-13T20:44:59.345998Z"
     },
     {
       "source_id": "wiki-topic:en:35204947",
@@ -2153,16 +1973,6 @@
       "added_at": "2026-07-13T20:44:59.347290Z"
     },
     {
-      "source_id": "wiki-topic:en:304091",
-      "source_name": "EN Wikipedia：Annatto",
-      "source_url": "https://en.wikipedia.org/wiki/Annatto",
-      "title": "Annatto",
-      "excerpt": "Annatto ( or ) is an orange-red condiment and food coloring derived from the seeds of the achiote tree (Bixa orellana), native to tropical parts of the Americas. It is used to impart a yellow to red-orange color to foods, but may impart a sweet, peppery flavor. The color of annatto comes from various carotenoid pigments, mainly bixin and norbixin, found in the reddish waxy coating of the seeds. The condiment is typically prepared by grinding the seeds to a powder or paste. Similar effects can be obtained by extracting some of the color and flavor principles from the seeds with hot water, oil, or lard, which are then added to the food. Annatto and its extracts are widely used artisanally and industrially as a coloring agent in many processed food products, such as cheeses, dairy spreads, butter and margarine, custards, cakes and other baked goods, potatoes, snack foods, breakfast cereals, smoked fish, and sausages. In these uses, annatto is a natural alternative to synthetic food coloring compounds, but it has been linked to rare cases of food-related allergies.",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-13T20:44:59.347439Z"
-    },
-    {
       "source_id": "wiki-topic:en:26834979",
       "source_name": "EN Wikipedia：Condensation cloud",
       "source_url": "https://en.wikipedia.org/wiki/Condensation_cloud",
@@ -2233,16 +2043,6 @@
       "added_at": "2026-07-13T20:44:59.348160Z"
     },
     {
-      "source_id": "wiki-topic:en:6570919",
-      "source_name": "EN Wikipedia：Asset management",
-      "source_url": "https://en.wikipedia.org/wiki/Asset_management",
-      "title": "Asset management",
-      "excerpt": "Asset management is a systematic approach to the governance and realization of all value for which a group or entity is responsible. It may apply both to tangible assets (physical objects such as complex process plants or manufacturing plants, infrastructure, buildings or equipment) and to intangible assets (such as intellectual property, goodwill or financial assets). Asset management is a systematic process of developing, operating, maintaining, upgrading, and disposing of assets in the most cost-effective manner (including all costs, risks, and performance attributes). Theory of asset management primarily deals with the periodic matter of improving, maintaining or in other circumstances assuring the economic and capital value of an asset over time. The term is commonly used in engineering, the business world, and public infrastructure sectors to ensure a coordinated approach to the optimization of costs, risks, service/performance, and sustainability. The term has traditionally been used in the financial sector to describe people and companies who manage investments on behalf of others. Those include, for example, investment managers who manage the assets of a pension fund. The ISO...",
-      "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-13T20:44:59.348385Z"
-    },
-    {
       "source_id": "wiki-topic:en:22183423",
       "source_name": "EN Wikipedia：Bioceramic",
       "source_url": "https://en.wikipedia.org/wiki/Bioceramic",
@@ -2261,16 +2061,6 @@
       "category_hint": "生物",
       "source_rank": 2,
       "added_at": "2026-07-13T20:44:59.348660Z"
-    },
-    {
-      "source_id": "wiki-topic:en:2507104",
-      "source_name": "EN Wikipedia：Aposematism",
-      "source_url": "https://en.wikipedia.org/wiki/Aposematism",
-      "title": "Aposematism",
-      "excerpt": "Aposematism is the advertising by an animal, whether terrestrial or marine, to potential predators that it is not worth attacking or eating. This unprofitability may consist of any defences that make the prey difficult to kill and eat, such as toxicity, venom, foul taste or smell, sharp spines, or aggressive nature. These advertising signals may take the form of conspicuous coloration, sounds, odours, or other perceivable characteristics. Aposematic signals are beneficial for both predator and prey, because both avoid potential harm. The term was coined in 1877 by Edward Bagnall Poulton for Alfred Russel Wallace's concept of warning coloration. Aposematism is exploited in Müllerian mimicry, wherein species with strong defences evolve to resemble one another. By mimicking similarly coloured species the warning signal to predators is shared, causing the predators to learn more quickly at less cost. A genuine aposematic signal that a species actually possesses chemical or physical defences is not the only way to deter predators. In Batesian mimicry, a mimicking species resembles an aposematic model closely enough to share the protection, while many species have bluffing deimatic displays...",
-      "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-13T20:44:59.348841Z"
     },
     {
       "source_id": "wiki-topic:en:57533523",
@@ -2333,16 +2123,6 @@
       "added_at": "2026-07-13T20:44:59.349851Z"
     },
     {
-      "source_id": "wiki-topic:en:2928212",
-      "source_name": "EN Wikipedia：Bauschinger effect",
-      "source_url": "https://en.wikipedia.org/wiki/Bauschinger_effect",
-      "title": "Bauschinger effect",
-      "excerpt": "The Bauschinger effect refers to a property of materials where the material's stress/strain characteristics change as a result of the microscopic stress distribution of the material. For example, an increase in tensile yield strength occurs at the expense of compressive yield strength. The effect is named after German engineer Johann Bauschinger. While more tensile cold working increases the tensile yield strength, the local initial compressive yield strength after tensile cold working is actually reduced. The greater the tensile cold working, the lower the compressive yield strength. It is a general phenomenon found in most polycrystalline metals. Based on the cold work structure, two types of mechanisms are generally used to explain the Bauschinger effect: Local back stresses may be present in the material, which assist the movement of dislocations in the reverse direction. The pile-up of dislocations at grain boundaries and Orowan loops around strong precipitates are two main sources of these back stresses. When the strain direction is reversed, dislocations of the opposite sign can be produced from the same source that produced the slip-causing dislocations in the initial direction...",
-      "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-13T20:44:59.350021Z"
-    },
-    {
       "source_id": "wiki-topic:en:33548640",
       "source_name": "EN Wikipedia：PI curve",
       "source_url": "https://en.wikipedia.org/wiki/PI_curve",
@@ -2403,16 +2183,6 @@
       "added_at": "2026-07-13T20:44:59.350890Z"
     },
     {
-      "source_id": "wiki-topic:en:89732",
-      "source_name": "EN Wikipedia：Antikythera mechanism",
-      "source_url": "https://en.wikipedia.org/wiki/Antikythera_mechanism",
-      "title": "Antikythera mechanism",
-      "excerpt": "The Antikythera mechanism ( AN-tik-ih-THEER-ə, US also AN-ty-kih-) is an ancient Greek hand-powered orrery (model of the Solar System) built in the 2nd century BC and discovered in 1901. It is the oldest known example of an analogue computer. It could be used to predict astronomical positions and eclipses decades in advance. It could also be used to track the four-year cycle of athletic games similar to an olympiad, the cycle of the ancient Olympic Games. The artefact was among wreckage retrieved from a shipwreck off the coast of the Greek island Antikythera in 1901. In 1902, during a visit to the National Archaeological Museum in Athens, it was noticed by Greek politician Spyridon Stais as containing a gear, prompting the first study of the fragment by his cousin, Valerios Stais, the museum director. The device, housed in the remains of a wooden-framed case of (uncertain) overall size 34 cm × 18 cm × 9 cm (13.4 in × 7.1 in × 3.5 in), was found as one lump, later separated into three main fragments which are now divided into 82 separate fragments after conservation efforts. Four of these fragments contain gears, while inscriptions are found on many others. The largest gear is about...",
-      "category_hint": "历史",
-      "source_rank": 2,
-      "added_at": "2026-07-13T20:44:59.351117Z"
-    },
-    {
       "source_id": "wiki-topic:en:67545702",
       "source_name": "EN Wikipedia：Exometeorology",
       "source_url": "https://en.wikipedia.org/wiki/Exometeorology",
@@ -2421,16 +2191,6 @@
       "category_hint": "科学",
       "source_rank": 2,
       "added_at": "2026-07-13T20:44:59.351202Z"
-    },
-    {
-      "source_id": "wiki-topic:en:76026654",
-      "source_name": "EN Wikipedia：Benson-Lehner Corporation",
-      "source_url": "https://en.wikipedia.org/wiki/Benson-Lehner_Corporation",
-      "title": "Benson-Lehner Corporation",
-      "excerpt": "Benson-Lehner Corporation was an early digital technology company that initially made plotters and other input-output devices that were purchased by branches of the U.S. government during the Cold War. It later marketed high-speed precision cameras used for similar military applications, including nuclear bomb and missile testing. Benson-Lehner’s executives were almost entirely WW2 veterans. Its founders were Bernard Benson, a former British Spitfire pilot, and George Lehner, a UCLA psychology professor and inventor. Benson-Lehner was initially based in Santa Monica and had manufacturing plants in England and France. It was later headquartered in West Los Angeles and Van Nuys.",
-      "category_hint": "历史",
-      "source_rank": 2,
-      "added_at": "2026-07-13T20:44:59.351338Z"
     },
     {
       "source_id": "wiki-random:en:13628958",

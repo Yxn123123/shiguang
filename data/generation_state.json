@@ -312,7 +312,151 @@
       "source_url": "https://en.wikipedia.org/wiki/Dresselhaus_effect",
       "outcome": "reviewed_not_saved",
       "reason": ""
+    },
+    "wiki-topic:en:23789867": {
+      "last_seen": "2026-07-13T20:50:53.917443Z",
+      "source_url": "https://en.wikipedia.org/wiki/Critical_language_awareness",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:27501700": {
+      "last_seen": "2026-07-13T20:50:53.917457Z",
+      "source_url": "https://en.wikipedia.org/wiki/Experimental_language",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:252137": {
+      "last_seen": "2026-07-13T20:50:53.917462Z",
+      "source_url": "https://en.wikipedia.org/wiki/Food_science",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:74446282": {
+      "last_seen": "2026-07-13T20:50:53.917467Z",
+      "source_url": "https://en.wikipedia.org/wiki/Competence_(polyseme)",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:304091": {
+      "last_seen": "2026-07-13T20:50:53.917471Z",
+      "source_url": "https://en.wikipedia.org/wiki/Annatto",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:47862666": {
+      "last_seen": "2026-07-13T20:50:53.917474Z",
+      "source_url": "https://en.wikipedia.org/wiki/Cooking_oil",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:6570919": {
+      "last_seen": "2026-07-13T20:50:53.917477Z",
+      "source_url": "https://en.wikipedia.org/wiki/Asset_management",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:2928212": {
+      "last_seen": "2026-07-13T20:50:53.917481Z",
+      "source_url": "https://en.wikipedia.org/wiki/Bauschinger_effect",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:19622": {
+      "last_seen": "2026-07-13T20:50:53.917485Z",
+      "source_url": "https://en.wikipedia.org/wiki/Materials_science",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:177515": {
+      "last_seen": "2026-07-13T20:50:53.917488Z",
+      "source_url": "https://en.wikipedia.org/wiki/Molecular_engineering",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:89732": {
+      "last_seen": "2026-07-13T20:50:53.917492Z",
+      "source_url": "https://en.wikipedia.org/wiki/Antikythera_mechanism",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:76026654": {
+      "last_seen": "2026-07-13T20:50:53.917496Z",
+      "source_url": "https://en.wikipedia.org/wiki/Benson-Lehner_Corporation",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:1983326": {
+      "last_seen": "2026-07-13T20:50:53.917499Z",
+      "source_url": "https://en.wikipedia.org/wiki/History_of_the_automobile",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:3189819": {
+      "last_seen": "2026-07-13T20:50:53.917503Z",
+      "source_url": "https://en.wikipedia.org/wiki/History_of_candle_making",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:26488448": {
+      "last_seen": "2026-07-13T20:50:53.917506Z",
+      "source_url": "https://en.wikipedia.org/wiki/Biosorption",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:737798": {
+      "last_seen": "2026-07-13T20:50:53.917509Z",
+      "source_url": "https://en.wikipedia.org/wiki/Hydroxyl_radical",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:24544": {
+      "last_seen": "2026-07-13T20:50:53.917513Z",
+      "source_url": "https://en.wikipedia.org/wiki/Photosynthesis",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:10469455": {
+      "last_seen": "2026-07-13T20:50:53.917516Z",
+      "source_url": "https://en.wikipedia.org/wiki/Immunoglobulin_class_switching",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:55742877": {
+      "last_seen": "2026-07-13T20:50:53.917520Z",
+      "source_url": "https://en.wikipedia.org/wiki/Droplet_cluster",
+      "outcome": "rejected",
+      "reason": "证据未能在原文中匹配"
+    },
+    "wiki-topic:en:7555": {
+      "last_seen": "2026-07-13T20:50:53.917524Z",
+      "source_url": "https://en.wikipedia.org/wiki/Casimir_effect",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:3522161": {
+      "last_seen": "2026-07-13T20:50:53.917528Z",
+      "source_url": "https://en.wikipedia.org/wiki/Askaryan_radiation",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:31135308": {
+      "last_seen": "2026-07-13T20:50:53.917531Z",
+      "source_url": "https://en.wikipedia.org/wiki/Elephant_trunk_(astronomy)",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:2507104": {
+      "last_seen": "2026-07-13T20:50:53.917534Z",
+      "source_url": "https://en.wikipedia.org/wiki/Aposematism",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:277664": {
+      "last_seen": "2026-07-13T20:50:53.917537Z",
+      "source_url": "https://en.wikipedia.org/wiki/Aharonov%E2%80%93Bohm_effect",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
     }
   },
-  "updated_at": "2026-07-13T20:46:19.064796Z"
+  "updated_at": "2026-07-13T20:50:53.922380Z"
 }

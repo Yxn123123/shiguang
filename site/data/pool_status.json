@@ -1,25 +1,25 @@
 {
   "version": 1,
-  "updated_at": "2026-07-13T20:46:19.065366Z",
-  "approved_cards": 34,
-  "pending_candidates": 291,
+  "updated_at": "2026-07-13T20:50:53.923135Z",
+  "approved_cards": 39,
+  "pending_candidates": 267,
   "last_run": {
-    "github_run_id": "29265190384",
-    "source": "web",
-    "started_at": "2026-07-13T16:08:52.333045Z",
-    "finished_at": "2026-07-13T16:10:51.772689Z",
-    "duration_seconds": 119.44,
+    "github_run_id": "29283727614",
+    "source": "workflow_run",
+    "started_at": "2026-07-13T20:46:39.460407Z",
+    "finished_at": "2026-07-13T20:50:53.922944Z",
+    "duration_seconds": 254.46,
     "target_new_cards": 5,
     "rounds": 1,
-    "pool_before": 239,
-    "pool_after": 215,
+    "pool_before": 291,
+    "pool_after": 267,
     "processed": 24,
-    "proposals": 16,
-    "reviewed": 8,
+    "proposals": 17,
+    "reviewed": 17,
     "added": 5,
     "pass_rate": 20.8,
-    "input_tokens": 31115,
-    "output_tokens": 5927,
+    "input_tokens": 41784,
+    "output_tokens": 8920,
     "filters": {
       "before_ai": {
         "invalid_record": 0,
@@ -31,7 +31,7 @@
         "average_hook_score": 8
       },
       "before_review": {
-        "low_confidence": 8,
+        "low_confidence": 0,
         "missing_candidate": 0,
         "bad_title": 0,
         "bad_category": 0,
@@ -43,7 +43,7 @@
         "score_below_78": 0,
         "bad_title": 0,
         "bad_category": 0,
-        "evidence_mismatch": 0,
+        "evidence_mismatch": 1,
         "duplicate_source": 0,
         "similar_title": 0,
         "semantic_duplicate": 0
@@ -51,49 +51,123 @@
     },
     "source_stats": {
       "维基主题分类": {
-        "processed": 21,
-        "accepted": 4
-      },
-      "NASA APOD": {
-        "processed": 3,
-        "accepted": 1
+        "processed": 24,
+        "accepted": 5
       }
     },
     "quality": {
       "category_distribution": {
-        "科学": 12,
-        "历史": 5,
-        "生物": 5,
-        "生活": 4,
-        "科技": 4,
+        "科学": 13,
+        "历史": 6,
+        "生物": 6,
+        "生活": 5,
+        "科技": 5,
         "艺术": 3,
         "综合": 1
       },
       "new_category_distribution": {
-        "科学": 2,
         "历史": 1,
         "生活": 1,
-        "综合": 1
+        "生物": 1,
+        "科学": 1,
+        "科技": 1
       },
       "source_pass_rates": {
         "维基主题分类": {
-          "processed": 21,
-          "accepted": 4,
-          "pass_rate": 19.0
-        },
-        "NASA APOD": {
-          "processed": 3,
-          "accepted": 1,
-          "pass_rate": 33.3
+          "processed": 24,
+          "accepted": 5,
+          "pass_rate": 20.8
         }
       },
-      "review_pass_rate": 62.5,
+      "review_pass_rate": 29.4,
       "processed_pass_rate": 20.8,
-      "evidence_mismatch": 0,
-      "evidence_mismatch_rate": 0.0
+      "evidence_mismatch": 1,
+      "evidence_mismatch_rate": 5.9
     }
   },
   "recent_runs": [
+    {
+      "github_run_id": "29283727614",
+      "source": "workflow_run",
+      "started_at": "2026-07-13T20:46:39.460407Z",
+      "finished_at": "2026-07-13T20:50:53.922944Z",
+      "duration_seconds": 254.46,
+      "target_new_cards": 5,
+      "rounds": 1,
+      "pool_before": 291,
+      "pool_after": 267,
+      "processed": 24,
+      "proposals": 17,
+      "reviewed": 17,
+      "added": 5,
+      "pass_rate": 20.8,
+      "input_tokens": 41784,
+      "output_tokens": 8920,
+      "filters": {
+        "before_ai": {
+          "invalid_record": 0,
+          "duplicate_source": 0,
+          "seen_recently": 0,
+          "low_information": 0,
+          "explicit_topic_selected": 24,
+          "random_selected": 0,
+          "average_hook_score": 8
+        },
+        "before_review": {
+          "low_confidence": 0,
+          "missing_candidate": 0,
+          "bad_title": 0,
+          "bad_category": 0,
+          "similar_title": 0,
+          "semantic_duplicate": 0
+        },
+        "final": {
+          "model_rejected": 0,
+          "score_below_78": 0,
+          "bad_title": 0,
+          "bad_category": 0,
+          "evidence_mismatch": 1,
+          "duplicate_source": 0,
+          "similar_title": 0,
+          "semantic_duplicate": 0
+        }
+      },
+      "source_stats": {
+        "维基主题分类": {
+          "processed": 24,
+          "accepted": 5
+        }
+      },
+      "quality": {
+        "category_distribution": {
+          "科学": 13,
+          "历史": 6,
+          "生物": 6,
+          "生活": 5,
+          "科技": 5,
+          "艺术": 3,
+          "综合": 1
+        },
+        "new_category_distribution": {
+          "历史": 1,
+          "生活": 1,
+          "生物": 1,
+          "科学": 1,
+          "科技": 1
+        },
+        "source_pass_rates": {
+          "维基主题分类": {
+            "processed": 24,
+            "accepted": 5,
+            "pass_rate": 20.8
+          }
+        },
+        "review_pass_rate": 29.4,
+        "processed_pass_rate": 20.8,
+        "evidence_mismatch": 1,
+        "evidence_mismatch_rate": 5.9
+      }
+    },
     {
       "github_run_id": "29265190384",
       "source": "web",

@@ -384,6 +384,15 @@ main { min-height: 65vh; }
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
 }
+.knowledge-item .recommendation-reason,
+.daily-item .recommendation-reason {
+  display: block;
+  margin-top: 9px;
+  color: var(--green);
+  font-size: 12px;
+  line-height: 1.45;
+  -webkit-line-clamp: initial;
+}
 .item-arrow {
   position: absolute;
   top: 50%;
@@ -430,6 +439,66 @@ main { min-height: 65vh; }
   gap: 6px;
   max-width: 850px;
   margin-bottom: 18px;
+}
+.interest-panel {
+  max-width: 900px;
+  margin: 4px 0 24px;
+}
+.compact-head {
+  padding-bottom: 10px;
+}
+.interest-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+.interest-card {
+  min-width: 0;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 17px;
+  background: rgba(255,255,255,.62);
+}
+.interest-card > strong {
+  display: block;
+  margin-bottom: 11px;
+  color: var(--ink);
+  font-size: 13px;
+}
+.interest-list {
+  display: grid;
+  gap: 9px;
+}
+.interest-row {
+  display: grid;
+  grid-template-columns: minmax(54px, 1fr) minmax(38px, 72px) auto;
+  align-items: center;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 12px;
+}
+.interest-row span {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.interest-row i {
+  display: block;
+  height: 6px;
+  border-radius: 999px;
+  background:
+    linear-gradient(90deg, var(--green), var(--green)) 0 / var(--value) 100% no-repeat,
+    var(--green-soft);
+}
+.interest-row em {
+  color: var(--green);
+  font-style: normal;
+  font-variant-numeric: tabular-nums;
+}
+.interest-empty {
+  color: var(--muted);
+  font-size: 12px;
 }
 .list-section-head {
   display: flex;
@@ -836,6 +905,9 @@ main { min-height: 65vh; }
   .summary-cards {
     grid-template-columns: repeat(2, 1fr);
   }
+  .interest-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 
   .card-title {
     font-size: clamp(36px, 11vw, 53px);
@@ -885,6 +957,9 @@ main { min-height: 65vh; }
   .filter-label {
     display: block;
     margin-bottom: 7px;
+  }
+  .interest-grid {
+    grid-template-columns: 1fr;
   }
 
   .knowledge-item h2 { font-size: 21px; }

@@ -28,6 +28,8 @@ const state = {
   randomCardId: null,
   exploreStatus: "unread",
   exploreCategory: "全部",
+  exploreTopic: "all",
+  exploreTag: "all",
   exploreSort: "newest",
   exploreLimit: PAGE_SIZE,
   mineSection: "favorites",
@@ -99,6 +101,8 @@ const dom = {
   searchInput: document.querySelector("#searchInput"),
   statusFilters: [...document.querySelectorAll("#statusFilters .filter-chip")],
   categoryFilters: document.querySelector("#categoryFilters"),
+  topicFilters: document.querySelector("#topicFilters"),
+  tagFilters: document.querySelector("#tagFilters"),
   sortFilters: [...document.querySelectorAll("#sortFilters .filter-chip")],
   exploreList: document.querySelector("#exploreList"),
   showMoreButton: document.querySelector("#showMoreButton"),
@@ -110,6 +114,12 @@ const dom = {
   mineDislikedCount: document.querySelector("#mineDislikedCount"),
   summaryCards: [...document.querySelectorAll(".summary-card")],
   mineTabs: [...document.querySelectorAll(".mine-tab")],
+  interestPanel: document.querySelector("#interestPanel"),
+  interestUpdatedAt: document.querySelector("#interestUpdatedAt"),
+  categoryInterestList: document.querySelector("#categoryInterestList"),
+  topicInterestList: document.querySelector("#topicInterestList"),
+  tagInterestList: document.querySelector("#tagInterestList"),
+  recentExploreList: document.querySelector("#recentExploreList"),
   mineListTitle: document.querySelector("#mineListTitle"),
   mineListCount: document.querySelector("#mineListCount"),
   mineList: document.querySelector("#mineList"),
@@ -342,8 +352,11 @@ async function loadRemoteProgress() {
   if (result.ok) {
     applyProgressRows(result.payload);
     await loadExploredProgress();
-    rebuildInterestProfile();
-    saveInterestProfile();
+    const loadedProfile = await loadRemoteInterestProfile();
+    if (!loadedProfile) {
+      rebuildInterestProfile();
+      saveInterestProfile();
+    }
     return true;
   }
 
@@ -389,6 +402,65 @@ async function loadExploredProgress() {
 
   applyExploredRows([]);
   return false;
+}
+
+function normalizeScoreMap(value) {
+  const source = value && typeof value === "object" ? value : {};
+  return Object.fromEntries(
+    Object.entries(source)
+      .map(([key, score]) => [normalizeSpaceForSignal(key), Number(score) || 0])
+      .filter(([key, score]) => key && score !== 0)
+  );
+}
+
+function applyRemoteInterestProfile(profile) {
+  if (!profile || typeof profile !== "object") return false;
+
+  const normalized = {
+    categoryScores: normalizeScoreMap(profile.categoryScores),
+    topicScores: normalizeScoreMap(profile.topicScores),
+    tagScores: normalizeScoreMap(profile.tagScores),
+    exploredCounts: profile.exploredCounts && typeof profile.exploredCounts === "object"
+      ? profile.exploredCounts
+      : {},
+    updatedAt: profile.updatedAt || null
+  };
+
+  const hasSemanticSignals =
+    Object.keys(normalized.topicScores).length > 0 ||
+    Object.keys(normalized.tagScores).length > 0;
+  if (!hasSemanticSignals) return false;
+
+  state.interestProfile = normalized;
+  return true;
+}
+
+async function loadRemoteInterestProfile() {
+  const anonymousId = getAnonymousId();
+  if (!canRecordProgress()) return false;
+
+  const result = await requestProgress(
+    profileEndpoint({
+      select: "profile,updated_at",
+      anonymous_id: `eq.${anonymousId}`,
+      user_id: "is.null",
+      limit: "1"
+    }),
+    {
+      method: "GET",
+      headers: {
+        "Content-Type": "application/json"
+      }
+    },
+    {
+      action: "load_interest_profile",
+      anonymous_id: anonymousId
+    }
+  );
+
+  if (!result.ok) return false;
+  const row = Array.isArray(result.payload) ? result.payload[0] : null;
+  return applyRemoteInterestProfile(row?.profile);
 }
 
 function updateProgressState(cardId, status, active) {
@@ -569,6 +641,69 @@ function recommendationCandidates(mode = "recommend") {
       recommendationScore(right, mode) - recommendationScore(left, mode) ||
       String(right.created_at || "").localeCompare(String(left.created_at || ""))
     );
+}
+
+function rankedEntries(scoreMap, limit = 6) {
+  return Object.entries(scoreMap || {})
+    .map(([label, score]) => ({ label, score: Number(score) || 0 }))
+    .filter((item) => item.label && item.score > 0)
+    .sort((left, right) => right.score - left.score || left.label.localeCompare(right.label, "zh-CN"))
+    .slice(0, limit);
+}
+
+function labelCounts(field) {
+  const counts = new Map();
+  state.cards.forEach((card) => {
+    const values = field === "tags"
+      ? (Array.isArray(card.tags) ? card.tags : [])
+      : [card[field]];
+    values.forEach((value) => {
+      const label = String(value || "").trim();
+      if (!label) return;
+      counts.set(label, (counts.get(label) || 0) + 1);
+    });
+  });
+  return [...counts.entries()]
+    .sort((left, right) => right[1] - left[1] || left[0].localeCompare(right[0], "zh-CN"));
+}
+
+function bestMatchingSignal(card) {
+  const signals = cardSignals(card);
+  const tagMatches = signals.tags
+    .map((tag) => ({ type: "tag", label: tag, score: state.interestProfile.tagScores[tag] || 0 }))
+    .filter((item) => item.score > 0)
+    .sort((left, right) => right.score - left.score);
+  if (tagMatches.length) return tagMatches[0];
+
+  const topicScore = state.interestProfile.topicScores?.[signals.topic] || 0;
+  if (signals.topic && topicScore > 0) {
+    return { type: "topic", label: signals.topic, score: topicScore };
+  }
+
+  const categoryScore = state.interestProfile.categoryScores[signals.category] || 0;
+  if (signals.category && categoryScore > 0) {
+    return { type: "category", label: signals.category, score: categoryScore };
+  }
+
+  return null;
+}
+
+function recommendationReason(card, mode = "recommend") {
+  const match = bestMatchingSignal(card);
+  if (mode === "serendipity") {
+    const topic = card.topic || card.category || "新方向";
+    return `意外发现：跳出常看方向，试试「${topic}」`;
+  }
+  if (!match) {
+    return "根据新内容质量和未读状态推荐";
+  }
+  if (match.type === "tag") {
+    return `根据你最近收藏或阅读的标签「${match.label}」推荐`;
+  }
+  if (match.type === "topic") {
+    return `与你感兴趣的主题「${match.label}」匹配`;
+  }
+  return `来自你常探索的类别「${match.label}」`;
 }
 
 async function insertProgressRow(cardId, status, active = true) {
@@ -898,7 +1033,10 @@ function renderDaily() {
     title.textContent = card.title;
     const lead = document.createElement("p");
     lead.textContent = card.lead;
-    copy.append(title, lead);
+    const reason = document.createElement("p");
+    reason.className = "recommendation-reason";
+    reason.textContent = recommendationReason(card, "recommend");
+    copy.append(title, lead, reason);
 
     const arrow = document.createElement("span");
     arrow.className = "daily-arrow";
@@ -929,6 +1067,42 @@ function renderCategoryFilters() {
   });
 }
 
+function renderSemanticFilter(container, items, activeValue, onSelect) {
+  if (!container) return;
+  container.innerHTML = "";
+
+  const allButton = document.createElement("button");
+  allButton.type = "button";
+  allButton.className = "filter-chip";
+  allButton.textContent = CATEGORIES[0];
+  allButton.classList.toggle("active", activeValue === "all");
+  allButton.addEventListener("click", () => onSelect("all"));
+  container.appendChild(allButton);
+
+  items.slice(0, 18).forEach(([label, count]) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "filter-chip";
+    button.textContent = `${label} ${count}`;
+    button.classList.toggle("active", activeValue === label);
+    button.addEventListener("click", () => onSelect(label));
+    container.appendChild(button);
+  });
+}
+
+function renderBrowseFilters() {
+  renderSemanticFilter(dom.topicFilters, labelCounts("topic"), state.exploreTopic, (topic) => {
+    state.exploreTopic = topic;
+    state.exploreLimit = PAGE_SIZE;
+    renderExplore();
+  });
+  renderSemanticFilter(dom.tagFilters, labelCounts("tags"), state.exploreTag, (tag) => {
+    state.exploreTag = tag;
+    state.exploreLimit = PAGE_SIZE;
+    renderExplore();
+  });
+}
+
 function filteredExploreCards() {
   const read = getRead();
   const favorites = getFavorites();
@@ -943,6 +1117,17 @@ function filteredExploreCards() {
     if (
       state.exploreCategory !== "全部" &&
       card.category !== state.exploreCategory
+    ) {
+      return false;
+    }
+
+    if (state.exploreTopic !== "all" && card.topic !== state.exploreTopic) {
+      return false;
+    }
+
+    if (
+      state.exploreTag !== "all" &&
+      !(Array.isArray(card.tags) && card.tags.includes(state.exploreTag))
     ) {
       return false;
     }
@@ -983,6 +1168,17 @@ function filteredRecommendationCards(mode) {
     if (
       state.exploreCategory !== CATEGORIES[0] &&
       card.category !== state.exploreCategory
+    ) {
+      return false;
+    }
+
+    if (state.exploreTopic !== "all" && card.topic !== state.exploreTopic) {
+      return false;
+    }
+
+    if (
+      state.exploreTag !== "all" &&
+      !(Array.isArray(card.tags) && card.tags.includes(state.exploreTag))
     ) {
       return false;
     }
@@ -1055,11 +1251,25 @@ function renderKnowledgeList(container, cards, origin, emptyText) {
     const lead = document.createElement("p");
     lead.textContent = card.lead;
 
+    const content = [meta, title, lead];
+    const shouldShowReason =
+      origin === "daily" ||
+      (origin === "explore" && ["recommend", "serendipity"].includes(state.exploreMode));
+    if (shouldShowReason) {
+      const reason = document.createElement("p");
+      reason.className = "recommendation-reason";
+      reason.textContent = recommendationReason(
+        card,
+        origin === "explore" ? state.exploreMode : "recommend"
+      );
+      content.push(reason);
+    }
+
     const arrow = document.createElement("span");
     arrow.className = "item-arrow";
     arrow.textContent = "›";
 
-    item.append(meta, title, lead, arrow);
+    item.append(...content, arrow);
     item.addEventListener("click", () => openDetail(card.id, origin));
     container.appendChild(item);
   });
@@ -1287,6 +1497,7 @@ function renderExplore() {
   dom.randomExplorePanel.hidden = true;
   dom.libraryExplorePanel.hidden = false;
   renderCategoryFilters();
+  renderBrowseFilters();
 
   const isPersonalMode = ["recommend", "serendipity"].includes(state.exploreMode);
   const all = isPersonalMode
@@ -1332,10 +1543,85 @@ function setMineSection(section) {
   renderMine();
 }
 
+function renderInterestList(container, entries, emptyText) {
+  if (!container) return;
+  container.innerHTML = "";
+
+  if (!entries.length) {
+    const empty = document.createElement("span");
+    empty.className = "interest-empty";
+    empty.textContent = emptyText;
+    container.appendChild(empty);
+    return;
+  }
+
+  const maxScore = Math.max(...entries.map((item) => Math.abs(item.score)), 1);
+  entries.forEach((item) => {
+    const row = document.createElement("div");
+    row.className = "interest-row";
+
+    const label = document.createElement("span");
+    label.textContent = item.label;
+
+    const meter = document.createElement("i");
+    meter.style.setProperty("--value", `${Math.max(8, Math.round((Math.abs(item.score) / maxScore) * 100))}%`);
+
+    const score = document.createElement("em");
+    score.textContent = Number(item.score).toFixed(1);
+
+    row.append(label, meter, score);
+    container.appendChild(row);
+  });
+}
+
+function recentExploreDirections(limit = 6) {
+  const scores = {};
+  Object.entries(state.interestProfile.exploredCounts || {}).forEach(([cardId, count]) => {
+    const card = state.cardMap.get(cardId);
+    if (!card) return;
+    const signals = cardSignals(card);
+    const label = signals.topic || signals.category;
+    if (!label) return;
+    scores[label] = (scores[label] || 0) + Number(count || 0);
+  });
+  return rankedEntries(scores, limit);
+}
+
+function renderInterestPanel() {
+  renderInterestList(
+    dom.categoryInterestList,
+    rankedEntries(state.interestProfile.categoryScores),
+    "暂无类别偏好"
+  );
+  renderInterestList(
+    dom.topicInterestList,
+    rankedEntries(state.interestProfile.topicScores),
+    "暂无主题偏好"
+  );
+  renderInterestList(
+    dom.tagInterestList,
+    rankedEntries(state.interestProfile.tagScores),
+    "暂无标签偏好"
+  );
+  renderInterestList(
+    dom.recentExploreList,
+    recentExploreDirections(),
+    "暂无探索记录"
+  );
+
+  if (dom.interestUpdatedAt) {
+    const updatedAt = state.interestProfile.updatedAt;
+    dom.interestUpdatedAt.textContent = updatedAt
+      ? `Supabase · ${formatDate(updatedAt)}`
+      : "Supabase";
+  }
+}
+
 function renderMine() {
   hideAllViews();
   dom.mineHome.hidden = false;
   updateCounts();
+  renderInterestPanel();
 
   const labels = {
     favorites: "我的收藏",

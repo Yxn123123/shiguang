@@ -161,6 +161,16 @@
           </div>
 
           <div class="filter-row">
+            <span class="filter-label">Topic</span>
+            <div id="topicFilters" class="filter-chips"></div>
+          </div>
+
+          <div class="filter-row">
+            <span class="filter-label">Tag</span>
+            <div id="tagFilters" class="filter-chips"></div>
+          </div>
+
+          <div class="filter-row">
             <span class="filter-label">排序</span>
             <div id="sortFilters" class="filter-chips">
               <button class="filter-chip active" data-sort="newest" type="button">最新</button>
@@ -204,6 +214,31 @@
             <span>不感兴趣</span>
           </button>
         </div>
+
+        <section id="interestPanel" class="interest-panel">
+          <div class="list-section-head compact-head">
+            <h2>我的兴趣画像</h2>
+            <span id="interestUpdatedAt">Supabase</span>
+          </div>
+          <div class="interest-grid">
+            <div class="interest-card">
+              <strong>Category</strong>
+              <div id="categoryInterestList" class="interest-list"></div>
+            </div>
+            <div class="interest-card">
+              <strong>Topic</strong>
+              <div id="topicInterestList" class="interest-list"></div>
+            </div>
+            <div class="interest-card">
+              <strong>Tag</strong>
+              <div id="tagInterestList" class="interest-list"></div>
+            </div>
+            <div class="interest-card">
+              <strong>最近探索方向</strong>
+              <div id="recentExploreList" class="interest-list"></div>
+            </div>
+          </div>
+        </section>
 
         <div id="mineTabs" class="mine-tabs">
           <button class="mine-tab active" data-mine="favorites" type="button">收藏</button>

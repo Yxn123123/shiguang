@@ -3,7 +3,8 @@ name: Stock candidate pool
 on:
   workflow_dispatch:
   schedule:
-    - cron: "11 4,16 * * *"
+    # 01:30 Beijing time (UTC+8).
+    - cron: "30 17 * * *"
 
 permissions:
   contents: write

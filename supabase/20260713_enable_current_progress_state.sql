@@ -1,18 +1,7 @@
-create extension if not exists pgcrypto;
-
-create table if not exists public.user_progress (
-  id uuid primary key default gen_random_uuid(),
-  anonymous_id text,
-  user_id uuid,
-  card_id text not null,
-  status text not null check (status in ('read', 'favorite', 'explored')),
-  active boolean not null default true,
-  created_at timestamptz not null default now(),
-  updated_at timestamptz not null default now()
-);
-
-comment on column public.user_progress.anonymous_id is
-  'Browser-scoped anonymous identifier stored in localStorage. Future authenticated users can be linked with a separate user_id column.';
+alter table public.user_progress
+  add column if not exists user_id uuid,
+  add column if not exists active boolean not null default true,
+  add column if not exists updated_at timestamptz not null default now();
 
 comment on column public.user_progress.user_id is
   'Reserved for future Supabase Auth users. Anonymous browser users continue to use anonymous_id.';
@@ -23,7 +12,6 @@ comment on column public.user_progress.active is
 create or replace function public.set_user_progress_updated_at()
 returns trigger
 language plpgsql
-set search_path = public, pg_temp
 as $$
 begin
   new.updated_at = now();
@@ -38,9 +26,6 @@ create trigger set_user_progress_updated_at
   before update on public.user_progress
   for each row
   execute function public.set_user_progress_updated_at();
-
-create index if not exists user_progress_anonymous_status_idx
-  on public.user_progress (anonymous_id, status, created_at desc);
 
 create unique index if not exists user_progress_anon_current_unique
   on public.user_progress (anonymous_id, card_id, status)
@@ -59,15 +44,6 @@ create index if not exists user_progress_anon_active_idx
 create index if not exists user_progress_user_active_idx
   on public.user_progress (user_id, status, active, updated_at desc);
 
-create index if not exists user_progress_card_status_idx
-  on public.user_progress (card_id, status);
-
-create index if not exists user_progress_created_at_idx
-  on public.user_progress (created_at desc);
-
-alter table public.user_progress enable row level security;
-
-revoke all privileges on public.user_progress from anon;
 grant select, insert, update on public.user_progress to anon;
 
 drop policy if exists "Allow anonymous progress inserts" on public.user_progress;

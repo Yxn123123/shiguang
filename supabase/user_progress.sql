@@ -5,7 +5,7 @@ create table if not exists public.user_progress (
   anonymous_id text,
   user_id uuid,
   card_id text not null,
-  status text not null check (status in ('read', 'favorite', 'explored')),
+  status text not null check (status in ('read', 'favorite', 'disliked', 'explored')),
   active boolean not null default true,
   created_at timestamptz not null default now(),
   updated_at timestamptz not null default now()
@@ -46,12 +46,12 @@ create unique index if not exists user_progress_anon_current_unique
   on public.user_progress (anonymous_id, card_id, status)
   where user_id is null
     and anonymous_id is not null
-    and status in ('read', 'favorite');
+    and status in ('read', 'favorite', 'disliked');
 
 create unique index if not exists user_progress_user_current_unique
   on public.user_progress (user_id, card_id, status)
   where user_id is not null
-    and status in ('read', 'favorite');
+    and status in ('read', 'favorite', 'disliked');
 
 create index if not exists user_progress_anon_active_idx
   on public.user_progress (anonymous_id, status, active, updated_at desc);
@@ -91,7 +91,7 @@ create policy "Anonymous users can insert progress"
   with check (
     user_id is null
     and anonymous_id is not null
-    and status in ('read', 'favorite', 'explored')
+    and status in ('read', 'favorite', 'disliked', 'explored')
   );
 
 create policy "Anonymous users can update current progress"
@@ -101,10 +101,10 @@ create policy "Anonymous users can update current progress"
   using (
     user_id is null
     and anonymous_id is not null
-    and status in ('read', 'favorite')
+    and status in ('read', 'favorite', 'disliked')
   )
   with check (
     user_id is null
     and anonymous_id is not null
-    and status in ('read', 'favorite')
+    and status in ('read', 'favorite', 'disliked')
   );

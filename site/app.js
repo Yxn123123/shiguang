@@ -34,13 +34,14 @@ const state = {
   progress: {
     read: new Set(),
     favorite: new Set(),
+    disliked: new Set(),
     loaded: false
   },
   loadingSupply: false,
   installPrompt: null
 };
 
-const PROGRESS_STATUSES = new Set(["read", "favorite", "explored"]);
+const PROGRESS_STATUSES = new Set(["read", "favorite", "disliked", "explored"]);
 const runtimeConfig = window.SHIGUANG_CONFIG || {};
 const supabaseConfig = {
   url: String(runtimeConfig.SUPABASE_URL || "").replace(/\/+$/, ""),
@@ -261,6 +262,7 @@ function applyProgressRows(rows) {
   const validIds = new Set(state.cards.map((card) => card.id));
   const read = new Set();
   const favorite = new Set();
+  const disliked = new Set();
 
   (Array.isArray(rows) ? rows : []).forEach((row) => {
     const cardId = String(row.card_id || "");
@@ -268,10 +270,12 @@ function applyProgressRows(rows) {
 
     if (row.status === "read") read.add(cardId);
     if (row.status === "favorite") favorite.add(cardId);
+    if (row.status === "disliked") disliked.add(cardId);
   });
 
   state.progress.read = read;
   state.progress.favorite = favorite;
+  state.progress.disliked = disliked;
   state.progress.loaded = true;
 }
 
@@ -292,7 +296,7 @@ async function loadRemoteProgress() {
       anonymous_id: `eq.${anonymousId}`,
       user_id: "is.null",
       active: "eq.true",
-      status: "in.(read,favorite)"
+      status: "in.(read,favorite,disliked)"
     }),
     {
       method: "GET",
@@ -316,7 +320,13 @@ async function loadRemoteProgress() {
 }
 
 function updateProgressState(cardId, status, active) {
-  const target = status === "read" ? state.progress.read : state.progress.favorite;
+  const targets = {
+    read: state.progress.read,
+    favorite: state.progress.favorite,
+    disliked: state.progress.disliked
+  };
+  const target = targets[status];
+  if (!target) return;
   if (active) {
     target.add(cardId);
   } else {
@@ -381,7 +391,7 @@ async function patchProgressRows(cardId, status, active) {
 }
 
 async function setProgressStatus(cardId, status, active) {
-  if (!cardId || !["read", "favorite"].includes(status)) return false;
+  if (!cardId || !["read", "favorite", "disliked"].includes(status)) return false;
 
   const patchResult = await patchProgressRows(cardId, status, active);
   if (!patchResult.ok) return false;
@@ -423,7 +433,7 @@ function getLater() {
 }
 
 function getDisliked() {
-  return getSet(STORE.disliked);
+  return new Set(state.progress.disliked);
 }
 
 function localDateKey(date = new Date()) {
@@ -970,7 +980,7 @@ function toggleRandomLater() {
   renderExplore();
 }
 
-function dislikeRandomCard() {
+async function dislikeRandomCard() {
   const cardId = state.randomCardId;
   if (!cardId) return;
 
@@ -979,9 +989,11 @@ function dislikeRandomCard() {
   );
   if (!confirmed) return;
 
-  const disliked = getDisliked();
-  disliked.add(cardId);
-  saveSet(STORE.disliked, disliked);
+  const synced = await setProgressStatus(cardId, "disliked", true);
+  if (!synced) {
+    showToast("同步失败，请稍后再试");
+    return;
+  }
 
   state.randomCardId = null;
   ensureRandomCard(true);
@@ -1246,8 +1258,11 @@ async function dislikeCurrent() {
   const disliked = getDisliked();
 
   if (disliked.has(cardId)) {
-    disliked.delete(cardId);
-    saveSet(STORE.disliked, disliked);
+    const synced = await setProgressStatus(cardId, "disliked", false);
+    if (!synced) {
+      showToast("同步失败，请稍后再试");
+      return;
+    }
     showToast("已恢复到知识库");
     renderDetail();
     return;
@@ -1266,8 +1281,11 @@ async function dislikeCurrent() {
     }
   }
 
-  disliked.add(cardId);
-  saveSet(STORE.disliked, disliked);
+  const synced = await setProgressStatus(cardId, "disliked", true);
+  if (!synced) {
+    showToast("同步失败，请稍后再试");
+    return;
+  }
 
   const later = getLater();
   later.delete(cardId);

@@ -5,6 +5,7 @@ const STORE = {
   later: "shiguang_later_v2",
   daily: "shiguang_daily_v2",
   randomQueue: "shiguang_random_queue_v1",
+  anonymousId: "shiguang_anonymous_id_v1",
   triggerEndpoint: "shiguang_trigger_endpoint_v1",
   triggerSecret: "shiguang_trigger_secret_v1",
   activeRun: "shiguang_active_run_v1",
@@ -178,10 +179,30 @@ function canRecordProgress() {
   return Boolean(supabaseConfig.url && supabaseConfig.key);
 }
 
+function createAnonymousId() {
+  if (window.crypto?.randomUUID) {
+    return window.crypto.randomUUID();
+  }
+
+  const randomPart = Math.random().toString(36).slice(2, 12);
+  return `anon_${Date.now().toString(36)}_${randomPart}`;
+}
+
+function getAnonymousId() {
+  let anonymousId = localStorage.getItem(STORE.anonymousId);
+  if (!anonymousId) {
+    anonymousId = createAnonymousId();
+    localStorage.setItem(STORE.anonymousId, anonymousId);
+  }
+  return anonymousId;
+}
+
 function recordProgress(cardId, status) {
   if (!cardId || !PROGRESS_STATUSES.has(status) || !canRecordProgress()) {
     return Promise.resolve(false);
   }
+
+  const anonymousId = getAnonymousId();
 
   return fetch(`${supabaseConfig.url}/rest/v1/user_progress`, {
     method: "POST",
@@ -193,7 +214,8 @@ function recordProgress(cardId, status) {
     },
     body: JSON.stringify({
       card_id: cardId,
-      status
+      status,
+      anonymous_id: anonymousId
     })
   })
     .then((response) => response.ok)

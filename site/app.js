@@ -35,7 +35,14 @@ const state = {
     read: new Set(),
     favorite: new Set(),
     disliked: new Set(),
+    explored: new Map(),
     loaded: false
+  },
+  interestProfile: {
+    categoryScores: {},
+    tagScores: {},
+    exploredCounts: {},
+    updatedAt: null
   },
   loadingSupply: false,
   installPrompt: null
@@ -213,6 +220,12 @@ function progressEndpoint(query = {}) {
   return `${supabaseConfig.url}/rest/v1/user_progress${suffix}`;
 }
 
+function profileEndpoint(query = {}) {
+  const params = new URLSearchParams(query);
+  const suffix = params.toString() ? `?${params.toString()}` : "";
+  return `${supabaseConfig.url}/rest/v1/user_interest_profile${suffix}`;
+}
+
 async function parseProgressResponse(response) {
   const text = await response.text();
   if (!text) return null;
@@ -279,11 +292,26 @@ function applyProgressRows(rows) {
   state.progress.loaded = true;
 }
 
+function applyExploredRows(rows) {
+  const validIds = new Set(state.cards.map((card) => card.id));
+  const explored = new Map();
+
+  (Array.isArray(rows) ? rows : []).forEach((row) => {
+    const cardId = String(row.card_id || "");
+    if (!validIds.has(cardId)) return;
+    explored.set(cardId, (explored.get(cardId) || 0) + 1);
+  });
+
+  state.progress.explored = explored;
+}
+
 async function loadRemoteProgress() {
   const anonymousId = getAnonymousId();
 
   if (!canRecordProgress()) {
     applyProgressRows([]);
+    applyExploredRows([]);
+    rebuildInterestProfile();
     progressWarning("Using empty progress because Supabase is not configured", {
       anonymous_id: anonymousId
     });
@@ -312,10 +340,53 @@ async function loadRemoteProgress() {
 
   if (result.ok) {
     applyProgressRows(result.payload);
+    await loadExploredProgress();
+    rebuildInterestProfile();
+    saveInterestProfile();
     return true;
   }
 
   applyProgressRows([]);
+  applyExploredRows([]);
+  rebuildInterestProfile();
+  return false;
+}
+
+async function loadExploredProgress() {
+  const anonymousId = getAnonymousId();
+
+  if (!canRecordProgress()) {
+    applyExploredRows([]);
+    return false;
+  }
+
+  const result = await requestProgress(
+    progressEndpoint({
+      select: "card_id,created_at",
+      anonymous_id: `eq.${anonymousId}`,
+      user_id: "is.null",
+      status: "eq.explored",
+      order: "created_at.desc",
+      limit: "200"
+    }),
+    {
+      method: "GET",
+      headers: {
+        "Content-Type": "application/json"
+      }
+    },
+    {
+      action: "load_explored",
+      anonymous_id: anonymousId
+    }
+  );
+
+  if (result.ok) {
+    applyExploredRows(result.payload);
+    return true;
+  }
+
+  applyExploredRows([]);
   return false;
 }
 
@@ -332,6 +403,170 @@ function updateProgressState(cardId, status, active) {
   } else {
     target.delete(cardId);
   }
+}
+
+function cardSignals(card) {
+  const tags = new Set();
+  const category = normalizeSpaceForSignal(card.category || "综合");
+  if (category) tags.add(category);
+
+  if (Array.isArray(card.tags)) {
+    card.tags.forEach((tag) => {
+      const normalized = normalizeSpaceForSignal(tag);
+      if (normalized) tags.add(normalized);
+    });
+  }
+
+  const topic = normalizeSpaceForSignal(card.topic);
+  if (topic) tags.add(topic);
+
+  return {
+    category,
+    tags: [...tags]
+  };
+}
+
+function normalizeSpaceForSignal(value) {
+  return String(value || "").trim().toLowerCase();
+}
+
+function addScore(target, key, value) {
+  if (!key) return;
+  target[key] = Number((target[key] || 0) + value);
+}
+
+function applyInterestWeight(profile, cardId, weight) {
+  const card = state.cardMap.get(cardId);
+  if (!card) return;
+
+  const signals = cardSignals(card);
+  addScore(profile.categoryScores, signals.category, weight);
+  signals.tags.forEach((tag) => addScore(profile.tagScores, tag, weight));
+}
+
+function rebuildInterestProfile() {
+  const profile = {
+    categoryScores: {},
+    tagScores: {},
+    exploredCounts: Object.fromEntries(state.progress.explored),
+    updatedAt: new Date().toISOString()
+  };
+
+  state.progress.explored.forEach((count, cardId) => {
+    applyInterestWeight(profile, cardId, Math.min(1.5, count * 0.25));
+  });
+  state.progress.read.forEach((cardId) => applyInterestWeight(profile, cardId, 1.5));
+  state.progress.favorite.forEach((cardId) => applyInterestWeight(profile, cardId, 4));
+  state.progress.disliked.forEach((cardId) => applyInterestWeight(profile, cardId, -4));
+
+  state.interestProfile = profile;
+  return profile;
+}
+
+async function saveInterestProfile() {
+  if (!canRecordProgress()) return false;
+
+  const anonymousId = getAnonymousId();
+  const profile = state.interestProfile;
+  const patchResult = await requestProgress(
+    profileEndpoint({
+      anonymous_id: `eq.${anonymousId}`,
+      user_id: "is.null"
+    }),
+    {
+      method: "PATCH",
+      headers: {
+        "Content-Type": "application/json",
+        Prefer: "return=representation"
+      },
+      body: JSON.stringify({ profile })
+    },
+    {
+      action: "save_interest_profile_update",
+      anonymous_id: anonymousId
+    }
+  );
+
+  if (!patchResult.ok) return false;
+
+  const updatedRows = Array.isArray(patchResult.payload)
+    ? patchResult.payload.length
+    : 0;
+  if (updatedRows > 0) return true;
+
+  const insertResult = await requestProgress(
+    profileEndpoint(),
+    {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Prefer: "return=minimal"
+      },
+      body: JSON.stringify({
+        anonymous_id: anonymousId,
+        profile
+      })
+    },
+    {
+      action: "save_interest_profile_insert",
+      anonymous_id: anonymousId
+    }
+  );
+
+  return insertResult.ok;
+}
+
+function currentInterestScore(card) {
+  const signals = cardSignals(card);
+  let score = state.interestProfile.categoryScores[signals.category] || 0;
+  signals.tags.forEach((tag) => {
+    score += (state.interestProfile.tagScores[tag] || 0) * 0.6;
+  });
+  return score;
+}
+
+function freshnessScore(card) {
+  const created = new Date(card.created_at || "");
+  if (Number.isNaN(created.getTime())) return 0;
+
+  const days = Math.max(0, (Date.now() - created.getTime()) / 86400000);
+  if (days <= 7) return 2;
+  if (days <= 30) return 1;
+  return 0;
+}
+
+function qualityScore(card) {
+  return Math.max(0, Math.min(2, Number(card.quality_score || 0) / 50));
+}
+
+function recommendationScore(card, mode = "recommend") {
+  const interest = currentInterestScore(card);
+  const exploredPenalty = Math.min(3, state.progress.explored.get(card.id) || 0);
+  const base = freshnessScore(card) + qualityScore(card) - exploredPenalty;
+
+  if (mode === "serendipity") {
+    const novelty = Math.max(0, 3 - Math.max(0, interest));
+    return base + novelty + (stableHash(`${localDateKey()}|surprise|${card.id}`) % 100) / 100;
+  }
+
+  return base + interest + (stableHash(`${localDateKey()}|recommend|${card.id}`) % 30) / 100;
+}
+
+function recommendationCandidates(mode = "recommend") {
+  const read = getRead();
+  const later = getLater();
+  const disliked = getDisliked();
+
+  return state.cards
+    .filter((card) =>
+      !read.has(card.id) &&
+      !later.has(card.id) &&
+      !disliked.has(card.id)
+    )
+    .sort((left, right) =>
+      recommendationScore(right, mode) - recommendationScore(left, mode) ||
+      String(right.created_at || "").localeCompare(String(left.created_at || ""))
+    );
 }
 
 async function insertProgressRow(cardId, status, active = true) {
@@ -411,12 +646,19 @@ async function setProgressStatus(cardId, status, active) {
   }
 
   updateProgressState(cardId, status, active);
+  rebuildInterestProfile();
+  saveInterestProfile();
   return true;
 }
 
 async function recordExploredProgress(cardId) {
   if (!cardId) return false;
   const result = await insertProgressRow(cardId, "explored", true);
+  if (result.ok) {
+    state.progress.explored.set(cardId, (state.progress.explored.get(cardId) || 0) + 1);
+    rebuildInterestProfile();
+    saveInterestProfile();
+  }
   return result.ok;
 }
 
@@ -489,19 +731,20 @@ function ensureDailyRecord(force = false) {
     record.date !== date ||
     !Array.isArray(record.ids)
   ) {
-    const candidates = state.cards
-      .filter((card) =>
-        !read.has(card.id) &&
-        !later.has(card.id) &&
-        !disliked.has(card.id)
-      )
-      .sort((left, right) =>
-        stableHash(`${date}|${left.id}`) - stableHash(`${date}|${right.id}`)
-      );
+    const recommended = recommendationCandidates("recommend");
+    const surprise = recommendationCandidates("serendipity")
+      .find((card) => !recommended.slice(0, DAILY_SIZE).some((item) => item.id === card.id));
+    const ids = recommended.slice(0, DAILY_SIZE).map((card) => card.id);
+
+    if (surprise && ids.length >= DAILY_SIZE) {
+      ids[ids.length - 1] = surprise.id;
+    } else if (surprise) {
+      ids.push(surprise.id);
+    }
 
     record = {
       date,
-      ids: candidates.slice(0, DAILY_SIZE).map((card) => card.id),
+      ids,
       createdAt: new Date().toISOString()
     };
     writeJson(STORE.daily, record);
@@ -731,6 +974,28 @@ function filteredExploreCards() {
   return cards;
 }
 
+function filteredRecommendationCards(mode) {
+  const query = normalizeSearch(dom.searchInput.value);
+
+  return recommendationCandidates(mode).filter((card) => {
+    if (
+      state.exploreCategory !== CATEGORIES[0] &&
+      card.category !== state.exploreCategory
+    ) {
+      return false;
+    }
+
+    if (query) {
+      const haystack = normalizeSearch(
+        `${card.title}${card.lead}${card.explanation}${card.category}`
+      );
+      if (!haystack.includes(query)) return false;
+    }
+
+    return true;
+  });
+}
+
 function renderKnowledgeList(container, cards, origin, emptyText) {
   container.innerHTML = "";
 
@@ -859,6 +1124,7 @@ function ensureRandomCard(forceNext = false) {
 
 function setExploreMode(mode) {
   state.exploreMode = mode;
+  state.exploreLimit = PAGE_SIZE;
 
   dom.exploreModeTabs.forEach((button) => {
     button.classList.toggle("active", button.dataset.mode === mode);
@@ -1020,7 +1286,10 @@ function renderExplore() {
   dom.libraryExplorePanel.hidden = false;
   renderCategoryFilters();
 
-  const all = filteredExploreCards();
+  const isPersonalMode = ["recommend", "serendipity"].includes(state.exploreMode);
+  const all = isPersonalMode
+    ? filteredRecommendationCards(state.exploreMode)
+    : filteredExploreCards();
   const visible = all.slice(0, state.exploreLimit);
 
   dom.exploreCount.textContent = `${all.length} 条`;
@@ -1028,7 +1297,9 @@ function renderExplore() {
     dom.exploreList,
     visible,
     "explore",
-    "当前筛选条件下没有内容。可以切换到“全部”或换一个分类。"
+    isPersonalMode
+      ? "暂时没有可推荐的新内容。可以切换到随机探索或浏览知识库。"
+      : "当前筛选条件下没有内容。可以切换到“全部”或换一个分类。"
   );
 
   dom.showMoreButton.hidden = visible.length >= all.length;

@@ -40,6 +40,7 @@ const state = {
   },
   interestProfile: {
     categoryScores: {},
+    topicScores: {},
     tagScores: {},
     exploredCounts: {},
     updatedAt: null
@@ -406,9 +407,9 @@ function updateProgressState(cardId, status, active) {
 }
 
 function cardSignals(card) {
-  const tags = new Set();
   const category = normalizeSpaceForSignal(card.category || "综合");
-  if (category) tags.add(category);
+  const topic = normalizeSpaceForSignal(card.topic || "");
+  const tags = new Set();
 
   if (Array.isArray(card.tags)) {
     card.tags.forEach((tag) => {
@@ -417,11 +418,9 @@ function cardSignals(card) {
     });
   }
 
-  const topic = normalizeSpaceForSignal(card.topic);
-  if (topic) tags.add(topic);
-
   return {
     category,
+    topic,
     tags: [...tags]
   };
 }
@@ -441,12 +440,14 @@ function applyInterestWeight(profile, cardId, weight) {
 
   const signals = cardSignals(card);
   addScore(profile.categoryScores, signals.category, weight);
+  addScore(profile.topicScores, signals.topic, weight);
   signals.tags.forEach((tag) => addScore(profile.tagScores, tag, weight));
 }
 
 function rebuildInterestProfile() {
   const profile = {
     categoryScores: {},
+    topicScores: {},
     tagScores: {},
     exploredCounts: Object.fromEntries(state.progress.explored),
     updatedAt: new Date().toISOString()
@@ -518,9 +519,10 @@ async function saveInterestProfile() {
 
 function currentInterestScore(card) {
   const signals = cardSignals(card);
-  let score = state.interestProfile.categoryScores[signals.category] || 0;
+  let score = (state.interestProfile.categoryScores[signals.category] || 0) * 0.45;
+  score += (state.interestProfile.topicScores?.[signals.topic] || 0) * 1.1;
   signals.tags.forEach((tag) => {
-    score += (state.interestProfile.tagScores[tag] || 0) * 0.6;
+    score += (state.interestProfile.tagScores[tag] || 0) * 1.35;
   });
   return score;
 }
@@ -947,7 +949,7 @@ function filteredExploreCards() {
 
     if (query) {
       const haystack = normalizeSearch(
-        `${card.title}${card.lead}${card.explanation}${card.category}`
+        `${card.title}${card.lead}${card.explanation}${card.category}${card.topic}${(card.tags || []).join("")}`
       );
       if (!haystack.includes(query)) return false;
     }
@@ -987,7 +989,7 @@ function filteredRecommendationCards(mode) {
 
     if (query) {
       const haystack = normalizeSearch(
-        `${card.title}${card.lead}${card.explanation}${card.category}`
+        `${card.title}${card.lead}${card.explanation}${card.category}${card.topic}${(card.tags || []).join("")}`
       );
       if (!haystack.includes(query)) return false;
     }

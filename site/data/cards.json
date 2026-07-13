@@ -15,7 +15,16 @@
       "evidence": "If source, lens, and observer are all in perfect alignment (syzygy), the light appears as a ring.",
       "created_at": "2026-07-12",
       "source_type": "AI审核 · gpt-5.6-luna",
-      "quality_score": 93
+      "quality_score": 93,
+      "topic": "天文",
+      "tags": [
+        "天文",
+        "引力",
+        "宇宙",
+        "观测",
+        "科学",
+        "自然现象"
+      ]
     },
     {
       "id": "auto-ed8a9092e0e036b4",
@@ -30,7 +39,14 @@
       "evidence": "He discovered the effect when he observed runs of his weather model with initial condition data that were rounded in a seemingly inconsequential manner.",
       "created_at": "2026-07-12",
       "source_type": "AI审核 · gpt-5.6-luna",
-      "quality_score": 92
+      "quality_score": 92,
+      "topic": "自然现象",
+      "tags": [
+        "自然现象",
+        "物理机制",
+        "日常科学",
+        "科学"
+      ]
     },
     {
       "id": "auto-c0d5c5758f69bcc5",
@@ -45,7 +61,14 @@
       "evidence": "Convection is the transfer of heat through the physical movement of fluids (liquids or gases), where warmer, less-dense material rises and cooler, denser material sinks.",
       "created_at": "2026-07-12",
       "source_type": "AI审核 · gpt-5.6-luna",
-      "quality_score": 90
+      "quality_score": 90,
+      "topic": "自然现象",
+      "tags": [
+        "自然现象",
+        "物理机制",
+        "日常科学",
+        "科学"
+      ]
     },
     {
       "id": "auto-91444e1838753534",
@@ -60,7 +83,15 @@
       "evidence": "Chatoyancy results from the directional reflection of light by parallel fibrous structures or aligned needle-like inclusions within a material.",
       "created_at": "2026-07-12",
       "source_type": "AI审核 · gpt-5.6-luna",
-      "quality_score": 89
+      "quality_score": 89,
+      "topic": "材料",
+      "tags": [
+        "材料",
+        "物性",
+        "工艺",
+        "科学",
+        "自然现象"
+      ]
     },
     {
       "id": "auto-fa334512a0c98110",
@@ -75,7 +106,14 @@
       "evidence": "When sound propagates in such media, there is always thermal consumption of energy caused by viscosity.",
       "created_at": "2026-07-12",
       "source_type": "AI审核 · gpt-5.6-luna",
-      "quality_score": 87
+      "quality_score": 87,
+      "topic": "自然现象",
+      "tags": [
+        "自然现象",
+        "物理机制",
+        "日常科学",
+        "科学"
+      ]
     },
     {
       "id": "auto-607066200ddd1204",
@@ -90,7 +128,14 @@
       "evidence": "The new method enables biomolecular interaction analysis in complex biological samples without the use of additional fluorescent labels.",
       "created_at": "2026-07-12",
       "source_type": "AI审核 · gpt-5.6-luna",
-      "quality_score": 86
+      "quality_score": 86,
+      "topic": "工程",
+      "tags": [
+        "工程",
+        "检测技术",
+        "信息技术",
+        "科技"
+      ]
     },
     {
       "id": "auto-0c11e89861b26e63",
@@ -105,7 +150,16 @@
       "evidence": "事件：Chinese seismologists successfully predict the 1995 Myanmar–China earthquake, reducing the number of casualties to 11.",
       "created_at": "2026-07-12",
       "source_type": "AI审核 · gpt-5.6-luna",
-      "quality_score": 82
+      "quality_score": 82,
+      "topic": "工程安全",
+      "tags": [
+        "工程安全",
+        "工程",
+        "结构安全",
+        "设计细节",
+        "历史",
+        "时间线"
+      ]
     },
     {
       "id": "auto-f579243b1b7ca2dd",
@@ -118,7 +172,13 @@
       "source_url": "https://zh.wikipedia.org/wiki/1998%E5%B9%B4",
       "evidence": "在第十六屆世界盃足球賽中，東道主法國以三比零擊敗上屆冠軍巴西，首次奪得世界杯足球赛冠军。",
       "created_at": "2026-07-12",
-      "source_type": "AI审核 · gpt-5.6-luna"
+      "source_type": "AI审核 · gpt-5.6-luna",
+      "topic": "历史",
+      "tags": [
+        "历史",
+        "历史事件",
+        "综合"
+      ]
     },
     {
       "id": "auto-442ba41a8759811b",
@@ -131,7 +191,13 @@
       "source_url": "https://zh.wikipedia.org/wiki/%E5%9C%A3%E8%BF%AD%E6%88%88%E5%8F%B7%E8%BD%BB%E5%B7%A1%E6%B4%8B%E8%88%B0",
       "evidence": "日本投降后，她成为首艘驶入东京湾的盟军主要战舰。",
       "created_at": "2026-07-12",
-      "source_type": "AI审核 · gpt-5.6-luna"
+      "source_type": "AI审核 · gpt-5.6-luna",
+      "topic": "历史",
+      "tags": [
+        "历史",
+        "历史事件",
+        "综合"
+      ]
     },
     {
       "id": "auto-71c75177d1ecfdcb",
@@ -144,7 +210,13 @@
       "source_url": "https://zh.wikipedia.org/wiki/%E6%A1%82%E9%B2%B1%E5%B1%9E",
       "evidence": "桂鲱属生存于渐新世（约3300万至2800万年前）的中国广西壮族自治区，它是目前已知生存年代最晚的埃笠姆鲱目鱼类。",
       "created_at": "2026-07-12",
-      "source_type": "AI审核 · gpt-5.6-luna"
+      "source_type": "AI审核 · gpt-5.6-luna",
+      "topic": "生物",
+      "tags": [
+        "生物",
+        "生命机制",
+        "综合"
+      ]
     },
     {
       "id": "auto-c6dab0f28ad3223c",
@@ -157,7 +229,13 @@
       "source_url": "https://zh.wikipedia.org/wiki/1997%E5%B9%B4",
       "evidence": "宮崎駿的動畫電影《魔法公主》 上映，成為日本數月來票房最高的電影。",
       "created_at": "2026-07-12",
-      "source_type": "AI审核 · gpt-5.6-luna"
+      "source_type": "AI审核 · gpt-5.6-luna",
+      "topic": "艺术",
+      "tags": [
+        "艺术",
+        "设计",
+        "综合"
+      ]
     },
     {
       "id": "seed-moon-distance",
@@ -170,7 +248,13 @@
       "source_url": "https://zh.wikipedia.org/wiki/%E6%9C%88%E7%90%83",
       "evidence": "月球正以每年约3.8厘米的速度逐渐离开地球。",
       "created_at": "2026-07-12",
-      "source_type": "人工审核种子"
+      "source_type": "人工审核种子",
+      "topic": "科学",
+      "tags": [
+        "科学",
+        "自然现象",
+        "综合"
+      ]
     },
     {
       "id": "seed-petrichor",
@@ -183,7 +267,13 @@
       "source_url": "https://en.wikipedia.org/wiki/Petrichor",
       "evidence": "Petrichor is the earthy scent produced when rain falls on dry soil.",
       "created_at": "2026-07-12",
-      "source_type": "人工审核种子"
+      "source_type": "人工审核种子",
+      "topic": "生活",
+      "tags": [
+        "生活",
+        "日常知识",
+        "综合"
+      ]
     },
     {
       "id": "seed-banana-berry",
@@ -196,7 +286,15 @@
       "source_url": "https://en.wikipedia.org/wiki/Berry_(botany)",
       "evidence": "Botanically, bananas are berries, while strawberries are aggregate accessory fruits.",
       "created_at": "2026-07-12",
-      "source_type": "人工审核种子"
+      "source_type": "人工审核种子",
+      "topic": "动物与演化",
+      "tags": [
+        "动物与演化",
+        "生物",
+        "动物行为",
+        "演化",
+        "生命机制"
+      ]
     },
     {
       "id": "seed-shark-tree",
@@ -209,7 +307,15 @@
       "source_url": "https://en.wikipedia.org/wiki/Evolution_of_sharks",
       "evidence": "The earliest evidence of shark-like chondrichthyans dates to more than 400 million years ago.",
       "created_at": "2026-07-12",
-      "source_type": "人工审核种子"
+      "source_type": "人工审核种子",
+      "topic": "动物与演化",
+      "tags": [
+        "动物与演化",
+        "生物",
+        "动物行为",
+        "演化",
+        "生命机制"
+      ]
     },
     {
       "id": "seed-ice-float",
@@ -222,7 +328,13 @@
       "source_url": "https://zh.wikipedia.org/wiki/%E5%86%B0",
       "evidence": "冰的密度小于液态水，因此会浮在水面。",
       "created_at": "2026-07-12",
-      "source_type": "人工审核种子"
+      "source_type": "人工审核种子",
+      "topic": "科学",
+      "tags": [
+        "科学",
+        "自然现象",
+        "综合"
+      ]
     },
     {
       "id": "seed-octopus-hearts",
@@ -235,7 +347,15 @@
       "source_url": "https://en.wikipedia.org/wiki/Octopus",
       "evidence": "Octopuses have three hearts; the systemic heart is inactive when the animal is swimming.",
       "created_at": "2026-07-12",
-      "source_type": "人工审核种子"
+      "source_type": "人工审核种子",
+      "topic": "动物与演化",
+      "tags": [
+        "动物与演化",
+        "生物",
+        "动物行为",
+        "演化",
+        "生命机制"
+      ]
     },
     {
       "id": "seed-pencil",
@@ -248,7 +368,15 @@
       "source_url": "https://en.wikipedia.org/wiki/Pencil",
       "evidence": "The core of a pencil is made of graphite mixed with clay, not lead.",
       "created_at": "2026-07-12",
-      "source_type": "人工审核种子"
+      "source_type": "人工审核种子",
+      "topic": "材料",
+      "tags": [
+        "材料",
+        "物性",
+        "工艺",
+        "生活",
+        "日常知识"
+      ]
     },
     {
       "id": "seed-airplane-window",
@@ -261,7 +389,15 @@
       "source_url": "https://en.wikipedia.org/wiki/De_Havilland_Comet",
       "evidence": "Stress concentration around square window corners contributed to metal fatigue.",
       "created_at": "2026-07-12",
-      "source_type": "人工审核种子"
+      "source_type": "人工审核种子",
+      "topic": "工程安全",
+      "tags": [
+        "工程安全",
+        "工程",
+        "结构安全",
+        "设计细节",
+        "科技"
+      ]
     },
     {
       "id": "seed-qr-error",
@@ -274,7 +410,14 @@
       "source_url": "https://en.wikipedia.org/wiki/QR_code",
       "evidence": "QR codes use Reed–Solomon error correction.",
       "created_at": "2026-07-12",
-      "source_type": "人工审核种子"
+      "source_type": "人工审核种子",
+      "topic": "工程",
+      "tags": [
+        "工程",
+        "检测技术",
+        "信息技术",
+        "科技"
+      ]
     },
     {
       "id": "seed-greek-color",
@@ -287,7 +430,16 @@
       "source_url": "https://www.metmuseum.org/perspectives/articles/2022/7/chroma-ancient-sculpture-in-color",
       "evidence": "Ancient Greek and Roman sculpture was often brightly painted.",
       "created_at": "2026-07-12",
-      "source_type": "人工审核种子"
+      "source_type": "人工审核种子",
+      "topic": "艺术设计",
+      "tags": [
+        "艺术设计",
+        "艺术",
+        "设计",
+        "视觉文化",
+        "语言",
+        "命名"
+      ]
     },
     {
       "id": "seed-ultramarine",
@@ -300,7 +452,15 @@
       "source_url": "https://en.wikipedia.org/wiki/Ultramarine",
       "evidence": "Natural ultramarine made from lapis lazuli was once more expensive than gold.",
       "created_at": "2026-07-12",
-      "source_type": "人工审核种子"
+      "source_type": "人工审核种子",
+      "topic": "材料",
+      "tags": [
+        "材料",
+        "物性",
+        "工艺",
+        "艺术",
+        "设计"
+      ]
     },
     {
       "id": "seed-byzantine",
@@ -313,7 +473,16 @@
       "source_url": "https://en.wikipedia.org/wiki/Byzantine_Empire",
       "evidence": "The citizens of the empire continued to identify as Romans.",
       "created_at": "2026-07-12",
-      "source_type": "人工审核种子"
+      "source_type": "人工审核种子",
+      "topic": "历史",
+      "tags": [
+        "历史",
+        "时间线",
+        "历史事件",
+        "语言",
+        "命名",
+        "文化"
+      ]
     },
     {
       "id": "seed-oxford-aztec",
@@ -326,7 +495,13 @@
       "source_url": "https://en.wikipedia.org/wiki/University_of_Oxford",
       "evidence": "Teaching existed at Oxford in some form by 1096.",
       "created_at": "2026-07-12",
-      "source_type": "人工审核种子"
+      "source_type": "人工审核种子",
+      "topic": "历史",
+      "tags": [
+        "历史",
+        "时间线",
+        "历史事件"
+      ]
     },
     {
       "id": "seed-spicy",
@@ -339,7 +514,14 @@
       "source_url": "https://en.wikipedia.org/wiki/Capsaicin",
       "evidence": "Capsaicin activates the TRPV1 receptor, producing a sensation of burning.",
       "created_at": "2026-07-12",
-      "source_type": "人工审核种子"
+      "source_type": "人工审核种子",
+      "topic": "感官",
+      "tags": [
+        "感官",
+        "生活",
+        "身体机制",
+        "日常知识"
+      ]
     },
     {
       "id": "seed-venus-day",
@@ -352,7 +534,16 @@
       "source_url": "https://science.nasa.gov/venus/facts/",
       "evidence": "A day on Venus is longer than a year on Venus.",
       "created_at": "2026-07-12",
-      "source_type": "人工审核种子"
+      "source_type": "人工审核种子",
+      "topic": "天文",
+      "tags": [
+        "天文",
+        "引力",
+        "宇宙",
+        "观测",
+        "科学",
+        "自然现象"
+      ]
     },
     {
       "id": "seed-eiffel",
@@ -365,7 +556,15 @@
       "source_url": "https://www.toureiffel.paris/en/news/130-years/how-tall-eiffel-tower",
       "evidence": "Thermal expansion can make the Eiffel Tower grow several centimeters.",
       "created_at": "2026-07-12",
-      "source_type": "人工审核种子"
+      "source_type": "人工审核种子",
+      "topic": "工程安全",
+      "tags": [
+        "工程安全",
+        "工程",
+        "结构安全",
+        "设计细节",
+        "科技"
+      ]
     },
     {
       "id": "seed-glass",
@@ -378,7 +577,14 @@
       "source_url": "https://en.wikipedia.org/wiki/Glass",
       "evidence": "Glass is an amorphous solid, not a slow-moving liquid.",
       "created_at": "2026-07-12",
-      "source_type": "人工审核种子"
+      "source_type": "人工审核种子",
+      "topic": "自然现象",
+      "tags": [
+        "自然现象",
+        "物理机制",
+        "日常科学",
+        "科学"
+      ]
     },
     {
       "id": "seed-wombat",
@@ -391,7 +597,15 @@
       "source_url": "https://news.gatech.edu/news/2021/01/27/how-do-wombats-make-cube-shaped-poop",
       "evidence": "Differences in the elasticity of the intestine help form cube-shaped feces.",
       "created_at": "2026-07-12",
-      "source_type": "人工审核种子"
+      "source_type": "人工审核种子",
+      "topic": "动物与演化",
+      "tags": [
+        "动物与演化",
+        "生物",
+        "动物行为",
+        "演化",
+        "生命机制"
+      ]
     }
   ]
 }

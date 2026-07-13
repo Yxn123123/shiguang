@@ -9,6 +9,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
+from scripts import backfill_card_tags
 from scripts import generate_cards as cards
 
 
@@ -28,6 +29,29 @@ class CandidatePipelineTests(unittest.TestCase):
         )
 
         self.assertTrue(cards.candidate_is_low_information(candidate))
+
+    def test_semantic_fields_normalize_topic_and_tags(self) -> None:
+        topic, tags = cards.semantic_fields(" 天文 ", ["引力", "观测", "引力", "很长的标签名称会被截断"], "科学")
+
+        self.assertEqual(topic, "天文")
+        self.assertEqual(tags[:3], ["天文", "引力", "观测"])
+        self.assertLessEqual(len(tags), 6)
+
+    def test_backfill_card_tags_uses_source_semantics(self) -> None:
+        card = {
+            "title": "A ring made by gravity",
+            "lead": "Light bends around a massive object.",
+            "explanation": "Einstein ring and gravitational lensing.",
+            "category": "科学",
+            "source_name": "English Wikipedia: Einstein ring",
+            "source_url": "https://en.wikipedia.org/wiki/Einstein_ring",
+        }
+
+        topic, tags = backfill_card_tags.stable_tags(card)
+
+        self.assertEqual(topic, "天文")
+        self.assertIn("引力", tags)
+        self.assertIn("科学", tags)
 
     def test_merge_candidates_deduplicates_and_filters(self) -> None:
         pool = {"version": 1, "candidates": []}

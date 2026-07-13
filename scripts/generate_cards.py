@@ -97,6 +97,8 @@ class Proposal(BaseModel):
     explanation: str = Field(description="解释原因或背景")
     angle: str = Field(description="换个角度的一句话")
     category: str
+    topic: str = Field(description="A stable, concise Chinese topic such as ??, ??, ??, ???, or ??")
+    tags: list[str] = Field(description="3-6 stable Chinese semantic tags, not sentences")
     evidence: str = Field(description="从候选原文中原样摘取的短依据")
     why_interesting: str
     confidence: int = Field(ge=0, le=100)
@@ -115,6 +117,8 @@ class ReviewItem(BaseModel):
     explanation: str
     angle: str
     category: str
+    topic: str
+    tags: list[str]
     evidence: str
     quality_score: int = Field(ge=0, le=100)
 
@@ -138,6 +142,34 @@ def normalize_space(text: str) -> str:
 def canonical_text(text: str) -> str:
     text = unicodedata.normalize("NFKC", text or "").lower()
     return "".join(char for char in text if char.isalnum())
+
+
+def normalize_semantic_label(value: str) -> str:
+    value = normalize_space(unicodedata.normalize("NFKC", value or ""))
+    value = re.sub(r"[，,、;；|/]+", " ", value)
+    value = normalize_space(value)
+    return value[:12]
+
+
+def semantic_fields(topic: str, tags: list[str], category: str) -> tuple[str, list[str]]:
+    topic_value = normalize_semantic_label(topic) or normalize_semantic_label(category) or "综合"
+    result: list[str] = []
+    seen: set[str] = set()
+    for raw in [topic_value, *tags, category]:
+        label = normalize_semantic_label(str(raw))
+        key = canonical_text(label)
+        if not label or not key or key in seen:
+            continue
+        seen.add(key)
+        result.append(label)
+        if len(result) >= 6:
+            break
+    while len(result) < 3:
+        fallback = topic_value if topic_value not in result else "综合"
+        if fallback in result:
+            break
+        result.append(fallback)
+    return topic_value, result[:6]
 
 
 def batch(items: list, size: int) -> Iterable[list]:
@@ -881,6 +913,18 @@ REVIEW_INSTRUCTIONS = """
 """.strip()
 
 
+SEMANTIC_FIELD_INSTRUCTIONS = """
+Also output semantic metadata for recommendation:
+- topic: one stable Chinese topic, 2-6 characters when possible.
+- tags: 3-6 stable Chinese tags. Prefer domain concepts such as 天文, 引力, 材料, 工程, 语言, 古代史, 设计, 动物行为.
+- Do not use full sentences, dates, vague tags, or the card title as tags.
+- Keep category compatible with the existing category list; topic and tags are optional-compatible fields for cards.json.
+""".strip()
+
+EXTRACTION_INSTRUCTIONS = f"{EXTRACTION_INSTRUCTIONS}\n\n{SEMANTIC_FIELD_INSTRUCTIONS}"
+REVIEW_INSTRUCTIONS = f"{REVIEW_INSTRUCTIONS}\n\n{SEMANTIC_FIELD_INSTRUCTIONS}"
+
+
 def compact_candidate(candidate: Candidate) -> dict:
     return {
         "source_id": candidate.source_id,
@@ -1031,6 +1075,7 @@ def build_new_cards(
             reasons[item.source_id] = "与已有标题过于相似"
         else:
             digest = hashlib.sha256(f"{title}|{candidate.source_url}".encode("utf-8")).hexdigest()[:16]
+            topic, tags = semantic_fields(item.topic, item.tags, item.category)
             new_cards.append(
                 {
                     "id": f"auto-{digest}",
@@ -1040,6 +1085,8 @@ def build_new_cards(
                     "explanation": normalize_space(item.explanation),
                     "angle": normalize_space(item.angle),
                     "category": item.category,
+                    "topic": topic,
+                    "tags": tags,
                     "source_name": candidate.source_name,
                     "source_url": candidate.source_url,
                     "evidence": normalize_space(item.evidence),

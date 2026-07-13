@@ -30,6 +30,39 @@ class CandidatePipelineTests(unittest.TestCase):
 
         self.assertTrue(cards.candidate_is_low_information(candidate))
 
+    def test_candidate_prefilter_rejects_low_value_pages(self) -> None:
+        biography = cards.Candidate(
+            source_id="wiki-random:en:bio",
+            source_name="Wikipedia",
+            source_url="https://example.test/bio",
+            title="Jane Example",
+            excerpt=("Jane Example was born in 1960. She is an American politician and former mayor. " * 4),
+            category_hint="综合",
+            source_rank=4,
+        )
+        list_page = cards.Candidate(
+            source_id="wiki-topic:en:list",
+            source_name="Wikipedia",
+            source_url="https://example.test/list",
+            title="List of optical phenomena",
+            excerpt="A" * 220,
+            category_hint="科学",
+            source_rank=2,
+        )
+        mechanism = cards.Candidate(
+            source_id="wiki-topic:en:good",
+            source_name="Wikipedia",
+            source_url="https://example.test/good",
+            title="Convection",
+            excerpt="Convection happens because warmer, less dense fluid rises while cooler fluid sinks." * 4,
+            category_hint="科学",
+            source_rank=2,
+        )
+
+        self.assertEqual(cards.candidate_rejection_reason(biography), "biography")
+        self.assertEqual(cards.candidate_rejection_reason(list_page), "weak_title")
+        self.assertIsNone(cards.candidate_rejection_reason(mechanism))
+
     def test_semantic_fields_normalize_topic_and_tags(self) -> None:
         topic, tags = cards.semantic_fields(" 天文 ", ["引力", "观测", "引力", "很长的标签名称会被截断"], "科学")
 
@@ -102,6 +135,75 @@ class CandidatePipelineTests(unittest.TestCase):
         self.assertEqual(counts["already_published"], 1)
         self.assertEqual(counts["already_in_pool"], 1)
         self.assertEqual(counts["low_information"], 1)
+
+    def test_select_pool_batch_prefers_balanced_explicit_topics(self) -> None:
+        def record(source_id: str, category: str, rank: int = 2) -> dict:
+            candidate = cards.Candidate(
+                source_id=source_id,
+                source_name="Wikipedia",
+                source_url=f"https://example.test/{source_id}",
+                title=f"Topic {source_id}",
+                excerpt="This phenomenon happens because a mechanism creates a surprising effect. " * 4,
+                category_hint=category,
+                source_rank=rank,
+            )
+            return cards.candidate_to_record(candidate)
+
+        pool = {
+            "version": 1,
+            "candidates": [
+                *[record(f"wiki-random:en:{index}", "综合", 4) for index in range(12)],
+                record("wiki-topic:en:science", "科学"),
+                record("wiki-topic:en:bio", "生物"),
+                record("wiki-topic:en:life", "生活"),
+                record("wiki-topic:en:art", "艺术"),
+            ],
+        }
+
+        selected, selected_ids, counts = cards.select_pool_batch(pool, [], {"seen": {}}, 7)
+
+        selected_categories = {candidate.category_hint for candidate in selected}
+        self.assertIn("科学", selected_categories)
+        self.assertIn("生物", selected_categories)
+        self.assertIn("生活", selected_categories)
+        self.assertIn("艺术", selected_categories)
+        self.assertGreaterEqual(counts["explicit_topic_selected"], 4)
+        self.assertEqual(len(selected_ids), len(set(selected_ids)))
+
+    def test_semantic_duplicate_detects_same_topic_overlap(self) -> None:
+        existing = [
+            {
+                "title": "冰为什么能浮在水面",
+                "lead": "冰比液态水更疏松。",
+                "category": "科学",
+                "topic": "自然现象",
+                "tags": ["水", "密度", "日常科学"],
+            }
+        ]
+        candidate = {
+            "title": "冰会浮起来是因为密度更低",
+            "lead": "冰的结构让它比水密度低。",
+            "category": "科学",
+            "topic": "自然现象",
+            "tags": ["水", "密度", "日常科学"],
+        }
+
+        self.assertTrue(cards.semantically_similar_to_existing(candidate, existing))
+
+    def test_quality_summary_reports_distribution_and_rates(self) -> None:
+        summary = cards.quality_summary(
+            existing_cards=[{"category": "科学"}, {"category": "历史"}],
+            new_cards=[{"category": "艺术"}, {"category": "艺术"}],
+            source_stats={"维基主题分类": {"processed": 4, "accepted": 2}},
+            final_filter_counts={"evidence_mismatch": 1},
+            processed_total=5,
+            reviewed_total=4,
+        )
+
+        self.assertEqual(summary["category_distribution"]["艺术"], 2)
+        self.assertEqual(summary["source_pass_rates"]["维基主题分类"]["pass_rate"], 50.0)
+        self.assertEqual(summary["review_pass_rate"], 50.0)
+        self.assertEqual(summary["evidence_mismatch"], 1)
 
     def test_save_harvest_status_preserves_last_run(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:

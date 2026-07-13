@@ -49,6 +49,7 @@ PIPELINE_MODE = os.getenv("PIPELINE_MODE", "generate").strip() or "generate"
 TARGET_NEW_CARDS_ENV = os.getenv("TARGET_NEW_CARDS", "").strip()
 MAX_CANDIDATES_PER_ROUND = int(os.getenv("MAX_CANDIDATES_PER_ROUND", "24"))
 MAX_PROCESS_ROUNDS = int(os.getenv("MAX_PROCESS_ROUNDS", "3"))
+MAX_TARGET_NEW_CARDS = int(os.getenv("MAX_TARGET_NEW_CARDS", "40"))
 MAX_POOL_SIZE = int(os.getenv("MAX_POOL_SIZE", "1000"))
 MAX_CARDS_STORED = int(os.getenv("MAX_CARDS_STORED", "2000"))
 HARVEST_TARGET_PENDING = int(os.getenv("HARVEST_TARGET_PENDING", "500"))
@@ -68,6 +69,15 @@ SESSION = requests.Session()
 SESSION.headers.update({"User-Agent": USER_AGENT})
 
 CATEGORIES = ["生物", "科学", "历史", "艺术", "科技", "生活", "综合"]
+CATEGORY_BATCH_RATIOS = {
+    "科学": 0.20,
+    "生物": 0.15,
+    "生活": 0.15,
+    "科技": 0.15,
+    "历史": 0.15,
+    "艺术": 0.10,
+    "综合": 0.10,
+}
 MIN_REVIEW_SCORE = 78
 USAGE = {"input_tokens": 0, "output_tokens": 0}
 HARVEST_DIAGNOSTICS: dict = {
@@ -723,14 +733,63 @@ def fetch_candidates(harvest_pass: int = 0) -> list[Candidate]:
     return list({item.source_id: item for item in collected}.values())
 
 
-def candidate_is_low_information(candidate: Candidate) -> bool:
+def candidate_rejection_reason(candidate: Candidate) -> str | None:
     text = normalize_space(candidate.excerpt)
+    title = normalize_space(candidate.title)
+    lowered_title = title.lower()
+    lowered_text = text.lower()
     if candidate.source_id.startswith("met:"):
-        return True
+        return "museum_catalog_metadata"
     if len(text) < 120:
-        return True
-    weak_labels = ("born ", "died ", "politician", "出生于", "逝世于", "是一名政治人物")
-    return sum(label.lower() in text.lower() for label in weak_labels) >= 2 and candidate.source_rank >= 3
+        return "too_short"
+    if random_title_is_weak(title):
+        return "weak_title"
+    if re.fullmatch(r"\d{3,4}", title):
+        return "year_page"
+    if lowered_title.startswith(("list of ", "outline of ", "index of ", "timeline of ", "glossary of ")):
+        return "list_page"
+
+    biography_markers = (
+        "born ", "died ", "was born", "is an american", "is a british", "is a chinese",
+        "politician", "footballer", "actor", "actress", "singer", "出生于", "逝世于",
+        "是一名", "政治人物", "演员", "歌手", "足球运动员",
+    )
+    if candidate.source_rank >= 3 and sum(marker in lowered_text for marker in biography_markers) >= 2:
+        return "biography"
+
+    institution_markers = (
+        " is a public research university", " is a private university", " is a company",
+        " is an organization", " is a non-profit", "是一所", "是一家", "是一个组织",
+    )
+    if candidate.source_rank >= 3 and any(marker in lowered_text for marker in institution_markers):
+        return "institution_profile"
+
+    quality_markers = (
+        "because", "caused by", "causes", "effect", "phenomenon", "mechanism", "process",
+        "discovered", "experiment", "results from", "is used to", "allows", "prevents",
+        "形成", "导致", "因为", "原因", "机制", "现象", "过程", "实验", "发现", "用于", "可以",
+    )
+    definition_markers = (" refers to ", " is a type of ", " is the term ", " is defined as ", "指的是", "定义为")
+    if (
+        candidate.source_rank >= 4
+        and candidate.category_hint == "综合"
+        and any(marker in lowered_text for marker in definition_markers)
+        and not any(marker in lowered_text for marker in quality_markers)
+    ):
+        return "definition_only"
+
+    if (
+        candidate.source_id.startswith("wiki-random:")
+        and candidate.category_hint == "综合"
+        and not any(marker in lowered_text for marker in quality_markers)
+    ):
+        return "random_without_knowledge_hook"
+
+    return None
+
+
+def candidate_is_low_information(candidate: Candidate) -> bool:
+    return candidate_rejection_reason(candidate) is not None
 
 
 def candidate_to_record(candidate: Candidate) -> dict:
@@ -774,6 +833,10 @@ def merge_counts(target: dict[str, int], source: dict[str, int]) -> None:
         target[key] = target.get(key, 0) + int(value)
 
 
+def increment_count(target: dict[str, int], key: str) -> None:
+    target[key] = target.get(key, 0) + 1
+
+
 def merge_candidates_into_pool(
     pool_payload: dict,
     fetched: list[Candidate],
@@ -799,14 +862,17 @@ def merge_candidates_into_pool(
             counts["already_published"] += 1
         elif seen_recently(candidate.source_id, state):
             counts["seen_recently"] += 1
-        elif candidate_is_low_information(candidate):
-            counts["low_information"] += 1
         elif len(records) >= MAX_POOL_SIZE:
             counts["pool_limit"] += 1
         else:
-            records.append(candidate_to_record(candidate))
-            pool_ids.add(candidate.source_id)
-            added += 1
+            rejection_reason = candidate_rejection_reason(candidate)
+            if rejection_reason:
+                counts["low_information"] += 1
+                increment_count(counts, f"prefilter_{rejection_reason}")
+            else:
+                records.append(candidate_to_record(candidate))
+                pool_ids.add(candidate.source_id)
+                added += 1
     records.sort(key=lambda record: (int(record.get("source_rank", 9)), str(record.get("added_at", ""))))
     pool_payload["candidates"] = records[:MAX_POOL_SIZE]
     return added, counts
@@ -857,6 +923,35 @@ def harvest_until_reserve(pool_payload: dict, cards: list[dict], state: dict) ->
     return total_fetched, total_added, combined_counts, passes_used, source_counts
 
 
+def normalized_category(value: str) -> str:
+    return value if value in CATEGORIES else "综合"
+
+
+def candidate_has_explicit_topic(candidate: Candidate) -> bool:
+    return candidate.source_rank <= 2 or (
+        candidate.source_id.startswith(("wiki-topic:", "nasa-apod:", "onthisday:"))
+        and normalized_category(candidate.category_hint) != "综合"
+    )
+
+
+def candidate_selection_key(candidate: Candidate) -> tuple[float, float]:
+    random_penalty = 1.5 if candidate.source_id.startswith("wiki-random:") else 0.0
+    vague_penalty = 1.0 if normalized_category(candidate.category_hint) == "综合" else 0.0
+    explicit_bonus = -1.2 if candidate_has_explicit_topic(candidate) else 0.0
+    return (candidate.source_rank + random_penalty + vague_penalty + explicit_bonus, random.random())
+
+
+def batch_category_targets(limit: int) -> dict[str, int]:
+    targets = {
+        category: max(1, int(round(limit * ratio)))
+        for category, ratio in CATEGORY_BATCH_RATIOS.items()
+    }
+    while sum(targets.values()) > limit:
+        category = max(targets, key=lambda key: targets[key])
+        targets[category] -= 1
+    return targets
+
+
 def select_pool_batch(
     pool_payload: dict,
     cards: list[dict],
@@ -865,10 +960,15 @@ def select_pool_batch(
 ) -> tuple[list[Candidate], list[str], dict[str, int]]:
     records = pool_payload.get("candidates", [])
     existing_urls = {normalize_space(card.get("source_url", "")) for card in cards if card.get("source_url")}
-    selected: list[Candidate] = []
+    existing_category_counts: dict[str, int] = {}
+    for card in cards:
+        category = normalized_category(str(card.get("category", "综合")))
+        existing_category_counts[category] = existing_category_counts.get(category, 0) + 1
+
+    selected_by_id: dict[str, Candidate] = {}
     selected_ids: list[str] = []
+    eligible: list[Candidate] = []
     counts = {"invalid_record": 0, "duplicate_source": 0, "seen_recently": 0, "low_information": 0}
-    records.sort(key=lambda record: (int(record.get("source_rank", 9)), random.random()))
     for record in records:
         candidate = candidate_from_record(record)
         if not candidate:
@@ -877,13 +977,42 @@ def select_pool_batch(
             counts["duplicate_source"] += 1
         elif seen_recently(candidate.source_id, state):
             counts["seen_recently"] += 1
-        elif candidate_is_low_information(candidate):
-            counts["low_information"] += 1
         else:
-            selected.append(candidate)
-            selected_ids.append(candidate.source_id)
-            if len(selected) >= limit:
-                break
+            rejection_reason = candidate_rejection_reason(candidate)
+            if rejection_reason:
+                counts["low_information"] += 1
+                increment_count(counts, f"prefilter_{rejection_reason}")
+            else:
+                eligible.append(candidate)
+
+    eligible.sort(key=candidate_selection_key)
+    targets = batch_category_targets(limit)
+
+    def add_candidate(candidate: Candidate) -> bool:
+        if len(selected_by_id) >= limit or candidate.source_id in selected_by_id:
+            return False
+        selected_by_id[candidate.source_id] = candidate
+        selected_ids.append(candidate.source_id)
+        return True
+
+    for category in sorted(CATEGORIES, key=lambda item: (existing_category_counts.get(item, 0), item)):
+        target = targets.get(category, 1)
+        category_candidates = [
+            candidate
+            for candidate in eligible
+            if normalized_category(candidate.category_hint) == category
+        ]
+        for candidate in category_candidates[:target]:
+            add_candidate(candidate)
+
+    for candidate in eligible:
+        if len(selected_by_id) >= limit:
+            break
+        add_candidate(candidate)
+
+    selected = [selected_by_id[source_id] for source_id in selected_ids]
+    counts["explicit_topic_selected"] = sum(1 for candidate in selected if candidate_has_explicit_topic(candidate))
+    counts["random_selected"] = sum(1 for candidate in selected if candidate.source_id.startswith("wiki-random:"))
     return selected, selected_ids, counts
 
 
@@ -901,6 +1030,9 @@ EXTRACTION_INSTRUCTIONS = """
 优先保留反直觉的时间关系、日常现象背后的原因、设计细节、语言与历史误区、生物和材料机制。
 拒绝纯人物生平、职位定义、国家概况、军舰参数、普通日期罗列和宽泛主题介绍。
 标题8到36个汉字，直接呈现具体事实或自然问题。分类只能是：生物、科学、历史、艺术、科技、生活、综合。
+标题要像一个有吸引力的问题或反直觉事实，不要写成百科词条名、简介或“是什么”。
+lead 只写一个核心事实；explanation 用简洁语言解释机制、原因或关键背景；angle 必须提供额外启发，不要复述 lead。
+如果材料只能支持“某人/机构/地点/作品是什么”，不要生成卡片。
 evidence 必须逐字复制候选材料中的一句或一段，不能翻译、改写或补标点，最多100字。
 """.strip()
 
@@ -909,6 +1041,8 @@ REVIEW_INSTRUCTIONS = """
 你是“拾光”的内容主编。审核时只依据候选来源，不要为了显得严格而一律拒绝。
 硬性拒绝：核心事实无法由来源支持；只是人物、机构、职位或国家简介；标题和正文说的不是同一件事；
 宽泛空话或模板化标题；evidence 不是来源中的原文。
+硬性拒绝百科摘要型卡片：只是在介绍一个概念、组织、人物、作品或地点，没有解释机制、反直觉事实、设计细节、历史趣闻或日常洞察。
+标题应有问题感或反直觉；lead 要直接给核心事实；explanation 要短而清楚；angle 要提供另一个看法或启发。
 可以在不增加事实的前提下修改标题、lead、解释和角度。质量达到78分且没有硬性问题，应 approved=true。
 """.strip()
 
@@ -981,13 +1115,47 @@ def similar_to_existing(title: str, existing_titles: list[str]) -> bool:
     return any(SequenceMatcher(None, target, normalized(other)).ratio() >= 0.80 for other in existing_titles)
 
 
+def semantic_dedupe_text(value: dict | Proposal | ReviewItem) -> str:
+    if isinstance(value, dict):
+        parts = [
+            value.get("title", ""),
+            value.get("lead", ""),
+            value.get("topic", ""),
+            " ".join(value.get("tags", []) if isinstance(value.get("tags"), list) else []),
+        ]
+    else:
+        parts = [value.title, getattr(value, "lead", ""), getattr(value, "topic", ""), " ".join(getattr(value, "tags", []) or [])]
+    return normalized(" ".join(str(part) for part in parts))
+
+
+def semantically_similar_to_existing(value: Proposal | ReviewItem | dict, existing_cards: list[dict]) -> bool:
+    target = semantic_dedupe_text(value)
+    if len(target) < 12:
+        return False
+    target_topic = getattr(value, "topic", None) if not isinstance(value, dict) else value.get("topic")
+    target_category = getattr(value, "category", None) if not isinstance(value, dict) else value.get("category")
+    target_tags = set(getattr(value, "tags", []) if not isinstance(value, dict) else value.get("tags", []) or [])
+    for card in existing_cards:
+        if target_topic and card.get("topic") and target_topic != card.get("topic"):
+            continue
+        if not target_topic and target_category and card.get("category") and target_category != card.get("category"):
+            continue
+        existing_tags = set(card.get("tags", []) if isinstance(card.get("tags"), list) else [])
+        if target_topic and target_tags and existing_tags and len(target_tags & existing_tags) >= min(3, len(target_tags)):
+            return True
+        other = semantic_dedupe_text(card)
+        if other and SequenceMatcher(None, target, other).ratio() >= 0.76:
+            return True
+    return False
+
+
 def prequalify_proposals(
     proposals: list[Proposal],
     candidate_map: dict[str, Candidate],
     existing_cards: list[dict],
 ) -> tuple[list[Proposal], dict[str, int]]:
     existing_titles = [card.get("title", "") for card in existing_cards]
-    counts = {"low_confidence": 0, "missing_candidate": 0, "bad_title": 0, "bad_category": 0, "similar_title": 0}
+    counts = {"low_confidence": 0, "missing_candidate": 0, "bad_title": 0, "bad_category": 0, "similar_title": 0, "semantic_duplicate": 0}
     accepted: list[Proposal] = []
     for proposal in proposals:
         title = normalize_space(proposal.title)
@@ -1001,6 +1169,8 @@ def prequalify_proposals(
             counts["bad_category"] += 1
         elif similar_to_existing(title, existing_titles):
             counts["similar_title"] += 1
+        elif semantically_similar_to_existing(proposal, existing_cards):
+            counts["semantic_duplicate"] += 1
         else:
             accepted.append(proposal)
     return accepted, counts
@@ -1044,7 +1214,7 @@ def build_new_cards(
 ) -> tuple[list[dict], dict[str, int], dict[str, str]]:
     existing_titles = [item.get("title", "") for item in existing_cards]
     existing_urls = {item.get("source_url", "") for item in existing_cards if item.get("source_url")}
-    counts = {"model_rejected": 0, "score_below_78": 0, "bad_title": 0, "bad_category": 0, "evidence_mismatch": 0, "duplicate_source": 0, "similar_title": 0}
+    counts = {"model_rejected": 0, "score_below_78": 0, "bad_title": 0, "bad_category": 0, "evidence_mismatch": 0, "duplicate_source": 0, "similar_title": 0, "semantic_duplicate": 0}
     reasons: dict[str, str] = {}
     new_cards: list[dict] = []
     for item in sorted(reviews, key=lambda value: value.quality_score, reverse=True):
@@ -1073,6 +1243,9 @@ def build_new_cards(
         elif similar_to_existing(title, existing_titles):
             counts["similar_title"] += 1
             reasons[item.source_id] = "与已有标题过于相似"
+        elif semantically_similar_to_existing(item, existing_cards + new_cards):
+            counts["semantic_duplicate"] += 1
+            reasons[item.source_id] = "与已有知识语义过近"
         else:
             digest = hashlib.sha256(f"{title}|{candidate.source_url}".encode("utf-8")).hexdigest()[:16]
             topic, tags = semantic_fields(item.topic, item.tags, item.category)
@@ -1103,6 +1276,49 @@ def build_new_cards(
     return new_cards, counts, reasons
 
 
+def count_by_field(items: list[dict], field: str) -> dict[str, int]:
+    counts: dict[str, int] = {}
+    for item in items:
+        key = normalize_space(str(item.get(field, "") or "unknown"))
+        counts[key] = counts.get(key, 0) + 1
+    return dict(sorted(counts.items(), key=lambda pair: (-pair[1], pair[0])))
+
+
+def source_pass_rates(source_stats: dict[str, dict[str, int]]) -> dict[str, dict[str, float | int]]:
+    result: dict[str, dict[str, float | int]] = {}
+    for source, stats in source_stats.items():
+        processed = int(stats.get("processed", 0))
+        accepted = int(stats.get("accepted", 0))
+        result[source] = {
+            "processed": processed,
+            "accepted": accepted,
+            "pass_rate": round(accepted / processed * 100, 1) if processed else 0,
+        }
+    return result
+
+
+def quality_summary(
+    *,
+    existing_cards: list[dict],
+    new_cards: list[dict],
+    source_stats: dict[str, dict[str, int]],
+    final_filter_counts: dict[str, int],
+    processed_total: int,
+    reviewed_total: int,
+) -> dict:
+    evidence_mismatch = int(final_filter_counts.get("evidence_mismatch", 0))
+    all_cards = new_cards + existing_cards
+    return {
+        "category_distribution": count_by_field(all_cards, "category"),
+        "new_category_distribution": count_by_field(new_cards, "category"),
+        "source_pass_rates": source_pass_rates(source_stats),
+        "review_pass_rate": round(len(new_cards) / reviewed_total * 100, 1) if reviewed_total else 0,
+        "processed_pass_rate": round(len(new_cards) / processed_total * 100, 1) if processed_total else 0,
+        "evidence_mismatch": evidence_mismatch,
+        "evidence_mismatch_rate": round(evidence_mismatch / reviewed_total * 100, 1) if reviewed_total else 0,
+    }
+
+
 def print_counts(label: str, counts: dict[str, int]) -> None:
     useful = ", ".join(f"{key}={value}" for key, value in counts.items() if value)
     print(f"[filter:{label}] {useful or 'none'}")
@@ -1111,7 +1327,7 @@ def print_counts(label: str, counts: dict[str, int]) -> None:
 def resolved_target_new_cards() -> int:
     if TARGET_NEW_CARDS_ENV:
         try:
-            return max(1, min(40, int(TARGET_NEW_CARDS_ENV)))
+            return max(1, min(MAX_TARGET_NEW_CARDS, int(TARGET_NEW_CARDS_ENV)))
         except ValueError:
             pass
     return 12 if RUN_SOURCE in {"web", "manual", "workflow_dispatch"} else 5
@@ -1226,6 +1442,14 @@ def run_generate(started_at: datetime, cards_payload: dict, pool_payload: dict, 
             "message": f"候选池只有 {pending_now} 条，低于 {MIN_CANDIDATES_TO_GENERATE} 条；本次未调用AI",
             "filters": {"before_ai": {}, "before_review": {}, "final": {}},
             "source_stats": {},
+            "quality": quality_summary(
+                existing_cards=existing_cards,
+                new_cards=[],
+                source_stats={},
+                final_filter_counts={},
+                processed_total=0,
+                reviewed_total=0,
+            ),
         }
         save_candidate_pool(pool_payload)
         save_state(state)
@@ -1295,6 +1519,14 @@ def run_generate(started_at: datetime, cards_payload: dict, pool_payload: dict, 
     save_state(state)
     duration_seconds = round((utc_now() - started_at).total_seconds(), 2)
     pass_rate = round(len(all_new_cards) / processed_total * 100, 1) if processed_total else 0
+    quality = quality_summary(
+        existing_cards=existing_cards,
+        new_cards=all_new_cards,
+        source_stats=source_stats,
+        final_filter_counts=final_filter_counts,
+        processed_total=processed_total,
+        reviewed_total=reviewed_total,
+    )
     run_stats = {
         "github_run_id": os.getenv("GITHUB_RUN_ID", ""),
         "source": RUN_SOURCE,
@@ -1314,6 +1546,7 @@ def run_generate(started_at: datetime, cards_payload: dict, pool_payload: dict, 
         "output_tokens": USAGE["output_tokens"],
         "filters": {"before_ai": before_ai_counts, "before_review": before_review_counts, "final": final_filter_counts},
         "source_stats": source_stats,
+        "quality": quality,
     }
     save_pool_status(cards_count=len(cards_payload.get("cards", existing_cards)), pending_count=len(pool_payload.get("candidates", [])), run_stats=run_stats)
     print(f"[pipeline] added {len(all_new_cards)} cards; pending={len(pool_payload.get('candidates', []))}")

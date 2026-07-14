@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-13T20:50:53.918323Z",
+  "updated_at": "2026-07-14T20:48:13.488952Z",
   "candidates": [
     {
       "source_id": "nasa-apod:2006-09-11",
@@ -2193,6 +2193,336 @@
       "added_at": "2026-07-13T20:44:59.351202Z"
     },
     {
+      "source_id": "wiki-topic:en:206243",
+      "source_name": "EN Wikipedia：Biocoenosis",
+      "source_url": "https://en.wikipedia.org/wiki/Biocoenosis",
+      "title": "Biocoenosis",
+      "excerpt": "A biocenosis (UK English, biocoenosis, also biocenose, biocoenose, biotic community, biological community, ecological community, life assemblage), coined by Karl Möbius in 1877, describes the interacting organisms living together in a habitat (biotope). The use of this term has declined in the 21st сentury. In the palaeontological literature, the term distinguishes \"life assemblages\", which reflect the original living community, living together at one place and time. In other words, it is an assemblage of fossils or a community of specific time, which is different from \"death assemblages\" (thanatocoenoses). No palaeontological assemblage will ever completely represent the original biological community (i.e. the biocoenosis, in the sense used by an ecologist); the term thus has somewhat different meanings in a palaeontological and an ecological context. Based on the concept of biocenosis, ecological communities can take various forms: Zoocenosis for the faunal community, Phytocenosis for the flora community, Microbiocenosis for the microbial community. The geographical extent of a biocenose is limited by the requirement of a more or less uniform species composition.",
+      "category_hint": "生物",
+      "source_rank": 2,
+      "added_at": "2026-07-14T20:46:40.124874Z"
+    },
+    {
+      "source_id": "wiki-topic:en:7783",
+      "source_name": "EN Wikipedia：Coriolis force",
+      "source_url": "https://en.wikipedia.org/wiki/Coriolis_force",
+      "title": "Coriolis force",
+      "excerpt": "In physics, the Coriolis force is a pseudo-force that acts on objects in motion within a frame of reference that rotates with respect to an inertial frame. In a reference frame with clockwise rotation, the force acts to the left of the motion of the object. In one with anticlockwise (or counterclockwise) rotation, the force acts to the right. Deflection of an object due to the Coriolis force is called the Coriolis effect. Though recognized previously by others, the mathematical expression for the Coriolis force appeared in an 1835 paper by French scientist Gaspard-Gustave de Coriolis, in connection with the theory of water wheels. Early in the 20th century, the term Coriolis force began to be used in connection with meteorology. On Earth, the Coriolis force will affect the movement of air and water over long distance. Because of Earth's rotation, the moving object does not travel in a straight line relative to the Earth's surface but follows a curved path. This deflection (clockwise in the Northern Hemisphere and counterclockwise in the Southern Hemisphere) significantly influences large-scale circulation of winds and ocean currents. Newton's laws of motion describe the motion of an...",
+      "category_hint": "科学",
+      "source_rank": 2,
+      "added_at": "2026-07-14T20:46:40.125082Z"
+    },
+    {
+      "source_id": "wiki-topic:en:34534118",
+      "source_name": "EN Wikipedia：Behavioral urbanism",
+      "source_url": "https://en.wikipedia.org/wiki/Behavioral_urbanism",
+      "title": "Behavioral urbanism",
+      "excerpt": "Behavioral urbanism and its related area of study, behavioral architecture, is an interdisciplinary field focused on the interaction between humans and the built environment, studying the effects of social, cognitive, and emotional factors in understanding the spatial behavior of individuals.",
+      "category_hint": "生活",
+      "source_rank": 2,
+      "added_at": "2026-07-14T20:46:40.125169Z"
+    },
+    {
+      "source_id": "wiki-topic:en:73664834",
+      "source_name": "EN Wikipedia：Epiphrase",
+      "source_url": "https://en.wikipedia.org/wiki/Epiphrase",
+      "title": "Epiphrase",
+      "excerpt": "An epiphrase (meaning \"what it is said in addition\", from ancient Greek ἐπί/epí \"in addition\" and φράσις/phrásis \"phrase\") is a figure of speech that consists of joining one or more sentence segments to the end of a syntactically completed sentence or group as a conclusion or to emphasize a fact. The epiphrase can be used in two ways. It can indeed be used to add a word to an already finished speech or can allow the author to include a personal comment in their speech. Identifying it can be difficult as it is like other figures such as the epiphonema, the parenthesis, or the hyperbaton. Its stylistic resources can be an idea or word amplification, a feeling or reflection highlighting, and the effect of distance or on the contrary of approaching the reader, with an often comic or humorous intention.",
+      "category_hint": "综合",
+      "source_rank": 2,
+      "added_at": "2026-07-14T20:46:40.125333Z"
+    },
+    {
+      "source_id": "wiki-topic:en:29265347",
+      "source_name": "EN Wikipedia：Food choice",
+      "source_url": "https://en.wikipedia.org/wiki/Food_choice",
+      "title": "Food choice",
+      "excerpt": "Research into food choice investigates how people select the food they eat. An interdisciplinary topic, food choice comprises psychological and sociological aspects (including food politics and phenomena such as vegetarianism or religious dietary laws), economic issues (for instance, how food prices or marketing campaigns influence choice) and sensory aspects (such as the study of the organoleptic qualities of food). Factors that guide food choice include taste preference, sensory attributes, cost, availability, convenience, cognitive restraint, and cultural familiarity. In addition, environmental cues and increased portion sizes play a role in the choice and amount of foods consumed. Food choice is the subject of research in nutrition, food science, food psychology, anthropology, sociology, and other branches of the natural and social sciences. It is of practical interest to the food industry and especially its marketing endeavors. Social scientists have developed different conceptual frameworks of food choice behavior. Theoretical models of behavior incorporate both individual and environmental factors affecting the formation or modification of behaviors. Social cognitive theory examines...",
+      "category_hint": "生活",
+      "source_rank": 2,
+      "added_at": "2026-07-14T20:46:40.125494Z"
+    },
+    {
+      "source_id": "wiki-topic:en:40735",
+      "source_name": "EN Wikipedia：Attenuation",
+      "source_url": "https://en.wikipedia.org/wiki/Attenuation",
+      "title": "Attenuation",
+      "excerpt": "In physics, attenuation – colloquially, damping – is the gradual loss of flux intensity through a medium. For instance, dark glasses attenuate sunlight, lead attenuates X-rays, and water and air attenuate both light and sound at variable attenuation rates. Hearing protectors help reduce acoustic flux from flowing into the ears. This phenomenon is called acoustic attenuation and is measured in decibels (dBs). In electrical engineering and telecommunications, attenuation affects the propagation of waves and signals in electrical circuits, in optical fibers, and in air. Electrical attenuators and optical attenuators are commonly manufactured components in this field.",
+      "category_hint": "科学",
+      "source_rank": 2,
+      "added_at": "2026-07-14T20:46:40.125625Z"
+    },
+    {
+      "source_id": "wiki-topic:en:181592",
+      "source_name": "EN Wikipedia：Competition",
+      "source_url": "https://en.wikipedia.org/wiki/Competition",
+      "title": "Competition",
+      "excerpt": "Competition is a rivalry where two or more parties strive for a common goal which cannot be shared: where one's gain is the other's loss (an example of which is a zero-sum game). Competition can arise between entities such as organisms, individuals, economic and social groups, etc. The rivalry can be over attainment of any exclusive goal, including recognition. Competition occurs in nature, between living organisms which co-exist in the same environment. Animals compete over water supplies, food, mates, and other biological resources. Humans usually compete for food and mates, though when these needs are met deep rivalries often arise over the pursuit of wealth, power, prestige, and fame when in a static, repetitive, or unchanging environment. Competition is a major tenet of market economies and business, often associated with business competition as companies are in competition with at least one other firm over the same group of customers. Competition inside a company is usually stimulated with the larger purpose of meeting and reaching higher quality of services or improved products that the company may produce or develop. Competition is often considered to be the opposite of cooperation...",
+      "category_hint": "生活",
+      "source_rank": 2,
+      "added_at": "2026-07-14T20:46:40.125790Z"
+    },
+    {
+      "source_id": "wiki-topic:en:55819873",
+      "source_name": "EN Wikipedia：Blue flower colouration",
+      "source_url": "https://en.wikipedia.org/wiki/Blue_flower_colouration",
+      "title": "Blue flower colouration",
+      "excerpt": "Blue flowers are rare in nature, and despite many attempts, blue roses, carnations and chrysanthemums in particular cannot not be produced by conventional breeding techniques. Blue colour in flower petals is caused by delphinidin, a type of anthocyanin, which are a class of flavonoids. The presence of delphinidin is not enough to produce blue color on its own; it must be in a alkaline environment, form a complex with flavones and metal ions, or some other mechanism. Blue color has also been produced through breeding with the anthocynanin rosacyanin. Among gardeners and florists, there exists a colloqial concept known as \"true blue\", which pertains to flowers that display a pure blue hue and not a black, deep purple, or lavender that could be mistaken for blue.",
+      "category_hint": "生物",
+      "source_rank": 2,
+      "added_at": "2026-07-14T20:46:40.125905Z"
+    },
+    {
+      "source_id": "wiki-topic:en:52634",
+      "source_name": "EN Wikipedia：Baking",
+      "source_url": "https://en.wikipedia.org/wiki/Baking",
+      "title": "Baking",
+      "excerpt": "Baking is a method of preparing food or clay that uses dry heat, typically in an oven, hot ashes, or on hot stones. The most commonly baked food is bread. Heat is gradually transferred from the surface of unbaked goods to their center, typically at elevated temperatures surpassing 300 °F (148 °C). Dry heat cooking imparts a distinctive richness to foods through the processes of caramelization and surface browning. As heat travels through, it transforms batters and doughs into baked goods and more with a firm dry crust and a softer center. Baking can be combined with grilling to produce a hybrid barbecue variant by using both methods simultaneously, or one after the other. Baking is related to barbecuing because the concept of the masonry oven is similar to that of a smoke pit. Baking has traditionally been performed at home for day-to-day meals and in bakeries and restaurants for local consumption. When production was industrialized, baking was automated by machines in large factories. The art of baking remains a fundamental skill and is important for nutrition, as baked goods, especially bread, are a common and important food, both from an economic and cultural point of view. A person...",
+      "category_hint": "生活",
+      "source_rank": 2,
+      "added_at": "2026-07-14T20:46:40.126109Z"
+    },
+    {
+      "source_id": "wiki-topic:en:1254336",
+      "source_name": "EN Wikipedia：Applied ecology",
+      "source_url": "https://en.wikipedia.org/wiki/Applied_ecology",
+      "title": "Applied ecology",
+      "excerpt": "Applied ecology is a sub-field within ecology that considers the application of the science of ecology to real-world (usually management) questions. It is also described as a scientific field that focuses on the application of concepts, theories, models, or methods of fundamental ecology to environmental problems.",
+      "category_hint": "生物",
+      "source_rank": 2,
+      "added_at": "2026-07-14T20:46:40.126174Z"
+    },
+    {
+      "source_id": "wiki-topic:en:8720264",
+      "source_name": "EN Wikipedia：History of the battery",
+      "source_url": "https://en.wikipedia.org/wiki/History_of_the_battery",
+      "title": "History of the battery",
+      "excerpt": "Batteries provided the main source of electricity before the development of electric generators and electrical grids around the end of the 19th century. Successive improvements in battery technology facilitated major electrical advances, from early scientific studies to the rise of telegraphs and telephones, eventually leading to portable computers, mobile phones, electric cars, and many other electrical devices. \"Wet cell\" batteries used open containers that held liquid electrolyte and metallic electrodes. Electrodes and electrolytes could be replaced when the battery was discharged. Open containers are unsuitable for mobile or portable use. Wet cells were used commercially in the telegraph and telephone systems. Early electric cars used semi-sealed wet cells. Portable and hand-held electrical devices were made feasible with the \"dry cell\", where the electrolyte was in the form of a paste resistant to spilling or leakage. One important classification for batteries is by their life cycle. \"Primary\" batteries can produce current as soon as assembled, but once the active elements are consumed, they cannot be electrically recharged. The development of the lead-acid battery and subsequent...",
+      "category_hint": "历史",
+      "source_rank": 2,
+      "added_at": "2026-07-14T20:46:40.126335Z"
+    },
+    {
+      "source_id": "wiki-topic:en:82391091",
+      "source_name": "EN Wikipedia：Earth Sciences History",
+      "source_url": "https://en.wikipedia.org/wiki/Earth_Sciences_History",
+      "title": "Earth Sciences History",
+      "excerpt": "Earth Sciences History is a biannual peer-reviewed academic journal covering all aspects of the history of the Earth sciences. It is published by KnowledgeWorks Global on behalf of the History of Earth Sciences Society and was established in 1982. The journal publishes historical works on all aspects of the Earth sciences. It encompasses diverse approaches to historical research, including biography, history of ideas, social history, and the history of institutions and methods.",
+      "category_hint": "历史",
+      "source_rank": 2,
+      "added_at": "2026-07-14T20:46:40.126485Z"
+    },
+    {
+      "source_id": "wiki-topic:en:77269960",
+      "source_name": "EN Wikipedia：Manuel Bibes",
+      "source_url": "https://en.wikipedia.org/wiki/Manuel_Bibes",
+      "title": "Manuel Bibes",
+      "excerpt": "Manuel Bibes (born July 15, 1976) is a French physicist specializing in functional oxides, multiferroic materials, and spintronics. He is currently a Research Director at the National Center for Scientific Research (CNRS).",
+      "category_hint": "科技",
+      "source_rank": 2,
+      "added_at": "2026-07-14T20:46:40.126536Z"
+    },
+    {
+      "source_id": "wiki-topic:en:69867945",
+      "source_name": "EN Wikipedia：Bigoni–Piccolroaz yield criterion",
+      "source_url": "https://en.wikipedia.org/wiki/Bigoni%E2%80%93Piccolroaz_yield_criterion",
+      "title": "Bigoni–Piccolroaz yield criterion",
+      "excerpt": "The Bigoni–Piccolroaz yield criterion is a yielding model, based on a phenomenological approach, capable of describing the mechanical behavior of a broad class of pressure-sensitive granular materials such as soil, concrete, porous metals and ceramics.",
+      "category_hint": "科技",
+      "source_rank": 2,
+      "added_at": "2026-07-14T20:46:40.126611Z"
+    },
+    {
+      "source_id": "wiki-topic:en:52303418",
+      "source_name": "EN Wikipedia：Dynamic scaling",
+      "source_url": "https://en.wikipedia.org/wiki/Dynamic_scaling",
+      "title": "Dynamic scaling",
+      "excerpt": "Dynamic scaling (sometimes known as Family–Vicsek scaling) is a litmus test that shows whether an evolving system exhibits self-similarity. In general a function is said to exhibit dynamic scaling if it satisfies: f ( x , t ) ∼ t θ φ ( x t z ) . {\\displaystyle f(x,t)\\sim t^{\\theta }\\varphi \\left({\\frac {x}{t^{z}}}\\right).} Here the exponent θ {\\displaystyle \\theta } is fixed by the dimensional requirement [ f ] = [ t θ ] {\\displaystyle [f]=[t^{\\theta }]} . The numerical value of f / t θ {\\displaystyle f/t^{\\theta...",
+      "category_hint": "科学",
+      "source_rank": 2,
+      "added_at": "2026-07-14T20:46:40.126722Z"
+    },
+    {
+      "source_id": "wiki-topic:en:18053246",
+      "source_name": "EN Wikipedia：History of condoms",
+      "source_url": "https://en.wikipedia.org/wiki/History_of_condoms",
+      "title": "History of condoms",
+      "excerpt": "The history of condoms goes back at least several centuries, and perhaps beyond. For most of their history, condoms have been used both as a method of birth control, and as a protective measure against sexually transmitted infections such as syphilis, gonorrhea, chlamydia, hepatitis B and more recently HIV/AIDS. Condoms have been made from a variety of materials; prior to the 19th century, chemically treated linen and animal tissue (intestine or bladder) are the best documented varieties. Rubber condoms gained popularity in the mid-19th century, and in the early 20th century major advances were made in manufacturing techniques. Prior to the introduction of the combined oral contraceptive pill, condoms were the most popular birth control method in the Western world. In the second half of the 20th century, the low cost of condoms contributed to their importance in family planning programs throughout the developing world. Condoms have also become increasingly important in efforts to fight the AIDS pandemic.",
+      "category_hint": "历史",
+      "source_rank": 2,
+      "added_at": "2026-07-14T20:46:40.126870Z"
+    },
+    {
+      "source_id": "wiki-topic:en:20324344",
+      "source_name": "EN Wikipedia：Constructed language",
+      "source_url": "https://en.wikipedia.org/wiki/Constructed_language",
+      "title": "Constructed language",
+      "excerpt": "A constructed language is a language for communication between humans (i.e. not with or between computers) which, unlike most languages that naturally emerge from human interaction, is intentionally devised by a person or group for a particular purpose. The term constructed language is often shortened to conlang and, as a relatively broad term, it encompasses subcategories including: fictional, artificial, engineered, planned and invented languages. Conlangs may include aspects reminiscent of natural language including phonology, grammar, orthography, and vocabulary. Interlinguistics includes the study of constructed languages.",
+      "category_hint": "综合",
+      "source_rank": 2,
+      "added_at": "2026-07-14T20:46:40.126966Z"
+    },
+    {
+      "source_id": "wiki-topic:en:14222722",
+      "source_name": "EN Wikipedia：Explanandum and explanans",
+      "source_url": "https://en.wikipedia.org/wiki/Explanandum_and_explanans",
+      "title": "Explanandum and explanans",
+      "excerpt": "An explanandum (a Latin term) is a sentence describing a phenomenon that is to be explained, and the explanans are the sentences adduced as explanations of that phenomenon. For example, one person may pose an explanandum by asking \"Why is there smoke?\", and another may provide an explanans by responding \"Because there is a fire\". In this example, \"smoke\" is the explanandum, and \"fire\" is the explanans. Carl Gustav Hempel and Paul Oppenheim (1948), in their deductive-nomological model of scientific explanation, explored the distinction between explanans and explanandum in order to answer why-questions, rather than simply what-questions: \"It may be said... that an explanation is not fully adequate unless its explanans, if taken account of in time, could have served as a basis for predicting the phenomenon under consideration.... It is this potential predictive force which gives scientific explanation its importance: Only to the extent that we are able to explain empirical facts can we attain the major objective of scientific research, namely not merely to record the phenomena of our experience, but to learn from them, by basing upon them theoretical generalizations which enable us to...",
+      "category_hint": "综合",
+      "source_rank": 2,
+      "added_at": "2026-07-14T20:46:40.127143Z"
+    },
+    {
+      "source_id": "wiki-topic:en:70386320",
+      "source_name": "EN Wikipedia：Codon reassignment",
+      "source_url": "https://en.wikipedia.org/wiki/Codon_reassignment",
+      "title": "Codon reassignment",
+      "excerpt": "Codon reassignment is the biological process via which the way the genetic code of a cell is read is changed as a response to the environment. Typically codons, sets of three mRNA nucleotides, correspond to one specific amino acid. Codon reassignment is the exception to this rule. When a codon is reassigned, it codes for a new amino acid. This change in code can have immense consequences for the cell as protein structures are altered.",
+      "category_hint": "生物",
+      "source_rank": 2,
+      "added_at": "2026-07-14T20:46:40.127224Z"
+    },
+    {
+      "source_id": "wiki-topic:en:6012335",
+      "source_name": "EN Wikipedia：History of biotechnology",
+      "source_url": "https://en.wikipedia.org/wiki/History_of_biotechnology",
+      "title": "History of biotechnology",
+      "excerpt": "Biotechnology is the application of scientific and engineering principles to the processing of materials by biological agents in order to provide goods and services. From its inception, biotechnology has maintained a close relationship with society. Although now most often associated with the development of drugs, historically biotechnology has been principally associated with food, addressing such issues as malnutrition and famine. The history of biotechnology begins with zymotechnology, which commenced with a focus on brewing techniques for beer. By World War I, however, zymotechnology would expand to tackle larger industrial issues, and the potential of industrial fermentation gave rise to biotechnology. However, both the single-cell protein and gasohol projects failed to progress due to varying issues including public resistance, a changing economic scene, and shifts in political power. Yet the formation of a new field, genetic engineering, would soon bring biotechnology to the forefront of science in society, and the intimate relationship between the scientific community, the public, and the government would ensue. These debates gained exposure in 1975 at the Asilomar Conference...",
+      "category_hint": "历史",
+      "source_rank": 2,
+      "added_at": "2026-07-14T20:46:40.127385Z"
+    },
+    {
+      "source_id": "wiki-topic:en:44621719",
+      "source_name": "EN Wikipedia：Bismuth–indium",
+      "source_url": "https://en.wikipedia.org/wiki/Bismuth%E2%80%93indium",
+      "title": "Bismuth–indium",
+      "excerpt": "The elements bismuth and indium have relatively low melting points when compared to other metals, and their alloy bismuth–indium (Bi–In) is classified as a fusible alloy. It has a melting point lower than the eutectic point of the tin–lead alloy. The most common application of the Bi-In alloy is as a low temperature solder, which can also contain, besides bismuth and indium, lead, cadmium, and tin.",
+      "category_hint": "科技",
+      "source_rank": 2,
+      "added_at": "2026-07-14T20:46:40.127480Z"
+    },
+    {
+      "source_id": "wiki-topic:en:22760983",
+      "source_name": "EN Wikipedia：Linguistics",
+      "source_url": "https://en.wikipedia.org/wiki/Linguistics",
+      "title": "Linguistics",
+      "excerpt": "Linguistics is the scientific study of language. The areas of linguistic analysis are syntax (rules governing the structure of sentences), semantics (meaning), morphology (structure of words), phonetics (speech sounds and equivalent gestures in sign languages), phonology (the abstract sound system of a particular language, and analogous systems of sign languages), and pragmatics (how the context of use contributes to meaning). Subdisciplines such as biolinguistics (the study of the biological variables and evolution of language) and psycholinguistics (the study of psychological factors in human language) bridge many of these divisions. Linguistics encompasses many branches and subfields that span both theoretical and practical applications. Theoretical linguistics is concerned with understanding the universal and fundamental nature of language and developing a general theoretical framework for describing it. Applied linguistics seeks to utilize the scientific findings of the study of language for practical purposes, such as developing methods of improving language education and literacy. Mathematical linguistics is the application of mathematics to model phenomena and solve problems...",
+      "category_hint": "综合",
+      "source_rank": 2,
+      "added_at": "2026-07-14T20:46:40.127633Z"
+    },
+    {
+      "source_id": "wiki-topic:en:8735392",
+      "source_name": "EN Wikipedia：Blowing agent",
+      "source_url": "https://en.wikipedia.org/wiki/Blowing_agent",
+      "title": "Blowing agent",
+      "excerpt": "A blowing agent is a substance which is capable of producing a cellular structure via a foaming process in a variety of materials that undergo hardening or phase transition, such as polymers, plastics, and metals. They are typically applied when the blown material is in a liquid stage. The cellular structure in a matrix reduces density, increasing thermal and acoustic insulation, while increasing relative stiffness of the original polymer. Blowing agents (also known as 'pneumatogens') or related mechanisms to create holes in a matrix producing cellular materials, have been classified as follows: Physical blowing agents include CFCs (however, these are ozone depletants, banned by the Montreal Protocol of 1987), HCFCs (replaced CFCs, but are still ozone depletants, therefore being phased out), hydrocarbons (e.g. pentane, isopentane, cyclopentane), and liquid CO2. The bubble/foam-making process is irreversible and endothermic, i.e. it needs heat (e.g. from a melt process or the chemical exotherm due to cross-linking), to volatilize a liquid blowing agent. However, on cooling process, the blowing agent will condense, which is a reversible process. Chemical blowing agents include isocyanate...",
+      "category_hint": "科技",
+      "source_rank": 2,
+      "added_at": "2026-07-14T20:46:40.127789Z"
+    },
+    {
+      "source_id": "wiki-topic:en:1413411",
+      "source_name": "EN Wikipedia：Biofouling",
+      "source_url": "https://en.wikipedia.org/wiki/Biofouling",
+      "title": "Biofouling",
+      "excerpt": "Biofouling or biological fouling is a phenomenon affecting human-made objects in the presence of water, wherein microorganisms, plants, algae, or small animals accumulate on the objects' surfaces and impede their functionality. Such accumulation is referred to as epibiosis when the host surface is another organism and the relationship is not parasitic. Since biofouling can occur almost anywhere water is present, it poses risks to a wide variety of objects, such as watercraft hulls and equipment, medical devices and membranes, as well as to entire industries, such as paper manufacturing, food processing, underwater construction, and desalination plants. Anti-fouling is the ability of specifically designed materials (such as toxic biocide paints, or non-toxic paints) to remove or prevent biofouling. The buildup of biofouling on marine vessels poses a significant problem. In some instances, the hull structure and propulsion systems can be damaged. The accumulation of biofoulers on hulls can increase both the hydrodynamic volume of a vessel and the hydrodynamic friction, leading to increased drag of up to 60%. The drag increase has been seen to decrease speeds by up to 10%, which can require...",
+      "category_hint": "生物",
+      "source_rank": 2,
+      "added_at": "2026-07-14T20:46:40.127949Z"
+    },
+    {
+      "source_id": "wiki-topic:en:39219551",
+      "source_name": "EN Wikipedia：A calorie is a calorie",
+      "source_url": "https://en.wikipedia.org/wiki/A_calorie_is_a_calorie",
+      "title": "A calorie is a calorie",
+      "excerpt": "\"A calorie is a calorie\" is an expression used to convey the concept that sources of dietary energy are interchangeable. This concept has been subject of debate since its emergence in the early 19th century.",
+      "category_hint": "生活",
+      "source_rank": 2,
+      "added_at": "2026-07-14T20:46:40.128000Z"
+    },
+    {
+      "source_id": "wiki-topic:en:49223016",
+      "source_name": "EN Wikipedia：Electrolithoautotroph",
+      "source_url": "https://en.wikipedia.org/wiki/Electrolithoautotroph",
+      "title": "Electrolithoautotroph",
+      "excerpt": "An electrolithoautotroph is an organism which feeds on electricity. These organisms use electricity to convert carbon dioxide into organic matter by using electrons directly taken from solid-inorganic electron donors. Electrolithoautotrophs are microorganisms which are found in the deep crevices of the ocean. The warm, mineral-rich environment provides a rich source of nutrients. The electron source for carbon assimilation from diffusible Fe2+ ions to an electrode under the condition that electrical current is the only source of energy and electrons. Electrolithoautotrophs form a third metabolic pathway compared to photosynthesis (plants converting light into sugar) and chemosynthesis (bacteria converting chemical energy into food).",
+      "category_hint": "生物",
+      "source_rank": 2,
+      "added_at": "2026-07-14T20:46:40.128121Z"
+    },
+    {
+      "source_id": "wiki-topic:en:4008035",
+      "source_name": "EN Wikipedia：Efficiency movement",
+      "source_url": "https://en.wikipedia.org/wiki/Efficiency_movement",
+      "title": "Efficiency movement",
+      "excerpt": "The efficiency movement was a major movement in the United States, Britain and other industrial nations in the early 20th century that sought to identify and eliminate waste in all areas of the economy and society, and to develop and implement best practices. The concept covered mechanical, economic, social, and personal improvement. The quest for efficiency promised effective, dynamic management rewarded by growth. As a result of the influence of an early proponent, it is more often known as Taylorism.",
+      "category_hint": "历史",
+      "source_rank": 2,
+      "added_at": "2026-07-14T20:46:40.128206Z"
+    },
+    {
+      "source_id": "wiki-topic:en:1243735",
+      "source_name": "EN Wikipedia：Epanadiplosis",
+      "source_url": "https://en.wikipedia.org/wiki/Epanadiplosis",
+      "title": "Epanadiplosis",
+      "excerpt": "Epanadiplosis (from Ancient Greek ἐπαναδίπλωσις/epanadíplôsis, from ἐπί/epí, \"on\", ἀνά/aná, \"again\", and διπλόος/diplóos, \"double\", \"doubling in succession\") is a figure of speech in which the same word is used at the end of a clause as at the beginning of a preceding clause. The opposite figure is anadiplosis. It allows for melodic and rhythmic interplay to suggest emphasis or humor. Epanadiplosis can also be used to emphasize a word, a group of words, or an idea. Epanadiplosis is also a narrative figure used in many literary genres, which is called \"narrative epanadiplosis\". It's the repetition of an initial scene or motif (in the incipit) at the plot's end (or clausule). It suggests that the narrative is closed in on itself.",
+      "category_hint": "综合",
+      "source_rank": 2,
+      "added_at": "2026-07-14T20:46:40.128352Z"
+    },
+    {
+      "source_id": "wiki-topic:en:295888",
+      "source_name": "EN Wikipedia：History of calendars",
+      "source_url": "https://en.wikipedia.org/wiki/History_of_calendars",
+      "title": "History of calendars",
+      "excerpt": "The history of calendars covers practices with ancient roots as people created and used various methods to keep track of days and larger divisions of time. Calendars commonly serve both cultural and practical purposes and are often connected to astronomy and agriculture. Archeologists have reconstructed methods of timekeeping that go back to prehistoric times at least as old as the Neolithic. The natural units for timekeeping used by most historical societies are the day, the solar year and the lunation. Calendars are explicit schemes used for timekeeping. The first historically attested and formulized calendars date to the Bronze Age, dependent on the development of writing in the ancient Near East. The Yoruba people of West Africa have one of the oldest recorded calendars in human history. It is one of the oldest verified calendar systems in the world used by a continuing culture. Known as Kojoda, the Yoruba calendar dates back over 10,068 years as of 2026, meaning its origin can be traced to approximately 8042 BC. In Victoria, Australia, a Wurdi Youang stone arrangement undergoing research could date back more than 11,000 years. In 2013, archaeologists unearthed ancient evidence...",
+      "category_hint": "历史",
+      "source_rank": 2,
+      "added_at": "2026-07-14T20:46:40.128517Z"
+    },
+    {
+      "source_id": "wiki-topic:en:69076183",
+      "source_name": "EN Wikipedia：Earth Science Decadal Survey",
+      "source_url": "https://en.wikipedia.org/wiki/Earth_Science_Decadal_Survey",
+      "title": "Earth Science Decadal Survey",
+      "excerpt": "The Earth Science Decadal Survey (in full: U.S. National Academy of Sciences Decadal Survey for Earth Science and Applications from Space) is a publication of the United States National Research Council that identifies key research priorities in the field of Earth Sciences with a focus on remote sensing. It is written and released at the request of three United States government agencies: the National Aeronautics and Space Administration (NASA), the National Oceanic and Atmospheric Administration (NOAA) and the U.S. Geological Survey (USGS). The survey is produced by the Committee on the Decadal Survey for Earth Science and Applications from Space (ESAS) of the National Academies of Sciences, Engineering and Medicine (NASEM) Space Studies Board, Division on Engineering and Physical Sciences. Agencies like NASA use the recommendations from the decadal survey to prioritize funding for specific types of scientific research projects. As of 2021, two decadal surveys have been released. The first, for the decade 2007–2017, \"Earth Science and Applications from Space: National Imperatives for the Next Decade and Beyond\" was published in 2007. The second, for the decade 2017 to 2027, \"Thriving...",
+      "category_hint": "科学",
+      "source_rank": 2,
+      "added_at": "2026-07-14T20:46:40.128754Z"
+    },
+    {
+      "source_id": "wiki-topic:en:25992931",
+      "source_name": "EN Wikipedia：Attention seeking",
+      "source_url": "https://en.wikipedia.org/wiki/Attention_seeking",
+      "title": "Attention seeking",
+      "excerpt": "Attention seeking behavior is to act in a way that is likely to elicit attention. Attention seeking behavior as a pathological personality trait is defined in the DSM-5 as \"engaging in behavior designed to attract notice and to make oneself the focus of others' attention and admiration\". This definition does not ascribe a motivation to the behavior and assumes a human actor, although the term \"attention seeking\" sometimes also assumes a motive of seeking validation. People are thought to engage in both positive and negative attention seeking behavior independent of the actual benefit or harm to health. In line with much research and a dynamic self-regulatory processing model of narcissism, motivations for attention seeking are considered to be driven by self-consciousness and thus an externalization of personality rather than internal and self-motivated behavior. Attention seeking is often caused by threats to one's self-concept and the need for social acceptance. This type of influence on behavior can result in a potential loss of a person's sense of agency, personality disorder and the behavior associated with these conditions. Enjoying the attention of others is socially acceptable...",
+      "category_hint": "生活",
+      "source_rank": 2,
+      "added_at": "2026-07-14T20:46:40.128914Z"
+    },
+    {
+      "source_id": "wiki-topic:en:81301190",
+      "source_name": "EN Wikipedia：Luxury uptake",
+      "source_url": "https://en.wikipedia.org/wiki/Luxury_uptake",
+      "title": "Luxury uptake",
+      "excerpt": "Luxury uptake refers to the adaptation of microalgae sequestering a greater quantity of nutrients, typically phosphorus, than they are immediately able to utilize for growth or metabolic function.",
+      "category_hint": "生物",
+      "source_rank": 2,
+      "added_at": "2026-07-14T20:46:40.129073Z"
+    },
+    {
+      "source_id": "onthisday:zh:07/14:2011:4",
+      "source_name": "Wikimedia On This Day：中华人民共和国",
+      "source_url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD",
+      "title": "2011: 中华人民共和国安徽省撤销地级巢湖市，原行政区划拆分至合肥、芜湖和马鞍山，以原地级巢湖市居巢区的行政区域为新设的县级巢湖市的行政区域。",
+      "excerpt": "事件：中华人民共和国安徽省撤销地级巢湖市，原行政区划拆分至合肥、芜湖和马鞍山，以原地级巢湖市居巢区的行政区域为新设的县级巢湖市的行政区域。\n相关页面摘要：中华人民共和国是位於东亚的社会主义国家，也是現今世界少數由共产党建立並持續單獨執政的國家。国土面积约960万平方千米，位居世界各國第三位，其以漢族傳統領域為核心，涵蓋鄰太平洋的亞洲大陸東側大部區域，並與14個國家以陸地邊界接壤。全国行政区域划分为23個省、5個自治區、4個直轄市、以及2個特别行政区，共計34個省級行政區。首都为北京市，城區常住人口最多城市为上海市。政治上依憲法採用人民代表大會制度，以社会主义为基础实行人民民主专政，实则由中国共产党一党执政，在包括武装力量在内的国家体制上处于绝对领导地位。",
+      "category_hint": "历史",
+      "source_rank": 3,
+      "added_at": "2026-07-14T20:46:40.129156Z"
+    },
+    {
       "source_id": "wiki-random:en:13628958",
       "source_name": "EN Wikipedia：Beta-globin co-transcriptional cleavage ribozyme",
       "source_url": "https://en.wikipedia.org/wiki/Beta-globin_co-transcriptional_cleavage_ribozyme",
@@ -2671,6 +3001,196 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-13T20:46:19.057688Z"
+    },
+    {
+      "source_id": "wiki-random:zh:5932070",
+      "source_name": "ZH Wikipedia：WebLOAD",
+      "source_url": "https://zh.wikipedia.org/wiki/WebLOAD",
+      "title": "WebLOAD",
+      "excerpt": "WebLOAD是负载测试工具，性能测试、压力测试的Web应用程序。该Web和移动负载测试和分析工具出自RadView Software。负载测试工具WebLOAD将性能，可扩展性和完整性作为一个单一的过程来整合网络和移动应用程序的验证。它可以模拟成千上万的并发用户，可以测试大量负载，并报告应用程序中的瓶颈，约束和弱点。 WebLOAD使用其多协议支持来模拟数十万用户的流量，并提供有关应用程序在负载下的行为的分析数据。WebLOAD监控和整合来自被测系统的各个组件的统计信息：服务器、应用服务器、数据库、网络、负载均衡器、防火墙等，还可以监视最终用户体验和服务级别协议（SLA）的合规性生产环境。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-14T20:46:40.129350Z"
+    },
+    {
+      "source_id": "wiki-random:zh:449152",
+      "source_name": "ZH Wikipedia：集體智慧",
+      "source_url": "https://zh.wikipedia.org/wiki/%E9%9B%86%E9%AB%94%E6%99%BA%E6%85%A7",
+      "title": "集體智慧",
+      "excerpt": "集體智慧（英語：collective intelligence），也称集體智能、群智等称，此术语中intelligence即为智力、智慧。（注意，有几个英文单词都有“群”的含义，目前中國大陆科技论文中，一般“群体智能”、“群智能”是指另外一个术语，其“群”字的英文原文是另一个词） 單一個體所做出的決策往往會比起多數決的決策來的不精準，集体智慧（集体智能）是一种共享的或者群体的智能，以及集結眾人的意見進而轉化為決策的一種過程。它是从许多个体的合作与竞争中涌现出来的。集体智慧在细菌、动物、人类以及计算机网络中形成，并以多种形式的协商一致的决策模式出现。 对于集体智慧的研究，实际上可以被认为是一个属于社会学、商业、计算机科学、大众传媒和大众行为的分支学科——研究从夸克层次到细菌、植物、动物以及人类社会层次的群体行为的一个领域。这个概念也经常出现在科幻小说中，它被当作为联结物种和生化人的心灵感应。 上述定义来自侯世达（1979）、彼得·罗素（1983）、汤姆·阿特利（1993）、皮埃尔·列维（1994）、霍華德·布洛姆（1995年）、弗朗西斯·海拉恩（1995年）、道格拉斯·恩格尔巴特、克里夫·乔斯林、罗恩·德姆博、戈特弗里德·梅尔-克瑞斯（2003年）以及其他理论家的著作。集体智慧被诺曼·L·约翰逊称为共生智能。 有的人士，例如汤姆·阿特利，他们在集体智慧方面宁愿把重点主要放在人类上，并且为改进霍华德·布洛姆所谓的“群体智商”而积极工作。阿特利认为，可以鼓励集体智慧“去克服‘团体迷思’和个人认知偏差，以使得群体在流程中进行合作成为可能，同时还能大大提高智力表现”。 集体智慧（CI）也可以定义为某种形式的网络化，即互联网，它是由通信技术的进步而引发的。Web 2.0实现了交互性，因而用户可以发布自己的内容。集体智慧凭借这一点来提高现有知识的社会共享。Henry Jenkins，一个在新媒体和媒体融合领域的主要理论家，依照他的学说，集体智慧可以归因于媒体融合以及共享文化。集体智慧不仅仅是所有文化在信息数量上的贡献，同时，它也是质量上的贡献。 一个CI的先驱，George Pór，他将集体智慧定义为“通过分化与整合、竞争与协作的创新机制，人类社区朝更高的秩序复杂性以及和谐方向演化的能力”。汤姆·阿特利和George Pór说明“集体智慧还包括实现单一的关注点以及标准的衡量尺度，以提供适当的行动门槛”。他们的方法植根于科学界的隐喻。 列维和德克霍夫从大众传播的思考方法来考虑CI，集中网络信息及通信技术的能力去提高社区知识库。他们认为，这些通讯工具可以使人类既方便又快速地进行互动、分享与合作（Flew 2008）。随着互联网的发展和广泛使用，对于那些以社区为基础的论坛，例如维基百科，为它们做贡献的机会大于以往任何时候。通过对数据库的集体访问，以及允许他们“利用蜂巢”，这些计算机网络给与参与用户存储和检索知识的机会…",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-14T20:46:40.130438Z"
+    },
+    {
+      "source_id": "wiki-random:en:2099428",
+      "source_name": "EN Wikipedia：Saprobiont",
+      "source_url": "https://en.wikipedia.org/wiki/Saprobiont",
+      "title": "Saprobiont",
+      "excerpt": "Saprobionts are organisms that digest their food externally and then absorb the products. This process is called saprotrophic nutrition. Fungi are examples of saprobiontic organisms, which are a type of decomposer. Saprobiontic organisms feed off dead and/or decaying biological materials. Digestion is accomplished by excretion of digestive enzymes which break down cell tissues, allowing saprobionts to extract the nutrients they need while leaving the indigestible waste. This is called extracellular digestion. This is very important in ecosystems, for the nutrient cycle. Saprobionts should not be confused with detritivores, another class of decomposers which digest internally. These organisms can be good sources of extracellular enzymes for industrial processes such as the production of fruit juice. For instance, the fungus Aspergillus niger is used to produce pectinase, an enzyme which is used to break down pectin in juice concentrates, making the juice appear more translucent.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-14T20:46:40.131608Z"
+    },
+    {
+      "source_id": "wiki-random:en:68709219",
+      "source_name": "EN Wikipedia：Union of Agricultural Workers and Employees",
+      "source_url": "https://en.wikipedia.org/wiki/Union_of_Agricultural_Workers_and_Employees",
+      "title": "Union of Agricultural Workers and Employees",
+      "excerpt": "The Union of Agricultural Workers and Employees (Serbo-Croatian: Sindikat poljoprivredno-šumarskih radnika i službenika) was a trade union representing workers in the agricultural and forestry sectors in Yugoslavia. The union was founded in April 1945 and affiliated to the Confederation of Trade Unions of Yugoslavia. By 1954, it claimed 84,792 members, and was led by Emil Kevrešan. In 1959, it merged with the Union of Food and Tobacco Workers, to form the Union of Agricultural, Food Processing and Tobacco Workers of Yugoslavia.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-14T20:46:40.134537Z"
+    },
+    {
+      "source_id": "wiki-random:en:20144524",
+      "source_name": "EN Wikipedia：Anaerobic corrosion",
+      "source_url": "https://en.wikipedia.org/wiki/Anaerobic_corrosion",
+      "title": "Anaerobic corrosion",
+      "excerpt": "Anaerobic corrosion (also known as hydrogen corrosion) is a form of metal corrosion occurring in anoxic water. Typically following aerobic corrosion, anaerobic corrosion involves a redox reaction that reduces hydrogen ions and oxidizes a solid metal. This process can occur in either abiotic conditions through a thermodynamically spontaneous reaction or biotic conditions through a process known as bacterial anaerobic corrosion. Along with other forms of corrosion, anaerobic corrosion is significant when considering the safe, permanent storage of chemical waste.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-14T20:46:40.135145Z"
+    },
+    {
+      "source_id": "wiki-random:en:43117744",
+      "source_name": "EN Wikipedia：Average earnings index (horse racing)",
+      "source_url": "https://en.wikipedia.org/wiki/Average_earnings_index_(horse_racing)",
+      "title": "Average earnings index (horse racing)",
+      "excerpt": "Average earnings index (AEI) is a popular statistic used in North American Thoroughbred horse breeding. It is used to put the earnings of a breeding animal's progeny into proper perspective.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-14T20:46:40.135768Z"
+    },
+    {
+      "source_id": "wiki-random:en:76503825",
+      "source_name": "EN Wikipedia：2018 Oregon Commissioner of Labor election",
+      "source_url": "https://en.wikipedia.org/wiki/2018_Oregon_Commissioner_of_Labor_election",
+      "title": "2018 Oregon Commissioner of Labor election",
+      "excerpt": "The 2018 Oregon Commissioner of Labor and Industries election was held on May 15, 2018, in order to elect the Oregon Commissioner of Labor and Industries. The election was held on a nonpartisan basis. Incumbent Commissioner Brad Avakian did not seek reelection. Val Hoyle was elected to succeed him. Because Hoyle won a majority in the May primary election, a November runoff did not occur.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-14T20:47:10.118083Z"
+    },
+    {
+      "source_id": "wiki-random:en:5181993",
+      "source_name": "EN Wikipedia：Jacob ben Reuben (Karaite)",
+      "source_url": "https://en.wikipedia.org/wiki/Jacob_ben_Reuben_(Karaite)",
+      "title": "Jacob ben Reuben (Karaite)",
+      "excerpt": "Jacob ben Reuben (יעקב בן ראובן) was a Karaite scholar and Bible exegete of the eleventh century. He wrote a brief Hebrew language commentary on the entire Bible, which he entitled Sefer ha-'Osher, because, as he says in the introduction, the reader will find therein sufficient information, and will not need to have recourse to the many voluminous commentaries which the author himself had consulted. The book is, in fact, merely a compilation; the author's explanation of any given passage is frequently introduced by the abbreviations or (i.e., Arabic \"ma'nahu\" or \"ya'ni\" = \"that is to say\"); and divergent explanations of other commentators are added one after the other and preceded by the vague phrase (\"another says\"). It is, in fact, chiefly an extract of Yefet ben Ali's work, from whom Jacob borrowed most of his explanations as well as the quotations from various authors, chiefly on the Pentateuch. But Jacob also drew upon later Karaite authors, the last of whom is Jeshua ben Judah, who, so far as is known, flourished about 1054. This date points to the second half of the eleventh century as the date of composition of the Sefer ha-'Osher. Among Rabbinitic authors Jacob quotes Abu...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-14T20:47:10.120184Z"
+    },
+    {
+      "source_id": "wiki-random:en:53990911",
+      "source_name": "EN Wikipedia：Gray molasses",
+      "source_url": "https://en.wikipedia.org/wiki/Gray_molasses",
+      "title": "Gray molasses",
+      "excerpt": "Gray molasses is a method of sub-Doppler laser cooling of atoms. It employs principles from Sisyphus cooling in conjunction with a so-called \"dark\" state whose transition to the excited state is not addressed by the resonant lasers. Ultracold atomic physics experiments on atomic species with poorly-resolved hyperfine structure, like isotopes of lithium and potassium, often utilize gray molasses instead of Sisyphus cooling as a secondary cooling stage after the ubiquitous magneto-optical trap (MOT) to achieve temperatures below the Doppler limit. Unlike a MOT, which combines a molasses force with a confining force, a gray molasses can only slow but not trap atoms; hence, its efficacy as a cooling mechanism lasts only milliseconds before further cooling and trapping stages must be employed.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-14T20:47:10.120795Z"
+    },
+    {
+      "source_id": "wiki-random:en:30313921",
+      "source_name": "EN Wikipedia：Polygon experiment",
+      "source_url": "https://en.wikipedia.org/wiki/Polygon_experiment",
+      "title": "Polygon experiment",
+      "excerpt": "The POLYGON experiment was a pioneer experiment in oceanography conducted in the middle of the Atlantic Ocean during the 1970s. The experiment, led by Leonid Brekhovskikh, was the first to establish the existence of so-called mesoscale eddies, eddies at the 100 km (60 mi) and 100-day scale, which triggered the \"mesoscale revolution\". The existence of mesoscale eddies was predicted by Henry Stommel in the 1960s, but there was no way to observe them with traditional sampling methods.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-14T20:47:10.122783Z"
+    },
+    {
+      "source_id": "wiki-random:zh:8747688",
+      "source_name": "ZH Wikipedia：楚庫杜車",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%A5%9A%E5%BA%AB%E6%9D%9C%E8%BB%8A",
+      "title": "楚庫杜車",
+      "excerpt": "楚庫杜（chukudu，或拼寫為chikudu 、 chokoudou 、 tshukudu ） 是剛果民主共和國東部地區使用於貨運，以手工由木材製造的兩輪車。 楚庫杜車的車架縱軸通常與水平面成一角度，具有兩個小型輪子；輪子一般採木製，但有時也包有橡膠。還有一副把手，以及一個墊子以供操作者推動車輛時將膝蓋放在上面。 下坡時，操作者可以像騎乘滑板車一樣站在車架上。在平地上，操作者可以將一隻腿的膝蓋放在車架上，而用另一條腿蹬地以推動車子。也有加上橡膠製擋泥板與避震器的例子。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-14T20:47:42.548914Z"
+    },
+    {
+      "source_id": "wiki-random:en:55148622",
+      "source_name": "EN Wikipedia：The Mountain Beverly Hills",
+      "source_url": "https://en.wikipedia.org/wiki/The_Mountain_Beverly_Hills",
+      "title": "The Mountain Beverly Hills",
+      "excerpt": "The Mountain Beverly Hills, formerly known as The Vineyard Beverly Hills, is a 157-acre (64 ha) undeveloped property in Beverly Hills, California reportedly worth $1 billion. Princess Shams Pahlavi, the sister of Iran’s last shah, Mohammad Reza Pahlavi, bought it in the 1970s and intended to build the shah a $20 million palace in exile after his overthrow in 1979. It never materialized and she sold it in 1987 to Merv Griffin for a reported $6.5 million. Griffin effectively sliced off the top of the mountain, grading 14 acres and removing about 2 million cubic yards of dirt. He planned an expanse including a 58,000-square-foot house, a helipad and a couple of lakes, but instead found himself busy with other real estate deals, including his 1987 purchase of the Beverly Hilton Hotel and several other hotels. Later, he divided the property into six lots for potential development. In 1997, Mark R. Hughes, the founder of Herbalife, bought the property for $8.5 million after that, it went through a number of owners, following a complex lawsuit after Hughes' death. The property was offered via a website for $1 billion and taken off the market in 2015. One of the owners in 2017 was Victorino...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-14T20:47:42.551172Z"
+    },
+    {
+      "source_id": "wiki-random:zh:7423805",
+      "source_name": "ZH Wikipedia：新闻学史",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%97%BB%E5%AD%A6%E5%8F%B2",
+      "title": "新闻学史",
+      "excerpt": "新闻的历史是跨越了技术和贸易的发展，以定期收集信息和传播信息的专业技术的出现为特征。正如一部新闻史所推测的那样，这些技术的出现导致了“我们所能获得的新闻的范围及其传播速度的不断扩大”。在印刷术发明之前，新闻的主要传播来源是以口传心授的方式。通过商人，水手和旅行者等出国回归的人将“新闻”（新的消息）带回大陆，再由其他传播者将其传入其他地区。古代的抄写员们会将这些新的消息记录下来。可见，“新闻”的这种传播方式是非常不可靠的，所以，这种传播方式也因印刷术的发明而灭亡。自18世纪以来，报纸(以及较小程度上的杂志)一直是新闻工作者的主要传播媒介，20世纪的主要传播媒介是广播和电视，21世纪则是互联网。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-14T20:47:42.551761Z"
+    },
+    {
+      "source_id": "wiki-random:zh:7471775",
+      "source_name": "ZH Wikipedia：多聚腺苷酸结合蛋白",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%A4%9A%E8%81%9A%E8%85%BA%E8%8B%B7%E9%85%B8%E7%BB%93%E5%90%88%E8%9B%8B%E7%99%BD",
+      "title": "多聚腺苷酸结合蛋白",
+      "excerpt": "多聚腺苷酸结合蛋白（Poly(A)-binding protein，簡稱PABP）是真核生物細胞中一類可與mRNA3端的多腺苷酸尾結合的蛋白質。多聚腺苷酸结合蛋白最早被發現的功能是保護mRNA不被水解，後續研究發現它還可與許多RNA序列與蛋白結合，參與許多其他基因表現機制。轉譯時起始時PABP結合多腺苷酸尾後，可和與mRNA5端結合的起始因子eIF4G結合，令mRNA形成一環狀結構，促進43S前起始複合物的結合以開始轉譯；轉譯終止時PABP可能與eRF3結合以促進終止；RNA干擾途徑中RNA誘導沉默複合體（miRISC）與mRNA的3'非轉譯區結合後，GW182可與PABP和CCR4-Not複合體結合，促進mRNA脫腺苷酸（deadenylation）。另外PABP也調控无义介导的mRNA降解（NMD）途徑，當PABP和終止密碼子距離接近時其可與釋放因子結合而維持mRNA的穩定，當mRNA中提早出現終止密碼子時，PABP與終止密碼子距離較遠，釋放因子改與Upf1結合以啟動NMD途徑，抑制轉譯並將mRNA降解。在細胞核中PABP參與多腺苷酸尾合成的反應，mRNA轉錄結束後，CPSF會與mRNA上的多腺苷酸尾信號和PABP、多聚腺苷酸聚合酶等蛋白結合，促進後者合成多腺苷酸尾，PABP可與新生成的多腺苷酸尾結合以保護mRNA不被降解。 胚胎發育早期細胞中尚無轉錄進行，只轉譯既有的mRNA，這些mRNA的多腺苷酸尾受到精密調控，有些mRNA會失去多腺苷酸尾而被降解，有些則mRNA則會在細胞質中由GLD-2等多聚腺苷酸聚合酶加上新的多腺苷酸尾，PABP也參與此過程，可與細胞質中mRNA上的多腺苷酸化複合體結合，促進多腺苷酸化進行。 單細胞真核生物一般僅有一種PABP；脊椎動物細胞質中有四種PABP，細胞核中則有一種（例如人類的PABP為PABPN1、PABPC1、PABPC3、PABPC4與PABPC5，人類的罕見疾病眼咽型肌营养不良（OPMD）即是PABPN1基因突變造成。）；阿拉伯芥細胞質中有八種PABP，細胞核中則有一種。 當細胞被輪狀病毒感染時，病毒的NSP3蛋白會與mRNA上的eIF4G結合，而阻止PABP與之結合，進而抑制宿主細胞mRNA的轉譯，而病毒自身的mRNA3端則可和NSP3結合，因而可正常轉譯。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-14T20:47:42.552338Z"
+    },
+    {
+      "source_id": "wiki-random:en:1524589",
+      "source_name": "EN Wikipedia：Paper recycling",
+      "source_url": "https://en.wikipedia.org/wiki/Paper_recycling",
+      "title": "Paper recycling",
+      "excerpt": "Paper recycling is the process by which waste paper is turned into new paper products. After repeated processing the fibres become too short for the production of new paper, which is why virgin fibre (from sustainably farmed trees) is frequently added to the pulp recipe. Waste paper recycling most often involves mixing used/old paper with water and chemicals to break it down. Three categories of paper can be used as feedstocks for making recycled paper: mill broke, pre-consumer waste, and post-consumer waste. The industrial process of removing printing ink from paper fibres of recycled paper to make deinked pulp is called deinking, an invention of the German jurist Justus Claproth. Recycling of paper saves waste paper from occupying the homes of people and producing methane as it breaks down. Industrialized papermaking affects the environment where raw materials are acquired and processed with waste-disposal impacts.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-14T20:47:42.552573Z"
+    },
+    {
+      "source_id": "wiki-random:en:66002558",
+      "source_name": "EN Wikipedia：Onion yellow dwarf virus",
+      "source_url": "https://en.wikipedia.org/wiki/Onion_yellow_dwarf_virus",
+      "title": "Onion yellow dwarf virus",
+      "excerpt": "Onion yellow dwarf virus (OYDV) is a plant virus in the genus Potyvirus that has been identified worldwide and mainly infects species of Allium such as onion, garlic, and leek. The virus causes mild to severe leaf malformation, and bulb reduction up to sixty percent has been observed in garlic.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-14T20:47:42.553559Z"
+    },
+    {
+      "source_id": "wiki-random:en:21871925",
+      "source_name": "EN Wikipedia：Yasmina, a Black Woman",
+      "source_url": "https://en.wikipedia.org/wiki/Yasmina,_a_Black_Woman",
+      "title": "Yasmina, a Black Woman",
+      "excerpt": "Yasmina, a Black Woman is a jazz album by Archie Shepp, recorded in 1969 in Paris for BYG Actuel. It features musicians from the Art Ensemble of Chicago. The first track, giving its title to the album, is a long free jazz piece by an 11-piece orchestra; in it, the references to Africa that Shepp had experimented with only a few weeks earlier in Algiers are to be found in the use of African percussion instruments, or the African incantations sung by Shepp himself at the beginning of the track. The other two pieces, a homage to Sonny Rollins written by trombonist Grachan Moncur III and a standard, played by a more traditional quintet and quartet respectively, are more reminiscent of the hard bop genre, although the fiery playing of the musicians, notably Shepp himself, gives them a definite avant-garde edge. It was originally issued on CD by Affinity (paired with Poem for Malcolm), mastered from a vinyl source and later reissued by Charly (also paired with Poem for Malcolm) from the original master tapes.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-14T20:47:42.553766Z"
+    },
+    {
+      "source_id": "wiki-random:zh:7997684",
+      "source_name": "ZH Wikipedia：负暄琐话",
+      "source_url": "https://zh.wikipedia.org/wiki/%E8%B4%9F%E6%9A%84%E7%90%90%E8%AF%9D",
+      "title": "负暄琐话",
+      "excerpt": "《负暄琐话》是张中行创作的一部散文集，写于1980年代，1986年黑龙江人民出版社初版。集中共有64篇文章，多数是回忆人物，也有一些篇章是谈北京风物。书的末尾提出了“选境论”，认为“现实中的点，甚至某些段，也可以近于艺术的境……古人写历史，写笔记，就有意无意地在传选境”。张认为选境与揭露丑恶一样重要。吕冀平认为，这部书体现作者除了具备才、学、识的素养之外，还表现了“对人间的爱和真善美的追求”。周汝昌则称张的文章“外有柔美，内有刚德……不像老年人，生气流动，精光内蕴”。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-14T20:48:13.481606Z"
+    },
+    {
+      "source_id": "wiki-random:en:10122182",
+      "source_name": "EN Wikipedia：Fushun Mining Group",
+      "source_url": "https://en.wikipedia.org/wiki/Fushun_Mining_Group",
+      "title": "Fushun Mining Group",
+      "excerpt": "Fushun Mining Group (Chinese: 抚顺矿业集团有限责任公司, FMG) is a large state-owned coal and oil shale company located in Fushun, Liaoning Province, China. The corporation consists of about 30 companies with about 28,000 employees. The main business includes coal mining and oil shale processing. According to figures released by FMG, this company is one of the world's largest shale oil producers.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-14T20:48:13.485171Z"
     }
   ]
 }

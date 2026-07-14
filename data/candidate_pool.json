@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-14T20:48:13.488952Z",
+  "updated_at": "2026-07-14T20:51:11.668610Z",
   "candidates": [
     {
       "source_id": "nasa-apod:2006-09-11",
@@ -423,16 +423,6 @@
       "added_at": "2026-07-12T11:39:40.570020Z"
     },
     {
-      "source_id": "wiki-topic:en:909363",
-      "source_name": "EN Wikipedia：Biotinylation",
-      "source_url": "https://en.wikipedia.org/wiki/Biotinylation",
-      "title": "Biotinylation",
-      "excerpt": "In biochemistry, biotinylation is the process of covalently attaching biotin to a protein, nucleic acid or other molecule. Biotinylation is rapid, specific and is unlikely to disturb the natural function of the molecule due to the small size of biotin (MW = 244.31 g/mol). Biotin binds to streptavidin and avidin with an extremely high affinity, fast on-rate, and high specificity, and these interactions are exploited in many areas of biotechnology to isolate biotinylated molecules of interest. Biotin-binding to streptavidin and avidin is resistant to extremes of heat, pH and proteolysis, making capture of biotinylated molecules possible in a wide variety of environments. Also, multiple biotin molecules can be conjugated to a protein of interest, which allows binding of multiple streptavidin, avidin or neutravidin protein molecules and increases the sensitivity of detection of the protein of interest. There is a large number of biotinylation reagents available that exploit the wide range of possible labelling methods. Due to the strong affinity between biotin and streptavidin, the purification of biotinylated proteins has been a widely used approach to identify protein-protein interactions...",
-      "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.570020Z"
-    },
-    {
       "source_id": "wiki-topic:en:82060710",
       "source_name": "EN Wikipedia：Chinese Annals of History of Science and Technology",
       "source_url": "https://en.wikipedia.org/wiki/Chinese_Annals_of_History_of_Science_and_Technology",
@@ -753,41 +743,11 @@
       "added_at": "2026-07-12T11:39:40.573028Z"
     },
     {
-      "source_id": "wiki-topic:en:56312430",
-      "source_name": "EN Wikipedia：Breath-figure self-assembly",
-      "source_url": "https://en.wikipedia.org/wiki/Breath-figure_self-assembly",
-      "title": "Breath-figure self-assembly",
-      "excerpt": "Breath-figure self-assembly is the self-assembly process of the formation of honeycomb micro-scaled polymer patterns by the condensation of water droplets. \"Breath-figure\" refers to the fog that forms when water vapor contacts a cold surface. In the modern era systematic study of the process of breath-figures water condensation was carried out by Aitken and Rayleigh, among others. Half a century later the interest in the breath-figure formation was revived in a view of study of atmospheric processes, and in particular the extended study of a dew formation which turned out to be a complicated physical process. The experimental and theoretical study of dew formation has been carried out by Beysens. Thermodynamic and kinetic aspects of dew formation, which are crucial for understanding of formation of breath-figures inspired polymer patterns will be addressed further in detail. Breakthrough in the application of the breath-figures patterns was achieved in 1994–1995 when Widawski, François and Pitois reported manufacturing of polymer films with a self-organized, micro-scaled, honeycomb morphology using the breath-figures condensation process. The reported process was based on the rapidly...",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.574028Z"
-    },
-    {
-      "source_id": "wiki-topic:en:1710634",
-      "source_name": "EN Wikipedia：Dramaturgy (sociology)",
-      "source_url": "https://en.wikipedia.org/wiki/Dramaturgy_(sociology)",
-      "title": "Dramaturgy (sociology)",
-      "excerpt": "Dramaturgy is a sociological perspective that analyzes micro-sociological accounts of everyday social interactions through the analogy of performativity and theatrical dramaturgy, dividing such interactions between \"actors\", \"audience\" members, and various \"front\" and \"back\" stages. The term was first adapted into sociology from the theatre by Erving Goffman, who developed most of the related terminology and ideas in his 1956 book, The Presentation of Self in Everyday Life. Kenneth Burke, whom Goffman would later acknowledge as an influence, had earlier presented his notions of dramatism in 1945, which in turn derives from Shakespeare. The fundamental difference between Burke's and Goffman's view, however, is that Burke believed that life was in fact theatre, whereas Goffman viewed theatre as a metaphor. If people imagine themselves as directors observing what goes on in the theatre of everyday life, they are doing what Goffman called dramaturgical analysis, the study of social interaction in terms of theatrical performance. In dramaturgical sociology, it is argued that the elements of human interactions are dependent upon time, place, and audience. In other words, to Goffman, the self...",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.574028Z"
-    },
-    {
       "source_id": "wiki-topic:en:10389558",
       "source_name": "EN Wikipedia：Jack B. Newton",
       "source_url": "https://en.wikipedia.org/wiki/Jack_B._Newton",
       "title": "Jack B. Newton",
       "excerpt": "John Borden \"Jack\" Newton (13 August 1942 – 11 November 2025) was a Canadian astronomer, known for his publications and images in amateur astrophotography, and for his outreach to educate the public about astronomy. Newton is credited with the invention of \"cold camera\" astrophotography, which enabled enhanced images of galaxies, the Sun, and other astronomical objects taken from a ground-based, amateur-level telescope. His expert astrophotographs were exhibited by publication of six books and articles in astronomy, scientific, and popular magazines, and in public presentations. For his contributions to science and astronomy education over decades, Newton received national and regional astronomy awards in Canada, the United States, and England. With his wife, Alice, Jack Newton was devoted to preserving dark skies to reveal unique celestial objects to the public.",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.574028Z"
-    },
-    {
-      "source_id": "wiki-topic:en:164548",
-      "source_name": "EN Wikipedia：Annual cycle",
-      "source_url": "https://en.wikipedia.org/wiki/Annual_cycle",
-      "title": "Annual cycle",
-      "excerpt": "An annual cycle refers to a set of changes or events that uniformly, or consistently, take place at the same time of year. In biology, the annual cycle for plants and animals details behavioral and chemical changes that take place as the seasons advance. In business, a business cycle refers to the way modelling and analysis is applied to the periodic development and marketing of new products and services. In religion, the annual cycle refers to the various celebrations or memorials that occur in the same sequence from year to year. For example, in Christianity the liturgical year is an annual cycle, which for some Christian denominations is composed of the temporal cycle that tracks the events in the life of Christ, and the sanctoral cycle which tracks the various saint's days. Some Christian churches only observe the temporal cycle. In climatology, an annual cycle is the part of a measured quantity's fluctuation that is attributed to Earth's changing position in orbit over the course of the year. Such quantities might be influenced directly (e.g. incoming solar radiation at a point at the surface) or indirectly (e.g. stratospheric westerlies and easterlies over the winter and summer...",
       "category_hint": "科学",
       "source_rank": 2,
       "added_at": "2026-07-12T11:39:40.574028Z"
@@ -833,16 +793,6 @@
       "added_at": "2026-07-12T11:39:40.574028Z"
     },
     {
-      "source_id": "wiki-topic:en:38390513",
-      "source_name": "EN Wikipedia：Acoustoelastic effect",
-      "source_url": "https://en.wikipedia.org/wiki/Acoustoelastic_effect",
-      "title": "Acoustoelastic effect",
-      "excerpt": "The acoustoelastic effect is how the sound velocities (both longitudinal and shear wave velocities) of an elastic material change if subjected to an initial static stress field. This is a non-linear effect of the constitutive relation between mechanical stress and finite strain in a material of continuous mass. In classical linear elasticity theory small deformations of most elastic materials can be described by a linear relation between the applied stress and the resulting strain. This relationship is commonly known as the generalised Hooke's law. The linear elastic theory involves second order elastic constants (e.g. λ {\\displaystyle \\lambda } and μ {\\displaystyle \\mu } ) and yields constant longitudinal and shear sound velocities in an elastic material, not affected by an applied stress. The acoustoelastic effect on the other hand include higher order expansion of the constitutive relation (non-linear elasticity theory) between the applied stress and resulting strain, which yields longitudinal and shear sound velocities dependent of the stress state of the material. In the limit of an unstressed...",
-      "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.574028Z"
-    },
-    {
       "source_id": "wiki-topic:en:1060279",
       "source_name": "EN Wikipedia：Coping",
       "source_url": "https://en.wikipedia.org/wiki/Coping",
@@ -859,16 +809,6 @@
       "title": "Overprovisioning",
       "excerpt": "Overprovisioning is the technique of committing more of some resource than strictly necessary, in order to improve the performance or reliability of an engineered system. In specific contexts, overprovisioning can describe:",
       "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.574028Z"
-    },
-    {
-      "source_id": "wiki-topic:en:1676383",
-      "source_name": "EN Wikipedia：History of agricultural science",
-      "source_url": "https://en.wikipedia.org/wiki/History_of_agricultural_science",
-      "title": "History of agricultural science",
-      "excerpt": "The history of agricultural science is a sub-field of the history of agriculture which looks at the scientific advancement of techniques and understanding of agriculture. Early study of organic production in botanical gardens was continued in with agricultural experiment stations in several countries. Fertilizer is a major contribution to agriculture history increasing the fertility of the soil and minimizing nutrient loss. Scientific study of fertilizer was advanced significantly in 1840 with the publication Die organische Chemie in ihrer Anwendung auf Agrikulturchemie und Physiologie (Organic Chemistry in Its Applications to Agriculture and Physiology) by Justus von Liebig. One of Liebig's advances in agricultural science was the discovery of nitrogen as an essential plant nutrient.",
-      "category_hint": "历史",
       "source_rank": 2,
       "added_at": "2026-07-12T11:39:40.574028Z"
     },
@@ -899,16 +839,6 @@
       "title": "Assimilative capacity",
       "excerpt": "Assimilative capacity is the ability for pollutants to be absorbed by an environment without detrimental effects to the environment or those who use of it. Natural absorption into an environment is achieved through dilution, dispersion and removal through chemical or biological processes. The term assimilative capacity has been used interchangeably with environmental capacity, receiving capacity and absorptive capacity. It is used as a measurement perimeter in hydrology, meteorology and pedology for a variety of environments examples consist of: lakes, rivers, oceans, cities and soils. Assimilative capacity is a subjective measurement that is quantified by governments and institutions such as Environmental Protection Agency (EPA) of environments into guidelines. Using assimilative capacity as a guideline can help the allocation of resources while reducing the impact on organisms in an environment. This concept is paired with carrying capacity in order to facilitate sustainable development of city regions. Assimilative capacity has been critiqued as to its effectiveness due to ambiguity in its definition that can confuses readers and false assumptions that a small amount of pollutants...",
       "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.574028Z"
-    },
-    {
-      "source_id": "wiki-topic:en:3424459",
-      "source_name": "EN Wikipedia：Annealing (materials science)",
-      "source_url": "https://en.wikipedia.org/wiki/Annealing_(materials_science)",
-      "title": "Annealing (materials science)",
-      "excerpt": "In metallurgy and materials science, annealing is a heat treatment that alters the physical and sometimes chemical properties of a material to increase its ductility and reduce its hardness, making it more workable. It involves heating a material above its recrystallization temperature, maintaining a suitable temperature for an appropriate amount of time, and then cooling. In annealing, atoms migrate in the crystal lattice and the number of dislocations decreases, leading to a change in ductility and hardness. As the material cools it recrystallizes. For many alloys, including carbon steel, the crystal grain size and phase composition, which ultimately determine the material properties, are dependent on the heating rate and cooling rate. Hot working or cold working after the annealing process alters the metal structure, so further heat treatments may be used to achieve the properties required. With knowledge of the composition and phase diagram, heat treatment can be used to adjust from harder and more brittle to softer and more ductile. In the case of ferrous metals, such as steel, annealing is performed by heating the material (generally until glowing) for a while and then slowly...",
-      "category_hint": "科技",
       "source_rank": 2,
       "added_at": "2026-07-12T11:39:40.574028Z"
     },
@@ -1143,16 +1073,6 @@
       "added_at": "2026-07-12T11:39:40.576511Z"
     },
     {
-      "source_id": "wiki-topic:en:5393194",
-      "source_name": "EN Wikipedia：Operability",
-      "source_url": "https://en.wikipedia.org/wiki/Operability",
-      "title": "Operability",
-      "excerpt": "Operability is the ability to keep a piece of equipment, a system or a whole industrial installation in a safe and reliable functioning condition, according to pre-defined operational requirements. In the development and implementation of industrial and civil plants, operability is generally defined in terms of performance and reliability, as well as the traceability of information relevant to the design, procurement, construction and commissioning of facilities. In the context of systems engineering or information technology, operability refers to a system's ability to perform its functions effectively and efficiently, providing users with an accessible, intuitive, and obstacle-free interaction. Operability is considered one of the non-functional requirements (also called “ilities”), and is closely related to the concepts of reliability, availability, scalability, testability and maintainability. Operability also refers to whether or not a surgical operation can be performed to treat a patient with a reasonable degree of safety and chance of success.",
-      "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.576511Z"
-    },
-    {
       "source_id": "wiki-topic:en:30946399",
       "source_name": "EN Wikipedia：Displacement (linguistics)",
       "source_url": "https://en.wikipedia.org/wiki/Displacement_(linguistics)",
@@ -1221,16 +1141,6 @@
       "category_hint": "历史",
       "source_rank": 2,
       "added_at": "2026-07-12T20:09:32.387806Z"
-    },
-    {
-      "source_id": "wiki-topic:en:148550",
-      "source_name": "EN Wikipedia：Antiferromagnetism",
-      "source_url": "https://en.wikipedia.org/wiki/Antiferromagnetism",
-      "title": "Antiferromagnetism",
-      "excerpt": "Antiferromagnetism is a type of magnetic ordering, along with ferromagnetism and ferrimagnetism. In antiferromagnets the individual magnetic dipoles are oriented in a way such that the bulk of the material has a vanishing total magnetization. In the simplest model, as shown in the picture on the right, neighboring moments in an ordered lattice are oriented antiparallel to one another. Since there are multiple ways of arranging magnetic moments on a lattice (especially in three dimensions), there exist various types of antiferromagnetic ordering. The phenomenon of antiferromagnetism was first described by Lev Landau in 1933. Generally, antiferromagnetic order may exist at sufficiently low temperatures, but vanishes at and above the Néel temperature – named after Louis Néel, who had first identified this type of magnetic ordering. Above the Néel temperature, the material is typically paramagnetic.",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.388027Z"
     },
     {
       "source_id": "wiki-topic:en:81759455",
@@ -1633,16 +1543,6 @@
       "added_at": "2026-07-12T20:09:32.390699Z"
     },
     {
-      "source_id": "wiki-topic:en:38454300",
-      "source_name": "EN Wikipedia：Assisted migration",
-      "source_url": "https://en.wikipedia.org/wiki/Assisted_migration",
-      "title": "Assisted migration",
-      "excerpt": "Assisted migration is \"the intentional establishment of populations or meta-populations beyond the boundary of a species' historic range for the purpose of tracking suitable habitats through a period of changing climate....\" It is therefore a nature conservation tactic by which plants or animals are intentionally moved to geographic locations better suited to their present or future habitat needs and climate tolerances — and to which they are unable to migrate or disperse on their own. In conservation biology, the term first appeared in publications in 2004. It signified a type of species translocation intended to reduce biodiversity losses owing to climate change. In the context of endangered species management, assisted colonization (2007) and managed relocation (2009) were soon offered as synonyms — the latter in a paper entailing 22 coauthors. In forestry science and management, assisted migration is discussed in its own journals and from perspectives different from those of conservation biologists. This is, in part, because paleoecologists had already concluded that there were significant lags in northward movement of even the dominant canopy trees in North America during the thousands...",
-      "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.390802Z"
-    },
-    {
       "source_id": "wiki-topic:en:11054533",
       "source_name": "EN Wikipedia：Archard equation",
       "source_url": "https://en.wikipedia.org/wiki/Archard_equation",
@@ -1793,16 +1693,6 @@
       "added_at": "2026-07-12T20:09:32.392193Z"
     },
     {
-      "source_id": "wiki-topic:en:912426",
-      "source_name": "EN Wikipedia：Folk etymology",
-      "source_url": "https://en.wikipedia.org/wiki/Folk_etymology",
-      "title": "Folk etymology",
-      "excerpt": "Folk etymology is a change in a word or phrase resulting from the replacement of an unfamiliar form by a more familiar one through popular usage. The form or the meaning of an archaic, foreign, or otherwise unfamiliar word is reinterpreted as resembling more familiar words or morphemes. The term folk etymology is a loan translation from German Volksetymologie, coined by Ernst Förstemann in 1852. Folk etymology is a productive process in historical linguistics, language change, and social interaction. Reanalysis of a word's history or original form can affect its spelling, pronunciation, or meaning. This is frequently seen in relation to loanwords or words that have become archaic or obsolete. Folk/popular etymology may also refer to a popular false belief about the etymology of a word or phrase that does not lead to a change in the form or meaning. To disambiguate the usage of the term \"folk/popular etymology\", Ghil'ad Zuckermann proposes a clear-cut distinction between the derivational-only popular etymology (DOPE) and the generative popular etymology (GPE): the DOPE refers to a popular false etymology involving no neologization, and the GPE refers to neologization generated by a...",
-      "category_hint": "综合",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.392300Z"
-    },
-    {
       "source_id": "wiki-topic:en:31950486",
       "source_name": "EN Wikipedia：Aeroecology",
       "source_url": "https://en.wikipedia.org/wiki/Aeroecology",
@@ -1841,16 +1731,6 @@
       "category_hint": "综合",
       "source_rank": 2,
       "added_at": "2026-07-13T20:44:59.345037Z"
-    },
-    {
-      "source_id": "wiki-topic:en:35215882",
-      "source_name": "EN Wikipedia：Isothermal microcalorimetry",
-      "source_url": "https://en.wikipedia.org/wiki/Isothermal_microcalorimetry",
-      "title": "Isothermal microcalorimetry",
-      "excerpt": "Isothermal microcalorimetry (IMC) is a laboratory method for real-time monitoring and dynamic analysis of chemical, physical and biological processes. Over a period of hours or days, IMC determines the onset, rate, extent and energetics of such processes for specimens in small ampoules (e.g. 3–20 ml) at a constant set temperature (c. 15 °C–150 °C). IMC accomplishes this dynamic analysis by measuring and recording vs. elapsed time the net rate of heat flow (μJ/s = μW) to or from the specimen ampoule, and the cumulative amount of heat (J) consumed or produced. IMC is a powerful and versatile analytical tool for four closely related reasons: All chemical and physical processes are either exothermic or endothermic—produce or consume heat. The rate of heat flow is proportional to the rate of the process taking place. IMC is sensitive enough to detect and follow either slow processes (reactions proceeding at a few % per year) in a few grams of material, or processes which generate minuscule amounts of heat (e.g. metabolism of a few thousand living cells). IMC instruments generally have a huge dynamic range—heat flows as low as 1 μW and as high as 50,000 μW can be measured by the same instrument...",
-      "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-13T20:44:59.345352Z"
     },
     {
       "source_id": "wiki-topic:en:1004014",
@@ -1933,16 +1813,6 @@
       "added_at": "2026-07-13T20:44:59.346897Z"
     },
     {
-      "source_id": "wiki-topic:en:58687",
-      "source_name": "EN Wikipedia：Aggression",
-      "source_url": "https://en.wikipedia.org/wiki/Aggression",
-      "title": "Aggression",
-      "excerpt": "Aggression is behavior aimed at opposing or attacking something or someone. Though often done with the intent to cause harm, some might channel it into creative and practical outlets. It may occur either reactively or without provocation. In humans, aggression can be caused by various triggers. For example, aggression may result from built-up frustration due to blocked goals or perceived disrespect. Human aggression can be classified into direct and indirect aggression; while the former is characterized by physical or verbal behavior intended to cause harm to someone, the latter is characterized by behavior intended to harm the social relations of an individual or group. In definitions commonly used in the social sciences and behavioral sciences, aggression is an action or response by an individual that delivers something unpleasant to another person. Some definitions include that the individual must intend to harm another person. In an interdisciplinary perspective, aggression is regarded as \"an ensemble of mechanisms formed during the course of evolution in order to assert oneself, relatives, or friends against others, to gain or to defend resources (ultimate causes) by harmful damaging...",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-13T20:44:59.347058Z"
-    },
-    {
       "source_id": "wiki-topic:en:580",
       "source_name": "EN Wikipedia：Astronomer",
       "source_url": "https://en.wikipedia.org/wiki/Astronomer",
@@ -2011,16 +1881,6 @@
       "category_hint": "科技",
       "source_rank": 2,
       "added_at": "2026-07-13T20:44:59.347908Z"
-    },
-    {
-      "source_id": "wiki-topic:en:24383048",
-      "source_name": "EN Wikipedia：Cherenkov radiation",
-      "source_url": "https://en.wikipedia.org/wiki/Cherenkov_radiation",
-      "title": "Cherenkov radiation",
-      "excerpt": "Cherenkov radiation () is an electromagnetic radiation emitted when a charged particle (such as an electron) passes through a dielectric medium (such as distilled water) at a speed greater than the phase velocity (speed of propagation of a wavefront in a medium) of light in that medium. A classic example of Cherenkov radiation is the characteristic blue glow of an underwater nuclear reactor. Its cause is similar to the cause of a sonic boom, the sharp sound heard when faster-than-sound movement occurs. The phenomenon is named after Soviet physicist Pavel Cherenkov.",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-13T20:44:59.347998Z"
     },
     {
       "source_id": "wiki-topic:en:10523316",
@@ -2111,16 +1971,6 @@
       "category_hint": "生活",
       "source_rank": 2,
       "added_at": "2026-07-13T20:44:59.349628Z"
-    },
-    {
-      "source_id": "wiki-topic:en:64692781",
-      "source_name": "EN Wikipedia：Gravitational memory effect",
-      "source_url": "https://en.wikipedia.org/wiki/Gravitational_memory_effect",
-      "title": "Gravitational memory effect",
-      "excerpt": "Gravitational memory effects, also known as gravitational-wave memory effects, are predicted persistent changes in the relative position of pairs of masses in space due to the passing of a gravitational wave (GW). Detection of gravitational memory effects has been suggested as a way of validating general relativity. A linear approximation of Einstein's equations was first proposed in 1974 by the Soviet scientists Yakov Zeldovich and A. G. Polnarev; Vladimir Braginsky and L. P. Grishchuk subsequently called these memory effects in 1985. The non-linear memory effect was first proposed in the 1990s by Demetrios Christodoulou. In 2014 Andrew Strominger and Alexander Zhiboedov showed that the formula related to the memory effect is the Fourier transform in time of Steven Weinberg's soft graviton theorem. In general, memory effects are related to asymptotic behavior of the gravitational fields, as expected in Bondi–Metzner–Sachs group through the infrared triangle. At null infinity, passing GWs leave a permanent distortion in spacetime, changing distances between objects and shifting observers. Observers who initially agree on the origin of their coordinate system may not agree after the...",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-13T20:44:59.349851Z"
     },
     {
       "source_id": "wiki-topic:en:33548640",
@@ -2223,16 +2073,6 @@
       "added_at": "2026-07-14T20:46:40.125169Z"
     },
     {
-      "source_id": "wiki-topic:en:73664834",
-      "source_name": "EN Wikipedia：Epiphrase",
-      "source_url": "https://en.wikipedia.org/wiki/Epiphrase",
-      "title": "Epiphrase",
-      "excerpt": "An epiphrase (meaning \"what it is said in addition\", from ancient Greek ἐπί/epí \"in addition\" and φράσις/phrásis \"phrase\") is a figure of speech that consists of joining one or more sentence segments to the end of a syntactically completed sentence or group as a conclusion or to emphasize a fact. The epiphrase can be used in two ways. It can indeed be used to add a word to an already finished speech or can allow the author to include a personal comment in their speech. Identifying it can be difficult as it is like other figures such as the epiphonema, the parenthesis, or the hyperbaton. Its stylistic resources can be an idea or word amplification, a feeling or reflection highlighting, and the effect of distance or on the contrary of approaching the reader, with an often comic or humorous intention.",
-      "category_hint": "综合",
-      "source_rank": 2,
-      "added_at": "2026-07-14T20:46:40.125333Z"
-    },
-    {
       "source_id": "wiki-topic:en:29265347",
       "source_name": "EN Wikipedia：Food choice",
       "source_url": "https://en.wikipedia.org/wiki/Food_choice",
@@ -2241,16 +2081,6 @@
       "category_hint": "生活",
       "source_rank": 2,
       "added_at": "2026-07-14T20:46:40.125494Z"
-    },
-    {
-      "source_id": "wiki-topic:en:40735",
-      "source_name": "EN Wikipedia：Attenuation",
-      "source_url": "https://en.wikipedia.org/wiki/Attenuation",
-      "title": "Attenuation",
-      "excerpt": "In physics, attenuation – colloquially, damping – is the gradual loss of flux intensity through a medium. For instance, dark glasses attenuate sunlight, lead attenuates X-rays, and water and air attenuate both light and sound at variable attenuation rates. Hearing protectors help reduce acoustic flux from flowing into the ears. This phenomenon is called acoustic attenuation and is measured in decibels (dBs). In electrical engineering and telecommunications, attenuation affects the propagation of waves and signals in electrical circuits, in optical fibers, and in air. Electrical attenuators and optical attenuators are commonly manufactured components in this field.",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-14T20:46:40.125625Z"
     },
     {
       "source_id": "wiki-topic:en:181592",
@@ -2271,16 +2101,6 @@
       "category_hint": "生物",
       "source_rank": 2,
       "added_at": "2026-07-14T20:46:40.125905Z"
-    },
-    {
-      "source_id": "wiki-topic:en:52634",
-      "source_name": "EN Wikipedia：Baking",
-      "source_url": "https://en.wikipedia.org/wiki/Baking",
-      "title": "Baking",
-      "excerpt": "Baking is a method of preparing food or clay that uses dry heat, typically in an oven, hot ashes, or on hot stones. The most commonly baked food is bread. Heat is gradually transferred from the surface of unbaked goods to their center, typically at elevated temperatures surpassing 300 °F (148 °C). Dry heat cooking imparts a distinctive richness to foods through the processes of caramelization and surface browning. As heat travels through, it transforms batters and doughs into baked goods and more with a firm dry crust and a softer center. Baking can be combined with grilling to produce a hybrid barbecue variant by using both methods simultaneously, or one after the other. Baking is related to barbecuing because the concept of the masonry oven is similar to that of a smoke pit. Baking has traditionally been performed at home for day-to-day meals and in bakeries and restaurants for local consumption. When production was industrialized, baking was automated by machines in large factories. The art of baking remains a fundamental skill and is important for nutrition, as baked goods, especially bread, are a common and important food, both from an economic and cultural point of view. A person...",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-14T20:46:40.126109Z"
     },
     {
       "source_id": "wiki-topic:en:1254336",
@@ -2343,16 +2163,6 @@
       "added_at": "2026-07-14T20:46:40.126722Z"
     },
     {
-      "source_id": "wiki-topic:en:18053246",
-      "source_name": "EN Wikipedia：History of condoms",
-      "source_url": "https://en.wikipedia.org/wiki/History_of_condoms",
-      "title": "History of condoms",
-      "excerpt": "The history of condoms goes back at least several centuries, and perhaps beyond. For most of their history, condoms have been used both as a method of birth control, and as a protective measure against sexually transmitted infections such as syphilis, gonorrhea, chlamydia, hepatitis B and more recently HIV/AIDS. Condoms have been made from a variety of materials; prior to the 19th century, chemically treated linen and animal tissue (intestine or bladder) are the best documented varieties. Rubber condoms gained popularity in the mid-19th century, and in the early 20th century major advances were made in manufacturing techniques. Prior to the introduction of the combined oral contraceptive pill, condoms were the most popular birth control method in the Western world. In the second half of the 20th century, the low cost of condoms contributed to their importance in family planning programs throughout the developing world. Condoms have also become increasingly important in efforts to fight the AIDS pandemic.",
-      "category_hint": "历史",
-      "source_rank": 2,
-      "added_at": "2026-07-14T20:46:40.126870Z"
-    },
-    {
       "source_id": "wiki-topic:en:20324344",
       "source_name": "EN Wikipedia：Constructed language",
       "source_url": "https://en.wikipedia.org/wiki/Constructed_language",
@@ -2383,16 +2193,6 @@
       "added_at": "2026-07-14T20:46:40.127224Z"
     },
     {
-      "source_id": "wiki-topic:en:6012335",
-      "source_name": "EN Wikipedia：History of biotechnology",
-      "source_url": "https://en.wikipedia.org/wiki/History_of_biotechnology",
-      "title": "History of biotechnology",
-      "excerpt": "Biotechnology is the application of scientific and engineering principles to the processing of materials by biological agents in order to provide goods and services. From its inception, biotechnology has maintained a close relationship with society. Although now most often associated with the development of drugs, historically biotechnology has been principally associated with food, addressing such issues as malnutrition and famine. The history of biotechnology begins with zymotechnology, which commenced with a focus on brewing techniques for beer. By World War I, however, zymotechnology would expand to tackle larger industrial issues, and the potential of industrial fermentation gave rise to biotechnology. However, both the single-cell protein and gasohol projects failed to progress due to varying issues including public resistance, a changing economic scene, and shifts in political power. Yet the formation of a new field, genetic engineering, would soon bring biotechnology to the forefront of science in society, and the intimate relationship between the scientific community, the public, and the government would ensue. These debates gained exposure in 1975 at the Asilomar Conference...",
-      "category_hint": "历史",
-      "source_rank": 2,
-      "added_at": "2026-07-14T20:46:40.127385Z"
-    },
-    {
       "source_id": "wiki-topic:en:44621719",
       "source_name": "EN Wikipedia：Bismuth–indium",
       "source_url": "https://en.wikipedia.org/wiki/Bismuth%E2%80%93indium",
@@ -2411,26 +2211,6 @@
       "category_hint": "综合",
       "source_rank": 2,
       "added_at": "2026-07-14T20:46:40.127633Z"
-    },
-    {
-      "source_id": "wiki-topic:en:8735392",
-      "source_name": "EN Wikipedia：Blowing agent",
-      "source_url": "https://en.wikipedia.org/wiki/Blowing_agent",
-      "title": "Blowing agent",
-      "excerpt": "A blowing agent is a substance which is capable of producing a cellular structure via a foaming process in a variety of materials that undergo hardening or phase transition, such as polymers, plastics, and metals. They are typically applied when the blown material is in a liquid stage. The cellular structure in a matrix reduces density, increasing thermal and acoustic insulation, while increasing relative stiffness of the original polymer. Blowing agents (also known as 'pneumatogens') or related mechanisms to create holes in a matrix producing cellular materials, have been classified as follows: Physical blowing agents include CFCs (however, these are ozone depletants, banned by the Montreal Protocol of 1987), HCFCs (replaced CFCs, but are still ozone depletants, therefore being phased out), hydrocarbons (e.g. pentane, isopentane, cyclopentane), and liquid CO2. The bubble/foam-making process is irreversible and endothermic, i.e. it needs heat (e.g. from a melt process or the chemical exotherm due to cross-linking), to volatilize a liquid blowing agent. However, on cooling process, the blowing agent will condense, which is a reversible process. Chemical blowing agents include isocyanate...",
-      "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-14T20:46:40.127789Z"
-    },
-    {
-      "source_id": "wiki-topic:en:1413411",
-      "source_name": "EN Wikipedia：Biofouling",
-      "source_url": "https://en.wikipedia.org/wiki/Biofouling",
-      "title": "Biofouling",
-      "excerpt": "Biofouling or biological fouling is a phenomenon affecting human-made objects in the presence of water, wherein microorganisms, plants, algae, or small animals accumulate on the objects' surfaces and impede their functionality. Such accumulation is referred to as epibiosis when the host surface is another organism and the relationship is not parasitic. Since biofouling can occur almost anywhere water is present, it poses risks to a wide variety of objects, such as watercraft hulls and equipment, medical devices and membranes, as well as to entire industries, such as paper manufacturing, food processing, underwater construction, and desalination plants. Anti-fouling is the ability of specifically designed materials (such as toxic biocide paints, or non-toxic paints) to remove or prevent biofouling. The buildup of biofouling on marine vessels poses a significant problem. In some instances, the hull structure and propulsion systems can be damaged. The accumulation of biofoulers on hulls can increase both the hydrodynamic volume of a vessel and the hydrodynamic friction, leading to increased drag of up to 60%. The drag increase has been seen to decrease speeds by up to 10%, which can require...",
-      "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-14T20:46:40.127949Z"
     },
     {
       "source_id": "wiki-topic:en:39219551",
@@ -2473,16 +2253,6 @@
       "added_at": "2026-07-14T20:46:40.128352Z"
     },
     {
-      "source_id": "wiki-topic:en:295888",
-      "source_name": "EN Wikipedia：History of calendars",
-      "source_url": "https://en.wikipedia.org/wiki/History_of_calendars",
-      "title": "History of calendars",
-      "excerpt": "The history of calendars covers practices with ancient roots as people created and used various methods to keep track of days and larger divisions of time. Calendars commonly serve both cultural and practical purposes and are often connected to astronomy and agriculture. Archeologists have reconstructed methods of timekeeping that go back to prehistoric times at least as old as the Neolithic. The natural units for timekeeping used by most historical societies are the day, the solar year and the lunation. Calendars are explicit schemes used for timekeeping. The first historically attested and formulized calendars date to the Bronze Age, dependent on the development of writing in the ancient Near East. The Yoruba people of West Africa have one of the oldest recorded calendars in human history. It is one of the oldest verified calendar systems in the world used by a continuing culture. Known as Kojoda, the Yoruba calendar dates back over 10,068 years as of 2026, meaning its origin can be traced to approximately 8042 BC. In Victoria, Australia, a Wurdi Youang stone arrangement undergoing research could date back more than 11,000 years. In 2013, archaeologists unearthed ancient evidence...",
-      "category_hint": "历史",
-      "source_rank": 2,
-      "added_at": "2026-07-14T20:46:40.128517Z"
-    },
-    {
       "source_id": "wiki-topic:en:69076183",
       "source_name": "EN Wikipedia：Earth Science Decadal Survey",
       "source_url": "https://en.wikipedia.org/wiki/Earth_Science_Decadal_Survey",
@@ -2491,16 +2261,6 @@
       "category_hint": "科学",
       "source_rank": 2,
       "added_at": "2026-07-14T20:46:40.128754Z"
-    },
-    {
-      "source_id": "wiki-topic:en:25992931",
-      "source_name": "EN Wikipedia：Attention seeking",
-      "source_url": "https://en.wikipedia.org/wiki/Attention_seeking",
-      "title": "Attention seeking",
-      "excerpt": "Attention seeking behavior is to act in a way that is likely to elicit attention. Attention seeking behavior as a pathological personality trait is defined in the DSM-5 as \"engaging in behavior designed to attract notice and to make oneself the focus of others' attention and admiration\". This definition does not ascribe a motivation to the behavior and assumes a human actor, although the term \"attention seeking\" sometimes also assumes a motive of seeking validation. People are thought to engage in both positive and negative attention seeking behavior independent of the actual benefit or harm to health. In line with much research and a dynamic self-regulatory processing model of narcissism, motivations for attention seeking are considered to be driven by self-consciousness and thus an externalization of personality rather than internal and self-motivated behavior. Attention seeking is often caused by threats to one's self-concept and the need for social acceptance. This type of influence on behavior can result in a potential loss of a person's sense of agency, personality disorder and the behavior associated with these conditions. Enjoying the attention of others is socially acceptable...",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-14T20:46:40.128914Z"
     },
     {
       "source_id": "wiki-topic:en:81301190",

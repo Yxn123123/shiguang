@@ -1,17 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-07-15T18:41:22.246540Z",
+  "updated_at": "2026-07-15T18:44:13.781971Z",
   "candidates": [
-    {
-      "source_id": "nasa-apod:2006-09-11",
-      "source_name": "NASA Astronomy Picture of the Day：Eclipsed Moon Rising Over England",
-      "source_url": "https://apod.nasa.gov/apod/image/0609/eclipse_lee.jpg",
-      "title": "Eclipsed Moon Rising Over England",
-      "excerpt": "Last Thursday, part of our Moon turned dark. The cause, this time, was not a partial lunar phase -- the Moon was full -- but rather that part of the Moon went into Earth's shadow. The resulting partial lunar eclipse was visible from the eastern Atlantic Ocean through Europe, Africa, and Asia and into the western Pacific Ocean. The darkest part of the lunar eclipse, when part of the Moon was completely shielded from sunlight, lasted about 90 minutes. Pictured above, a partially eclipsed Moon is seen rising over an estate in Huddersfield, England. The above image was taken far away from the house in the foreground, as only this would allow it to appear as angularly small as the half-degree Moon far in the background. A setting twilight Sun lit the foreground. The next eclipse of the Moon will occur in March 2007.",
-      "category_hint": "科学",
-      "source_rank": 1,
-      "added_at": "2026-07-12T11:39:40.566020Z"
-    },
     {
       "source_id": "wiki-topic:en:77737401",
       "source_name": "EN Wikipedia：Anticipatory obedience",
@@ -109,16 +99,6 @@
       "title": "Geodesy",
       "excerpt": "Geodesy (, jee-OD-iss-ee) or geodetics is the science of measuring and representing the geometry, gravity, and spatial orientation of the Earth in temporally varying 3D space. It is called planetary geodesy when studying other astronomical bodies, such as planets or circumplanetary systems. Geodetic job titles include geodesist and geodetic surveyor. Through highly accurate observations, geodesy provides the scientific basis for mapping, navigation, and positioning, and supports applications such as infrastructure development (including construction), natural resource management, mineral exploration, and geophysics. Its measurements underpin modern geospatial reference frames used in transportation, satellite systems, global trade, and timekeeping. Geodynamic phenomena, including crustal motion, tides, and polar motion, are studied through global and national control networks, space geodesy and terrestrial geodetic techniques, and the use of datums and coordinate systems.",
       "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.567001Z"
-    },
-    {
-      "source_id": "wiki-topic:en:65586806",
-      "source_name": "EN Wikipedia：Museum of Everyday Life",
-      "source_url": "https://en.wikipedia.org/wiki/Museum_of_Everyday_Life",
-      "title": "Museum of Everyday Life",
-      "excerpt": "The Museum of Everyday Life was founded in 2011 by Clare Dolan in Glover, Vermont. It is an independently run museum whose mission is to capture a “...slow-motion cataloguing of the quotidian–a detailed, theatrical expression of gratitude and love for the minuscule and unglamorous experience of daily life in all its forms.” The museum's focus is to highlight the beauty in everyday objects that are traditionally overlooked or taken for granted and does so by creating public exhibits, writing articles and manifestos in their philosophy department, and by creating and doing live performances. The museum, housed in a 70-year-old barn on Dolan's personal property, operates using the honor system where visitors are asked to turn on and off the lights as they come and go and are asked to make a donation instead of being charged admission.",
-      "category_hint": "生活",
       "source_rank": 2,
       "added_at": "2026-07-12T11:39:40.567001Z"
     },
@@ -513,16 +493,6 @@
       "added_at": "2026-07-12T11:39:40.571009Z"
     },
     {
-      "source_id": "wiki-topic:en:16250616",
-      "source_name": "EN Wikipedia：Epicentral distance",
-      "source_url": "https://en.wikipedia.org/wiki/Epicentral_distance",
-      "title": "Epicentral distance",
-      "excerpt": "Epicentral distance refers to the ground distance from the epicenter to a specified point. Generally, the smaller the epicentral distance of an earthquake of the same scale, the heavier the damage caused by the earthquake. On the contrary, with the increase of epicentral distance, the damage caused by the earthquake is gradually reduced. Due to the limitation of seismometers designed in the early years, some seismic magnitude scales began to show errors when the epicentral distance exceeded a certain range from the observation points. In seismology, the unit of far earthquakes is usually ° (degree), while the unit of near earthquakes is km. But regardless of distance, Δ is used as a symbol for the epicentral distance.",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.572028Z"
-    },
-    {
       "source_id": "wiki-topic:en:2030477",
       "source_name": "EN Wikipedia：Connections (British TV series)",
       "source_url": "https://en.wikipedia.org/wiki/Connections_(British_TV_series)",
@@ -599,16 +569,6 @@
       "title": "Solo living",
       "excerpt": "Solo living refers to the domestic situation of individuals who live alone. This has received attention from behavioral experts and researchers, in regard to how to help address the personal needs of such individuals, and to provide them with resources which can be beneficial. Various published articles address practical advice and methods for individuals who live alone, in order to help them find beneficial ways for improving various parts of daily life.",
       "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.572028Z"
-    },
-    {
-      "source_id": "wiki-topic:en:60928950",
-      "source_name": "EN Wikipedia：Bug (engineering)",
-      "source_url": "https://en.wikipedia.org/wiki/Bug_(engineering)",
-      "title": "Bug (engineering)",
-      "excerpt": "In engineering, a bug is a design defect in an engineered system—such as software, computer hardware, electronics, circuitry or machinery—that causes an undesired result. Defects outside the scope of design, such as a server crash due to a natural disaster, are not bugs, nor do bugs occur in natural systems such as the weather. Bug is a non-technical term; more formal terms, besides defect, are error, flaw, and fault. Bugs may be persistent, sporadic, intermittent, or transient; in computing, crashes, freezes, and glitches are types of bugs. Since desirability is subjective, what is undesirable to one may be desirable to another, hence the often comical rejoinder occasionally offered to the report of a bug, \"It's not a bug, it's a feature.\"",
-      "category_hint": "科技",
       "source_rank": 2,
       "added_at": "2026-07-12T11:39:40.572028Z"
     },
@@ -913,16 +873,6 @@
       "added_at": "2026-07-12T11:39:40.575563Z"
     },
     {
-      "source_id": "wiki-topic:en:21426616",
-      "source_name": "EN Wikipedia：Proofreading (biology)",
-      "source_url": "https://en.wikipedia.org/wiki/Proofreading_(biology)",
-      "title": "Proofreading (biology)",
-      "excerpt": "The term proofreading is used in genetics to refer to the error-correcting processes, first proposed by John Hopfield and Jacques Ninio, involved in DNA replication, immune system specificity, and enzyme-substrate recognition among many other processes that require enhanced specificity. The kinetic proofreading mechanisms of Hopfield and Ninio are non-equilibrium active processes that consume ATP to enhance specificity of various biochemical reactions. In bacteria, all three DNA polymerases (I, II and III) have the ability to proofread, using 3' → 5' exonuclease activity. When an incorrect base pair is recognized, DNA polymerase reverses its direction by one base pair of DNA and excises the mismatched base. Following base excision, the polymerase can re-insert the correct base and replication can continue. In eukaryotes, only the polymerases that deal with the elongation (delta and epsilon) have proofreading ability (3' → 5' exonuclease activity).Proofreading also occurs in mRNA translation for protein synthesis. In this case, one mechanism is the release of any incorrect aminoacyl-tRNA before peptide bond formation. The extent of proofreading in DNA replication determines the mutation...",
-      "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.575563Z"
-    },
-    {
       "source_id": "wiki-topic:en:714602",
       "source_name": "EN Wikipedia：Dérive",
       "source_url": "https://en.wikipedia.org/wiki/D%C3%A9rive",
@@ -1023,16 +973,6 @@
       "added_at": "2026-07-12T11:39:40.576511Z"
     },
     {
-      "source_id": "wiki-topic:en:334986",
-      "source_name": "EN Wikipedia：Allopatric speciation",
-      "source_url": "https://en.wikipedia.org/wiki/Allopatric_speciation",
-      "title": "Allopatric speciation",
-      "excerpt": "Allopatric speciation is a mode of speciation that occurs when biological populations become geographically isolated from each other to an extent that prevents or interferes with gene flow. Its name comes from Ancient Greek ἄλλος (állos) 'other' and πατρίς (patrís) 'fatherland', and is also called geographic speciation, vicariant speciation, and its earlier name the dumbbell model. Various geographic changes can arise such as the movement of continents, and the formation of mountains, islands, bodies of water, or glaciers. Human activity such as agriculture or developments can also change the distribution of species populations. These factors can substantially alter a region's geography, resulting in the separation of a species population into isolated subpopulations. The vicariant populations then undergo genetic changes as they become subjected to different selective pressures, experience genetic drift, and accumulate different mutations in the separated populations' gene pools. The barriers prevent the exchange of genetic information between the two populations leading to reproductive isolation. If the two populations come into contact they will be unable to reproduce—effectively...",
-      "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.576511Z"
-    },
-    {
       "source_id": "wiki-topic:en:24747438",
       "source_name": "EN Wikipedia：Avoidance coping",
       "source_url": "https://en.wikipedia.org/wiki/Avoidance_coping",
@@ -1069,16 +1009,6 @@
       "title": "Adhesion",
       "excerpt": "Adhesion is the tendency of dissimilar particles or surfaces to cling to one another. (Cohesion refers to the tendency of similar or identical particles and surfaces to cling to one another.) The forces that cause adhesion and cohesion can be divided into several types. The intermolecular forces responsible for the function of various kinds of stickers and sticky tape fall into the categories of chemical adhesion, dispersive adhesion, and diffusive adhesion. In addition to the cumulative magnitudes of these intermolecular forces, there are also certain emergent mechanical effects.",
       "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.576511Z"
-    },
-    {
-      "source_id": "wiki-topic:en:30946399",
-      "source_name": "EN Wikipedia：Displacement (linguistics)",
-      "source_url": "https://en.wikipedia.org/wiki/Displacement_(linguistics)",
-      "title": "Displacement (linguistics)",
-      "excerpt": "In linguistics, displacement is the capability of language to communicate about things that are not immediately present (spatially or temporally); i.e., things that are either not here or are not here now. In 1960, Charles F. Hockett proposed displacement as one of 13 design features of language that distinguish human language from animal communication systems (ACSs): Man is apparently almost unique in being able to talk about things that are remote in space or time (or both) from where the talking goes on. This feature—\"displacement\"—seems to be definitely lacking in the vocal signaling of man's closest relatives, though it does occur in bee-dancing.",
-      "category_hint": "综合",
       "source_rank": 2,
       "added_at": "2026-07-12T11:39:40.576511Z"
     },
@@ -1131,16 +1061,6 @@
       "category_hint": "生物",
       "source_rank": 2,
       "added_at": "2026-07-12T20:09:32.387745Z"
-    },
-    {
-      "source_id": "wiki-topic:en:47561162",
-      "source_name": "EN Wikipedia：History of Sulzer diesel engines",
-      "source_url": "https://en.wikipedia.org/wiki/History_of_Sulzer_diesel_engines",
-      "title": "History of Sulzer diesel engines",
-      "excerpt": "This article covers the History of Sulzer diesel engines from 1898 to 1997. Sulzer Brothers foundry was established in Winterthur, Switzerland, in 1834 by Johann Jakob Sulzer-Neuffert and his two sons, Johann Jakob and Salomon. Products included cast iron, firefighting pumps and textile machinery. Rudolf Diesel was educated in Augsburg and Munich and his works training was with Sulzer, and his later co-operation with Sulzer led to the construction of the first Sulzer diesel engine in 1898. In 2015, the Sulzer company lives on but it no longer manufactures diesel engines, having sold the diesel engine business to Wärtsilä in 1997.",
-      "category_hint": "历史",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.387806Z"
     },
     {
       "source_id": "wiki-topic:en:81759455",
@@ -1243,16 +1163,6 @@
       "added_at": "2026-07-12T20:09:32.388635Z"
     },
     {
-      "source_id": "wiki-topic:en:18977457",
-      "source_name": "EN Wikipedia：Efficiency of food conversion",
-      "source_url": "https://en.wikipedia.org/wiki/Efficiency_of_food_conversion",
-      "title": "Efficiency of food conversion",
-      "excerpt": "The efficiency of conversion of ingested food to unit of body substance (ECI, also termed \"growth efficiency\") is an index measure of food fuel efficiency in animals. The ECI is a rough scale of how much of the food ingested is converted into growth in the animal's mass. It can be used to compare the growth efficiency as measured by the weight gain of different animals from consuming a given quantity of food relative to its size. The ECI effectively represents efficiencies of both digestion (approximate digestibility or AD) and metabolic efficiency, or how well digested food is converted to mass (efficiency of conversion of digested food or ECD). The formula for the efficiency of food fuel is thus: E C I = A D × E C D {\\displaystyle ECI=AD\\times ECD} These concepts are also very closely related to the feed conversion ratio (FCR) and feed efficiency.",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.388713Z"
-    },
-    {
       "source_id": "wiki-topic:en:81782559",
       "source_name": "EN Wikipedia：Alaknanda Galaxy",
       "source_url": "https://en.wikipedia.org/wiki/Alaknanda_Galaxy",
@@ -1341,16 +1251,6 @@
       "category_hint": "科学",
       "source_rank": 2,
       "added_at": "2026-07-12T20:09:32.389293Z"
-    },
-    {
-      "source_id": "wiki-topic:en:11815",
-      "source_name": "EN Wikipedia：Food additive",
-      "source_url": "https://en.wikipedia.org/wiki/Food_additive",
-      "title": "Food additive",
-      "excerpt": "Food additives are substances added to food to preserve flavor or enhance taste, appearance, or other sensory qualities. Some additives, such as vinegar (pickling), salt (salting), smoke (smoking) and sugar (crystallization), have been used for centuries to preserve food. This allows for longer-lasting foods, such as bacon, sweets, and wines. With the advent of ultra-processed foods in the late 20th century, many additives having both natural and artificial origin were introduced. Food additives also include substances that may be introduced to food indirectly (called \"indirect additives\") in the manufacturing process through packaging, storage or transport. In Europe and internationally, many additives are designated with E numbers, while in the United States, additives in amounts deemed safe for human consumption are designated as GRAS.",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.389337Z"
     },
     {
       "source_id": "wiki-topic:en:7807",
@@ -1451,16 +1351,6 @@
       "category_hint": "生物",
       "source_rank": 2,
       "added_at": "2026-07-12T20:09:32.390005Z"
-    },
-    {
-      "source_id": "wiki-topic:en:23535218",
-      "source_name": "EN Wikipedia：Industrial engineering",
-      "source_url": "https://en.wikipedia.org/wiki/Industrial_engineering",
-      "title": "Industrial engineering",
-      "excerpt": "Industrial engineering (IE) is concerned with the design, improvement and installation of integrated systems of people, materials, information, equipment and energy. It draws upon specialized knowledge and skill in the mathematical, physical, and social sciences together with the principles and methods of engineering analysis and design, to specify, predict, and evaluate the results to be obtained from such systems. Industrial engineering is a branch of engineering that focuses on optimizing complex processes, systems, and organizations by improving efficiency, productivity, and quality. It combines principles from engineering, mathematics, and business to design, analyze, and manage systems that involve people, materials, information, equipment, and energy. Industrial engineers aim to reduce waste, streamline operations, and enhance overall performance across various industries, including manufacturing, healthcare, logistics, and service sectors. Industrial engineers are employed in numerous industries, such as automobile manufacturing, aerospace, healthcare, forestry, finance, leisure, and education. Industrial engineering combines the physical and social sciences together with engineering...",
-      "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.390060Z"
     },
     {
       "source_id": "wiki-topic:en:37232",
@@ -1573,16 +1463,6 @@
       "added_at": "2026-07-12T20:09:32.391010Z"
     },
     {
-      "source_id": "wiki-topic:en:1758866",
-      "source_name": "EN Wikipedia：Accelerating change",
-      "source_url": "https://en.wikipedia.org/wiki/Accelerating_change",
-      "title": "Accelerating change",
-      "excerpt": "In futures studies and the history of technology, accelerating change is the observed exponential nature of the rate of technological change in recent history, which may suggest faster and more profound change in the future and may or may not be accompanied by equally profound social and cultural change.",
-      "category_hint": "历史",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.391033Z"
-    },
-    {
       "source_id": "wiki-topic:en:6073894",
       "source_name": "EN Wikipedia：Fermentation",
       "source_url": "https://en.wikipedia.org/wiki/Fermentation",
@@ -1683,16 +1563,6 @@
       "added_at": "2026-07-12T20:09:32.392089Z"
     },
     {
-      "source_id": "wiki-topic:en:29819979",
-      "source_name": "EN Wikipedia：Cognitive hearing science",
-      "source_url": "https://en.wikipedia.org/wiki/Cognitive_hearing_science",
-      "title": "Cognitive hearing science",
-      "excerpt": "Cognitive hearing science is an interdisciplinary science field concerned with the physiological and cognitive basis of hearing and its interplay with signal processing in hearing aids. The field includes genetics, physiology, medical and technical audiology, cognitive neuroscience, cognitive psychology, linguistics and social psychology. Theoretically the research in cognitive hearing science combines a physiological model for the information transfer from the outer auditory organ to the auditory cerebral cortex, and a cognitive model for how language comprehension is influenced by the interplay between the incoming language signal and the individual's cognitive skills, especially the long-term memory and the working memory. Researchers examine the interplay between type of hearing impairment or deafness, type of signal processing in different hearing aids, type of listening environment and the individual's cognitive skills. Research in cognitive hearing science has importance for the knowledge about different types of hearing impairment and its effects, as for the possibilities to determine which individuals can make use of certain type of signal processing in hearing aid or cochlear...",
-      "category_hint": "综合",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.392193Z"
-    },
-    {
       "source_id": "wiki-topic:en:31950486",
       "source_name": "EN Wikipedia：Aeroecology",
       "source_url": "https://en.wikipedia.org/wiki/Aeroecology",
@@ -1791,26 +1661,6 @@
       "category_hint": "生物",
       "source_rank": 2,
       "added_at": "2026-07-13T20:44:59.346637Z"
-    },
-    {
-      "source_id": "wiki-topic:en:26011932",
-      "source_name": "EN Wikipedia：Barsanti–Matteucci engine",
-      "source_url": "https://en.wikipedia.org/wiki/Barsanti%E2%80%93Matteucci_engine",
-      "title": "Barsanti–Matteucci engine",
-      "excerpt": "The Barsanti-Matteucci engine was the first invented internal combustion engine using the free-piston principle in an atmospheric two cycle engine. In late 1851 or early 1852 Eugenio Barsanti, a professor of mathematics, and Felice Matteucci, an engineer and expert in mechanics and hydraulics, joined forces on a project to exploit the explosion and expansion of a gaseous mix of hydrogen and atmospheric air to transform part of the energy of such explosions into mechanical energy.",
-      "category_hint": "历史",
-      "source_rank": 2,
-      "added_at": "2026-07-13T20:44:59.346735Z"
-    },
-    {
-      "source_id": "wiki-topic:en:33149795",
-      "source_name": "EN Wikipedia：Aharonov–Casher effect",
-      "source_url": "https://en.wikipedia.org/wiki/Aharonov%E2%80%93Casher_effect",
-      "title": "Aharonov–Casher effect",
-      "excerpt": "The Aharonov–Casher effect is a quantum mechanical phenomenon predicted in 1984 by Yakir Aharonov and Aharon Casher, in which a traveling magnetic dipole is affected by an electric field. It is dual to the Aharonov–Bohm effect, in which the quantum phase of a charged particle depends upon which side of a magnetic flux tube it comes through. In the Aharonov–Casher effect, the particle has a magnetic moment and the tubes are charged instead. It was observed in a gravitational neutron interferometer in 1989 and later by fluxon interference of magnetic vortices in Josephson junctions. It has also been seen with electrons and atoms. In both effects the particle acquires a phase shift ( φ {\\displaystyle \\varphi } ) while traveling along some path P. In the Aharonov–Bohm effect it is φ A B = q ℏ ∫ P A ⋅ d x {\\displaystyle...",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-13T20:44:59.346897Z"
     },
     {
       "source_id": "wiki-topic:en:580",
@@ -2053,16 +1903,6 @@
       "added_at": "2026-07-14T20:46:40.124874Z"
     },
     {
-      "source_id": "wiki-topic:en:7783",
-      "source_name": "EN Wikipedia：Coriolis force",
-      "source_url": "https://en.wikipedia.org/wiki/Coriolis_force",
-      "title": "Coriolis force",
-      "excerpt": "In physics, the Coriolis force is a pseudo-force that acts on objects in motion within a frame of reference that rotates with respect to an inertial frame. In a reference frame with clockwise rotation, the force acts to the left of the motion of the object. In one with anticlockwise (or counterclockwise) rotation, the force acts to the right. Deflection of an object due to the Coriolis force is called the Coriolis effect. Though recognized previously by others, the mathematical expression for the Coriolis force appeared in an 1835 paper by French scientist Gaspard-Gustave de Coriolis, in connection with the theory of water wheels. Early in the 20th century, the term Coriolis force began to be used in connection with meteorology. On Earth, the Coriolis force will affect the movement of air and water over long distance. Because of Earth's rotation, the moving object does not travel in a straight line relative to the Earth's surface but follows a curved path. This deflection (clockwise in the Northern Hemisphere and counterclockwise in the Southern Hemisphere) significantly influences large-scale circulation of winds and ocean currents. Newton's laws of motion describe the motion of an...",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-14T20:46:40.125082Z"
-    },
-    {
       "source_id": "wiki-topic:en:34534118",
       "source_name": "EN Wikipedia：Behavioral urbanism",
       "source_url": "https://en.wikipedia.org/wiki/Behavioral_urbanism",
@@ -2081,16 +1921,6 @@
       "category_hint": "生活",
       "source_rank": 2,
       "added_at": "2026-07-14T20:46:40.125494Z"
-    },
-    {
-      "source_id": "wiki-topic:en:181592",
-      "source_name": "EN Wikipedia：Competition",
-      "source_url": "https://en.wikipedia.org/wiki/Competition",
-      "title": "Competition",
-      "excerpt": "Competition is a rivalry where two or more parties strive for a common goal which cannot be shared: where one's gain is the other's loss (an example of which is a zero-sum game). Competition can arise between entities such as organisms, individuals, economic and social groups, etc. The rivalry can be over attainment of any exclusive goal, including recognition. Competition occurs in nature, between living organisms which co-exist in the same environment. Animals compete over water supplies, food, mates, and other biological resources. Humans usually compete for food and mates, though when these needs are met deep rivalries often arise over the pursuit of wealth, power, prestige, and fame when in a static, repetitive, or unchanging environment. Competition is a major tenet of market economies and business, often associated with business competition as companies are in competition with at least one other firm over the same group of customers. Competition inside a company is usually stimulated with the larger purpose of meeting and reaching higher quality of services or improved products that the company may produce or develop. Competition is often considered to be the opposite of cooperation...",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-14T20:46:40.125790Z"
     },
     {
       "source_id": "wiki-topic:en:55819873",
@@ -2233,16 +2063,6 @@
       "added_at": "2026-07-14T20:46:40.128121Z"
     },
     {
-      "source_id": "wiki-topic:en:4008035",
-      "source_name": "EN Wikipedia：Efficiency movement",
-      "source_url": "https://en.wikipedia.org/wiki/Efficiency_movement",
-      "title": "Efficiency movement",
-      "excerpt": "The efficiency movement was a major movement in the United States, Britain and other industrial nations in the early 20th century that sought to identify and eliminate waste in all areas of the economy and society, and to develop and implement best practices. The concept covered mechanical, economic, social, and personal improvement. The quest for efficiency promised effective, dynamic management rewarded by growth. As a result of the influence of an early proponent, it is more often known as Taylorism.",
-      "category_hint": "历史",
-      "source_rank": 2,
-      "added_at": "2026-07-14T20:46:40.128206Z"
-    },
-    {
       "source_id": "wiki-topic:en:1243735",
       "source_name": "EN Wikipedia：Epanadiplosis",
       "source_url": "https://en.wikipedia.org/wiki/Epanadiplosis",
@@ -2293,26 +2113,6 @@
       "added_at": "2026-07-15T18:37:33.834774Z"
     },
     {
-      "source_id": "wiki-topic:en:5279341",
-      "source_name": "EN Wikipedia：Aufeis",
-      "source_url": "https://en.wikipedia.org/wiki/Aufeis",
-      "title": "Aufeis",
-      "excerpt": "Aufeis ( OW-fysse) (German for \"ice on top\") is a sheet-like mass of layered ice that forms from successive flows of ground or river water during freezing temperatures. This form of ice is also called overflow, icings, or the Russian term, naled (Russian: наледь). The term \"Aufeis\" was first used in 1859 by Alexander von Middendorff following his observations of the phenomenon in northern Siberia.",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-15T18:37:33.834900Z"
-    },
-    {
-      "source_id": "wiki-topic:en:184495",
-      "source_name": "EN Wikipedia：Biefeld–Brown effect",
-      "source_url": "https://en.wikipedia.org/wiki/Biefeld%E2%80%93Brown_effect",
-      "title": "Biefeld–Brown effect",
-      "excerpt": "The Biefeld–Brown effect () is an electrical phenomenon, first noticed by inventor Thomas Townsend Brown in the 1920s, where high voltage applied to the electrodes of an asymmetric capacitor causes a net propulsive force toward the smaller electrode. Brown believed this effect was an anti-gravity force, and referred to it as electrogravitics based on it being an electricity/gravity phenomenon. Detailed studies in vacuum chambers failed to replicate Brown's observations and follow-up studies attribute the force measure to corona wind from electrical discharge.",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-15T18:37:33.835045Z"
-    },
-    {
       "source_id": "wiki-topic:en:78566979",
       "source_name": "EN Wikipedia：Northern Technical College",
       "source_url": "https://en.wikipedia.org/wiki/Northern_Technical_College",
@@ -2321,16 +2121,6 @@
       "category_hint": "科技",
       "source_rank": 2,
       "added_at": "2026-07-15T18:37:33.835109Z"
-    },
-    {
-      "source_id": "wiki-topic:en:83488359",
-      "source_name": "EN Wikipedia：Biodegradable magnesium implants",
-      "source_url": "https://en.wikipedia.org/wiki/Biodegradable_magnesium_implants",
-      "title": "Biodegradable magnesium implants",
-      "excerpt": "Biodegradable magnesium implants (also referred to as bioabsorbable magnesium implants, resorbable magnesium implants, or degradable magnesium implants) are temporary surgical implants fabricated from magnesium and its alloys that gradually dissolve within the body's physiological environment during and after bone healing. Unlike conventional permanent implants made from titanium or stainless steel, a bioabsorbable device is designed to degrade once the bone has healed, eliminating the need for a secondary surgical removal procedure. Magnesium is the fourth most abundant cation in the human body and an essential component of bone mineral, contributing to its inherent biocompatibility. Its elastic modulus (41–45 GPa) is considerably closer to that of cortical bone (10–30 GPa) than conventional permanent metallic biomaterials such as titanium alloys (~110 GPa) or stainless steel (~200 GPa), reducing the stress shielding effect that can inhibit bone remodelling and lead to bone resorption. Beyond passive compatibility, magnesium ions released during degradation have been shown to actively promote osteogenesis, stimulate angiogenesis, and modulate immune responses in the bone microenvironment...",
-      "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-15T18:37:33.835381Z"
     },
     {
       "source_id": "wiki-topic:en:29155096",
@@ -2383,16 +2173,6 @@
       "added_at": "2026-07-15T18:37:33.836179Z"
     },
     {
-      "source_id": "wiki-topic:en:53959022",
-      "source_name": "EN Wikipedia：Cyclomorphosis",
-      "source_url": "https://en.wikipedia.org/wiki/Cyclomorphosis",
-      "title": "Cyclomorphosis",
-      "excerpt": "Cyclomorphosis (also known as seasonal polyphenism) is the name given to the occurrence of cyclic or seasonal changes in the phenotype of an organism through successive generations. In species undergoing cyclomorphosis, physiological characteristics and development cycles of individuals being born depend on the time of the year at which they are conceived. It occurs in small aquatic invertebrates that reproduce by parthenogenesis and give rise to several generations annually. It occurs especially in marine planktonic animals, and is thought to be caused by the epigenetic effect of environmental cues on the organism, thereby altering the course of their development.",
-      "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-15T18:37:33.836307Z"
-    },
-    {
       "source_id": "wiki-topic:en:56057622",
       "source_name": "EN Wikipedia：European Union food quality scandal",
       "source_url": "https://en.wikipedia.org/wiki/European_Union_food_quality_scandal",
@@ -2411,16 +2191,6 @@
       "category_hint": "科学",
       "source_rank": 2,
       "added_at": "2026-07-15T18:37:33.836660Z"
-    },
-    {
-      "source_id": "wiki-topic:en:379303",
-      "source_name": "EN Wikipedia：Gas exchange",
-      "source_url": "https://en.wikipedia.org/wiki/Gas_exchange",
-      "title": "Gas exchange",
-      "excerpt": "Gas exchange is the physiological process by which gases move passively by diffusion across a surface. For example, this surface might be the air/water interface of a water body, the surface of a gas bubble in a liquid, a gas-permeable membrane, or a biological membrane that forms the boundary between an organism and its extracellular environment. Gases are constantly consumed and produced by cellular and metabolic reactions in most living things, so an efficient system for gas exchange between, ultimately, the interior of the cell(s) and the external environment is required. Small, particularly unicellular organisms, such as bacteria and protozoa, have a high surface-area to volume ratio. In these creatures the gas exchange membrane is typically the cell membrane. Some small multicellular organisms, such as flatworms, are also able to perform sufficient gas exchange across the skin or cuticle that surrounds their bodies. However, in most larger organisms, which have small surface-area to volume ratios, specialised structures with convoluted surfaces such as gills, pulmonary alveoli and spongy mesophylls provide the large area needed for effective gas exchange. These convoluted surfaces...",
-      "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-15T18:37:33.837089Z"
     },
     {
       "source_id": "wiki-topic:en:29637793",
@@ -2471,16 +2241,6 @@
       "category_hint": "科学",
       "source_rank": 2,
       "added_at": "2026-07-15T18:37:33.838089Z"
-    },
-    {
-      "source_id": "wiki-topic:en:45555423",
-      "source_name": "EN Wikipedia：Active thermography",
-      "source_url": "https://en.wikipedia.org/wiki/Active_thermography",
-      "title": "Active thermography",
-      "excerpt": "Active thermography is an advanced nondestructive testing procedure, which uses a thermographic measurement of a tested material thermal response after its external excitation. This principle can be used also for non-contact infrared non-destructive testing (IRNDT) of materials. The IRNDT method is based on an excitation of a tested material by an external source, which brings some energy to the material. Halogen lamps, flash-lamps, ultrasonic horn or other sources can be used as the excitation source for the IRNDT. The excitation causes a tested material thermal response, which is measured by an infrared camera. It is possible to obtain information about the tested material surface and sub-surface defects or material inhomogeneities by using a suitable combination of excitation source, excitation procedure, infrared camera and evaluation method. Modern thermographic systems with high-speed and high-sensitivity IR cameras extend the possibilities of the inspection method. Modularity of the systems allows their usage for research and development applications as well as in modern industrial production lines. Thermovision nondestructive testing of components can be carried out on a wide...",
-      "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-15T18:37:33.838270Z"
     },
     {
       "source_id": "onthisday:zh:07/14:2011:4",

@@ -600,7 +600,151 @@
       "source_url": "https://en.wikipedia.org/wiki/Attenuation",
       "outcome": "reviewed_not_saved",
       "reason": ""
+    },
+    "wiki-topic:en:30946399": {
+      "last_seen": "2026-07-15T18:44:13.780650Z",
+      "source_url": "https://en.wikipedia.org/wiki/Displacement_(linguistics)",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:29819979": {
+      "last_seen": "2026-07-15T18:44:13.780664Z",
+      "source_url": "https://en.wikipedia.org/wiki/Cognitive_hearing_science",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:11815": {
+      "last_seen": "2026-07-15T18:44:13.780670Z",
+      "source_url": "https://en.wikipedia.org/wiki/Food_additive",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:18977457": {
+      "last_seen": "2026-07-15T18:44:13.780675Z",
+      "source_url": "https://en.wikipedia.org/wiki/Efficiency_of_food_conversion",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:65586806": {
+      "last_seen": "2026-07-15T18:44:13.780679Z",
+      "source_url": "https://en.wikipedia.org/wiki/Museum_of_Everyday_Life",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:181592": {
+      "last_seen": "2026-07-15T18:44:13.780683Z",
+      "source_url": "https://en.wikipedia.org/wiki/Competition",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:379303": {
+      "last_seen": "2026-07-15T18:44:13.780687Z",
+      "source_url": "https://en.wikipedia.org/wiki/Gas_exchange",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:334986": {
+      "last_seen": "2026-07-15T18:44:13.780691Z",
+      "source_url": "https://en.wikipedia.org/wiki/Allopatric_speciation",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:53959022": {
+      "last_seen": "2026-07-15T18:44:13.780694Z",
+      "source_url": "https://en.wikipedia.org/wiki/Cyclomorphosis",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:21426616": {
+      "last_seen": "2026-07-15T18:44:13.780698Z",
+      "source_url": "https://en.wikipedia.org/wiki/Proofreading_(biology)",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:26011932": {
+      "last_seen": "2026-07-15T18:44:13.780701Z",
+      "source_url": "https://en.wikipedia.org/wiki/Barsanti%E2%80%93Matteucci_engine",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:47561162": {
+      "last_seen": "2026-07-15T18:44:13.780705Z",
+      "source_url": "https://en.wikipedia.org/wiki/History_of_Sulzer_diesel_engines",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:1758866": {
+      "last_seen": "2026-07-15T18:44:13.780709Z",
+      "source_url": "https://en.wikipedia.org/wiki/Accelerating_change",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:4008035": {
+      "last_seen": "2026-07-15T18:44:13.780712Z",
+      "source_url": "https://en.wikipedia.org/wiki/Efficiency_movement",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:45555423": {
+      "last_seen": "2026-07-15T18:44:13.780715Z",
+      "source_url": "https://en.wikipedia.org/wiki/Active_thermography",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:83488359": {
+      "last_seen": "2026-07-15T18:44:13.780718Z",
+      "source_url": "https://en.wikipedia.org/wiki/Biodegradable_magnesium_implants",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:60928950": {
+      "last_seen": "2026-07-15T18:44:13.780722Z",
+      "source_url": "https://en.wikipedia.org/wiki/Bug_(engineering)",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:23535218": {
+      "last_seen": "2026-07-15T18:44:13.780725Z",
+      "source_url": "https://en.wikipedia.org/wiki/Industrial_engineering",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:184495": {
+      "last_seen": "2026-07-15T18:44:13.780729Z",
+      "source_url": "https://en.wikipedia.org/wiki/Biefeld%E2%80%93Brown_effect",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:5279341": {
+      "last_seen": "2026-07-15T18:44:13.780732Z",
+      "source_url": "https://en.wikipedia.org/wiki/Aufeis",
+      "outcome": "rejected",
+      "reason": "证据未能在原文中匹配"
+    },
+    "wiki-topic:en:7783": {
+      "last_seen": "2026-07-15T18:44:13.780737Z",
+      "source_url": "https://en.wikipedia.org/wiki/Coriolis_force",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:33149795": {
+      "last_seen": "2026-07-15T18:44:13.780740Z",
+      "source_url": "https://en.wikipedia.org/wiki/Aharonov%E2%80%93Casher_effect",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:16250616": {
+      "last_seen": "2026-07-15T18:44:13.780743Z",
+      "source_url": "https://en.wikipedia.org/wiki/Epicentral_distance",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "nasa-apod:2006-09-11": {
+      "last_seen": "2026-07-15T18:44:13.780747Z",
+      "source_url": "https://apod.nasa.gov/apod/image/0609/eclipse_lee.jpg",
+      "outcome": "accepted",
+      "reason": ""
     }
   },
-  "updated_at": "2026-07-15T18:41:22.251291Z"
+  "updated_at": "2026-07-15T18:44:13.788177Z"
 }

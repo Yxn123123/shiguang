@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-14T20:51:11.668610Z",
+  "updated_at": "2026-07-15T18:41:22.246540Z",
   "candidates": [
     {
       "source_id": "nasa-apod:2006-09-11",
@@ -2273,6 +2273,216 @@
       "added_at": "2026-07-14T20:46:40.129073Z"
     },
     {
+      "source_id": "wiki-topic:en:61763916",
+      "source_name": "EN Wikipedia：CircumArctic Rangifer Monitoring and Assessment Network",
+      "source_url": "https://en.wikipedia.org/wiki/CircumArctic_Rangifer_Monitoring_and_Assessment_Network",
+      "title": "CircumArctic Rangifer Monitoring and Assessment Network",
+      "excerpt": "CircumArctic Rangifer Monitoring and Assessment Network (CARMA) is a scientific research network, launched in 2004 in Vancouver, British Columbia, and funded by the Canadian International Polar Year (IPY) which focusses on the health of \"the North's migratory tundra caribou and wild reindeer populations\" in the face of global change, with up to 80% declines of some herds of wild Rangifer since 2004. The collaborative research is undertaken by an international team of scientists, administrators and members of local community members, particularly Rangifer hunters who share a common interest in their survival.",
+      "category_hint": "科学",
+      "source_rank": 2,
+      "added_at": "2026-07-15T18:37:33.834620Z"
+    },
+    {
+      "source_id": "wiki-topic:en:67764026",
+      "source_name": "EN Wikipedia：Biogeoclimatic ecosystem classification",
+      "source_url": "https://en.wikipedia.org/wiki/Biogeoclimatic_ecosystem_classification",
+      "title": "Biogeoclimatic ecosystem classification",
+      "excerpt": "Biogeoclimatic ecosystem classification (BEC) is an ecological classification framework used in British Columbia to define, describe, and map ecosystem-based units at various scales, from broad, ecologically based climatic regions down to local ecosystems or sites. BEC is termed an ecosystem classification as the approach integrates site, soil, and vegetation characteristics to develop and characterize all units. BEC has a strong application focus and guides to classification and management of forests, grasslands and wetlands are available for much of the province to aid in identification of the ecosystem units.",
+      "category_hint": "生物",
+      "source_rank": 2,
+      "added_at": "2026-07-15T18:37:33.834774Z"
+    },
+    {
+      "source_id": "wiki-topic:en:5279341",
+      "source_name": "EN Wikipedia：Aufeis",
+      "source_url": "https://en.wikipedia.org/wiki/Aufeis",
+      "title": "Aufeis",
+      "excerpt": "Aufeis ( OW-fysse) (German for \"ice on top\") is a sheet-like mass of layered ice that forms from successive flows of ground or river water during freezing temperatures. This form of ice is also called overflow, icings, or the Russian term, naled (Russian: наледь). The term \"Aufeis\" was first used in 1859 by Alexander von Middendorff following his observations of the phenomenon in northern Siberia.",
+      "category_hint": "科学",
+      "source_rank": 2,
+      "added_at": "2026-07-15T18:37:33.834900Z"
+    },
+    {
+      "source_id": "wiki-topic:en:184495",
+      "source_name": "EN Wikipedia：Biefeld–Brown effect",
+      "source_url": "https://en.wikipedia.org/wiki/Biefeld%E2%80%93Brown_effect",
+      "title": "Biefeld–Brown effect",
+      "excerpt": "The Biefeld–Brown effect () is an electrical phenomenon, first noticed by inventor Thomas Townsend Brown in the 1920s, where high voltage applied to the electrodes of an asymmetric capacitor causes a net propulsive force toward the smaller electrode. Brown believed this effect was an anti-gravity force, and referred to it as electrogravitics based on it being an electricity/gravity phenomenon. Detailed studies in vacuum chambers failed to replicate Brown's observations and follow-up studies attribute the force measure to corona wind from electrical discharge.",
+      "category_hint": "科学",
+      "source_rank": 2,
+      "added_at": "2026-07-15T18:37:33.835045Z"
+    },
+    {
+      "source_id": "wiki-topic:en:78566979",
+      "source_name": "EN Wikipedia：Northern Technical College",
+      "source_url": "https://en.wikipedia.org/wiki/Northern_Technical_College",
+      "title": "Northern Technical College",
+      "excerpt": "Northern Technical College, abbreviated as NORTEC, is a public college in Ndola, Zambia. It is one of the first engineering public colleges in Zambia. The language of instruction at the college is English.",
+      "category_hint": "科技",
+      "source_rank": 2,
+      "added_at": "2026-07-15T18:37:33.835109Z"
+    },
+    {
+      "source_id": "wiki-topic:en:83488359",
+      "source_name": "EN Wikipedia：Biodegradable magnesium implants",
+      "source_url": "https://en.wikipedia.org/wiki/Biodegradable_magnesium_implants",
+      "title": "Biodegradable magnesium implants",
+      "excerpt": "Biodegradable magnesium implants (also referred to as bioabsorbable magnesium implants, resorbable magnesium implants, or degradable magnesium implants) are temporary surgical implants fabricated from magnesium and its alloys that gradually dissolve within the body's physiological environment during and after bone healing. Unlike conventional permanent implants made from titanium or stainless steel, a bioabsorbable device is designed to degrade once the bone has healed, eliminating the need for a secondary surgical removal procedure. Magnesium is the fourth most abundant cation in the human body and an essential component of bone mineral, contributing to its inherent biocompatibility. Its elastic modulus (41–45 GPa) is considerably closer to that of cortical bone (10–30 GPa) than conventional permanent metallic biomaterials such as titanium alloys (~110 GPa) or stainless steel (~200 GPa), reducing the stress shielding effect that can inhibit bone remodelling and lead to bone resorption. Beyond passive compatibility, magnesium ions released during degradation have been shown to actively promote osteogenesis, stimulate angiogenesis, and modulate immune responses in the bone microenvironment...",
+      "category_hint": "科技",
+      "source_rank": 2,
+      "added_at": "2026-07-15T18:37:33.835381Z"
+    },
+    {
+      "source_id": "wiki-topic:en:29155096",
+      "source_name": "EN Wikipedia：Earth Learning Idea",
+      "source_url": "https://en.wikipedia.org/wiki/Earth_Learning_Idea",
+      "title": "Earth Learning Idea",
+      "excerpt": "Earth Learning Idea (ELI) provides free Earth-related teaching ideas, designed to be practical science and geography resources for secondary and primary teachers and teacher-trainers and trainees across the world. It is run on a voluntary basis by three teachers from the Earth Science Education Unit (ESEU).",
+      "category_hint": "科学",
+      "source_rank": 2,
+      "added_at": "2026-07-15T18:37:33.835473Z"
+    },
+    {
+      "source_id": "wiki-topic:en:987492",
+      "source_name": "EN Wikipedia：Food browning",
+      "source_url": "https://en.wikipedia.org/wiki/Food_browning",
+      "title": "Food browning",
+      "excerpt": "Browning is the process of food turning brown due to the chemical reactions that take place within. The process of browning is one of the chemical reactions that take place in food chemistry and represents an interesting research topic regarding health, nutrition, and food technology. Though there are many different ways food chemically changes over time, browning in particular falls into two main categories: enzymatic versus non-enzymatic browning processes. Browning has many important implications on the food industry relating to nutrition, technology, and economic cost. Researchers are especially interested in studying the control (inhibition) of browning and the different methods that can be employed to maximize this inhibition and ultimately prolong the shelf life of food.",
+      "category_hint": "生活",
+      "source_rank": 2,
+      "added_at": "2026-07-15T18:37:33.835624Z"
+    },
+    {
+      "source_id": "wiki-topic:en:7371134",
+      "source_name": "EN Wikipedia：Anthroposphere",
+      "source_url": "https://en.wikipedia.org/wiki/Anthroposphere",
+      "title": "Anthroposphere",
+      "excerpt": "The anthroposphere refers to that part of the Earth system that is inhabited and influenced by humans. The term has been included as one of the Earth's spheres, building on a concept coined by Austrian geologist Eduard Suess. While the biosphere is the total biomass of the Earth and its interaction with its systems, the anthroposphere includes the total mass of human-generated systems and materials, including the human population, crops and livestock, and its interaction with the Earth's systems. A recent study estimated the mass of nonliving anthropogenic creations as 1.1 trillion tons in 2020, equivalent to the mass of all living organisms that comprise the biosphere. As human technology has become more evolved, such as that required to launch objects into orbit or to cause deforestation, the impact of human activities on the environment has increased. The anthroposphere is the youngest of all the Earth's spheres, yet has made an enormous impact on the Earth and its systems in a very short time. Some consider the term anthroposphere to be synonymous with the noosphere, though the noosphere is often used to refer specifically to the sphere of rational human thought, or ‘the terrestrial...",
+      "category_hint": "科学",
+      "source_rank": 2,
+      "added_at": "2026-07-15T18:37:33.835926Z"
+    },
+    {
+      "source_id": "wiki-topic:en:30214247",
+      "source_name": "EN Wikipedia：Business History Conference",
+      "source_url": "https://en.wikipedia.org/wiki/Business_History_Conference",
+      "title": "Business History Conference",
+      "excerpt": "The Business History Conference (BHC) is an academic organization that supports all aspects of research, writing, and teaching about business history and about the environment in which businesses operate. Founded in 1954, the BHC supports ongoing research among its members and holds conferences to bring together business and economic historians. It also publishes a quarterly academic journal, Enterprise & Society, along with selected papers from its annual meetings via BEH On-Line.",
+      "category_hint": "历史",
+      "source_rank": 2,
+      "added_at": "2026-07-15T18:37:33.836044Z"
+    },
+    {
+      "source_id": "wiki-topic:en:5112137",
+      "source_name": "EN Wikipedia：Distancing language",
+      "source_url": "https://en.wikipedia.org/wiki/Distancing_language",
+      "title": "Distancing language",
+      "excerpt": "Distancing language is phrasing used by a person to psychologically \"distance\" themselves from a statement. It is used in an effort to separate a particular topic, idea, discussion, or group from their own personal identity for the purpose of self-deception, deceiving others, or disunifying oneself from a team, among others. The use of distancing language is primarily subconscious as a means to disengage oneself from acts or ideas that conflict with their personal values, beliefs, and ideals, and is often used to identify if a person is lying. Conscious uses of distancing language are often euphemistic in nature in order to downplay or desensitize a loaded topic in an effort to separate the speaker from the subject at hand.",
+      "category_hint": "综合",
+      "source_rank": 2,
+      "added_at": "2026-07-15T18:37:33.836179Z"
+    },
+    {
+      "source_id": "wiki-topic:en:53959022",
+      "source_name": "EN Wikipedia：Cyclomorphosis",
+      "source_url": "https://en.wikipedia.org/wiki/Cyclomorphosis",
+      "title": "Cyclomorphosis",
+      "excerpt": "Cyclomorphosis (also known as seasonal polyphenism) is the name given to the occurrence of cyclic or seasonal changes in the phenotype of an organism through successive generations. In species undergoing cyclomorphosis, physiological characteristics and development cycles of individuals being born depend on the time of the year at which they are conceived. It occurs in small aquatic invertebrates that reproduce by parthenogenesis and give rise to several generations annually. It occurs especially in marine planktonic animals, and is thought to be caused by the epigenetic effect of environmental cues on the organism, thereby altering the course of their development.",
+      "category_hint": "生物",
+      "source_rank": 2,
+      "added_at": "2026-07-15T18:37:33.836307Z"
+    },
+    {
+      "source_id": "wiki-topic:en:56057622",
+      "source_name": "EN Wikipedia：European Union food quality scandal",
+      "source_url": "https://en.wikipedia.org/wiki/European_Union_food_quality_scandal",
+      "title": "European Union food quality scandal",
+      "excerpt": "The European Union food quality scandal is a controversy claiming that certain food brands and items targeted at Central and Eastern European Union countries' markets are of lower quality than their exact equivalent produced for the Western European Union markets. European Commission President Jean-Claude Juncker acknowledged the issue in his State of the Union address pledging funding to help national food authorities test the inferior products and start to tackle the food inequality. In April 2018 EU Justice and Consumers Commissioner Věra Jourová stated that \"We will step up the fight against dual food quality. We have amended the Unfair Commercial Practice Directive to make it black and white that dual food quality is forbidden.\"",
+      "category_hint": "生活",
+      "source_rank": 2,
+      "added_at": "2026-07-15T18:37:33.836495Z"
+    },
+    {
+      "source_id": "wiki-topic:en:79963688",
+      "source_name": "EN Wikipedia：Harvard Plate Stacks",
+      "source_url": "https://en.wikipedia.org/wiki/Harvard_Plate_Stacks",
+      "title": "Harvard Plate Stacks",
+      "excerpt": "The Harvard Plate Stacks, previously known as the Harvard College Observatory glass plate collection or the astronomical photographic glass plate collection, is a collection of astronomical glass plate negatives at the Center for Astrophysics | Harvard & Smithsonian in Cambridge, Massachusetts. Created over more than a century by the Harvard College Observatory, it is widely described as the largest collection of astronomical glass plates in the world. The collection includes more than 550,000 glass plate negatives dating from the 1870s to the late 1990s, as well as early photographic data from as early as 1849, and logbooks, notebooks, and photographic prints associated with astronomical research at Harvard and affiliated observatories. It is one of the largest photographic collections at Harvard. Many of the astronomers, assistants, and computers who worked with the collection were women, including members of the group now commonly known as the Women Astronomical Computers.",
+      "category_hint": "科学",
+      "source_rank": 2,
+      "added_at": "2026-07-15T18:37:33.836660Z"
+    },
+    {
+      "source_id": "wiki-topic:en:379303",
+      "source_name": "EN Wikipedia：Gas exchange",
+      "source_url": "https://en.wikipedia.org/wiki/Gas_exchange",
+      "title": "Gas exchange",
+      "excerpt": "Gas exchange is the physiological process by which gases move passively by diffusion across a surface. For example, this surface might be the air/water interface of a water body, the surface of a gas bubble in a liquid, a gas-permeable membrane, or a biological membrane that forms the boundary between an organism and its extracellular environment. Gases are constantly consumed and produced by cellular and metabolic reactions in most living things, so an efficient system for gas exchange between, ultimately, the interior of the cell(s) and the external environment is required. Small, particularly unicellular organisms, such as bacteria and protozoa, have a high surface-area to volume ratio. In these creatures the gas exchange membrane is typically the cell membrane. Some small multicellular organisms, such as flatworms, are also able to perform sufficient gas exchange across the skin or cuticle that surrounds their bodies. However, in most larger organisms, which have small surface-area to volume ratios, specialised structures with convoluted surfaces such as gills, pulmonary alveoli and spongy mesophylls provide the large area needed for effective gas exchange. These convoluted surfaces...",
+      "category_hint": "生物",
+      "source_rank": 2,
+      "added_at": "2026-07-15T18:37:33.837089Z"
+    },
+    {
+      "source_id": "wiki-topic:en:29637793",
+      "source_name": "EN Wikipedia：Aerospace materials",
+      "source_url": "https://en.wikipedia.org/wiki/Aerospace_materials",
+      "title": "Aerospace materials",
+      "excerpt": "Aerospace materials are materials, frequently metal alloys, that have either been developed for, or have come to prominence through their use for aerospace purposes. These uses often require exceptional performance, strength or heat resistance, even at the cost of considerable expense in their production or machining. Others are chosen for their long-term reliability in this safety-conscious field, particularly for their resistance to fatigue. The field of materials engineering is an important one within aerospace engineering. Its practice is defined by the international standards bodies who maintain standards for the materials and processes involved. Engineers in this field may often have studied for degrees or post-graduate qualifications in it as a speciality.",
+      "category_hint": "科技",
+      "source_rank": 2,
+      "added_at": "2026-07-15T18:37:33.837241Z"
+    },
+    {
+      "source_id": "wiki-topic:en:3783853",
+      "source_name": "EN Wikipedia：Bond graph",
+      "source_url": "https://en.wikipedia.org/wiki/Bond_graph",
+      "title": "Bond graph",
+      "excerpt": "A bond graph is a graphical representation of the energy flows though and between physical dynamical systems including those in the electrical, mechanical, hydraulic, thermal and chemical domains. It is used to model and analyse systems relevant to engineering and to systems biology. Because the concept of energy is common to all physical domains, the bond graph provides a unified description of all of these energy domains and can be thought of as a systematic use of the physical analogies introduced by the 19th century scientists James Clerk-Maxwell and Lord Kelvin. The mechanical–electrical analogy is one example of a physical analogy. Bond graphs use the concept of analogous power conjugate variables whose product is energy flow, or power; these variable pairs are called effort and flow and, for example, correspond to voltage and current in the electrical domain and force and velocity in the mechanical domain. These power conjugate variables are transmitted by bonds which connect bond graph components. Bond graph components are also based on analogies and, using the electrical and mechanical domains as examples, include the C-component to represent both mechanical spring and electrical...",
+      "category_hint": "科技",
+      "source_rank": 2,
+      "added_at": "2026-07-15T18:37:33.837511Z"
+    },
+    {
+      "source_id": "wiki-topic:en:26107799",
+      "source_name": "EN Wikipedia：Dextrose equivalent",
+      "source_url": "https://en.wikipedia.org/wiki/Dextrose_equivalent",
+      "title": "Dextrose equivalent",
+      "excerpt": "Dextrose equivalent (DE) is a measure of the amount of reducing sugars present in a sugar product, expressed as a percentage on a dry basis relative to dextrose. The dextrose equivalent gives an indication of the average degree of polymerisation (DP) for starch sugars. As a rule of thumb, DE × DP = 120. In all glucose polymers, from the native starch to glucose syrup, the molecular chain ends with a reducing sugar, containing a free aldehyde in its linear form. As the starch is hydrolysed, the molecules become shorter and more reducing sugars are present. Therefore, the dextrose equivalent describes the degree of conversion of starch to dextrose. The standard method of determining the dextrose equivalent is the Lane-Eynon titration, based on the reduction of copper(II) sulfate in an alkaline tartrate solution, an application of Fehling's test. Examples: A maltodextrin with a DE of 10 would have 10% of the reducing power of dextrose which has a DE of 100. Maltose, a disaccharide made of two glucose (dextrose) molecules, has a DE of 52, correcting for the water loss in molecular weight when the two molecules are combined. Glucose (dextrose) has a molecular mass of 180, while water has...",
+      "category_hint": "生活",
+      "source_rank": 2,
+      "added_at": "2026-07-15T18:37:33.837746Z"
+    },
+    {
+      "source_id": "wiki-topic:en:19468941",
+      "source_name": "EN Wikipedia：Balance of nature",
+      "source_url": "https://en.wikipedia.org/wiki/Balance_of_nature",
+      "title": "Balance of nature",
+      "excerpt": "The balance of nature, also known as ecological balance, is a theory that proposes that ecological systems are usually in a stable equilibrium or homeostasis, which is to say that a small change (the size of a particular population, for example) will be corrected by some negative feedback that will bring the parameter back to its original \"point of balance\" with the rest of the system. The balance is sometimes depicted as easily disturbed and delicate, while other times it is inversely portrayed as powerful enough to correct any imbalances by itself. The concept has been described as \"normative\", as well as teleological, as it makes a claim about how nature should be: nature is balanced because \"it is supposed to be balanced\". The theory has been employed to describe how populations depend on each other, for example in predator-prey systems, or relationships between herbivores and their food source. It is also sometimes applied to the relationship between the Earth's ecosystem, the composition of the atmosphere, and weather. The theory has been discredited by scientists working in ecology, as it has been found that constant disturbances leading to chaotic and dynamic changes are the...",
+      "category_hint": "生物",
+      "source_rank": 2,
+      "added_at": "2026-07-15T18:37:33.838014Z"
+    },
+    {
+      "source_id": "wiki-topic:en:77061339",
+      "source_name": "EN Wikipedia：Giuseppe Donatiello",
+      "source_url": "https://en.wikipedia.org/wiki/Giuseppe_Donatiello",
+      "title": "Giuseppe Donatiello",
+      "excerpt": "Giuseppe Donatiello (born 14 December, 1967) is an Italian amateur astronomer. He is known for discovering twelve nearby dwarf galaxies in the Local Volume, including three in the Local Group. He is the principal investigator and coordinator of the National Deep Sky Research Section of the Italian Amateur Astronomers Union.",
+      "category_hint": "科学",
+      "source_rank": 2,
+      "added_at": "2026-07-15T18:37:33.838089Z"
+    },
+    {
+      "source_id": "wiki-topic:en:45555423",
+      "source_name": "EN Wikipedia：Active thermography",
+      "source_url": "https://en.wikipedia.org/wiki/Active_thermography",
+      "title": "Active thermography",
+      "excerpt": "Active thermography is an advanced nondestructive testing procedure, which uses a thermographic measurement of a tested material thermal response after its external excitation. This principle can be used also for non-contact infrared non-destructive testing (IRNDT) of materials. The IRNDT method is based on an excitation of a tested material by an external source, which brings some energy to the material. Halogen lamps, flash-lamps, ultrasonic horn or other sources can be used as the excitation source for the IRNDT. The excitation causes a tested material thermal response, which is measured by an infrared camera. It is possible to obtain information about the tested material surface and sub-surface defects or material inhomogeneities by using a suitable combination of excitation source, excitation procedure, infrared camera and evaluation method. Modern thermographic systems with high-speed and high-sensitivity IR cameras extend the possibilities of the inspection method. Modularity of the systems allows their usage for research and development applications as well as in modern industrial production lines. Thermovision nondestructive testing of components can be carried out on a wide...",
+      "category_hint": "科技",
+      "source_rank": 2,
+      "added_at": "2026-07-15T18:37:33.838270Z"
+    },
+    {
       "source_id": "onthisday:zh:07/14:2011:4",
       "source_name": "Wikimedia On This Day：中华人民共和国",
       "source_url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD",
@@ -2281,6 +2491,26 @@
       "category_hint": "历史",
       "source_rank": 3,
       "added_at": "2026-07-14T20:46:40.129156Z"
+    },
+    {
+      "source_id": "onthisday:zh:07/15:2016:1",
+      "source_name": "Wikimedia On This Day：土耳其",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%9C%9F%E8%80%B3%E5%85%B6",
+      "title": "2016: 土耳其军方为中断伊斯兰化进程策动政变推翻总统雷杰普·塔伊普·埃尔多安未遂，造成至少265人死亡，数千名群众受伤。",
+      "excerpt": "事件：土耳其军方为中断伊斯兰化进程策动政变推翻总统雷杰普·塔伊普·埃尔多安未遂，造成至少265人死亡，数千名群众受伤。\n相关页面摘要：土耳其共和国，通稱土耳其（Türkiye），是橫跨欧亚两洲的共和國，其國土包括西亞的安納托利亞半岛、以及东南欧巴尔干半岛的东色雷斯地區；其中亞洲部分包含了約97%的領土與87%的人口。建立於1923年，並繼承奥斯曼帝国的國家地位。面積78萬平方公里，首都是位處安納托利亞高原正中央的安卡拉，最大城市伊斯坦堡則是世界唯一橫跨兩大洲的國際大都市。",
+      "category_hint": "历史",
+      "source_rank": 3,
+      "added_at": "2026-07-15T18:37:33.838344Z"
+    },
+    {
+      "source_id": "onthisday:zh:07/15:2007:7",
+      "source_name": "Wikimedia On This Day：塔科馬海峽吊橋",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%A1%94%E7%A7%91%E9%A6%AC%E6%B5%B7%E5%B3%BD%E5%90%8A%E6%A9%8B",
+      "title": "2007: 塔科馬海峽吊橋東面旁加建一條新橋，是塔科馬海峽第三條興建的懸索橋，工程於2002年10月4日開始動工，並於2007年7月15日通車。",
+      "excerpt": "事件：塔科馬海峽吊橋東面旁加建一條新橋，是塔科馬海峽第三條興建的懸索橋，工程於2002年10月4日開始動工，並於2007年7月15日通車。\n相关页面摘要：塔科馬海峽吊橋 是位於美國華盛頓州塔科馬的兩條懸索橋，也是華盛頓州16號幹線的一部分。每橋長1.6公里，橫跨塔科馬海峽。第一條橋於1940年首度通車，但不到五個月便倒塌，其後重建及另建的新橋分別於1950年及2007年啟用。第一條橋倒塌的原因，是因為其橋面厚度不足，在受到強風的吹襲下引起卡门涡街，使桥身摆动；当卡门涡街的振动频率和吊桥自身的固有频率相同时，引起吊桥剧烈共振而崩塌，這次事件的過程有完整拍攝成影片，也成為研究空气动力学卡门涡街引起建筑物共振破壞力的活教材。",
+      "category_hint": "历史",
+      "source_rank": 3,
+      "added_at": "2026-07-15T18:37:33.838416Z"
     },
     {
       "source_id": "wiki-random:en:13628958",
@@ -2951,6 +3181,256 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-14T20:48:13.485171Z"
+    },
+    {
+      "source_id": "wiki-random:en:2960935",
+      "source_name": "EN Wikipedia：Word Rescue",
+      "source_url": "https://en.wikipedia.org/wiki/Word_Rescue",
+      "title": "Word Rescue",
+      "excerpt": "Word Rescue is an educational platform game for MS-DOS written by Karen Crowther of Redwood Games and published by Apogee Software in March 1992. It was re-released in 2015 through Steam with support for Windows and Mac. The game also allows the player interact with a pair of Stereoscopic Vision Glasses. Like most Apogee games, Word Rescue is divided into three episodes, with only the first episode playable in the shareware version. Visit Gruzzleville and the Castle Explore GruzzleBad Caverns See the spooky Haunted House Apogee still sells the registered version of this game.[1] A companion game with similar gameplay, Math Rescue, was released in October 1992. A sequel, Word Rescue Plus, was released in 1993.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-15T18:37:33.838564Z"
+    },
+    {
+      "source_id": "wiki-random:en:33740268",
+      "source_name": "EN Wikipedia：Yoga pants",
+      "source_url": "https://en.wikipedia.org/wiki/Yoga_pants",
+      "title": "Yoga pants",
+      "excerpt": "Yoga pants are high-denier hosiery reaching from ankle to waist, originally designed for yoga as exercise and first sold in 1998 by Lululemon, a company founded for that purpose. They were initially made of a mix of nylon and Lycra; more specialised fabrics have been introduced to provide moisture-wicking, compression, and odour reduction. The market has increased both through the popularity of yoga and because many women wear yoga pants as casual everyday dress. This is part of a long-term \"athleisure\" trend of increasing informality in dress, threatening sales of traditional jeans. In the U.S., the wearing of yoga pants other than for exercise has aroused controversy, both for school use and when worn by women. Global sales of yoga clothing have all the same grown rapidly, reaching some $31 billion by 2018.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-15T18:37:33.839331Z"
+    },
+    {
+      "source_id": "wiki-random:en:65810190",
+      "source_name": "EN Wikipedia：Neural Engine",
+      "source_url": "https://en.wikipedia.org/wiki/Neural_Engine",
+      "title": "Neural Engine",
+      "excerpt": "Neural Engine is a series of AI accelerators designed for machine learning by Apple. Neural Engine was first introduced with the A11 Bionic system-on-a-chip (SoC), used in the iPhone 8, iPhone 8 Plus and iPhone X from 2017. In 2020, Apple introduced its M1 processor for its Mac computers which also used a Neural Engine. Every A-series and M-series processor since 2017 has included a Neural Engine. Apple services such as its Siri virtual assistant, Face ID facial recognition and Apple Intelligence AI services are powered by the Neural Engine, and since this is handled on-device, user data is secure.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-15T18:37:33.839671Z"
+    },
+    {
+      "source_id": "wiki-random:en:3902072",
+      "source_name": "EN Wikipedia：CVS Caremark",
+      "source_url": "https://en.wikipedia.org/wiki/CVS_Caremark",
+      "title": "CVS Caremark",
+      "excerpt": "CVS Caremark Corporation is the pharmacy benefit management subsidiary of CVS Health Corporation, headquartered in Woonsocket, Rhode Island. As a pharmacy benefit manager (PBM), CVS Caremark handles prescription drug plans and is distinct from CVS Pharmacy, which is the retail subsidiary of CVS Health. CVS Caremark provides prescription benefit management services including mail order pharmacy services, specialty pharmacy and infusion services, plan design and administration, formulary management, and claims processing. The company acts as a pharmacy-benefit manager for plan sponsors — including employers, health-insurers and government employee health plans — administering prescription-drug benefits for their members or employees.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-15T18:37:33.843529Z"
+    },
+    {
+      "source_id": "wiki-random:zh:1547181",
+      "source_name": "ZH Wikipedia：圆锥猪笼草",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%9C%86%E9%94%A5%E7%8C%AA%E7%AC%BC%E8%8D%89",
+      "title": "圆锥猪笼草",
+      "excerpt": "圆锥猪笼草（学名：Nepenthes paniculata）可能是新几内亚多尔曼·托普山（Mount Doorman Top）特有的热带食虫植物。其种加词“paniculata”来源于拉丁文“panicula”，意为“圆锥花序”。其存在于山脊顶部海拔约1460米的苔藓森林中。 尚未发现关于圆锥猪笼草的自然杂交种。也未发现任何变种和变型。 1994年，安德烈亚斯·维斯图巴、H·里舍（H. Rischer）、W·鲍姆加特尔（B. Baumgartl）和B·基斯特勒（B. Kistler）去往多尔曼·托普山顶部寻找圆锥猪笼草，但除了找到蓝姆猪笼草（N. lamii，之后发现实为维耶亚猪笼草）和大猪笼草（N. maxima）外，并没有找到任何其他的猪笼草。 2013年，一只由霍尔格·戈斯纳（Holger Gossner）、 托马斯·格罗内迈尔（Thomas Gronemeyer）、大卫·马利诺夫斯基（David Marwinski）、斯图尔特·麦克弗森、马里厄斯·米歇勒（Marius Micheler）、约阿希姆·那兹、安德烈亚斯·维斯图巴及乌尔斯·齐默尔曼（Urs Zimmermann）组成的队伍对圆锥猪笼草进行再次的考察。这次考察第一次观察到了圆锥猪笼草的下位笼，其类似于美林猪笼草（N. merrilliana）及其他产自菲律宾的相关物种。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-15T18:37:33.843884Z"
+    },
+    {
+      "source_id": "wiki-random:zh:7143290",
+      "source_name": "ZH Wikipedia：英国铁路先进客运动车组实验型",
+      "source_url": "https://zh.wikipedia.org/wiki/%E8%8B%B1%E5%9B%BD%E9%93%81%E8%B7%AF%E5%85%88%E8%BF%9B%E5%AE%A2%E8%BF%90%E5%8A%A8%E8%BD%A6%E7%BB%84%E5%AE%9E%E9%AA%8C%E5%9E%8B",
+      "title": "英国铁路先进客运动车组实验型",
+      "excerpt": "英国铁路实验型先进客运动车组（英文原名：British Rail APT-E，英文全稱：Advanced Passenger Train Experimental，中文又称：实验型高级客运列车）是英國鐵路一型試驗型动力分散式擺式客運動車組，使用燃氣輪機動力。僅製造一組。該型动车组为4节编组，头尾两节动车（编号為PC1、PC2），中间两节拖车（编号為TC1、TC2）。每節動車安裝有四臺利蘭2S/350燃氣渦輪發動機和一臺輔助供電引擎。每臺燃氣渦輪發動機初期功率為300馬力，後期升級至330馬力。 兩端頭部的轉向架則安裝有英国通用电气公司生產的253AY型牽引電機。車體采用鋁製車體，每節車廂長21米，使用兩節車廂連接處安裝有關節式轉向架。 英国铁路实验型先进客运动车组于1972年7月25日首次上线运行，路线为德比至达菲尔德（Duffield）。但不久後英國機車工程師和司爐工會卻極力阻止該型列車的使用，因為該工會認爲英国铁路实验型先进客运动车组的一人駕駛制設計可能會導致工作崗位流失。 这使得該型動車組直到1973年8月才再次上綫運行。 英国铁路实验型先进客运动车组曾於1975年8月在大西部幹綫斯溫頓-雷丁區間達到245.1千米/小時的最高速度，打破之前英國的鐵路列車速度紀錄。 1976年1月由伦敦圣潘克拉斯车站出发经米德兰主线和Old Dalby试验线的测试中达到了231.1千米/小时的最高速度。 该型动车组仅用于内部测试使用，从未面向公众提供服务。在1976年6月测试结束后，该列车被送往位于约克的大英铁路博物馆。后又改由国立希尔登铁路博物馆收藏至今。英铁370型电力动车组亦为改型列车的衍生型号，但370型动车组采用交流25千伏50赫兹架空电缆供电。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-15T18:38:57.608239Z"
+    },
+    {
+      "source_id": "wiki-random:en:46309528",
+      "source_name": "EN Wikipedia：2015 Idlib offensive",
+      "source_url": "https://en.wikipedia.org/wiki/2015_Idlib_offensive",
+      "title": "2015 Idlib offensive",
+      "excerpt": "The 2015 Idlib offensive refers to a series of rebel operations in the Idlib Governorate, during the Syrian Civil War. The offensive started with a rebel assault on the capital of the province, Idlib. According to The Economist, the capture of Idlib came about largely because Gulf Arab states \"gave more backing to their proxies despite American objections.\"",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-15T18:38:57.609059Z"
+    },
+    {
+      "source_id": "wiki-random:zh:31152",
+      "source_name": "ZH Wikipedia：台灣地理",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%8F%B0%E7%81%A3%E5%9C%B0%E7%90%86",
+      "title": "台灣地理",
+      "excerpt": "臺灣，舊稱福爾摩沙，佔中華民國現今實際統治領土面積的99%。主島面積為35,808平方公里（13,826平方英里），以臺灣海峽與中國大陸東南沿海相隔，距離約180公里（112英里）。臺灣島北臨東海，東鄰菲律賓海，南隔呂宋海峽，西南接南海。此外，中華民國還控制多個島嶼，包括台灣海峽內的澎湖群島，靠近中國大陸福建沿海的金門群島和馬祖列島，以及部分南海諸島。 從地質構造上來說，臺灣本島由傾斜的斷塊組成，特色在於東部3分之2地區主要由5座沿著東海岸平行分布的崎嶇山脈構成，西部3分之1則為平坦或緩坡的平原地帶，是大部分人口的聚居地。臺灣多座山峰高度超過3,500公尺，其中玉山為最高峰，海拔達3,952米（12,966英尺），使臺灣成為全球第四高的島嶼。形成這些山脈的構造邊界仍然活躍，島上時常發生地震，有些地震破壞性極高。此外，臺灣海峽內還存在許多活躍的海底火山。 臺灣氣候南部屬熱帶，北部則為亞熱帶，並受到東亞季風的主導影響。本島平均每年有4場颱風襲擊，雨量豐沛，使得東部茂密的森林山區為各類野生動植物提供了棲息地，而西部與北部的低地則因人類土地使用密集而高度開發。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-15T18:38:57.610288Z"
+    },
+    {
+      "source_id": "wiki-random:en:4419469",
+      "source_name": "EN Wikipedia：Adaptive partition scheduler",
+      "source_url": "https://en.wikipedia.org/wiki/Adaptive_partition_scheduler",
+      "title": "Adaptive partition scheduler",
+      "excerpt": "Adaptive partition schedulers are a relatively new type of partition scheduler, which in turn is a kind of scheduling algorithm, pioneered with the most recent version of the QNX operating system. Adaptive partitioning, or AP, allows the real-time system designer to request that a percentage of processing resources be reserved for a particular partition (group of threads and/or processes making up a subsystem). The operating system's priority-driven pre-emptive scheduler will behave in the same way that a non-AP system would until the system is overloaded (i.e. system-wide there is more computation to perform than the processor is capable of sustaining over the long term). During overload, the AP scheduler enforces hard limits on total run-time for the subsystems within a partition, as dictated by the allocated percentage of processor bandwidth for the particular partition. If the system is not overloaded, a partition that is allocated (for example) 10% of the processor bandwidth, can, in fact, use more than 10%, as it will borrow from the spare budget of other partitions (but will be required to pay it back later). This is very useful for the non real-time subsystems that experience...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-15T18:38:57.612312Z"
+    },
+    {
+      "source_id": "wiki-random:en:3009475",
+      "source_name": "EN Wikipedia：Isaac F. Hughes",
+      "source_url": "https://en.wikipedia.org/wiki/Isaac_F._Hughes",
+      "title": "Isaac F. Hughes",
+      "excerpt": "Isaac Fremont Hughes (July 29, 1861 – January 17, 1931) was an American miller, grocer, and businessman who was the first representative of Los Angeles City Council District 3 after a new city charter went into effect in 1925. He served for two years, until 1927.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-15T18:38:57.613518Z"
+    },
+    {
+      "source_id": "wiki-random:zh:5913495",
+      "source_name": "ZH Wikipedia：欧洲灭亡语言列表",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%AC%A7%E6%B4%B2%E7%81%AD%E4%BA%A1%E8%AF%AD%E8%A8%80%E5%88%97%E8%A1%A8",
+      "title": "欧洲灭亡语言列表",
+      "excerpt": "这是一个欧洲灭绝语言的列表。该表中的语言已经经历了语言灭亡，没有任何母语或外语使用者。随着原始印欧语的使用群体向西部迁移，大部分原有的古欧洲语言在几千年前就绝迹，没有留下任何存在的记录。同时，他们被印欧语系的凯尔特语族、意大利语族、日耳曼语族、波罗的-斯拉夫语族、希腊语族、伊朗语支所取代。因此，如今绝大多数的欧洲人讲的语言都属于印欧语系。但是，这些灭绝语言的一小部分幸存了足够长的时间，以至于它们能够被记录了下来。 另一方面，许多欧洲印欧语言如哥特语也灭绝了。 然而，在某些情况下，我们并不清楚一门语言是否有相应的语言后裔。 以阿尔巴尼亚语为例，除了只清楚它是一门属于印欧语系的语言以外，我们无法确定它的具体起源。由于古代语言只有很少的一点并不确切的遗存，对于阿尔巴尼亚语是否由达西亚语、色雷斯语或者伊利里亚语演变而来，现在仍有争议。同样的，因为缺乏证据，尚未确定巴斯克语是否是阿基坦语衍生而来。 虽然 波美拉尼亚语言拥有一种语言后裔， 卡舒比语作为波美拉尼亚的另一种方言已经灭绝了。 下表中列出了143种语言。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-15T18:40:08.222984Z"
+    },
+    {
+      "source_id": "wiki-random:zh:7061549",
+      "source_name": "ZH Wikipedia：清水河 (黃河)",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%B8%85%E6%B0%B4%E6%B2%B3_(%E9%BB%83%E6%B2%B3)",
+      "title": "清水河 (黃河)",
+      "excerpt": "清水河，黄河支流。古代称西洛水、高平川水、蔚茹水，发源于六盘山东麓固原市原州区开城镇境内的黑刺沟脑，向北流经原州区、海原县、同心县、中宁县等县，在中宁的泉眼山西侧注入黄河，长320公里，流域面积14481平方公里，其中，宁夏境内流域面积13511平方公里，甘肃境内970平方公里。河源海拔2489米，入黄河口海拔1190米，相对高差1290米，平均比降1.49‰。 清水河是宁夏境内流入黄河的流域面积最大、最长的支流。受到温带大陆性气候的影响，清水河表现出典型的干旱半干旱河流的特征。历史上清水河谷曾经水草丰美，为西戎、匈奴等游牧民族南下掠抢提供补给，也是中原王朝北击草原文明的补给点。明清时期环境由于移民过度开垦，急剧恶化。干支流大部分流经含盐量高的第三系红层或石膏地层，导致河水矿化度极高，并且呈现出愈到下游，河水愈苦涩的水况。如今称为既不能饮用，又难以灌溉的苦涩之河。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-15T18:40:08.223254Z"
+    },
+    {
+      "source_id": "wiki-random:zh:7044199",
+      "source_name": "ZH Wikipedia：Surface Go 2",
+      "source_url": "https://zh.wikipedia.org/wiki/Surface_Go_2",
+      "title": "Surface Go 2",
+      "excerpt": "Surface Go 2是Microsoft研发的的2合1可拆卸式平板电脑 ，是Surface Go的第二代产品，于2020年5月6日与Surface Book 3一同于线上发布。 2020年5月12日开始发售。 Surface Go 2保持了和上一代一样的轻薄设计，但是具有更大的10.5英寸显示屏，更长的电池使用时间和更高的性能，其中一种型号的性能比上一代快64％。 这也是Intel Core m处理器首次应用于这种小型设备。 设备运行Windows 10 Home S模式。 它具有与上一代相同的五百万像素前置摄像头，八百万像素后置摄像头和红外摄像头。 它还具有NFC芯片和最大能展开165°角度支架。 这一代在提升显示屏的尺寸的同时也提升了分辨率（1920 x 1280，220 ppi）。不过型号仍然保持了Surface系列传统的3：2的宽高比。 Surface Go 2的起价为399.99美元，最高为729.99美元。 带有触控板的可拆卸键盘和手写笔单独出售。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-15T18:40:08.223715Z"
+    },
+    {
+      "source_id": "wiki-random:en:47268923",
+      "source_name": "EN Wikipedia：West Wyalong (Drysdale)",
+      "source_url": "https://en.wikipedia.org/wiki/West_Wyalong_(Drysdale)",
+      "title": "West Wyalong (Drysdale)",
+      "excerpt": "West Wyalong is a 1949 painting by Australian artist Russell Drysdale. The painting depicts the main street of the New South Wales town of West Wyalong, with its characteristic bend. Curator of the Art Gallery of New South Wales, Barry Pearce, stated that it was one of Australia's ten greatest paintings. The painting was conceived when Drysdale accompanied his friend—the barrister, and later Justice John Nagel—on a trip to West Wyalong. I was rather fascinated with the town itself. I mean, I’d known it but I hadn't gone back to it for years, not since I’ve become a painter anyway ... But I painted it, because I remember that evening. I was standing outside the pub under that veranda looking down the street. It was around about half past six in the evening when everybody’s having tea. Drysdale painted the work at his family home in Rose Bay, a harbourside neighbourhood of Sydney. Drysdale's daughter recalled how, as children, she and her brother had been allowed to play around it while he was working on it. A report accompanying an exhibition of his work stated that \"Drysdale applied several layers of paint and glaze to render the details with utmost care: the architectural features...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-15T18:40:08.224416Z"
+    },
+    {
+      "source_id": "wiki-random:en:47414191",
+      "source_name": "EN Wikipedia：Vinod Chohan",
+      "source_url": "https://en.wikipedia.org/wiki/Vinod_Chohan",
+      "title": "Vinod Chohan",
+      "excerpt": "Vinod Chandrasinh Chohan (1 May 1949 – 12 June 2017) was a Tanzanian-born accelerator specialist and engineer. He was a Senior Staff Member at CERN for nearly 40 years. He held a leading position at CERN's Antiproton Accumulator, a machine that was part of the infrastructure connected to the UA1 and UA2 experiments, where the W and Z bosons were discovered in 1983. Carlo Rubbia and Simon van der Meer received the 1984 Nobel Prize in Physics for this discovery. Chohan worked closely with the latter on the antiproton accumulator. Chohan was a substantial contributor to the Large Hadron Collider (LHC), leading the team that tested, measured and trained more than a thousand superconducting magnets for the LHC. During his nearly 40 years as a staff member at CERN he held technical and management positions such as in beam diagnostics, instrumentation, accelerator studies, controls, testing of superconducting magnet and safety.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-15T18:40:08.225282Z"
+    },
+    {
+      "source_id": "wiki-random:en:7441583",
+      "source_name": "EN Wikipedia：William English Walling",
+      "source_url": "https://en.wikipedia.org/wiki/William_English_Walling",
+      "title": "William English Walling",
+      "excerpt": "William English Walling (March 18, 1877 – September 12, 1936) (known as \"English\" to friends and family) was an American labor reformer and Socialist Republican born into a wealthy family in Louisville, Kentucky. He founded the National Women's Trade Union League in 1903. Moved by his investigation of the Springfield Race Riot of 1908 in the state capital of Illinois, he was among the co-founders of the National Association for the Advancement of Colored People (NAACP) in 1909. He wrote three books on socialism in the early 20th century. He left the Socialist Party because of its anti-war policy, as he believed United States participation in the Great War was needed to defeat the Central Powers.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-15T18:40:08.226764Z"
+    },
+    {
+      "source_id": "wiki-random:zh:5932775",
+      "source_name": "ZH Wikipedia：雪鐵龍C4 Picasso",
+      "source_url": "https://zh.wikipedia.org/wiki/%E9%9B%AA%E9%90%B5%E9%BE%8DC4_Picasso",
+      "title": "雪鐵龍C4 Picasso",
+      "excerpt": "雪铁龙C4毕加索是由法國先進汽車於2006年推出的两款紧凑型MPV，分为五人座和七人座两款（大C4毕加索）。该车型于2006年8月由法国汽车制造商雪铁龙推出，并于2006年9月在2006年巴黎车展正式发布七座款。在2007年1月5日的日内瓦车展上正式发布了五座版。为了在全球称呼的统一性，七座款又被称为大C4毕加索。这两款车型均使用于雪铁龙C4和标致307相同底盘平台（标致雪铁龙PF2平台）和发动机。这两款紧凑型MPV主要用来替代雪铁龙之前生产的萨拉·毕加索。 大C4毕加索比同等级其他七座紧凑MPV稍大。如马自达5和雷诺大风景，甚至超过一些雪铁龙的早期大型MPV就像雪铁龙Evasion。出于这个原因，一些批评者认为它被归为大型MPV，而不应该因为发动机种类，车辆内部设计和价格划为紧凑型MPV。 气动后悬挂是可作为一种选择配置，这可以使得乘坐更舒适，并安装更大的车窗。在某些市场，此选项仅适用于较高等级的车辆。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-15T18:40:08.227147Z"
+    },
+    {
+      "source_id": "wiki-random:zh:3896053",
+      "source_name": "ZH Wikipedia：明朝歷史",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%98%8E%E6%9C%9D%E6%AD%B7%E5%8F%B2",
+      "title": "明朝歷史",
+      "excerpt": "明朝历史，在中國歷史學家的定義，自1368年朱元璋金陵稱帝為始，至1644年李自成攻入北京為止的历史情況 。但是明朝的餘絮有1662年滅亡的南明政权與1683年滅亡的臺灣明鄭王朝。 明初武功極盛一時，明太祖朱元璋立國江南，以「驅逐胡虜，恢復中華」的口號北伐中原，最終推翻蒙古人建立的元朝並逐步從戰亂中恢復國力，史稱洪武之治，又利用胡藍黨獄铲除权臣，以斷後患。明太祖的繼承人明惠帝在位時爆發靖難之變，燕王朱棣最终获胜，朱棣改元永樂，史稱明成祖。明成祖時曾北進蒙古，南征安南，令鄭和下西洋宣揚國威致萬邦來朝，史稱永樂盛世。其後的十一年在明仁宗和明宣宗的治理下，大明國力達到頂峰，史稱仁宣之治。宣宗之子明英宗幼年即位時，朝中有「三楊」楊溥、楊士奇、楊榮主持政局，一时「海內清平」。 至明英宗正統七年（1442年），張太皇太后去世，明英宗僅十五歲，宦官王振趁機開始擅權；正統十四年（1449年）發生土木堡之變，英宗被俘。但名臣于謙另立明景帝，並擊退了瓦剌，取得京師保衛戰的勝利，瓦剌於是送還了英宗，但英宗從此被景帝軟禁。數年後，英宗利用奪門之變復辟，并廢除自明太祖時殘酷的殉葬制度，並逐漸任賢用人使朝政有所轉機。英宗之子明憲宗繼位後，前期勵精圖治但後期寵幸閹宦汪直。明孝宗統治的弘治年間，明朝君臣同心協力，國家呈現中興氣象，史稱弘治中興。 到了正德、嘉靖两朝虽然开创了嘉靖革新的局面，但后世后期逐漸中衰，社會矛盾萌發，並面臨蒙古、倭寇兩大外患，加上1556年陕西省发生大地震，导致明朝国库连续两年亏空。明穆宗隆慶朝名臣名將薈萃，陸上與蒙古達成和議，史稱俺答封貢；海上開放民間貿易，史稱隆慶開關；因為這兩項措施，明朝又重現中興氣象，史稱隆慶新政。明神宗萬曆朝初期在名相張居正的輔政之下曾一度中興。後世計當時朝廷歲收，明朝的經濟規模可稱世界第一。惟至萬曆朝中期始，因立太子之爭，君臣關係緊張，終致皇帝怠政、官員腐化，關外女真興起，明朝開始走向衰敗。但萬曆年間，明朝仍取得了明緬戰爭的勝利、援助朝鮮擊敗日本的勝利。神宗去世后，儿子朱常洛登基，年号泰昌，史称明光宗。而光宗在位仅一个月去世，由儿子朱由校即位，年号天啟，也就是明熹宗。少年皇帝明熹宗事事信賴太監魏忠賢。 至崇禎年間，臣子黨爭激烈，皇帝決策失准，诛殺袁崇煥，後金軍隊突破長城，五入關內燒殺搶掠。又遇連年災荒疫疾，民不聊生，各地爆發民變，叛降數易，官兵疲於奔命。在如此嚴峻的形勢之下，明朝仍取得了料羅灣海戰的勝利擊敗荷蘭東印度公司。 崇祯十七年（1644年），李自成的大順軍隊攻佔北京，崇禎帝自縊，隨後清朝軍隊在原明朝將領吳三桂的帶領下入關擊敗大順軍，但由明朝宗室在江南建立的若干個南明政權延續了數十年，忠於明朝的鄭成功從荷蘭人手中取得臺灣作為反清基地，是謂明鄭王朝。直到1683年清軍佔臺，明廷餘絮完全滅絕。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-15T18:40:08.227724Z"
+    },
+    {
+      "source_id": "wiki-random:en:5560489",
+      "source_name": "EN Wikipedia：Retrofitting",
+      "source_url": "https://en.wikipedia.org/wiki/Retrofitting",
+      "title": "Retrofitting",
+      "excerpt": "Retrofitting is the addition of new technology or features to older systems. Retrofits can happen for a number of reasons, for example with big capital expenditures like naval vessels, military equipment or manufacturing plants, businesses or governments may retrofit in order to reduce the need to replace a system entirely. Other retrofits may be due to changing codes or requirements, such as seismic retrofit which are designed strengthening older buildings in order to make them earthquake resistant. Retrofitting is also an important part of climate change mitigation and climate change adaptation: because society invested in built infrastructure, housing and other systems before the magnitude of changes anticipated by climate change. Retrofits to increase building efficiency, for example, both help reduce the overall negative impacts of climate change by reducing building emissions and environmental impacts while also allowing the building to be more healthy during extreme weather events. Retrofitting also is part of a circular economy, reducing the amount of newly manufactured goods, thus reducing lifecycle emissions and environmental impacts.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-15T18:40:08.228807Z"
+    },
+    {
+      "source_id": "wiki-random:en:533361",
+      "source_name": "EN Wikipedia：Quinquatria",
+      "source_url": "https://en.wikipedia.org/wiki/Quinquatria",
+      "title": "Quinquatria",
+      "excerpt": "The Quinquatria or Quinquatrus was a festival in ancient Roman religion, sacred to the Goddess Minerva, celebrated 19–23 March. According to Varro, it was so called because it was held on the fifth (quinqu-) day after the Ides, in the same way as the Tusculans called a festival on the sixth day after the Ides Sexatrus or one on the seventh Septimatrus. Both Varro and Festus state that the Quinquatrus was celebrated for only one day, but Ovid says that it was celebrated for five days, hence the name: on the first day no blood was shed, but that on the last four there were contests of gladiators. The first day was the festival proper, and that the following four were an expansion made perhaps in the time of Caesar to gratify the people. The ancient Roman religious calendars assign only one day to the festival. Ovid says that this festival was celebrated in commemoration of the birthday of Minerva, but according to Festus it was sacred to Minerva because her temple on the Aventine was consecrated on that day. On the fifth day of the festival, according to Ovid, the trumpets used in sacred rites were purified; but this seems to have been originally a separate festival called Tubilustrium...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-15T18:41:22.239197Z"
+    },
+    {
+      "source_id": "wiki-random:en:3077556",
+      "source_name": "EN Wikipedia：Hulk Hands",
+      "source_url": "https://en.wikipedia.org/wiki/Hulk_Hands",
+      "title": "Hulk Hands",
+      "excerpt": "Hulk Hands are a toy, originally released as part of the merchandise for Hulk in 2003, consisting of large foam-rubber clenched fists into which the wearer inserts their hands. It is based on the Marvel Comics superhero Hulk. The Hulk Hands are wired so that when they are bashed together or against objects, they emit various smashing or crashing sound effects, as well as occasional Hulk-related roars or catch phrases.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-15T18:41:22.239904Z"
+    },
+    {
+      "source_id": "wiki-random:en:54262131",
+      "source_name": "EN Wikipedia：Canton of Saint-Paul-des-Landes",
+      "source_url": "https://en.wikipedia.org/wiki/Canton_of_Saint-Paul-des-Landes",
+      "title": "Canton of Saint-Paul-des-Landes",
+      "excerpt": "The canton of Saint-Paul-des-Landes is an administrative division of the Cantal department, southern France. It was created at the French canton reorganisation which came into effect in March 2015. Its seat is in Saint-Paul-des-Landes. It consists of the following communes:",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-15T18:41:22.240789Z"
+    },
+    {
+      "source_id": "wiki-random:zh:5536639",
+      "source_name": "ZH Wikipedia：氣態矮星",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%B0%A3%E6%85%8B%E7%9F%AE%E6%98%9F",
+      "title": "氣態矮星",
+      "excerpt": "氣態矮星是累積了氫、氦、和其他揮發物的厚重氣體殼層，使得其半徑介於1.7至3.9地球半徑（1.7–3.9 R🜨）之間，有著岩石核心的氣態天體。這個名詞通常有三種涵義：以金屬量為基礎分類，也包含岩石類的短週期系外行星；像地球這樣，半徑小於1.71.7 R🜨；和半徑大於3.9 R🜨，被稱為冰巨星和氣態巨行星。在太陽系中沒有已知的氣態矮星，但在其它的行星系統中則很常見。 較小的氣態行星和比較接近母恆星的行星，通過流體動力將會比較大的行星和距離較遠的行星更快失去大氣層的質量。 已知氣態行星中體積可能最小的是克卜勒-138d，它的質量與地球相似，但是比地球大了60%，因此由它的密度顯示有著厚重的氣體殼層。 一顆低質量的氣態行星，如果有合適的溫度，仍然可以有類似氣態巨行星的半徑。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-15T18:41:22.241053Z"
+    },
+    {
+      "source_id": "wiki-random:en:30421363",
+      "source_name": "EN Wikipedia：Copper tubing",
+      "source_url": "https://en.wikipedia.org/wiki/Copper_tubing",
+      "title": "Copper tubing",
+      "excerpt": "Copper tubing is available in two basic types of tube—plumbing tube and air conditioning/refrigeration (ACR) tube, and in both drawn (hard) and annealed (soft) tempers. Because of its high level of corrosion resistance, it is used for water distribution systems, oil fuel transfer lines, non-flammable medical-gas systems, and as a refrigerant line in HVAC systems. Copper tubing is joined using flare connection, compression connection, pressed connection, or solder.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-15T18:41:22.243275Z"
+    },
+    {
+      "source_id": "wiki-random:en:3439",
+      "source_name": "EN Wikipedia：Piano Trio, Op. 97 (Beethoven)",
+      "source_url": "https://en.wikipedia.org/wiki/Piano_Trio,_Op._97_(Beethoven)",
+      "title": "Piano Trio, Op. 97 (Beethoven)",
+      "excerpt": "The Piano Trio in B♭ major, Op. 97, by Ludwig van Beethoven is a piano trio completed in 1811. It is commonly referred to as the Archduke Trio, because it was dedicated to Archduke Rudolph of Austria, the youngest of twelve children of Leopold II, Holy Roman Emperor. Rudolf was an amateur pianist and a patron, friend, and composition student of Beethoven. Beethoven dedicated about a dozen compositions to him. The Archduke Trio was written late in Beethoven's so-called \"middle period\". He sketched out the draft for it in the summer of 1810 and completed the composition in March 1811. It follows the traditional four movement structure with sonata form in the first and rondo sonata form in the last movement. It also allows for a more prominent part for the piano than previous compositions.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-15T18:41:22.243834Z"
     }
   ]
 }

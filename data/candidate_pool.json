@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-16T18:36:22.681285Z",
+  "updated_at": "2026-07-16T18:38:45.312190Z",
   "candidates": [
     {
       "source_id": "wiki-topic:en:77737401",
@@ -53,16 +53,6 @@
       "added_at": "2026-07-12T11:39:40.566020Z"
     },
     {
-      "source_id": "wiki-topic:en:8694335",
-      "source_name": "EN Wikipedia：Biocommunication (science)",
-      "source_url": "https://en.wikipedia.org/wiki/Biocommunication_(science)",
-      "title": "Biocommunication (science)",
-      "excerpt": "In the study of the biological sciences, biocommunication is any specific type of communication within (intraspecific) or between (interspecific) species of plants, animals, fungi, protozoa and microorganisms. Communication means sign-mediated interactions following three levels of rules (syntactic, pragmatic and semantic). Signs in most cases are chemical molecules (semiochemicals), but also tactile, or as in animals also visual and auditive. Biocommunication of animals may include vocalizations (as between competing bird species), or pheromone production (as between various species of insects), chemical signals between plants and animals (as in tannin production used by vascular plants to warn away insects), and chemically mediated communication between plants and within plants. Biocommunication of fungi demonstrates that mycelia communication integrates interspecific sign-mediated interactions between fungal organisms, soil bacteria and plant root cells without which plant nutrition could not be organized. Biocommunication of Ciliates identifies the various levels and motifs of communication in these unicellular eukaryotes. Biocommunication of Archaea represents key levels of sign...",
-      "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.566020Z"
-    },
-    {
       "source_id": "wiki-topic:en:57878408",
       "source_name": "EN Wikipedia：Everyday Africa",
       "source_url": "https://en.wikipedia.org/wiki/Everyday_Africa",
@@ -81,16 +71,6 @@
       "category_hint": "综合",
       "source_rank": 2,
       "added_at": "2026-07-12T11:39:40.566020Z"
-    },
-    {
-      "source_id": "wiki-topic:en:502060",
-      "source_name": "EN Wikipedia：Conditional sentence",
-      "source_url": "https://en.wikipedia.org/wiki/Conditional_sentence",
-      "title": "Conditional sentence",
-      "excerpt": "A conditional sentence is a sentence in a natural language that expresses that one thing is contingent on another, e.g., \"If it rains, the picnic will be cancelled.\" They are so called because the impact of the sentence’s main clause is conditional on a subordinate clause. A full conditional thus contains two clauses: the subordinate clause, called the antecedent (or protasis or if-clause), which expresses the condition, and the main clause, called the consequent (or apodosis or then-clause) expressing the result. To form conditional sentences, languages use a variety of grammatical forms and constructions. The forms of verbs used in the antecedent and consequent are often subject to particular rules as regards their tense, aspect, and mood. Many languages have a specialized type of verb form called the conditional mood – broadly equivalent in meaning to the English \"would (do something)\" – for use in some types of conditional sentences.",
-      "category_hint": "综合",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.567001Z"
     },
     {
       "source_id": "wiki-topic:en:12608",
@@ -163,16 +143,6 @@
       "added_at": "2026-07-12T11:39:40.568006Z"
     },
     {
-      "source_id": "wiki-topic:en:16094284",
-      "source_name": "EN Wikipedia：Digital history",
-      "source_url": "https://en.wikipedia.org/wiki/Digital_history",
-      "title": "Digital history",
-      "excerpt": "Digital history is the use of digital media to further historical analysis, presentation, and research. It is a branch of the digital humanities and an extension of quantitative history, cliometrics, and computing. Digital history is commonly known as digital public history, concerned primarily with engaging online audiences with historical content, or digital research methods, that further academic research. Digital history outputs include: digital archives, online presentations, data and information visualizations, interactive maps, timelines, audio files, and virtual worlds. These outputs are designed to enhance accessibility to users, facilitating engagement with historical content. Recent digital history projects focus on creativity, collaboration, and technical innovation, text mining, corpus linguistics, network analysis, 3D modeling, and big data analysis. By utilizing these resources, the user can rapidly develop new analyses that can link to, extend, and bring to life existing histories.",
-      "category_hint": "历史",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.568006Z"
-    },
-    {
       "source_id": "wiki-topic:en:78283444",
       "source_name": "EN Wikipedia：Robotics engineering",
       "source_url": "https://en.wikipedia.org/wiki/Robotics_engineering",
@@ -218,16 +188,6 @@
       "source_url": "https://en.wikipedia.org/wiki/Multi-messenger_astronomy",
       "title": "Multi-messenger astronomy",
       "excerpt": "Multi-messenger astronomy is the coordinated observation and interpretation of multiple signals received from the same astronomical event. Many types of cosmological events involve complex interactions between a variety of astrophysical processes, each of which may independently emit signals of a characteristic \"messenger\" type: electromagnetic radiation (including infrared, visible light and X-rays), gravitational waves, neutrinos, and cosmic rays. When received on Earth, identifying that disparate observations were generated by the same source can allow for improved reconstruction or better understanding of the event, and reveals more information about the source. The main multi-messenger sources outside the heliosphere are: compact binary pairs (black holes and neutron stars), supernovae, irregular neutron stars, gamma-ray bursts, active galactic nuclei, and relativistic jets. The table below lists several types of events and expected messengers. Detection from one messenger and non-detection from a different messenger can also be informative. Lack of any electromagnetic counterpart, for example, could be evidence in support of the remnant being a black hole.",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.568006Z"
-    },
-    {
-      "source_id": "wiki-topic:en:80093861",
-      "source_name": "EN Wikipedia：Kathryn's Wheel",
-      "source_url": "https://en.wikipedia.org/wiki/Kathryn%27s_Wheel",
-      "title": "Kathryn's Wheel",
-      "excerpt": "The Kathryn's Wheel (also designated as ESO 179-13) is the closest collisional ring galaxy to the Milky Way Galaxy located at a distance of only ~10 mpc placing it within the nearby galactic neighborhood. The entire galaxy including its rings has a diameter of 6.1 kpc. This makes the Kathryn's Wheel galaxy among the smallest collisional ring galaxies discovered to date and classed as a dwarf galaxy. The mass of the galaxy including the stars and Hi regions total to 6.6 billion solar masses. It got its ring shape due to a head on collision with another galaxy that it is currently interacting with. Like most collisional ring galaxies, it is located in a region of space with a low number of major galaxies that are spread apart. It has scientific value due to its small size which is not seen in other collisional ring galaxies that are larger. Because dwarf galaxies outnumber regular large galaxies, it is expected that colliding dwarf galaxies may outnumber larger ring galaxies.",
       "category_hint": "科学",
       "source_rank": 2,
       "added_at": "2026-07-12T11:39:40.568006Z"
@@ -279,16 +239,6 @@
       "title": "Borrowing (linguistics)",
       "excerpt": "In linguistics, borrowing is a type of language change in which a language or dialect undergoes change as a result of contact with another language or dialect. In typical cases of borrowing, speakers of one language (the \"recipient\" language) adopt into their own speech a novel linguistic feature that they were exposed to due to its presence in a different language (the \"source\" or \"donor\" language).",
       "category_hint": "综合",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.569010Z"
-    },
-    {
-      "source_id": "wiki-topic:en:52213563",
-      "source_name": "EN Wikipedia：Cross ventilation",
-      "source_url": "https://en.wikipedia.org/wiki/Cross_ventilation",
-      "title": "Cross ventilation",
-      "excerpt": "Cross ventilation is a natural phenomenon where wind enters an opening, such as a window, flows directly through the space, and exits through an opening on the opposite side of the building (where the air pressure is lower). This produces a cool stream of air and a current across the room from the exposed area to the sheltered area. Cross ventilation is powered by the wind and thus requires no energy input, in addition to being the most effective method of wind ventilation. A commonly used technique to remove pollutants and heat in an indoor environment, cross ventilation can also decrease or even obviate the need for air conditioning and can improve indoor air quality. Other terms used for the effect include cross-breeze, cross-draft, wind effect ventilation and cross-flow ventilation. In Germany they have been called lüften and Stoßlüften.",
-      "category_hint": "科学",
       "source_rank": 2,
       "added_at": "2026-07-12T11:39:40.569010Z"
     },
@@ -453,16 +403,6 @@
       "added_at": "2026-07-12T11:39:40.571009Z"
     },
     {
-      "source_id": "wiki-topic:en:54081969",
-      "source_name": "EN Wikipedia：Everyday Urbanism",
-      "source_url": "https://en.wikipedia.org/wiki/Everyday_Urbanism",
-      "title": "Everyday Urbanism",
-      "excerpt": "Everyday Urbanism is a concept introduced by Margaret Crawford, John Chase and John Kaliski in 1999. Everyday Urbanism is in Margaret Crawford words: ”an approach to Urbanism that finds its meanings in everyday life”. Contrary to New Urbanism, Everyday Urbanism is not concerned with aesthetics but with specific activities of the daily life. It constitutes an empirical approach that strengthens frequently unnoticed existing situations and experiences that occur in everyday life. Everyday Urbanism can also be considered as a method with a multidimensional consideration of the value of public spaces as it introduces various responses to specific times and places. For instance, the value of public spaces and community life is burst with street markets, street food vendors and murals organically created; this burst created by community life results in improvements to the public space that 'Everyday Urbanism' understands as an ‘improvement by appropriation’ or as a challenging appropriation of places in the city with temporary, short-lived urban activities. The study of Everyday Urbanism contributes urban planning and urban design studies with an approach to the understanding of the social...",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.571009Z"
-    },
-    {
       "source_id": "wiki-topic:en:2002552",
       "source_name": "EN Wikipedia：Bancroft Award",
       "source_url": "https://en.wikipedia.org/wiki/Bancroft_Award",
@@ -493,16 +433,6 @@
       "added_at": "2026-07-12T11:39:40.571009Z"
     },
     {
-      "source_id": "wiki-topic:en:2030477",
-      "source_name": "EN Wikipedia：Connections (British TV series)",
-      "source_url": "https://en.wikipedia.org/wiki/Connections_(British_TV_series)",
-      "title": "Connections (British TV series)",
-      "excerpt": "Connections is a science education television series created, written, and presented by British science historian James Burke. The series was produced and directed by Mick Jackson of the BBC Science and Features Department and first aired in 1978 (UK) and 1979 (US). It took an interdisciplinary approach to the history of science and invention, and demonstrated how various discoveries, scientific achievements, and historical world events were built from one another successively in an interconnected way to bring about particular aspects of modern technology. The series was noted for Burke's crisp and enthusiastic presentation (and dry humour), historical re-enactments, and intricate working models. The popular success of the series led to the production of The Day the Universe Changed (1985), a similar programme, but showing a more linear history of several important scientific developments and their more philosophic impact on Western civilisation. Years later, the success in syndication led to three sequels. Connections2 (1994) and Connections3 (1997) were made for TLC. In November 2023, the six-episode series Connections with James Burke premièred on Curiosity Stream, again with Burke...",
-      "category_hint": "历史",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.572028Z"
-    },
-    {
       "source_id": "wiki-topic:en:152552",
       "source_name": "EN Wikipedia：Aerospike engine",
       "source_url": "https://en.wikipedia.org/wiki/Aerospike_engine",
@@ -518,26 +448,6 @@
       "source_url": "https://en.wikipedia.org/wiki/Distraction",
       "title": "Distraction",
       "excerpt": "Distraction is the process of diverting the attention of an individual or group from a desired area of focus and thereby blocking or diminishing the reception of desired information. Distraction is caused by: inability to pay attention; lack of interest in the object of attention; or the great intensity, novelty or attractiveness of something other than the object of attention. Distractions come from both external and internal sources. External distractions include factors such as visual triggers, social interactions, music, text messages and phone calls. Internal distractions include hunger, fatigue, illness, worrying and daydreaming. Both external and internal distractions contribute to loss of focus.",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.572028Z"
-    },
-    {
-      "source_id": "wiki-topic:en:72851975",
-      "source_name": "EN Wikipedia：Empirical evidence for the spherical shape of Earth",
-      "source_url": "https://en.wikipedia.org/wiki/Empirical_evidence_for_the_spherical_shape_of_Earth",
-      "title": "Empirical evidence for the spherical shape of Earth",
-      "excerpt": "The roughly spherical shape of Earth can be empirically evidenced by many different types of observation, ranging from ground level, flight, or orbit. The spherical shape causes a number of effects and phenomena that when combined disprove flat Earth beliefs. These include the visibility of distant objects on Earth's surface; lunar eclipses; appearance of the Moon; observation of the sky from a certain altitude; observation of certain fixed stars from different locations; observing the Sun; surface navigation; grid distortion on a spherical surface; weather systems; gravity; and modern technology.",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.572028Z"
-    },
-    {
-      "source_id": "wiki-topic:en:10591",
-      "source_name": "EN Wikipedia：Flavoring",
-      "source_url": "https://en.wikipedia.org/wiki/Flavoring",
-      "title": "Flavoring",
-      "excerpt": "A flavoring (or flavouring), also known as flavor (or flavour) or flavorant, is a food additive that is used to improve the taste or smell of food. It changes the perceptual impression of food as determined primarily by the chemoreceptors of the gustatory and olfactory systems. Along with additives, other components, like sugars, determine the taste of food. A flavoring is defined as a substance that gives another substance taste, altering the characteristics of the solute, causing it to become sweet, sour, tangy, etc. Although the term, in common language, denotes the combined chemical sensations of taste and smell, the same term is used in the fragrance and flavors industry to refer to edible chemicals and extracts that alter the flavor of food and food products through the sense of smell. Owing to the high cost, or unavailability, of natural flavor extracts, most commercial flavorings are \"nature-identical\", which means that they are the chemical equivalent of natural flavors, but chemically synthesized rather than having been extracted from source materials. Identification of components of natural foods, for example a raspberry, may be done using technology such as headspace techniques...",
       "category_hint": "生活",
       "source_rank": 2,
       "added_at": "2026-07-12T11:39:40.572028Z"
@@ -633,26 +543,6 @@
       "added_at": "2026-07-12T11:39:40.573028Z"
     },
     {
-      "source_id": "wiki-topic:en:9228",
-      "source_name": "EN Wikipedia：Earth",
-      "source_url": "https://en.wikipedia.org/wiki/Earth",
-      "title": "Earth",
-      "excerpt": "Earth is the third planet from the Sun and the only astronomical object known to harbor life. This is made possible by Earth being an ocean world, the only one in the Solar System sustaining liquid surface water. Almost all of Earth's water is contained in its ocean, which covers 70.8% of Earth's crust. The remaining 29.2% of Earth's crust is land, which is predominantly located within Earth's land hemisphere in the form of continental landmasses. Most of Earth's land is at least somewhat humid and covered by vegetation, while large ice sheets at Earth's polar deserts retain more water than Earth's groundwater, lakes, rivers, and atmospheric water combined. Earth's crust consists of slowly moving tectonic plates, which interact to produce mountain ranges, volcanoes, and earthquakes. Earth has a liquid outer core that generates a magnetosphere capable of deflecting most of the destructive solar winds and cosmic radiation. Earth has a dynamic atmosphere, which sustains Earth's surface conditions and protects it from most meteoroids and ultraviolet light at entry. It is composed primarily of nitrogen and oxygen. Water vapor is widely present in the atmosphere, forming clouds that cover...",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.573028Z"
-    },
-    {
-      "source_id": "wiki-topic:en:16794300",
-      "source_name": "EN Wikipedia：Economics of language",
-      "source_url": "https://en.wikipedia.org/wiki/Economics_of_language",
-      "title": "Economics of language",
-      "excerpt": "The economics of language is an emerging field of study concerning a range of topics such as the effect of language skills on income and trade, the costs and benefits of language planning options, the preservation of minority languages, etc. It is relevant to analysis of language policy. In his book 'Language and Economy', the German sociolinguist Florian Coulmas discusses \"the many ways in which language and economy interact, how economic developments influence the emergence, expansion, or decline of languages; how linguistic conditions facilitate or obstruct the economic process; how multilingualism and social affluence are interrelated; how and why language and money fulfill similar functions in modern societies; why the availability of a standard language is an economic advantage; how the unequal distribution of languages in multilingual societies makes for economic inequality; how the economic value of languages can be assessed; why languages have an internal economy and how they adapt to the demands of the external economy. Florian Coulmas asserts that language is the medium of business, an asset in itself and sometimes a barrier to trade\". States shoulder language costs, because...",
-      "category_hint": "综合",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.573028Z"
-    },
-    {
       "source_id": "wiki-topic:en:5652450",
       "source_name": "EN Wikipedia：Biological process",
       "source_url": "https://en.wikipedia.org/wiki/Biological_process",
@@ -669,16 +559,6 @@
       "title": "Biological sex",
       "excerpt": "Sex is the phenotypic trait of a sexually reproducing organism in producing gametes of one of two different sizes or shapes—male or female gametes. During sexual reproduction, a male and a female gamete fuse to form a zygote, which develops into an offspring that inherits traits from each parent. By convention, organisms that produce smaller gametes (spermatozoa, sperm) are called male, while organisms that produce larger gametes (ova, often called egg cells) are called female. An organism that produces both types of gamete is a hermaphrodite. Sex is often referred to as biological sex when using the word sex alone could be ambiguous with other meanings of sex. In non-hermaphroditic species, the sex of an individual is determined through one of several biological sex-determination systems. Most mammalian species have the XY sex-determination system, where the male usually carries an X and a Y chromosome (XY), and the female usually carries two X chromosomes (XX). Other chromosomal sex-determination systems in animals include the ZW system in birds and the XO system in some insects. Various environmental systems include temperature-dependent sex determination in reptiles and crustaceans...",
       "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.573028Z"
-    },
-    {
-      "source_id": "wiki-topic:en:11991929",
-      "source_name": "EN Wikipedia：Depth in a well",
-      "source_url": "https://en.wikipedia.org/wiki/Depth_in_a_well",
-      "title": "Depth in a well",
-      "excerpt": "In the oil and gas industry, depth in a well is the distance along a well between a point of interest and a reference point or surface. It is the most common method of reference for locations in the well, and therefore, in oil industry speech, \"depth\" also refers to the location itself. Strictly, depth is a vertical coordinate related to elevation, albeit in the opposite direction. However, \"depth\" in a well is not necessarily measured vertically or along a straight line. Because wells are not always drilled vertically, there may be two \"depths\" for every given point in a wellbore: the measured depth (MD) measured along the path of the borehole, and the true vertical depth (TVD), the vertical distance between the datum and the point of interest. In perfectly vertical wells, the TVD equals the MD; otherwise, the TVD is less than the MD measured from the same datum. Common datums used are ground level (GL), drilling rig floor (DF), Rotary table (RT), kelly bushing (KB or RKB) and mean sea level (MSL).",
-      "category_hint": "科学",
       "source_rank": 2,
       "added_at": "2026-07-12T11:39:40.573028Z"
     },
@@ -723,16 +603,6 @@
       "added_at": "2026-07-12T11:39:40.574028Z"
     },
     {
-      "source_id": "wiki-topic:en:240244",
-      "source_name": "EN Wikipedia：Biological interaction",
-      "source_url": "https://en.wikipedia.org/wiki/Biological_interaction",
-      "title": "Biological interaction",
-      "excerpt": "In ecology, a biological interaction is the effect that a pair of organisms living together in a community have on each other. They can be either of the same species (intraspecific interactions), or of different species (interspecific interactions). These effects may be short-term or long-term; both often strongly influence the adaptation and evolution of the species involved. Biological interactions range from mutualism, beneficial to both partners, to competition, harmful to both partners. Interactions can be direct when bodily contact is established or indirect through intermediaries such as shared resources, territories, ecological services, metabolic waste, toxins, or growth inhibitors. This type of relationship can be shown by net effect based on individual effects on both organisms arising out of relationship. Several recent studies have suggested non-trophic species interactions such as habitat modification and mutualisms can be important determinants of food web structures. However, it remains unclear whether these findings generalize across ecosystems, and whether non-trophic interactions affect food webs randomly or affect specific trophic levels or functional groups.",
-      "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.574028Z"
-    },
-    {
       "source_id": "wiki-topic:en:20016887",
       "source_name": "EN Wikipedia：History of the diesel car",
       "source_url": "https://en.wikipedia.org/wiki/History_of_the_diesel_car",
@@ -773,16 +643,6 @@
       "added_at": "2026-07-12T11:39:40.574028Z"
     },
     {
-      "source_id": "wiki-topic:en:207601",
-      "source_name": "EN Wikipedia：Adsorption",
-      "source_url": "https://en.wikipedia.org/wiki/Adsorption",
-      "title": "Adsorption",
-      "excerpt": "Adsorption is the adhesion of atoms, ions, or molecules from a gas, liquid, or dissolved solid to a surface. This process creates a film of the adsorbate on the surface of the adsorbent. This process differs from absorption, in which a fluid (the absorbate) is dissolved by or permeates a liquid or solid (the absorbent). While adsorption does often precede absorption, which involves the transfer of the absorbate into the volume of the absorbent material, alternatively, adsorption is distinctly a surface phenomenon, wherein the adsorbate does not penetrate through the material surface and into the bulk of the adsorbent. The term sorption encompasses both adsorption and absorption, and desorption is the reverse of sorption. Like surface tension, adsorption is a consequence of surface energy. In a bulk material, all the bonding requirements (be they ionic, covalent, or metallic) of the constituent atoms of the material are fulfilled by other atoms in the material. However, atoms on the surface of the adsorbent are not wholly surrounded by other adsorbent atoms and therefore can attract adsorbates. The exact nature of the bonding depends on the details of the species involved, but the adsorption...",
-      "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.574028Z"
-    },
-    {
       "source_id": "wiki-topic:en:29320146",
       "source_name": "EN Wikipedia：Event horizon",
       "source_url": "https://en.wikipedia.org/wiki/Event_horizon",
@@ -799,16 +659,6 @@
       "title": "Assimilative capacity",
       "excerpt": "Assimilative capacity is the ability for pollutants to be absorbed by an environment without detrimental effects to the environment or those who use of it. Natural absorption into an environment is achieved through dilution, dispersion and removal through chemical or biological processes. The term assimilative capacity has been used interchangeably with environmental capacity, receiving capacity and absorptive capacity. It is used as a measurement perimeter in hydrology, meteorology and pedology for a variety of environments examples consist of: lakes, rivers, oceans, cities and soils. Assimilative capacity is a subjective measurement that is quantified by governments and institutions such as Environmental Protection Agency (EPA) of environments into guidelines. Using assimilative capacity as a guideline can help the allocation of resources while reducing the impact on organisms in an environment. This concept is paired with carrying capacity in order to facilitate sustainable development of city regions. Assimilative capacity has been critiqued as to its effectiveness due to ambiguity in its definition that can confuses readers and false assumptions that a small amount of pollutants...",
       "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.574028Z"
-    },
-    {
-      "source_id": "wiki-topic:en:25274290",
-      "source_name": "EN Wikipedia：Integrity engineering",
-      "source_url": "https://en.wikipedia.org/wiki/Integrity_engineering",
-      "title": "Integrity engineering",
-      "excerpt": "Technical Integrity Engineering, also known as Asset Integrity, involves various engineering disciplines that focus on ensuring a product, process, or system meets its intended requirements when used. Applying these disciplines to reduce costs, maintain schedules, manage technical risks, and handle legal concerns during a project's entire life cycle ensures operational safety and efficiency in e.g., Oil and Gas, Power Generation, and Nuclear Power industries. Integrity Engineering is a profession that uses science, math, economics, social insights, legal knowledge, and practical skills to ensure that products and systems are not only safe but also meet their legal and business requirements. Integrity Engineers perform tasks such as organizing inspections, managing integrity programs, and making sure plant facilities, including structures, pipelines, equipment, and piping systems, remain in good condition.",
-      "category_hint": "科技",
       "source_rank": 2,
       "added_at": "2026-07-12T11:39:40.574028Z"
     },
@@ -1153,16 +1003,6 @@
       "added_at": "2026-07-12T20:09:32.388520Z"
     },
     {
-      "source_id": "wiki-topic:en:71498816",
-      "source_name": "EN Wikipedia：Anthropology of technology",
-      "source_url": "https://en.wikipedia.org/wiki/Anthropology_of_technology",
-      "title": "Anthropology of technology",
-      "excerpt": "The anthropology of technology (AoT) is a unique, diverse, and growing field of study that bears much in common with kindred developments in the sociology and history of technology: first, a growing refusal to view the role of technology in human societies as the irreversible and predetermined consequence of a given technology's putative \"inner logic\"; and second, a focus on the social and cultural factors that shape a given technology's development and impact in a society. However, AoT defines technology far more broadly than the sociologists and historians of technology. AoT encompasses not only the study of the processes and products of modern science and engineering, but also the techniques of small-scale societies (such as basket-weaving and bow and arrow fabrication), and the technologies of the past recoverable only by archaeology. Methodologically, AoT shares much in common with Science and Technology Studies (STS), typically employing intensive fieldwork methodologies in order to grasp the social and cultural shaping of technological artifacts and systems. These may include a phenomenological approach: how people feel, see, sense, smell, and apprehend through the body as...",
-      "category_hint": "历史",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.388635Z"
-    },
-    {
       "source_id": "wiki-topic:en:81782559",
       "source_name": "EN Wikipedia：Alaknanda Galaxy",
       "source_url": "https://en.wikipedia.org/wiki/Alaknanda_Galaxy",
@@ -1303,16 +1143,6 @@
       "added_at": "2026-07-12T20:09:32.389661Z"
     },
     {
-      "source_id": "wiki-topic:en:14285",
-      "source_name": "EN Wikipedia：History of science and technology",
-      "source_url": "https://en.wikipedia.org/wiki/History_of_science_and_technology",
-      "title": "History of science and technology",
-      "excerpt": "The history of science and technology (HST) is a field of history that examines the development of the understanding of the natural world (science) and humans' ability to manipulate it (technology) at different points in time. This academic discipline also examines the cultural, economic, and political context and impacts of scientific practices; it likewise may study the consequences of new technologies on existing scientific fields.",
-      "category_hint": "历史",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.389688Z"
-    },
-    {
       "source_id": "wiki-topic:en:7754370",
       "source_name": "EN Wikipedia：History of artificial life",
       "source_url": "https://en.wikipedia.org/wiki/History_of_artificial_life",
@@ -1351,16 +1181,6 @@
       "category_hint": "生物",
       "source_rank": 2,
       "added_at": "2026-07-12T20:09:32.390005Z"
-    },
-    {
-      "source_id": "wiki-topic:en:37232",
-      "source_name": "EN Wikipedia：Fermat's principle",
-      "source_url": "https://en.wikipedia.org/wiki/Fermat%27s_principle",
-      "title": "Fermat's principle",
-      "excerpt": "Fermat's principle, also known as the principle of least time, is the link between ray optics and wave optics. Fermat's principle states that the path taken by a ray between two given points is the path that can be traveled in the least time. First proposed by the French mathematician Pierre de Fermat in 1662, as a means of explaining the ordinary law of refraction of light (Fig. 1), Fermat's principle was initially controversial because it seemed to ascribe knowledge and intent to nature. Not until the 19th century was it understood that nature's ability to test alternative paths is merely a fundamental property of waves. If points A and B are given, a wavefront expanding from A sweeps all possible ray paths radiating from A, whether they pass through B or not. If the wavefront reaches point B, it sweeps not only the ray path(s) from A to B, but also an infinitude of nearby paths with the same endpoints. Fermat's principle describes any ray that happens to reach point B; there is no implication that the ray \"knew\" the quickest path or \"intended\" to take that path. In its original \"strong\" form, Fermat's principle states that the path taken by a ray between two given points is the...",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.390138Z"
     },
     {
       "source_id": "wiki-topic:en:153774",
@@ -1521,26 +1341,6 @@
       "category_hint": "生物",
       "source_rank": 2,
       "added_at": "2026-07-12T20:09:32.391661Z"
-    },
-    {
-      "source_id": "wiki-topic:en:27476703",
-      "source_name": "EN Wikipedia：Bouc–Wen model of hysteresis",
-      "source_url": "https://en.wikipedia.org/wiki/Bouc%E2%80%93Wen_model_of_hysteresis",
-      "title": "Bouc–Wen model of hysteresis",
-      "excerpt": "In structural engineering, the Bouc–Wen model of hysteresis is a hysteretic model typically employed to describe non-linear hysteretic systems. It was introduced by Robert Bouc and extended by Yi-Kwei Wen, who demonstrated its versatility by producing a variety of hysteretic patterns. This model is able to capture, in analytical form, a range of hysteretic cycle shapes matching the behaviour of a wide class of hysteretical systems. Due to its versatility and mathematical tractability, the Bouc–Wen model has gained popularity. It has been extended and applied to a wide variety of engineering problems, including multi-degree-of-freedom (MDOF) systems, buildings, frames, bidirectional and torsional response of hysteretic systems, two- and three-dimensional continua, soil liquefaction and base isolation systems. The Bouc–Wen model, its variants and extensions have been used in structural control—in particular, in the modeling of behaviour of magneto-rheological dampers, base-isolation devices for buildings and other kinds of damping devices. It has also been used in the modelling and analysis of structures built of reinforced concrete, steel, masonry, and timber.",
-      "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.391761Z"
-    },
-    {
-      "source_id": "wiki-topic:en:7635675",
-      "source_name": "EN Wikipedia：Bubble raft",
-      "source_url": "https://en.wikipedia.org/wiki/Bubble_raft",
-      "title": "Bubble raft",
-      "excerpt": "A bubble raft is an array of bubbles. It demonstrates materials' microstructural and atomic length-scale behavior by modelling the {111} plane of a close-packed crystal. A material's observable and measurable mechanical properties strongly depend on its atomic and microstructural configuration and characteristics. This fact is intentionally ignored in continuum mechanics, which assumes a material to have no underlying microstructure and be uniform and semi-infinite throughout. Bubble rafts assemble bubbles on a water surface, often with the help of amphiphilic soaps. These assembled bubbles act like atoms, diffusing, slipping, ripening, straining, and otherwise deforming in a way that models the behavior of the {111} plane of a close-packed crystal. The ideal (lowest energy) state of the assembly would undoubtedly be a perfectly regular single crystal, but just as in metals, the bubbles often form defects, grain boundaries, and multiple crystals.",
-      "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.391908Z"
     },
     {
       "source_id": "wiki-topic:en:21559940",
@@ -1763,16 +1563,6 @@
       "added_at": "2026-07-13T20:44:59.348490Z"
     },
     {
-      "source_id": "wiki-topic:en:16806577",
-      "source_name": "EN Wikipedia：Base-richness",
-      "source_url": "https://en.wikipedia.org/wiki/Base-richness",
-      "title": "Base-richness",
-      "excerpt": "In ecology, base-richness is the level of chemical bases in water or soil, such as calcium, potassium or magnesium ions. Bases are known as ions that react with the positively charged hydrogen in an acid and work to neutralize one another. In soils, bases are often essential nutrients to plants' development and can stabilize soil pH. Many organisms prefer base-rich environments as they are often supportive of life processes and cellular function. Chemical bases are alkalis or alkaline earth metals, hence base-rich environments are either neutral or alkaline (pH>7). Acid-rich environments have few bases, they are dominated by environmental acids, usually organic acids or cations such as aluminum and hydrogen. There is a positive correlation between base-richness and calcium (Ca), magnesium(Mg), and carbonates (HCO3), and a negative correlation with pH, Iron (Fe), Manganese (Mn), and Aluminum (Al). Base-rich terrestrial environments are characteristic of areas where underlying rocks (below soil) are limestone. Seawater is also base-rich, so maritime and marine environments are themselves base-rich. Base-poor environments are characteristic of areas where underlying rocks (below soil)...",
-      "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-13T20:44:59.348660Z"
-    },
-    {
       "source_id": "wiki-topic:en:57533523",
       "source_name": "EN Wikipedia：Baltistics",
       "source_url": "https://en.wikipedia.org/wiki/Baltistics",
@@ -1863,16 +1653,6 @@
       "added_at": "2026-07-13T20:44:59.350572Z"
     },
     {
-      "source_id": "wiki-topic:en:53782753",
-      "source_name": "EN Wikipedia：Behavior change (individual)",
-      "source_url": "https://en.wikipedia.org/wiki/Behavior_change_(individual)",
-      "title": "Behavior change (individual)",
-      "excerpt": "A behavioral change can be a temporary or permanent effect that is considered a change in an individual's behavior when compared to previous behavior. It is sometimes considered a mental disorder, yet it is also a strategy used to improve such disorders. This change is generally characterized by changes in thinking, interpretations, emotions, or relationships. These changes can be either good or bad, depending on which behavior is being affected. Often, it takes much more work to change behavior for the better than it does to experience a negative change. Medications can cause this change as a side effect. The interaction between physiological processes and their effect on individual behavior is the basis of psychophysiology. Several theories exist as to why and how behavioral change can be affected, including behaviorism, Self-efficacy theory, and the stages of change model. Behavioral change can be very beneficial to an individual. Two such theories on the subject include behavior modification theory and cognitive behavioral theory. Both of these seek to help a patient engage in a positive behavioral change. Both legal and illegal drugs have been shown to alter behavior, both acutely...",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-13T20:44:59.350732Z"
-    },
-    {
       "source_id": "wiki-topic:en:862496",
       "source_name": "EN Wikipedia：Assertiveness",
       "source_url": "https://en.wikipedia.org/wiki/Assertiveness",
@@ -1921,16 +1701,6 @@
       "category_hint": "生活",
       "source_rank": 2,
       "added_at": "2026-07-14T20:46:40.125494Z"
-    },
-    {
-      "source_id": "wiki-topic:en:55819873",
-      "source_name": "EN Wikipedia：Blue flower colouration",
-      "source_url": "https://en.wikipedia.org/wiki/Blue_flower_colouration",
-      "title": "Blue flower colouration",
-      "excerpt": "Blue flowers are rare in nature, and despite many attempts, blue roses, carnations and chrysanthemums in particular cannot not be produced by conventional breeding techniques. Blue colour in flower petals is caused by delphinidin, a type of anthocyanin, which are a class of flavonoids. The presence of delphinidin is not enough to produce blue color on its own; it must be in a alkaline environment, form a complex with flavones and metal ions, or some other mechanism. Blue color has also been produced through breeding with the anthocynanin rosacyanin. Among gardeners and florists, there exists a colloqial concept known as \"true blue\", which pertains to flowers that display a pure blue hue and not a black, deep purple, or lavender that could be mistaken for blue.",
-      "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-14T20:46:40.125905Z"
     },
     {
       "source_id": "wiki-topic:en:1254336",
@@ -2131,16 +1901,6 @@
       "category_hint": "科学",
       "source_rank": 2,
       "added_at": "2026-07-15T18:37:33.835473Z"
-    },
-    {
-      "source_id": "wiki-topic:en:987492",
-      "source_name": "EN Wikipedia：Food browning",
-      "source_url": "https://en.wikipedia.org/wiki/Food_browning",
-      "title": "Food browning",
-      "excerpt": "Browning is the process of food turning brown due to the chemical reactions that take place within. The process of browning is one of the chemical reactions that take place in food chemistry and represents an interesting research topic regarding health, nutrition, and food technology. Though there are many different ways food chemically changes over time, browning in particular falls into two main categories: enzymatic versus non-enzymatic browning processes. Browning has many important implications on the food industry relating to nutrition, technology, and economic cost. Researchers are especially interested in studying the control (inhibition) of browning and the different methods that can be employed to maximize this inhibition and ultimately prolong the shelf life of food.",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-15T18:37:33.835624Z"
     },
     {
       "source_id": "wiki-topic:en:7371134",

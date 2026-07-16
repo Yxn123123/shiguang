@@ -744,7 +744,151 @@
       "source_url": "https://apod.nasa.gov/apod/image/0609/eclipse_lee.jpg",
       "outcome": "accepted",
       "reason": ""
+    },
+    "wiki-topic:en:502060": {
+      "last_seen": "2026-07-16T18:38:45.310920Z",
+      "source_url": "https://en.wikipedia.org/wiki/Conditional_sentence",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:16794300": {
+      "last_seen": "2026-07-16T18:38:45.310934Z",
+      "source_url": "https://en.wikipedia.org/wiki/Economics_of_language",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:987492": {
+      "last_seen": "2026-07-16T18:38:45.310941Z",
+      "source_url": "https://en.wikipedia.org/wiki/Food_browning",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:53782753": {
+      "last_seen": "2026-07-16T18:38:45.310945Z",
+      "source_url": "https://en.wikipedia.org/wiki/Behavior_change_(individual)",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:54081969": {
+      "last_seen": "2026-07-16T18:38:45.310949Z",
+      "source_url": "https://en.wikipedia.org/wiki/Everyday_Urbanism",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:10591": {
+      "last_seen": "2026-07-16T18:38:45.310954Z",
+      "source_url": "https://en.wikipedia.org/wiki/Flavoring",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:2030477": {
+      "last_seen": "2026-07-16T18:38:45.310958Z",
+      "source_url": "https://en.wikipedia.org/wiki/Connections_(British_TV_series)",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:71498816": {
+      "last_seen": "2026-07-16T18:38:45.310962Z",
+      "source_url": "https://en.wikipedia.org/wiki/Anthropology_of_technology",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:16094284": {
+      "last_seen": "2026-07-16T18:38:45.310966Z",
+      "source_url": "https://en.wikipedia.org/wiki/Digital_history",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:14285": {
+      "last_seen": "2026-07-16T18:38:45.310970Z",
+      "source_url": "https://en.wikipedia.org/wiki/History_of_science_and_technology",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:8694335": {
+      "last_seen": "2026-07-16T18:38:45.310973Z",
+      "source_url": "https://en.wikipedia.org/wiki/Biocommunication_(science)",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:16806577": {
+      "last_seen": "2026-07-16T18:38:45.310977Z",
+      "source_url": "https://en.wikipedia.org/wiki/Base-richness",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:240244": {
+      "last_seen": "2026-07-16T18:38:45.310980Z",
+      "source_url": "https://en.wikipedia.org/wiki/Biological_interaction",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:55819873": {
+      "last_seen": "2026-07-16T18:38:45.310984Z",
+      "source_url": "https://en.wikipedia.org/wiki/Blue_flower_colouration",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:27476703": {
+      "last_seen": "2026-07-16T18:38:45.310987Z",
+      "source_url": "https://en.wikipedia.org/wiki/Bouc%E2%80%93Wen_model_of_hysteresis",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:25274290": {
+      "last_seen": "2026-07-16T18:38:45.310991Z",
+      "source_url": "https://en.wikipedia.org/wiki/Integrity_engineering",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:7635675": {
+      "last_seen": "2026-07-16T18:38:45.310994Z",
+      "source_url": "https://en.wikipedia.org/wiki/Bubble_raft",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:207601": {
+      "last_seen": "2026-07-16T18:38:45.310997Z",
+      "source_url": "https://en.wikipedia.org/wiki/Adsorption",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:37232": {
+      "last_seen": "2026-07-16T18:38:45.311001Z",
+      "source_url": "https://en.wikipedia.org/wiki/Fermat%27s_principle",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:52213563": {
+      "last_seen": "2026-07-16T18:38:45.311004Z",
+      "source_url": "https://en.wikipedia.org/wiki/Cross_ventilation",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:72851975": {
+      "last_seen": "2026-07-16T18:38:45.311008Z",
+      "source_url": "https://en.wikipedia.org/wiki/Empirical_evidence_for_the_spherical_shape_of_Earth",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:80093861": {
+      "last_seen": "2026-07-16T18:38:45.311011Z",
+      "source_url": "https://en.wikipedia.org/wiki/Kathryn%27s_Wheel",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:11991929": {
+      "last_seen": "2026-07-16T18:38:45.311014Z",
+      "source_url": "https://en.wikipedia.org/wiki/Depth_in_a_well",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:9228": {
+      "last_seen": "2026-07-16T18:38:45.311018Z",
+      "source_url": "https://en.wikipedia.org/wiki/Earth",
+      "outcome": "no_proposal",
+      "reason": ""
     }
   },
-  "updated_at": "2026-07-16T18:36:22.686739Z"
+  "updated_at": "2026-07-16T18:38:45.317598Z"
 }

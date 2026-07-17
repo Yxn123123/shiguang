@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-16T18:38:45.312190Z",
+  "updated_at": "2026-07-17T18:33:30.565917Z",
   "candidates": [
     {
       "source_id": "wiki-topic:en:77737401",
@@ -2003,6 +2003,96 @@
       "added_at": "2026-07-15T18:37:33.838089Z"
     },
     {
+      "source_id": "wiki-topic:en:803661",
+      "source_name": "EN Wikipedia：History of technology",
+      "source_url": "https://en.wikipedia.org/wiki/History_of_technology",
+      "title": "History of technology",
+      "excerpt": "The history of technology is the history of human invention of tools and techniques. Technology includes methods ranging from simple stone tools to the complex genetic engineering and information technology that has emerged since the 1980s. The term technology comes from the Greek words techne, meaning art and craft, and logos, meaning word and speech. It was first used to describe applied arts, but it is now used to describe advancements and changes that affect the environment around us. New knowledge has enabled people to create new tools. Conversely, many scientific endeavors are made possible by new technologies, such as scientific instruments that allow us to study nature in greater detail than our natural senses can. Since much of technology is applied science, technical history is connected to the history of science. Since technology uses resources, technical history is tightly connected to economic history. From those resources, technology produces other resources, including technological artifacts used in everyday life. Technological change affects, and is affected by, a society's cultural traditions. It is a force for economic growth and a means of developing and projecting...",
+      "category_hint": "历史",
+      "source_rank": 2,
+      "added_at": "2026-07-17T18:31:41.230896Z"
+    },
+    {
+      "source_id": "wiki-topic:en:73949101",
+      "source_name": "EN Wikipedia：Economy (linguistics)",
+      "source_url": "https://en.wikipedia.org/wiki/Economy_(linguistics)",
+      "title": "Economy (linguistics)",
+      "excerpt": "The economy principle in linguistics, also known as linguistic economy, is a functional explanation of linguistic form. It suggests that the organization of phonology, morphology, lexicon and syntax is fundamentally based on a compromise between simplicity and clarity, two desirable but to some extent incompatible qualities. The more distinctive elements that a language has, for example phonemes or functional markers, the more it will promote hearer-easiness. This, however, occurs on the expense of the speaker, who must make a greater effort to convey a message. An economic solution yields good communicative value without excessive time and energy costs. The word 'economy' derives from Greek oikòs ('house') and nomòs (from némein, 'to deliver'). The notion of good household management is transferred metaphorically from a social to a linguistic level where it represents a force maintaining systemic equilibrium. The same principle—a compromise between gain and cost—also applies to biological systems. However, functional linguistics does not consider itself to be a part of evolutionary biology, but both as belonging to systems theory, and both as being governed by the logic of trade-off...",
+      "category_hint": "综合",
+      "source_rank": 2,
+      "added_at": "2026-07-17T18:31:41.231150Z"
+    },
+    {
+      "source_id": "wiki-topic:en:31582581",
+      "source_name": "EN Wikipedia：Dry basis",
+      "source_url": "https://en.wikipedia.org/wiki/Dry_basis",
+      "title": "Dry basis",
+      "excerpt": "Dry basis (also d.b., dry matter basis, DM) is an expression of a calculation in chemistry, chemical engineering and related subjects, in which the presence of water (H2O) (and/or other solvents) is neglected for the purposes of the calculation. Water (and/or other solvents) is neglected because addition and removal of water (and/or other solvents) are common processing steps, and also happen naturally through evaporation and condensation; it is frequently useful to express compositions on a dry basis to remove these effects. For example, an aqueous solution containing 2 g of glucose and 2 g of fructose in a total of 5 g of solution contains 2/(2+2)=50% glucose on a dry basis, and this ratio will not change if some water is added or evaporated. In many cases, the drying of the sample to perform the measurement is impractical, so in addition to the dry basis, other bases are used: As-is: the measurement is performed with whatever water content there is (the above example will yield 2/5=40% glucose at 20% moisture). When dealing with the grain used as feed, this is also called an as-fed basis. A fixed moisture basis (m.b., in the United States grain industry 13% or 15% moisture reference...",
+      "category_hint": "生活",
+      "source_rank": 2,
+      "added_at": "2026-07-17T18:31:41.231416Z"
+    },
+    {
+      "source_id": "wiki-topic:en:37970127",
+      "source_name": "EN Wikipedia：Buttered toast phenomenon",
+      "source_url": "https://en.wikipedia.org/wiki/Buttered_toast_phenomenon",
+      "title": "Buttered toast phenomenon",
+      "excerpt": "The buttered toast phenomenon is an observation that buttered toast tends to land butter-side down after it falls. It is used as an idiom representing pessimistic outlooks. Various people have attempted to determine whether there is an actual tendency for bread to fall in this fashion, with varying results.",
+      "category_hint": "科学",
+      "source_rank": 2,
+      "added_at": "2026-07-17T18:31:41.231617Z"
+    },
+    {
+      "source_id": "wiki-topic:en:6109333",
+      "source_name": "EN Wikipedia：Andreev reflection",
+      "source_url": "https://en.wikipedia.org/wiki/Andreev_reflection",
+      "title": "Andreev reflection",
+      "excerpt": "Andreev reflection, named after the Russian physicist Alexander F. Andreev, is a type of particle scattering which occurs at interfaces between a superconductor (S) and a normal state material (N). It is a charge-transfer process by which normal current in N is converted to supercurrent in S. Each Andreev reflection transfers a charge 2e across the interface, avoiding the forbidden single-particle transmission within the superconducting energy gap. This effect is generally called Andreev reflection but is sometimes called Andreev–Saint-James reflection, as it was predicted independently by Saint-James and de Gennes and by Andreev in the early sixties.",
+      "category_hint": "科学",
+      "source_rank": 2,
+      "added_at": "2026-07-17T18:31:41.231877Z"
+    },
+    {
+      "source_id": "wiki-topic:en:17787631",
+      "source_name": "EN Wikipedia：Bi-isotropic material",
+      "source_url": "https://en.wikipedia.org/wiki/Bi-isotropic_material",
+      "title": "Bi-isotropic material",
+      "excerpt": "In physics, engineering and materials science, a bi-isotropic material is an isotropic medium where the electric and magnetic flux densities are linearly coupled to both the electric and magnetic fields via scalar constitutive relations, including magnetoelectric coupling terms. A major subset of such materials, known as Pasteur media, are optically active: they can rotate the polarization of light in either refraction or transmission. This does not mean all materials with twist effect fall in the bi-isotropic class. The twist effect of the class of bi-isotropic materials is caused by the chirality and/or non-reciprocity of the structure of the media, in which the electric and magnetic field of an electromagnetic wave (or simply, light) interact in an unusual way. Acoustic analog of bi-anisotropy is known as Willis coupling.",
+      "category_hint": "科技",
+      "source_rank": 2,
+      "added_at": "2026-07-17T18:31:41.232021Z"
+    },
+    {
+      "source_id": "wiki-topic:en:55760582",
+      "source_name": "EN Wikipedia：History of aluminium",
+      "source_url": "https://en.wikipedia.org/wiki/History_of_aluminium",
+      "title": "History of aluminium",
+      "excerpt": "Aluminium (or aluminum) metal is very rare in native form, and the process to refine it from ores is complex, so for most of human history it was unknown. However, the compound alum has been known since the 5th century BCE and was used extensively by the ancients for dyeing. During the Middle Ages, its use for dyeing made it a commodity of international commerce. Renaissance scientists believed that alum was a salt of a new earth; during the Age of Enlightenment, it was established that this earth, alumina, was an oxide of a new metal. Discovery of this metal was announced in 1825 by Danish physicist Hans Christian Ørsted, whose work was extended by German chemist Friedrich Wöhler. Aluminium was difficult to refine and thus uncommon in actual use. Soon after its discovery, the price of aluminium exceeded that of gold. It was reduced only after the initiation of the first industrial production by French chemist Henri Étienne Sainte-Claire Deville in 1856. Aluminium became much more available to the public with the Hall–Héroult process developed independently by French engineer Paul Héroult and American engineer Charles Martin Hall in 1886, and the Bayer process developed by Austrian...",
+      "category_hint": "历史",
+      "source_rank": 2,
+      "added_at": "2026-07-17T18:31:41.232267Z"
+    },
+    {
+      "source_id": "wiki-topic:en:2574174",
+      "source_name": "EN Wikipedia：Acoustic emission",
+      "source_url": "https://en.wikipedia.org/wiki/Acoustic_emission",
+      "title": "Acoustic emission",
+      "excerpt": "Acoustic emission (AE) is the phenomenon of radiation of acoustic (elastic) waves in solids that occurs when a material undergoes irreversible changes in its internal structure, for example as a result of crack formation or plastic deformation due to aging, temperature gradients, or external mechanical forces. In particular, AE occurs during the processes of mechanical loading of materials and structures accompanied by structural changes that generate local sources of elastic waves. This results in small surface displacements of a material produced by elastic or stress waves generated when the accumulated elastic energy in a material or on its surface is released rapidly. The mechanism of emission of the primary elastic pulse AE (act or event AE) may have a different physical nature. The figure shows the mechanism of the AE act (event) during the nucleation of a microcrack due to the breakthrough of the dislocations pile-up (dislocation is a linear defect in the crystal lattice of a material) across the boundary in metals with a body-centered cubic (bcc) lattice under mechanical loading, as well as time diagrams of the stream of AE acts (events) (1) and the stream of recorded AE signals...",
+      "category_hint": "科技",
+      "source_rank": 2,
+      "added_at": "2026-07-17T18:31:41.232442Z"
+    },
+    {
+      "source_id": "wiki-topic:en:944638",
+      "source_name": "EN Wikipedia：Earth's energy budget",
+      "source_url": "https://en.wikipedia.org/wiki/Earth%27s_energy_budget",
+      "title": "Earth's energy budget",
+      "excerpt": "Earth's energy budget (or Earth's energy balance) is the balance between the energy that Earth receives from the Sun and the energy the Earth loses back into outer space. Smaller energy sources, such as Earth's internal heat, are taken into consideration, but make a tiny contribution compared to solar energy. The energy budget also takes into account how energy moves through the climate system. The Sun heats the equatorial tropics more than the polar regions. Therefore, the amount of solar irradiance received by a certain region is unevenly distributed. As the energy seeks equilibrium across the planet, it drives interactions in Earth's climate system, i.e., Earth's water, ice, atmosphere, rocky crust, and all living things. The result is Earth's climate. Earth's energy budget depends on many factors, such as atmospheric aerosols, greenhouse gases, surface albedo, clouds, and land use patterns. When the incoming and outgoing energy fluxes are in balance, Earth is in radiative equilibrium and the climate system will be relatively stable. Global warming occurs when earth receives more energy than it gives back to space, and global cooling takes place when the outgoing energy is greater...",
+      "category_hint": "科学",
+      "source_rank": 2,
+      "added_at": "2026-07-17T18:31:41.232632Z"
+    },
+    {
       "source_id": "onthisday:zh:07/14:2011:4",
       "source_name": "Wikimedia On This Day：中华人民共和国",
       "source_url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD",
@@ -2031,6 +2121,16 @@
       "category_hint": "历史",
       "source_rank": 3,
       "added_at": "2026-07-15T18:37:33.838416Z"
+    },
+    {
+      "source_id": "onthisday:zh:07/17:2018:2",
+      "source_name": "Wikimedia On This Day：納圖夫文化",
+      "source_url": "https://zh.wikipedia.org/wiki/%E7%B4%8D%E5%9C%96%E5%A4%AB%E6%96%87%E5%8C%96",
+      "title": "2018: 約旦考古學家於納圖夫文化的石爐中發現西元前12,500年的麵餅，成為現存最古老的麵包。",
+      "excerpt": "事件：約旦考古學家於納圖夫文化的石爐中發現西元前12,500年的麵餅，成為現存最古老的麵包。\n相关页面摘要：納圖夫文化 是一個在黎凡特地區的舊石器時代晚期考古學文化，該文化約發生於距今約 15,000 至 11,500 年前。 這種文化很不尋常，因為它甚至在農業被引入前，就已支撐起過著定居或半定居生活的人口。",
+      "category_hint": "历史",
+      "source_rank": 3,
+      "added_at": "2026-07-17T18:31:41.232880Z"
     },
     {
       "source_id": "wiki-random:en:13628958",
@@ -2951,6 +3051,196 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-15T18:41:22.243834Z"
+    },
+    {
+      "source_id": "wiki-random:en:2433112",
+      "source_name": "EN Wikipedia：Sunday Mail (Scotland)",
+      "source_url": "https://en.wikipedia.org/wiki/Sunday_Mail_(Scotland)",
+      "title": "Sunday Mail (Scotland)",
+      "excerpt": "The Sunday Mail is a Scottish tabloid newspaper published every Sunday. It is the sister paper of the Daily Record and is owned by Reach plc. It should not be confused with The Mail on Sunday; the Daily Mail was unable to use the title Sunday Mail when it launched a Sunday edition in 1982 because of the Scottish paper.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-17T18:31:41.234307Z"
+    },
+    {
+      "source_id": "wiki-random:en:54108036",
+      "source_name": "EN Wikipedia：Canton of Saint-Jean-de-Maurienne",
+      "source_url": "https://en.wikipedia.org/wiki/Canton_of_Saint-Jean-de-Maurienne",
+      "title": "Canton of Saint-Jean-de-Maurienne",
+      "excerpt": "The canton of Saint-Jean-de-Maurienne is an administrative division of the Savoie department, southeastern France. Its borders were modified at the French canton reorganisation which came into effect in March 2015. Its seat is in Saint-Jean-de-Maurienne. It consists of the following communes:",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-17T18:31:41.234406Z"
+    },
+    {
+      "source_id": "wiki-random:en:26610577",
+      "source_name": "EN Wikipedia：Power-control theory of gender and delinquency",
+      "source_url": "https://en.wikipedia.org/wiki/Power-control_theory_of_gender_and_delinquency",
+      "title": "Power-control theory of gender and delinquency",
+      "excerpt": "In criminology, the power-control theory of gender and delinquency (abbreviated as the power-control theory) holds the gender distribution of delinquency is caused by stratification from gender relations within the family. The theory seeks to explain gender differences in the rates of delinquency by attributing them to the level of social/parental control practiced. The theory states that the class, gender, and type of family structure (e.g. egalitarian or patriarchal) will influence the severity of social/parental control practiced which will in turn set the \"accepted norm\" for the child/individual. This norm will in turn control the level of delinquency by the individual. Power-control theory differs from other control theories that view crime as a cause of low social status (cited from book). This theory compares gender and parental control mechanisms in two different types of families; patriarchal and egalitarian to explain the differences in self-reported male and female misconduct. In patriarchal families, traditional gender roles were in practice, where the father would work outside the home, and the mother would be responsible for the child rearing. In egalitarian families,...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-17T18:31:41.236053Z"
+    },
+    {
+      "source_id": "wiki-random:en:72401960",
+      "source_name": "EN Wikipedia：HIP 99770 b",
+      "source_url": "https://en.wikipedia.org/wiki/HIP_99770_b",
+      "title": "HIP 99770 b",
+      "excerpt": "HIP 99770 b (also known as 29 Cygni b) is a directly imaged super-Jupiter, most likely a planet orbiting the A-type star HIP 99770 (29 Cygni), detected with Gaia/Hipparcos precision astrometry and high-contrast imaging. HIP 99770 b could be considered the first joint direct imaging + astrometric discovery of an extrasolar planet and the first planet discovered using precision astrometry from the Gaia mission.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-17T18:31:41.236242Z"
+    },
+    {
+      "source_id": "wiki-random:zh:7155565",
+      "source_name": "ZH Wikipedia：觀音島",
+      "source_url": "https://zh.wikipedia.org/wiki/%E8%A7%80%E9%9F%B3%E5%B3%B6",
+      "title": "觀音島",
+      "excerpt": "观音岛（韓語：관음도）是位于韩国庆尚北道郁陵郡北面天府里，离郁陵岛東北角100公尺远的附属岛屿。因为有很多大水薙鸟，这个岛也被称为깍새岛或者깍개岛（깍새和깍개是大水薙鸟的韩語名称）。 面积为0.071 km², 与独岛东岛的面积(0.073 km²)相比略小。最高高度为106米，周长约800米。過去，三個居民居住並放牧兔子和山羊。此外,与既存的郁陵岛不同，观音岛没有人居住, 但是西边有码头, 小型船舶容易进出。 该岛的东北侧有被称为「观音双窟」的约14米高的海蚀洞窟，被称为郁陵岛三大绝景之一。相传，古时候曾是海盗的巢穴，饮用从窟顶部滴下的水可以长寿。 郁陵郡表示，2008年在岛内设置探访路、连陆桥，计划将观音岛开发成观光地。2012年，步行连岛桥竣工，这使观音岛和郁陵岛通过陆路相连。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-17T18:31:41.237323Z"
+    },
+    {
+      "source_id": "wiki-random:en:72817869",
+      "source_name": "EN Wikipedia：2010–11 Northern Arizona Lumberjacks men's basketball team",
+      "source_url": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Northern_Arizona_Lumberjacks_men%27s_basketball_team",
+      "title": "2010–11 Northern Arizona Lumberjacks men's basketball team",
+      "excerpt": "The 2010–11 Northern Arizona Lumberjacks men's basketball team represented Northern Arizona University in the 2010–11 NCAA Division I men's basketball season. The Lumberjacks, led by head coach Mike Adras, played their home games at Rolle Activity Center in Flagstaff, Arizona, as members of the Big Sky Conference. The team was displaced from the Walkup Skydome, their usual home court, because of major renovations that began in December 2010, after the conclusion of football season. The Lumberjacks finished 4th in the Big Sky Conference during the regular season, and were eliminated in the semifinals of the Big Sky tournament by tournament host and eventual conference champion Northern Colorado. Northern Arizona failed to qualify for the NCAA tournament, but were invited to the 2011 CIT. The Lumberjacks lost in the first round of the CIT, where they were eliminated by the eventual champions Santa Clara, 68–63. This was Mike Adras' last full season as head coach of the Lumberjacks. On December 6, 2011, Adras resigned following an internal investigation showed that he was responsible for multiple NCAA violations in the Northern Arizona program.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-17T18:32:18.214949Z"
+    },
+    {
+      "source_id": "wiki-random:en:10294405",
+      "source_name": "EN Wikipedia：Put It Down (Redman song)",
+      "source_url": "https://en.wikipedia.org/wiki/Put_It_Down_(Redman_song)",
+      "title": "Put It Down (Redman song)",
+      "excerpt": "\"Put it Down\" is the first single from Redman's sixth album, Red Gone Wild: Thee Album. Producer Timbaland produced and created the upbeat track used in \"Put it Down\". This song is unlike the traditional Redman song, in which the beat is slow and funky. \"Put it Down\" differs because it is completely different, being upbeat, and bass-pounding. The music video features Timbaland, comedian Donnell Rawlings, and television personality Vincent \"Don Vito\" Margera. \"Put it Down\" also features additional vocals by DJ Kool. The song was written by Redman and Timbaland The video premiered on March 29, 2007 on Yahoo music.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-17T18:32:18.215191Z"
+    },
+    {
+      "source_id": "wiki-random:zh:7048046",
+      "source_name": "ZH Wikipedia：蓝冰 (冰川)",
+      "source_url": "https://zh.wikipedia.org/wiki/%E8%93%9D%E5%86%B0_(%E5%86%B0%E5%B7%9D)",
+      "title": "蓝冰 (冰川)",
+      "excerpt": "蓝冰是当冰川上的的降雪被压缩而成为冰川的一部分时产生的现象。在压缩的过程中，雪中的气泡被挤出，形成大块的冰晶，这一过程使得冰看起来呈现蓝色。 通常情况下小块的冰看起来带有些许白色，是由于其内部的气泡以及少量的水本身即基本呈现无色。而在冰川中，积雪的压力使气泡被逐渐挤出，密度增加，形成了冰。由于水对其他颜色光的吸收能力强于对蓝色光的吸收能力，因此冰会呈现出蓝色。此效应在少量的水或小块的冰中较为微弱，但在大块的冰中尤其明显。 关于蓝冰颜色的成因，有些说法会将其错误地归于瑞利散射。蓝冰的蓝色和和大量液态水呈现蓝色的原因相同，是水分子中氢氧键伸缩振动的泛频带会吸收可见光谱中红色端的部分所致。在湖泊和海洋中，光线入射到水面上时，少量的光反射回空气，大部分光进入水中，与水分子发生作用。此时，水分子会吸收入射光中的红、橙、黄等颜色的光，跃迁至较高的振动能级，而未被吸收的光主要是蓝、紫色波长的光。这是大面积水域呈现蓝色的主要原因。 自然界中蓝冰的一个例子是2011年1月于新西兰塔斯曼冰川观测到的蓝冰。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-17T18:32:18.216052Z"
+    },
+    {
+      "source_id": "wiki-random:en:9568579",
+      "source_name": "EN Wikipedia：Fatty acid synthesis",
+      "source_url": "https://en.wikipedia.org/wiki/Fatty_acid_synthesis",
+      "title": "Fatty acid synthesis",
+      "excerpt": "In biochemistry, fatty acid synthesis is the process by which fatty acids, the fundamental building blocks of fats, are derived from metabolic intermediates through the coordinated actions of enzymes. Fatty acids (FAs), comprise a large group of chemically heterogeneous compounds. Each fatty acid is composed of a carboxylic acid attached to an aliphatic hydrocarbon chain, of which is either saturated or unsaturated. FAs prove crucial within the cell, as these molecules serve as the indispensable building blocks of cell membranes. FAs also provide dense, long-term energy sources for the cell, and the biosynthetic production of FAs is essential for maintaining cellular homeostasis. Fatty acid biosynthetic pathways are highly evolutionarily conserved across species, though different enzymes and genetic organizations have evolved to reach similarities about the general pathway. In both animals and fungi, all fatty acid synthetic pathways utilize one multifunctional protein complex, type-I fatty acid synthase (FAS), which is divided into the type-Ia FAS (in fungi) and the type-Ib FAS (in animals). In most prokaryotes and in the plastids of plants, fatty acid synthesis occurs via type-II...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-17T18:32:18.217820Z"
+    },
+    {
+      "source_id": "wiki-random:en:22211736",
+      "source_name": "EN Wikipedia：Aerosol impaction",
+      "source_url": "https://en.wikipedia.org/wiki/Aerosol_impaction",
+      "title": "Aerosol impaction",
+      "excerpt": "In the physics of aerosols, aerosol impaction is the process in which particles are removed from an air stream by forcing the gases to make a sharp bend. Particles above a certain size possess so much momentum that they can not follow the air stream and strike a collection surface, which is available for later analysis of mass and composition. Removal of particles from an air-stream by impaction followed by mass and composition analysis has always been a different approach as to filter sampling, yet has been little utilized for routine analysis because of lack of suitable analytical methods.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-17T18:32:18.218238Z"
+    },
+    {
+      "source_id": "wiki-random:zh:64921",
+      "source_name": "ZH Wikipedia：緩衝區 (邊界)",
+      "source_url": "https://zh.wikipedia.org/wiki/%E7%B7%A9%E8%A1%9D%E5%8D%80_(%E9%82%8A%E7%95%8C)",
+      "title": "緩衝區 (邊界)",
+      "excerpt": "緩衝區，又稱中立區、中立地帶等，指的是位于两个或两个以上地区（通常但不一定是国家）之间的地域性区域。根据缓冲区的类型，它可以用来分隔或连接这些地区。缓冲区的一般类型是非軍事區、边境区和某些限制性地役区和绿带。这些区域可能由主权国家组成，形成緩衝國。 缓冲区有各种政治或其他目的。它们可以用来防止暴力，保护环境，保护居民区和商业区不受工业事故或自然灾害的影响，或者用来隔离监狱，还可以用于其他一些情况。缓冲区往往会形成大片无人居住的区域。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-17T18:32:18.218570Z"
+    },
+    {
+      "source_id": "wiki-random:zh:6976310",
+      "source_name": "ZH Wikipedia：吉姆 (马名)",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%90%89%E5%A7%86_(%E9%A9%AC%E5%90%8D)",
+      "title": "吉姆 (马名)",
+      "excerpt": "吉姆是一匹前拉车马，它被用于生产含有白喉抗毒素（针对白喉毒素的抗体）的血浆 。 在他的职业生涯中，吉姆生产了超过30夸脱（7.5美国加仑）的白喉抗毒素。 然而，在1901年10月2日，吉姆出现破伤风的症状并被执行了安乐死。 之后，一个圣路易斯的女孩的死被追溯到吉姆污染的抗体血浆中，人们发现标记为9月30日的血浆中含有潜伏期的破傷風梭菌。 而只要在使用血浆前经过检测，这种污染可以轻易被发现。 此外，9月30日的样品被用于填充标有\"8月24日\"的药瓶，而真正生产于8月24日的样品被证明是没有受到的细菌污染的。 这些监管上的疏忽使得抗毒素得以被分发并最终造成的12个孩子的死亡。 这场事故与另一场类似原因引发的天花疫苗污染案一起，催生了1902年 《生物制品管制法》的通过和药品评价和研究中心（CDER，Center for Drug Evaluation and Research）的成立。 吉姆的不幸，和随之引发的悲剧和反应，成为确立生物制品的监管的先例，促发了1906年美国食品药品监督管理局（或称FDA）的成立。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-17T18:32:18.219081Z"
+    },
+    {
+      "source_id": "wiki-random:en:64448041",
+      "source_name": "EN Wikipedia：S4 ribosomal protein leader",
+      "source_url": "https://en.wikipedia.org/wiki/S4_ribosomal_protein_leader",
+      "title": "S4 ribosomal protein leader",
+      "excerpt": "The S4 ribosomal protein leader is a ribosomal protein leader involved in ribosome biogenesis. It is used as an autoregulatory mechanism to control the concentration of the ribosomal protein S4. Two examples of such leaders that use different conserved structures, in Bacillota and Gammaproteobacteria, have been experimentally confirmed. Four additional S4 ribosomal protein leaders, each with distinct structures, were predicted in various bacteria phyla. In Bacteroidia or Bacillota, the structure is located in the 5′ untranslated regions of mRNAs encoding ribosomal proteins S4 (rpsD), RNA polymerase alpha subunit (rpoA) and L17 (rplQ). In Clostridia (whose S4 ribosomal protein leader differs from that of other Bacillota) and Gammaproteobacteria, the ribosomal proteins S13 (rpsM) and S11 (rpsK) were also part of the mRNA encoding region.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-17T18:32:56.739761Z"
+    },
+    {
+      "source_id": "wiki-random:en:4296547",
+      "source_name": "EN Wikipedia：German World War II destroyers",
+      "source_url": "https://en.wikipedia.org/wiki/German_World_War_II_destroyers",
+      "title": "German World War II destroyers",
+      "excerpt": "At the outbreak of the Second World War Nazi Germany's Kriegsmarine had 21 destroyers (German: Zerstörer) in service, while another one was just being completed. These 22 vessels – comprising 3 classes (Type 34, 34A and 36) – had all been built in the 1930s, making them modern vessels (no destroyers remained in German hands following the close of the First World War). Including that final pre-war vessel, a further 19 were brought into service during the war and more were captured from opposing navies, including the Italian Navy (Regia Marina) after the Italian Armistice with the Allies in 1943. German destroyer classes were generally known by the year of their design. Because of their size, use and weaponry, some vessels classified as \"fleet torpedo boats\", Flottentorpedoboot, are also described as destroyers. During World War II, destroyers were administratively grouped into one of several destroyer flotillas. Class general characteristics are taken from the first of each class, and may differ slightly for individual ships, particularly when they were refitted. Post-war, some surviving ships had significant changes to armament.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-17T18:32:56.742172Z"
+    },
+    {
+      "source_id": "wiki-random:en:12598240",
+      "source_name": "EN Wikipedia：Miller Lake lamprey",
+      "source_url": "https://en.wikipedia.org/wiki/Miller_Lake_lamprey",
+      "title": "Miller Lake lamprey",
+      "excerpt": "The Miller Lake lamprey (Entosphenus minimus) is a species of lamprey in the Petromyzontidae family endemic to the United States. Its natural habitat is the Miller Lake drainage in the state of Oregon. This species is of special interest because it has an extremely limited distribution, with all known animals contained within a single small drainage system, and it is the smallest known parasitic lamprey in the world. The Miller lake lamprey was presumed extinct in 1958, after state fishery managers attempted to eradicate the lamprey from the lake because it was feeding on the introduced trout. The known larval streams for this lamprey were treated with lampricide and a barrier was erected to prevent adults from entering to spawn. The Miller Lake lamprey was presumed to be extinct until 1992, when it was collected again. Continued collection efforts yielded more animals, and in 2000, the group published a paper on the redescription of this lamprey. In an attempt to restore and protect the Miller Lake lamprey, restoration efforts to remove the barrier originally have been carried out, and surveys are done regularly to establish an understanding of the population's health. Understanding...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-17T18:32:56.743631Z"
+    },
+    {
+      "source_id": "wiki-random:en:674758",
+      "source_name": "EN Wikipedia：Mike Cuellar",
+      "source_url": "https://en.wikipedia.org/wiki/Mike_Cuellar",
+      "title": "Mike Cuellar",
+      "excerpt": "Miguel Ángel Cuellar Santana (KWAY-ar; May 8, 1937 – April 2, 2010) was a Cuban professional baseball player. He played for 15 seasons in Major League Baseball as a left-handed pitcher in 1959 and from 1964 through 1977, most prominently as a member of the Baltimore Orioles who won the American League (AL) pennant in each of Cuellar's first three seasons with the team. During that time, Cuellar and the Orioles won the 1970 World Series. Cuellar also played for the Cincinnati Reds, St. Louis Cardinals, Houston Astros and California Angels. Cuellar and Denny McLain each won the AL Cy Young Award in 1969, due to a tie in the voting. For the Orioles, Cuellar won 20-or-more games in a season four times from 1969 through 1974. Along with Jim Palmer, Dave McNally, and Pat Dobson, he was one of four Oriole starters to win at least 20 games in 1971. Cuellar, nicknamed \"Crazy Horse\" because of his superstitious nature, ranks among Baltimore's top five career leaders in wins (143), strikeouts (1,011), shutouts (30) and innings pitched (2,028). In 1982, Cuellar was inducted into the Baltimore Orioles Hall of Fame.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-17T18:33:30.558507Z"
+    },
+    {
+      "source_id": "wiki-random:en:19696541",
+      "source_name": "EN Wikipedia：Heleneborg",
+      "source_url": "https://en.wikipedia.org/wiki/Heleneborg",
+      "title": "Heleneborg",
+      "excerpt": "Heleneborg is an estate on Södermalm, a part of the city of Stockholm, Sweden. It is opposite Långholmen island (home to Långholmen prison until 1975). The property was bought in 1669 by Jonas Österling and was used by the Swedish tobacco manufacturing company (Tobakskompaniet) for tobacco production. However, after a conflict with both the company and the royal court, Österling went bankrupt and died in poverty in 1691. His estate was burnt down in 1701. From 1739 to 1759 the estate was owned by Olof Forsberg, who produced white clay pipes on the premises. Adolph Christiernin bought the property in 1759 and continued clay pipe production until 1766. He was a very wealthy man who spent his entire fortune on a fixed idea that he could find gold in the Swedish silver mines. He named the property Heleneborg after his wife Helena Catharina Malmin. Miserably poor, he had to abandon Heleneborg in 1767. In the 1860s Heleneborg was owned by W.N. Burmester, who housed the manufacturer and inventor Immanuel Nobel on the premises. There his son Alfred Nobel and Alfred's brothers experimented with the safe handling of the explosive nitroglycerin. After a big explosion in this plant on September...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-17T18:33:30.558759Z"
+    },
+    {
+      "source_id": "wiki-random:en:78010205",
+      "source_name": "EN Wikipedia：Lost Mosque",
+      "source_url": "https://en.wikipedia.org/wiki/Lost_Mosque",
+      "title": "Lost Mosque",
+      "excerpt": "The Lost Mosque also known by its official name, Jame' As-Sahaba (Bengali: সাহাবায়ে কেরাম মসজিদ) is an ancient mosque located in Panchagram, in Lalmonirhat District, in Rangpur Division of Bangladesh. A inscription discovered claims the mosque to be built in 69 AH (688/689 CE). The site often referred to as the 'Lost Mosque' or Harano Masjid, is of significant local interest, but its historical origins remain a subject of debate rather than scientific consensus. The site has not undergone a formal peer-reviewed archaeological excavation. Consequently, the claim that the mosque dates to 69 AH—based primarily on a terracotta inscription discovered by locals in 1986- lacks independent archaeological verification. Informal carbon dating inquiries, reportedly conducted on material from the site, have yielded inconclusive results. Some reports suggest that due to insufficient organic material and potential sample contamination, the dating remains unreliable; however, preliminary analysis indicated that the tested material may originate from the early 18th century, contradicting the earlier local claims of 7th-century origins.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-17T18:33:30.560187Z"
+    },
+    {
+      "source_id": "wiki-random:en:71721853",
+      "source_name": "EN Wikipedia：2018 Swiss Federal Council election",
+      "source_url": "https://en.wikipedia.org/wiki/2018_Swiss_Federal_Council_election",
+      "title": "2018 Swiss Federal Council election",
+      "excerpt": "By-elections to the Swiss Federal Council were held on 5 December 2018, after federal councillors Johann Schneider-Ammann (FDP-BE) and Doris Leuthard (CVP-AG) announced in September they would leave the Council effective 31 December of the same year. The by-elections resulted in the elections of Karin Keller-Sutter (FDP-SG) and Viola Amherd (CVP-VS), yielding no change in the partisan composition of the council. Women re-gained a third seat in the Council, with the first simultaneous election of two women. The languages also retained the same representation (4 german-speakers, 2 french-speakers, and 1 italian-speaker) and catholics represented the majority of the federal council for the first time.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-17T18:33:30.561417Z"
     }
   ]
 }

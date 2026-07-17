@@ -888,7 +888,151 @@
       "source_url": "https://en.wikipedia.org/wiki/Earth",
       "outcome": "no_proposal",
       "reason": ""
+    },
+    "wiki-topic:en:67213339": {
+      "last_seen": "2026-07-17T18:35:57.230344Z",
+      "source_url": "https://en.wikipedia.org/wiki/Communicative_dynamism",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:22760983": {
+      "last_seen": "2026-07-17T18:35:57.230360Z",
+      "source_url": "https://en.wikipedia.org/wiki/Linguistics",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:31582581": {
+      "last_seen": "2026-07-17T18:35:57.230369Z",
+      "source_url": "https://en.wikipedia.org/wiki/Dry_basis",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:8157239": {
+      "last_seen": "2026-07-17T18:35:57.230385Z",
+      "source_url": "https://en.wikipedia.org/wiki/Bletting",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:56979757": {
+      "last_seen": "2026-07-17T18:35:57.230389Z",
+      "source_url": "https://en.wikipedia.org/wiki/Food_and_biological_process_engineering",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:24747438": {
+      "last_seen": "2026-07-17T18:35:57.230393Z",
+      "source_url": "https://en.wikipedia.org/wiki/Avoidance_coping",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:55760582": {
+      "last_seen": "2026-07-17T18:35:57.230397Z",
+      "source_url": "https://en.wikipedia.org/wiki/History_of_aluminium",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:803661": {
+      "last_seen": "2026-07-17T18:35:57.230400Z",
+      "source_url": "https://en.wikipedia.org/wiki/History_of_technology",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:55204891": {
+      "last_seen": "2026-07-17T18:35:57.230404Z",
+      "source_url": "https://en.wikipedia.org/wiki/Chronology_of_bladed_weapons",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:29647899": {
+      "last_seen": "2026-07-17T18:35:57.230408Z",
+      "source_url": "https://en.wikipedia.org/wiki/Dibner_Institute_for_the_History_of_Science_and_Technology",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:71196244": {
+      "last_seen": "2026-07-17T18:35:57.230412Z",
+      "source_url": "https://en.wikipedia.org/wiki/Hydrogen_sulfide_chemosynthesis",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:31180783": {
+      "last_seen": "2026-07-17T18:35:57.230415Z",
+      "source_url": "https://en.wikipedia.org/wiki/Biochore",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:213008": {
+      "last_seen": "2026-07-17T18:35:57.230419Z",
+      "source_url": "https://en.wikipedia.org/wiki/Carrion",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:1525710": {
+      "last_seen": "2026-07-17T18:35:57.230423Z",
+      "source_url": "https://en.wikipedia.org/wiki/Assimilation_(biology)",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:2574174": {
+      "last_seen": "2026-07-17T18:35:57.230426Z",
+      "source_url": "https://en.wikipedia.org/wiki/Acoustic_emission",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:17787631": {
+      "last_seen": "2026-07-17T18:35:57.230430Z",
+      "source_url": "https://en.wikipedia.org/wiki/Bi-isotropic_material",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:42070652": {
+      "last_seen": "2026-07-17T18:35:57.230434Z",
+      "source_url": "https://en.wikipedia.org/wiki/Abnormal_grain_growth",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:37207": {
+      "last_seen": "2026-07-17T18:35:57.230437Z",
+      "source_url": "https://en.wikipedia.org/wiki/Nuclear_engineering",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:944638": {
+      "last_seen": "2026-07-17T18:35:57.230440Z",
+      "source_url": "https://en.wikipedia.org/wiki/Earth%27s_energy_budget",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:6109333": {
+      "last_seen": "2026-07-17T18:35:57.230444Z",
+      "source_url": "https://en.wikipedia.org/wiki/Andreev_reflection",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:3697368": {
+      "last_seen": "2026-07-17T18:35:57.230448Z",
+      "source_url": "https://en.wikipedia.org/wiki/Coffee_ring_effect",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:7807": {
+      "last_seen": "2026-07-17T18:35:57.230451Z",
+      "source_url": "https://en.wikipedia.org/wiki/Cavitation",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:255468": {
+      "last_seen": "2026-07-17T18:35:57.230455Z",
+      "source_url": "https://en.wikipedia.org/wiki/Excretion",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:31675267": {
+      "last_seen": "2026-07-17T18:35:57.230461Z",
+      "source_url": "https://en.wikipedia.org/wiki/Arago%27s_rotations",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
     }
   },
-  "updated_at": "2026-07-17T18:33:30.570427Z"
+  "updated_at": "2026-07-17T18:35:57.237754Z"
 }

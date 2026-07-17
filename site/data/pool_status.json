@@ -1,25 +1,25 @@
 {
   "version": 1,
-  "updated_at": "2026-07-17T18:33:30.571486Z",
-  "approved_cards": 54,
-  "pending_candidates": 324,
+  "updated_at": "2026-07-17T18:35:57.239107Z",
+  "approved_cards": 59,
+  "pending_candidates": 300,
   "last_run": {
-    "github_run_id": "29524637935",
+    "github_run_id": "29604263285",
     "source": "workflow_run",
-    "started_at": "2026-07-16T18:36:46.501658Z",
-    "finished_at": "2026-07-16T18:38:45.318555Z",
-    "duration_seconds": 118.82,
+    "started_at": "2026-07-17T18:33:52.352451Z",
+    "finished_at": "2026-07-17T18:35:57.238833Z",
+    "duration_seconds": 124.89,
     "target_new_cards": 5,
     "rounds": 1,
-    "pool_before": 319,
-    "pool_after": 295,
+    "pool_before": 324,
+    "pool_after": 300,
     "processed": 24,
-    "proposals": 12,
-    "reviewed": 12,
+    "proposals": 13,
+    "reviewed": 13,
     "added": 5,
     "pass_rate": 20.8,
-    "input_tokens": 15376,
-    "output_tokens": 6095,
+    "input_tokens": 15271,
+    "output_tokens": 6580,
     "filters": {
       "before_ai": {
         "invalid_record": 0,
@@ -58,18 +58,18 @@
     "quality": {
       "category_distribution": {
         "科学": 17,
-        "科技": 11,
-        "生物": 9,
-        "历史": 7,
-        "生活": 6,
+        "科技": 13,
+        "生物": 10,
+        "历史": 8,
+        "生活": 7,
         "艺术": 3,
         "综合": 1
       },
       "new_category_distribution": {
         "科技": 2,
+        "历史": 1,
         "生活": 1,
-        "生物": 1,
-        "科学": 1
+        "生物": 1
       },
       "source_pass_rates": {
         "维基主题分类": {
@@ -78,13 +78,94 @@
           "pass_rate": 20.8
         }
       },
-      "review_pass_rate": 41.7,
+      "review_pass_rate": 38.5,
       "processed_pass_rate": 20.8,
       "evidence_mismatch": 0,
       "evidence_mismatch_rate": 0.0
     }
   },
   "recent_runs": [
+    {
+      "github_run_id": "29604263285",
+      "source": "workflow_run",
+      "started_at": "2026-07-17T18:33:52.352451Z",
+      "finished_at": "2026-07-17T18:35:57.238833Z",
+      "duration_seconds": 124.89,
+      "target_new_cards": 5,
+      "rounds": 1,
+      "pool_before": 324,
+      "pool_after": 300,
+      "processed": 24,
+      "proposals": 13,
+      "reviewed": 13,
+      "added": 5,
+      "pass_rate": 20.8,
+      "input_tokens": 15271,
+      "output_tokens": 6580,
+      "filters": {
+        "before_ai": {
+          "invalid_record": 0,
+          "duplicate_source": 0,
+          "seen_recently": 0,
+          "low_information": 0,
+          "explicit_topic_selected": 24,
+          "random_selected": 0,
+          "average_hook_score": 6
+        },
+        "before_review": {
+          "low_confidence": 0,
+          "missing_candidate": 0,
+          "bad_title": 0,
+          "bad_category": 0,
+          "similar_title": 0,
+          "semantic_duplicate": 0
+        },
+        "final": {
+          "model_rejected": 0,
+          "score_below_78": 0,
+          "bad_title": 0,
+          "bad_category": 0,
+          "evidence_mismatch": 0,
+          "duplicate_source": 0,
+          "similar_title": 0,
+          "semantic_duplicate": 0
+        }
+      },
+      "source_stats": {
+        "维基主题分类": {
+          "processed": 24,
+          "accepted": 5
+        }
+      },
+      "quality": {
+        "category_distribution": {
+          "科学": 17,
+          "科技": 13,
+          "生物": 10,
+          "历史": 8,
+          "生活": 7,
+          "艺术": 3,
+          "综合": 1
+        },
+        "new_category_distribution": {
+          "科技": 2,
+          "历史": 1,
+          "生活": 1,
+          "生物": 1
+        },
+        "source_pass_rates": {
+          "维基主题分类": {
+            "processed": 24,
+            "accepted": 5,
+            "pass_rate": 20.8
+          }
+        },
+        "review_pass_rate": 38.5,
+        "processed_pass_rate": 20.8,
+        "evidence_mismatch": 0,
+        "evidence_mismatch_rate": 0.0
+      }
+    },
     {
       "github_run_id": "29524637935",
       "source": "workflow_run",

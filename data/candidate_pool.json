@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-18T18:13:22.602243Z",
+  "updated_at": "2026-07-18T18:15:55.221768Z",
   "candidates": [
     {
       "source_id": "wiki-topic:en:77737401",
@@ -103,16 +103,6 @@
       "added_at": "2026-07-12T11:39:40.568006Z"
     },
     {
-      "source_id": "wiki-topic:en:7639845",
-      "source_name": "EN Wikipedia：Antecedent-contained deletion",
-      "source_url": "https://en.wikipedia.org/wiki/Antecedent-contained_deletion",
-      "title": "Antecedent-contained deletion",
-      "excerpt": "Antecedent-contained deletion (ACD), also called antecedent-contained ellipsis, is a phenomenon whereby an elided verb phrase appears to be contained within its own antecedent. For instance, in the sentence \"I read every book that you did\", the verb phrase in the main clause appears to license ellipsis inside the relative clause which modifies its object. ACD is a classic puzzle for theories of the syntax-semantics interface, since it threatens to introduce an infinite regress. It is commonly taken as motivation for syntactic transformations such as quantifier raising, though some approaches explain it using semantic composition rules or by adopting more flexible notions of what it means to be a syntactic unit.",
-      "category_hint": "综合",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.568006Z"
-    },
-    {
       "source_id": "wiki-topic:en:27700571",
       "source_name": "EN Wikipedia：Abstraction (linguistics)",
       "source_url": "https://en.wikipedia.org/wiki/Abstraction_(linguistics)",
@@ -139,16 +129,6 @@
       "title": "Australian Journal of Earth Sciences",
       "excerpt": "The Australian Journal of Earth Sciences, subtitled An International Geoscience Journal of the Geological Society of Australia, is a peer-reviewed scientific journal that is published eight times per year by Taylor & Francis on behalf of the Geological Society of Australia. The journal broadly covers the earth sciences. As of September 2023 the editors-in-chief are A.S. Andrew, of North Ryde, New South Wales, and C. L. Fergusson, of the University of Wollongong.",
       "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.568006Z"
-    },
-    {
-      "source_id": "wiki-topic:en:3032314",
-      "source_name": "EN Wikipedia：History of the camera",
-      "source_url": "https://en.wikipedia.org/wiki/History_of_the_camera",
-      "title": "History of the camera",
-      "excerpt": "The history of the camera began even before the introduction of photography. Cameras evolved from the camera obscura through many generations of photographic technology – daguerreotypes, calotypes, dry plates, film – to the modern day with digital cameras and camera phones.",
-      "category_hint": "历史",
       "source_rank": 2,
       "added_at": "2026-07-12T11:39:40.568006Z"
     },
@@ -223,16 +203,6 @@
       "added_at": "2026-07-12T11:39:40.569010Z"
     },
     {
-      "source_id": "wiki-topic:en:38558185",
-      "source_name": "EN Wikipedia：Everyday Aesthetics",
-      "source_url": "https://en.wikipedia.org/wiki/Everyday_Aesthetics",
-      "title": "Everyday Aesthetics",
-      "excerpt": "Everyday Aesthetics is a recent subfield of philosophical aesthetics focusing on everyday life, events, settings and activities in which the faculty of sensibility is saliently at stake. Alexander Baumgarten established Aesthetics as a discipline and defined it as scientia cognitionis sensitivae, the science of sensory knowledge, in his foundational work Aesthetica (1750). This field has been dedicated since then to the clarification of fine arts, beauty and taste only marginally referring to the aesthetics in design, crafts, urban environments and social practice until the emergence of everyday aesthetics during the ‘90s. As other subfields like environmental aesthetics or the aesthetics of nature, everyday aesthetics also attempts to countervail aesthetics' almost exclusive focus on the philosophy of art.",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.569010Z"
-    },
-    {
       "source_id": "wiki-topic:en:82411497",
       "source_name": "EN Wikipedia：Boulouki",
       "source_url": "https://en.wikipedia.org/wiki/Boulouki",
@@ -263,31 +233,11 @@
       "added_at": "2026-07-12T11:39:40.569010Z"
     },
     {
-      "source_id": "wiki-topic:en:64919",
-      "source_name": "EN Wikipedia：Environmental science",
-      "source_url": "https://en.wikipedia.org/wiki/Environmental_science",
-      "title": "Environmental science",
-      "excerpt": "Environmental science is an academic field that integrates the physical, biological, and mathematical sciences to study the environment and solve environmental problems. It uses an integrated, quantitative, and interdisciplinary approach to analyze environmental systems and emerged from the fields of natural history and medicine during the Enlightenment. It is considered interdisciplinary because it is an integration of various fields such as: biology, chemistry, physics, geology, engineering, sociology, and ecology. Environmental science came alive as a substantive, active field of scientific investigation in the 1960s and 1970s, driven by the need for a multi-disciplinary approach to analyze complex environmental problems, as well as the arrival of substantive environmental laws requiring specific environmental protocols of investigation, and the growing public awareness of a need for action in addressing environmental problems. Events that spurred this development included the publication of Rachel Carson's landmark environmental book Silent Spring along with major environmental issues becoming public, such as the 1969 Santa Barbara oil spill, and the Cuyahoga River of Cleveland...",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.570020Z"
-    },
-    {
       "source_id": "wiki-topic:en:20202295",
       "source_name": "EN Wikipedia：Advanced materials industry in China",
       "source_url": "https://en.wikipedia.org/wiki/Advanced_materials_industry_in_China",
       "title": "Advanced materials industry in China",
       "excerpt": "As an important part of the national sustainable development strategy, the development of advanced materials is advancing the competitive nature and state of the art for Chinese industry. The State has put advanced materials high on its development agenda for the next decade and listed it among the key high-tech industry sectors that would be given priority for development by the State Council. At present, the pace of building China's advanced materials industry is accelerating. Advanced materials have been key fields in China's national R&D system (National High Technology Research and Development Program (863 Program) and National Basic Research Program (973 Program)).",
-      "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.570020Z"
-    },
-    {
-      "source_id": "wiki-topic:en:36479878",
-      "source_name": "EN Wikipedia：Ergonomics",
-      "source_url": "https://en.wikipedia.org/wiki/Ergonomics",
-      "title": "Ergonomics",
-      "excerpt": "Ergonomics, also known as Human Factors or Human Factors Engineering (HFE), is the scientific discipline concerned with the understanding of interactions among humans and other elements of a system, and the profession that applies theory, principles, data, and methods to design in order to optimize human well-being and overall system performance. It involves the application of psychological and physiological principles within the domains of engineering and design, encompassing products, processes, and systems. The primary goals of human factors engineering are to reduce human error, increase productivity and overall system performance, and enhance safety, health and comfort. A specific focus of this field is the interaction between the human and other sociotechnical elements. The field applies theories, principles and data from a variety of primary or pure disciplines, such as psychology, sociology, engineering, biomechanics, industrial design, physiology, sociotechnical systems, human-computer interaction, anthropometry, interaction design, visual design, user experience, and user interface design. Human factors research employs methods and approaches from these and other knowledge...",
       "category_hint": "科技",
       "source_rank": 2,
       "added_at": "2026-07-12T11:39:40.570020Z"
@@ -333,32 +283,12 @@
       "added_at": "2026-07-12T11:39:40.570020Z"
     },
     {
-      "source_id": "wiki-topic:en:8603",
-      "source_name": "EN Wikipedia：Diffraction",
-      "source_url": "https://en.wikipedia.org/wiki/Diffraction",
-      "title": "Diffraction",
-      "excerpt": "Diffraction is the deviation of waves from straight-line propagation due to an obstacle or through an aperture, without any change in their energy. Diffraction is the same physical effect as interference, but interference is typically used for the superposition of a few waves, while the term diffraction is used when many waves are superposed. The term diffraction pattern is used to refer to an image or map of the different directions of the waves after they have been diffracted. Diffraction patterns are pronounced when a wave from a coherent source (such as a laser) encounters a slit/aperture as shown in the first image. In classical physics, diffraction is described by the Huygens–Fresnel principle that treats each point in a propagating wavefront as a collection of individual spherical wavelets. The patterns are due to the summation over different points on the wavefront (or, equivalently, each wavelet) that travel by paths of different lengths to the registering surface. If there are multiple closely spaced openings, a complex pattern of varying intensity can result. Other types of apertures or obstacles lead to different patterns, some of which are described later on this page....",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.570020Z"
-    },
-    {
       "source_id": "wiki-topic:en:25393281",
       "source_name": "EN Wikipedia：Bonding in solids",
       "source_url": "https://en.wikipedia.org/wiki/Bonding_in_solids",
       "title": "Bonding in solids",
       "excerpt": "Solids can be classified according to the nature of the bonding between their atomic or molecular components. The traditional classification distinguishes four kinds of bonding: Covalent bonding, which forms network covalent solids (sometimes called simply \"covalent solids\") Ionic bonding, which forms ionic solids Metallic bonding, which forms metallic solids Weak inter molecular bonding, which forms molecular solids (sometimes anomalously called \"covalent solids\") Typical members of these classes have distinctive electron distributions, thermodynamic, electronic, and mechanical properties. In particular, the binding energies of these interactions vary widely. Bonding in solids can be of mixed or intermediate kinds, however, hence not all solids have the typical properties of a particular class, and some can be described as intermediate forms.",
       "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.571009Z"
-    },
-    {
-      "source_id": "wiki-topic:en:16112368",
-      "source_name": "EN Wikipedia：Earth ellipsoid",
-      "source_url": "https://en.wikipedia.org/wiki/Earth_ellipsoid",
-      "title": "Earth ellipsoid",
-      "excerpt": "An Earth ellipsoid or Earth spheroid is a mathematical figure approximating the Earth's shape and size, used as part of a reference frame for coordinates and computations in geodesy, astronomy, and the geosciences. Various different reference ellipsoids have been used as approximations. It is an oblate spheroid (an ellipsoid of revolution) whose minor axis (polar diameter), connecting the geographical poles, is approximately aligned with the Earth's axis of rotation. The ellipsoid is also defined by the major axis (equatorial axis); the difference between the two axes is slightly more than 21 km or 0.335%. Many methods exist for determination of the axes of an Earth ellipsoid, ranging from meridian arcs up to modern satellite geodesy or the analysis and interconnection of continental geodetic networks. Amongst the different set of data used in national surveys are several of special importance: the Bessel ellipsoid of 1841, the international Hayford ellipsoid of 1924, and (for GPS positioning) the WGS84 ellipsoid.",
-      "category_hint": "科学",
       "source_rank": 2,
       "added_at": "2026-07-12T11:39:40.571009Z"
     },
@@ -393,16 +323,6 @@
       "added_at": "2026-07-12T11:39:40.571009Z"
     },
     {
-      "source_id": "wiki-topic:en:19916613",
-      "source_name": "EN Wikipedia：Radical (chemistry)",
-      "source_url": "https://en.wikipedia.org/wiki/Radical_(chemistry)",
-      "title": "Radical (chemistry)",
-      "excerpt": "In chemistry, a radical, also known as a free radical, is an atom, molecule, or ion that has at least one unpaired valence electron. With some exceptions, these unpaired electrons make radicals highly chemically reactive. Radicals consisting of main group elements are often very reactive and undergo uncontrollable reactions, notably dimerization and polymerization. Most organic radicals have short lifetimes. A notable example of a radical is the hydroxyl radical (HO·), a molecule that has one unpaired electron on the oxygen atom. Two other examples are triplet oxygen and triplet carbene (꞉CH2) which have two unpaired electrons. Radicals may be generated in a number of ways, but typical methods including redox reactions, ionizing radiation, heat, electrical discharges, and electrolysis are known to produce radicals. Radicals are intermediates in many chemical reactions, more so than is apparent from the balanced equations. Radicals are important in combustion, atmospheric chemistry, polymerization, plasma chemistry, biochemistry, and many other chemical processes. A majority of natural products are generated by radical-generating enzymes. In living organisms, the radicals superoxide...",
-      "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.571009Z"
-    },
-    {
       "source_id": "wiki-topic:en:152552",
       "source_name": "EN Wikipedia：Aerospike engine",
       "source_url": "https://en.wikipedia.org/wiki/Aerospike_engine",
@@ -429,16 +349,6 @@
       "title": "Bioreceptivity",
       "excerpt": "Bioreceptivity is defined as \"the ability of a material to be colonized by living organisms.\" First defined by Guillitte in 1995 as a new term in ecology to discuss the beneficial applications of building materials for ecological uses. Previous understandings termed the colonization of organisms as \"degradation,\" implying a negative connotation, leading to the creation of \"bioreceptivity\" for positive benefits of colonization on materials. It is an interdisciplinary field of study between materials science and ecology. Bioreceptive design is commonly mistaken for biomimicry, or nature inspired design. Marco Cruz and Richard Beckett provide an alternative explanation known as architectural bark, in which it is both nature-inspired and nature-integrated where colonization by the microbiome and organisms plays a role in the architectural design. Bioreceptivity is different from green infrastructure, such as green roofs, green walls, and storm water management, but has been observed to be related to these research areas in architecture. Bioreceptive design has led to further research studies in concrete materials for use in urban environments through walls and non-green spaces. However...",
       "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.572028Z"
-    },
-    {
-      "source_id": "wiki-topic:en:61854053",
-      "source_name": "EN Wikipedia：Metal assisted chemical etching",
-      "source_url": "https://en.wikipedia.org/wiki/Metal_assisted_chemical_etching",
-      "title": "Metal assisted chemical etching",
-      "excerpt": "Metal Assisted Chemical Etching (also known as MACE) is the process of wet chemical etching of semiconductors (mainly silicon) with the use of a metal catalyst, usually deposited on the surface of a semiconductor in the form of a thin film or nanoparticles. The semiconductor, covered with the metal, is then immersed in an etching solution containing an oxidizing agent and hydrofluoric acid. The metal on the surface catalyzes the reduction of the oxidizing agent and therefore in turn also the dissolution of silicon. In the majority of the conducted research this phenomenon of increased dissolution rate is also spatially confined, such that it is increased in close proximity to a metal particle at the surface. Eventually this leads to the formation of straight pores that are etched into the semiconductor (see figure to the right). This means that a pre-defined pattern of the metal on the surface can be directly transferred to a semiconductor substrate.",
-      "category_hint": "科技",
       "source_rank": 2,
       "added_at": "2026-07-12T11:39:40.572028Z"
     },
@@ -549,16 +459,6 @@
       "title": "Everyday life",
       "excerpt": "Everyday life, daily life or routine life comprises the ways in which people typically act, think, and feel on a daily basis. Everyday life may be described as mundane, routine, natural, habitual, or normal. Human diurnality means most people sleep at least part of the night and are active in daytime. Most eat two or three meals in a day. Working time (apart from shift work) mostly involves a daily schedule, beginning in the morning. This produces the daily rush hours experienced by many millions, and the drive time focused on by radio broadcasters. Evening is often leisure time. Bathing every day is a custom for many. Beyond these broad similarities, lifestyles vary and different people spend their days differently. For example, nomadic life differs from sedentism, and among the sedentary, urban people live differently from rural folk. Differences in the lives of the rich and the poor, or between laborers and intellectuals, may go beyond their working hours. Children and adults also vary in what they do each day.",
       "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.574028Z"
-    },
-    {
-      "source_id": "wiki-topic:en:20016887",
-      "source_name": "EN Wikipedia：History of the diesel car",
-      "source_url": "https://en.wikipedia.org/wiki/History_of_the_diesel_car",
-      "title": "History of the diesel car",
-      "excerpt": "Diesel engines began to be used in automobiles in the 1930s. Initially used mainly for commercial applications, they did not gain popularity for passenger travel until their development in Europe in the 1950s. After reaching a peak in popularity worldwide around 2015, in the aftermath of Dieselgate, the diesel car rapidly fell from favor with consumers and regulators.",
-      "category_hint": "历史",
       "source_rank": 2,
       "added_at": "2026-07-12T11:39:40.574028Z"
     },
@@ -1023,16 +923,6 @@
       "added_at": "2026-07-12T20:09:32.389661Z"
     },
     {
-      "source_id": "wiki-topic:en:7754370",
-      "source_name": "EN Wikipedia：History of artificial life",
-      "source_url": "https://en.wikipedia.org/wiki/History_of_artificial_life",
-      "title": "History of artificial life",
-      "excerpt": "Humans have considered and tried to create non-biological life for at least 3,000 years. As seen in tales ranging from Pygmalion to Frankenstein, humanity has long been intrigued by the concept of artificial life.",
-      "category_hint": "历史",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.389793Z"
-    },
-    {
       "source_id": "wiki-topic:en:12217323",
       "source_name": "EN Wikipedia：Bounded deformation",
       "source_url": "https://en.wikipedia.org/wiki/Bounded_deformation",
@@ -1063,16 +953,6 @@
       "added_at": "2026-07-12T20:09:32.390005Z"
     },
     {
-      "source_id": "wiki-topic:en:153774",
-      "source_name": "EN Wikipedia：First point of Aries",
-      "source_url": "https://en.wikipedia.org/wiki/First_point_of_Aries",
-      "title": "First point of Aries",
-      "excerpt": "The first point of Aries, also known as the cusp of Aries or the vernal point, is the location of the March equinox (the vernal equinox in the northern hemisphere, and the autumnal equinox in the southern), used as a reference point in celestial coordinate systems. In diagrams using such coordinate systems, it is often indicated with the symbol ♈︎. Named for the constellation of Aries, it is one of the two points on the celestial sphere at which the celestial equator crosses the ecliptic, the other being the first point of Libra, located exactly 180° from it. Due to precession of the equinoxes since the positions were originally named in antiquity, the position of the Sun when at the March equinox is now in Pisces; when it is at the September equinox, it is in Virgo (as of J2000). Along its yearly path through the zodiac, the Sun meets the celestial equator as it travels from south to north at the first point of Aries, and from north to south at the first point of Libra. The first point of Aries is considered to be the celestial \"prime meridian\" from which right ascension is calculated.",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.390241Z"
-    },
-    {
       "source_id": "wiki-topic:en:36079379",
       "source_name": "EN Wikipedia：SLR Consulting",
       "source_url": "https://en.wikipedia.org/wiki/SLR_Consulting",
@@ -1101,16 +981,6 @@
       "category_hint": "科学",
       "source_rank": 2,
       "added_at": "2026-07-12T20:09:32.390554Z"
-    },
-    {
-      "source_id": "wiki-topic:en:2262154",
-      "source_name": "EN Wikipedia：Doppler broadening",
-      "source_url": "https://en.wikipedia.org/wiki/Doppler_broadening",
-      "title": "Doppler broadening",
-      "excerpt": "In atomic physics, Doppler broadening is broadening of spectral lines due to the Doppler effect caused by a distribution of velocities of atoms or molecules. Different velocities of the emitting (or absorbing) particles result in different Doppler shifts, the cumulative effect of which is the emission (absorption) line broadening. This resulting line profile is known as a Doppler profile. A particular case is the thermal Doppler broadening due to the thermal motion of the particles. Then, the broadening depends only on the frequency of the spectral line, the mass of the emitting particles, and their temperature, and therefore can be used for inferring the temperature of an emitting (or absorbing) body being spectroscopically investigated.",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.390595Z"
     },
     {
       "source_id": "wiki-topic:en:344974",
@@ -1161,16 +1031,6 @@
       "category_hint": "科技",
       "source_rank": 2,
       "added_at": "2026-07-12T20:09:32.391010Z"
-    },
-    {
-      "source_id": "wiki-topic:en:6073894",
-      "source_name": "EN Wikipedia：Fermentation",
-      "source_url": "https://en.wikipedia.org/wiki/Fermentation",
-      "title": "Fermentation",
-      "excerpt": "Fermentation is a type of anaerobic metabolism that harnesses the redox potential of the reactants to make adenosine triphosphate (ATP) and organic end products. Organic molecules, such as glucose or other sugars, are catabolized and their electrons are transferred to other organic molecules (cofactors, coenzymes, etc.). Anaerobic glycolysis is a related term used to describe the occurrence of fermentation in organisms (usually multicellular organisms such as animals) when aerobic respiration cannot keep up with the ATP demand, due to insufficient oxygen supply or anaerobic conditions. Fermentation is important in several areas of human society. Humans have used fermentation in the production and preservation of food for 13,000 years. It has been associated with health benefits, unique flavor profiles, and making products have better texture. Humans and their livestock also benefit from fermentation from the microbes in the gut that release end products that are subsequently used by the host for energy. Perhaps the most commonly known use for fermentation is at an industrial level to produce commodity chemicals, such as ethanol and lactate. Ethanol is used in a variety of alcoholic...",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.391091Z"
     },
     {
       "source_id": "wiki-topic:en:1547265",
@@ -1261,26 +1121,6 @@
       "category_hint": "综合",
       "source_rank": 2,
       "added_at": "2026-07-13T20:44:59.345037Z"
-    },
-    {
-      "source_id": "wiki-topic:en:1004014",
-      "source_name": "EN Wikipedia：Pale Blue Dot",
-      "source_url": "https://en.wikipedia.org/wiki/Pale_Blue_Dot",
-      "title": "Pale Blue Dot",
-      "excerpt": "Pale Blue Dot is a photograph of Earth taken on February 14, 1990, by the Voyager 1 space probe from an unprecedented distance of over 6 billion kilometers (3.7 billion miles, 40.5 AU), as part of that day's Family Portrait series of images of the Solar System. In the photograph, Earth's apparent size is less than a pixel; the planet appears as a tiny dot against the vastness of space, among bands of sunlight reflected by the camera. Commissioned by NASA and resulting from the advocacy of astronomer and author Carl Sagan, the photograph was interpreted in Sagan's 1994 book, Pale Blue Dot, as representing humanity's minuscule and ephemeral place amidst the cosmos. Voyager 1 was launched on September 5, 1977, with the initial purpose of studying the outer Solar System. After fulfilling its primary mission and as it ventured out of the Solar System, the decision was made to turn its camera around and capture one last image of Earth emerged, in part due to Sagan's proposition. Over the years, the photograph has been revisited and celebrated on multiple occasions, with NASA acknowledging its anniversaries and presenting updated versions, enhancing its clarity and detail.",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-13T20:44:59.345829Z"
-    },
-    {
-      "source_id": "wiki-topic:en:35204947",
-      "source_name": "EN Wikipedia：Classifier constructions in sign languages",
-      "source_url": "https://en.wikipedia.org/wiki/Classifier_constructions_in_sign_languages",
-      "title": "Classifier constructions in sign languages",
-      "excerpt": "In sign languages, classifier constructions, also known as classifier predicates, is a morphological system expressing events and states. They use handshape classifiers to represent movement, location, and shape. Classifiers differ from signs in their morphology, namely in that signs consist of a single morpheme. Signs are composed of three meaningless phonological features: handshape, location, and movement. Classifiers, on the other hand, consist of many morphemes. Specifically, the handshape, location, and movement are all meaningful on their own. The handshape represents an entity and the hand's movement iconically represents the movement of that entity. The relative location of multiple entities can be represented iconically in two-handed constructions. Classifiers share some limited similarities with the gestures of hearing non-signers. Those who do not know the sign language can often guess the meaning of these constructions. This is because they are often iconic (non-arbitrary). It has also been found that many unrelated sign languages use similar handshapes for specific entities. Children master these constructions by the age of eight or nine. Two-handed classifier constructions...",
-      "category_hint": "综合",
-      "source_rank": 2,
-      "added_at": "2026-07-13T20:44:59.346160Z"
     },
     {
       "source_id": "wiki-topic:en:76268064",
@@ -1383,16 +1223,6 @@
       "added_at": "2026-07-13T20:44:59.348074Z"
     },
     {
-      "source_id": "wiki-topic:en:13552978",
-      "source_name": "EN Wikipedia：Behavioral confirmation",
-      "source_url": "https://en.wikipedia.org/wiki/Behavioral_confirmation",
-      "title": "Behavioral confirmation",
-      "excerpt": "Behavioral confirmation is a type of self-fulfilling prophecy whereby people's social expectations lead them to behave in ways that cause others to confirm their expectations. The phenomenon of belief creating reality is known by several names in literature: self-fulfilling prophecy, expectancy confirmation, and behavioral confirmation, which was coined by social psychologist Mark Snyder in 1984. Snyder preferred this term because it emphasizes that it is the target's actual behavior that confirms the perceiver's beliefs.",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-13T20:44:59.348160Z"
-    },
-    {
       "source_id": "wiki-topic:en:22183423",
       "source_name": "EN Wikipedia：Bioceramic",
       "source_url": "https://en.wikipedia.org/wiki/Bioceramic",
@@ -1493,16 +1323,6 @@
       "added_at": "2026-07-13T20:44:59.350572Z"
     },
     {
-      "source_id": "wiki-topic:en:862496",
-      "source_name": "EN Wikipedia：Assertiveness",
-      "source_url": "https://en.wikipedia.org/wiki/Assertiveness",
-      "title": "Assertiveness",
-      "excerpt": "Assertiveness is the quality of being self-assured and confident without being aggressive to defend a right point of view or a relevant statement. In the field of psychology and psychotherapy, it is a skill that can be learned and a mode of communication. Dorland's Medical Dictionary defines assertiveness as: a form of behavior characterized by a confident declaration or affirmation of a statement without need of proof; this affirms the person's rights or point of view without either aggressively threatening the rights of another (assuming a position of dominance) or submissively permitting another to ignore or deny one's rights or point of view. Assertiveness is a communication skill that can be taught and the skills of assertive communication effectively learned. Assertiveness is a method of critical thinking, where an individual speaks up in defense of their views or in light of erroneous information. Additionally, assertive people are capable of being outspoken and analyze information and point out areas of information lacking substance, details or evidence. Thus, it can be noted that assertiveness supports creative thinking and effective communication. However, during the second...",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-13T20:44:59.350890Z"
-    },
-    {
       "source_id": "wiki-topic:en:67545702",
       "source_name": "EN Wikipedia：Exometeorology",
       "source_url": "https://en.wikipedia.org/wiki/Exometeorology",
@@ -1551,16 +1371,6 @@
       "category_hint": "生物",
       "source_rank": 2,
       "added_at": "2026-07-14T20:46:40.126174Z"
-    },
-    {
-      "source_id": "wiki-topic:en:8720264",
-      "source_name": "EN Wikipedia：History of the battery",
-      "source_url": "https://en.wikipedia.org/wiki/History_of_the_battery",
-      "title": "History of the battery",
-      "excerpt": "Batteries provided the main source of electricity before the development of electric generators and electrical grids around the end of the 19th century. Successive improvements in battery technology facilitated major electrical advances, from early scientific studies to the rise of telegraphs and telephones, eventually leading to portable computers, mobile phones, electric cars, and many other electrical devices. \"Wet cell\" batteries used open containers that held liquid electrolyte and metallic electrodes. Electrodes and electrolytes could be replaced when the battery was discharged. Open containers are unsuitable for mobile or portable use. Wet cells were used commercially in the telegraph and telephone systems. Early electric cars used semi-sealed wet cells. Portable and hand-held electrical devices were made feasible with the \"dry cell\", where the electrolyte was in the form of a paste resistant to spilling or leakage. One important classification for batteries is by their life cycle. \"Primary\" batteries can produce current as soon as assembled, but once the active elements are consumed, they cannot be electrically recharged. The development of the lead-acid battery and subsequent...",
-      "category_hint": "历史",
-      "source_rank": 2,
-      "added_at": "2026-07-14T20:46:40.126335Z"
     },
     {
       "source_id": "wiki-topic:en:82391091",
@@ -1623,16 +1433,6 @@
       "added_at": "2026-07-14T20:46:40.127143Z"
     },
     {
-      "source_id": "wiki-topic:en:70386320",
-      "source_name": "EN Wikipedia：Codon reassignment",
-      "source_url": "https://en.wikipedia.org/wiki/Codon_reassignment",
-      "title": "Codon reassignment",
-      "excerpt": "Codon reassignment is the biological process via which the way the genetic code of a cell is read is changed as a response to the environment. Typically codons, sets of three mRNA nucleotides, correspond to one specific amino acid. Codon reassignment is the exception to this rule. When a codon is reassigned, it codes for a new amino acid. This change in code can have immense consequences for the cell as protein structures are altered.",
-      "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-14T20:46:40.127224Z"
-    },
-    {
       "source_id": "wiki-topic:en:44621719",
       "source_name": "EN Wikipedia：Bismuth–indium",
       "source_url": "https://en.wikipedia.org/wiki/Bismuth%E2%80%93indium",
@@ -1651,16 +1451,6 @@
       "category_hint": "生活",
       "source_rank": 2,
       "added_at": "2026-07-14T20:46:40.128000Z"
-    },
-    {
-      "source_id": "wiki-topic:en:49223016",
-      "source_name": "EN Wikipedia：Electrolithoautotroph",
-      "source_url": "https://en.wikipedia.org/wiki/Electrolithoautotroph",
-      "title": "Electrolithoautotroph",
-      "excerpt": "An electrolithoautotroph is an organism which feeds on electricity. These organisms use electricity to convert carbon dioxide into organic matter by using electrons directly taken from solid-inorganic electron donors. Electrolithoautotrophs are microorganisms which are found in the deep crevices of the ocean. The warm, mineral-rich environment provides a rich source of nutrients. The electron source for carbon assimilation from diffusible Fe2+ ions to an electrode under the condition that electrical current is the only source of energy and electrons. Electrolithoautotrophs form a third metabolic pathway compared to photosynthesis (plants converting light into sugar) and chemosynthesis (bacteria converting chemical energy into food).",
-      "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-14T20:46:40.128121Z"
     },
     {
       "source_id": "wiki-topic:en:1243735",
@@ -1711,16 +1501,6 @@
       "category_hint": "生物",
       "source_rank": 2,
       "added_at": "2026-07-15T18:37:33.834774Z"
-    },
-    {
-      "source_id": "wiki-topic:en:78566979",
-      "source_name": "EN Wikipedia：Northern Technical College",
-      "source_url": "https://en.wikipedia.org/wiki/Northern_Technical_College",
-      "title": "Northern Technical College",
-      "excerpt": "Northern Technical College, abbreviated as NORTEC, is a public college in Ndola, Zambia. It is one of the first engineering public colleges in Zambia. The language of instruction at the college is English.",
-      "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-15T18:37:33.835109Z"
     },
     {
       "source_id": "wiki-topic:en:29155096",
@@ -1783,16 +1563,6 @@
       "added_at": "2026-07-15T18:37:33.836660Z"
     },
     {
-      "source_id": "wiki-topic:en:29637793",
-      "source_name": "EN Wikipedia：Aerospace materials",
-      "source_url": "https://en.wikipedia.org/wiki/Aerospace_materials",
-      "title": "Aerospace materials",
-      "excerpt": "Aerospace materials are materials, frequently metal alloys, that have either been developed for, or have come to prominence through their use for aerospace purposes. These uses often require exceptional performance, strength or heat resistance, even at the cost of considerable expense in their production or machining. Others are chosen for their long-term reliability in this safety-conscious field, particularly for their resistance to fatigue. The field of materials engineering is an important one within aerospace engineering. Its practice is defined by the international standards bodies who maintain standards for the materials and processes involved. Engineers in this field may often have studied for degrees or post-graduate qualifications in it as a speciality.",
-      "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-15T18:37:33.837241Z"
-    },
-    {
       "source_id": "wiki-topic:en:3783853",
       "source_name": "EN Wikipedia：Bond graph",
       "source_url": "https://en.wikipedia.org/wiki/Bond_graph",
@@ -1811,16 +1581,6 @@
       "category_hint": "生活",
       "source_rank": 2,
       "added_at": "2026-07-15T18:37:33.837746Z"
-    },
-    {
-      "source_id": "wiki-topic:en:19468941",
-      "source_name": "EN Wikipedia：Balance of nature",
-      "source_url": "https://en.wikipedia.org/wiki/Balance_of_nature",
-      "title": "Balance of nature",
-      "excerpt": "The balance of nature, also known as ecological balance, is a theory that proposes that ecological systems are usually in a stable equilibrium or homeostasis, which is to say that a small change (the size of a particular population, for example) will be corrected by some negative feedback that will bring the parameter back to its original \"point of balance\" with the rest of the system. The balance is sometimes depicted as easily disturbed and delicate, while other times it is inversely portrayed as powerful enough to correct any imbalances by itself. The concept has been described as \"normative\", as well as teleological, as it makes a claim about how nature should be: nature is balanced because \"it is supposed to be balanced\". The theory has been employed to describe how populations depend on each other, for example in predator-prey systems, or relationships between herbivores and their food source. It is also sometimes applied to the relationship between the Earth's ecosystem, the composition of the atmosphere, and weather. The theory has been discredited by scientists working in ecology, as it has been found that constant disturbances leading to chaotic and dynamic changes are the...",
-      "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-15T18:37:33.838014Z"
     },
     {
       "source_id": "wiki-topic:en:77061339",

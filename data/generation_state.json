@@ -1032,7 +1032,151 @@
       "source_url": "https://en.wikipedia.org/wiki/Arago%27s_rotations",
       "outcome": "reviewed_not_saved",
       "reason": ""
+    },
+    "wiki-topic:en:35204947": {
+      "last_seen": "2026-07-18T18:15:55.220220Z",
+      "source_url": "https://en.wikipedia.org/wiki/Classifier_constructions_in_sign_languages",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:7639845": {
+      "last_seen": "2026-07-18T18:15:55.220234Z",
+      "source_url": "https://en.wikipedia.org/wiki/Antecedent-contained_deletion",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:13552978": {
+      "last_seen": "2026-07-18T18:15:55.220240Z",
+      "source_url": "https://en.wikipedia.org/wiki/Behavioral_confirmation",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:38558185": {
+      "last_seen": "2026-07-18T18:15:55.220245Z",
+      "source_url": "https://en.wikipedia.org/wiki/Everyday_Aesthetics",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:862496": {
+      "last_seen": "2026-07-18T18:15:55.220249Z",
+      "source_url": "https://en.wikipedia.org/wiki/Assertiveness",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:6073894": {
+      "last_seen": "2026-07-18T18:15:55.220253Z",
+      "source_url": "https://en.wikipedia.org/wiki/Fermentation",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:8720264": {
+      "last_seen": "2026-07-18T18:15:55.220257Z",
+      "source_url": "https://en.wikipedia.org/wiki/History_of_the_battery",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:20016887": {
+      "last_seen": "2026-07-18T18:15:55.220261Z",
+      "source_url": "https://en.wikipedia.org/wiki/History_of_the_diesel_car",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:7754370": {
+      "last_seen": "2026-07-18T18:15:55.220265Z",
+      "source_url": "https://en.wikipedia.org/wiki/History_of_artificial_life",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:3032314": {
+      "last_seen": "2026-07-18T18:15:55.220268Z",
+      "source_url": "https://en.wikipedia.org/wiki/History_of_the_camera",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:49223016": {
+      "last_seen": "2026-07-18T18:15:55.220272Z",
+      "source_url": "https://en.wikipedia.org/wiki/Electrolithoautotroph",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:19468941": {
+      "last_seen": "2026-07-18T18:15:55.220276Z",
+      "source_url": "https://en.wikipedia.org/wiki/Balance_of_nature",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:19916613": {
+      "last_seen": "2026-07-18T18:15:55.220280Z",
+      "source_url": "https://en.wikipedia.org/wiki/Radical_(chemistry)",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:70386320": {
+      "last_seen": "2026-07-18T18:15:55.220283Z",
+      "source_url": "https://en.wikipedia.org/wiki/Codon_reassignment",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:78566979": {
+      "last_seen": "2026-07-18T18:15:55.220287Z",
+      "source_url": "https://en.wikipedia.org/wiki/Northern_Technical_College",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:61854053": {
+      "last_seen": "2026-07-18T18:15:55.220307Z",
+      "source_url": "https://en.wikipedia.org/wiki/Metal_assisted_chemical_etching",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:29637793": {
+      "last_seen": "2026-07-18T18:15:55.220311Z",
+      "source_url": "https://en.wikipedia.org/wiki/Aerospace_materials",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:36479878": {
+      "last_seen": "2026-07-18T18:15:55.220315Z",
+      "source_url": "https://en.wikipedia.org/wiki/Ergonomics",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:1004014": {
+      "last_seen": "2026-07-18T18:15:55.220319Z",
+      "source_url": "https://en.wikipedia.org/wiki/Pale_Blue_Dot",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:2262154": {
+      "last_seen": "2026-07-18T18:15:55.220322Z",
+      "source_url": "https://en.wikipedia.org/wiki/Doppler_broadening",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:8603": {
+      "last_seen": "2026-07-18T18:15:55.220326Z",
+      "source_url": "https://en.wikipedia.org/wiki/Diffraction",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:153774": {
+      "last_seen": "2026-07-18T18:15:55.220329Z",
+      "source_url": "https://en.wikipedia.org/wiki/First_point_of_Aries",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:64919": {
+      "last_seen": "2026-07-18T18:15:55.220333Z",
+      "source_url": "https://en.wikipedia.org/wiki/Environmental_science",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:16112368": {
+      "last_seen": "2026-07-18T18:15:55.220336Z",
+      "source_url": "https://en.wikipedia.org/wiki/Earth_ellipsoid",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
     }
   },
-  "updated_at": "2026-07-18T18:13:22.607413Z"
+  "updated_at": "2026-07-18T18:15:55.226503Z"
 }

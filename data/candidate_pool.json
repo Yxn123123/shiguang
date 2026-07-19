@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-18T18:15:55.221768Z",
+  "updated_at": "2026-07-19T18:15:14.354951Z",
   "candidates": [
     {
       "source_id": "wiki-topic:en:77737401",
@@ -1613,6 +1613,66 @@
       "added_at": "2026-07-17T18:31:41.231617Z"
     },
     {
+      "source_id": "wiki-topic:en:815969",
+      "source_name": "EN Wikipedia：Buckling",
+      "source_url": "https://en.wikipedia.org/wiki/Buckling",
+      "title": "Buckling",
+      "excerpt": "In structural engineering, buckling is the sudden change in shape (deformation) of a structural component under load, such as the bowing of a column under compression or the wrinkling of a plate under shear. If a structure is subjected to a gradually increasing load, when the load reaches a critical level, a member may suddenly change shape and the structure and component is said to have buckled. Euler's critical load and Johnson's parabolic formula are used to determine the buckling stress of a column. Buckling may occur even though the stresses that develop in the structure are well below those needed to cause failure in the material of which the structure is composed. Further loading may cause significant and somewhat unpredictable deformations, possibly leading to complete loss of the member's load-carrying capacity. However, if the deformations that occur after buckling do not cause the complete collapse of that member, the member will continue to support the load that caused it to buckle. If the buckled member is part of a larger assemblage of components such as a building, any load applied to the buckled part of the structure beyond that which caused the member to buckle will...",
+      "category_hint": "科技",
+      "source_rank": 2,
+      "added_at": "2026-07-19T18:14:14.899414Z"
+    },
+    {
+      "source_id": "wiki-topic:en:66493705",
+      "source_name": "EN Wikipedia：Extramural English",
+      "source_url": "https://en.wikipedia.org/wiki/Extramural_English",
+      "title": "Extramural English",
+      "excerpt": "In the field of second-language acquisition, extramural English (EE) is English that learners come in contact with or are involved in outside the walls of the classroom, often through streaming media and online games. It is an example of informal learning of English. EE includes using English-mediated media, listening to music, watching films or series, using social network sites, reading books and playing video games that require the use of English. EE includes both online and offline activities and is always initiated by the learner, not by the teacher. EE activities can be carried out with or without deliberate intention to improve English language proficiency. Hence, EE encompasses both incidental and intentional language learning. EE research that centers on online activities is often viewed as computer-assisted language learning (CALL) research. EE is linked to the theory of learner autonomy. The term extramural English was first coined in 2009 by Pia Sundqvist. It refers to 'English outside the walls' (from Latin extramural, where the prefix, extra, means 'outside' and the stem, mural, means 'wall'). Research studies report several learning benefits of EE, such as promoting vocabulary...",
+      "category_hint": "综合",
+      "source_rank": 2,
+      "added_at": "2026-07-19T18:14:14.899631Z"
+    },
+    {
+      "source_id": "wiki-topic:en:5649176",
+      "source_name": "EN Wikipedia：Electron emission",
+      "source_url": "https://en.wikipedia.org/wiki/Electron_emission",
+      "title": "Electron emission",
+      "excerpt": "In physics, electron emission is the ejection of an electron from the surface of matter, or, in beta decay (β− decay), where a beta particle (a fast energetic electron or positron) is emitted from an atomic nucleus transforming the original nuclide to an isobar.",
+      "category_hint": "科学",
+      "source_rank": 2,
+      "added_at": "2026-07-19T18:14:14.899825Z"
+    },
+    {
+      "source_id": "wiki-topic:en:76083036",
+      "source_name": "EN Wikipedia：Does Coffee Cause Cancer?",
+      "source_url": "https://en.wikipedia.org/wiki/Does_Coffee_Cause_Cancer%3F",
+      "title": "Does Coffee Cause Cancer?",
+      "excerpt": "Does Coffee Cause Cancer? And 8 More Myths about the Food We Eat is a 2023 book by Canadian cardiologist Christopher Labos. It presents information about nine health myths through a series of conversations between fictional characters. The book uses a fictional story to present and dispel misconceptions around nine topics related to food science. The book aims to explain why food science is complex and to debunk some of the food myths that permeate society, with an evolving relationship as a narrative. Labos' publisher suggested he emulate the fictional style of The Wealthy Barber. He ended up developing a nine-chapter story arc featuring conversations between fictional characters that mirror exchanges that Labos had with acquaintances in real life. The chapters tell a continuous romantic story involving conversations between the protagonist and other people with whom he discussed various health topics. Mathematical and methodological discussions are appended to the text, on topics such as demographic selection and p-hacking. Labos is hoping to write a sequel, for which he wrote a sample chapter.",
+      "category_hint": "生活",
+      "source_rank": 2,
+      "added_at": "2026-07-19T18:14:14.900203Z"
+    },
+    {
+      "source_id": "wiki-topic:en:26114602",
+      "source_name": "EN Wikipedia：Back-story (production)",
+      "source_url": "https://en.wikipedia.org/wiki/Back-story_(production)",
+      "title": "Back-story (production)",
+      "excerpt": "Back-story, in the production of consumer goods, is information about the effects of their production. As of June 2007 sustainability advocates had begun evoking literary backstories to refer to the \"backstories\" of goods: that is, the impacts on the planet and people, caused by producing and delivering those goods. Without knowledge of the full backstory of a product, a consumer cannot accurately judge whether the impacts of purchasing it are good or bad. Some environmentalists and consumer-protection advocates argue that greater corporate and governmental transparency would be a critical step towards sustainability, enabling consumers to make more informed choices, and activists to bring public opinion to bear on practices they consider unethical.",
+      "category_hint": "生物",
+      "source_rank": 2,
+      "added_at": "2026-07-19T18:14:14.900345Z"
+    },
+    {
+      "source_id": "wiki-topic:en:151604",
+      "source_name": "EN Wikipedia：Deception",
+      "source_url": "https://en.wikipedia.org/wiki/Deception",
+      "title": "Deception",
+      "excerpt": "Deception is the act of convincing one or many recipients of untrue information. The person creating the deception knows it to be false while the receiver of the information does not. It is often done for personal gain or advantage. Deceit and dishonesty can also form grounds for civil litigation in tort, or contract law (where it is known as misrepresentation or fraudulent misrepresentation if deliberate), or give rise to criminal prosecution for fraud.",
+      "category_hint": "生活",
+      "source_rank": 2,
+      "added_at": "2026-07-19T18:14:14.900603Z"
+    },
+    {
       "source_id": "onthisday:zh:07/14:2011:4",
       "source_name": "Wikimedia On This Day：中华人民共和国",
       "source_url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD",
@@ -1651,6 +1711,26 @@
       "category_hint": "历史",
       "source_rank": 3,
       "added_at": "2026-07-17T18:31:41.232880Z"
+    },
+    {
+      "source_id": "onthisday:zh:07/19:2020:2",
+      "source_name": "Wikimedia On This Day：鹿儿岛县",
+      "source_url": "https://zh.wikipedia.org/wiki/%E9%B9%BF%E5%84%BF%E5%B2%9B%E5%8E%BF",
+      "title": "2020: 阿聯希望號火星探測器於日本鹿兒島縣種子島宇宙中心由H-IIA運載火箭運載升空，成為阿拉伯聯合大公國及阿拉伯世界首次的火星探測。",
+      "excerpt": "事件：阿聯希望號火星探測器於日本鹿兒島縣種子島宇宙中心由H-IIA運載火箭運載升空，成為阿拉伯聯合大公國及阿拉伯世界首次的火星探測。\n相关页面摘要：鹿儿岛县 是位于日本九州最南端的县，范围包括了萨摩半岛和大隅半岛，以及薩南群島。古属萨摩国以及大隅国，鹿儿岛市为县政府所在地。鹿儿岛县的总面积9187平方公里，海岸线长2,722公里，共有岛屿605个。该县由19个市、20个町和4个村共43个市町村组成。鹿儿岛县分布着许多火山，约一半的土地被火山灰所覆盖。",
+      "category_hint": "历史",
+      "source_rank": 3,
+      "added_at": "2026-07-19T18:14:14.900861Z"
+    },
+    {
+      "source_id": "onthisday:zh:07/19:2010:9",
+      "source_name": "Wikimedia On This Day：联合国",
+      "source_url": "https://zh.wikipedia.org/wiki/%E8%81%94%E5%90%88%E5%9B%BD",
+      "title": "2010: 聯合國經濟及社會理事會以23票贊成、13票反對、13票棄權、5票缺席，授予國際男女同性戀人權委員會於聯合國中的非政府組織諮商地位。",
+      "excerpt": "事件：聯合國經濟及社會理事會以23票贊成、13票反對、13票棄權、5票缺席，授予國際男女同性戀人權委員會於聯合國中的非政府組織諮商地位。\n相关页面摘要：聯合國是一個由世界各主權國家組成的政府間國際組織，致力於促進各國在國際法、國際安全、經濟發展、社會進步、人權、公民自由、政治自由、民主、實現持久世界和平等各方面的國際合作。聯合國成立於第二次世界大戰結束後的1945年，取代國際聯盟以防止戰爭的發生並為各國提供外交平臺。聯合國下設了許多附屬機構以實現其宗旨。聯合國總部設在美国纽约的曼哈頓，並受到治外法權的約束。其他主要辦事處設在日內瓦、內羅畢和維也納。",
+      "category_hint": "历史",
+      "source_rank": 3,
+      "added_at": "2026-07-19T18:14:14.900921Z"
     },
     {
       "source_id": "wiki-random:en:13628958",
@@ -2761,6 +2841,236 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-17T18:33:30.561417Z"
+    },
+    {
+      "source_id": "wiki-random:en:65518894",
+      "source_name": "EN Wikipedia：1954 Leichhardt state by-election",
+      "source_url": "https://en.wikipedia.org/wiki/1954_Leichhardt_state_by-election",
+      "title": "1954 Leichhardt state by-election",
+      "excerpt": "A by-election was held for the New South Wales Legislative Assembly electorate of Leichhardt on 9 July 1954 because of the death of Claude Matthews (Labor) who committed suicide while still in office. He had been receiving treatment for a \"nervous condition\" for 18 months.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-19T18:14:14.901204Z"
+    },
+    {
+      "source_id": "wiki-random:zh:5156683",
+      "source_name": "ZH Wikipedia：蟠形總目",
+      "source_url": "https://zh.wikipedia.org/wiki/%E8%9F%A0%E5%BD%A2%E7%B8%BD%E7%9B%AE",
+      "title": "蟠形總目",
+      "excerpt": "蟠形總目（學名：Oniscomorpha）是倍足綱之下的一個分類元，又稱球馬陸，屬於唇颚亚纲（Chilognatha）五带马陆下纲（Pentazonia）的一種節肢動物。原為目級分類，現時升格為總目級。 與其他同綱物種相比，蟠形總目物種的體長顯得很短：一般只有11到13個體節，而且當受到干擾時，可以把身體蜷曲成為球狀以防禦。這種演化出來的特徵，原來在本總目之一的兩個目是分別演化出來，成為了趨同演化的一個例子。球馬陸一類的物種主要是腐食性，以樹林內腐爛的植物為食。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-19T18:14:14.901265Z"
+    },
+    {
+      "source_id": "wiki-random:en:8234153",
+      "source_name": "EN Wikipedia：Kritsa",
+      "source_url": "https://en.wikipedia.org/wiki/Kritsa",
+      "title": "Kritsa",
+      "excerpt": "Kritsa (Greek: Κριτσά, romanized: Critsá) is one of the oldest and most picturesque villages in Crete, Greece, built amphitheatrically on a rock hill, named Kastellos, surrounded by olive groves, at an altitude of 375 m. It is part of the municipality of Agios Nikolaos. During the Middle Ages, it was thought to be the largest village in Crete. Kritsa has been destroyed many times during the last centuries because it participated in all of Crete's revolutions. It is located 10 km from Agios Nikolaos and has about 2200 inhabitants who live in different neighborhoods named Palemilos, Koukistres, Christos and Pergiolikia.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-19T18:14:14.901460Z"
+    },
+    {
+      "source_id": "wiki-random:en:521975",
+      "source_name": "EN Wikipedia：Confederation Party",
+      "source_url": "https://en.wikipedia.org/wiki/Confederation_Party",
+      "title": "Confederation Party",
+      "excerpt": "Confederation Party was a term for the parties supporting Canadian Confederation in the British colonies of New Brunswick, Nova Scotia, and Newfoundland in the 1860s when politics became polarized between supporters and opponents of Confederation. The Confederation parties were accordingly opposed by Anti-Confederation parties in those three jurisdictions. A conference was held on September 1, 1864, in Charlottetown when the Province of Canada became interested in it. John A. Macdonald was a huge promoter of Confederation and even made an alliance with his political rival, George Brown to make it happen. In New Brunswick and Nova Scotia, the Confederation parties became Conservative parties aligned with the federal Liberal-Conservative Party of Sir John A. Macdonald (generally known simply as Conservatives), while Anti-Confederation parties became Liberals. This approximated the political dichotomy that existed prior to Confederation although, because of the realignment, some former Liberals became Conservatives and vice versa. The acceptance of the Confederation Party was greatly influenced by the American Civil War. Other reasons were an aggressive American foreign policy and the...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-19T18:14:14.904308Z"
+    },
+    {
+      "source_id": "wiki-random:zh:7881166",
+      "source_name": "ZH Wikipedia：加埃塔之围",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%8A%A0%E5%9F%83%E5%A1%94%E4%B9%8B%E5%9B%B4",
+      "title": "加埃塔之围",
+      "excerpt": "加埃塔之围（法语：Siège de Gaète）发生于1806年2月26日至7月18日。此役中，意大利的要塞城市加埃塔及守城的那不勒斯驻军在黑森-菲利普斯塔尔的路德维希王子的指挥下抵抗安德烈·马塞纳率领的法国军团围攻。经过长时间的围城战后，路德维希王子身负重伤被迫撤出该地，最终加埃塔的全部守军投降，马塞纳给予投降的士兵慷慨的条件。 1806年，拿破仑军队入侵那不勒斯是因为西西里国王费迪南多一世加入了第三次反法同盟。那不勒斯王国被法军士兵迅速占领，但路德维希王子顽固地坚守着加埃塔并不断抵抗法军的进攻，以至于马塞纳军团的大部分士兵被牵制了近五个月。这阻止了马塞纳派遣增援部队平息在卡拉布里亚的起义，也使得法军无法阻止英国远征军在马伊达战役中的胜利。然而，由于英军未能援救加埃塔的守军，在法军炮击该城防线的缺口后，该城终于在7月中旬被攻占。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-19T18:14:14.904403Z"
+    },
+    {
+      "source_id": "wiki-random:zh:65669",
+      "source_name": "ZH Wikipedia：螢幕閱讀器",
+      "source_url": "https://zh.wikipedia.org/wiki/%E8%9E%A2%E5%B9%95%E9%96%B1%E8%AE%80%E5%99%A8",
+      "title": "螢幕閱讀器",
+      "excerpt": "螢幕閱讀器（英語：screen reader）又稱為螢幕報讀軟體，是安裝於電腦上的應用程式軟體，用來將文字、圖形以及電腦介面的其他部分（如文字轉語音（Text-To-Speech, TTS）技術）轉換成語音或點字。對於視障者或閱讀障礙者甚有助益，有些人會搭配放大軟體一齊使用。螢幕閱讀器至少可以讀出： 作業系統的大致情形。 文字式程式，例如DOS和telnet session。 任何圖形用戶界面呈現在螢幕上的圖形和文字。 網頁瀏覽器、電子郵件和Usenet客端。 當使用螢幕報讀軟體時，螢幕是否開啟並不會影響其運作，它本身並不構成一部電腦的要件，只是一個軟體或輸出裝置。 使用者在挑選螢幕報讀軟體時，通常會考量許多因素。包含使用平台、成本、使用者偏好等，並也會受到其所屬組織（如慈善機構、學校、任職公司）之影響，而螢幕報讀軟體在選擇上是備受爭議的。 自從Windows 2000以來，微軟作業系統已在其版本中加入名為Microsoft Narrator light-duty之螢幕報讀軟體。而蘋果公司則於其麥金塔作業系統中加入一功能豐富的螢幕報讀軟體VoiceOver。另一方面，Oralux Linux中則裝載了三種螢幕報讀軟體：Emacspeak，Yasr，以及Speakup。而開放軟體GNOME桌面環境則包含了Gnopernicus與Orca兩種螢幕報讀軟體。此外還有許多開放原始碼的螢幕報讀軟體，如適用於GNOME平台的Linux Screen Reader，以及NonVisual Desktop Access for Windows（NVDA）。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-19T18:14:14.905093Z"
+    },
+    {
+      "source_id": "wiki-random:zh:9496962",
+      "source_name": "ZH Wikipedia：安第斯病毒",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%AE%89%E7%AC%AC%E6%96%AF%E7%97%85%E6%AF%92",
+      "title": "安第斯病毒",
+      "excerpt": "安第斯病毒是南美洲引起汉坦病毒肺综合征最常见的病原体。安第斯病毒主要通过长尾侏儒稻鼠传播。人类可能通过吸入含有啮齿动物唾液、尿液或粪便的气溶胶，以及通过咬伤和抓伤而感染。人类感染安第斯病毒会出现汉坦病毒肺综合征。 安第斯病毒于1995年首次在阿根廷和智利被发现。每年约有100例由安第斯病毒引起的汉坦病毒肺综合征病例报告，主要集中在这两个国家。。安第斯病毒是目前已知唯一可通过人际传播的汉坦病毒。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-19T18:14:14.905315Z"
+    },
+    {
+      "source_id": "wiki-random:en:3734076",
+      "source_name": "EN Wikipedia：Opus reticulatum",
+      "source_url": "https://en.wikipedia.org/wiki/Opus_reticulatum",
+      "title": "Opus reticulatum",
+      "excerpt": "Opus reticulatum (also known as reticulate work) is a facing used for concrete walls in Roman architecture from about the first century BCE to the early first century CE. They were built using small pyramid-shaped tuff, a volcanic stone embedded into a concrete core. Reticulate work was also combined with a multitude of other building materials to provide polychrome colouring and other facings to form new techniques. Opus reticulatum was generally used in central and southern Italy with the exception being its rare appearance in Africa and Jericho. This was because of tuff's wider availability and ease of local transport in central Italy and Campania compared to other regions. Reticulate work developed in response to the advent of opus caementicium and its predecessor, opus incertum. This was to accommodate both the new building material and the growing demands of urbanisation in Rome through the creation of opus reticulatum, a method more uniform and accessible to unskilled labourers. The need for quicker and easier techniques led to a decline in popularity allowing for the rise of brickwork as a more convenient alternative, especially after the Great Fire of 64 CE. Opus reticulatum...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-19T18:14:14.905617Z"
+    },
+    {
+      "source_id": "wiki-random:en:7035995",
+      "source_name": "EN Wikipedia：Poot (The Wire)",
+      "source_url": "https://en.wikipedia.org/wiki/Poot_(The_Wire)",
+      "title": "Poot (The Wire)",
+      "excerpt": "Malik \"Poot\" Carr is a fictional character in the HBO drama The Wire, played by actor Tray Chaney. Poot is a drug dealer in the Barksdale Organization who slowly rises through the ranks. He eventually leaves the drug trade after it causes the death of his best friend, and many other of his associates. He has the distinction, along with Wee-Bey Brice (Hassan Johnson), Omar Little (Michael K. Williams), Bubbles (Andre Royo), and Proposition Joe (Robert F. Chew), of being one of the only characters in the drug trade to appear in every season. Of the 17 front-line Barksdale Organization gang members featured in the series, 12 die, and three more are imprisoned with long sentences. He survives being shot three times, more times than any other character except Omar Little. Poot distinguishes himself from the other two remaining survivors, Slim Charles (Anwan Glover) and Dennis \"Cutty\" Wise (Chad Coleman), as the only low-level player who completely moves away from the drug trade after the organization's collapse.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-19T18:14:36.445682Z"
+    },
+    {
+      "source_id": "wiki-random:en:2940834",
+      "source_name": "EN Wikipedia：Pukkwan Victory Monument",
+      "source_url": "https://en.wikipedia.org/wiki/Pukkwan_Victory_Monument",
+      "title": "Pukkwan Victory Monument",
+      "excerpt": "The Pukkwan Victory Monument (Pukkwan Taech'ŏppi, full name Yumyŏng Chosŏnguk Hamgyŏngdo Imjin Ŭibyŏng Taech'ŏppi, the \"Ming-Joseon Hamgyongdo Imjin righteous army victory monument\") is a stone stele written in Korean Hanmun commemorating a series of Korean military victories between 1592 and 1594 against the invading army of Japan during the Imjin War. First erected in 1707 in Kilju in what is now North Korea, it was subsequently taken to Japan during the Japanese occupation of Korea during the Russo-Japanese War of 1905. It was eventually discovered on the grounds of Yasukuni Shrine in Tokyo, prompting a Korean outcry that it be returned. In a ceremony on 12 October 2005, it was turned over to officials from South Korea, who returned it to its original location, which is now in North Korea.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-19T18:14:36.446125Z"
+    },
+    {
+      "source_id": "wiki-random:en:45655682",
+      "source_name": "EN Wikipedia：Corona Borealis Supercluster",
+      "source_url": "https://en.wikipedia.org/wiki/Corona_Borealis_Supercluster",
+      "title": "Corona Borealis Supercluster",
+      "excerpt": "The Corona Borealis Supercluster is a supercluster located in the constellation Corona Borealis and the most prominent example of its kind in the Northern Celestial Hemisphere. Dense and compact compared with other superclusters, its mass has been calculated to lie somewhere between 0.6 and 12 × 1016 solar masses (M⊙). It contains the galaxy clusters Abell 2056, Abell 2061, Abell 2065 (the most massive galaxy cluster within the supercluster), Abell 2067, Abell 2079, Abell 2089, and Abell 2092. Of these, Abell 2056, 2061, 2065, 2067 and A2089 are gravitationally bound and in the process of collapsing to form a massive cluster. This entity has an estimated mass of around 1 × 1016 M⊙. If there is inter-cluster mass present, then Abell 2092 may also be involved. It has been estimated to be 100 megaparsecs (330 million light-years) wide and 40 megaparsecs (130 million light years) deep. It has a redshift of 0.07, which is equivalent to a distance of around 265.5 megaparsecs (964 million light-years).",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-19T18:14:36.446361Z"
+    },
+    {
+      "source_id": "wiki-random:en:21844293",
+      "source_name": "EN Wikipedia：Dissociative substitution",
+      "source_url": "https://en.wikipedia.org/wiki/Dissociative_substitution",
+      "title": "Dissociative substitution",
+      "excerpt": "In chemistry, dissociative substitution describes a reaction pathway by which compounds interchange ligands. The term is typically applied to coordination and organometallic complexes, but resembles the SN1 mechanism in organic chemistry. This pathway can be well described by the cis effect, or the labilization of CO ligands in the cis position. The opposite pathway is associative substitution, being analogous to SN2 pathway. Pathways that are intermediate between the pure dissociative and pure associative pathways are called interchange mechanisms. Complexes that undergo dissociative substitution are often coordinatively saturated and often have octahedral molecular geometry. The entropy of activation is characteristically positive for these reactions, which indicates that the disorder of the reacting system increases in the rate-determining step.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-19T18:14:36.447764Z"
+    },
+    {
+      "source_id": "wiki-random:en:12642817",
+      "source_name": "EN Wikipedia：Skid block",
+      "source_url": "https://en.wikipedia.org/wiki/Skid_block",
+      "title": "Skid block",
+      "excerpt": "A skid block, also known as a plank, is a common term for a mandatory attachment to the underside of a racing car. Initially applied to Formula One cars in 1994, it has also been used in other categories including Formula 3000 and Formula 3. It is a flat rectangle, usually made of fiberglass or a wood composite, designed to impose a minimum ground clearance and to regulate the use of ground effects to enhance handling.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-19T18:14:36.448247Z"
+    },
+    {
+      "source_id": "wiki-random:zh:7144205",
+      "source_name": "ZH Wikipedia：巴拉望熊貓",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%B7%B4%E6%8B%89%E6%9C%9B%E7%86%8A%E8%B2%93",
+      "title": "巴拉望熊貓",
+      "excerpt": "巴拉望熊貓（學名：Arctictis binturong whitei；英名：Palawan bearcat、Palawan binturong），又稱巴拉望熊貍，是靈貓科熊貓的一個亞種。是菲律賓巴拉望島的特有種。 巴拉望熊貓可以長到約1.4公尺（4.6英尺），具有粗糙、濃厚的黑棕色毛皮，特徵是耳朵上有白毛，並長有與其頭部相長的白鬍鬚。一般來說很溫馴，但其銳利的爪牙仍可輕易地劃破人的皮膚。可用強壯的尾部捲住樹枝來倒掛。其垂直向的瞳孔表明了熊貓是夜行性動物。 棲息在熱帶雨林，為雜食動物，食水果、小型動物及腐肉。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-19T18:14:36.448524Z"
+    },
+    {
+      "source_id": "wiki-random:zh:204739",
+      "source_name": "ZH Wikipedia：加西亞·桑切斯二世",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%8A%A0%E8%A5%BF%E4%BA%9E%C2%B7%E6%A1%91%E5%88%87%E6%96%AF%E4%BA%8C%E4%B8%96",
+      "title": "加西亞·桑切斯二世",
+      "excerpt": "加西亞·桑切斯二世（西班牙語：García Sánchez II，有時稱為加西亞二世、三世、四世或五世，約964年—約1000–1004年）被稱為顫抖者（西班牙語：el Temblón），他在位的時期，同時是潘普洛納國王與亞拉岡伯爵，從994年直到去世。他是國王桑喬二世與烏拉卡·費南德斯的兒子。 在他的統治時期，他的外交政策似乎與卡斯提亞保持親密的連結。他的母親烏拉卡·費南德斯是卡斯提亞伯爵桑乔·加西亚、以及有權勢的薩達尼亞（Saldaña）伯爵卡里昂的加西亞·哥梅斯這兩人的姑姑，他的母親還扮演了潘普洛納王國與卡斯提亞伯國之間聯繫的橋梁。 他與他的表哥桑喬試圖打破過去他父親時期向哥多華臣服的關係，因此他必須要面對阿曼蘇爾。在996年他被迫向哥多華求和。997年在一場進入卡拉塔尤的遠征時，加西亞殺了當地總督的兄弟，對此阿曼蘇爾斬首50位基督徒作為報復。在1000年7月的色維拉戰役時，他與薩達尼亞的加西亞·哥梅斯伯爵加入了以卡斯提亞的桑乔·加西亚伯爵為首的聯盟，被阿曼蘇爾擊敗。傳說記載他是1002年卡拉塔涅索戰役的其中一位基督徒領袖之一，阿曼蘇爾在這場戰役中陣亡，導致後續後伍麥亞王朝產生危機，然而在1000年後已沒有當代關於加西亞的文獻記錄，而他的堂弟比格拉的桑喬·拉米雷斯可能在1002年時治理潘普洛納。可以肯定的是1004年時加西亞已經過世，當年他的兒子桑喬·加爾塞斯三世首次被記載為國王。 在國內方面，他授予他的弟弟岡薩羅在他的母親烏拉卡的監護下統治亞拉岡。傳聞記載他釋放了王國內所有被俘虜穆斯林。981年8月他與希梅娜（Jimena）結婚，希梅娜是塞亞伯爵費南多·貝穆德斯與艾薇拉·迪亞斯（Elvira Díaz，薩達尼亞伯爵加西亞·哥梅斯的一位姑姑）的女兒。他們的子女有未來的國王桑喬，以及烏拉卡(後來雷昂的阿方索五世的第二任妻子)。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-19T18:14:55.121361Z"
+    },
+    {
+      "source_id": "wiki-random:en:82676621",
+      "source_name": "EN Wikipedia：Sculptor Void",
+      "source_url": "https://en.wikipedia.org/wiki/Sculptor_Void",
+      "title": "Sculptor Void",
+      "excerpt": "The Sculptor Void is a large region of relatively low galaxy density located in the direction of the constellation Sculptor. It is one of the cosmic voids that form part of the large-scale structure of the universe, where galaxies, clusters, and filaments surround vast underdense regions. Cosmic voids are enormous spaces containing significantly fewer galaxies than average. They are typically tens to hundreds of megaparsecs across and arise naturally during the process of structure formation in the universe. Matter gradually flows out of these regions toward surrounding filaments and galaxy clusters, leaving voids comparatively empty. The Sculptor Void lies in a part of the sky that also contains several nearby galaxy groups, including the Sculptor Group. The region has been studied through galaxy redshift surveys that map the distribution of galaxies in three dimensions, revealing the presence of large underdense regions between filaments and galaxy walls. Like other voids in the cosmic web, the Sculptor Void is not completely empty. A small number of isolated galaxies and faint dwarf systems may still be present within the region, although their density is much lower than the cosmic...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-19T18:14:55.123471Z"
+    },
+    {
+      "source_id": "wiki-random:zh:5079310",
+      "source_name": "ZH Wikipedia：北野武的挑战状",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%8C%97%E9%87%8E%E6%AD%A6%E7%9A%84%E6%8C%91%E6%88%98%E7%8A%B6",
+      "title": "北野武的挑战状",
+      "excerpt": "《北野武的挑战状》（日語：たけしの挑戦状）是一款由太东制作和发行的动作冒险游戏。 本游戏于1986年12月10日在日本地区FC游戏机发行。 北野武在他的游戏内加入了许多當時代独特的和有争议的想法。例如一開頭畫面的選項就隱含陷阱讓遊戲直接結束，進入後玩家可以在柏青哥赌博场所打败黑帮歹徒，并夺取黑帮的钱财来换取奖品。可以使用悬挂式滑翔机飞越到一个被称为“红色国家”的陌生土地。如果玩家越过其他四个岛屿可以进入到红色国家。但是有一块巨大的山石挡住了进入该国的去路，而玩家只能撞击山石或地下自殺。另有諸多無俚頭劇情沒有邏輯可言，只能不斷嘗試錯誤或看攻略本，例如藏寶圖環節需要選擇陽光曝曬一小時，玩家真的要放置遊戲一小時不動，等圖案顯像。還有使用2P手柄麥克風唱歌環節，歌曲線索卻是本遊戲的電視廣告歌曲，同時此麥克風需求導致只有原初版日規FC紅白機能遊玩過關，諸多仿照版本機體沒有相容麥克風而無法玩。 有獨立遊戲色彩和搞怪流程的做法在當年讓眾多玩家摸不著頭腦而棄玩，同時內容比較面向成年人市場，導致遊戲不普及，加上令人困惑的遊戲玩法而評為史上最糟糕的遊戲之一。不過，隨著開放世界遊戲類型的出現，本遊戲開始因為提前多年就具備該類遊戲的相當要素而被部分重新評價。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-19T18:14:55.124807Z"
+    },
+    {
+      "source_id": "wiki-random:en:4004884",
+      "source_name": "EN Wikipedia：Mëkanïk Dëstruktïẁ Kömmandöh",
+      "source_url": "https://en.wikipedia.org/wiki/M%C3%ABkan%C3%AFk_D%C3%ABstrukt%C3%AF%E1%BA%81_K%C3%B6mmand%C3%B6h",
+      "title": "Mëkanïk Dëstruktïẁ Kömmandöh",
+      "excerpt": "Mekanïk Destruktïẁ Kommandöh, also abbreviated as MDK, is the third studio album by French band Magma, released on 6 May 1973. Mekanïk Destruktïẁ Kommandöh is a rock opera concept album telling the story of a doomed Earth caught in endless war, and a prophet's prediction that sparks a large demonstration march by Earthlings to kill him. Mekanïk Destruktïẁ Kommandöh went through a long compositional process of around two years. It marked a large stylistic shift in the band away from jazz-rock and towards a more dark theatrical, Wagner-esque sound, leading to a huge personnel shuffle in the band. The original recording of the album was refused by A&M at the time, but was eventually released as Mekanïk Kommandöh in 1989. MDK is the group's most famous and acclaimed record. The French edition of Rolling Stone magazine named the album the 33rd-greatest French rock album. In 2015, Rolling Stone ranked the album 24th on its list of the '50 Greatest Prog Rock Albums of All Time'.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-19T18:15:14.346243Z"
+    },
+    {
+      "source_id": "wiki-random:en:37133291",
+      "source_name": "EN Wikipedia：Quang Dũng",
+      "source_url": "https://en.wikipedia.org/wiki/Quang_D%C5%A9ng",
+      "title": "Quang Dũng",
+      "excerpt": "Bùi Đình Diệm (Chinese: 裴廷琰) with his pen name Quang Dũng (Chinese: 光勇, 11 October 1921 – 13 October 1988) was a Vietnamese poet and reciter. He was one of the poets associated with the Nhân Văn–Giai Phẩm movement. In his style, following Vladimir Mayakovsky, he experimented with longer poems. Quang Dũng is the author of several very famous poems such as Tây Tiến (Advancing Westward), Đôi mắt người Sơn Tây (The eyes of Sơn Tây people), Đôi bờ (The two banks). Apart from his work in literature and poetry, Quang Dũng was also an artist and musician.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-19T18:15:14.347699Z"
+    },
+    {
+      "source_id": "wiki-random:zh:4376074",
+      "source_name": "ZH Wikipedia：史前欧洲",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%8F%B2%E5%89%8D%E6%AC%A7%E6%B4%B2",
+      "title": "史前欧洲",
+      "excerpt": "史前欧洲指的是欧洲的史前时期，通常指早期史前石器时代，但原则上也延伸到地质时期，从这里可以看到欧洲的地质历史。 大约180万年之前，也就是早期旧石器时代，到8000-9000年之前，也就是晚期旧石器时代，欧洲有直立人口。 大约从43000年到6000年以前，也就是晚期旧石器时代到中时期，欧洲一直有人类居住。大约15000年之前，在最后的那次最大冰川作用中，欧洲的大部分地区的人口开始减少，然后人类开始重新定居。9000年以前，在欧洲的东南部地区，开始欧洲的新石器时代，然后大约在5000年以前新石器时代延伸到北部欧洲地区。 青铜时代的前身是红铜时代或者铜器时代；在塞尔维亚的一个考古发掘地找到世界上最古老可靠的证据，证明从7500年前人类就开始在高温下炼铜。 欧洲的铜器时代在希腊地区始于公元前3200年。欧洲的铁器时代开始于公元前1200年，公元前500年蔓延到北部欧洲地区。铁器时代期间，欧洲逐渐进入历史时期。早在公元前8世纪，文字进入地中海地区，但是北部欧洲地区，包括北部俄罗斯，仍然停留在史前时期，一直持续到中世纪，大约公元1200年。在那个时期，瑞典和德国在北方十字军东征中的扩张带来北方波罗的海的土地，进入历史记录。而当今的北方俄罗斯是由于俄国向北的扩张在诺夫哥罗德共和国进入历史记录。因此，欧洲的大部分地区有很长一段时间处于原始历史阶段。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-19T18:15:14.348869Z"
+    },
+    {
+      "source_id": "wiki-random:en:25319965",
+      "source_name": "EN Wikipedia：Port au Bras",
+      "source_url": "https://en.wikipedia.org/wiki/Port_au_Bras",
+      "title": "Port au Bras",
+      "excerpt": "Port au Bras is a settlement in Newfoundland and Labrador, Canada. In 1929 a large tsunami struck the Burin Peninsula, caused by a 7.2 magnitude earthquake about 265km off the coast. The tsunami killed 28 people and caused approximately C$1 million in damage across the entire peninsula. Port au Bras was one of the worst-affected neighbourhoods due to the long narrow bay around which the settlement is built, which caused the water level to rise by between 13 and 27 meters.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-19T18:15:14.349442Z"
+    },
+    {
+      "source_id": "wiki-random:en:17233674",
+      "source_name": "EN Wikipedia：Akhtenskite",
+      "source_url": "https://en.wikipedia.org/wiki/Akhtenskite",
+      "title": "Akhtenskite",
+      "excerpt": "Akhtenskite is a manganese oxide mineral with the chemical formula of MnO2 (or: ε-Mn4+O2) that was named after the Akhtensk deposit in Russia, where it was first discovered and noted in 1979. It can be found in the Akhtensk brown ironstone deposit, in the southern Ural Mountains, on Mt. Zarod, on the Sikhote-Alin Mountains, and in the Primorskiy Krai, all in Russia. Its crystals are usually hexagonal in shape, with flakiness and plating, usually because it replaced a mineral. Akhtenskite is a polymorphous with the much more widespread pyrolusite. It occurs in mixtures with \"psilomelane\" (recently renamed to romanechite) and with other manganese oxides in an iron oxide deposit, most likely bacterially altered from a previous mineral in the Akhtensk deposit. It also occurs in crusts of ferromanganese minerals on oceanic rocks. Its chemical makeup is 63% oxygen and 37% manganese. Some minerals that are commonly associated with akhtenskite are: todorokite, pyrolusite, nsutite, goethite, and cryptomelane.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-19T18:15:14.350600Z"
+    },
+    {
+      "source_id": "wiki-random:zh:349176",
+      "source_name": "ZH Wikipedia：IceWM",
+      "source_url": "https://zh.wikipedia.org/wiki/IceWM",
+      "title": "IceWM",
+      "excerpt": "IceWM是由Marko Maček开发的，用于X Window系统的堆叠式窗口管理器，使用C++编写并依据GNU宽通用公共许可证的条款发布。它对CPU和内存的占用比较小，并且带有主题支持，可以模仿Windows 95、Windows XP、Windows 7、OS/2、Motif和其它图形用户界面。IceWM意在提升感观和体验，同时兼顾了轻量和可定制性。 IceWM可以通过存放在家目录的纯文本文件进行配置，以便于自定义和复制设置。IceWM有一个可选的，带有菜单、任务管理器、网络和CPU仪表、邮件检查和可配置时钟的任务栏。对于GNOME和KDE程序菜单的支持，曾在一个单独的软件包中提供，但是在最近的IceWM版本中已经内置这些功能。另外也有用于配置和编辑菜单的外部图形界面工具提供。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-19T18:15:14.351336Z"
     }
   ]
 }

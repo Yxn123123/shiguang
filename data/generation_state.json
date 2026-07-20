@@ -1320,7 +1320,151 @@
       "source_url": "https://en.wikipedia.org/wiki/Boulouki",
       "outcome": "no_proposal",
       "reason": ""
+    },
+    "wiki-topic:en:1243735": {
+      "last_seen": "2026-07-20T19:15:53.358016Z",
+      "source_url": "https://en.wikipedia.org/wiki/Epanadiplosis",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:11125818": {
+      "last_seen": "2026-07-20T19:15:53.358031Z",
+      "source_url": "https://en.wikipedia.org/wiki/Borrowing_(linguistics)",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:3631020": {
+      "last_seen": "2026-07-20T19:15:53.358037Z",
+      "source_url": "https://en.wikipedia.org/wiki/Extract",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:714602": {
+      "last_seen": "2026-07-20T19:15:53.358043Z",
+      "source_url": "https://en.wikipedia.org/wiki/D%C3%A9rive",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:13413800": {
+      "last_seen": "2026-07-20T19:15:53.358047Z",
+      "source_url": "https://en.wikipedia.org/wiki/Autoplastic_adaptation",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:4330820": {
+      "last_seen": "2026-07-20T19:15:53.358052Z",
+      "source_url": "https://en.wikipedia.org/wiki/Atwater_system",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:30214247": {
+      "last_seen": "2026-07-20T19:15:53.358056Z",
+      "source_url": "https://en.wikipedia.org/wiki/Business_History_Conference",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "onthisday:zh:07/15:2007:7": {
+      "last_seen": "2026-07-20T19:15:53.358061Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%A1%94%E7%A7%91%E9%A6%AC%E6%B5%B7%E5%B3%BD%E5%90%8A%E6%A9%8B",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "onthisday:zh:07/15:2016:1": {
+      "last_seen": "2026-07-20T19:15:53.358066Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%9C%9F%E8%80%B3%E5%85%B6",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "onthisday:zh:07/17:2018:2": {
+      "last_seen": "2026-07-20T19:15:53.358070Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E7%B4%8D%E5%9C%96%E5%A4%AB%E6%96%87%E5%8C%96",
+      "outcome": "filtered_before_review",
+      "reason": ""
+    },
+    "wiki-topic:en:56566": {
+      "last_seen": "2026-07-20T19:15:53.358074Z",
+      "source_url": "https://en.wikipedia.org/wiki/Chronobiology",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:5652450": {
+      "last_seen": "2026-07-20T19:15:53.358078Z",
+      "source_url": "https://en.wikipedia.org/wiki/Biological_process",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:11499338": {
+      "last_seen": "2026-07-20T19:15:53.358081Z",
+      "source_url": "https://en.wikipedia.org/wiki/Biometeorology",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:1872854": {
+      "last_seen": "2026-07-20T19:15:53.358085Z",
+      "source_url": "https://en.wikipedia.org/wiki/Biochemical_cascade",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:45700602": {
+      "last_seen": "2026-07-20T19:15:53.358088Z",
+      "source_url": "https://en.wikipedia.org/wiki/Energy_and_environmental_engineering",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:77095760": {
+      "last_seen": "2026-07-20T19:15:53.358092Z",
+      "source_url": "https://en.wikipedia.org/wiki/Safer_end_of_engineering_life",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:601958": {
+      "last_seen": "2026-07-20T19:15:53.358095Z",
+      "source_url": "https://en.wikipedia.org/wiki/Process_engineering",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:19419701": {
+      "last_seen": "2026-07-20T19:15:53.358099Z",
+      "source_url": "https://en.wikipedia.org/wiki/Pharmaceutical_engineering",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:7266679": {
+      "last_seen": "2026-07-20T19:15:53.358102Z",
+      "source_url": "https://en.wikipedia.org/wiki/Bedford_Level_experiment",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:528425": {
+      "last_seen": "2026-07-20T19:15:53.358106Z",
+      "source_url": "https://en.wikipedia.org/wiki/Half-month",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:13809854": {
+      "last_seen": "2026-07-20T19:15:53.358109Z",
+      "source_url": "https://en.wikipedia.org/wiki/Community_Surface_Dynamics_Modeling_System",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:76268064": {
+      "last_seen": "2026-07-20T19:15:53.358113Z",
+      "source_url": "https://en.wikipedia.org/wiki/Electrofreezing",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:23737622": {
+      "last_seen": "2026-07-20T19:15:53.358116Z",
+      "source_url": "https://en.wikipedia.org/wiki/Alternative_stable_state",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:26805": {
+      "last_seen": "2026-07-20T19:15:53.358120Z",
+      "source_url": "https://en.wikipedia.org/wiki/Biological_sex",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
     }
   },
-  "updated_at": "2026-07-20T19:13:09.893934Z"
+  "updated_at": "2026-07-20T19:15:53.365092Z"
 }

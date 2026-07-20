@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-20T19:13:09.888719Z",
+  "updated_at": "2026-07-20T19:15:53.359669Z",
   "candidates": [
     {
       "source_id": "wiki-topic:en:77737401",
@@ -19,16 +19,6 @@
       "title": "Instrumental magnitude",
       "excerpt": "Instrumental magnitude refers to an uncalibrated apparent magnitude, and, like its counterpart, it refers to the brightness of an astronomical object, but unlike its counterpart, it is only useful in relative comparisons to other astronomical objects in the same image (assuming the photometric calibration does not spatially vary across the image; in the case of images from the Palomar Transient Factory, the absolute photometric calibration involves a zero point that varies over the image by up to 0.16 magnitudes to make a required illumination correction). Instrumental magnitude is defined in various ways, and so when working with instrumental magnitudes, it is important to know how they are defined. The most basic definition of instrumental magnitude, m {\\displaystyle m} , is given by m = − 2.5 log 10 ⁡ ( f ) {\\displaystyle m=-2.5\\log _{10}(f)} where f {\\displaystyle f} is the intensity of the source object in known physical units. For example...",
       "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.566020Z"
-    },
-    {
-      "source_id": "wiki-topic:en:19419701",
-      "source_name": "EN Wikipedia：Pharmaceutical engineering",
-      "source_url": "https://en.wikipedia.org/wiki/Pharmaceutical_engineering",
-      "title": "Pharmaceutical engineering",
-      "excerpt": "Pharmaceutical engineering is a branch of engineering focused on discovering, formulating, and manufacturing medication, analytical and quality control processes, and on designing, building, and improving manufacturing sites that produce drugs. It utilizes the fields of chemical engineering, biomedical engineering, pharmaceutical sciences, and industrial engineering.",
-      "category_hint": "科技",
       "source_rank": 2,
       "added_at": "2026-07-12T11:39:40.566020Z"
     },
@@ -73,16 +63,6 @@
       "added_at": "2026-07-12T11:39:40.568006Z"
     },
     {
-      "source_id": "wiki-topic:en:11499338",
-      "source_name": "EN Wikipedia：Biometeorology",
-      "source_url": "https://en.wikipedia.org/wiki/Biometeorology",
-      "title": "Biometeorology",
-      "excerpt": "Biometeorology is the interdisciplinary field of science that studies the interactions between living things (plants, microbes, vertebrates, invertebrates) and atmospheric phenomena (wind, temperature, humidity, sunlight, greenhouse gas concentrations) on time scales of the order of seasons or shorter (in contrast with bioclimatology). The field of Biometeorology can be very broad, including roles of weather on: 1) human health; 2) outbreaks of insects and pathogens, 3) the health and production of dairy, cattle, pigs and chickens, 4) frost prevention, 5) irrigation management, 6) modeling of crop growth, yield and crop management, 7) study of phenological growth stages, 8) integrated assessments with remote sensing and 9) future change in these systems with global warming and land use change",
-      "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.568006Z"
-    },
-    {
       "source_id": "wiki-topic:en:11791198",
       "source_name": "EN Wikipedia：Bioclimatology",
       "source_url": "https://en.wikipedia.org/wiki/Bioclimatology",
@@ -123,16 +103,6 @@
       "added_at": "2026-07-12T11:39:40.568006Z"
     },
     {
-      "source_id": "wiki-topic:en:528425",
-      "source_name": "EN Wikipedia：Half-month",
-      "source_url": "https://en.wikipedia.org/wiki/Half-month",
-      "title": "Half-month",
-      "excerpt": "The half-month is a calendar subdivision used in astronomy. Each calendar month is separated into two parts: days 1 to 15 day 16 until the end of the month. Newly identified small Solar System bodies, such as comets and asteroids, are given systematic designations that contain the half-month encoded as a letter of the English alphabet. For example, an object discovered in the second half of January would be identified with the letter B; if found in the first half of February, the letter would be C. The letter I is not used, to prevent confusion with the number 1. Instead, the letters proceed directly from H (April 16–30) to J (May 1–15). The letter appears in the provisional designation, then when the object is confirmed the letter is incorporated into the comet designation (for comets) or minor planet designation (for asteroids and other minor planets).",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.569010Z"
-    },
-    {
       "source_id": "wiki-topic:en:77145895",
       "source_name": "EN Wikipedia：Armstrong process",
       "source_url": "https://en.wikipedia.org/wiki/Armstrong_process",
@@ -149,16 +119,6 @@
       "title": "Human behavior",
       "excerpt": "Human behavior is the potential and expressed capacity (mentally, physically, and socially) of human individuals or groups to respond to internal and external stimuli throughout their life. Behavior is driven by environmental and genetic factors that affect an individual. Behavior is also driven, in part, by thoughts and feelings, which provide insight into individual psyche, revealing such things as attitudes and values. Human behavior is shaped by psychological traits, as personality types vary from person to person, producing different actions and behavior. Human behavior encompasses a vast array of domains that span the entirety of human experience. Social behavior involves interactions between individuals and groups , while cultural behavior reflects the diverse patterns, values, and practices that vary across societies and historical periods.Moral behavior encompasses ethical decision-making and value-based conduct,contrasted with antisocial behavior that violates social norms and legal standards.Cognitive behavior involves mental processes of learning, memory, and decision-making, interconnected with psychological behavior that includes emotional regulation, mental health, and...",
       "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.569010Z"
-    },
-    {
-      "source_id": "wiki-topic:en:11125818",
-      "source_name": "EN Wikipedia：Borrowing (linguistics)",
-      "source_url": "https://en.wikipedia.org/wiki/Borrowing_(linguistics)",
-      "title": "Borrowing (linguistics)",
-      "excerpt": "In linguistics, borrowing is a type of language change in which a language or dialect undergoes change as a result of contact with another language or dialect. In typical cases of borrowing, speakers of one language (the \"recipient\" language) adopt into their own speech a novel linguistic feature that they were exposed to due to its presence in a different language (the \"source\" or \"donor\" language).",
-      "category_hint": "综合",
       "source_rank": 2,
       "added_at": "2026-07-12T11:39:40.569010Z"
     },
@@ -209,16 +169,6 @@
       "title": "Alloplastic adaptation",
       "excerpt": "Alloplastic adaptation (from the Greek word \"allos\", meaning \"other\") is a form of adaptation where the subject attempts to change the environment when faced with a difficult situation. Criminality, mental illness, and activism can all be classified as categories of alloplastic adaptation. The concept of alloplastic adaptation was developed by Sigmund Freud, Sándor Ferenczi, and Franz Alexander. They proposed that when an individual was presented with a stressful situation, he could react in one of two ways: Autoplastic adaptation: The subject tries to change himself, i.e. the internal environment. Alloplastic adaptation: The subject tries to change the situation, i.e. the external environment.",
       "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.570020Z"
-    },
-    {
-      "source_id": "wiki-topic:en:1872854",
-      "source_name": "EN Wikipedia：Biochemical cascade",
-      "source_url": "https://en.wikipedia.org/wiki/Biochemical_cascade",
-      "title": "Biochemical cascade",
-      "excerpt": "A biochemical cascade, also known as a signaling cascade or signaling pathway, is a series of chemical reactions that occur within a biological cell when initiated by a stimulus. This stimulus, known as a first messenger, acts on a receptor that is transduced to the cell interior through second messengers which amplify the signal and transfer it to effector molecules, causing the cell to respond to the initial stimulus. Most biochemical cascades are series of events, in which one event triggers the next, in a linear fashion. At each step of the signaling cascade, various controlling factors are involved to regulate cellular actions, in order to respond effectively to cues about their changing internal and external environments. An example would be the coagulation cascade of secondary hemostasis which leads to fibrin formation, and thus, the initiation of blood coagulation. Another example, sonic hedgehog signaling pathway, is one of the key regulators of embryonic development and is present in all bilaterians. Signaling proteins give cells information to make the embryo develop properly. When the pathway malfunctions, it can result in diseases like basal cell carcinoma. Recent studies...",
-      "category_hint": "生物",
       "source_rank": 2,
       "added_at": "2026-07-12T11:39:40.570020Z"
     },
@@ -313,26 +263,6 @@
       "added_at": "2026-07-12T11:39:40.573028Z"
     },
     {
-      "source_id": "wiki-topic:en:5652450",
-      "source_name": "EN Wikipedia：Biological process",
-      "source_url": "https://en.wikipedia.org/wiki/Biological_process",
-      "title": "Biological process",
-      "excerpt": "A biological process is a processes necessary for an organism to live, and therefore shapes its capacity to interact with its environment. Biological processes are made of many chemical reactions or other events that are involved in the persistence and transformation of life forms.",
-      "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.573028Z"
-    },
-    {
-      "source_id": "wiki-topic:en:26805",
-      "source_name": "EN Wikipedia：Biological sex",
-      "source_url": "https://en.wikipedia.org/wiki/Biological_sex",
-      "title": "Biological sex",
-      "excerpt": "Sex is the phenotypic trait of a sexually reproducing organism in producing gametes of one of two different sizes or shapes—male or female gametes. During sexual reproduction, a male and a female gamete fuse to form a zygote, which develops into an offspring that inherits traits from each parent. By convention, organisms that produce smaller gametes (spermatozoa, sperm) are called male, while organisms that produce larger gametes (ova, often called egg cells) are called female. An organism that produces both types of gamete is a hermaphrodite. Sex is often referred to as biological sex when using the word sex alone could be ambiguous with other meanings of sex. In non-hermaphroditic species, the sex of an individual is determined through one of several biological sex-determination systems. Most mammalian species have the XY sex-determination system, where the male usually carries an X and a Y chromosome (XY), and the female usually carries two X chromosomes (XX). Other chromosomal sex-determination systems in animals include the ZW system in birds and the XO system in some insects. Various environmental systems include temperature-dependent sex determination in reptiles and crustaceans...",
-      "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.573028Z"
-    },
-    {
       "source_id": "wiki-topic:en:78389810",
       "source_name": "EN Wikipedia：96P sungrazer family",
       "source_url": "https://en.wikipedia.org/wiki/96P_sungrazer_family",
@@ -358,16 +288,6 @@
       "source_url": "https://en.wikipedia.org/wiki/Everyday_life",
       "title": "Everyday life",
       "excerpt": "Everyday life, daily life or routine life comprises the ways in which people typically act, think, and feel on a daily basis. Everyday life may be described as mundane, routine, natural, habitual, or normal. Human diurnality means most people sleep at least part of the night and are active in daytime. Most eat two or three meals in a day. Working time (apart from shift work) mostly involves a daily schedule, beginning in the morning. This produces the daily rush hours experienced by many millions, and the drive time focused on by radio broadcasters. Evening is often leisure time. Bathing every day is a custom for many. Beyond these broad similarities, lifestyles vary and different people spend their days differently. For example, nomadic life differs from sedentism, and among the sedentary, urban people live differently from rural folk. Differences in the lives of the rich and the poor, or between laborers and intellectuals, may go beyond their working hours. Children and adults also vary in what they do each day.",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.574028Z"
-    },
-    {
-      "source_id": "wiki-topic:en:4330820",
-      "source_name": "EN Wikipedia：Atwater system",
-      "source_url": "https://en.wikipedia.org/wiki/Atwater_system",
-      "title": "Atwater system",
-      "excerpt": "The Atwater system, named after Wilbur Olin Atwater, or derivatives of this system are used for the calculation of the available energy of foods. The system was developed largely from the experimental studies of Atwater and his colleagues in the later part of the 19th century and the early years of the 20th at Wesleyan University in Middletown, Connecticut. Its use has frequently been the cause of dispute, but few alternatives have been proposed. As with the calculation of protein from total nitrogen, the Atwater system is a convention and its limitations can be seen in its derivation.",
       "category_hint": "生活",
       "source_rank": 2,
       "added_at": "2026-07-12T11:39:40.574028Z"
@@ -469,16 +389,6 @@
       "title": "Critical phenomena",
       "excerpt": "In physics, critical phenomena is the collective name associated with the physics of critical points. Most of them stem from the divergence of the correlation length, but also the dynamics slows down. Critical phenomena include scaling relations among different quantities, power-law divergences of some quantities (such as the magnetic susceptibility in the ferromagnetic phase transition) described by critical exponents, universality, fractal behaviour, and ergodicity breaking. Critical phenomena take place in second order phase transitions, although not exclusively. The critical behavior is usually different from the mean-field approximation which is valid away from the phase transition, since the latter neglects correlations, which become increasingly important as the system approaches the critical point where the correlation length diverges. Many properties of the critical behavior of a system can be derived in the framework of the renormalization group. In order to explain the physical origin of these phenomena, we shall use the Ising model as a pedagogical example.",
       "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.575563Z"
-    },
-    {
-      "source_id": "wiki-topic:en:714602",
-      "source_name": "EN Wikipedia：Dérive",
-      "source_url": "https://en.wikipedia.org/wiki/D%C3%A9rive",
-      "title": "Dérive",
-      "excerpt": "The dérive (French: [de.ʁiv], \"drift\") is an unplanned journey through a landscape, usually urban, in which participants stop focusing on their everyday relations to their social environment. Developed by members of the Letterist International, it was first publicly theorized in Guy Debord's \"Theory of the Dérive\" (1956). Debord defines the dérive as \"a mode of experimental behaviour linked to the conditions of urban society: a technique of rapid passage through varied ambiances.\" Though solo dérives are possible, Debord indicates that the most fruitful numerical arrangement consists of several small groups of two or three people who have reached the same level of awareness, since cross-checking these different groups' impressions makes it possible to arrive at more objective conclusions. In an interview, the sociologist Henri Lefebvre, who was close to the group in its early years, recalled that some early dérives used walkie-talkies to coordinate participants moving through different parts of a city. According to Lefebvre, the aim was to link areas separated in space—one group would explore one neighbourhood while staying in radio contact with another elsewhere—so that the fragmented...",
-      "category_hint": "生活",
       "source_rank": 2,
       "added_at": "2026-07-12T11:39:40.575563Z"
     },
@@ -783,16 +693,6 @@
       "added_at": "2026-07-12T20:09:32.389875Z"
     },
     {
-      "source_id": "wiki-topic:en:23737622",
-      "source_name": "EN Wikipedia：Alternative stable state",
-      "source_url": "https://en.wikipedia.org/wiki/Alternative_stable_state",
-      "title": "Alternative stable state",
-      "excerpt": "In ecology, the theory of alternative stable states (sometimes termed alternate stable states or alternative stable equilibria) predicts that ecosystems can exist under multiple \"states\" (sets of unique biotic and abiotic conditions). These alternative states are non-transitory and therefore considered stable over ecologically-relevant timescales. Ecosystems may transition from one stable state to another, in what is known as a state shift (sometimes termed a phase shift or regime shift), when perturbed. Due to ecological feedbacks, ecosystems display resistance to state shifts and therefore tend to remain in one state unless perturbations are large enough. Multiple states may persist under equal environmental conditions, a phenomenon known as hysteresis. Alternative stable state theory suggests that discrete states are separated by ecological thresholds, in contrast to ecosystems which change smoothly and continuously along an environmental gradient.",
-      "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.390005Z"
-    },
-    {
       "source_id": "wiki-topic:en:36079379",
       "source_name": "EN Wikipedia：SLR Consulting",
       "source_url": "https://en.wikipedia.org/wiki/SLR_Consulting",
@@ -883,16 +783,6 @@
       "added_at": "2026-07-12T20:09:32.391147Z"
     },
     {
-      "source_id": "wiki-topic:en:13809854",
-      "source_name": "EN Wikipedia：Community Surface Dynamics Modeling System",
-      "source_url": "https://en.wikipedia.org/wiki/Community_Surface_Dynamics_Modeling_System",
-      "title": "Community Surface Dynamics Modeling System",
-      "excerpt": "The Community Surface Dynamics Modeling System (CSDMS) deals with the Earth's surface and the observable and projected changes constantly taking place – the ever-changing dynamic interface between lithosphere, hydrosphere, cryosphere and atmosphere. CSDMS supports the development, integration, dissemination and archiving of community open-source software, that reflects and predicts earth-surface processes over a broad range of temporal and spatial scales. Over 500 research institutions from more than 65 countries comprise the community effort. CSDMS distributes hundreds of open-source models and modeling tools, provides access to high performance computing clusters in support of developing and running earth surface models, and offers a suite of products for education and knowledge transfer. The CSDMS architecture employs frameworks and services that convert stand-alone models into flexible \"plug-and-play\" components to be assembled into larger applications. CSDMS focuses on the movement of fluids and the sediment and solutes they transport through landscapes, seascapes and sedimentary basins. Began in 2007 under the leadership of Jaia Syvitski, formerly the director of the Institute...",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.391308Z"
-    },
-    {
       "source_id": "wiki-topic:en:1686342",
       "source_name": "EN Wikipedia：Adaptive behavior",
       "source_url": "https://en.wikipedia.org/wiki/Adaptive_behavior",
@@ -953,16 +843,6 @@
       "added_at": "2026-07-13T20:44:59.345037Z"
     },
     {
-      "source_id": "wiki-topic:en:76268064",
-      "source_name": "EN Wikipedia：Electrofreezing",
-      "source_url": "https://en.wikipedia.org/wiki/Electrofreezing",
-      "title": "Electrofreezing",
-      "excerpt": "Electrofreezing is the tendency of a material to solidify upon being exposed to an external electric field. Electrofreezing was initially introduced by Dufour in 1892. Examples are the electrofreezing of liquid ammonia supposed to be naturally occurring during electrical storms in Jupiter-like planets, and ice χ supposedly being a form of high pressure ice. Depending on the material, freezing occur only at certain field intensities, above which electric fields are strong enough to induce chemical reactions.",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-13T20:44:59.346270Z"
-    },
-    {
       "source_id": "wiki-topic:en:54852772",
       "source_name": "EN Wikipedia：Breakthrough curve",
       "source_url": "https://en.wikipedia.org/wiki/Breakthrough_curve",
@@ -971,16 +851,6 @@
       "category_hint": "科技",
       "source_rank": 2,
       "added_at": "2026-07-13T20:44:59.346325Z"
-    },
-    {
-      "source_id": "wiki-topic:en:601958",
-      "source_name": "EN Wikipedia：Process engineering",
-      "source_url": "https://en.wikipedia.org/wiki/Process_engineering",
-      "title": "Process engineering",
-      "excerpt": "Process engineering is a field of study focused on the development and optimization of industrial processes. It consists of the understanding and application of the fundamental principles and laws of nature to allow humans to transform raw material and energy into products that are useful to society, at an industrial level. By taking advantage of the driving forces of nature such as pressure, temperature and concentration gradients, as well as the law of conservation of mass, process engineers can develop methods to synthesize and purify large quantities of desired chemical products. Process engineering focuses on the design, operation, control, optimization and intensification of chemical, physical, and biological processes. Their work involves analyzing the chemical makeup of various ingredients and determining how they might react with one another. A process engineer can specialize in a number of areas, including the following: Agriculture processing Food and dairy production Beer and whiskey production Cosmetics production Pharmaceutical production Petrochemical manufacturing Mineral processing Printed circuit board production",
-      "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-13T20:44:59.346473Z"
     },
     {
       "source_id": "wiki-topic:en:580",
@@ -1063,16 +933,6 @@
       "added_at": "2026-07-13T20:44:59.349114Z"
     },
     {
-      "source_id": "wiki-topic:en:77095760",
-      "source_name": "EN Wikipedia：Safer end of engineering life",
-      "source_url": "https://en.wikipedia.org/wiki/Safer_end_of_engineering_life",
-      "title": "Safer end of engineering life",
-      "excerpt": "Safer End of Engineering Life, sometimes abbreviated to SEEL, is a concept that focuses on the importance of considering the entire lifecycle of a product or system. Currently there is a lot of focus on the decommissioning or retirement in particular industries. This includes but is not limited to plastic waste, electronic waste (sometimes shorted to e-waste), and construction and industrial waste. Recently, SEEL is becoming more of a focus in fields such as software engineering, industrial design, and infrastructure development.",
-      "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-13T20:44:59.349204Z"
-    },
-    {
       "source_id": "wiki-topic:en:99358",
       "source_name": "EN Wikipedia：Biogeography",
       "source_url": "https://en.wikipedia.org/wiki/Biogeography",
@@ -1081,16 +941,6 @@
       "category_hint": "科学",
       "source_rank": 2,
       "added_at": "2026-07-13T20:44:59.349511Z"
-    },
-    {
-      "source_id": "wiki-topic:en:13413800",
-      "source_name": "EN Wikipedia：Autoplastic adaptation",
-      "source_url": "https://en.wikipedia.org/wiki/Autoplastic_adaptation",
-      "title": "Autoplastic adaptation",
-      "excerpt": "Autoplastic adaptation (from the Greek word auto) is a form of adaptation where the subject attempts to change itself when faced with a difficult situation. The concept of autoplastic adaptation was developed by Sigmund Freud, Sándor Ferenczi, and Franz Alexander. They proposed that when an individual was presented with a stressful situation, he could react in one of two ways: Autoplastic adaptation: The subject tries to change himself, i.e. the internal environment. Alloplastic adaptation: The subject tries to change the situation, i.e. the external environment.",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-13T20:44:59.349628Z"
     },
     {
       "source_id": "wiki-topic:en:33548640",
@@ -1243,16 +1093,6 @@
       "added_at": "2026-07-14T20:46:40.128000Z"
     },
     {
-      "source_id": "wiki-topic:en:1243735",
-      "source_name": "EN Wikipedia：Epanadiplosis",
-      "source_url": "https://en.wikipedia.org/wiki/Epanadiplosis",
-      "title": "Epanadiplosis",
-      "excerpt": "Epanadiplosis (from Ancient Greek ἐπαναδίπλωσις/epanadíplôsis, from ἐπί/epí, \"on\", ἀνά/aná, \"again\", and διπλόος/diplóos, \"double\", \"doubling in succession\") is a figure of speech in which the same word is used at the end of a clause as at the beginning of a preceding clause. The opposite figure is anadiplosis. It allows for melodic and rhythmic interplay to suggest emphasis or humor. Epanadiplosis can also be used to emphasize a word, a group of words, or an idea. Epanadiplosis is also a narrative figure used in many literary genres, which is called \"narrative epanadiplosis\". It's the repetition of an initial scene or motif (in the incipit) at the plot's end (or clausule). It suggests that the narrative is closed in on itself.",
-      "category_hint": "综合",
-      "source_rank": 2,
-      "added_at": "2026-07-14T20:46:40.128352Z"
-    },
-    {
       "source_id": "wiki-topic:en:69076183",
       "source_name": "EN Wikipedia：Earth Science Decadal Survey",
       "source_url": "https://en.wikipedia.org/wiki/Earth_Science_Decadal_Survey",
@@ -1311,16 +1151,6 @@
       "category_hint": "科学",
       "source_rank": 2,
       "added_at": "2026-07-15T18:37:33.835926Z"
-    },
-    {
-      "source_id": "wiki-topic:en:30214247",
-      "source_name": "EN Wikipedia：Business History Conference",
-      "source_url": "https://en.wikipedia.org/wiki/Business_History_Conference",
-      "title": "Business History Conference",
-      "excerpt": "The Business History Conference (BHC) is an academic organization that supports all aspects of research, writing, and teaching about business history and about the environment in which businesses operate. Founded in 1954, the BHC supports ongoing research among its members and holds conferences to bring together business and economic historians. It also publishes a quarterly academic journal, Enterprise & Society, along with selected papers from its annual meetings via BEH On-Line.",
-      "category_hint": "历史",
-      "source_rank": 2,
-      "added_at": "2026-07-15T18:37:33.836044Z"
     },
     {
       "source_id": "wiki-topic:en:5112137",
@@ -1453,16 +1283,6 @@
       "added_at": "2026-07-20T19:11:49.199412Z"
     },
     {
-      "source_id": "wiki-topic:en:45700602",
-      "source_name": "EN Wikipedia：Energy and environmental engineering",
-      "source_url": "https://en.wikipedia.org/wiki/Energy_and_environmental_engineering",
-      "title": "Energy and environmental engineering",
-      "excerpt": "The Energy and Environmental Engineering field seeks to conserve and maintain the natural environment by using efficient sources of energy. Energy and environmental engineers are continually searching for solutions to emerging, environment-related issues such as erosion, water disposal, air and water pollution, land resources, human health, and environmental restoration. Careers in this field focus on improving the built environment, renewable, and traditional energy industries. Industry sectors can range from government, transportation, remediation, waste management, water, sewage, consulting, fossil fuel, construction, and architectural services. In this field, solar radiation is important and must be understood. Solar radiation affects the Earth's weather and daylight available. This affects not only the Earth's environment but also the smaller internal environments which we create. Energy and environmental engineers acquire knowledge across many disciplines. Energy engineering requires at least an understanding of mechanics, thermodynamics, mathematics, materials, stoichiometry, electrical machines, manufacturing processes and energy systems. Environmental engineering can be branched...",
-      "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-20T19:11:49.199614Z"
-    },
-    {
       "source_id": "wiki-topic:en:70608126",
       "source_name": "EN Wikipedia：Amanda Bradford",
       "source_url": "https://en.wikipedia.org/wiki/Amanda_Bradford",
@@ -1483,36 +1303,6 @@
       "added_at": "2026-07-20T19:11:49.200089Z"
     },
     {
-      "source_id": "wiki-topic:en:3631020",
-      "source_name": "EN Wikipedia：Extract",
-      "source_url": "https://en.wikipedia.org/wiki/Extract",
-      "title": "Extract",
-      "excerpt": "An extract (essence) is a substance made by extracting a part of a raw material, often by using a solvent such as ethanol, oil or water. Extracts may be sold as tinctures or absolutes or dried and powdered. Extracts are widely used in various industries, such as perfumes, cosmetics, pharmaceuticals, and the food industry, among others. The aromatic principles of many spices, nuts, herbs, fruits, etc., and some flowers, are marketed as extracts, among the best known of true extracts being almond, cinnamon, cloves, ginger, lemon, nutmeg, orange, peppermint, pistachio, rose, spearmint, vanilla, violet, rum, and wintergreen.",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-20T19:11:49.200242Z"
-    },
-    {
-      "source_id": "wiki-topic:en:56566",
-      "source_name": "EN Wikipedia：Chronobiology",
-      "source_url": "https://en.wikipedia.org/wiki/Chronobiology",
-      "title": "Chronobiology",
-      "excerpt": "Chronobiology is a field of biology that examines timing processes, including periodic (cyclic) phenomena in living organisms, such as their adaptation to solar- and lunar-related rhythms. These cycles are known as biological rhythms. Chronobiology comes from the ancient Greek χρόνος (chrónos, meaning \"time\"), and biology, which pertains to the study, or science, of life. The related terms chronomics and chronome have been used in some cases to describe either the molecular mechanisms involved in chronobiological phenomena or the more quantitative aspects of chronobiology, particularly where comparison of cycles between organisms is required. Chronobiological studies include but are not limited to comparative anatomy, physiology, genetics, molecular biology and behavior of organisms related to their biological rhythms. Other aspects include epigenetics, development, reproduction, ecology and evolution.",
-      "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-20T19:11:49.200446Z"
-    },
-    {
-      "source_id": "wiki-topic:en:7266679",
-      "source_name": "EN Wikipedia：Bedford Level experiment",
-      "source_url": "https://en.wikipedia.org/wiki/Bedford_Level_experiment",
-      "title": "Bedford Level experiment",
-      "excerpt": "The Bedford Level experiment was a series of observations carried out along a 6-mile (10 km) length of the Old Bedford River on the Bedford Level of the Cambridgeshire Fens in the United Kingdom. They were performed during the 19th and early 20th centuries to deny the curvature of the Earth through measurement. Samuel Birley Rowbotham, who conducted the first observations starting in 1838, claimed that he had proven the Earth to be flat. However, in 1870, after adjusting Rowbotham's method to allow for the effects of atmospheric refraction, Alfred Russel Wallace found a curvature consistent with a spherical Earth.",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-20T19:11:49.200552Z"
-    },
-    {
       "source_id": "wiki-topic:en:21657133",
       "source_name": "EN Wikipedia：Contrastive linguistics",
       "source_url": "https://en.wikipedia.org/wiki/Contrastive_linguistics",
@@ -1531,36 +1321,6 @@
       "category_hint": "历史",
       "source_rank": 3,
       "added_at": "2026-07-14T20:46:40.129156Z"
-    },
-    {
-      "source_id": "onthisday:zh:07/15:2016:1",
-      "source_name": "Wikimedia On This Day：土耳其",
-      "source_url": "https://zh.wikipedia.org/wiki/%E5%9C%9F%E8%80%B3%E5%85%B6",
-      "title": "2016: 土耳其军方为中断伊斯兰化进程策动政变推翻总统雷杰普·塔伊普·埃尔多安未遂，造成至少265人死亡，数千名群众受伤。",
-      "excerpt": "事件：土耳其军方为中断伊斯兰化进程策动政变推翻总统雷杰普·塔伊普·埃尔多安未遂，造成至少265人死亡，数千名群众受伤。\n相关页面摘要：土耳其共和国，通稱土耳其（Türkiye），是橫跨欧亚两洲的共和國，其國土包括西亞的安納托利亞半岛、以及东南欧巴尔干半岛的东色雷斯地區；其中亞洲部分包含了約97%的領土與87%的人口。建立於1923年，並繼承奥斯曼帝国的國家地位。面積78萬平方公里，首都是位處安納托利亞高原正中央的安卡拉，最大城市伊斯坦堡則是世界唯一橫跨兩大洲的國際大都市。",
-      "category_hint": "历史",
-      "source_rank": 3,
-      "added_at": "2026-07-15T18:37:33.838344Z"
-    },
-    {
-      "source_id": "onthisday:zh:07/15:2007:7",
-      "source_name": "Wikimedia On This Day：塔科馬海峽吊橋",
-      "source_url": "https://zh.wikipedia.org/wiki/%E5%A1%94%E7%A7%91%E9%A6%AC%E6%B5%B7%E5%B3%BD%E5%90%8A%E6%A9%8B",
-      "title": "2007: 塔科馬海峽吊橋東面旁加建一條新橋，是塔科馬海峽第三條興建的懸索橋，工程於2002年10月4日開始動工，並於2007年7月15日通車。",
-      "excerpt": "事件：塔科馬海峽吊橋東面旁加建一條新橋，是塔科馬海峽第三條興建的懸索橋，工程於2002年10月4日開始動工，並於2007年7月15日通車。\n相关页面摘要：塔科馬海峽吊橋 是位於美國華盛頓州塔科馬的兩條懸索橋，也是華盛頓州16號幹線的一部分。每橋長1.6公里，橫跨塔科馬海峽。第一條橋於1940年首度通車，但不到五個月便倒塌，其後重建及另建的新橋分別於1950年及2007年啟用。第一條橋倒塌的原因，是因為其橋面厚度不足，在受到強風的吹襲下引起卡门涡街，使桥身摆动；当卡门涡街的振动频率和吊桥自身的固有频率相同时，引起吊桥剧烈共振而崩塌，這次事件的過程有完整拍攝成影片，也成為研究空气动力学卡门涡街引起建筑物共振破壞力的活教材。",
-      "category_hint": "历史",
-      "source_rank": 3,
-      "added_at": "2026-07-15T18:37:33.838416Z"
-    },
-    {
-      "source_id": "onthisday:zh:07/17:2018:2",
-      "source_name": "Wikimedia On This Day：納圖夫文化",
-      "source_url": "https://zh.wikipedia.org/wiki/%E7%B4%8D%E5%9C%96%E5%A4%AB%E6%96%87%E5%8C%96",
-      "title": "2018: 約旦考古學家於納圖夫文化的石爐中發現西元前12,500年的麵餅，成為現存最古老的麵包。",
-      "excerpt": "事件：約旦考古學家於納圖夫文化的石爐中發現西元前12,500年的麵餅，成為現存最古老的麵包。\n相关页面摘要：納圖夫文化 是一個在黎凡特地區的舊石器時代晚期考古學文化，該文化約發生於距今約 15,000 至 11,500 年前。 這種文化很不尋常，因為它甚至在農業被引入前，就已支撐起過著定居或半定居生活的人口。",
-      "category_hint": "历史",
-      "source_rank": 3,
-      "added_at": "2026-07-17T18:31:41.232880Z"
     },
     {
       "source_id": "onthisday:zh:07/19:2010:9",

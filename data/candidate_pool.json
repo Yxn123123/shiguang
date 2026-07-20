@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-19T18:17:49.517534Z",
+  "updated_at": "2026-07-20T19:13:09.888719Z",
   "candidates": [
     {
       "source_id": "wiki-topic:en:77737401",
@@ -1443,6 +1443,86 @@
       "added_at": "2026-07-19T18:14:14.900603Z"
     },
     {
+      "source_id": "wiki-topic:en:49660332",
+      "source_name": "EN Wikipedia：Analysis of similarities",
+      "source_url": "https://en.wikipedia.org/wiki/Analysis_of_similarities",
+      "title": "Analysis of similarities",
+      "excerpt": "Analysis of similarities (ANOSIM) is a non-parametric statistical test widely used in the field of ecology. The test was first suggested by K. R. Clarke as an ANOVA-like test, where instead of operating on raw data, operates on a ranked dissimilarity matrix. Given a matrix of rank dissimilarities between a set of samples, each belonging to a single site (e.g. a single treatment group), the ANOSIM tests whether we can reject the null hypothesis that the similarity between sites is greater than or equal to the similarity within each site. The test statistic R is calculated in the following way: R = r B − r W M / 2 {\\displaystyle R={\\frac {r_{B}-r_{W}}{M/2}}} where rB is the average of rank similarities of pairs of samples (or replicates) originating from different...",
+      "category_hint": "生物",
+      "source_rank": 2,
+      "added_at": "2026-07-20T19:11:49.199412Z"
+    },
+    {
+      "source_id": "wiki-topic:en:45700602",
+      "source_name": "EN Wikipedia：Energy and environmental engineering",
+      "source_url": "https://en.wikipedia.org/wiki/Energy_and_environmental_engineering",
+      "title": "Energy and environmental engineering",
+      "excerpt": "The Energy and Environmental Engineering field seeks to conserve and maintain the natural environment by using efficient sources of energy. Energy and environmental engineers are continually searching for solutions to emerging, environment-related issues such as erosion, water disposal, air and water pollution, land resources, human health, and environmental restoration. Careers in this field focus on improving the built environment, renewable, and traditional energy industries. Industry sectors can range from government, transportation, remediation, waste management, water, sewage, consulting, fossil fuel, construction, and architectural services. In this field, solar radiation is important and must be understood. Solar radiation affects the Earth's weather and daylight available. This affects not only the Earth's environment but also the smaller internal environments which we create. Energy and environmental engineers acquire knowledge across many disciplines. Energy engineering requires at least an understanding of mechanics, thermodynamics, mathematics, materials, stoichiometry, electrical machines, manufacturing processes and energy systems. Environmental engineering can be branched...",
+      "category_hint": "科技",
+      "source_rank": 2,
+      "added_at": "2026-07-20T19:11:49.199614Z"
+    },
+    {
+      "source_id": "wiki-topic:en:70608126",
+      "source_name": "EN Wikipedia：Amanda Bradford",
+      "source_url": "https://en.wikipedia.org/wiki/Amanda_Bradford",
+      "title": "Amanda Bradford",
+      "excerpt": "Dr. Amanda Bradford is a marine mammal biologist who is currently researching cetacean population dynamics for the National Marine Fisheries Service of the National Oceanic and Atmospheric Administration. Bradford is currently a Research Ecologist with the Pacific Islands Fisheries Science Center's Cetacean Research Program. Her research primarily focuses on assessing populations of cetaceans, including evaluating population size, health, and impacts of human-caused threats, such as fisheries interactions. Bradford is a cofounder and organizer of the Women in Marine Mammal Science (WIMMS) Initiative.",
+      "category_hint": "生物",
+      "source_rank": 2,
+      "added_at": "2026-07-20T19:11:49.199904Z"
+    },
+    {
+      "source_id": "wiki-topic:en:30960432",
+      "source_name": "EN Wikipedia：Multi-disciplinary engineering",
+      "source_url": "https://en.wikipedia.org/wiki/Multi-disciplinary_engineering",
+      "title": "Multi-disciplinary engineering",
+      "excerpt": "Multi-disciplinary engineering (MDE) is an approach to engineering that integrates knowledge, principles, and methodologies from multiple distinct fields to address complex problems. This approach is particularly valuable in modern technological and infrastructural developments, where challenges often require the convergence of expertise from diverse domains.",
+      "category_hint": "科技",
+      "source_rank": 2,
+      "added_at": "2026-07-20T19:11:49.200089Z"
+    },
+    {
+      "source_id": "wiki-topic:en:3631020",
+      "source_name": "EN Wikipedia：Extract",
+      "source_url": "https://en.wikipedia.org/wiki/Extract",
+      "title": "Extract",
+      "excerpt": "An extract (essence) is a substance made by extracting a part of a raw material, often by using a solvent such as ethanol, oil or water. Extracts may be sold as tinctures or absolutes or dried and powdered. Extracts are widely used in various industries, such as perfumes, cosmetics, pharmaceuticals, and the food industry, among others. The aromatic principles of many spices, nuts, herbs, fruits, etc., and some flowers, are marketed as extracts, among the best known of true extracts being almond, cinnamon, cloves, ginger, lemon, nutmeg, orange, peppermint, pistachio, rose, spearmint, vanilla, violet, rum, and wintergreen.",
+      "category_hint": "生活",
+      "source_rank": 2,
+      "added_at": "2026-07-20T19:11:49.200242Z"
+    },
+    {
+      "source_id": "wiki-topic:en:56566",
+      "source_name": "EN Wikipedia：Chronobiology",
+      "source_url": "https://en.wikipedia.org/wiki/Chronobiology",
+      "title": "Chronobiology",
+      "excerpt": "Chronobiology is a field of biology that examines timing processes, including periodic (cyclic) phenomena in living organisms, such as their adaptation to solar- and lunar-related rhythms. These cycles are known as biological rhythms. Chronobiology comes from the ancient Greek χρόνος (chrónos, meaning \"time\"), and biology, which pertains to the study, or science, of life. The related terms chronomics and chronome have been used in some cases to describe either the molecular mechanisms involved in chronobiological phenomena or the more quantitative aspects of chronobiology, particularly where comparison of cycles between organisms is required. Chronobiological studies include but are not limited to comparative anatomy, physiology, genetics, molecular biology and behavior of organisms related to their biological rhythms. Other aspects include epigenetics, development, reproduction, ecology and evolution.",
+      "category_hint": "生物",
+      "source_rank": 2,
+      "added_at": "2026-07-20T19:11:49.200446Z"
+    },
+    {
+      "source_id": "wiki-topic:en:7266679",
+      "source_name": "EN Wikipedia：Bedford Level experiment",
+      "source_url": "https://en.wikipedia.org/wiki/Bedford_Level_experiment",
+      "title": "Bedford Level experiment",
+      "excerpt": "The Bedford Level experiment was a series of observations carried out along a 6-mile (10 km) length of the Old Bedford River on the Bedford Level of the Cambridgeshire Fens in the United Kingdom. They were performed during the 19th and early 20th centuries to deny the curvature of the Earth through measurement. Samuel Birley Rowbotham, who conducted the first observations starting in 1838, claimed that he had proven the Earth to be flat. However, in 1870, after adjusting Rowbotham's method to allow for the effects of atmospheric refraction, Alfred Russel Wallace found a curvature consistent with a spherical Earth.",
+      "category_hint": "科学",
+      "source_rank": 2,
+      "added_at": "2026-07-20T19:11:49.200552Z"
+    },
+    {
+      "source_id": "wiki-topic:en:21657133",
+      "source_name": "EN Wikipedia：Contrastive linguistics",
+      "source_url": "https://en.wikipedia.org/wiki/Contrastive_linguistics",
+      "title": "Contrastive linguistics",
+      "excerpt": "Contrastive linguistics is a practice-oriented linguistic approach that seeks to describe the differences and similarities between a pair of languages (hence it is occasionally called \"differential linguistics\").",
+      "category_hint": "综合",
+      "source_rank": 2,
+      "added_at": "2026-07-20T19:11:49.200610Z"
+    },
+    {
       "source_id": "onthisday:zh:07/14:2011:4",
       "source_name": "Wikimedia On This Day：中华人民共和国",
       "source_url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD",
@@ -1491,6 +1571,16 @@
       "category_hint": "历史",
       "source_rank": 3,
       "added_at": "2026-07-19T18:14:14.900921Z"
+    },
+    {
+      "source_id": "onthisday:zh:07/20:2015:3",
+      "source_name": "Wikimedia On This Day：伊斯兰国",
+      "source_url": "https://zh.wikipedia.org/wiki/%E4%BC%8A%E6%96%AF%E5%85%B0%E5%9B%BD",
+      "title": "2015: 伊拉克和黎凡特伊斯蘭國（ISIL）宣稱對土耳其蘇魯奇的自殺式襲擊負責，該起襲擊造成34人死亡，104人受傷。",
+      "excerpt": "事件：伊拉克和黎凡特伊斯蘭國（ISIL）宣稱對土耳其蘇魯奇的自殺式襲擊負責，該起襲擊造成34人死亡，104人受傷。\n相关页面摘要：伊斯兰国，前称伊拉克和沙姆伊斯兰国 或伊拉克和黎凡特伊斯兰国，是一个活跃在伊拉克和叙利亚的萨拉菲聖戰主義组织以及未被世界广泛认可的政治實體，奉行极端保守的伊斯兰原教旨主义瓦哈比派，屬遜尼宗的一脈。组织领袖巴格達迪自封为哈里发，定國號为「伊斯兰国」，宣称自身对于整个穆斯林世界 拥有統治地位。周边阿拉伯国家以阿拉伯文缩写称其为「达伊沙」，与阿拉伯语的“踩踏” 諧音，以示对其“伊斯兰国”名稱的不承认及蔑视，亦被联合国采用。中国大陸媒体有时则直接以“极端组织”代指这一组织。",
+      "category_hint": "历史",
+      "source_rank": 3,
+      "added_at": "2026-07-20T19:11:49.200767Z"
     },
     {
       "source_id": "wiki-random:en:13628958",
@@ -2831,6 +2921,316 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-19T18:15:14.351336Z"
+    },
+    {
+      "source_id": "wiki-random:en:25394893",
+      "source_name": "EN Wikipedia：Federation of Stoke-on-Trent",
+      "source_url": "https://en.wikipedia.org/wiki/Federation_of_Stoke-on-Trent",
+      "title": "Federation of Stoke-on-Trent",
+      "excerpt": "The federation of Stoke-on-Trent was the 1910 amalgamation of the six Staffordshire Potteries towns of Burslem, Tunstall, Stoke-upon-Trent, Hanley, Fenton and Longton into the single county borough of Stoke-on-Trent. The federation was one of the largest mergers of local authorities, involving the greatest number of previously separate urban authorities, to take place in England between the 19th century and the 1960s. The 1910 federation was the culmination of a process of urban growth and municipal change that started in the early 19th century. Little interaction between the separate settlements occurred until the 18th century when the pottery industry began to expand rapidly. By the early 19th century, initial steps had been made to ensure greater co-operation between the Potteries towns over the issue of law and order. The county plan of 1888 made the first attempts to form the six towns into one county borough, following an act of Parliament that restructured the county system and created the administrative county of Staffordshire. Wishing to remain independent, the Potteries towns discussed uniting to form a separate county, the Staffordshire Potteries. When it became apparent...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-20T19:11:49.201787Z"
+    },
+    {
+      "source_id": "wiki-random:zh:3058032",
+      "source_name": "ZH Wikipedia：感生放射性",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%84%9F%E7%94%9F%E6%94%BE%E5%B0%84%E6%80%A7",
+      "title": "感生放射性",
+      "excerpt": "感生放射性（英語：Induced radioactivity）是指原本稳定的材料因为接受了特殊的辐射而产生的放射性。多数辐射不会诱导其他材料产生辐射。感生放射性是伊雷娜·约里奥-居里和弗雷德里克·约里奥-居里于1934年发现的，它也是一种人工放射性。人工放射性是较轻的元素被人为改变或通过感应而具有的放射性。 居里和约里奥发现，当硼和铝等较轻的元素受到α粒子的轰击后，即使在移走α粒子源后它们仍有持续放射性。他们证明，辐射来源于一种带一个单位正电荷的粒子，它具有和电子相同的质量。 中子活化是感生放射性的主要形式。当自由中子被原子核俘获时会形成新的同位素，这种同位素不一定稳定，它的性质取决于原来的元素。脱离原子核的中子会在几分钟内衰变，因此中子辐射只能由元素的衰变、核反应和高能反应（例如宇宙簇射或粒子加速器中的碰撞）产生。被中子慢化剂减速的中子（即热中子）比快中子更容易被原子核俘获。 感生放射性的一种比较少见的形式是用光致蜕变去除原子核中的一个中子。在这种反应中，一个高能光子（伽马射线）带着比原子的结合能更高的能量轰击原子核，使它放出一个中子。这种反应所需能量的最小值是2MeV（对氢核），多数重核需要的能量大约是10MeV。许多光致蜕变不会产生能量足以激发感生放射性的伽马射线。用于食品辐照的同位素（钴-60和铯-137）产生的能量峰值都低于反应所需能量，因此不会使食物具有放射性。 一些感生放射性是由背景辐射产生的，多数是因为自然背景辐射（即天然本底辐射）。不过，由于地球上大部分地区的本底辐射都不强，一个地区的感生放射性通常都很小。 某些型号的反应堆中会产生高能中子流，能引发感生放射性。这些反应堆的组件也会因为所受到的强烈辐射而具有很强的放射性。感生放射性会增加核废料的量，但只要得到控制就不会构成辐射污染。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-20T19:11:49.201898Z"
+    },
+    {
+      "source_id": "wiki-random:en:1426168",
+      "source_name": "EN Wikipedia：The Word for World Is Forest",
+      "source_url": "https://en.wikipedia.org/wiki/The_Word_for_World_Is_Forest",
+      "title": "The Word for World Is Forest",
+      "excerpt": "The Word for World Is Forest is a science fiction novel by American writer Ursula K. Le Guin, first published in the United States in 1972 as a part of the anthology Again, Dangerous Visions, and published as a separate book in 1976 by Berkley Books. It is part of Le Guin's Hainish Cycle. The story focuses on a military logging colony set up on the fictional planet of Athshe by people from Earth (referred to as \"Terra\"). The colonists have enslaved the completely non-aggressive native Athsheans, and treat them very harshly. Eventually, one of the natives, whose wife was raped and killed by a Terran military captain, leads a revolt against the Terrans, and succeeds in getting them to leave the planet. However, in the process their own peaceful culture is introduced to mass violence for the first time. The novel carries strongly anti-colonial and anti-militaristic overtones, driven partly by Le Guin's negative reaction to the Vietnam War. It also explores themes of sensitivity to the environment, and of connections between language and culture. It shares the theme of dreaming with Le Guin's novel The Lathe of Heaven, and the metaphor of the forest as a consciousness with the story \"Vaster...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-20T19:11:49.202729Z"
+    },
+    {
+      "source_id": "wiki-random:en:81167",
+      "source_name": "EN Wikipedia：Provinces of France",
+      "source_url": "https://en.wikipedia.org/wiki/Provinces_of_France",
+      "title": "Provinces of France",
+      "excerpt": "Under the Ancien Régime, the Kingdom of France was subdivided in multiple different ways (judicial, military, ecclesiastical, etc.) into several administrative units, until the National Constituent Assembly adopted a more uniform division into departments (départements) and districts in late 1789. The provinces (French pronunciation: [pʁɔvɛ̃s] ) continued to exist administratively until 21 September 1791. The country was subdivided ecclesiastically into dioceses, judicially into généralités, militarily into general governments. None of these entities was called \"province\" by their contemporaries. However, later interpretations confused the term of \"general government\" (a military division) with that of a cultural province, since the general governments often used the names and borders of a province. It was not always the case, which causes confusion as to the borders of some provinces. Today, the term \"province\" is used to name the resulting regional areas, which retain a cultural and linguistic identity. Borrowed from the institutions of the Roman Empire, the word first appeared in the 15th century and has continued to spread, both in official documents and in popular or common usage...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-20T19:11:49.203166Z"
+    },
+    {
+      "source_id": "wiki-random:zh:7375620",
+      "source_name": "ZH Wikipedia：阿达齐甘利亚",
+      "source_url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E8%BE%BE%E9%BD%90%E7%94%98%E5%88%A9%E4%BA%9A",
+      "title": "阿达齐甘利亚",
+      "excerpt": "阿达齐甘利亚（塞爾維亞語：Ада Циганлија ;發音：[ˈǎːda tsiˈɡǎnlija]）通常简称为阿达，原本是一个河心岛，后经人工填补成一个半岛，坐落在横穿贝尔格莱德的萨瓦河主航道中。阿达齐甘利亚还可以指代临近的一个人造湖--萨瓦湖及其海滩。为了利用其中心位置，在过去的几十年中，它变成了一个非常受欢迎的休闲区，最著名的是它的海滩和体育设施，在夏季，每天有超过十万名游客前来，到了周末有30万游客来游玩。 因为超高的人气程度，阿达齐甘利亚岛通常被昵称为“More Beograda”（“贝尔格莱德的海”），该名称于2008年正式成为广告口号。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-20T19:11:49.203722Z"
+    },
+    {
+      "source_id": "wiki-random:zh:7136048",
+      "source_name": "ZH Wikipedia：颱風哈爾 (1985年)",
+      "source_url": "https://zh.wikipedia.org/wiki/%E9%A2%B1%E9%A2%A8%E5%93%88%E7%88%BE_(1985%E5%B9%B4)",
+      "title": "颱風哈爾 (1985年)",
+      "excerpt": "颱風哈爾（英語：Typhoon Hal，菲律賓大氣地球物理和天文管理局：Kuring）是1985年太平洋颱風季中的其中一個热带气旋，風暴於6月19日形成，在6月26日消散，維持了約一週。哈爾是自1983年以來影響華南地區的首個大型風暴，也導致皇家香港天文台需要懸掛該年首個八號烈風或暴風信號。它起源於1985年6月初形成的季風槽，其後組織逐漸變佳，並於6月20日達到熱帶風暴級數，它在強度持續增加之下，於同日稍後增強為颱風。6月21日晚上，它達到了巔峰強度，然後到達臺灣以南海域。它到6月22日略有減弱，兩天後進一步減弱至颱風強度下限。6月24日稍後，它移到香港東北方並登陸，3天後消散。 哈爾為菲律賓、臺灣、香港及中國大陸帶來災害。在菲律賓全國，有46人在風暴中喪生，其中有10人是溺斃，另外共有約12.7萬人受到颱風的直接影響，有約1.3萬個家庭或7.7萬人無家可歸，損失總計1,050萬美元；邦阿西楠省內的一個自治市有大約八成地方被洪水淹沒；據報導指當地有大範圍停電，兩個無線電塔亦遭摧毀。風暴同時為臺灣帶來洪水，有3人死亡及26人傷。香港97個庇護站也在風暴來襲期間開放，有39人使用，另有26個航班取消。中國大陸粵東地區共有35.5萬公頃農田、414座橋樑與107座水庫也受損，並造成32人死亡、103人受傷，損失總額達3.2億人民幣。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-20T19:11:49.203957Z"
+    },
+    {
+      "source_id": "wiki-random:zh:7660692",
+      "source_name": "ZH Wikipedia：PAL语言",
+      "source_url": "https://zh.wikipedia.org/wiki/PAL%E8%AF%AD%E8%A8%80",
+      "title": "PAL语言",
+      "excerpt": "PAL，是教育算法语言（Pedagogic Algorithmic Language）的首字母简写，它是在大约1967年于麻省理工学院开发的编程语言，用于帮助教授编程语言语义和设计。它是ISWIM的直接后代，并拥有很多来自Christopher Strachey的哲学。 PAL最初用Lisp实现，由彼得·蘭丁和小詹姆斯·H·莫里斯（James H. Morris, Jr.）书写。后来馬丁·理察德、Thomas J. Barkalow、Arthur Evans, Jr.、Robert M. Graham、James Morris, Jr和約翰·沃森克拉夫特对它做了重新设计。Richards和Barkalow将它用BCPL实现为中间代码解释器，并运行在IBM System/360之上，它被称为PAL/360。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-20T19:11:49.206878Z"
+    },
+    {
+      "source_id": "wiki-random:en:49165705",
+      "source_name": "EN Wikipedia：Jason Smith (visual effects)",
+      "source_url": "https://en.wikipedia.org/wiki/Jason_Smith_(visual_effects)",
+      "title": "Jason Smith (visual effects)",
+      "excerpt": "Jason Smith is an American visual effects supervisor, who graduated from BYU's Computer Science program and Hartford Art School MFA in illustration. Best known for his work on various blockbuster feature film projects such as Star Wars: Episode III – Revenge of the Sith (2005), Harry Potter and the Goblet of Fire (2005), The Avengers (2012), and The Revenant (2015). Jason Smith was nominated at the 88th Academy Awards for his work on the film The Revenant in the category of Best visual effects. His nomination was shared with Cameron Waldbauer, Matt Shumway and Richard McBride.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-20T19:11:49.207447Z"
+    },
+    {
+      "source_id": "wiki-random:zh:5181310",
+      "source_name": "ZH Wikipedia：硫磺島 (遊戲)",
+      "source_url": "https://zh.wikipedia.org/wiki/%E7%A1%AB%E7%A3%BA%E5%B3%B6_(%E9%81%8A%E6%88%B2)",
+      "title": "硫磺島 (遊戲)",
+      "excerpt": "《硫磺岛》（英語：Iwo Jima）是Personal Software Services开发，并于1986年在Commodore 64和ZX Spectrum上发行的回合制策略游戏。游戏是“策略战争游戏”系列的第二款作品。游戏背景为二战太平洋战场的硫磺岛战役，美军攻破日军坚守的硫磺岛。 玩家在这款回合制战略游戏中，要操作单位攻取日军驻守的海岛。玩家的单位要从陆地、空中或海上，消灭全部日军。游戏发行后所获评价不一。评论称游戏物有所值，难度适合新手，但许多声音批评游戏的图形和机制。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-20T19:11:49.207722Z"
+    },
+    {
+      "source_id": "wiki-random:zh:5570025",
+      "source_name": "ZH Wikipedia：1979年热带风暴艾琳娜",
+      "source_url": "https://zh.wikipedia.org/wiki/1979%E5%B9%B4%E7%83%AD%E5%B8%A6%E9%A3%8E%E6%9A%B4%E8%89%BE%E7%90%B3%E5%A8%9C",
+      "title": "1979年热带风暴艾琳娜",
+      "excerpt": "热带风暴艾琳娜（英語：Tropical Storm Elena）是1979年大西洋飓风季中沿德克萨斯州海岸线移动的一场弱热带风暴，也是该季第六场获命名的风暴，于8月29日经路易斯安那州南面的东风波发展而成。气旋总体向西北偏西移动，经小幅强化于9月1日以热带风暴标准下限强度登陆馬塔戈達島，然后在陆地上空迅速消散。艾琳娜沿途产生中等程度降水，间接致使休斯敦两人淹死；风暴造成的破坏程度很轻，损失数额不足1000万美元。气旋引起闪电，在休斯敦一艘油轮上引发火灾，间接导致三人死亡，13人受伤。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-20T19:12:14.200539Z"
+    },
+    {
+      "source_id": "wiki-random:en:35883712",
+      "source_name": "EN Wikipedia：Treasure Island (1918 film)",
+      "source_url": "https://en.wikipedia.org/wiki/Treasure_Island_(1918_film)",
+      "title": "Treasure Island (1918 film)",
+      "excerpt": "Treasure Island is a 1918 American silent adventure film based on the 1883 novel of the same name by Robert Louis Stevenson. This is one of many silent versions of the story and is noteworthy because it is almost entirely acted by child or teenage actors. The film was co-directed by brothers Sidney and Chester Franklin. The film is one of Fox's Sunset Kiddies productions following in the wake of previous Kiddie productions like Aladdin and his Wonderful Lamp. This is a lost film.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-20T19:12:14.201577Z"
+    },
+    {
+      "source_id": "wiki-random:zh:4790300",
+      "source_name": "ZH Wikipedia：五级大西洋飓风列表",
+      "source_url": "https://zh.wikipedia.org/wiki/%E4%BA%94%E7%BA%A7%E5%A4%A7%E8%A5%BF%E6%B4%8B%E9%A3%93%E9%A3%8E%E5%88%97%E8%A1%A8",
+      "title": "五级大西洋飓风列表",
+      "excerpt": "五级飓风指的是强度在萨菲尔-辛普森飓风等级中达到五级的大西洋和太平洋飓风，这一强度属地球上飓风强度的最高等级。有纪录以来，北大西洋（赤道以北）、加勒比海和墨西哥湾一共形成过33场五级飓风，平均每3年都会出现1场。由于北半球中纬度海域的热带气旋通常会向东北方向移动，所以这些风暴登陆的情况较少。风从西向东吹的西风带往往会令强飓风向高纬度洋面前进，令其因水温逐渐降低而减弱。但是，大规模的热带海面东风又会将强飓风带入加勒比海，影响这里的陆地。 截至2025年，只有9個年度曾出現多於1場五級颶風，分别是1932年、1933年、1961年、2005年、2007年、2017年、2019年、2024年和2025年。其中在2005年形成了4個五級颶風，在2025年也出現了3個五級颶風，僅次少於2005年。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-20T19:12:14.203724Z"
+    },
+    {
+      "source_id": "wiki-random:zh:661529",
+      "source_name": "ZH Wikipedia：義大利菜",
+      "source_url": "https://zh.wikipedia.org/wiki/%E7%BE%A9%E5%A4%A7%E5%88%A9%E8%8F%9C",
+      "title": "義大利菜",
+      "excerpt": "義大利菜是指源自義大利地區的菜系，為全球範圍內傳播最廣的菜系，廣泛適口，能迎合不同國籍、宗教與文化背景的人群，並以此聞名。由於影響絕大多数歐洲菜系的發展深遠，故也誉为“西餐之母”。 意大利菜屬於地中海料理的分支，還融合了許多西歐精緻飲食的元素，其一切成份、食譜和烹飪技術均是圍繞著意大利半島發展而來的。隨著19世紀的意大利僑民的移民浪潮，意大利菜大量流入美國和南美國家，再借由美式義大利菜而快速擴散到全世界。義大利人的飲食習慣以麵食、米食和蔬菜為主，其中不乏一些外來食物，例如美洲的馬鈴薯、蕃茄、辣椒、玉米和甜菜，至少從18世紀開始，這些美洲蔬菜就成為了意大利料理的必備食材。根據YouGov在2019年以及CNN在2021年的評選調查，意大利菜均獲得“全球最高人氣料理”中的第一名。 意大利菜具有強烈的“去中心化”傾向，全國各地的飲食文化可謂是天差地別，而且每個大區內都有著一套根深蒂固的傳統。既使以最粗略的方式來劃分，也能分出北意大利、中意大利和南意大利這三大菜系。義大利的前身是西羅馬帝國，該國於西元476年滅亡後分裂成十幾個小邦國，這些意大利小邦在此後的1300年中都維持著主权獨立，还演化出各自独特的料理模式，直到西元1861年才重新合體為一个統一的意大利。由於擁有這樣長期分裂的歷史，导致在同一個義大利大區之內也會出現好幾種風格迥異的菜。加上意大利本身的歷史足夠悠久，大部份歐洲國家都曾经對義大利菜進行過模倣，甚至很多模倣菜到了現代都有好幾百年的歷史。目前義大利食物在全球的分佈甚廣，隨處可見，許多歐美國家的家庭餐廳、酒吧和咖啡廳中所販賣的菜品要麼是意大利菜，要麼就是受到意大利菜的影響。 作為一種以“簡單”為特色的菜系，正宗的意大利菜只需要用到很少的食材、花少量的步骤即可完成，這讓食材本身的品質變得至關重要，以至於意大利廚師必須要用最苛刻的標準去檢查食材是否合格。比起过度複雜化的擺盤噱頭，意大利菜更喜歡集中強化食物的香氣、口感和顏色，這種簡單又高品質的基本架構讓意大利料理變得極易傳播，光是歐盟在2020年一年的意大利餐廳收入就超過2000億歐元。幾個世紀以來，最受歡迎的意大利食譜往往是由普通人創造的，而非某個名廚或者歷史偉人，這也是大部份意大利菜在家中就能完美烹飪的原因。雖然簡單，但意大利政府依然尊重本國的傳統農產文化，推崇人們在四季攝取不同的食材，並堅持採用歐洲最嚴格標準來保護各個大區的原產地 。 地中海氣候為意大利菜奠定絕對的基礎，富含營養的意大利麵、魚類、水果、蔬菜、起司、甜點和葡萄酒是該飲食文化之核心。舉例來說，比萨饼和咖啡（尤其是濃縮咖啡）成為各國輕食的首選 ；柑橘類的水果、開心果和杏仁能讓人體補充好每日必須的維他命；馬斯卡彭奶酪、里科塔奶酪等起司可以作為鹹味的沾醬，也可作為甜味的奶酪；可可、香草和肉桂等香料讓食材充滿異域風味；意式冰淇淋、提拉米蘇和杏仁蛋白軟糕是最著名的意大利甜點…",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-20T19:12:14.204114Z"
+    },
+    {
+      "source_id": "wiki-random:en:75404547",
+      "source_name": "EN Wikipedia：Sarcophagus of Laris Pulenas",
+      "source_url": "https://en.wikipedia.org/wiki/Sarcophagus_of_Laris_Pulenas",
+      "title": "Sarcophagus of Laris Pulenas",
+      "excerpt": "The Sarcophagus of Laris Pulenas, also known as \"The Magistrate,\" dates from the 2nd or 3rd century BCE. It was discovered in Tarquinia in Italy and is now in the Tarquinia National Museum. It features a reclining figure, Laris Pulenas, before whom is a stone carving of a long strip of cloth (volumen), half-unrolled, inscribed with one of the longer continuous inscriptions in Etruscan (Corpus Inscriptionum Etruscarum, n.5430), nearly 60 words, making it of particular linguistic value. The text opens with the name of the deceased, along with that of his father (Larce), and unusually, also those of his grandfather (Larth), his uncle (Velthuru), and his great-grandfather (Pule Laris Creice \"the Greek\"—possibly Pollus, a Greek seer who lived around 400 BC. and settled in Cerveteri—the Etruscan Cisra). The rest of the text apparently presents the deceased's accomplishments in life, including that he wrote a text on divination (zich nethshrac acas-ce). He also served as a priest of Catha and of Pacha (Etruscan Bacchus, at this point in history in the process of merging with Fufluns, the Etruscan Dionysus). Furthermore, he seems to have governed (laucar-ce) the city of Tarquinia (Tarχnalθ...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-20T19:12:14.204989Z"
+    },
+    {
+      "source_id": "wiki-random:en:41986913",
+      "source_name": "EN Wikipedia：Morocco at the FIFA World Cup",
+      "source_url": "https://en.wikipedia.org/wiki/Morocco_at_the_FIFA_World_Cup",
+      "title": "Morocco at the FIFA World Cup",
+      "excerpt": "The FIFA World Cup, often simply called the World Cup, is an international association football competition contested by the men's national teams of the members of Fédération Internationale de Football Association (FIFA), the sport's global governing body. The championship has been awarded every four years since the first tournament in 1930, except in 1942 and 1946, due to World War II. The tournament consists of two parts, the qualification phase and the final phase (officially called the World Cup Finals). The qualification phase, which currently takes place over the three years preceding the Finals, is used to determine which teams qualify for the Finals. The current format of the Finals involves 48 teams competing for the title, at venues within the host nation (or nations) over a period of about a month. The World Cup final is the most widely viewed sporting event in the world, with an estimated 715.1 million people watching the 2006 tournament final. Morocco has qualified for the final stages of the FIFA World Cup on seven occasions, which were in 1970, 1986, 1994, 1998, 2018, 2022 and 2026. Their best performance was in 2022, when they finished in fourth place, thus becoming...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-20T19:12:14.205671Z"
+    },
+    {
+      "source_id": "wiki-random:en:35389589",
+      "source_name": "EN Wikipedia：Consort Dowager Zhao",
+      "source_url": "https://en.wikipedia.org/wiki/Consort_Dowager_Zhao",
+      "title": "Consort Dowager Zhao",
+      "excerpt": "Consort Dowager Zhao (Chinese: 趙太妃; personal name unknown) was the mother of Liu Bin (Emperor Shang), the second emperor of the Chinese Southern Han dynasty. She was a concubine to Liu Bin's father, the founding emperor Liu Yan (Emperor Gaozu). Very little is known about the future Consort Dowager Zhao's background. It is known that she was considered very beautiful and was favored by Liu Yan. In 920, she gave birth to his third son Liu Hongdu — who would effectively become his oldest son since Liu Hongdu's older brothers Liu Yaoshu (劉耀樞) and Liu Guitu (劉龜圖) would both die early. During Liu Yan's Dayou era (928-942), she would receive the imperial consort title Zhaoyi (昭儀). Liu Yan died in 942 and was succeeded by Liu Hongdu, who changed his name to Liu Bin. He honored Consort Zhao as consort dowager, but not as empress dowager. In 943, his younger brother Liu Hongxi (Emperor Zhongzong), then the Prince of Jin, whom he had put in command of the government, had his associates Chen Daoxiang (陳道庠) and Liu Sichao (劉思潮) assassinate him, and Liu Hongxi subsequently took the throne. It is not known what occurred to Consort Dowager Zhao.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-20T19:12:14.206268Z"
+    },
+    {
+      "source_id": "wiki-random:en:4806634",
+      "source_name": "EN Wikipedia：Ryerson (company)",
+      "source_url": "https://en.wikipedia.org/wiki/Ryerson_(company)",
+      "title": "Ryerson (company)",
+      "excerpt": "Joseph T. Ryerson & Son, Inc. is a services company that processes and distributes metals, with operations in the United States, Mexico, Canada, and China. Founded in 1842, Ryerson is headquartered in Chicago and employs approximately 4,200 employees at about 100 locations.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-20T19:12:40.926251Z"
+    },
+    {
+      "source_id": "wiki-random:zh:129385",
+      "source_name": "ZH Wikipedia：西印度海牛",
+      "source_url": "https://zh.wikipedia.org/wiki/%E8%A5%BF%E5%8D%B0%E5%BA%A6%E6%B5%B7%E7%89%9B",
+      "title": "西印度海牛",
+      "excerpt": "西印度海牛（學名：Trichechus manatus），又称美洲海牛、北美海牛，是一种特殊的海洋哺乳動物，因為牠們可以自由往來於淡水與海水之間。牠們對棲息地的選擇傾向於水草茂盛的河流，或是平靜、水草多而近河口的海域。平常不容易看到這類行動緩慢的動物，因為牠們呼吸時通常只將吻部尖端露出水面。牠們的天敵很少，但在某些地區仍不斷遭到非法獵捕，其他如低溫、被水門夾傷與紅潮等也都會造成其受傷或死亡。科學家辨認出兩個亞種，分別是位於美國東南部海岸的佛羅里達海牛（Trichechus manatus latirostris），與位於大安地列斯群島（Greater Antilles）、墨西哥灣（Gulf of Mexico）與中、南美洲大西洋沿岸的安地列斯海牛（Trichechus manatus manatus）。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-20T19:12:40.927247Z"
+    },
+    {
+      "source_id": "wiki-random:en:45052650",
+      "source_name": "EN Wikipedia：Gene gating",
+      "source_url": "https://en.wikipedia.org/wiki/Gene_gating",
+      "title": "Gene gating",
+      "excerpt": "Gene gating is a phenomenon by which transcriptionally active genes are brought next to nuclear pore complexes (NPCs) so that nascent transcripts can quickly form mature mRNA associated with export factors. Gene gating was first hypothesised by Günter Blobel in 1985. It has been shown to occur in Saccharomyces cerevisiae, Caenorhabditis elegans, Drosophila melanogaster as well as mammalian model systems. The proteins that constitute the NPCs, known as nucleoporins, have been shown to play a role in DNA binding and mRNA transport, making gene gating possible. In addition, gene gating is orchestrated by two protein complexes, Spt-Ada-Gcn5-acetyltransferase (SAGA) and transcription–export complex 2 (TREX-2 complex). SAGA is a chromatin remodeling complex responsible for activating the transcription of certain inducible genes. The SAGA complex binds to gene promoters and also interacts with the TREX-2 complex. In turn, the TREX-2 complex interacts with the NPC, thus favouring the relocation of actively transcribed genes to the periphery of the cell nucleus. In contrast, the rest of the periphery, i.e. those parts not associated with NPCs, is transcriptionally silent heterochromatin.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-20T19:12:40.927758Z"
+    },
+    {
+      "source_id": "wiki-random:en:43719119",
+      "source_name": "EN Wikipedia：Lester Charles King",
+      "source_url": "https://en.wikipedia.org/wiki/Lester_Charles_King",
+      "title": "Lester Charles King",
+      "excerpt": "Lester Charles King (1907–1989) was an English geologist and geomorphologist known for his theories on scarp retreat. He offered a very different view of the origin of continental landscaping than that of William Morris Davis. Studying at university in New Zealand King was a disciple of Charles Cotton who was heavily influenced by Davis. While King's ideas were an attempt at refuting Davis' cycle of erosion they were themselves of cyclical nature and contributed to what Cliff Ollier has called \"Davis bashing\" — the ridicule of cyclical theories in geomorphology, in particular Davis' ones. Critics did however not propose alternative models. For him, the weathering of physical factors in arid areas causes the erosion of the hills, the deposition of the weathered material (pediments) and the deposition of these material in lower altitudes, contributing to the formation of the pediplain. He was also an early proponent of continental drift, having lectured on this matter at a number of U.S. universities during a tour in 1958. King was a supporter of the Expanding Earth hypothesis.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-20T19:12:40.929760Z"
+    },
+    {
+      "source_id": "wiki-random:en:32257721",
+      "source_name": "EN Wikipedia：Global leadership",
+      "source_url": "https://en.wikipedia.org/wiki/Global_leadership",
+      "title": "Global leadership",
+      "excerpt": "Global leadership is the interdisciplinary study of the key elements that future leaders in all realms of the personal experience should acquire to effectively familiarize themselves with the psychological, physiological, geographical, geopolitical, anthropological and sociological effects of globalization. Global leadership occurs when an individual or individuals navigate collaborative efforts of different stakeholders through environmental complexity towards a vision by leveraging a global mindset. Today, global leaders must be capable of connecting \"people across countries and engage them to global team collaboration in order to facilitate complex processes of knowledge sharing across the globe\" Personality characteristics, as well as a cross-cultural experience, appear to influence effectiveness in global leaders. As a result of trends, starting with colonialism and perpetuated by the increase in mass media, innovation, (brought about by the Internet and other forms of human interaction based on the speed of computer-mediation) and a host of meaningful new concerns face mankind; consisting of but not limited to: human enterprises toward peace, international business design, and...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-20T19:12:40.930023Z"
+    },
+    {
+      "source_id": "wiki-random:zh:1483346",
+      "source_name": "ZH Wikipedia：史密斯威森M29左輪手槍",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%8F%B2%E5%AF%86%E6%96%AF%E5%A8%81%E6%A3%AEM29%E5%B7%A6%E8%BC%AA%E6%89%8B%E6%A7%8D",
+      "title": "史密斯威森M29左輪手槍",
+      "excerpt": "史密斯威森M29（英語：Smith & Wesson Model 29）是一系列由美国槍械公司史密斯威森所研製及生產的6發式“N型底把”雙動式左輪手槍，發射火力強大的.44麥格農或火力相對較弱的.44 S&W特種彈這二種.44口徑的手枪子彈。 該槍因為是克林·伊斯威特主演的緊急追捕令系列電影的主角·哈拉·卡拉漢的招牌武器關係而聲名大噪。 史密斯威森M29配備了4英吋（101.6毫米）、5英吋（127毫米）、6英吋（152.4毫米）、61⁄2英吋（165.1毫米）、83⁄8英吋（212.725毫米）和較後期的105⁄8英吋（269.875毫米）槍管長度為其標準型號。用戶還分別可以通過聯繫史密斯威森性能中心的特別訂單或是通過槍匠進行其他槍管長度版本的個人化定製。5英吋（127毫米）槍管長度版本還裝有全尺寸長度槍管底部凸桿。M29的生產質量優良，並且具有兩種華麗的主要表面處理，分別是高級的拋光烤藍表面處理（有皇家藍色表面）和鍍光亮镍表面處理（半光亮表面）。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-20T19:12:40.931369Z"
+    },
+    {
+      "source_id": "wiki-random:zh:8273343",
+      "source_name": "ZH Wikipedia：卡立普多",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%8D%A1%E7%AB%8B%E6%99%AE%E5%A4%9A",
+      "title": "卡立普多",
+      "excerpt": "卡立普多（英语：Carisoprodol），也叫异丙基甲丁双脲、卡利普多、异庚二酯等，品牌名为Soma，是一种用于肌肉骨骼疼痛的药物。该最多只能使用三周。效果通常在半小时内开始，持续长达六个小时。该药物是口服的。 常见的副作用包括头痛、头晕和嗜睡。严重的副作用可能包括成瘾、过敏反应和癫痫发作。对于磺胺过敏的人，某些制剂可能会导致问题。怀孕和哺乳期间对该药物的使用的安全性尚不清楚。该药物的工作机制也还不清楚。它的一些作用被认为是在转化为甲丙氨酯后发生的。 卡立普多于1959年在美国被批准用于医疗用途。它在欧盟的批准于2008年撤回。它可作为通用药物使用。在2019年，它是美国第343位最常用的处方药，有超过80万张处方。在美国，它是附表IV受控物质。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-20T19:12:40.931834Z"
+    },
+    {
+      "source_id": "wiki-random:zh:9099751",
+      "source_name": "ZH Wikipedia：常春藤皂苷元",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%B8%B8%E6%98%A5%E8%97%A4%E7%9A%82%E8%8B%B7%E5%85%83",
+      "title": "常春藤皂苷元",
+      "excerpt": "常春藤皂苷元（英語：Hederagenin）是一种三萜类化合物，是存在于常春藤的化学成分。 常春藤皂苷元是常春藤（一种常见的常春藤属植物）中发现的众多皂苷的苷元部分，其中最常见的是常春藤苷C和α-常春藤皂苷。它也是从藜麦植物中提取的三种主要三萜类化合物之一，被美国环保局（EPA）列为生物農藥。HeadsUp植物保护剂由皂苷苷元齐墩果酸、常春藤皂苷元和美商陆酸等比例组成，可用于块茎（比如马铃薯种子碎片）、荚果和谷物种子的种子处理，或用于移栽植物根部的种植前浸根，以防止真菌生长、细菌生长和病毒性植物病害。 在啮齿动物模型中，常春藤皂苷元已被发现具有类似抗抑郁的作用。常春藤皂苷元是一种血清素-去甲肾上腺素-多巴胺再摄取抑制剂（SNDRI）。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-20T19:13:09.880596Z"
+    },
+    {
+      "source_id": "wiki-random:zh:5242445",
+      "source_name": "ZH Wikipedia：巴斯克飲食",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%B7%B4%E6%96%AF%E5%85%8B%E9%A3%B2%E9%A3%9F",
+      "title": "巴斯克飲食",
+      "excerpt": "巴斯克飲食（Euskal sukaldaritza）是指居住在西班牙和法國的巴斯克人的飲食文化。巴斯克地區在臨海的同時多山，因此飲食文化也可以分為以魚類為主的沿海地區的飲食文化和以肉類、蔬菜、豆類、淡水魚為主的內陸的飲食文化。巴斯克飲食也受到法國和西班牙的很強影響。南巴斯克和北巴斯克各有在對方較為罕見的食物。1970年代至1980年代，巴斯克人廚師受到法國飲食的影響，開始將更多法國飲食文化的特徵帶入巴斯克飲食，也是的巴斯克飲食文化發生了新的變化。此外，在外國的巴斯克人廚師也將巴斯克飲食文化帶至世界。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-20T19:13:09.880839Z"
+    },
+    {
+      "source_id": "wiki-random:zh:1237456",
+      "source_name": "ZH Wikipedia：納粹德國空軍",
+      "source_url": "https://zh.wikipedia.org/wiki/%E7%B4%8D%E7%B2%B9%E5%BE%B7%E5%9C%8B%E7%A9%BA%E8%BB%8D",
+      "title": "納粹德國空軍",
+      "excerpt": "納粹德國空軍（德語：Luftwaffe，發音：[ˈlʊftvafə] ，字面意为“空中力量”）是指1933年至1945年的德國空軍，也是第二次世界大戰於1939年9月在歐洲爆發時當時世上最強大、最先進和最具戰鬥經驗的一支空軍。 納粹德國空軍於1935年德國元首阿道夫·希特勒撕毀了《凡爾賽條約》後正式成立，用途主要是為支援閃擊戰橫掃歐洲。其中，德國的飛機大部分皆為先進的設計，在技術上勝過1930年代的其他大部分國家。如Ju 87「斯圖卡」轟炸機和Bf 109戰鬥機即是當時德國空軍的代表性軍機。空軍是德軍在閃擊戰中非常重要的一部分，它提供了陸軍戰術性的密接支援，令德軍在戰爭頭九個月內以非常短的時間內取得決定性的勝利，其勝利進展直到1940年於不列顛空戰才被英國皇家空軍所中止，原因是當時的德國空軍缺乏戰略打擊能力。儘管這場空戰的失敗挫傷了德國空軍的氣勢，當希特勒於1941年6月為擴大「生存空间」而入侵蘇聯時，德國空軍在初期仍取得不小的戰果，其勝利一直到1942年至1943年的蘇聯冬天所中止。 由於德國並未在1941年或1942年取得對蘇聯的決定性勝利，德國空軍被迫陷入一場消耗戰中，作戰範圍也持續擴大到北非和大西洋。美國的參戰更使得英國皇家空軍迅速恢復實力，能對德國本土持續地空襲，德國將其反擊行動稱作「帝國保衛戰」，在這期間，德國空軍的力量持續被削弱，到了1944年中期基本上已消失，使得在西線反擊盟軍的德國陸軍缺乏空中支援。德國空軍以革命性的新式戰機持續戰鬥至戰爭最後幾天，如Me 262、Me 163和He 162，但仍無法扭轉戰敗的結果。 和纳粹德国其他军兵种一样，納粹德國空軍亦曾參與納粹德國在二战中的不人道行為，其中包括了向多所集中營派遣衛兵跟設立工廠、剝削集中營奴工從事生產等行為。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-20T19:13:09.881204Z"
+    },
+    {
+      "source_id": "wiki-random:zh:8496386",
+      "source_name": "ZH Wikipedia：自由阿贝尔群",
+      "source_url": "https://zh.wikipedia.org/wiki/%E8%87%AA%E7%94%B1%E9%98%BF%E8%B4%9D%E5%B0%94%E7%BE%A4",
+      "title": "自由阿贝尔群",
+      "excerpt": "数学中，自由阿贝尔群是有基的阿贝尔群。阿贝尔群是配备了符合结合律、交换律且有逆的运算的集合。若对群中每个元素，可以唯一表示为有限多基元素的整数系数组合，那么这些基元素就构成了基，也称作整基，是集合的子集。例如，2维整格形成了一个自由阿贝尔群，其中逐坐标加法是其运算，(1,0)、(0,1)两个点是基。自由阿贝尔群的性质与向量空间相近，可以叫做自由 Z {\\displaystyle \\mathbb {Z} } -模，是整数上的自由模。格理论研究实向量空间的自由阿贝尔子群。代数拓扑中，自由阿贝尔群用于定义链；代数几何中，则用于定义除子。 自由阿贝尔群的元素有多种用基 B {\\displaystyle B} 描述的方式，如 B {\\displaystyle B} 上的形式和，是有限级数 ∑ a i b i {\\textstyle \\sum a_{i}b_{i}} 的表示，其中 a i {\\displaystyle a_{i}} 为非零整数， b i {\\displaystyle b_{i}} 为互异的基元素。另外，自由阿贝尔群的元素还可以视作由 B {\\displaystyle B} 的元素构成的有符有限多重集，多重集元素的乘法等同于形式和中的系数。 另一种表示方法是 B {\\displaystyle B} 到整数的函数，其中有有限个非零值；这种函数表示对应的群运算是函数的逐点加法。 每个集合与自己的基…",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-20T19:13:09.881665Z"
+    },
+    {
+      "source_id": "wiki-random:en:39964595",
+      "source_name": "EN Wikipedia：Chandrapur City Municipal Corporation",
+      "source_url": "https://en.wikipedia.org/wiki/Chandrapur_City_Municipal_Corporation",
+      "title": "Chandrapur City Municipal Corporation",
+      "excerpt": "The Chandrapur City Municipal Corporation also known as the Municipal Corporation of Chandrapur City (MCCC) is the governing body of the city of Chandrapur in the Indian state of Maharashtra was established on 25 October 2011. The municipal corporation consists of democratically elected members, is headed by a mayor and administers the city's infrastructure, public services. Members from the state's leading political parties hold elected offices in the corporation. Recently the Municipal Corporation has created three nos of Zone offices. Municipal Corporation mechanism in India was introduced during British Rule with formation of municipal corporation in Madras (Chennai) in 1688, later followed by municipal corporations in Bombay (Mumbai) and Calcutta (Kolkata) by 1762. Chandrapur Municipal Corporation has been formed with functions to improve the infrastructure of town.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-20T19:13:09.884155Z"
+    },
+    {
+      "source_id": "wiki-random:en:8406253",
+      "source_name": "EN Wikipedia：Astrology in the medieval Islamic world",
+      "source_url": "https://en.wikipedia.org/wiki/Astrology_in_the_medieval_Islamic_world",
+      "title": "Astrology in the medieval Islamic world",
+      "excerpt": "Some medieval Muslims took a keen interest in the study of astrology, partly because they considered the celestial bodies to be essential, partly because the dwellers of desert-regions often travelled at night, and relied upon knowledge of the constellations for guidance in their journeys. After the advent of Islam, the Muslims needed to determine the time of the prayers, the direction of the Kaaba, and the correct orientation of the mosque, all of which helped give a religious impetus to the study of astronomy and contributed towards the belief that the heavenly bodies were influential upon terrestrial affairs as well as the human condition. The science dealing with such influences was termed astrology (Arabic: علم النجوم Ilm an-Nujūm), a discipline contained within the field of astronomy (more broadly known as علم الفلك Ilm al-Falak 'the science of formation [of the heavens]'). The principles of these studies were rooted in Arabian, Persian, Babylonian, Hellenistic and Indian traditions and both were developed by the Arabs following their establishment of a magnificent observatory and library of astronomical and astrological texts at Baghdad in the 8th century. Throughout the medieval...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-20T19:13:09.884671Z"
+    },
+    {
+      "source_id": "wiki-random:zh:6480895",
+      "source_name": "ZH Wikipedia：藍迴圈",
+      "source_url": "https://zh.wikipedia.org/wiki/%E8%97%8D%E8%BF%B4%E5%9C%88",
+      "title": "藍迴圈",
+      "excerpt": "藍迴圈是恆星生命中的一個階段。在恆星演化領域中，在這個階段，它會從一顆溫度較低的恆星演化成較熱的恆星，然後再冷卻。這個名稱來自在赫羅圖上演化軌跡的形狀，它形成一個頂端朝向圖中的藍色（即高溫）一側的迴圈。 藍迴圈可以發生在紅巨星、紅巨星分支星或漸近巨星分支星。有些恆星可能會經歷一個以上的藍迴圈。許多脈動變星，例如造父變星就是藍迴圈上的恆星。在水平分支上的恆星，即使它們暫時比紅巨星或漸近巨星分支更熱，通常不會被稱為藍迴圈星。對單顆恆星而言，因為迴圈發展得很慢是無法觀測到的。因此，它是從理論和赫羅圖中的恆星性質和分布推斷出來的。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-20T19:13:09.884831Z"
+    },
+    {
+      "source_id": "wiki-random:zh:3899574",
+      "source_name": "ZH Wikipedia：反恐精英系列",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%8F%8D%E6%81%90%E7%B2%BE%E8%8B%B1%E7%B3%BB%E5%88%97",
+      "title": "反恐精英系列",
+      "excerpt": "「反恐精英系列」（英語：Counter-Strike，简称CS或C-S）是由Valve开发的第一人称射击游戏系列。此系列最初在Windows平台上運行，首款《反恐精英》作品於1999年正式推出。此作最初是使用《戰慄時空》的GoldSrc引擎製作，由遊戲開發人員Minh Gooseman Le和Jess Cliffe經開發商Valve出品遊戲《戰慄時空》的授權購買的。本作之後的第二作《反恐精英：零点行动》仍由Valve開發，並在2004年發布，同年11月Valve就發布了此系列的第三部作品《反恐精英：起源》，此作是Valve基建於全新的Source引擎而重製的《反恐精英》。 它是世界上极为成功的多人对战射击游戏系列之一，曾引发了全球电子游戏热潮。反恐精英系列目前的最新作是《反恐精英2》。 反恐精英系列，尤其是《CS:GO》和最新的《反恐精英 2》，在电子竞技的发展中扮演了关键角色。其成功的核心在于开放型生态系统：任何有实力的战队都能通过公开资格赛晋级顶级赛事，而非依赖昂贵的“买入”机制。这种公平竞争的结构，令整个职业电竞环境更加健康和具长期生命力。 此外，Counter-Strike 系列开创了现代电竞的重要标准——包括百万美元奖金的 Major 比赛、实时观战工具与解说系统、职业选手的个人品牌塑造以及赞助商的深度参与。其最引人注目的经济创新之一，是将游戏中的皮肤转变为真实的虚拟商品，并在玩家与市场之间形成活跃的交易需求。 其影响力不仅持续推动赛事规模与影响力的提升，还成为后续众多电竞项目参考的重要模板，对《守望先锋》和《彩虹六号：围攻》等后续射击类电竞项目的设计与发展也产生了深远影响。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-20T19:13:09.885427Z"
     }
   ]
 }

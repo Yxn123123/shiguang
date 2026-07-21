@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-21T18:50:17.898842Z",
+  "updated_at": "2026-07-21T18:52:50.049891Z",
   "candidates": [
     {
       "source_id": "wiki-topic:en:77737401",
@@ -119,16 +119,6 @@
       "title": "Human behavior",
       "excerpt": "Human behavior is the potential and expressed capacity (mentally, physically, and socially) of human individuals or groups to respond to internal and external stimuli throughout their life. Behavior is driven by environmental and genetic factors that affect an individual. Behavior is also driven, in part, by thoughts and feelings, which provide insight into individual psyche, revealing such things as attitudes and values. Human behavior is shaped by psychological traits, as personality types vary from person to person, producing different actions and behavior. Human behavior encompasses a vast array of domains that span the entirety of human experience. Social behavior involves interactions between individuals and groups , while cultural behavior reflects the diverse patterns, values, and practices that vary across societies and historical periods.Moral behavior encompasses ethical decision-making and value-based conduct,contrasted with antisocial behavior that violates social norms and legal standards.Cognitive behavior involves mental processes of learning, memory, and decision-making, interconnected with psychological behavior that includes emotional regulation, mental health, and...",
       "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.569010Z"
-    },
-    {
-      "source_id": "wiki-topic:en:77908009",
-      "source_name": "EN Wikipedia：Basquin's law",
-      "source_url": "https://en.wikipedia.org/wiki/Basquin%27s_law",
-      "title": "Basquin's law",
-      "excerpt": "Basquin's law of fatigue states that the lifetime of the system has a power-law dependence on the external load amplitude, t f ∼ σ 0 − α {\\displaystyle t_{f}\\sim \\sigma _{0}^{-\\alpha }} , where the exponent α {\\displaystyle \\alpha } has a strong material dependence. It is useful in expressing S-N relationships. It is a fundamental principle in materials science that describes the relationship between the stress amplitude experienced by a material and its fatigue life under cyclic loading conditions. The law is named after American scientist O. H. Basquin, who introduced the law in 1910. The law provides a mathematical model to predict the number of cycles to failure (N) based on the applied stress amplitude ( σ a ) {\\displaystyle (\\sigma _{a})} . A High Cycle Fatigue Test is used to determine material behaviour under repetitive...",
-      "category_hint": "科技",
       "source_rank": 2,
       "added_at": "2026-07-12T11:39:40.569010Z"
     },
@@ -313,32 +303,12 @@
       "added_at": "2026-07-12T11:39:40.574028Z"
     },
     {
-      "source_id": "wiki-topic:en:29320146",
-      "source_name": "EN Wikipedia：Event horizon",
-      "source_url": "https://en.wikipedia.org/wiki/Event_horizon",
-      "title": "Event horizon",
-      "excerpt": "In astrophysics, an event horizon is a boundary in spacetime beyond which no signal can ever reach a given observer. Wolfgang Rindler coined the term in the 1950s. In 1784, John Michell proposed that gravity can be strong enough in the vicinity of massive compact objects that even light cannot escape. At that time, the Newtonian theory of gravitation and the so-called corpuscular theory of light were dominant. In these theories, if the escape velocity of the gravitational influence of a massive object exceeds the speed of light, then light originating inside or from it can escape temporarily but will return. In 1958, David Finkelstein used general relativity to introduce a stricter definition of a local black hole event horizon as a boundary beyond which events of any kind cannot affect an outside observer, leading to information and firewall paradoxes, encouraging the re-examination of the concept of local event horizons and the notion of black holes. Several theories were subsequently developed, some with and some without event horizons. One of the leading developers of theories to describe black holes, Stephen Hawking, suggested that an apparent horizon should be used instead of...",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.574028Z"
-    },
-    {
       "source_id": "wiki-topic:en:23589578",
       "source_name": "EN Wikipedia：Assimilative capacity",
       "source_url": "https://en.wikipedia.org/wiki/Assimilative_capacity",
       "title": "Assimilative capacity",
       "excerpt": "Assimilative capacity is the ability for pollutants to be absorbed by an environment without detrimental effects to the environment or those who use of it. Natural absorption into an environment is achieved through dilution, dispersion and removal through chemical or biological processes. The term assimilative capacity has been used interchangeably with environmental capacity, receiving capacity and absorptive capacity. It is used as a measurement perimeter in hydrology, meteorology and pedology for a variety of environments examples consist of: lakes, rivers, oceans, cities and soils. Assimilative capacity is a subjective measurement that is quantified by governments and institutions such as Environmental Protection Agency (EPA) of environments into guidelines. Using assimilative capacity as a guideline can help the allocation of resources while reducing the impact on organisms in an environment. This concept is paired with carrying capacity in order to facilitate sustainable development of city regions. Assimilative capacity has been critiqued as to its effectiveness due to ambiguity in its definition that can confuses readers and false assumptions that a small amount of pollutants...",
       "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.574028Z"
-    },
-    {
-      "source_id": "wiki-topic:en:77892563",
-      "source_name": "EN Wikipedia：Cocoa bean fermentation",
-      "source_url": "https://en.wikipedia.org/wiki/Cocoa_bean_fermentation",
-      "title": "Cocoa bean fermentation",
-      "excerpt": "Fermentation is an important step in processing cocoa beans to make chocolate. In fermentation, beans that have been removed from their pods are put together in close proximity. Yeasts, lactic acid bacteria and acetic acid bacteria break down pulp surrounding the beans and develop flavor precursors within the bean that create chocolate flavors during roasting. The process also reduces bitterness and gives beans a more brown hue. Fermentation is divided between on-farm and centralized processing, with the former more common in West Africa and the latter more common in the Americas and parts of the Asia Pacific. In on-farm processing, which is how most fermentation has historically been undertaken, farmers wrap beans in leaves for around five days or move them between wooden boxes daily. In some countries such as Indonesia, cocoa beans undergo minimal fermentation and are sold as bulk filler.",
-      "category_hint": "生活",
       "source_rank": 2,
       "added_at": "2026-07-12T11:39:40.574028Z"
     },
@@ -391,16 +361,6 @@
       "category_hint": "科学",
       "source_rank": 2,
       "added_at": "2026-07-12T11:39:40.575563Z"
-    },
-    {
-      "source_id": "wiki-topic:en:19633010",
-      "source_name": "EN Wikipedia：Beneficial acclimation hypothesis",
-      "source_url": "https://en.wikipedia.org/wiki/Beneficial_acclimation_hypothesis",
-      "title": "Beneficial acclimation hypothesis",
-      "excerpt": "The beneficial acclimation hypothesis (BAH) is the physiological hypothesis that acclimating to a particular environment (usually thermal) provides an organism with advantages in that environment. First formally tested by Armand Marie Leroi, Albert Bennett, and Richard Lenski in 1994, it has however been a central assumption in historical physiological work that acclimation is adaptive. Further refined by Raymond B. Huey and David Berrigan under the strong inference approach, the hypothesis has been falsified as a general rule by a series of multiple hypotheses experiments.",
-      "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.576001Z"
     },
     {
       "source_id": "wiki-topic:en:34416580",
@@ -463,16 +423,6 @@
       "added_at": "2026-07-12T11:39:40.576511Z"
     },
     {
-      "source_id": "wiki-topic:en:1573182",
-      "source_name": "EN Wikipedia：Behavior change (public health)",
-      "source_url": "https://en.wikipedia.org/wiki/Behavior_change_(public_health)",
-      "title": "Behavior change (public health)",
-      "excerpt": "Behavior change, in context of public health, refers to efforts put in place to change people's personal habits and attitudes, to prevent disease. Behavior change in public health can take place at several levels and is known as social and behavior change (SBC). More and more, efforts focus on prevention of disease to save healthcare care costs. This is particularly important in low and middle income countries, where supply side health interventions have come under increased scrutiny because of the cost.",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.576511Z"
-    },
-    {
       "source_id": "wiki-topic:en:67401625",
       "source_name": "EN Wikipedia：Errand",
       "source_url": "https://en.wikipedia.org/wiki/Errand",
@@ -499,16 +449,6 @@
       "title": "Adhesion",
       "excerpt": "Adhesion is the tendency of dissimilar particles or surfaces to cling to one another. (Cohesion refers to the tendency of similar or identical particles and surfaces to cling to one another.) The forces that cause adhesion and cohesion can be divided into several types. The intermolecular forces responsible for the function of various kinds of stickers and sticky tape fall into the categories of chemical adhesion, dispersive adhesion, and diffusive adhesion. In addition to the cumulative magnitudes of these intermolecular forces, there are also certain emergent mechanical effects.",
       "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.576511Z"
-    },
-    {
-      "source_id": "wiki-topic:en:315203",
-      "source_name": "EN Wikipedia：Bionomics",
-      "source_url": "https://en.wikipedia.org/wiki/Bionomics",
-      "title": "Bionomics",
-      "excerpt": "Bionomics (Greek: bio = life; nomos = law) has two different meanings: the first is the comprehensive study of an organism and its relation to its environment. As translated from the French word Bionomie, its first use in English was in the period of 1885–1890. Another way of expressing this word is the term currently referred to as \"ecology\". the other is an economic discipline which studies economy as a self-organized evolving ecosystem. An example of studies of the first type is in Richard B. Selander's Bionomics, Systematics and Phylogeny of Lytta, a Genus of Blister Beetles (Coleoptera, Meloidae), Illinois Biological Monographs: number 28, 1960. When related to the territory Ignegnoli talks about Landscape Bionomics, defining Landscape as the \"level of biological organization integrating complex systems of plants, animals and humans in a living Entity recognizable in a territory as characterized by suitable emerging properties in a determined spatial configuration\". (Ingegnoli, 2011, 2015; Ingegnoli, Bocchi, Giglio, 2017) Bionomics as an economic discipline is used by Igor Flor of \"Bionomica, the International Bionomics Institute\"",
-      "category_hint": "生物",
       "source_rank": 2,
       "added_at": "2026-07-12T11:39:40.576511Z"
     },
@@ -603,16 +543,6 @@
       "added_at": "2026-07-12T20:09:32.388801Z"
     },
     {
-      "source_id": "wiki-topic:en:13630663",
-      "source_name": "EN Wikipedia：Contrast set",
-      "source_url": "https://en.wikipedia.org/wiki/Contrast_set",
-      "title": "Contrast set",
-      "excerpt": "A contrast set is a bounded collection of items, each of which could fill the same slot in a given schema, syntactic structure, or other linguistic environment. The seven days of the week, the fifty United States, the eight Hawaiian islands, the letters in the alphabet, the categories \"male\" and \"female,\" the students in a class, or the flavors on offer at an ice cream store are all examples of contrast sets. Contrast sets may be relatively natural in origin (such as the eight Hawaiian islands) or relatively conventional (such as the fifty United States). The mastery of certain conventional contrast sets is essential to basic socialization: for example, calendrical units, musical notes, and elements of writing systems like numerals and the alphabet. These contrast sets frequently become the subject of synesthesias or ideasthesias. Semantic relations that form or represent contrast sets include cohyponymy (for example, major categories of trees include pine, elm, willow, maple, and so on) and comeronymy (for example, major components of a motor vehicle include an engine or motor, a transmission, one or more batteries, a set of wheels and tires, and so on). Linguistic anthropologists...",
-      "category_hint": "综合",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.388947Z"
-    },
-    {
       "source_id": "wiki-topic:en:67433501",
       "source_name": "EN Wikipedia：Generalized renewal process",
       "source_url": "https://en.wikipedia.org/wiki/Generalized_renewal_process",
@@ -631,16 +561,6 @@
       "category_hint": "综合",
       "source_rank": 2,
       "added_at": "2026-07-12T20:09:32.389057Z"
-    },
-    {
-      "source_id": "wiki-topic:en:3859682",
-      "source_name": "EN Wikipedia：Asperity (materials science)",
-      "source_url": "https://en.wikipedia.org/wiki/Asperity_(materials_science)",
-      "title": "Asperity (materials science)",
-      "excerpt": "In materials science, asperity, defined as \"unevenness of surface, roughness, ruggedness\" (from the Latin asper—\"rough\"), has implications (for example) in physics and seismology. Typical \"smooth surfaces\", even those polished to a mirror finish, are still not truly smooth on a microscopic scale. They are rough, with sharp, rough, or rugged projections, termed \"asperities\". Surface asperities exist across multiple scales, often in a self-affine or fractal geometry. The fractal dimension of these structures has been correlated with the contact mechanics exhibited at an interface in terms of friction and contact stiffness. An understanding of the concept of asperities is required for any understanding of the field of Tribology, the scientific study of friction, wear, and lubrication.",
-      "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.389145Z"
     },
     {
       "source_id": "wiki-topic:en:25383607",
@@ -673,16 +593,6 @@
       "added_at": "2026-07-12T20:09:32.389571Z"
     },
     {
-      "source_id": "wiki-topic:en:70476313",
-      "source_name": "EN Wikipedia：Monochrome astrophotography techniques",
-      "source_url": "https://en.wikipedia.org/wiki/Monochrome_astrophotography_techniques",
-      "title": "Monochrome astrophotography techniques",
-      "excerpt": "Monochrome photography is one of the earliest styles of photography and dates back to the 1800s. Monochrome photography is also a popular technique among astrophotographers. This is due to the omission of the Bayer filter, a colour filter array that sits in front of the CMOS or CCD sensor, allowing for a single sensor to produce a colour image.",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.389597Z"
-    },
-    {
       "source_id": "wiki-topic:en:12217323",
       "source_name": "EN Wikipedia：Bounded deformation",
       "source_url": "https://en.wikipedia.org/wiki/Bounded_deformation",
@@ -691,16 +601,6 @@
       "category_hint": "科技",
       "source_rank": 2,
       "added_at": "2026-07-12T20:09:32.389875Z"
-    },
-    {
-      "source_id": "wiki-topic:en:36079379",
-      "source_name": "EN Wikipedia：SLR Consulting",
-      "source_url": "https://en.wikipedia.org/wiki/SLR_Consulting",
-      "title": "SLR Consulting",
-      "excerpt": "SLR Consulting is a privately owned international sustainability consultancy with offices in Europe, North America, South America, Australasia, and Africa. In 2025, it reported revenues of £99.7 million. It states its purpose is ‘Making Sustainability Happen’, which it achieves through its global team of advisors and technicians, who partner with clients to tackle sustainability challenges. The company operates more than 140 offices and employs over 5,000 staff across six continents. Its ultimate owner is Ares Management.",
-      "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.390293Z"
     },
     {
       "source_id": "wiki-topic:en:65888",
@@ -773,16 +673,6 @@
       "added_at": "2026-07-12T20:09:32.391010Z"
     },
     {
-      "source_id": "wiki-topic:en:1547265",
-      "source_name": "EN Wikipedia：Conventionally grown",
-      "source_url": "https://en.wikipedia.org/wiki/Conventionally_grown",
-      "title": "Conventionally grown",
-      "excerpt": "Conventionally grown is an agriculture term referring to a method of growing edible plants (such as fruit and vegetables) and other products. It is opposite to organic growing methods which attempt to produce without synthetic chemicals (fertilizers, pesticides, antibiotics, hormones) or genetically modified organisms. Conventionally grown products, meanwhile, often use fertilizers and pesticides which allow for higher yield, out of season growth, greater resistance, greater longevity and a generally greater mass. Conventionally grown fruit: PLU code consists of 4 numbers (e.g. 4012). Organically grown fruit: PLU code consists of 5 numbers and begins with 9 (e.g. 94012) Genetically engineered fruit: PLU code consists of 5 numbers and begins with 8 (e.g. 84012).",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.391147Z"
-    },
-    {
       "source_id": "wiki-topic:en:1686342",
       "source_name": "EN Wikipedia：Adaptive behavior",
       "source_url": "https://en.wikipedia.org/wiki/Adaptive_behavior",
@@ -843,16 +733,6 @@
       "added_at": "2026-07-13T20:44:59.345037Z"
     },
     {
-      "source_id": "wiki-topic:en:54852772",
-      "source_name": "EN Wikipedia：Breakthrough curve",
-      "source_url": "https://en.wikipedia.org/wiki/Breakthrough_curve",
-      "title": "Breakthrough curve",
-      "excerpt": "A breakthrough curve in adsorption is the course of the effluent adsorptive concentration at the outlet of a fixed bed adsorber. Breakthrough curves are important for adsorptive separation technologies and for the characterization of porous materials.",
-      "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-13T20:44:59.346325Z"
-    },
-    {
       "source_id": "wiki-topic:en:580",
       "source_name": "EN Wikipedia：Astronomer",
       "source_url": "https://en.wikipedia.org/wiki/Astronomer",
@@ -873,16 +753,6 @@
       "added_at": "2026-07-13T20:44:59.347229Z"
     },
     {
-      "source_id": "wiki-topic:en:29202398",
-      "source_name": "EN Wikipedia：Eyes (cheese)",
-      "source_url": "https://en.wikipedia.org/wiki/Eyes_(cheese)",
-      "title": "Eyes (cheese)",
-      "excerpt": "Eyes are the round holes that are a characteristic feature of some Swiss-type cheeses (e.g. Emmentaler cheese) and some Dutch-type cheeses. The eyes are formed by bubbles of carbon dioxide gas during the cheesemaking process. The gas is produced by various species of bacteria in the cheese.",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-13T20:44:59.347290Z"
-    },
-    {
       "source_id": "wiki-topic:en:51576527",
       "source_name": "EN Wikipedia：Design for inspection",
       "source_url": "https://en.wikipedia.org/wiki/Design_for_inspection",
@@ -891,26 +761,6 @@
       "category_hint": "科技",
       "source_rank": 2,
       "added_at": "2026-07-13T20:44:59.347908Z"
-    },
-    {
-      "source_id": "wiki-topic:en:10523316",
-      "source_name": "EN Wikipedia：Degranulation",
-      "source_url": "https://en.wikipedia.org/wiki/Degranulation",
-      "title": "Degranulation",
-      "excerpt": "Degranulation is a cellular process that releases antimicrobial, cytotoxic, or other molecules from secretory vesicles called granules found inside some cells. It is used by several different cells involved in the immune system, including granulocytes (neutrophils, basophils, eosinophils, and mast cells). It is also used by certain lymphocytes such as natural killer (NK) cells and cytotoxic T cells, whose main purpose is to destroy invading microorganisms.",
-      "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-13T20:44:59.348074Z"
-    },
-    {
-      "source_id": "wiki-topic:en:22183423",
-      "source_name": "EN Wikipedia：Bioceramic",
-      "source_url": "https://en.wikipedia.org/wiki/Bioceramic",
-      "title": "Bioceramic",
-      "excerpt": "Bioceramics and bioglasses are ceramic materials that are biocompatible. Bioceramics are an important subset of biomaterials. Bioceramics range in biocompatibility from the ceramic oxides, which are inert in the body, to the other extreme of resorbable materials, which are eventually replaced by the body after they have assisted repair. Bioceramics are used in many types of medical procedures. Bioceramics are typically used as rigid materials in surgical implants, though some bioceramics are flexible. The ceramic materials used are not the same as porcelain type ceramic materials. Rather, bioceramics are closely related to either the body's own materials or are extremely durable mixed metal oxides.",
-      "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-13T20:44:59.348490Z"
     },
     {
       "source_id": "wiki-topic:en:57533523",
@@ -953,16 +803,6 @@
       "added_at": "2026-07-13T20:44:59.350191Z"
     },
     {
-      "source_id": "wiki-topic:en:11344743",
-      "source_name": "EN Wikipedia：Biomolecular engineering",
-      "source_url": "https://en.wikipedia.org/wiki/Biomolecular_engineering",
-      "title": "Biomolecular engineering",
-      "excerpt": "Biomolecular engineering is the application of engineering principles and practices to the purposeful manipulation of molecules of biological origin. Biomolecular engineers integrate knowledge of biological processes with the core knowledge of chemical engineering in order to focus on molecular level solutions to issues and problems in the life sciences related to the environment, agriculture, energy, industry, food production, biotechnology, biomanufacturing, and medicine. Biomolecular engineers purposefully manipulate carbohydrates, proteins, nucleic acids and lipids within the framework of the relation between their structure (see: nucleic acid structure, carbohydrate chemistry, protein structure,), function (see: protein function) and properties and in relation to applicability to such areas as environmental remediation, crop and livestock production, biofuel cells and biomolecular diagnostics. The thermodynamics and kinetics of molecular recognition in enzymes, antibodies, DNA hybridization, bio-conjugation/bio-immobilization and bioseparations are studied. Attention is also given to the rudiments of engineered biomolecules in cell signaling, cell growth kinetics, biochemical pathway...",
-      "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-13T20:44:59.350344Z"
-    },
-    {
       "source_id": "wiki-topic:en:61613309",
       "source_name": "EN Wikipedia：Communal coping",
       "source_url": "https://en.wikipedia.org/wiki/Communal_coping",
@@ -971,16 +811,6 @@
       "category_hint": "生活",
       "source_rank": 2,
       "added_at": "2026-07-13T20:44:59.350492Z"
-    },
-    {
-      "source_id": "wiki-topic:en:80609308",
-      "source_name": "EN Wikipedia：Astrotourism",
-      "source_url": "https://en.wikipedia.org/wiki/Astrotourism",
-      "title": "Astrotourism",
-      "excerpt": "Astrotourism is travel to view the night sky and experience celestial events such as eclipses. A closely related concept is dark sky tourism, which involves travel to places with little light pollution. The practice gained popularity following the 2024 total solar eclipse over North America.",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-13T20:44:59.350572Z"
     },
     {
       "source_id": "wiki-topic:en:67545702",
@@ -1061,16 +891,6 @@
       "category_hint": "综合",
       "source_rank": 2,
       "added_at": "2026-07-14T20:46:40.126966Z"
-    },
-    {
-      "source_id": "wiki-topic:en:14222722",
-      "source_name": "EN Wikipedia：Explanandum and explanans",
-      "source_url": "https://en.wikipedia.org/wiki/Explanandum_and_explanans",
-      "title": "Explanandum and explanans",
-      "excerpt": "An explanandum (a Latin term) is a sentence describing a phenomenon that is to be explained, and the explanans are the sentences adduced as explanations of that phenomenon. For example, one person may pose an explanandum by asking \"Why is there smoke?\", and another may provide an explanans by responding \"Because there is a fire\". In this example, \"smoke\" is the explanandum, and \"fire\" is the explanans. Carl Gustav Hempel and Paul Oppenheim (1948), in their deductive-nomological model of scientific explanation, explored the distinction between explanans and explanandum in order to answer why-questions, rather than simply what-questions: \"It may be said... that an explanation is not fully adequate unless its explanans, if taken account of in time, could have served as a basis for predicting the phenomenon under consideration.... It is this potential predictive force which gives scientific explanation its importance: Only to the extent that we are able to explain empirical facts can we attain the major objective of scientific research, namely not merely to record the phenomena of our experience, but to learn from them, by basing upon them theoretical generalizations which enable us to...",
-      "category_hint": "综合",
-      "source_rank": 2,
-      "added_at": "2026-07-14T20:46:40.127143Z"
     },
     {
       "source_id": "wiki-topic:en:44621719",
@@ -1173,16 +993,6 @@
       "added_at": "2026-07-15T18:37:33.836495Z"
     },
     {
-      "source_id": "wiki-topic:en:79963688",
-      "source_name": "EN Wikipedia：Harvard Plate Stacks",
-      "source_url": "https://en.wikipedia.org/wiki/Harvard_Plate_Stacks",
-      "title": "Harvard Plate Stacks",
-      "excerpt": "The Harvard Plate Stacks, previously known as the Harvard College Observatory glass plate collection or the astronomical photographic glass plate collection, is a collection of astronomical glass plate negatives at the Center for Astrophysics | Harvard & Smithsonian in Cambridge, Massachusetts. Created over more than a century by the Harvard College Observatory, it is widely described as the largest collection of astronomical glass plates in the world. The collection includes more than 550,000 glass plate negatives dating from the 1870s to the late 1990s, as well as early photographic data from as early as 1849, and logbooks, notebooks, and photographic prints associated with astronomical research at Harvard and affiliated observatories. It is one of the largest photographic collections at Harvard. Many of the astronomers, assistants, and computers who worked with the collection were women, including members of the group now commonly known as the Women Astronomical Computers.",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-15T18:37:33.836660Z"
-    },
-    {
       "source_id": "wiki-topic:en:3783853",
       "source_name": "EN Wikipedia：Bond graph",
       "source_url": "https://en.wikipedia.org/wiki/Bond_graph",
@@ -1273,16 +1083,6 @@
       "added_at": "2026-07-19T18:14:14.900603Z"
     },
     {
-      "source_id": "wiki-topic:en:49660332",
-      "source_name": "EN Wikipedia：Analysis of similarities",
-      "source_url": "https://en.wikipedia.org/wiki/Analysis_of_similarities",
-      "title": "Analysis of similarities",
-      "excerpt": "Analysis of similarities (ANOSIM) is a non-parametric statistical test widely used in the field of ecology. The test was first suggested by K. R. Clarke as an ANOVA-like test, where instead of operating on raw data, operates on a ranked dissimilarity matrix. Given a matrix of rank dissimilarities between a set of samples, each belonging to a single site (e.g. a single treatment group), the ANOSIM tests whether we can reject the null hypothesis that the similarity between sites is greater than or equal to the similarity within each site. The test statistic R is calculated in the following way: R = r B − r W M / 2 {\\displaystyle R={\\frac {r_{B}-r_{W}}{M/2}}} where rB is the average of rank similarities of pairs of samples (or replicates) originating from different...",
-      "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-20T19:11:49.199412Z"
-    },
-    {
       "source_id": "wiki-topic:en:70608126",
       "source_name": "EN Wikipedia：Amanda Bradford",
       "source_url": "https://en.wikipedia.org/wiki/Amanda_Bradford",
@@ -1313,26 +1113,6 @@
       "added_at": "2026-07-20T19:11:49.200610Z"
     },
     {
-      "source_id": "wiki-topic:en:18519026",
-      "source_name": "EN Wikipedia：History of chromatography",
-      "source_url": "https://en.wikipedia.org/wiki/History_of_chromatography",
-      "title": "History of chromatography",
-      "excerpt": "Chromatography is the passing of a mixture through an inert material to create separation of the solution components based on differential adsorption. The history of chromatography spans from the mid-19th century to the 21st. Chromatography, literally \"color writing\", was used and named around the year 1900, primarily for the separation of plant pigments such as chlorophyll (which is green) and carotenoids (which are orange and yellow). New forms of chromatography developed in the 1930s and 1940s made the technique useful for a wide range of separation processes and chemical analysis tasks, especially in biochemistry.",
-      "category_hint": "历史",
-      "source_rank": 2,
-      "added_at": "2026-07-21T18:47:22.997067Z"
-    },
-    {
-      "source_id": "onthisday:zh:07/14:2011:4",
-      "source_name": "Wikimedia On This Day：中华人民共和国",
-      "source_url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD",
-      "title": "2011: 中华人民共和国安徽省撤销地级巢湖市，原行政区划拆分至合肥、芜湖和马鞍山，以原地级巢湖市居巢区的行政区域为新设的县级巢湖市的行政区域。",
-      "excerpt": "事件：中华人民共和国安徽省撤销地级巢湖市，原行政区划拆分至合肥、芜湖和马鞍山，以原地级巢湖市居巢区的行政区域为新设的县级巢湖市的行政区域。\n相关页面摘要：中华人民共和国是位於东亚的社会主义国家，也是現今世界少數由共产党建立並持續單獨執政的國家。国土面积约960万平方千米，位居世界各國第三位，其以漢族傳統領域為核心，涵蓋鄰太平洋的亞洲大陸東側大部區域，並與14個國家以陸地邊界接壤。全国行政区域划分为23個省、5個自治區、4個直轄市、以及2個特别行政区，共計34個省級行政區。首都为北京市，城區常住人口最多城市为上海市。政治上依憲法採用人民代表大會制度，以社会主义为基础实行人民民主专政，实则由中国共产党一党执政，在包括武装力量在内的国家体制上处于绝对领导地位。",
-      "category_hint": "历史",
-      "source_rank": 3,
-      "added_at": "2026-07-14T20:46:40.129156Z"
-    },
-    {
       "source_id": "onthisday:zh:07/19:2010:9",
       "source_name": "Wikimedia On This Day：联合国",
       "source_url": "https://zh.wikipedia.org/wiki/%E8%81%94%E5%90%88%E5%9B%BD",
@@ -1351,26 +1131,6 @@
       "category_hint": "历史",
       "source_rank": 3,
       "added_at": "2026-07-20T19:11:49.200767Z"
-    },
-    {
-      "source_id": "onthisday:zh:07/21:2023:2",
-      "source_name": "Wikimedia On This Day：北意大利",
-      "source_url": "https://zh.wikipedia.org/wiki/%E5%8C%97%E6%84%8F%E5%A4%A7%E5%88%A9",
-      "title": "2023: 意大利北部威尼托大区由7月19日至21日遭遇强风与冰雹等极端天气，目前已造成至少110人受伤。",
-      "excerpt": "事件：意大利北部威尼托大区由7月19日至21日遭遇强风与冰雹等极端天气，目前已造成至少110人受伤。\n相关页面摘要：北意大利，又称上意大利，是意大利的一个地理区域。又可分为东北部和西北部两个部分。它由八個大區組成，分別為西北部的瓦莱达奥斯塔、皮埃蒙特、伦巴第、利古里亚，以及東北部的弗留利-威尼斯朱利亚、威尼托、特伦蒂诺-上阿迪杰、艾米利亚-罗马涅。截至2014年，其人口為27,801,460人。該地區使用雷蒂亚-罗曼语和高盧意大利語，而意大利其他地區則使用意大利-達爾馬提亞語。威尼斯語有時被認為是意大利語-達爾馬提亞語的一部分，但一些主要出版物，例如《民族語》和《Glottolog》將其定義為高盧意大利語。",
-      "category_hint": "历史",
-      "source_rank": 3,
-      "added_at": "2026-07-21T18:47:22.997156Z"
-    },
-    {
-      "source_id": "onthisday:zh:07/21:2007:10",
-      "source_name": "Wikimedia On This Day：阿拉伯联合酋长国",
-      "source_url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E6%8B%89%E4%BC%AF%E8%81%94%E5%90%88%E9%85%8B%E9%95%BF%E5%9B%BD",
-      "title": "2007: 位於阿拉伯聯合大公國杜拜市的哈里發塔工程超越台灣的台北101，成為新的世界第一高樓，但正式的世界第一高樓名義則需直到2010年完工。",
-      "excerpt": "事件：位於阿拉伯聯合大公國杜拜市的哈里發塔工程超越台灣的台北101，成為新的世界第一高樓，但正式的世界第一高樓名義則需直到2010年完工。\n相关页面摘要：阿拉伯联合酋长国，简称阿联酋，是位于亚洲西南部、阿拉伯半岛东南的一个联邦制君主国，成立于1971年，1972年形成现有版图，总面积约83,600平方公里，人口10,226,547人。其由阿布扎比、沙迦、迪拜、阿治曼、富查伊拉、乌姆盖万、哈伊马角七个酋长国组成，在陆地上与阿曼和沙特阿拉伯接壤，隔海与伊朗和卡塔尔相望，扼守波斯湾、阿曼湾及霍尔木兹海峡。",
-      "category_hint": "历史",
-      "source_rank": 3,
-      "added_at": "2026-07-21T18:47:22.997223Z"
     },
     {
       "source_id": "wiki-random:en:13628958",

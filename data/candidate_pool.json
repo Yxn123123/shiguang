@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-20T19:15:53.359669Z",
+  "updated_at": "2026-07-21T18:50:17.898842Z",
   "candidates": [
     {
       "source_id": "wiki-topic:en:77737401",
@@ -1313,6 +1313,16 @@
       "added_at": "2026-07-20T19:11:49.200610Z"
     },
     {
+      "source_id": "wiki-topic:en:18519026",
+      "source_name": "EN Wikipedia：History of chromatography",
+      "source_url": "https://en.wikipedia.org/wiki/History_of_chromatography",
+      "title": "History of chromatography",
+      "excerpt": "Chromatography is the passing of a mixture through an inert material to create separation of the solution components based on differential adsorption. The history of chromatography spans from the mid-19th century to the 21st. Chromatography, literally \"color writing\", was used and named around the year 1900, primarily for the separation of plant pigments such as chlorophyll (which is green) and carotenoids (which are orange and yellow). New forms of chromatography developed in the 1930s and 1940s made the technique useful for a wide range of separation processes and chemical analysis tasks, especially in biochemistry.",
+      "category_hint": "历史",
+      "source_rank": 2,
+      "added_at": "2026-07-21T18:47:22.997067Z"
+    },
+    {
       "source_id": "onthisday:zh:07/14:2011:4",
       "source_name": "Wikimedia On This Day：中华人民共和国",
       "source_url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD",
@@ -1341,6 +1351,26 @@
       "category_hint": "历史",
       "source_rank": 3,
       "added_at": "2026-07-20T19:11:49.200767Z"
+    },
+    {
+      "source_id": "onthisday:zh:07/21:2023:2",
+      "source_name": "Wikimedia On This Day：北意大利",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%8C%97%E6%84%8F%E5%A4%A7%E5%88%A9",
+      "title": "2023: 意大利北部威尼托大区由7月19日至21日遭遇强风与冰雹等极端天气，目前已造成至少110人受伤。",
+      "excerpt": "事件：意大利北部威尼托大区由7月19日至21日遭遇强风与冰雹等极端天气，目前已造成至少110人受伤。\n相关页面摘要：北意大利，又称上意大利，是意大利的一个地理区域。又可分为东北部和西北部两个部分。它由八個大區組成，分別為西北部的瓦莱达奥斯塔、皮埃蒙特、伦巴第、利古里亚，以及東北部的弗留利-威尼斯朱利亚、威尼托、特伦蒂诺-上阿迪杰、艾米利亚-罗马涅。截至2014年，其人口為27,801,460人。該地區使用雷蒂亚-罗曼语和高盧意大利語，而意大利其他地區則使用意大利-達爾馬提亞語。威尼斯語有時被認為是意大利語-達爾馬提亞語的一部分，但一些主要出版物，例如《民族語》和《Glottolog》將其定義為高盧意大利語。",
+      "category_hint": "历史",
+      "source_rank": 3,
+      "added_at": "2026-07-21T18:47:22.997156Z"
+    },
+    {
+      "source_id": "onthisday:zh:07/21:2007:10",
+      "source_name": "Wikimedia On This Day：阿拉伯联合酋长国",
+      "source_url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E6%8B%89%E4%BC%AF%E8%81%94%E5%90%88%E9%85%8B%E9%95%BF%E5%9B%BD",
+      "title": "2007: 位於阿拉伯聯合大公國杜拜市的哈里發塔工程超越台灣的台北101，成為新的世界第一高樓，但正式的世界第一高樓名義則需直到2010年完工。",
+      "excerpt": "事件：位於阿拉伯聯合大公國杜拜市的哈里發塔工程超越台灣的台北101，成為新的世界第一高樓，但正式的世界第一高樓名義則需直到2010年完工。\n相关页面摘要：阿拉伯联合酋长国，简称阿联酋，是位于亚洲西南部、阿拉伯半岛东南的一个联邦制君主国，成立于1971年，1972年形成现有版图，总面积约83,600平方公里，人口10,226,547人。其由阿布扎比、沙迦、迪拜、阿治曼、富查伊拉、乌姆盖万、哈伊马角七个酋长国组成，在陆地上与阿曼和沙特阿拉伯接壤，隔海与伊朗和卡塔尔相望，扼守波斯湾、阿曼湾及霍尔木兹海峡。",
+      "category_hint": "历史",
+      "source_rank": 3,
+      "added_at": "2026-07-21T18:47:22.997223Z"
     },
     {
       "source_id": "wiki-random:en:13628958",
@@ -2991,6 +3021,236 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-20T19:13:09.885427Z"
+    },
+    {
+      "source_id": "wiki-random:en:76163588",
+      "source_name": "EN Wikipedia：NGC 5963",
+      "source_url": "https://en.wikipedia.org/wiki/NGC_5963",
+      "title": "NGC 5963",
+      "excerpt": "NGC 5963 is a spiral galaxy in the northern constellation of Draco. It was discovered on May 5, 1788 by German-British astronomer William Herschel. NGC 5963 has an apparent visual magnitude of 13.1 and is located at a distance of 42 million light-years (13.0 Mpc) from the Milky Way galaxy. It has an angular separation of just 9′ from NGC 5965, but the two galaxies are not physically related. Although it is relatively isolated, NGC 5963 is sometimes classified as a member of the NGC 5866 Group of galaxies. The morphological classification of NGC 5963 is Sc, indicating a spiral galaxy with somewhat loosely wound spiral arms. It is characterized by an unusually low surface brightness and has just a hint of a bulge component. There is a high surface brightness nuclear region with an oval shape spanning ~40″, which forms a spiral sub-system. Surrounding this is a patchy, loosely wound spiral forming a faint disk. The rotation curve of NGC 5963 matches that of similar galaxies with normal surface brightness, suggesting this galaxy has a more concentrated halo.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-21T18:47:22.998374Z"
+    },
+    {
+      "source_id": "wiki-random:en:59336713",
+      "source_name": "EN Wikipedia：RFK Racing in the NASCAR Cup Series",
+      "source_url": "https://en.wikipedia.org/wiki/RFK_Racing_in_the_NASCAR_Cup_Series",
+      "title": "RFK Racing in the NASCAR Cup Series",
+      "excerpt": "Founded in 1988, the NASCAR program is built around having multiple cars and providing engine, engineering and race car build services to other NASCAR teams fielding Ford branded vehicles. The multi-team aspect of the company allows for information and resources to be shared across the enterprise, improving the performance of all of the teams. Since the 2004 season, engines for the cars have been provided by Roush-Yates Engines, a partnership between Roush Fenway Racing and now-closed rival Yates Racing, with Doug Yates as head engine builder. Roush-Yates also provides engines, cars and parts to other Cup teams, including Wood Brothers Racing, Team Penske, and Front Row Motorsports. Between 1998 and 2000 and 2003–2009, Roush Racing operated five full-time Cup teams (6, 16, 17, 26/97, 99), more than any other organization including Hendrick Motorsports and Richard Childress Racing, which have both operated as many as four full-time teams. Beginning in 2001, after years of operating in separate facilities, the teams were moved into a single shop in Concord, North Carolina to improve performance and communication. Roush Racing set a NASCAR record by putting all five of its race teams in...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-21T18:47:22.999426Z"
+    },
+    {
+      "source_id": "wiki-random:en:68515155",
+      "source_name": "EN Wikipedia：Corrumpa Creek",
+      "source_url": "https://en.wikipedia.org/wiki/Corrumpa_Creek",
+      "title": "Corrumpa Creek",
+      "excerpt": "Corrumpa Creek is a watercourse in New Mexico and Oklahoma. It originates at Weatherly Lake, located 9 miles east-southeast of Des Moines in Union County, New Mexico. It results from the South Branch Corrumpa Creek, which originates south-southwest of Des Moines and travels generally east, and the North Branch Corrumpa Creek, which originates southwest of Des Moines but passes northeast through the town before continuing generally east-southeast, having their confluence at Weatherly Lake. Both of these forks of Corrumpa Creek head on the slopes of Sierra Grande at approximately 8,720 feet (2,660 m). From that location, Corrumpa Creek meanders in every direction but generally east before turning southeast near the Oklahoma border. It continues into Oklahoma where, at the point where it is joined by Seneca Creek (also known as Cienequilla Creek) about 4.5 miles (7.2 km) northwest of Felt, Oklahoma, it officially becomes the Beaver River. Historically, McNees Crossing on Corrumpa Creek, about 3.5 miles inside New Mexico, was an important location on the Santa Fe Trail. It was easy to find, marked as it was by twin peaks known as Rabbit Ears Mountain; it provided water for travelers...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-21T18:47:22.999696Z"
+    },
+    {
+      "source_id": "wiki-random:en:9802422",
+      "source_name": "EN Wikipedia：MGM Distribution",
+      "source_url": "https://en.wikipedia.org/wiki/MGM_Distribution",
+      "title": "MGM Distribution",
+      "excerpt": "MGM Distribution (Metropolitan Groove Merchants) is the largest independent distributor of Australian music and music related merchandise. It was established in April 1998 by Sebastian Chase. MGM Distribution was set up specifically as a distribution hub to service independent labels and artists. MGM Distribution is focused on a specific agenda – dealing with retail, promoting its releases to retail, ensuring that orders are filled correctly and dispatched expediently. MGM is not a label and does not sign artists. As a distributor, MGM requires that the labels market their releases to the media to create demand that causes sell through at retail. MGM Distribution is a major financial supporter of the Australian Music Prize and the JB Seed grant program, an arts grants fund established by John Butler in 2005.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-21T18:47:23.000832Z"
+    },
+    {
+      "source_id": "wiki-random:zh:295420",
+      "source_name": "ZH Wikipedia：光行差",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%85%89%E8%A1%8C%E5%B7%AE",
+      "title": "光行差",
+      "excerpt": "光行差（或称为天文光行差、恒星光行差）是指运动的观测者观察到光的方向与同一时间同一地点静止的观测者观察到的方向有偏差的现象。光行差现象在天文观测上表现得尤为明显。由于地球公转、自转等原因，地球上观察天体的位置时总是存在光行差，其大小与观测者的速度和天体方向与观测者运动方向之间的夹角有关，并且在不断变化。 光行差本质是由于光速有限以及光源与观察者存在相对运动造成的，类似于运动中的雨滴：下雨的时候，站在原地不动的人感觉到雨滴是从正上方落下的，而向前走的人感觉雨滴是从前方倾斜落下的，因此需要把伞微微向前倾斜。走得越快，需要倾斜得越厉害。光行差的成因与此相似，只不过不符合经典的速度叠加法则，而是需要考虑相对论效应带来的修正。 地球上的观测者与天体之间的相对运动可以分解为各种成分，分别对应下面几种相应的光行差： 周年光行差——地球绕太阳公转造成的光行差，最大可以达到20.5角秒。天文学中定义周年光行差常数（简称光行差常数）为κ=v/c，其中c是光速，v是地球绕太阳公转的平均速度； 周日光行差——地球自转造成的光行差，比周年光行差小两个数量级，约为零点几角秒； 长期光行差——太阳系在宇宙空间中的运动造成的光行差，包括： 太阳自行造成的光行差，约为13角秒，但方向不变； 太阳系绕银河系自转造成的光行差，约为100多角秒，但周期很长。 在一般问题中，长期光行差可以不必考虑。 地球的公转速度约为30公里／秒，光速为30万公里／秒，由此可以估算出光行差带来的角度变化约为20.49551角秒。这个角度对于小型的天文望远镜来说非常微小，因此尽管历史上很早就有人认为存在光行差，但直到1725年才由英国天文学家詹姆斯·布拉德雷在观测恒星视差时意外发现。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-21T18:47:23.001491Z"
+    },
+    {
+      "source_id": "wiki-random:en:24822548",
+      "source_name": "EN Wikipedia：Swimming at the 1952 Summer Olympics – Women's 100 metre backstroke",
+      "source_url": "https://en.wikipedia.org/wiki/Swimming_at_the_1952_Summer_Olympics_%E2%80%93_Women%27s_100_metre_backstroke",
+      "title": "Swimming at the 1952 Summer Olympics – Women's 100 metre backstroke",
+      "excerpt": "The women's 100 metre backstroke event at the 1952 Olympic Games took place on 29–31 July at the Swimming Stadium. This swimming event used the backstroke. Because an Olympic-size swimming pool is 50 metres long, this race consisted of two lengths of the pool.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-21T18:47:23.001690Z"
+    },
+    {
+      "source_id": "wiki-random:en:26479852",
+      "source_name": "EN Wikipedia：Traité des Amateurs",
+      "source_url": "https://en.wikipedia.org/wiki/Trait%C3%A9_des_Amateurs",
+      "title": "Traité des Amateurs",
+      "excerpt": "Traité des Amateurs is the short name of the chess treatise Traité Théorique et Pratique du jeu des Echecs, par une Société des Amateurs, published in France in 1786 and subsequently translated into German and English. A reviewer in 1830 wrote that: The Traite des Amateurs, is one of the best practical works on Chess, extant. It contains a great number of beautifully played games, together with much solid information, and it is matter of regret that the scarcity of the book, prevents its being more generally used by the Chess student.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-21T18:47:23.002699Z"
+    },
+    {
+      "source_id": "wiki-random:zh:1125150",
+      "source_name": "ZH Wikipedia：乌尔曼反应",
+      "source_url": "https://zh.wikipedia.org/wiki/%E4%B9%8C%E5%B0%94%E6%9B%BC%E5%8F%8D%E5%BA%94",
+      "title": "乌尔曼反应",
+      "excerpt": "Ullmann反应（乌尔曼反应），又称“Ullmann联芳烃合成” 经典的Ullmann反应：芳香卤化物与铜共热发生偶联反应，得到联芳烃， 例如碘苯与铜共热得到联苯。 反应以德国化学家 Fritz Ullmann 的名字命名。 这个反应的应用范围广泛，常用来合成许多对称与不对称的联芳烃衍生物。最常用的芳香碘化物，但溴化物和氯化物甚至硫氰酸酯都可以应用。除铜之外，镍也能使芳香卤化物偶联， 例如双(1,5-环辛二烯)镍(0)及四(三苯基膦)镍(0)。 反应物环上的取代基对反应的影响很特殊。硝基可以活化反应，但只有間位的硝基才有活化作用，位于鄰位和对位的硝基则无活化作用。 R 和 OR 基团在所有位置都有活化作用。相反，OH、NH2、NHR、NHCOR、COOH、SO2NH2 等基团的存在会阻止反应进行，降低产率。 Ullmann联苯醚合成（Ullmann缩合反应）是 Ullmann 反应的一种变体。这一类由铜催化的亲核芳香取代反应也被称为 Ullmann-型反应。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-21T18:47:23.003154Z"
+    },
+    {
+      "source_id": "wiki-random:en:68542699",
+      "source_name": "EN Wikipedia：Vornorexant",
+      "source_url": "https://en.wikipedia.org/wiki/Vornorexant",
+      "title": "Vornorexant",
+      "excerpt": "Vornorexant, sold under the brand name Vorzzz, is an orexin receptor antagonist which is used in the treatment of insomnia in Japan. It is taken orally. The drug is available for insomnia in the form of 2.5, 5, and 10 mg oral tablets. It has been found to improve sleep onset, sleep maintenance, and daytime functioning with both short-term and long-term use. Side effects of vornorexant include somnolence among others. It does not appear to impair next-day functioning or driving performance, which suggests that it causes minimal next-day or residual effects. The drug also does not appear to cause dependence, withdrawal, rebound insomnia, or suicidality. Vornorexant acts as a dual orexin OX1 and OX2 receptor antagonist (DORA). It has a time to peak of 2.5 hours and a relatively short elimination half-life of 1.3 to 3.3 hours. Vornorexant was designed to have a short half-life and duration in order to reduce next-day side effects like somnolence. Vornorexant was first described in the scientific literature by 2020. It was developed by Taisho Pharmaceutical in Japan. The drug was approved for the treatment of insomnia in Japan in August 2025. It was also under development for the treatment...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-21T18:47:23.003528Z"
+    },
+    {
+      "source_id": "wiki-random:zh:8959012",
+      "source_name": "ZH Wikipedia：過錳酸鉀 (藥用)",
+      "source_url": "https://zh.wikipedia.org/wiki/%E9%81%8E%E9%8C%B3%E9%85%B8%E9%89%80_(%E8%97%A5%E7%94%A8)",
+      "title": "過錳酸鉀 (藥用)",
+      "excerpt": "過錳酸鉀 (藥用)（INN:potassium permanganate）是一種用於治療多種皮膚病的藥物。包括有足部真菌感染 (足癬)、膿痂疹、天皰瘡、表皮傷口 、皮膚炎和熱帶潰瘍 。通常會與普魯卡因苄青黴素一同使用以治療熱帶潰瘍。它可用作浸泡敷料或是藥浴。 此藥物為外用藥物。 使用後的副作用有皮膚不適和衣物變色。高錳酸鉀是一種氧化劑。如口服攝入，有導致中毒和死亡的可能。英國國家處方集因而於2015年建議在使用前，先將100毫克的過錳酸鉀溶解於1升水中，以形成1:10,000（0.01%）的溶液。 過錳酸鉀首次於17世紀製成，最晚在19世紀初就開始普遍用於醫療用途。它已列入世界衛生組織基本藥物清單中。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-21T18:48:21.195387Z"
+    },
+    {
+      "source_id": "wiki-random:en:653178",
+      "source_name": "EN Wikipedia：Icarians",
+      "source_url": "https://en.wikipedia.org/wiki/Icarians",
+      "title": "Icarians",
+      "excerpt": "The Icarians () was an American utopian socialist movement, established by the followers of French politician, journalist, and author Étienne Cabet. In an attempt to put his economic and social theories into practice, many of Cabet's followers moved in 1848 to the United States, where they established a series of egalitarian communes in the states of Texas, Illinois, Iowa, Missouri, and California. The movement split several times due to factional disagreements. The last community of Icarians, located a few miles outside Corning, Iowa, disbanded voluntarily in 1898. The 46 years of tenure at this location made the Corning Icarian Colony one of the longest-lived non-religious communal living experiments in US history.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-21T18:48:21.196027Z"
+    },
+    {
+      "source_id": "wiki-random:en:5910480",
+      "source_name": "EN Wikipedia：Light Yagami",
+      "source_url": "https://en.wikipedia.org/wiki/Light_Yagami",
+      "title": "Light Yagami",
+      "excerpt": "Light Yagami (Japanese: 夜神 月ライト, Hepburn: Yagami Raito) is the main protagonist of the manga series Death Note, created by Tsugumi Ohba and Takeshi Obata. He is portrayed as a brilliant but bored genius who finds the Death Note, a supernatural notebook that allows the user to kill anyone by knowing their name and face, after it is dropped by the Shinigami Ryuk. With the power of the Death Note, Light eliminates those he deems morally unworthy of life, masterminding a worldwide massacre as the mass murderer Kira (キラ). He claims that he is making the world a better place by purging it of all its crime and impurities, taking the stance of the \"God of the new world\" and thus fulfilling his goal, although his massacre involved a significant amount of innocent civilians or law officers. Over the course of his efforts to create a world free of crime, wherein he would rule as a godlike figure, Yagami is pursued by law enforcement groups such as the NPA and a world-renowned detective named L. In the anime adaptation, he is voiced by Mamoru Miyano in Japanese and by Brad Swaile in the English version. In the live-action film series, he is portrayed by Tatsuya Fujiwara with Swaile reprising his...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-21T18:48:21.196380Z"
+    },
+    {
+      "source_id": "wiki-random:zh:6143223",
+      "source_name": "ZH Wikipedia：安阳号导弹护卫舰",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%AE%89%E9%98%B3%E5%8F%B7%E5%AF%BC%E5%BC%B9%E6%8A%A4%E5%8D%AB%E8%88%B0",
+      "title": "安阳号导弹护卫舰",
+      "excerpt": "“安阳”号导弹护卫舰（舷号599）简称“安阳”舰，是中国人民解放军海军054A型导弹护卫舰27号舰，可以单独或者协同海军其他兵力攻击敌水面舰艇及潜艇，具有较强的远程警戒和防空作战能力。河南省安阳市于2015年7月向海军总部递送命名请示后，安阳舰2016年9月命名。该舰由沪东中华造船厂建造，于2017年3月24日举行出坞下水仪式，3月28日下水，2018年4月12日在浙江省舟山市某军港举行入列命名授旗仪式，服役于东部战区海军驱逐舰第六支队。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-21T18:48:21.197220Z"
+    },
+    {
+      "source_id": "wiki-random:zh:219016",
+      "source_name": "ZH Wikipedia：法蘭西第二共和國",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%B3%95%E8%98%AD%E8%A5%BF%E7%AC%AC%E4%BA%8C%E5%85%B1%E5%92%8C%E5%9C%8B",
+      "title": "法蘭西第二共和國",
+      "excerpt": "法兰西第二共和国（法語：Deuxième République，亦作Seconde République），是法国自1848年2月24日巴黎临时宣告共和起，至1852年12月2日拿破仑三世被宣告为皇帝为止的共和政体。它上承七月王朝，下启第二帝国；而第二帝国的序幕，正是路易-拿破仑·波拿巴在此前一年同月同日发动的政变。第二共和国在法国历史的诸政体中显得与众不同：首先是它极为短促，其次它是最后一个由革命催生的政权，最后，它是法国首次实行男性普选权、并最终在法国殖民地永久废除奴隶制的政体。 在一段相对同心协力的过渡时期中，政府采纳了革命者中工人一翼所要求的若干社会措施；此后政局趋于稳定，却明显转向保守：当局试图限制刚刚确立的普选权，排挤社会主义者，并制定了一部宪法。 1848年12月起，路易-拿破仑·波拿巴出任共和国总统，他作为秩序党的旗手当选，任期四年。随后是数年保守政治，其标志包括使天主教会更深地介入教育的《法卢法》，以及为遏制以山岳派为代表的左翼回潮而对普选权作出的明显限制。波拿巴的社会主张让他与推他上台的政党渐行渐远，另一批人转而聚到他身边，形成新的波拿巴主义核心圈；而秩序党则指望在1852年把一名保王派候选人送上总统之位。 宪法禁止波拿巴在任满后连任，他施压要求修宪未果，遂与亲信策划了1851年12月2日政变，并借公民投票获得民众追认，从而建立威权体制。翌年1月14日，波拿巴颁布新宪法；同年12月2日，他又经一次公民投票获得帝位，共和政体让位于第二帝国。第二共和国动荡的终局给法国政治阶层留下长久的阴影：此后一百多年间，他们始终拒绝让共和国总统再度由普选产生。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-21T18:48:21.199533Z"
+    },
+    {
+      "source_id": "wiki-random:zh:979091",
+      "source_name": "ZH Wikipedia：科学可视化",
+      "source_url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E5%AD%A6%E5%8F%AF%E8%A7%86%E5%8C%96",
+      "title": "科学可视化",
+      "excerpt": "科学可视化（英语：scientific visualization 或 scientific visualisation）是科学之中的一个跨学科研究与应用领域，主要关注的是三维现象的可视化，如建筑学、气象学、医学或生物学方面的各种系统。重点在于对体、面以及光源等等的逼真渲染，或许甚至还包括某种动态（时间）成分。 科学可视化侧重于利用计算机图形学来创建客觀的视觉图像，將數學方程等文字資訊轉換大量壓縮呈現在一張圖紙上，从而帮助人们理解那些采取错综复杂而又往往规模庞大的方程、数字等等形式所呈现的科学概念或结果，除有助於公眾吸收之外，重要的是便於專家快速了解狀況，在同樣時間內做出有效的篩選和判斷。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-21T18:49:19.956847Z"
+    },
+    {
+      "source_id": "wiki-random:en:43536816",
+      "source_name": "EN Wikipedia：Project Valhalla (Java language)",
+      "source_url": "https://en.wikipedia.org/wiki/Project_Valhalla_(Java_language)",
+      "title": "Project Valhalla (Java language)",
+      "excerpt": "In computing, Project Valhalla is an experimental OpenJDK project to develop major new language features for Java 10 and beyond. The project was announced in July 2014 and is an experimental effort by Oracle, led by engineer Brian Goetz. The project page offers an overview as well as links to technical drafts and early-access builds.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-21T18:49:19.957212Z"
+    },
+    {
+      "source_id": "wiki-random:zh:7144072",
+      "source_name": "ZH Wikipedia：動物遷徙",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%8B%95%E7%89%A9%E9%81%B7%E5%BE%99",
+      "title": "動物遷徙",
+      "excerpt": "動物遷徙，又稱動物遷移（英語：Animal migration），是指個別動物在季節性基礎上的長距離運動，它是生態學中最常見的遷徙形式。動物遷徙在所有主要動物物種中都會出現，包括鳥類、哺乳動物、魚類、爬行動物、兩棲動物、昆蟲和甲殼類動物。遷移的原因是可能受當地的氣候和食物供應影響，以及出於交配或繁殖的原因。一般情況下，如要算作是真正的遷徙，並不是動物局部性的擴散，而應該是每年或季節性發生，例如北半球的鳥類在冬季向南遷徙，牛羚每年遷徙以進行季節性放牧，又或是生活中發生的主要棲息地變化，例如幼小的大西洋鮭魚或海七鰓鰻，當它們長到幾英寸時就離開了牠們出生的位置。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-21T18:49:19.957391Z"
+    },
+    {
+      "source_id": "wiki-random:zh:6506206",
+      "source_name": "ZH Wikipedia：毒性休克症候群",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%AF%92%E6%80%A7%E4%BC%91%E5%85%8B%E7%97%87%E5%80%99%E7%BE%A4",
+      "title": "毒性休克症候群",
+      "excerpt": "毒性休克症候群（英語：Toxic shock syndrome，TSS）是一種因細菌外毒素引起的症候群。相關症狀包含發燒、紅疹、皮膚脫落，及低血壓等。其它與特定病原菌相關的症狀包含乳腺炎、骨髓炎、坏死性筋膜炎及肺炎等。 造成毒性休克症候群的病原菌包含化膿性鏈球菌（Streptococcus pyogenes）和金黃葡萄球菌（Staphylococcus aureus）。鏈球菌性毒性休克症候群有時又稱為似毒性休克症候群（toxic-shock-like syndrome，TSLS），其致病機轉乃是入侵性鏈球菌性或局部葡萄球菌感染釋出的超级抗原所致。葡萄球菌性的危險因子包含使用超吸水型衛生棉條，或是兒童身上的表皮病灶。診斷一般透過症狀進行。 治療方式可給予抗细菌药，若存在膿瘍建議切開引流。静脉注射免疫球蛋白也可以用於治療。一般建議若為鏈球菌性感染建議進行外科清創，移除感染源，但此作法的必要性相關實證仍相對薄弱。有些文獻甚至建議可以延後清創。鏈球菌性感染的死亡率高達五成，葡萄球菌則約為5%，可能在2日內致死。 在美國，鏈球菌性毒性休克症候群約為每年10萬分之3，葡萄球菌性則約為20萬分之1。此疾病在发展中国家較為常見。本疾病於1927年首度記述。由於毒性休克症候群與超吸水性衛生棉條的高度相關性，目前此類產品已經全面下架。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-21T18:49:19.961998Z"
+    },
+    {
+      "source_id": "wiki-random:en:82430831",
+      "source_name": "EN Wikipedia：Dáil bike shed",
+      "source_url": "https://en.wikipedia.org/wiki/D%C3%A1il_bike_shed",
+      "title": "Dáil bike shed",
+      "excerpt": "The Dáil bike shed, or bike shelter, is a roofed bicycle parking rack at the rear of Leinster House (the seat of the parliament of Ireland) in Dublin that was completed in April 2024 and became the subject of controversy in the Irish government and media in September 2024 after its disproportionately high cost was revealed. Construction of the shelter was outsourced by the Office of Public Works to Sensori Facilities Management, and cost taxpayers €336,051. It allows for the storage of 18 bicycles. The bike shed is on the east side of the Leinster House complex, at the side of a green area named Leinster Lawn, which faces Merrion Square. The story received so much coverage in September 2024 and the months following, that a number of news sources applied a 'Bike Shed' tag to their articles on the subject.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-21T18:50:17.891152Z"
+    },
+    {
+      "source_id": "wiki-random:zh:5994047",
+      "source_name": "ZH Wikipedia：三星Galaxy J2 Prime",
+      "source_url": "https://zh.wikipedia.org/wiki/%E4%B8%89%E6%98%9FGalaxy_J2_Prime",
+      "title": "三星Galaxy J2 Prime",
+      "excerpt": "三星Galaxy J2 Prime是由韩国三星電子製造的一款Android智慧型手機，於2016年11月於台灣上市。三星Galaxy J2 Prime 運行Android 6.0.1 Marshmallow作業系統。這台智慧型手機搭載了聯發科MT6737T SoC，由4個ARM Cortex-A53 核心、Mali-T720 GPU、1.5 GB的記憶體和8 GB儲存空間組成，最大可以擴充到256GB的MicroSD記憶卡，支援4G雙卡雙待，電池為可拆卸式2600mAh。前代為俗稱大奇機的三星Galaxy Grand Prime。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-21T18:50:17.891955Z"
+    },
+    {
+      "source_id": "wiki-random:zh:54618",
+      "source_name": "ZH Wikipedia：萨尔瓦多·阿连德",
+      "source_url": "https://zh.wikipedia.org/wiki/%E8%90%A8%E5%B0%94%E7%93%A6%E5%A4%9A%C2%B7%E9%98%BF%E8%BF%9E%E5%BE%B7",
+      "title": "萨尔瓦多·阿连德",
+      "excerpt": "萨尔瓦多·吉列尔莫·阿连德·戈森斯（西班牙語：Salvador Guillermo Allende Gossens，拉丁美洲西班牙語發音：[salβaˈðoɾ ɣiˈʝeɾmo aˈʝende ˈɣosens]；1908年6月26日—1973年9月11日）是智利政治人物、医生。作为一名坚持民主的社会主义者，他被视为拉丁美洲第一位通过选举上任的马克思主义者和社会主义者总统。阿连德于1970年就任，于1973年9月11日由美国中央情报局支持的军事政变中身亡，此後智利進入皮诺切特长达17年的军事独裁统治。他的政治思想被称为阿连德主义。 萨尔瓦多·阿连德参与智利政治活动近四十年，期间历任参议员、众议员及内阁部长等职。作为智利社会党的终身坚定成员--他曾积极参与该党创建--他先后在1952年、1958年和1964年的总统竞选中落败。1970年，他作为人民团结联盟的候选人在一场激烈的三方竞选中胜出，由于没有候选人获得绝对多数，他最终由国会投票当选总统。就任期间，阿连德推行其所谓的“智利社会主义之路”政策。然而，联合政府内部存在严重分歧：阿连德坚持民主，代表了社会党中较温和的派别，而党内激进派则主张更彻底的变革；同时，智利共产党主张采取渐进和谨慎的策略，希望与基督教民主党合作，这一策略后来对意大利共产党及其“历史性妥协”政策产生了影响。 在总统任内，阿连德致力于主要产业国有化、扩大教育投入并改善工人阶级生活水平，与掌控国会的右翼政党及司法系统屡生冲突。1973年9月11日，在美国中央情报局支持下，以奥古斯托·皮诺切特为首的智利军方发动政变推翻阿连德，尽管中央情报局最初否认这一指控。2000年，中情局承认曾参与1970年绑架勒内·施奈德将军，他曾拒绝动用军队阻止阿连德就职。2023年解密的文件显示，曾将阿连德定性为危险共产主义分子的美国总统理查德·尼克松、国家安全顾问亨利·基辛格及美国政府，在政变前数日就已获悉军方推翻民选政府的计划。当军队包围拉莫内达宫时，阿连德发表最后演说誓言绝不辞职。当日，这位总统在办公室自杀身亡，但其死亡的具体细节至今仍存争议。 阿连德去世后，奥古斯托·皮诺切特将军拒绝将政权归还给文官政府，智利随后由军政府统治，终结了四十多年不间断的民主治理——这一时期被称为“总统制共和国”。军政府上台后解散了国会，废止1925年宪法，并开始镇压所谓“异见分子”，导致至少3,095名平民被杀害或失踪。皮诺切特的军事独裁统治一直持续到1989年，在国际社会的支持下，智利通过宪法公投，才实现了和平的民主过渡。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-21T18:50:17.894590Z"
+    },
+    {
+      "source_id": "wiki-random:en:52138849",
+      "source_name": "EN Wikipedia：Kelechi Harrison",
+      "source_url": "https://en.wikipedia.org/wiki/Kelechi_Harrison",
+      "title": "Kelechi Harrison",
+      "excerpt": "Kelechi Harrison or Harrison Kelechi Ukawulazu (born 13 January 1999 in Imo State) is a Nigerian football player currently playing in the Nigeria Premier League for Nasarawa United. He has played for Nigeria Professional Football League (NPFL) team Ikorodu United F.C. of Lagos, [Warri Wolves] of Delta State and is now on his first season stint with Nasarawa United Football Club. In 2018/2019 season he signed for newly promoted Togolese Championat Nationale club Sara Sports de Bafilo where he had a very successful season before being signed by Warri Wolves for the 2019/2020 season; his first professional contract with Warri Wolves while on a pre-season trial tournament with Bendel Insurance who were ready to offer him a professional contract as well, but he chose Wolves because he wanted to play in the CAF Champions League in that season.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-21T18:50:17.895584Z"
+    },
+    {
+      "source_id": "wiki-random:en:36130946",
+      "source_name": "EN Wikipedia：Blaue Scheune",
+      "source_url": "https://en.wikipedia.org/wiki/Blaue_Scheune",
+      "title": "Blaue Scheune",
+      "excerpt": "The Blaue Scheune ('Blue Barn') in the village of Vitte on the German Baltic Sea island of Hiddensee was originally a Low German hall house from the early 19th century. It housed not only the barn, but also the bakery and the living area for a master miller and baker. The artist, Henni Lehmann, bought the old building around 1920 and chose the blue colour to which the house owes its name today. The Blaue Scheune became well known as a result of regular exhibitions by the Hiddensee Women Artists' Federation (Hiddenseer Künstlerinnenbundes). This circle was closely linked to Katharina Bamberg, Clara Arnheim and Elisabeth Andrae as well as the best-known of Hiddensee's women artists, Elisabeth Büchsel. In the 1950s the artist, Günter Fink (1913-2000), bought the historical residence. Since then it has become again a popular attraction for art lovers. The gallery is open to the public in the summer months twice a week (Wednesdays and Sundays). The Blaue Scheune is the last surviving smokehouse (Rauchhaus), so called because it had no chimney and the smoke escaped through cracks and gaps in the roof.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-21T18:50:17.896193Z"
     }
   ]
 }

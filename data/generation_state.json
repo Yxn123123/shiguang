@@ -1608,7 +1608,151 @@
       "source_url": "https://en.wikipedia.org/wiki/Degranulation",
       "outcome": "reviewed_not_saved",
       "reason": ""
+    },
+    "wiki-topic:en:54270126": {
+      "last_seen": "2026-07-22T18:40:05.363012Z",
+      "source_url": "https://en.wikipedia.org/wiki/Corpus_language",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:34146519": {
+      "last_seen": "2026-07-22T18:40:05.363026Z",
+      "source_url": "https://en.wikipedia.org/wiki/Dialect_levelling",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "onthisday:zh:07/19:2010:9": {
+      "last_seen": "2026-07-22T18:40:05.363034Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E8%81%94%E5%90%88%E5%9B%BD",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "onthisday:zh:07/20:2015:3": {
+      "last_seen": "2026-07-22T18:40:05.363040Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E4%BC%8A%E6%96%AF%E5%85%B0%E5%9B%BD",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:1060279": {
+      "last_seen": "2026-07-22T18:40:05.363044Z",
+      "source_url": "https://en.wikipedia.org/wiki/Coping",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:76083036": {
+      "last_seen": "2026-07-22T18:40:05.363048Z",
+      "source_url": "https://en.wikipedia.org/wiki/Does_Coffee_Cause_Cancer%3F",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:3690837": {
+      "last_seen": "2026-07-22T18:40:05.363052Z",
+      "source_url": "https://en.wikipedia.org/wiki/Bifidobacterium_animalis",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:61613309": {
+      "last_seen": "2026-07-22T18:40:05.363056Z",
+      "source_url": "https://en.wikipedia.org/wiki/Communal_coping",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:33548640": {
+      "last_seen": "2026-07-22T18:40:05.363059Z",
+      "source_url": "https://en.wikipedia.org/wiki/PI_curve",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:70608126": {
+      "last_seen": "2026-07-22T18:40:05.363063Z",
+      "source_url": "https://en.wikipedia.org/wiki/Amanda_Bradford",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:42433033": {
+      "last_seen": "2026-07-22T18:40:05.363066Z",
+      "source_url": "https://en.wikipedia.org/wiki/Arcadian_ecology",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:23589578": {
+      "last_seen": "2026-07-22T18:40:05.363070Z",
+      "source_url": "https://en.wikipedia.org/wiki/Assimilative_capacity",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:77145895": {
+      "last_seen": "2026-07-22T18:40:05.363073Z",
+      "source_url": "https://en.wikipedia.org/wiki/Armstrong_process",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:69867945": {
+      "last_seen": "2026-07-22T18:40:05.363077Z",
+      "source_url": "https://en.wikipedia.org/wiki/Bigoni%E2%80%93Piccolroaz_yield_criterion",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:32185392": {
+      "last_seen": "2026-07-22T18:40:05.363080Z",
+      "source_url": "https://en.wikipedia.org/wiki/Alpha_factor",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:78283444": {
+      "last_seen": "2026-07-22T18:40:05.363083Z",
+      "source_url": "https://en.wikipedia.org/wiki/Robotics_engineering",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:65888": {
+      "last_seen": "2026-07-22T18:40:05.363087Z",
+      "source_url": "https://en.wikipedia.org/wiki/Electromagnetic_induction",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:78389810": {
+      "last_seen": "2026-07-22T18:40:05.363090Z",
+      "source_url": "https://en.wikipedia.org/wiki/96P_sungrazer_family",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:50650": {
+      "last_seen": "2026-07-22T18:40:05.363094Z",
+      "source_url": "https://en.wikipedia.org/wiki/Astronomy",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:74848733": {
+      "last_seen": "2026-07-22T18:40:05.363097Z",
+      "source_url": "https://en.wikipedia.org/wiki/Meitei_astronomy",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:13413780": {
+      "last_seen": "2026-07-22T18:40:05.363101Z",
+      "source_url": "https://en.wikipedia.org/wiki/Alloplastic_adaptation",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:2105018": {
+      "last_seen": "2026-07-22T18:40:05.363104Z",
+      "source_url": "https://en.wikipedia.org/wiki/Disinhibition",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:65462416": {
+      "last_seen": "2026-07-22T18:40:05.363108Z",
+      "source_url": "https://en.wikipedia.org/wiki/Exoplanet_Explorers",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:53905375": {
+      "last_seen": "2026-07-22T18:40:05.363112Z",
+      "source_url": "https://en.wikipedia.org/wiki/Anthropology_of_food",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
     }
   },
-  "updated_at": "2026-07-22T18:37:50.513865Z"
+  "updated_at": "2026-07-22T18:40:05.369883Z"
 }

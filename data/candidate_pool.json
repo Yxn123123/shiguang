@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-22T18:37:50.508246Z",
+  "updated_at": "2026-07-22T18:40:05.364911Z",
   "candidates": [
     {
       "source_id": "wiki-topic:en:77737401",
@@ -73,16 +73,6 @@
       "added_at": "2026-07-12T11:39:40.568006Z"
     },
     {
-      "source_id": "wiki-topic:en:78283444",
-      "source_name": "EN Wikipedia：Robotics engineering",
-      "source_url": "https://en.wikipedia.org/wiki/Robotics_engineering",
-      "title": "Robotics engineering",
-      "excerpt": "Robotics engineering is a branch of engineering that focuses on the conception, design, manufacturing, and operation of robots. It involves a multidisciplinary approach, drawing primarily from mechanical, electrical, software, and artificial intelligence (AI) engineering . Robotics engineers are tasked with designing these robots to function reliably and safely in real-world scenarios, which often require addressing complex mechanical movements, real-time control, and adaptive decision-making through software and AI.",
-      "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.568006Z"
-    },
-    {
       "source_id": "wiki-topic:en:40174279",
       "source_name": "EN Wikipedia：Australian Journal of Earth Sciences",
       "source_url": "https://en.wikipedia.org/wiki/Australian_Journal_of_Earth_Sciences",
@@ -93,42 +83,12 @@
       "added_at": "2026-07-12T11:39:40.568006Z"
     },
     {
-      "source_id": "wiki-topic:en:54270126",
-      "source_name": "EN Wikipedia：Corpus language",
-      "source_url": "https://en.wikipedia.org/wiki/Corpus_language",
-      "title": "Corpus language",
-      "excerpt": "A corpus language is a language that has no living speakers but for which numerous records produced by its native speakers survive. Examples of corpus languages are Ancient Greek, Latin, the Egyptian language, Old English, Old Norse, Elamite, and Sanskrit. Some corpus languages, such as Ancient Greek and Latin, left very large corpora and therefore can be fully reconstructed, even though some details of pronunciation may be unclear. Such languages can be used even today, as is the case with Sanskrit and Latin. Other languages have such limited corpora that some important words—e.g., some pronouns—are lacking in the corpora. Examples of these are Ugaritic and Gothic. Languages attested only by a few words, often names, and a few phrases, are called Trümmersprache (literally \"rubble languages\") in German linguistics. These can be reconstructed only in a very limited way, and often their genetic relationship to other languages remains unclear. Examples are Dalmatian, Etruscan, also known as Rasenna, Dadanitic, a Semitic language that may be close to classical Arabic, Lombardic, Burgundian, Vandalic, and Oscan, Umbrian, and Faliscan, all Italic languages that were related to Latin. Corpus...",
-      "category_hint": "综合",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.568006Z"
-    },
-    {
-      "source_id": "wiki-topic:en:77145895",
-      "source_name": "EN Wikipedia：Armstrong process",
-      "source_url": "https://en.wikipedia.org/wiki/Armstrong_process",
-      "title": "Armstrong process",
-      "excerpt": "The Armstrong process is used to refine titanium. Its output is particle-sized dust which can be sprayed into pattern-molds. It was patented in 1999. The output of this process has a \"coral-like morphology\", which differs from the traditional outputs like \"spherical gas-atomized powder, mechanically crushed angular particles, or the titanium sponge morphology created during the Kroll process.\"",
-      "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.569010Z"
-    },
-    {
       "source_id": "wiki-topic:en:563299",
       "source_name": "EN Wikipedia：Human behavior",
       "source_url": "https://en.wikipedia.org/wiki/Human_behavior",
       "title": "Human behavior",
       "excerpt": "Human behavior is the potential and expressed capacity (mentally, physically, and socially) of human individuals or groups to respond to internal and external stimuli throughout their life. Behavior is driven by environmental and genetic factors that affect an individual. Behavior is also driven, in part, by thoughts and feelings, which provide insight into individual psyche, revealing such things as attitudes and values. Human behavior is shaped by psychological traits, as personality types vary from person to person, producing different actions and behavior. Human behavior encompasses a vast array of domains that span the entirety of human experience. Social behavior involves interactions between individuals and groups , while cultural behavior reflects the diverse patterns, values, and practices that vary across societies and historical periods.Moral behavior encompasses ethical decision-making and value-based conduct,contrasted with antisocial behavior that violates social norms and legal standards.Cognitive behavior involves mental processes of learning, memory, and decision-making, interconnected with psychological behavior that includes emotional regulation, mental health, and...",
       "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.569010Z"
-    },
-    {
-      "source_id": "wiki-topic:en:65462416",
-      "source_name": "EN Wikipedia：Exoplanet Explorers",
-      "source_url": "https://en.wikipedia.org/wiki/Exoplanet_Explorers",
-      "title": "Exoplanet Explorers",
-      "excerpt": "Exoplanet Explorers was a Zooniverse citizen science project aimed at discovering new exoplanets with Kepler data from the K2 mission. The project was launched in April 2017 and reached 26,281 registered volunteers. Two campaigns took place, the first one containing 148,061 images and the second one 56,794 images. A total of 9 exoplanets were found through the project: K2-138 b, c, d, e, f and g (initially referred to as EE-1b, EE-1c, EE-1d, and EE-1e), K2-233 b, c, and d, and K2-288Bb. K2-288Bb is considered to be potentially habitable with a radius of 1.91 Earth radii and a temperature of 206 K. Several other candidates in size groups were also found: Jupiters: 44, Neptunes: 72, super-Earths: 53, Earths: 15.",
-      "category_hint": "科学",
       "source_rank": 2,
       "added_at": "2026-07-12T11:39:40.569010Z"
     },
@@ -149,16 +109,6 @@
       "title": "Advanced materials industry in China",
       "excerpt": "As an important part of the national sustainable development strategy, the development of advanced materials is advancing the competitive nature and state of the art for Chinese industry. The State has put advanced materials high on its development agenda for the next decade and listed it among the key high-tech industry sectors that would be given priority for development by the State Council. At present, the pace of building China's advanced materials industry is accelerating. Advanced materials have been key fields in China's national R&D system (National High Technology Research and Development Program (863 Program) and National Basic Research Program (973 Program)).",
       "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.570020Z"
-    },
-    {
-      "source_id": "wiki-topic:en:13413780",
-      "source_name": "EN Wikipedia：Alloplastic adaptation",
-      "source_url": "https://en.wikipedia.org/wiki/Alloplastic_adaptation",
-      "title": "Alloplastic adaptation",
-      "excerpt": "Alloplastic adaptation (from the Greek word \"allos\", meaning \"other\") is a form of adaptation where the subject attempts to change the environment when faced with a difficult situation. Criminality, mental illness, and activism can all be classified as categories of alloplastic adaptation. The concept of alloplastic adaptation was developed by Sigmund Freud, Sándor Ferenczi, and Franz Alexander. They proposed that when an individual was presented with a stressful situation, he could react in one of two ways: Autoplastic adaptation: The subject tries to change himself, i.e. the internal environment. Alloplastic adaptation: The subject tries to change the situation, i.e. the external environment.",
-      "category_hint": "生活",
       "source_rank": 2,
       "added_at": "2026-07-12T11:39:40.570020Z"
     },
@@ -198,16 +148,6 @@
       "source_url": "https://en.wikipedia.org/wiki/Solo_living",
       "title": "Solo living",
       "excerpt": "Solo living refers to the domestic situation of individuals who live alone. This has received attention from behavioral experts and researchers, in regard to how to help address the personal needs of such individuals, and to provide them with resources which can be beneficial. Various published articles address practical advice and methods for individuals who live alone, in order to help them find beneficial ways for improving various parts of daily life.",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.572028Z"
-    },
-    {
-      "source_id": "wiki-topic:en:53905375",
-      "source_name": "EN Wikipedia：Anthropology of food",
-      "source_url": "https://en.wikipedia.org/wiki/Anthropology_of_food",
-      "title": "Anthropology of food",
-      "excerpt": "The anthropology of food is a sub-field of cultural anthropology that connects an ethnographic and historical perspective with contemporary social issues in food-production and food-consumption systems. Although early anthropological accounts often dealt with cooking and eating as part of ritual or daily life, food rarely became the central point of academic focus. This changed in the later half of the 20th century, when foundational work by Mary Douglas, Marvin Harris, Arjun Appadurai, Jack Goody, and Sidney Mintz cemented the study of food as a key insight into modern social life. Mintz became known as the \"Father of food anthropology\" for his 1985 work Sweetness and Power, which linked Europe's demand for sugar with imperial expansion and with exploitative industrial-labor conditions in both Europe and America. Research has traced the material and symbolic importance of food, as well as how they intersect. Examples of ongoing research themes include food as a form of differentiation, commensality, and food's role in industrialization and in globalizing labor and commodity chains. Several related and interdisciplinary academic programs exist in the US and the UK (listed under Food...",
       "category_hint": "生活",
       "source_rank": 2,
       "added_at": "2026-07-12T11:39:40.572028Z"
@@ -253,16 +193,6 @@
       "added_at": "2026-07-12T11:39:40.573028Z"
     },
     {
-      "source_id": "wiki-topic:en:78389810",
-      "source_name": "EN Wikipedia：96P sungrazer family",
-      "source_url": "https://en.wikipedia.org/wiki/96P_sungrazer_family",
-      "title": "96P sungrazer family",
-      "excerpt": "The 96P sungrazer family is a small group of sungrazing comets, originating from the comet 96P/Machholz. It is only observed by LASCO corongraphs aboard SOHO (Solar and Heliospheric Observatory) probe. It is made out of three subgroups: Marsden, Kracht and Kracht II. 96P type is the rarest among all objects recorded by SOHO: just 3% of all belong to this group. The 5000th comet observed by this probe belongs to the Marsden group, and was discovered on 25 March 2024.",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.573028Z"
-    },
-    {
       "source_id": "wiki-topic:en:10389558",
       "source_name": "EN Wikipedia：Jack B. Newton",
       "source_url": "https://en.wikipedia.org/wiki/Jack_B._Newton",
@@ -283,16 +213,6 @@
       "added_at": "2026-07-12T11:39:40.574028Z"
     },
     {
-      "source_id": "wiki-topic:en:1060279",
-      "source_name": "EN Wikipedia：Coping",
-      "source_url": "https://en.wikipedia.org/wiki/Coping",
-      "title": "Coping",
-      "excerpt": "Coping refers to the application of coping mechanisms, conscious and unconscious cognitions that people use to manage unpleasant emotions, stress, and anxiety. Coping mechanisms can be adaptive, meaning that they successfully improve the well-being of the person applying them, or maladaptive, meaning they may manage a specific unpleasant emotion, but at the expense of other aspects of one's mental and/or physical health.",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.574028Z"
-    },
-    {
       "source_id": "wiki-topic:en:43831428",
       "source_name": "EN Wikipedia：Overprovisioning",
       "source_url": "https://en.wikipedia.org/wiki/Overprovisioning",
@@ -301,36 +221,6 @@
       "category_hint": "科技",
       "source_rank": 2,
       "added_at": "2026-07-12T11:39:40.574028Z"
-    },
-    {
-      "source_id": "wiki-topic:en:23589578",
-      "source_name": "EN Wikipedia：Assimilative capacity",
-      "source_url": "https://en.wikipedia.org/wiki/Assimilative_capacity",
-      "title": "Assimilative capacity",
-      "excerpt": "Assimilative capacity is the ability for pollutants to be absorbed by an environment without detrimental effects to the environment or those who use of it. Natural absorption into an environment is achieved through dilution, dispersion and removal through chemical or biological processes. The term assimilative capacity has been used interchangeably with environmental capacity, receiving capacity and absorptive capacity. It is used as a measurement perimeter in hydrology, meteorology and pedology for a variety of environments examples consist of: lakes, rivers, oceans, cities and soils. Assimilative capacity is a subjective measurement that is quantified by governments and institutions such as Environmental Protection Agency (EPA) of environments into guidelines. Using assimilative capacity as a guideline can help the allocation of resources while reducing the impact on organisms in an environment. This concept is paired with carrying capacity in order to facilitate sustainable development of city regions. Assimilative capacity has been critiqued as to its effectiveness due to ambiguity in its definition that can confuses readers and false assumptions that a small amount of pollutants...",
-      "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.574028Z"
-    },
-    {
-      "source_id": "wiki-topic:en:74848733",
-      "source_name": "EN Wikipedia：Meitei astronomy",
-      "source_url": "https://en.wikipedia.org/wiki/Meitei_astronomy",
-      "title": "Meitei astronomy",
-      "excerpt": "The astronomy of Meitei civilisation deals with celestial objects, space, and the physical universe as a whole. Meitei language term “Khenchanglon” (Meitei: ꯈꯦꯟꯆꯪꯂꯣꯟ / ꯈꯦꯟꯆꯡꯂꯣꯟ) is derived from its ancient Meitei equivalent “Khenchonglon” (Meitei: ꯈꯦꯟꯆꯣꯡꯂꯣꯟ), literally meaning \"the growing up, evolving or emergence of natural / celestial body(ies) and energy(ies)\" and colloquially meaning \"astronomy or astronomical bodies, like stars, constellations, planets, satellites, comets, meteors, etc.\" The Meitei astronomy was also related to the tradition of astrology.",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.574028Z"
-    },
-    {
-      "source_id": "wiki-topic:en:2105018",
-      "source_name": "EN Wikipedia：Disinhibition",
-      "source_url": "https://en.wikipedia.org/wiki/Disinhibition",
-      "title": "Disinhibition",
-      "excerpt": "Disinhibition, also referred to as behavioral disinhibition, is medically recognized as an orientation towards immediate gratification, leading to impulsive behavior driven by current thoughts, feelings, and external stimuli, without regard for past learning or consideration for future consequences. It is one of five pathological personality trait domains in certain psychiatric disorders. In psychology, it is defined as a lack of restraint manifested in disregard of social conventions, impulsivity, and poor risk assessment. Hypersexuality, hyperphagia, substance abuse, money mismanagement, frequent faux pas, and aggressive outbursts are indicative of disinhibited instinctual drives. Certain psychoactive substances that have effects on the limbic system of the brain may induce disinhibition.",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.575563Z"
     },
     {
       "source_id": "wiki-topic:en:806478",
@@ -383,31 +273,11 @@
       "added_at": "2026-07-12T11:39:40.576001Z"
     },
     {
-      "source_id": "wiki-topic:en:3690837",
-      "source_name": "EN Wikipedia：Bifidobacterium animalis",
-      "source_url": "https://en.wikipedia.org/wiki/Bifidobacterium_animalis",
-      "title": "Bifidobacterium animalis",
-      "excerpt": "Bifidobacterium animalis is a gram-positive, anaerobic, rod-shaped bacterium of the Bifidobacterium genus which can be found in the large intestines of most mammals, including humans. Bifidobacterium animalis and Bifidobacterium lactis were previously described as two distinct species. Presently, both are considered B. animalis with the subspecies Bifidobacterium animalis subsp. animalis and Bifidobacterium animalis subsp. lactis. Both old names B. animalis and B. lactis are still used on product labels, as this species is frequently used as a probiotic. In most cases, which subspecies is used in the product is not clear.",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.576001Z"
-    },
-    {
       "source_id": "wiki-topic:en:1508445",
       "source_name": "EN Wikipedia：Ergosphere",
       "source_url": "https://en.wikipedia.org/wiki/Ergosphere",
       "title": "Ergosphere",
       "excerpt": "In astrophysics, the ergosphere is a region located just outside a rotating black hole, between its event horizon and a further external surface predicted by the Kerr metric which describes these objects. Its name was proposed by Remo Ruffini and John Archibald Wheeler during the Les Houches lectures in 1971 and is derived from Ancient Greek ἔργον (ergon) 'work'. It received this name because it is theoretically possible to extract energy and mass from this region. The ergosphere touches the event horizon at the poles of a rotating black hole and extends to a greater radius at the equator. A black hole with modest angular momentum has an ergosphere with a shape approximated by an oblate spheroid, while faster spins produce a more pumpkin-shaped ergosphere. The equatorial (maximal) radius of an ergosphere is the Schwarzschild radius, the radius of a non-rotating black hole. The polar (minimal) radius is also the polar (minimal) radius of the event horizon which can be as little as half the Schwarzschild radius for a maximally rotating black hole.",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.576001Z"
-    },
-    {
-      "source_id": "wiki-topic:en:50650",
-      "source_name": "EN Wikipedia：Astronomy",
-      "source_url": "https://en.wikipedia.org/wiki/Astronomy",
-      "title": "Astronomy",
-      "excerpt": "Astronomy is a natural science that studies celestial objects and the phenomena that occur in the cosmos. It uses mathematics, physics, and chemistry to explain their origin and their overall evolution. Objects of interest include planets, moons, stars, nebulae, galaxies, meteoroids, asteroids, and comets. Relevant phenomena include supernova explosions, gamma ray bursts, quasars, blazars, pulsars, and cosmic microwave background radiation. More generally, astronomy studies everything that originates beyond Earth's atmosphere. Cosmology is the branch of astronomy that studies the universe as a whole. Astronomy is one of the oldest natural sciences. The early civilizations in recorded history made methodical observations of the night sky. These include the Egyptians, Babylonians, Greeks, Indians, Chinese, Maya, and many ancient indigenous peoples of the Americas. In the past, astronomy included disciplines as diverse as astrometry, celestial navigation, observational astronomy, and the making of calendars. Astronomy is one of the few sciences in which amateurs play an active role. This is especially true for the discovery and observation of transient events. Amateur astronomers have...",
       "category_hint": "科学",
       "source_rank": 2,
       "added_at": "2026-07-12T11:39:40.576001Z"
@@ -451,16 +321,6 @@
       "category_hint": "科技",
       "source_rank": 2,
       "added_at": "2026-07-12T11:39:40.576511Z"
-    },
-    {
-      "source_id": "wiki-topic:en:32185392",
-      "source_name": "EN Wikipedia：Alpha factor",
-      "source_url": "https://en.wikipedia.org/wiki/Alpha_factor",
-      "title": "Alpha factor",
-      "excerpt": "The α-factor is a dimensionless quantity used to predict the solid–liquid interface type of a material during solidification. It was introduced by physicist Kenneth A. Jackson in 1958. In his model, crystal growth with larger values of α is smooth, whereas crystals growing at smaller α (below the threshold value of 2) have rough surfaces.",
-      "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.387642Z"
     },
     {
       "source_id": "wiki-topic:en:19682421",
@@ -553,16 +413,6 @@
       "added_at": "2026-07-12T20:09:32.388969Z"
     },
     {
-      "source_id": "wiki-topic:en:34146519",
-      "source_name": "EN Wikipedia：Dialect levelling",
-      "source_url": "https://en.wikipedia.org/wiki/Dialect_levelling",
-      "title": "Dialect levelling",
-      "excerpt": "Dialect levelling (or leveling in American English) is an overall reduction in the variation or diversity of a dialect's features when in contact with one or more other dialects. This can come about through assimilation, mixture, and merging of certain dialects, often amidst a process of language codification, which can be a precursor to standardization. One possible result is a koine language, in which various dialects mix together and simplify, settling into a new and more widely embraced form of the language. Another possible path is that a speech community increasingly adopts or exclusively preserves features with widespread social currency at the expense of their more local or traditional dialect features. Dialect levelling has been observed in most languages with large numbers of speakers after industrialization and modernization of the areas in which they are spoken. However, while less common, it could be observed in pre-industrial times too, especially in colonial dialects like American and Australian English or when sustained linguistic contact between different dialects over a large geographical area continues for long enough as in the Hellenistic world that produced Koine...",
-      "category_hint": "综合",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.389057Z"
-    },
-    {
       "source_id": "wiki-topic:en:25383607",
       "source_name": "EN Wikipedia：California Volcano Observatory",
       "source_url": "https://en.wikipedia.org/wiki/California_Volcano_Observatory",
@@ -601,16 +451,6 @@
       "category_hint": "科技",
       "source_rank": 2,
       "added_at": "2026-07-12T20:09:32.389875Z"
-    },
-    {
-      "source_id": "wiki-topic:en:65888",
-      "source_name": "EN Wikipedia：Electromagnetic induction",
-      "source_url": "https://en.wikipedia.org/wiki/Electromagnetic_induction",
-      "title": "Electromagnetic induction",
-      "excerpt": "Electromagnetic induction or magnetic induction is the production of an electromotive force (emf) across an electrical conductor in a changing magnetic field. Michael Faraday is generally credited with the discovery of induction in 1831, and James Clerk Maxwell mathematically described it as Faraday's law of induction. Lenz's law describes the direction of the induced field. Faraday's law was later generalized to become the Maxwell–Faraday equation, one of the four Maxwell equations in his theory of electromagnetism. Electromagnetic induction has found many applications, including electrical components such as inductors and transformers, and devices such as electric motors and generators.",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.390472Z"
     },
     {
       "source_id": "wiki-topic:en:20653168",
@@ -713,16 +553,6 @@
       "added_at": "2026-07-12T20:09:32.392362Z"
     },
     {
-      "source_id": "wiki-topic:en:42433033",
-      "source_name": "EN Wikipedia：Arcadian ecology",
-      "source_url": "https://en.wikipedia.org/wiki/Arcadian_ecology",
-      "title": "Arcadian ecology",
-      "excerpt": "Arcadian ecology is a school of thought that advocates for a harmonious relationship between humans and nature. It is named for the mountainous Arcady region of Greece. Gilbert White's seminal piece \"Natural History of Selbourne\" promotes a benign attitude towards nature and advocates for a peaceful coexistence between organisms. It was an individual realization of ancient arcadian ideas of harmonious interactions between humans and nature. The evolution of Arcadian ecological thought continuously reverts to the detailed letters and poems in this work. The harmonious relationship described by Arcadian ecology establishes a responsibility to resist the domination of nature. Donald Worster in his book, Nature's Economy: A History of Ecological Ideas, uses Imperial ecology as a counterpoint to Arcadian ecology. Imperial ecology takes a different approach, and suggests that humans should attempt to manage nature, because nature exists for man's benefit (utilitarianism). This contradiction is representative of the ecologists' struggle to explain humanity's relationship with nature while considering popular theological views of the time period. The discussion of Arcadian versus Imperial...",
-      "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-13T20:44:59.344615Z"
-    },
-    {
       "source_id": "wiki-topic:en:72588431",
       "source_name": "EN Wikipedia：Anglicisation (linguistics)",
       "source_url": "https://en.wikipedia.org/wiki/Anglicisation_(linguistics)",
@@ -793,26 +623,6 @@
       "added_at": "2026-07-13T20:44:59.349511Z"
     },
     {
-      "source_id": "wiki-topic:en:33548640",
-      "source_name": "EN Wikipedia：PI curve",
-      "source_url": "https://en.wikipedia.org/wiki/PI_curve",
-      "title": "PI curve",
-      "excerpt": "The PI (or photosynthesis-irradiance) curve is a graphical representation of the empirical relationship between solar irradiance and photosynthesis. A derivation of the Michaelis–Menten curve, it shows the generally positive correlation between light intensity and photosynthetic rate. It is a plot of photosynthetic rate as a function of light intensity (irradiance).",
-      "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-13T20:44:59.350191Z"
-    },
-    {
-      "source_id": "wiki-topic:en:61613309",
-      "source_name": "EN Wikipedia：Communal coping",
-      "source_url": "https://en.wikipedia.org/wiki/Communal_coping",
-      "title": "Communal coping",
-      "excerpt": "Communal coping is the collective effort of members of a connected network (familial or social) to manage a distressing event (Lyons, Michelson, Sullivan and Coyne, 1998). This definition and the scope of the concept positions communal coping as an offshoot of social support. According to Lyons et al. (1998), the communal coping conceptual framework emerged for two reasons. First, to expand the research that supports the claim that the coping process sometimes requires individual and collective effort (e.g. Fukuyama, 1995). Second, the need for a specific framework for investigating the cooperative characteristic of coping. To support the need for a framework which explores the social aspect of coping as a combined effort, the authors argued that the communal coping conceptual framework emphasizes the connectedness and reliance on personal network for coping. Developments to the communal coping framework include the explanation of the complex nature of the communal coping process (Afifi, Helgeson & Krouse, 2006) and specific personal outcomes (Helgeson, Jakubiak, Vleet, & Zajdel, 2018) following a communal coping process.",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-13T20:44:59.350492Z"
-    },
-    {
       "source_id": "wiki-topic:en:67545702",
       "source_name": "EN Wikipedia：Exometeorology",
       "source_url": "https://en.wikipedia.org/wiki/Exometeorology",
@@ -861,16 +671,6 @@
       "category_hint": "科技",
       "source_rank": 2,
       "added_at": "2026-07-14T20:46:40.126536Z"
-    },
-    {
-      "source_id": "wiki-topic:en:69867945",
-      "source_name": "EN Wikipedia：Bigoni–Piccolroaz yield criterion",
-      "source_url": "https://en.wikipedia.org/wiki/Bigoni%E2%80%93Piccolroaz_yield_criterion",
-      "title": "Bigoni–Piccolroaz yield criterion",
-      "excerpt": "The Bigoni–Piccolroaz yield criterion is a yielding model, based on a phenomenological approach, capable of describing the mechanical behavior of a broad class of pressure-sensitive granular materials such as soil, concrete, porous metals and ceramics.",
-      "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-14T20:46:40.126611Z"
     },
     {
       "source_id": "wiki-topic:en:52303418",
@@ -1063,16 +863,6 @@
       "added_at": "2026-07-19T18:14:14.899825Z"
     },
     {
-      "source_id": "wiki-topic:en:76083036",
-      "source_name": "EN Wikipedia：Does Coffee Cause Cancer?",
-      "source_url": "https://en.wikipedia.org/wiki/Does_Coffee_Cause_Cancer%3F",
-      "title": "Does Coffee Cause Cancer?",
-      "excerpt": "Does Coffee Cause Cancer? And 8 More Myths about the Food We Eat is a 2023 book by Canadian cardiologist Christopher Labos. It presents information about nine health myths through a series of conversations between fictional characters. The book uses a fictional story to present and dispel misconceptions around nine topics related to food science. The book aims to explain why food science is complex and to debunk some of the food myths that permeate society, with an evolving relationship as a narrative. Labos' publisher suggested he emulate the fictional style of The Wealthy Barber. He ended up developing a nine-chapter story arc featuring conversations between fictional characters that mirror exchanges that Labos had with acquaintances in real life. The chapters tell a continuous romantic story involving conversations between the protagonist and other people with whom he discussed various health topics. Mathematical and methodological discussions are appended to the text, on topics such as demographic selection and p-hacking. Labos is hoping to write a sequel, for which he wrote a sample chapter.",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-19T18:14:14.900203Z"
-    },
-    {
       "source_id": "wiki-topic:en:151604",
       "source_name": "EN Wikipedia：Deception",
       "source_url": "https://en.wikipedia.org/wiki/Deception",
@@ -1081,16 +871,6 @@
       "category_hint": "生活",
       "source_rank": 2,
       "added_at": "2026-07-19T18:14:14.900603Z"
-    },
-    {
-      "source_id": "wiki-topic:en:70608126",
-      "source_name": "EN Wikipedia：Amanda Bradford",
-      "source_url": "https://en.wikipedia.org/wiki/Amanda_Bradford",
-      "title": "Amanda Bradford",
-      "excerpt": "Dr. Amanda Bradford is a marine mammal biologist who is currently researching cetacean population dynamics for the National Marine Fisheries Service of the National Oceanic and Atmospheric Administration. Bradford is currently a Research Ecologist with the Pacific Islands Fisheries Science Center's Cetacean Research Program. Her research primarily focuses on assessing populations of cetaceans, including evaluating population size, health, and impacts of human-caused threats, such as fisheries interactions. Bradford is a cofounder and organizer of the Women in Marine Mammal Science (WIMMS) Initiative.",
-      "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-20T19:11:49.199904Z"
     },
     {
       "source_id": "wiki-topic:en:30960432",
@@ -1111,26 +891,6 @@
       "category_hint": "综合",
       "source_rank": 2,
       "added_at": "2026-07-20T19:11:49.200610Z"
-    },
-    {
-      "source_id": "onthisday:zh:07/19:2010:9",
-      "source_name": "Wikimedia On This Day：联合国",
-      "source_url": "https://zh.wikipedia.org/wiki/%E8%81%94%E5%90%88%E5%9B%BD",
-      "title": "2010: 聯合國經濟及社會理事會以23票贊成、13票反對、13票棄權、5票缺席，授予國際男女同性戀人權委員會於聯合國中的非政府組織諮商地位。",
-      "excerpt": "事件：聯合國經濟及社會理事會以23票贊成、13票反對、13票棄權、5票缺席，授予國際男女同性戀人權委員會於聯合國中的非政府組織諮商地位。\n相关页面摘要：聯合國是一個由世界各主權國家組成的政府間國際組織，致力於促進各國在國際法、國際安全、經濟發展、社會進步、人權、公民自由、政治自由、民主、實現持久世界和平等各方面的國際合作。聯合國成立於第二次世界大戰結束後的1945年，取代國際聯盟以防止戰爭的發生並為各國提供外交平臺。聯合國下設了許多附屬機構以實現其宗旨。聯合國總部設在美国纽约的曼哈頓，並受到治外法權的約束。其他主要辦事處設在日內瓦、內羅畢和維也納。",
-      "category_hint": "历史",
-      "source_rank": 3,
-      "added_at": "2026-07-19T18:14:14.900921Z"
-    },
-    {
-      "source_id": "onthisday:zh:07/20:2015:3",
-      "source_name": "Wikimedia On This Day：伊斯兰国",
-      "source_url": "https://zh.wikipedia.org/wiki/%E4%BC%8A%E6%96%AF%E5%85%B0%E5%9B%BD",
-      "title": "2015: 伊拉克和黎凡特伊斯蘭國（ISIL）宣稱對土耳其蘇魯奇的自殺式襲擊負責，該起襲擊造成34人死亡，104人受傷。",
-      "excerpt": "事件：伊拉克和黎凡特伊斯蘭國（ISIL）宣稱對土耳其蘇魯奇的自殺式襲擊負責，該起襲擊造成34人死亡，104人受傷。\n相关页面摘要：伊斯兰国，前称伊拉克和沙姆伊斯兰国 或伊拉克和黎凡特伊斯兰国，是一个活跃在伊拉克和叙利亚的萨拉菲聖戰主義组织以及未被世界广泛认可的政治實體，奉行极端保守的伊斯兰原教旨主义瓦哈比派，屬遜尼宗的一脈。组织领袖巴格達迪自封为哈里发，定國號为「伊斯兰国」，宣称自身对于整个穆斯林世界 拥有統治地位。周边阿拉伯国家以阿拉伯文缩写称其为「达伊沙」，与阿拉伯语的“踩踏” 諧音，以示对其“伊斯兰国”名稱的不承认及蔑视，亦被联合国采用。中国大陸媒体有时则直接以“极端组织”代指这一组织。",
-      "category_hint": "历史",
-      "source_rank": 3,
-      "added_at": "2026-07-20T19:11:49.200767Z"
     },
     {
       "source_id": "wiki-random:en:13628958",

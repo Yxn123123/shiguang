@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "updated_at": "2026-07-22T18:40:05.371838Z",
+  "updated_at": "2026-07-23T18:43:08.675767Z",
   "approved_cards": 84,
-  "pending_candidates": 277,
+  "pending_candidates": 308,
   "last_run": {
     "github_run_id": "29947510472",
     "source": "workflow_run",
@@ -1155,23 +1155,39 @@
     }
   ],
   "last_harvest": {
-    "github_run_id": "29947485277",
+    "github_run_id": "30034795177",
     "source": "harvest_schedule",
-    "started_at": "2026-07-22T18:37:50.428633Z",
-    "finished_at": "2026-07-22T18:37:50.507840Z",
-    "passes": 0,
-    "fetched": 0,
-    "added": 0,
-    "pool_before": 301,
-    "pool_after": 301,
+    "started_at": "2026-07-23T18:41:39.372374Z",
+    "finished_at": "2026-07-23T18:43:08.666394Z",
+    "passes": 4,
+    "fetched": 639,
+    "added": 31,
+    "pool_before": 277,
+    "pool_after": 308,
     "target_pool_size": 500,
     "refill_trigger": 300,
-    "refill_needed": false,
-    "source_counts": {},
+    "refill_needed": true,
+    "source_counts": {
+      "维基主题分类": 142,
+      "历史上的今天": 2,
+      "英文维基随机": 400,
+      "中文维基随机": 95
+    },
     "success": true,
     "min_added_for_success": 20,
-    "ok_sources": [],
+    "ok_sources": [
+      "Wikipedia topic samples",
+      "Wikimedia On This Day",
+      "English Wikipedia random pass 1",
+      "Chinese Wikipedia random pass 1",
+      "English Wikipedia random pass 2",
+      "Chinese Wikipedia random pass 2",
+      "English Wikipedia random pass 3",
+      "Chinese Wikipedia random pass 3",
+      "English Wikipedia random pass 4",
+      "Chinese Wikipedia random pass 4"
+    ],
     "diagnostic_report": "data/harvest_report.json",
-    "message": "候选池库存尚可，等待继续消耗"
+    "message": "候选囤货成功"
   }
 }

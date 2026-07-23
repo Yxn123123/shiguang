@@ -1752,7 +1752,151 @@
       "source_url": "https://en.wikipedia.org/wiki/Anthropology_of_food",
       "outcome": "reviewed_not_saved",
       "reason": ""
+    },
+    "wiki-topic:en:21657133": {
+      "last_seen": "2026-07-23T18:45:25.385137Z",
+      "source_url": "https://en.wikipedia.org/wiki/Contrastive_linguistics",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:17572785": {
+      "last_seen": "2026-07-23T18:45:25.385152Z",
+      "source_url": "https://en.wikipedia.org/wiki/Distributed_language",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "onthisday:zh:07/23:1999:8": {
+      "last_seen": "2026-07-23T18:45:25.385160Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E8%89%BE%E7%90%B3%C2%B7%E7%A7%91%E6%9E%97%E6%96%AF",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "onthisday:zh:07/23:1993:15": {
+      "last_seen": "2026-07-23T18:45:25.385165Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9C%8B%E8%A5%BF%E5%8C%97%E8%88%AA%E7%A9%BA2119%E8%99%9F%E7%8F%AD%E6%A9%9F%E7%A9%BA%E9%9B%A3",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:56057622": {
+      "last_seen": "2026-07-23T18:45:25.385169Z",
+      "source_url": "https://en.wikipedia.org/wiki/European_Union_food_quality_scandal",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:6073980": {
+      "last_seen": "2026-07-23T18:45:25.385174Z",
+      "source_url": "https://en.wikipedia.org/wiki/Fermentation_in_food_processing",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:19682421": {
+      "last_seen": "2026-07-23T18:45:25.385178Z",
+      "source_url": "https://en.wikipedia.org/wiki/Behavioral_contagion",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:34534118": {
+      "last_seen": "2026-07-23T18:45:25.385183Z",
+      "source_url": "https://en.wikipedia.org/wiki/Behavioral_urbanism",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:42940": {
+      "last_seen": "2026-07-23T18:45:25.385186Z",
+      "source_url": "https://en.wikipedia.org/wiki/Biostasis",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:344974": {
+      "last_seen": "2026-07-23T18:45:25.385190Z",
+      "source_url": "https://en.wikipedia.org/wiki/Chemosynthesis",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:11791198": {
+      "last_seen": "2026-07-23T18:45:25.385194Z",
+      "source_url": "https://en.wikipedia.org/wiki/Bioclimatology",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:24956896": {
+      "last_seen": "2026-07-23T18:45:25.385197Z",
+      "source_url": "https://en.wikipedia.org/wiki/AquaMaps",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:67433501": {
+      "last_seen": "2026-07-23T18:45:25.385201Z",
+      "source_url": "https://en.wikipedia.org/wiki/Generalized_renewal_process",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:20202295": {
+      "last_seen": "2026-07-23T18:45:25.385205Z",
+      "source_url": "https://en.wikipedia.org/wiki/Advanced_materials_industry_in_China",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:3783853": {
+      "last_seen": "2026-07-23T18:45:25.385208Z",
+      "source_url": "https://en.wikipedia.org/wiki/Bond_graph",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:12217323": {
+      "last_seen": "2026-07-23T18:45:25.385211Z",
+      "source_url": "https://en.wikipedia.org/wiki/Bounded_deformation",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:37970127": {
+      "last_seen": "2026-07-23T18:45:25.385215Z",
+      "source_url": "https://en.wikipedia.org/wiki/Buttered_toast_phenomenon",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:29155096": {
+      "last_seen": "2026-07-23T18:45:25.385218Z",
+      "source_url": "https://en.wikipedia.org/wiki/Earth_Learning_Idea",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:1508445": {
+      "last_seen": "2026-07-23T18:45:25.385223Z",
+      "source_url": "https://en.wikipedia.org/wiki/Ergosphere",
+      "outcome": "rejected",
+      "reason": "证据未能在原文中匹配"
+    },
+    "wiki-topic:en:62837964": {
+      "last_seen": "2026-07-23T18:45:25.385227Z",
+      "source_url": "https://en.wikipedia.org/wiki/Biosaline_agriculture",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:99358": {
+      "last_seen": "2026-07-23T18:45:25.385231Z",
+      "source_url": "https://en.wikipedia.org/wiki/Biogeography",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:51576527": {
+      "last_seen": "2026-07-23T18:45:25.385235Z",
+      "source_url": "https://en.wikipedia.org/wiki/Design_for_inspection",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:77269960": {
+      "last_seen": "2026-07-23T18:45:25.385238Z",
+      "source_url": "https://en.wikipedia.org/wiki/Manuel_Bibes",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:10389558": {
+      "last_seen": "2026-07-23T18:45:25.385241Z",
+      "source_url": "https://en.wikipedia.org/wiki/Jack_B._Newton",
+      "outcome": "no_proposal",
+      "reason": ""
     }
   },
-  "updated_at": "2026-07-23T18:43:08.674056Z"
+  "updated_at": "2026-07-23T18:45:25.392821Z"
 }

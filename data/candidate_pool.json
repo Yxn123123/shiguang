@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-23T18:43:08.668758Z",
+  "updated_at": "2026-07-23T18:45:25.387214Z",
   "candidates": [
     {
       "source_id": "wiki-topic:en:77737401",
@@ -33,16 +33,6 @@
       "added_at": "2026-07-12T11:39:40.566020Z"
     },
     {
-      "source_id": "wiki-topic:en:17572785",
-      "source_name": "EN Wikipedia：Distributed language",
-      "source_url": "https://en.wikipedia.org/wiki/Distributed_language",
-      "title": "Distributed language",
-      "excerpt": "Distributed language is a concept in linguistics that language is not an independent symbolic system used by individuals for communication but rather an array of behaviors that constitute human interaction. The concept of distributed language is based on a biological theory of the origin of language and the concept of distributed cognition.",
-      "category_hint": "综合",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.566020Z"
-    },
-    {
       "source_id": "wiki-topic:en:12608",
       "source_name": "EN Wikipedia：Geodesy",
       "source_url": "https://en.wikipedia.org/wiki/Geodesy",
@@ -59,16 +49,6 @@
       "title": "Food grading",
       "excerpt": "Food grading involves the inspection, assessment and sorting of various foods regarding quality, freshness, legal conformity and market value. Food grading is often done by hand, in which foods are assessed and sorted. Machinery is also used to grade foods, and may involve sorting products by size, shape and quality. For example, machinery can be used to remove spoiled food from fresh product.",
       "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.568006Z"
-    },
-    {
-      "source_id": "wiki-topic:en:11791198",
-      "source_name": "EN Wikipedia：Bioclimatology",
-      "source_url": "https://en.wikipedia.org/wiki/Bioclimatology",
-      "title": "Bioclimatology",
-      "excerpt": "Bioclimatology is the interdisciplinary field of science that studies the interactions between the biosphere and the Earth's atmosphere on time scales of the order of seasons or longer (in contrast to biometeorology).",
-      "category_hint": "生物",
       "source_rank": 2,
       "added_at": "2026-07-12T11:39:40.568006Z"
     },
@@ -101,16 +81,6 @@
       "category_hint": "科学",
       "source_rank": 2,
       "added_at": "2026-07-12T11:39:40.569010Z"
-    },
-    {
-      "source_id": "wiki-topic:en:20202295",
-      "source_name": "EN Wikipedia：Advanced materials industry in China",
-      "source_url": "https://en.wikipedia.org/wiki/Advanced_materials_industry_in_China",
-      "title": "Advanced materials industry in China",
-      "excerpt": "As an important part of the national sustainable development strategy, the development of advanced materials is advancing the competitive nature and state of the art for Chinese industry. The State has put advanced materials high on its development agenda for the next decade and listed it among the key high-tech industry sectors that would be given priority for development by the State Council. At present, the pace of building China's advanced materials industry is accelerating. Advanced materials have been key fields in China's national R&D system (National High Technology Research and Development Program (863 Program) and National Basic Research Program (973 Program)).",
-      "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.570020Z"
     },
     {
       "source_id": "wiki-topic:en:25393281",
@@ -173,16 +143,6 @@
       "added_at": "2026-07-12T11:39:40.573028Z"
     },
     {
-      "source_id": "wiki-topic:en:6073980",
-      "source_name": "EN Wikipedia：Fermentation in food processing",
-      "source_url": "https://en.wikipedia.org/wiki/Fermentation_in_food_processing",
-      "title": "Fermentation in food processing",
-      "excerpt": "In food processing, fermentation is the conversion of carbohydrates to alcohol or organic acids using microorganisms—yeasts or bacteria—without an oxidizing agent being used in the reaction. Fermentation usually implies that the action of microorganisms is desired. The science of fermentation is known as zymology or zymurgy. The term \"fermentation\" sometimes refers specifically to the chemical conversion of sugars into ethanol, producing alcoholic drinks such as wine, beer, and cider. However, similar processes take place in the leavening of bread (CO2 produced by yeast activity), and in the preservation of sour foods with the production of lactic acid, such as in sauerkraut and yogurt. Other widely consumed fermented foods include vinegar, olives, and cheese. More localized foods prepared by fermentation may also be based on beans, grain, vegetables, fruit, honey, dairy products, and fish.",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.573028Z"
-    },
-    {
       "source_id": "wiki-topic:en:33266021",
       "source_name": "EN Wikipedia：Clarifying agent",
       "source_url": "https://en.wikipedia.org/wiki/Clarifying_agent",
@@ -191,16 +151,6 @@
       "category_hint": "生活",
       "source_rank": 2,
       "added_at": "2026-07-12T11:39:40.573028Z"
-    },
-    {
-      "source_id": "wiki-topic:en:10389558",
-      "source_name": "EN Wikipedia：Jack B. Newton",
-      "source_url": "https://en.wikipedia.org/wiki/Jack_B._Newton",
-      "title": "Jack B. Newton",
-      "excerpt": "John Borden \"Jack\" Newton (13 August 1942 – 11 November 2025) was a Canadian astronomer, known for his publications and images in amateur astrophotography, and for his outreach to educate the public about astronomy. Newton is credited with the invention of \"cold camera\" astrophotography, which enabled enhanced images of galaxies, the Sun, and other astronomical objects taken from a ground-based, amateur-level telescope. His expert astrophotographs were exhibited by publication of six books and articles in astronomy, scientific, and popular magazines, and in public presentations. For his contributions to science and astronomy education over decades, Newton received national and regional astronomy awards in Canada, the United States, and England. With his wife, Alice, Jack Newton was devoted to preserving dark skies to reveal unique celestial objects to the public.",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.574028Z"
     },
     {
       "source_id": "wiki-topic:en:2667092",
@@ -273,16 +223,6 @@
       "added_at": "2026-07-12T11:39:40.576001Z"
     },
     {
-      "source_id": "wiki-topic:en:1508445",
-      "source_name": "EN Wikipedia：Ergosphere",
-      "source_url": "https://en.wikipedia.org/wiki/Ergosphere",
-      "title": "Ergosphere",
-      "excerpt": "In astrophysics, the ergosphere is a region located just outside a rotating black hole, between its event horizon and a further external surface predicted by the Kerr metric which describes these objects. Its name was proposed by Remo Ruffini and John Archibald Wheeler during the Les Houches lectures in 1971 and is derived from Ancient Greek ἔργον (ergon) 'work'. It received this name because it is theoretically possible to extract energy and mass from this region. The ergosphere touches the event horizon at the poles of a rotating black hole and extends to a greater radius at the equator. A black hole with modest angular momentum has an ergosphere with a shape approximated by an oblate spheroid, while faster spins produce a more pumpkin-shaped ergosphere. The equatorial (maximal) radius of an ergosphere is the Schwarzschild radius, the radius of a non-rotating black hole. The polar (minimal) radius is also the polar (minimal) radius of the event horizon which can be as little as half the Schwarzschild radius for a maximally rotating black hole.",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.576001Z"
-    },
-    {
       "source_id": "wiki-topic:en:569092",
       "source_name": "EN Wikipedia：Behavioral modernity",
       "source_url": "https://en.wikipedia.org/wiki/Behavioral_modernity",
@@ -321,26 +261,6 @@
       "category_hint": "科技",
       "source_rank": 2,
       "added_at": "2026-07-12T11:39:40.576511Z"
-    },
-    {
-      "source_id": "wiki-topic:en:19682421",
-      "source_name": "EN Wikipedia：Behavioral contagion",
-      "source_url": "https://en.wikipedia.org/wiki/Behavioral_contagion",
-      "title": "Behavioral contagion",
-      "excerpt": "Behavioral contagion is a form of social contagion involving the spread of behavior through a group. It refers to the propensity for a person to copy a certain behavior of others who are either in the vicinity, or whom they have been exposed to. The term was originally used by Gustave Le Bon in his 1895 work The Crowd: A Study of the Popular Mind to explain undesirable aspects of behavior of people in crowds. In the digital age, behavioral contagion is also concerned with the spread of online behavior and information. A variety of behavioral contagion mechanisms were incorporated in models of collective human behavior. Behavioral contagion has been attributed to a variety of different factors. Often it is distinguished from collective behavior that arises from a direct attempt at social influence. A prominent theory involves the reduction of restraints, put forth by Fritz Redl in 1949 and analyzed in depth by Ladd Wheeler in 1966. Social psychologists acknowledge a number of other factors, which influence the likelihood of behavioral contagion occurring, such as deindividuation (Festinger, Pepitone, & Newcomb, 1952) and the emergence of social norms (Turner, 1964). In 1980, Freedman...",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.387709Z"
-    },
-    {
-      "source_id": "wiki-topic:en:42940",
-      "source_name": "EN Wikipedia：Biostasis",
-      "source_url": "https://en.wikipedia.org/wiki/Biostasis",
-      "title": "Biostasis",
-      "excerpt": "Biostasis is the ability of an organism to tolerate environmental changes without having to actively adapt to them. Biostasis is found in organisms that live in habitats that likely encounter unfavorable living conditions, such as drought, freezing temperatures, change in pH levels, pressure, or temperature. Insects undergo a type of dormancy to survive these conditions, called diapause. Diapause may be obligatory for these insects to survive. The insect may also be able to undergo change prior to the arrival of the initiating event.",
-      "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.387745Z"
     },
     {
       "source_id": "wiki-topic:en:81759455",
@@ -403,16 +323,6 @@
       "added_at": "2026-07-12T20:09:32.388801Z"
     },
     {
-      "source_id": "wiki-topic:en:67433501",
-      "source_name": "EN Wikipedia：Generalized renewal process",
-      "source_url": "https://en.wikipedia.org/wiki/Generalized_renewal_process",
-      "title": "Generalized renewal process",
-      "excerpt": "In the mathematical theory of probability, a generalized renewal process (GRP) or G-renewal process is a stochastic point process used to model failure/repair behavior of repairable systems in reliability engineering. Poisson point process is a particular case of GRP.",
-      "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.388969Z"
-    },
-    {
       "source_id": "wiki-topic:en:25383607",
       "source_name": "EN Wikipedia：California Volcano Observatory",
       "source_url": "https://en.wikipedia.org/wiki/California_Volcano_Observatory",
@@ -443,16 +353,6 @@
       "added_at": "2026-07-12T20:09:32.389571Z"
     },
     {
-      "source_id": "wiki-topic:en:12217323",
-      "source_name": "EN Wikipedia：Bounded deformation",
-      "source_url": "https://en.wikipedia.org/wiki/Bounded_deformation",
-      "title": "Bounded deformation",
-      "excerpt": "In mathematics, a function of bounded deformation is a function whose distributional derivatives are not quite well-behaved-enough to qualify as functions of bounded variation, although the symmetric part of the derivative matrix does meet that condition. Thought of as deformations of elasto-plastic bodies, functions of bounded deformation play a major role in the mathematical study of materials, e.g. the Francfort-Marigo model of brittle crack evolution. More precisely, given an open subset Ω of Rn, a function u : Ω → Rn is said to be of bounded deformation if the symmetrized gradient ε(u) of u, ε ( u ) = ∇ u + ∇ u ⊤ 2 {\\displaystyle \\varepsilon (u)={\\frac {\\nabla u+\\nabla u^{\\top }}{2}}} is a bounded, symmetric n × n matrix-valued Radon measure. The collection of all functions of bounded deformation is denoted BD(Ω; Rn), or simply BD, introduced essentially by P.-M. Suquet in 1978...",
-      "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.389875Z"
-    },
-    {
       "source_id": "wiki-topic:en:20653168",
       "source_name": "EN Wikipedia：Earth science",
       "source_url": "https://en.wikipedia.org/wiki/Earth_science",
@@ -461,16 +361,6 @@
       "category_hint": "科学",
       "source_rank": 2,
       "added_at": "2026-07-12T20:09:32.390554Z"
-    },
-    {
-      "source_id": "wiki-topic:en:344974",
-      "source_name": "EN Wikipedia：Chemosynthesis",
-      "source_url": "https://en.wikipedia.org/wiki/Chemosynthesis",
-      "title": "Chemosynthesis",
-      "excerpt": "In biochemistry, chemosynthesis is the biological conversion of one or more carbon-containing molecules (usually carbon dioxide or methane) and nutrients into organic matter using the oxidation of inorganic compounds (e.g., hydrogen gas, hydrogen sulfide) or ferrous ions as a source of energy, rather than sunlight, as in photosynthesis. Chemoautotrophs, organisms that obtain carbon from carbon dioxide through chemosynthesis, are phylogenetically diverse. Groups that include conspicuous or biogeochemically important taxa include the sulfur-oxidizing Gammaproteobacteria, the Campylobacterota, the Aquificota, the methanogenic archaea, and the neutrophilic iron-oxidizing bacteria. Many microorganisms in dark regions of the oceans use chemosynthesis to produce biomass from single-carbon molecules. Two categories can be distinguished. In the rare sites where hydrogen molecules (H2) are available, the energy available from the reaction between CO2 and H2 (leading to production of methane, CH4) can be large enough to drive the production of biomass. Alternatively, in most oceanic environments, energy for chemosynthesis derives from reactions in which substances such as hydrogen sulfide or ammonia...",
-      "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.390650Z"
     },
     {
       "source_id": "wiki-topic:en:55931",
@@ -493,16 +383,6 @@
       "added_at": "2026-07-12T20:09:32.390894Z"
     },
     {
-      "source_id": "wiki-topic:en:62837964",
-      "source_name": "EN Wikipedia：Biosaline agriculture",
-      "source_url": "https://en.wikipedia.org/wiki/Biosaline_agriculture",
-      "title": "Biosaline agriculture",
-      "excerpt": "Biosaline agriculture is the production and growth of plants in saline rich groundwater and/or soil. Biosaline agriculture is a broad concept that refers to sustainable agricultural practices using soil, groundwater, or both under varying levels of salinity. Biosaline agriculture is a practice using saline water and salt-tolerant plants, known as halophytes, to remediate unproductive arable land or transform naturally saline environments into productive farmland. By using high-salinity water for efficient irrigation, it helps to alleviate pressures on limited fresh water resources while also supporting forage production sites. Soil salinization is a global issue with an estimated one billion hectares of salt-affected soil worldwide, in both coastal and continental areas, and another one million hectares being added to this each year. The hydrogeological conditions differ substantially depending on geographic region and, therefore, influence the application of biosaline agriculture. In many parts of the world, particularlyarid and semi-arid regions, coastal and inland areas typically have brackish and saline water sources. These arid and semi-arid regions most affected by salinity can...",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.390951Z"
-    },
-    {
       "source_id": "wiki-topic:en:65465",
       "source_name": "EN Wikipedia：Petroleum engineering",
       "source_url": "https://en.wikipedia.org/wiki/Petroleum_engineering",
@@ -521,16 +401,6 @@
       "category_hint": "生活",
       "source_rank": 2,
       "added_at": "2026-07-12T20:09:32.391602Z"
-    },
-    {
-      "source_id": "wiki-topic:en:24956896",
-      "source_name": "EN Wikipedia：AquaMaps",
-      "source_url": "https://en.wikipedia.org/wiki/AquaMaps",
-      "title": "AquaMaps",
-      "excerpt": "AquaMaps is a collaborative project with the aim of producing computer-generated (and ultimately, expert reviewed) predicted global distribution maps for marine species on a 0.5 × 0.5 degree grid of the oceans based on data available through online species databases such as FishBase and SeaLifeBase and species occurrence records from OBIS or GBIF and using an environmental envelope model (see niche modelling) in conjunction with expert input. The underlying model represents a modified version of the relative environmental suitability (RES) model developed by Kristin Kaschner to generate global predictions of marine mammal occurrences.",
-      "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.391661Z"
     },
     {
       "source_id": "wiki-topic:en:21559940",
@@ -583,16 +453,6 @@
       "added_at": "2026-07-13T20:44:59.347229Z"
     },
     {
-      "source_id": "wiki-topic:en:51576527",
-      "source_name": "EN Wikipedia：Design for inspection",
-      "source_url": "https://en.wikipedia.org/wiki/Design_for_inspection",
-      "title": "Design for inspection",
-      "excerpt": "Design for inspection (DFI) is an engineering principle that proposes that inspection methods and measurement instruments used to certify manufacturing conformity should be considered early in the design of products. Production processes should be designed in such a way that features of the product are easy to inspect with readily available measurement instruments, and so that measurement uncertainty is considered in the tolerance that are applied. The concept can be applied in almost all engineering disciplines. DFI describes the process of designing or engineering a product in order to facilitate the measurement in order to reduce the overall costs of manufacturing and delivering products that satisfy customers. The role of inspection in the manufacturing process is to ensure that the manufacturing process is producing components that meet the specification requirements. Inspection does not assure the quality of the product, only a robust and repeatable manufacturing process can achieve this. Therefore, inspection is often considered as an overhead although an extremely important one. Similar to design for manufacture (DFM) and design for assembly (DFA) (which seek to avoid designs...",
-      "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-13T20:44:59.347908Z"
-    },
-    {
       "source_id": "wiki-topic:en:57533523",
       "source_name": "EN Wikipedia：Baltistics",
       "source_url": "https://en.wikipedia.org/wiki/Baltistics",
@@ -613,16 +473,6 @@
       "added_at": "2026-07-13T20:44:59.349114Z"
     },
     {
-      "source_id": "wiki-topic:en:99358",
-      "source_name": "EN Wikipedia：Biogeography",
-      "source_url": "https://en.wikipedia.org/wiki/Biogeography",
-      "title": "Biogeography",
-      "excerpt": "Biogeography is the study of the distribution of species and ecosystems in geographic space and through geological time. Organisms and biological communities often vary in a regular fashion along geographic gradients of latitude, elevation, isolation and habitat area. Phytogeography is the branch of biogeography that studies the distribution of plants, Zoogeography is the branch that studies distribution of animals, while Mycogeography is the branch that studies distribution of fungi, such as mushrooms. Knowledge of spatial variation in the numbers and types of organisms is as vital to us today as it was to our early human ancestors, as we adapt to heterogeneous but geographically predictable environments. Biogeography is an integrative field of inquiry that unites concepts and information from ecology, evolutionary biology, taxonomy, geology, physical geography, palaeontology, and climatology. Modern biogeographic research combines information and ideas from many fields, from the physiological and ecological constraints on organismal dispersal to geological and climatological phenomena operating at global spatial scales and evolutionary time frames. The short-term interactions within...",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-13T20:44:59.349511Z"
-    },
-    {
       "source_id": "wiki-topic:en:67545702",
       "source_name": "EN Wikipedia：Exometeorology",
       "source_url": "https://en.wikipedia.org/wiki/Exometeorology",
@@ -631,16 +481,6 @@
       "category_hint": "科学",
       "source_rank": 2,
       "added_at": "2026-07-13T20:44:59.351202Z"
-    },
-    {
-      "source_id": "wiki-topic:en:34534118",
-      "source_name": "EN Wikipedia：Behavioral urbanism",
-      "source_url": "https://en.wikipedia.org/wiki/Behavioral_urbanism",
-      "title": "Behavioral urbanism",
-      "excerpt": "Behavioral urbanism and its related area of study, behavioral architecture, is an interdisciplinary field focused on the interaction between humans and the built environment, studying the effects of social, cognitive, and emotional factors in understanding the spatial behavior of individuals.",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-14T20:46:40.125169Z"
     },
     {
       "source_id": "wiki-topic:en:29265347",
@@ -661,16 +501,6 @@
       "category_hint": "生物",
       "source_rank": 2,
       "added_at": "2026-07-14T20:46:40.126174Z"
-    },
-    {
-      "source_id": "wiki-topic:en:77269960",
-      "source_name": "EN Wikipedia：Manuel Bibes",
-      "source_url": "https://en.wikipedia.org/wiki/Manuel_Bibes",
-      "title": "Manuel Bibes",
-      "excerpt": "Manuel Bibes (born July 15, 1976) is a French physicist specializing in functional oxides, multiferroic materials, and spintronics. He is currently a Research Director at the National Center for Scientific Research (CNRS).",
-      "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-14T20:46:40.126536Z"
     },
     {
       "source_id": "wiki-topic:en:52303418",
@@ -753,16 +583,6 @@
       "added_at": "2026-07-15T18:37:33.834774Z"
     },
     {
-      "source_id": "wiki-topic:en:29155096",
-      "source_name": "EN Wikipedia：Earth Learning Idea",
-      "source_url": "https://en.wikipedia.org/wiki/Earth_Learning_Idea",
-      "title": "Earth Learning Idea",
-      "excerpt": "Earth Learning Idea (ELI) provides free Earth-related teaching ideas, designed to be practical science and geography resources for secondary and primary teachers and teacher-trainers and trainees across the world. It is run on a voluntary basis by three teachers from the Earth Science Education Unit (ESEU).",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-15T18:37:33.835473Z"
-    },
-    {
       "source_id": "wiki-topic:en:7371134",
       "source_name": "EN Wikipedia：Anthroposphere",
       "source_url": "https://en.wikipedia.org/wiki/Anthroposphere",
@@ -781,26 +601,6 @@
       "category_hint": "综合",
       "source_rank": 2,
       "added_at": "2026-07-15T18:37:33.836179Z"
-    },
-    {
-      "source_id": "wiki-topic:en:56057622",
-      "source_name": "EN Wikipedia：European Union food quality scandal",
-      "source_url": "https://en.wikipedia.org/wiki/European_Union_food_quality_scandal",
-      "title": "European Union food quality scandal",
-      "excerpt": "The European Union food quality scandal is a controversy claiming that certain food brands and items targeted at Central and Eastern European Union countries' markets are of lower quality than their exact equivalent produced for the Western European Union markets. European Commission President Jean-Claude Juncker acknowledged the issue in his State of the Union address pledging funding to help national food authorities test the inferior products and start to tackle the food inequality. In April 2018 EU Justice and Consumers Commissioner Věra Jourová stated that \"We will step up the fight against dual food quality. We have amended the Unfair Commercial Practice Directive to make it black and white that dual food quality is forbidden.\"",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-15T18:37:33.836495Z"
-    },
-    {
-      "source_id": "wiki-topic:en:3783853",
-      "source_name": "EN Wikipedia：Bond graph",
-      "source_url": "https://en.wikipedia.org/wiki/Bond_graph",
-      "title": "Bond graph",
-      "excerpt": "A bond graph is a graphical representation of the energy flows though and between physical dynamical systems including those in the electrical, mechanical, hydraulic, thermal and chemical domains. It is used to model and analyse systems relevant to engineering and to systems biology. Because the concept of energy is common to all physical domains, the bond graph provides a unified description of all of these energy domains and can be thought of as a systematic use of the physical analogies introduced by the 19th century scientists James Clerk-Maxwell and Lord Kelvin. The mechanical–electrical analogy is one example of a physical analogy. Bond graphs use the concept of analogous power conjugate variables whose product is energy flow, or power; these variable pairs are called effort and flow and, for example, correspond to voltage and current in the electrical domain and force and velocity in the mechanical domain. These power conjugate variables are transmitted by bonds which connect bond graph components. Bond graph components are also based on analogies and, using the electrical and mechanical domains as examples, include the C-component to represent both mechanical spring and electrical...",
-      "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-15T18:37:33.837511Z"
     },
     {
       "source_id": "wiki-topic:en:26107799",
@@ -831,16 +631,6 @@
       "category_hint": "综合",
       "source_rank": 2,
       "added_at": "2026-07-17T18:31:41.231150Z"
-    },
-    {
-      "source_id": "wiki-topic:en:37970127",
-      "source_name": "EN Wikipedia：Buttered toast phenomenon",
-      "source_url": "https://en.wikipedia.org/wiki/Buttered_toast_phenomenon",
-      "title": "Buttered toast phenomenon",
-      "excerpt": "The buttered toast phenomenon is an observation that buttered toast tends to land butter-side down after it falls. It is used as an idiom representing pessimistic outlooks. Various people have attempted to determine whether there is an actual tendency for bread to fall in this fashion, with varying results.",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-17T18:31:41.231617Z"
     },
     {
       "source_id": "wiki-topic:en:66493705",
@@ -881,36 +671,6 @@
       "category_hint": "科技",
       "source_rank": 2,
       "added_at": "2026-07-20T19:11:49.200089Z"
-    },
-    {
-      "source_id": "wiki-topic:en:21657133",
-      "source_name": "EN Wikipedia：Contrastive linguistics",
-      "source_url": "https://en.wikipedia.org/wiki/Contrastive_linguistics",
-      "title": "Contrastive linguistics",
-      "excerpt": "Contrastive linguistics is a practice-oriented linguistic approach that seeks to describe the differences and similarities between a pair of languages (hence it is occasionally called \"differential linguistics\").",
-      "category_hint": "综合",
-      "source_rank": 2,
-      "added_at": "2026-07-20T19:11:49.200610Z"
-    },
-    {
-      "source_id": "onthisday:zh:07/23:1993:15",
-      "source_name": "Wikimedia On This Day：中國西北航空2119號班機空難",
-      "source_url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9C%8B%E8%A5%BF%E5%8C%97%E8%88%AA%E7%A9%BA2119%E8%99%9F%E7%8F%AD%E6%A9%9F%E7%A9%BA%E9%9B%A3",
-      "title": "1993: 中國西北航空2119號班機在從寧夏銀川西花園機場起飛時因機械故障衝出跑道，機上133人中54名乘客和1名機組人員遇難。",
-      "excerpt": "事件：中國西北航空2119號班機在從寧夏銀川西花園機場起飛時因機械故障衝出跑道，機上133人中54名乘客和1名機組人員遇難。\n相关页面摘要：中國西北航空2119號班機空難發生於1993年7月23日14時41分，該班機當天準備從银川西花园机场前往北京首都國際機場，但飛機在跑道滑跑準備起飛時發生機械故障而無法升空。飛機最終衝出跑道墜入附近的湖中，機上54名乘客和1名機組人員遇難，58人生還。",
-      "category_hint": "历史",
-      "source_rank": 3,
-      "added_at": "2026-07-23T18:42:12.016371Z"
-    },
-    {
-      "source_id": "onthisday:zh:07/23:1999:8",
-      "source_name": "Wikimedia On This Day：艾琳·科林斯",
-      "source_url": "https://zh.wikipedia.org/wiki/%E8%89%BE%E7%90%B3%C2%B7%E7%A7%91%E6%9E%97%E6%96%AF",
-      "title": "1999: 哥伦比亚号太空梭升空，而负责指挥的艾琳·科林斯也成为历史上首个太空梭女指挥官。",
-      "excerpt": "事件：哥伦比亚号太空梭升空，而负责指挥的艾琳·科林斯也成为历史上首个太空梭女指挥官。\n相关页面摘要：艾琳·瑪麗·柯林斯，美國空軍退役上校，美國首位負起指揮哥倫比亞號太空梭任務的女太空人。(此次任務要負責安裝錢德勒觀測儀﹝Chandra X-ray Ob-serva-tory﹞，這是太空梭所承載過的最大重量)。也沒人擔任過主駕駛員，負責哥倫比亞號的軌道控制，還有更重要的，以手動的方式來操控太空船最後的路徑和返航。",
-      "category_hint": "历史",
-      "source_rank": 3,
-      "added_at": "2026-07-23T18:42:12.016457Z"
     },
     {
       "source_id": "wiki-random:en:13628958",

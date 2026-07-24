@@ -1896,7 +1896,151 @@
       "source_url": "https://en.wikipedia.org/wiki/Jack_B._Newton",
       "outcome": "no_proposal",
       "reason": ""
+    },
+    "wiki-topic:en:20324344": {
+      "last_seen": "2026-07-24T18:57:16.361966Z",
+      "source_url": "https://en.wikipedia.org/wiki/Constructed_language",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:72588431": {
+      "last_seen": "2026-07-24T18:57:16.361982Z",
+      "source_url": "https://en.wikipedia.org/wiki/Anglicisation_(linguistics)",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:39219551": {
+      "last_seen": "2026-07-24T18:57:16.361989Z",
+      "source_url": "https://en.wikipedia.org/wiki/A_calorie_is_a_calorie",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:27783337": {
+      "last_seen": "2026-07-24T18:57:16.361995Z",
+      "source_url": "https://en.wikipedia.org/wiki/Adverse_food_reaction",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:33266021": {
+      "last_seen": "2026-07-24T18:57:16.361999Z",
+      "source_url": "https://en.wikipedia.org/wiki/Clarifying_agent",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:563299": {
+      "last_seen": "2026-07-24T18:57:16.362003Z",
+      "source_url": "https://en.wikipedia.org/wiki/Human_behavior",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:1984187": {
+      "last_seen": "2026-07-24T18:57:16.362008Z",
+      "source_url": "https://en.wikipedia.org/wiki/Biomineralization",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:31950486": {
+      "last_seen": "2026-07-24T18:57:16.362011Z",
+      "source_url": "https://en.wikipedia.org/wiki/Aeroecology",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:1254336": {
+      "last_seen": "2026-07-24T18:57:16.362015Z",
+      "source_url": "https://en.wikipedia.org/wiki/Applied_ecology",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:18801936": {
+      "last_seen": "2026-07-24T18:57:16.362018Z",
+      "source_url": "https://en.wikipedia.org/wiki/The_Chemical_Basis_of_Morphogenesis",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:515382": {
+      "last_seen": "2026-07-24T18:57:16.362022Z",
+      "source_url": "https://en.wikipedia.org/wiki/Beamline",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:2408": {
+      "last_seen": "2026-07-24T18:57:16.362026Z",
+      "source_url": "https://en.wikipedia.org/wiki/Analytical_chemistry",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:65465": {
+      "last_seen": "2026-07-24T18:57:16.362029Z",
+      "source_url": "https://en.wikipedia.org/wiki/Petroleum_engineering",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:835157": {
+      "last_seen": "2026-07-24T18:57:16.362033Z",
+      "source_url": "https://en.wikipedia.org/wiki/Adhesion",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:12608": {
+      "last_seen": "2026-07-24T18:57:16.362037Z",
+      "source_url": "https://en.wikipedia.org/wiki/Geodesy",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:31251910": {
+      "last_seen": "2026-07-24T18:57:16.362040Z",
+      "source_url": "https://en.wikipedia.org/wiki/DART_radiative_transfer_model",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:43947436": {
+      "last_seen": "2026-07-24T18:57:16.362043Z",
+      "source_url": "https://en.wikipedia.org/wiki/Huihui_Lifa",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:26780222": {
+      "last_seen": "2026-07-24T18:57:16.362047Z",
+      "source_url": "https://en.wikipedia.org/wiki/Earth_analog",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:44621719": {
+      "last_seen": "2026-07-24T18:57:16.362050Z",
+      "source_url": "https://en.wikipedia.org/wiki/Bismuth%E2%80%93indium",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:43831428": {
+      "last_seen": "2026-07-24T18:57:16.362054Z",
+      "source_url": "https://en.wikipedia.org/wiki/Overprovisioning",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:25393281": {
+      "last_seen": "2026-07-24T18:57:16.362057Z",
+      "source_url": "https://en.wikipedia.org/wiki/Bonding_in_solids",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:151604": {
+      "last_seen": "2026-07-24T18:57:16.362061Z",
+      "source_url": "https://en.wikipedia.org/wiki/Deception",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:20653168": {
+      "last_seen": "2026-07-24T18:57:16.362064Z",
+      "source_url": "https://en.wikipedia.org/wiki/Earth_science",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:580": {
+      "last_seen": "2026-07-24T18:57:16.362067Z",
+      "source_url": "https://en.wikipedia.org/wiki/Astronomer",
+      "outcome": "no_proposal",
+      "reason": ""
     }
   },
-  "updated_at": "2026-07-24T18:55:03.360293Z"
+  "updated_at": "2026-07-24T18:57:16.369671Z"
 }

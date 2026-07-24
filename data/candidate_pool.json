@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-24T18:55:03.357271Z",
+  "updated_at": "2026-07-24T18:57:16.364149Z",
   "candidates": [
     {
       "source_id": "wiki-topic:en:77737401",
@@ -33,16 +33,6 @@
       "added_at": "2026-07-12T11:39:40.566020Z"
     },
     {
-      "source_id": "wiki-topic:en:12608",
-      "source_name": "EN Wikipedia：Geodesy",
-      "source_url": "https://en.wikipedia.org/wiki/Geodesy",
-      "title": "Geodesy",
-      "excerpt": "Geodesy (, jee-OD-iss-ee) or geodetics is the science of measuring and representing the geometry, gravity, and spatial orientation of the Earth in temporally varying 3D space. It is called planetary geodesy when studying other astronomical bodies, such as planets or circumplanetary systems. Geodetic job titles include geodesist and geodetic surveyor. Through highly accurate observations, geodesy provides the scientific basis for mapping, navigation, and positioning, and supports applications such as infrastructure development (including construction), natural resource management, mineral exploration, and geophysics. Its measurements underpin modern geospatial reference frames used in transportation, satellite systems, global trade, and timekeeping. Geodynamic phenomena, including crustal motion, tides, and polar motion, are studied through global and national control networks, space geodesy and terrestrial geodetic techniques, and the use of datums and coordinate systems.",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.567001Z"
-    },
-    {
       "source_id": "wiki-topic:en:41286907",
       "source_name": "EN Wikipedia：Food grading",
       "source_url": "https://en.wikipedia.org/wiki/Food_grading",
@@ -61,36 +51,6 @@
       "category_hint": "科学",
       "source_rank": 2,
       "added_at": "2026-07-12T11:39:40.568006Z"
-    },
-    {
-      "source_id": "wiki-topic:en:563299",
-      "source_name": "EN Wikipedia：Human behavior",
-      "source_url": "https://en.wikipedia.org/wiki/Human_behavior",
-      "title": "Human behavior",
-      "excerpt": "Human behavior is the potential and expressed capacity (mentally, physically, and socially) of human individuals or groups to respond to internal and external stimuli throughout their life. Behavior is driven by environmental and genetic factors that affect an individual. Behavior is also driven, in part, by thoughts and feelings, which provide insight into individual psyche, revealing such things as attitudes and values. Human behavior is shaped by psychological traits, as personality types vary from person to person, producing different actions and behavior. Human behavior encompasses a vast array of domains that span the entirety of human experience. Social behavior involves interactions between individuals and groups , while cultural behavior reflects the diverse patterns, values, and practices that vary across societies and historical periods.Moral behavior encompasses ethical decision-making and value-based conduct,contrasted with antisocial behavior that violates social norms and legal standards.Cognitive behavior involves mental processes of learning, memory, and decision-making, interconnected with psychological behavior that includes emotional regulation, mental health, and...",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.569010Z"
-    },
-    {
-      "source_id": "wiki-topic:en:43947436",
-      "source_name": "EN Wikipedia：Huihui Lifa",
-      "source_url": "https://en.wikipedia.org/wiki/Huihui_Lifa",
-      "title": "Huihui Lifa",
-      "excerpt": "The Huihui Lifa (Traditional Chinese: 回回歷法; Simplified Chinese: 回回历法; pinyin: Huíhuí Lìfǎ) was a set of astronomical tables published throughout China from the time of the Ming Dynasty in the late 14th century through the early 18th century. The tables were based on a translation into Chinese of the Zij (Islamic astronomical tables), the title Huihui Lifa literally meaning \"Muslim System of Calendar Astronomy\".",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.569010Z"
-    },
-    {
-      "source_id": "wiki-topic:en:25393281",
-      "source_name": "EN Wikipedia：Bonding in solids",
-      "source_url": "https://en.wikipedia.org/wiki/Bonding_in_solids",
-      "title": "Bonding in solids",
-      "excerpt": "Solids can be classified according to the nature of the bonding between their atomic or molecular components. The traditional classification distinguishes four kinds of bonding: Covalent bonding, which forms network covalent solids (sometimes called simply \"covalent solids\") Ionic bonding, which forms ionic solids Metallic bonding, which forms metallic solids Weak inter molecular bonding, which forms molecular solids (sometimes anomalously called \"covalent solids\") Typical members of these classes have distinctive electron distributions, thermodynamic, electronic, and mechanical properties. In particular, the binding energies of these interactions vary widely. Bonding in solids can be of mixed or intermediate kinds, however, hence not all solids have the typical properties of a particular class, and some can be described as intermediate forms.",
-      "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.571009Z"
     },
     {
       "source_id": "wiki-topic:en:2002552",
@@ -123,32 +83,12 @@
       "added_at": "2026-07-12T11:39:40.572028Z"
     },
     {
-      "source_id": "wiki-topic:en:2408",
-      "source_name": "EN Wikipedia：Analytical chemistry",
-      "source_url": "https://en.wikipedia.org/wiki/Analytical_chemistry",
-      "title": "Analytical chemistry",
-      "excerpt": "Analytical chemistry (or chemical analysis) is the branch of chemistry concerned with the development and application of methods to identify the chemical composition of materials and quantify the amounts of components in mixtures. It focuses on methods to identify unknown compounds, possibly in a mixture or solution, and quantify a compound's presence in terms of amount of substance (in any phase), concentration (in aqueous or solution phase), percentage by mass or number of moles in a mixture of compounds (or partial pressure in the case of gas phase). It encompasses both classical techniques (e.g. titration, gravimetric analysis) and modern instrumental approaches (e.g. spectroscopy, chromatography, mass spectrometry, electrochemical methods). Modern analytical chemistry is deeply intertwined with data analysis and chemometrics, and is increasingly shaped by trends such as automation, miniaturization, and real-time sensing, with applications across fields as diverse as biochemistry, medicinal chemistry, forensic science, archaeology, nutritional science, agricultural chemistry, chemical synthesis, metallurgy, chemical engineering and materials science. In the age of \"big data\", analytical...",
-      "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.573028Z"
-    },
-    {
       "source_id": "wiki-topic:en:45119474",
       "source_name": "EN Wikipedia：Bioclaustration",
       "source_url": "https://en.wikipedia.org/wiki/Bioclaustration",
       "title": "Bioclaustration",
       "excerpt": "Bioclaustration is kind of interaction when one organism (usually soft bodied) is embedded in a living substrate (i.e. skeleton of another organism); it means \"biologically walled-up\". In case of symbiosis the walling-up is not complete and both organisms stay alive (Palmer and Wilson, 1988).",
       "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.573028Z"
-    },
-    {
-      "source_id": "wiki-topic:en:33266021",
-      "source_name": "EN Wikipedia：Clarifying agent",
-      "source_url": "https://en.wikipedia.org/wiki/Clarifying_agent",
-      "title": "Clarifying agent",
-      "excerpt": "Clarifying agents are used to remove suspended solids from liquids by inducing flocculation, causing the solids to form larger aggregates that can be easily removed after they either float to the surface or sink to the bottom of the containment vessel.",
-      "category_hint": "生活",
       "source_rank": 2,
       "added_at": "2026-07-12T11:39:40.573028Z"
     },
@@ -163,32 +103,12 @@
       "added_at": "2026-07-12T11:39:40.574028Z"
     },
     {
-      "source_id": "wiki-topic:en:43831428",
-      "source_name": "EN Wikipedia：Overprovisioning",
-      "source_url": "https://en.wikipedia.org/wiki/Overprovisioning",
-      "title": "Overprovisioning",
-      "excerpt": "Overprovisioning is the technique of committing more of some resource than strictly necessary, in order to improve the performance or reliability of an engineered system. In specific contexts, overprovisioning can describe:",
-      "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.574028Z"
-    },
-    {
       "source_id": "wiki-topic:en:806478",
       "source_name": "EN Wikipedia：DATEM",
       "source_url": "https://en.wikipedia.org/wiki/DATEM",
       "title": "DATEM",
       "excerpt": "DATEM (diacetyl tartaric acid ester of mono- and diglycerides, also E472e) is an emulsifier primarily used in baking to strengthen the gluten network in dough. It is added to crusty breads, such as rye, to impart a springy, chewy texture. It is also used in the production of biscuits, coffee whiteners, salsa con queso, ice cream, and salad dressings.",
       "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.575563Z"
-    },
-    {
-      "source_id": "wiki-topic:en:26780222",
-      "source_name": "EN Wikipedia：Earth analog",
-      "source_url": "https://en.wikipedia.org/wiki/Earth_analog",
-      "title": "Earth analog",
-      "excerpt": "An Earth analog, also called an Earth twin or second Earth, is a planet or moon with environmental conditions similar to those found on Earth. The term Earth-like planet is also used, but this term may refer to any terrestrial planet. The possibility is of particular interest to astrobiologists and astronomers under reasoning that the more similar a planet is to Earth, the more likely it is to be capable of sustaining complex extraterrestrial life. As such, it has long been speculated and the subject expressed in science, philosophy, science fiction and popular culture. Advocates of space colonization and space and survival have long sought an Earth analog for settlement. In the far future, humans might artificially produce an Earth analog by terraforming. Before the scientific search for and study of extrasolar planets, the possibility was argued through philosophy and science fiction. Philosophers have suggested that the size of the universe is such that a near-identical planet must exist somewhere. The mediocrity principle suggests that planets like Earth should be common in the Universe, while the Rare Earth hypothesis suggests that they are extremely rare. The thousands of...",
-      "category_hint": "科学",
       "source_rank": 2,
       "added_at": "2026-07-12T11:39:40.575563Z"
     },
@@ -239,26 +159,6 @@
       "title": "Errand",
       "excerpt": "An errand is a task of no great consequence, typically concerning household or business affairs, which requires the person undertaking it to travel to a place where it can be accomplished. The activity of undertaking this task is called running an errand, while a series of such tasks undertaken in a single outing is called errand-running or running errands.",
       "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.576511Z"
-    },
-    {
-      "source_id": "wiki-topic:en:31251910",
-      "source_name": "EN Wikipedia：DART radiative transfer model",
-      "source_url": "https://en.wikipedia.org/wiki/DART_radiative_transfer_model",
-      "title": "DART radiative transfer model",
-      "excerpt": "DART (Discrete anisotropic radiative transfer) is a 3D radiative transfer model, designed for scientific research, in particular remote sensing. Developed at CESBIO since 1992, DART model was patented in 2003. It is freeware for scientific activities.",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.576511Z"
-    },
-    {
-      "source_id": "wiki-topic:en:835157",
-      "source_name": "EN Wikipedia：Adhesion",
-      "source_url": "https://en.wikipedia.org/wiki/Adhesion",
-      "title": "Adhesion",
-      "excerpt": "Adhesion is the tendency of dissimilar particles or surfaces to cling to one another. (Cohesion refers to the tendency of similar or identical particles and surfaces to cling to one another.) The forces that cause adhesion and cohesion can be divided into several types. The intermolecular forces responsible for the function of various kinds of stickers and sticky tape fall into the categories of chemical adhesion, dispersive adhesion, and diffusive adhesion. In addition to the cumulative magnitudes of these intermolecular forces, there are also certain emergent mechanical effects.",
-      "category_hint": "科技",
       "source_rank": 2,
       "added_at": "2026-07-12T11:39:40.576511Z"
     },
@@ -343,26 +243,6 @@
       "added_at": "2026-07-12T20:09:32.389293Z"
     },
     {
-      "source_id": "wiki-topic:en:515382",
-      "source_name": "EN Wikipedia：Beamline",
-      "source_url": "https://en.wikipedia.org/wiki/Beamline",
-      "title": "Beamline",
-      "excerpt": "In accelerator physics, a beamline refers to the trajectory of the beam of particles, including the overall construction of the path segment (guide tubes, diagnostic devices) along a specific path of an accelerator facility. This part is either the line in a linear accelerator along which a beam of particles travels, or the path leading from particle generator (e.g. a cyclic accelerator, synchrotron light sources, cyclotrons, or spallation sources) to the experimental end-station. Beamlines usually end in experimental stations that utilize particle beams or synchrotron light obtained from a synchrotron, or neutrons from a spallation source or research reactor. Beamlines are used in experiments in particle physics, materials science, life science, chemistry, and molecular biology, but can also be used for irradiation tests or to produce isotopes.",
-      "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.389571Z"
-    },
-    {
-      "source_id": "wiki-topic:en:20653168",
-      "source_name": "EN Wikipedia：Earth science",
-      "source_url": "https://en.wikipedia.org/wiki/Earth_science",
-      "title": "Earth science",
-      "excerpt": "Earth science or geoscience includes all fields of natural science related to planet Earth. This is a branch of science dealing with the physical, chemical, and biological complex constitutions and synergistic linkages of Earth's four spheres: the biosphere, hydrosphere/cryosphere, atmosphere, and geosphere (or lithosphere). Earth science can be considered to be a branch of planetary science but with a much older history.",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.390554Z"
-    },
-    {
       "source_id": "wiki-topic:en:55931",
       "source_name": "EN Wikipedia：Chronology",
       "source_url": "https://en.wikipedia.org/wiki/Chronology",
@@ -381,16 +261,6 @@
       "category_hint": "科技",
       "source_rank": 2,
       "added_at": "2026-07-12T20:09:32.390894Z"
-    },
-    {
-      "source_id": "wiki-topic:en:65465",
-      "source_name": "EN Wikipedia：Petroleum engineering",
-      "source_url": "https://en.wikipedia.org/wiki/Petroleum_engineering",
-      "title": "Petroleum engineering",
-      "excerpt": "Petroleum engineering is a field of engineering concerned with the activities related to the production of hydrocarbons, which can be either crude oil or natural gas or both. Exploration and production are deemed to fall within the upstream sector of the oil and gas industry. Exploration, by earth scientists, and petroleum engineering are the oil and gas industry's two main subsurface disciplines, which focus on maximizing economic recovery of hydrocarbons from subsurface reservoirs. Petroleum geology and geophysics focus on provision of a static description of the hydrocarbon reservoir rock, while petroleum engineering focuses on estimation of the recoverable volume of this resource using a detailed understanding of the physical behavior of oil, water and gas within porous rock at very high pressure. The combined efforts of geologists and petroleum engineers throughout the life of a hydrocarbon accumulation determine the way in which a reservoir is developed and depleted, and usually they have the highest impact on field economics. Petroleum engineering requires a good knowledge of many other related disciplines, such as geophysics, petroleum geology, formation evaluation (well logging...",
-      "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.391010Z"
     },
     {
       "source_id": "wiki-topic:en:1686342",
@@ -413,46 +283,6 @@
       "added_at": "2026-07-12T20:09:32.391991Z"
     },
     {
-      "source_id": "wiki-topic:en:31950486",
-      "source_name": "EN Wikipedia：Aeroecology",
-      "source_url": "https://en.wikipedia.org/wiki/Aeroecology",
-      "title": "Aeroecology",
-      "excerpt": "Aeroecology is the relationship between organisms and the way they utilize and interact with other biotic and abiotic components of the atmosphere. The aerosphere is viewed as habitat and the way that organisms respond to and take advantage of the dynamic aerospace has relevance to the ecology, evolution, and conservation of many of the world's bird, bat, insect, and plant species. Aeroecology has relied upon traditional ecological field studies such as direct observation or detection of organisms flying overhead (e.g., moon watching, thermal cameras, or bioacoustics). However, the field has been greatly advanced by the inclusion of remotely sensed data, in particular Doppler weather radar or NEXRAD. In March 2012, an international and interdisciplinary Radar Aeroecology Workshop was held at the National Weather Center on the University of Oklahoma campus in Norman, OK, USA. Experts in the fields of ecology and meteorology discussed how various radar technologies could be applied to aeroecological questions. Aeroecology research groups at both the University of Oklahoma and the University of Delaware continue to advance the development and integration of remotely sensed data to quantify...",
-      "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.392362Z"
-    },
-    {
-      "source_id": "wiki-topic:en:72588431",
-      "source_name": "EN Wikipedia：Anglicisation (linguistics)",
-      "source_url": "https://en.wikipedia.org/wiki/Anglicisation_(linguistics)",
-      "title": "Anglicisation (linguistics)",
-      "excerpt": "In linguistics, anglicisation or anglicization is the practice of modifying foreign words, names, and phrases to make them easier to spell, pronounce, or understand in English. The term commonly refers to the respelling of foreign words or loan words in English, often to a more drastic degree than that implied in, for example, romanisation. One instance is the word \"dandelion\", modified from the French dent-de-lion (\"lion's tooth\", a reference to the plant's sharply indented leaves). The term can also refer to phonological adaptation without spelling change: for example, pasta (pronounced [ˈpasta] in Italian) is accepted in English with Italian spelling, but anglicised phonetically in being pronounced in American English and in British English. The anglicisation of non-English words for use in English is just one case of the more widespread domestication of foreign words that is a feature of many languages, sometimes involving shifts in meaning. The term does not cover the unmodified adoption of foreign words into English (e.g. kindergarten) or the unmodified adoption of English words into foreign languages (e.g. internet, computer, web).",
-      "category_hint": "综合",
-      "source_rank": 2,
-      "added_at": "2026-07-13T20:44:59.345037Z"
-    },
-    {
-      "source_id": "wiki-topic:en:580",
-      "source_name": "EN Wikipedia：Astronomer",
-      "source_url": "https://en.wikipedia.org/wiki/Astronomer",
-      "title": "Astronomer",
-      "excerpt": "An astronomer is a scientist in the field of astronomy who focuses on a specific question or field outside the scope of Earth. Astronomers study astronomical objects, such as stars, planets, moons, comets and galaxies, by some combination of observation and the application of astrophysical models. Examples of topics or fields astronomers study include planetary science, solar astronomy, the origin or evolution of stars, or the formation of galaxies. A related but distinct subject is physical cosmology, which studies the universe as a whole.",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-13T20:44:59.347145Z"
-    },
-    {
-      "source_id": "wiki-topic:en:27783337",
-      "source_name": "EN Wikipedia：Adverse food reaction",
-      "source_url": "https://en.wikipedia.org/wiki/Adverse_food_reaction",
-      "title": "Adverse food reaction",
-      "excerpt": "An adverse food reaction is an adverse response by the body to food or a specific type of food. The most common adverse reaction is a food allergy, which is an adverse immune response to either a specific type or a range of food proteins. However, other adverse responses to food are not allergies. These reactions include responses to food such as food intolerance, pharmacological reactions, and toxin-mediated reactions, as well as physical responses, such as choking.",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-13T20:44:59.347229Z"
-    },
-    {
       "source_id": "wiki-topic:en:57533523",
       "source_name": "EN Wikipedia：Baltistics",
       "source_url": "https://en.wikipedia.org/wiki/Baltistics",
@@ -461,16 +291,6 @@
       "category_hint": "综合",
       "source_rank": 2,
       "added_at": "2026-07-13T20:44:59.348990Z"
-    },
-    {
-      "source_id": "wiki-topic:en:18801936",
-      "source_name": "EN Wikipedia：The Chemical Basis of Morphogenesis",
-      "source_url": "https://en.wikipedia.org/wiki/The_Chemical_Basis_of_Morphogenesis",
-      "title": "The Chemical Basis of Morphogenesis",
-      "excerpt": "\"The Chemical Basis of Morphogenesis\" is an article that the English mathematician Alan Turing wrote in 1952. It describes how patterns in nature, such as stripes and spirals, can arise naturally from a homogeneous, uniform state. The theory, which can be called a reaction–diffusion theory of morphogenesis, has become a basic model in theoretical biology. Such patterns have come to be known as Turing patterns. For example, it has been postulated that the protein VEGFC can form Turing patterns to govern the formation of lymphatic vessels in the zebrafish embryo.",
-      "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-13T20:44:59.349114Z"
     },
     {
       "source_id": "wiki-topic:en:67545702",
@@ -493,16 +313,6 @@
       "added_at": "2026-07-14T20:46:40.125494Z"
     },
     {
-      "source_id": "wiki-topic:en:1254336",
-      "source_name": "EN Wikipedia：Applied ecology",
-      "source_url": "https://en.wikipedia.org/wiki/Applied_ecology",
-      "title": "Applied ecology",
-      "excerpt": "Applied ecology is a sub-field within ecology that considers the application of the science of ecology to real-world (usually management) questions. It is also described as a scientific field that focuses on the application of concepts, theories, models, or methods of fundamental ecology to environmental problems.",
-      "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-14T20:46:40.126174Z"
-    },
-    {
       "source_id": "wiki-topic:en:52303418",
       "source_name": "EN Wikipedia：Dynamic scaling",
       "source_url": "https://en.wikipedia.org/wiki/Dynamic_scaling",
@@ -511,36 +321,6 @@
       "category_hint": "科学",
       "source_rank": 2,
       "added_at": "2026-07-14T20:46:40.126722Z"
-    },
-    {
-      "source_id": "wiki-topic:en:20324344",
-      "source_name": "EN Wikipedia：Constructed language",
-      "source_url": "https://en.wikipedia.org/wiki/Constructed_language",
-      "title": "Constructed language",
-      "excerpt": "A constructed language is a language for communication between humans (i.e. not with or between computers) which, unlike most languages that naturally emerge from human interaction, is intentionally devised by a person or group for a particular purpose. The term constructed language is often shortened to conlang and, as a relatively broad term, it encompasses subcategories including: fictional, artificial, engineered, planned and invented languages. Conlangs may include aspects reminiscent of natural language including phonology, grammar, orthography, and vocabulary. Interlinguistics includes the study of constructed languages.",
-      "category_hint": "综合",
-      "source_rank": 2,
-      "added_at": "2026-07-14T20:46:40.126966Z"
-    },
-    {
-      "source_id": "wiki-topic:en:44621719",
-      "source_name": "EN Wikipedia：Bismuth–indium",
-      "source_url": "https://en.wikipedia.org/wiki/Bismuth%E2%80%93indium",
-      "title": "Bismuth–indium",
-      "excerpt": "The elements bismuth and indium have relatively low melting points when compared to other metals, and their alloy bismuth–indium (Bi–In) is classified as a fusible alloy. It has a melting point lower than the eutectic point of the tin–lead alloy. The most common application of the Bi-In alloy is as a low temperature solder, which can also contain, besides bismuth and indium, lead, cadmium, and tin.",
-      "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-14T20:46:40.127480Z"
-    },
-    {
-      "source_id": "wiki-topic:en:39219551",
-      "source_name": "EN Wikipedia：A calorie is a calorie",
-      "source_url": "https://en.wikipedia.org/wiki/A_calorie_is_a_calorie",
-      "title": "A calorie is a calorie",
-      "excerpt": "\"A calorie is a calorie\" is an expression used to convey the concept that sources of dietary energy are interchangeable. This concept has been subject of debate since its emergence in the early 19th century.",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-14T20:46:40.128000Z"
     },
     {
       "source_id": "wiki-topic:en:69076183",
@@ -653,16 +433,6 @@
       "added_at": "2026-07-19T18:14:14.899825Z"
     },
     {
-      "source_id": "wiki-topic:en:151604",
-      "source_name": "EN Wikipedia：Deception",
-      "source_url": "https://en.wikipedia.org/wiki/Deception",
-      "title": "Deception",
-      "excerpt": "Deception is the act of convincing one or many recipients of untrue information. The person creating the deception knows it to be false while the receiver of the information does not. It is often done for personal gain or advantage. Deceit and dishonesty can also form grounds for civil litigation in tort, or contract law (where it is known as misrepresentation or fraudulent misrepresentation if deliberate), or give rise to criminal prosecution for fraud.",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-19T18:14:14.900603Z"
-    },
-    {
       "source_id": "wiki-topic:en:30960432",
       "source_name": "EN Wikipedia：Multi-disciplinary engineering",
       "source_url": "https://en.wikipedia.org/wiki/Multi-disciplinary_engineering",
@@ -671,16 +441,6 @@
       "category_hint": "科技",
       "source_rank": 2,
       "added_at": "2026-07-20T19:11:49.200089Z"
-    },
-    {
-      "source_id": "wiki-topic:en:1984187",
-      "source_name": "EN Wikipedia：Biomineralization",
-      "source_url": "https://en.wikipedia.org/wiki/Biomineralization",
-      "title": "Biomineralization",
-      "excerpt": "Biomineralization, also written biomineralisation, is the process by which living organisms produce minerals, often resulting in hardened or stiffened mineralized tissues. It is an extremely widespread phenomenon: all six taxonomic kingdoms contain members that can form minerals, and over 60 different minerals have been identified in organisms. Examples include silicates in algae and diatoms, carbonates in invertebrates, and calcium phosphates and carbonates in vertebrates. These minerals often form structural features such as sea shells and the bone in mammals and birds. Organisms have been producing mineralized skeletons for the past 550 million years. Calcium carbonates and calcium phosphates are usually crystalline, but silica organisms (such as sponges and diatoms) are always non-crystalline minerals. Other examples include copper, iron, and gold deposits involving bacteria. Biologically formed minerals often have special uses such as magnetic sensors in magnetotactic bacteria (Fe3O4), gravity-sensing devices (CaCO3, CaSO4, BaSO4) and iron storage and mobilization (Fe2O3•H2O in the protein ferritin). In terms of taxonomic distribution, the most common biominerals are the phosphate...",
-      "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-24T18:53:30.403503Z"
     },
     {
       "source_id": "wiki-random:en:13628958",

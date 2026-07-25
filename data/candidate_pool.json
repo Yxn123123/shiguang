@@ -1,17 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-07-25T18:15:39.758667Z",
+  "updated_at": "2026-07-25T18:17:38.850737Z",
   "candidates": [
-    {
-      "source_id": "wiki-topic:en:77737401",
-      "source_name": "EN Wikipedia：Anticipatory obedience",
-      "source_url": "https://en.wikipedia.org/wiki/Anticipatory_obedience",
-      "title": "Anticipatory obedience",
-      "excerpt": "Anticipatory obedience is the act of preemptively conforming to what is expected to be desired by an authority figure, often without explicit orders. In other cases, it may manifest as refusing to challenge an authority's demands, even when it remains possible. This behavior of self-censorship and complying in advance has been historically significant, particularly in authoritarian regimes, where it has facilitated the swift implementation of policies and actions that might otherwise face resistance. Yale Law professor and historian Timothy Snyder has described the dangers of this behavior as: \"individuals think ahead about what a more repressive government will want and then offer themselves without being asked. A citizen who adapts in this way is teaching power what it can do.\"",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.566020Z"
-    },
     {
       "source_id": "wiki-topic:en:42186414",
       "source_name": "EN Wikipedia：Instrumental magnitude",
@@ -21,26 +11,6 @@
       "category_hint": "科学",
       "source_rank": 2,
       "added_at": "2026-07-12T11:39:40.566020Z"
-    },
-    {
-      "source_id": "wiki-topic:en:57878408",
-      "source_name": "EN Wikipedia：Everyday Africa",
-      "source_url": "https://en.wikipedia.org/wiki/Everyday_Africa",
-      "title": "Everyday Africa",
-      "excerpt": "Everyday Africa is a photoblog and book of collective of 30 photographers capturing daily life in Africa. Started in March 2012 by photographer Peter DiCampo and writer Austin Merrill, Everyday Africa has developed a large following through social media. The blog had over 382,000 followers on Instagram and 71,000 followers on Facebook as of July 2018. Hundreds of \"Everyday\" blogs have since been developed by people in different countries around the world influenced by Everyday Africa.",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.566020Z"
-    },
-    {
-      "source_id": "wiki-topic:en:41286907",
-      "source_name": "EN Wikipedia：Food grading",
-      "source_url": "https://en.wikipedia.org/wiki/Food_grading",
-      "title": "Food grading",
-      "excerpt": "Food grading involves the inspection, assessment and sorting of various foods regarding quality, freshness, legal conformity and market value. Food grading is often done by hand, in which foods are assessed and sorted. Machinery is also used to grade foods, and may involve sorting products by size, shape and quality. For example, machinery can be used to remove spoiled food from fresh product.",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.568006Z"
     },
     {
       "source_id": "wiki-topic:en:40174279",
@@ -63,16 +33,6 @@
       "added_at": "2026-07-12T11:39:40.571009Z"
     },
     {
-      "source_id": "wiki-topic:en:152552",
-      "source_name": "EN Wikipedia：Aerospike engine",
-      "source_url": "https://en.wikipedia.org/wiki/Aerospike_engine",
-      "title": "Aerospike engine",
-      "excerpt": "The aerospike engine is a type of rocket engine that maintains its aerodynamic efficiency across a wide range of altitudes. It belongs to the class of altitude compensating nozzle engines. Aerospike engines were proposed for many single-stage-to-orbit (SSTO) designs. They were a contender for the Space Shuttle main engine. However, as of early 2026 no such engine was in commercial production, although some large-scale aerospikes were in testing phases. The term aerospike was originally used for a truncated plug nozzle with a rough conical taper and some gas injection, forming an \"air spike\" to help make up for the absence of the plug tail. However, a full-length plug nozzle may also be called an aerospike.",
-      "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.572028Z"
-    },
-    {
       "source_id": "wiki-topic:en:75381574",
       "source_name": "EN Wikipedia：Solo living",
       "source_url": "https://en.wikipedia.org/wiki/Solo_living",
@@ -81,26 +41,6 @@
       "category_hint": "生活",
       "source_rank": 2,
       "added_at": "2026-07-12T11:39:40.572028Z"
-    },
-    {
-      "source_id": "wiki-topic:en:45119474",
-      "source_name": "EN Wikipedia：Bioclaustration",
-      "source_url": "https://en.wikipedia.org/wiki/Bioclaustration",
-      "title": "Bioclaustration",
-      "excerpt": "Bioclaustration is kind of interaction when one organism (usually soft bodied) is embedded in a living substrate (i.e. skeleton of another organism); it means \"biologically walled-up\". In case of symbiosis the walling-up is not complete and both organisms stay alive (Palmer and Wilson, 1988).",
-      "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.573028Z"
-    },
-    {
-      "source_id": "wiki-topic:en:2667092",
-      "source_name": "EN Wikipedia：Everyday life",
-      "source_url": "https://en.wikipedia.org/wiki/Everyday_life",
-      "title": "Everyday life",
-      "excerpt": "Everyday life, daily life or routine life comprises the ways in which people typically act, think, and feel on a daily basis. Everyday life may be described as mundane, routine, natural, habitual, or normal. Human diurnality means most people sleep at least part of the night and are active in daytime. Most eat two or three meals in a day. Working time (apart from shift work) mostly involves a daily schedule, beginning in the morning. This produces the daily rush hours experienced by many millions, and the drive time focused on by radio broadcasters. Evening is often leisure time. Bathing every day is a custom for many. Beyond these broad similarities, lifestyles vary and different people spend their days differently. For example, nomadic life differs from sedentism, and among the sedentary, urban people live differently from rural folk. Differences in the lives of the rich and the poor, or between laborers and intellectuals, may go beyond their working hours. Children and adults also vary in what they do each day.",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.574028Z"
     },
     {
       "source_id": "wiki-topic:en:806478",
@@ -143,16 +83,6 @@
       "added_at": "2026-07-12T11:39:40.576001Z"
     },
     {
-      "source_id": "wiki-topic:en:569092",
-      "source_name": "EN Wikipedia：Behavioral modernity",
-      "source_url": "https://en.wikipedia.org/wiki/Behavioral_modernity",
-      "title": "Behavioral modernity",
-      "excerpt": "Behavioral modernity is a suite of behavioral and cognitive traits associated with humans (Homo sapiens), reflecting capacities such as abstract and symbolic thought, planning depth, cumulative culture, and complex social learning. These traits are often inferred archaeologically through evidence including symbolic artifacts (e.g., art, ornamentation), ritualized behavior, music and dance, sophisticated hunting strategies, and advanced lithic technologies such as blade production. Rather than representing an absolute boundary between Homo sapiens and other hominins, behavioral modernity is increasingly understood as a mosaic of traits that emerged gradually and were expressed variably across time and populations.",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-12T11:39:40.576511Z"
-    },
-    {
       "source_id": "wiki-topic:en:67401625",
       "source_name": "EN Wikipedia：Errand",
       "source_url": "https://en.wikipedia.org/wiki/Errand",
@@ -161,16 +91,6 @@
       "category_hint": "生活",
       "source_rank": 2,
       "added_at": "2026-07-12T11:39:40.576511Z"
-    },
-    {
-      "source_id": "wiki-topic:en:81759455",
-      "source_name": "EN Wikipedia：Anthropos-Bibliothek",
-      "source_url": "https://en.wikipedia.org/wiki/Anthropos-Bibliothek",
-      "title": "Anthropos-Bibliothek",
-      "excerpt": "The Anthropos-Bibliothek (\"Anthropos Library\"), with French title: Bibliothèque Anthropos, is a Catholic series of publications in religious studies, ethnology, and linguistics. It was issued in connection with the journal Anthropos – Internationale Zeitschrift für Völker- und Sprachenkunde (International Review of Ethnology and Linguistics) and was originally intended as a platform for Catholic missionary scholarship. The Anthropos Library was founded by the SVD Fathers Wilhelm Schmidt and Wilhelm Koppers, leading representatives of the Vienna School of Ethnology, a Catholic-theological variant of the \"culture-circle theory\" (Kulturkreislehre). The key concepts include Urmonotheismus, Hochgott belief, and Urreligion. The series contains substantial monographic studies, often representing the life's work of scholars from various religious orders as well as lay researchers. More than thirty volumes were published. From 1909 onward the series appeared in Münster at Aschendorff, with two subseries: the Ethnological Anthropos Library (Bibliothèque ethnologique Anthropos) and the Linguistic Anthropos Library (Bibliothèque linguistique Anthropos). It was later also published at St. Gabriel...",
-      "category_hint": "综合",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.388158Z"
     },
     {
       "source_id": "wiki-topic:en:71482441",
@@ -223,46 +143,6 @@
       "added_at": "2026-07-12T20:09:32.388801Z"
     },
     {
-      "source_id": "wiki-topic:en:25383607",
-      "source_name": "EN Wikipedia：California Volcano Observatory",
-      "source_url": "https://en.wikipedia.org/wiki/California_Volcano_Observatory",
-      "title": "California Volcano Observatory",
-      "excerpt": "The California Volcano Observatory (CalVO) is the volcano observatory that monitors the volcanic and geologic activity of California and Nevada. It is a part of the Volcano Hazards Program of the United States Geological Survey, a scientific agency of the United States government. Originally, the volcano observatory was known as the Long Valley Observatory which monitored volcanic activity east of the Sierra Nevada in Mono County, California which included Long Valley Caldera, Mammoth Mountain, and the Mono–Inyo Craters. In 2012, the Long Valley Observatory was integrated into the new California Volcano Observatory based in Menlo Park, California which covers the entire states of California and Nevada, this includes the southern Cascade Range volcanoes in the state of California which were previously under the jurisdiction of the Cascades Volcano Observatory.",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.389225Z"
-    },
-    {
-      "source_id": "wiki-topic:en:59747046",
-      "source_name": "EN Wikipedia：Clarke number",
-      "source_url": "https://en.wikipedia.org/wiki/Clarke_number",
-      "title": "Clarke number",
-      "excerpt": "Clarke number or clarke is the relative abundance of a chemical element, typically in Earth's crust. The technical definition of \"Earth's crust\" varies among authors, and the actual numbers also vary significantly.",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.389293Z"
-    },
-    {
-      "source_id": "wiki-topic:en:55931",
-      "source_name": "EN Wikipedia：Chronology",
-      "source_url": "https://en.wikipedia.org/wiki/Chronology",
-      "title": "Chronology",
-      "excerpt": "Chronology (from Latin chronologia, from Ancient Greek χρόνος, chrónos, 'time'; and -λογία, -logia) is the science of arranging events in their order of occurrence in time, such as in a timeline or other sequence of events. It is also \"the determination of the actual temporal sequence of past events\". Chronology is a part of periodization. It is also a part of the discipline of history including earth history, the earth sciences, and study of the geologic time scale.",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.390699Z"
-    },
-    {
-      "source_id": "wiki-topic:en:11054533",
-      "source_name": "EN Wikipedia：Archard equation",
-      "source_url": "https://en.wikipedia.org/wiki/Archard_equation",
-      "title": "Archard equation",
-      "excerpt": "The Archard wear equation is a simple model used to describe sliding wear and is based on the theory of asperity contact. The Archard equation was developed much later than Reye's hypothesis (sometimes also known as energy dissipative hypothesis), though both came to the same physical conclusions, that the volume of the removed debris due to wear is proportional to the work done by friction forces. Theodor Reye's model became popular in Europe and it is still taught in university courses of applied mechanics. Until recently, Reye's theory of 1860 has, however, been totally ignored in English and American literature where subsequent works by Ragnar Holm and John Frederick Archard are usually cited. In 1960, Mikhail Mikhailovich Khrushchov and Mikhail Alekseevich Babichev published a similar model as well. In modern literature, the relation is therefore also known as Reye–Archard–Khrushchov wear law. In 2022, the steady-state Archard wear equation was extended into the running-in regime using the bearing ratio curve representing the initial surface topography.",
-      "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-12T20:09:32.390894Z"
-    },
-    {
       "source_id": "wiki-topic:en:1686342",
       "source_name": "EN Wikipedia：Adaptive behavior",
       "source_url": "https://en.wikipedia.org/wiki/Adaptive_behavior",
@@ -303,26 +183,6 @@
       "added_at": "2026-07-13T20:44:59.351202Z"
     },
     {
-      "source_id": "wiki-topic:en:29265347",
-      "source_name": "EN Wikipedia：Food choice",
-      "source_url": "https://en.wikipedia.org/wiki/Food_choice",
-      "title": "Food choice",
-      "excerpt": "Research into food choice investigates how people select the food they eat. An interdisciplinary topic, food choice comprises psychological and sociological aspects (including food politics and phenomena such as vegetarianism or religious dietary laws), economic issues (for instance, how food prices or marketing campaigns influence choice) and sensory aspects (such as the study of the organoleptic qualities of food). Factors that guide food choice include taste preference, sensory attributes, cost, availability, convenience, cognitive restraint, and cultural familiarity. In addition, environmental cues and increased portion sizes play a role in the choice and amount of foods consumed. Food choice is the subject of research in nutrition, food science, food psychology, anthropology, sociology, and other branches of the natural and social sciences. It is of practical interest to the food industry and especially its marketing endeavors. Social scientists have developed different conceptual frameworks of food choice behavior. Theoretical models of behavior incorporate both individual and environmental factors affecting the formation or modification of behaviors. Social cognitive theory examines...",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-14T20:46:40.125494Z"
-    },
-    {
-      "source_id": "wiki-topic:en:52303418",
-      "source_name": "EN Wikipedia：Dynamic scaling",
-      "source_url": "https://en.wikipedia.org/wiki/Dynamic_scaling",
-      "title": "Dynamic scaling",
-      "excerpt": "Dynamic scaling (sometimes known as Family–Vicsek scaling) is a litmus test that shows whether an evolving system exhibits self-similarity. In general a function is said to exhibit dynamic scaling if it satisfies: f ( x , t ) ∼ t θ φ ( x t z ) . {\\displaystyle f(x,t)\\sim t^{\\theta }\\varphi \\left({\\frac {x}{t^{z}}}\\right).} Here the exponent θ {\\displaystyle \\theta } is fixed by the dimensional requirement [ f ] = [ t θ ] {\\displaystyle [f]=[t^{\\theta }]} . The numerical value of f / t θ {\\displaystyle f/t^{\\theta...",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-14T20:46:40.126722Z"
-    },
-    {
       "source_id": "wiki-topic:en:69076183",
       "source_name": "EN Wikipedia：Earth Science Decadal Survey",
       "source_url": "https://en.wikipedia.org/wiki/Earth_Science_Decadal_Survey",
@@ -331,36 +191,6 @@
       "category_hint": "科学",
       "source_rank": 2,
       "added_at": "2026-07-14T20:46:40.128754Z"
-    },
-    {
-      "source_id": "wiki-topic:en:81301190",
-      "source_name": "EN Wikipedia：Luxury uptake",
-      "source_url": "https://en.wikipedia.org/wiki/Luxury_uptake",
-      "title": "Luxury uptake",
-      "excerpt": "Luxury uptake refers to the adaptation of microalgae sequestering a greater quantity of nutrients, typically phosphorus, than they are immediately able to utilize for growth or metabolic function.",
-      "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-14T20:46:40.129073Z"
-    },
-    {
-      "source_id": "wiki-topic:en:61763916",
-      "source_name": "EN Wikipedia：CircumArctic Rangifer Monitoring and Assessment Network",
-      "source_url": "https://en.wikipedia.org/wiki/CircumArctic_Rangifer_Monitoring_and_Assessment_Network",
-      "title": "CircumArctic Rangifer Monitoring and Assessment Network",
-      "excerpt": "CircumArctic Rangifer Monitoring and Assessment Network (CARMA) is a scientific research network, launched in 2004 in Vancouver, British Columbia, and funded by the Canadian International Polar Year (IPY) which focusses on the health of \"the North's migratory tundra caribou and wild reindeer populations\" in the face of global change, with up to 80% declines of some herds of wild Rangifer since 2004. The collaborative research is undertaken by an international team of scientists, administrators and members of local community members, particularly Rangifer hunters who share a common interest in their survival.",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-15T18:37:33.834620Z"
-    },
-    {
-      "source_id": "wiki-topic:en:67764026",
-      "source_name": "EN Wikipedia：Biogeoclimatic ecosystem classification",
-      "source_url": "https://en.wikipedia.org/wiki/Biogeoclimatic_ecosystem_classification",
-      "title": "Biogeoclimatic ecosystem classification",
-      "excerpt": "Biogeoclimatic ecosystem classification (BEC) is an ecological classification framework used in British Columbia to define, describe, and map ecosystem-based units at various scales, from broad, ecologically based climatic regions down to local ecosystems or sites. BEC is termed an ecosystem classification as the approach integrates site, soil, and vegetation characteristics to develop and characterize all units. BEC has a strong application focus and guides to classification and management of forests, grasslands and wetlands are available for much of the province to aid in identification of the ecosystem units.",
-      "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-07-15T18:37:33.834774Z"
     },
     {
       "source_id": "wiki-topic:en:7371134",
@@ -383,36 +213,6 @@
       "added_at": "2026-07-15T18:37:33.836179Z"
     },
     {
-      "source_id": "wiki-topic:en:26107799",
-      "source_name": "EN Wikipedia：Dextrose equivalent",
-      "source_url": "https://en.wikipedia.org/wiki/Dextrose_equivalent",
-      "title": "Dextrose equivalent",
-      "excerpt": "Dextrose equivalent (DE) is a measure of the amount of reducing sugars present in a sugar product, expressed as a percentage on a dry basis relative to dextrose. The dextrose equivalent gives an indication of the average degree of polymerisation (DP) for starch sugars. As a rule of thumb, DE × DP = 120. In all glucose polymers, from the native starch to glucose syrup, the molecular chain ends with a reducing sugar, containing a free aldehyde in its linear form. As the starch is hydrolysed, the molecules become shorter and more reducing sugars are present. Therefore, the dextrose equivalent describes the degree of conversion of starch to dextrose. The standard method of determining the dextrose equivalent is the Lane-Eynon titration, based on the reduction of copper(II) sulfate in an alkaline tartrate solution, an application of Fehling's test. Examples: A maltodextrin with a DE of 10 would have 10% of the reducing power of dextrose which has a DE of 100. Maltose, a disaccharide made of two glucose (dextrose) molecules, has a DE of 52, correcting for the water loss in molecular weight when the two molecules are combined. Glucose (dextrose) has a molecular mass of 180, while water has...",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-15T18:37:33.837746Z"
-    },
-    {
-      "source_id": "wiki-topic:en:77061339",
-      "source_name": "EN Wikipedia：Giuseppe Donatiello",
-      "source_url": "https://en.wikipedia.org/wiki/Giuseppe_Donatiello",
-      "title": "Giuseppe Donatiello",
-      "excerpt": "Giuseppe Donatiello (born 14 December, 1967) is an Italian amateur astronomer. He is known for discovering twelve nearby dwarf galaxies in the Local Volume, including three in the Local Group. He is the principal investigator and coordinator of the National Deep Sky Research Section of the Italian Amateur Astronomers Union.",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-15T18:37:33.838089Z"
-    },
-    {
-      "source_id": "wiki-topic:en:73949101",
-      "source_name": "EN Wikipedia：Economy (linguistics)",
-      "source_url": "https://en.wikipedia.org/wiki/Economy_(linguistics)",
-      "title": "Economy (linguistics)",
-      "excerpt": "The economy principle in linguistics, also known as linguistic economy, is a functional explanation of linguistic form. It suggests that the organization of phonology, morphology, lexicon and syntax is fundamentally based on a compromise between simplicity and clarity, two desirable but to some extent incompatible qualities. The more distinctive elements that a language has, for example phonemes or functional markers, the more it will promote hearer-easiness. This, however, occurs on the expense of the speaker, who must make a greater effort to convey a message. An economic solution yields good communicative value without excessive time and energy costs. The word 'economy' derives from Greek oikòs ('house') and nomòs (from némein, 'to deliver'). The notion of good household management is transferred metaphorically from a social to a linguistic level where it represents a force maintaining systemic equilibrium. The same principle—a compromise between gain and cost—also applies to biological systems. However, functional linguistics does not consider itself to be a part of evolutionary biology, but both as belonging to systems theory, and both as being governed by the logic of trade-off...",
-      "category_hint": "综合",
-      "source_rank": 2,
-      "added_at": "2026-07-17T18:31:41.231150Z"
-    },
-    {
       "source_id": "wiki-topic:en:66493705",
       "source_name": "EN Wikipedia：Extramural English",
       "source_url": "https://en.wikipedia.org/wiki/Extramural_English",
@@ -421,46 +221,6 @@
       "category_hint": "综合",
       "source_rank": 2,
       "added_at": "2026-07-19T18:14:14.899631Z"
-    },
-    {
-      "source_id": "wiki-topic:en:5649176",
-      "source_name": "EN Wikipedia：Electron emission",
-      "source_url": "https://en.wikipedia.org/wiki/Electron_emission",
-      "title": "Electron emission",
-      "excerpt": "In physics, electron emission is the ejection of an electron from the surface of matter, or, in beta decay (β− decay), where a beta particle (a fast energetic electron or positron) is emitted from an atomic nucleus transforming the original nuclide to an isobar.",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-07-19T18:14:14.899825Z"
-    },
-    {
-      "source_id": "wiki-topic:en:30960432",
-      "source_name": "EN Wikipedia：Multi-disciplinary engineering",
-      "source_url": "https://en.wikipedia.org/wiki/Multi-disciplinary_engineering",
-      "title": "Multi-disciplinary engineering",
-      "excerpt": "Multi-disciplinary engineering (MDE) is an approach to engineering that integrates knowledge, principles, and methodologies from multiple distinct fields to address complex problems. This approach is particularly valuable in modern technological and infrastructural developments, where challenges often require the convergence of expertise from diverse domains.",
-      "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-07-20T19:11:49.200089Z"
-    },
-    {
-      "source_id": "wiki-topic:en:56733622",
-      "source_name": "EN Wikipedia：Coping planning",
-      "source_url": "https://en.wikipedia.org/wiki/Coping_planning",
-      "title": "Coping planning",
-      "excerpt": "Coping planning is an approach to supporting people who are distressed. It is part of a biopsychosocial approach to mental health and well-being that comprises healthy environments, responsive parenting, belonging, healthy activities, coping, psychological resilience and treatment of illness. Coping planning normalises distress as a universal human experience. It draws on a health-focused approach to coping, to improve emotion regulation and decrease the memory of unpleasant emotions. Coping planning interventions are effective when people are supported in the process of forming coping plans.",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-25T18:13:57.591728Z"
-    },
-    {
-      "source_id": "onthisday:zh:07/25:2016:4",
-      "source_name": "Wikimedia On This Day：立法院",
-      "source_url": "https://zh.wikipedia.org/wiki/%E7%AB%8B%E6%B3%95%E9%99%A2",
-      "title": "2016: 臺灣立法院三讀通過「政黨及其附隨組織不當取得財產處理條例」以開始處理過往威權時期政黨不當取得財產的問題。",
-      "excerpt": "事件：臺灣立法院三讀通過「政黨及其附隨組織不當取得財產處理條例」以開始處理過往威權時期政黨不當取得財產的問題。\n相关页面摘要：立法院是中華民國的最高立法機關，簡稱立院；在國民大會停止運作後，其普遍被視為中華民國的國會，主責制定各項法律、審查中央政府預算及批准條約，並向行政院政治問責。最早前身為民國初年立法機構之眾議院（1913年－1925年）。國民政府時期以恢復法統爲由，於民國17年（1928年）在南京成立立法院；最初在訓政時期為國民政府附屬機關，民國37年（1948年）因應行憲而在制度上脫離行政權，成為正式的議會機關。",
-      "category_hint": "历史",
-      "source_rank": 3,
-      "added_at": "2026-07-25T18:13:57.591859Z"
     },
     {
       "source_id": "wiki-random:en:13628958",

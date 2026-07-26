@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-25T18:17:38.850737Z",
+  "updated_at": "2026-07-26T18:30:53.767013Z",
   "candidates": [
     {
       "source_id": "wiki-topic:en:42186414",
@@ -221,6 +221,26 @@
       "category_hint": "综合",
       "source_rank": 2,
       "added_at": "2026-07-19T18:14:14.899631Z"
+    },
+    {
+      "source_id": "wiki-topic:en:83042356",
+      "source_name": "EN Wikipedia：NGC 1875",
+      "source_url": "https://en.wikipedia.org/wiki/NGC_1875",
+      "title": "NGC 1875",
+      "excerpt": "NGC 1875 is an elliptical galaxy in the constellation of Orion, with an apparent (B) magnitude of 14.89. It is the brightest member of HCG 34, which is a Hickson Compact Group of galaxies identified on Palamar Observatory Sky Survey red prints by Paul Hickson in 1982. The other catalogued members of HGC 34 are VV 169b, VV 169c, and VV 169d.",
+      "category_hint": "科学",
+      "source_rank": 2,
+      "added_at": "2026-07-26T18:30:03.020536Z"
+    },
+    {
+      "source_id": "onthisday:zh:07/26:2016:6",
+      "source_name": "Wikimedia On This Day：希拉里·克林顿",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%B8%8C%E6%8B%89%E9%87%8C%C2%B7%E5%85%8B%E6%9E%97%E9%A1%BF",
+      "title": "2016: 希拉里·克林顿在费城民主党全国代表大会上成为民主党总统候选人，是美国历史上首位主要党派的女性总统候选人。",
+      "excerpt": "事件：希拉里·克林顿在费城民主党全国代表大会上成为民主党总统候选人，是美国历史上首位主要党派的女性总统候选人。\n相关页面摘要：希拉里·戴安·洛咸·克林顿，美国民主黨籍政治人物、律师、作家，生於伊利諾州芝加哥，毕业于威尔斯利学院及耶鲁大学法学院，現任英国北爱尔兰的贝尔法斯特女王大学校监、哥伦比亚大学教授以及乔治城大学妇女、和平与安全研究所名誉创始主席。曾擔任美国国务卿、聯邦參議員及美国第一夫人。其丈夫是美国前总统比尔·克林顿，曾随其丈夫的职务变迁担任过阿肯色州及美國第一夫人。",
+      "category_hint": "历史",
+      "source_rank": 3,
+      "added_at": "2026-07-26T18:30:03.020936Z"
     },
     {
       "source_id": "wiki-random:en:13628958",
@@ -2881,6 +2901,276 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-25T18:15:39.755807Z"
+    },
+    {
+      "source_id": "wiki-random:en:52253903",
+      "source_name": "EN Wikipedia：Dishwater Creek",
+      "source_url": "https://en.wikipedia.org/wiki/Dishwater_Creek",
+      "title": "Dishwater Creek",
+      "excerpt": "Dishwater Creek is a stream in Montgomery County in the U.S. state of Missouri. It is a tributary of the Loutre River. The stream headwaters arise at 38°52′24″N 91°31′37″W at an elevation of 800 feet. The stream flows to the south-southwest through the Danville State Wildlife Area and passes under Missouri Route J to cross the Loutre floodplain to its confluence with the Loutre River at 38°49′33″N 91°32′50″W and an elevation of 515 feet. According to tradition, the stream was named because a local woman used the stream to wash dishes.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-26T18:30:03.022037Z"
+    },
+    {
+      "source_id": "wiki-random:zh:4513545",
+      "source_name": "ZH Wikipedia：洛伊丝·格里芬",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%B4%9B%E4%BC%8A%E4%B8%9D%C2%B7%E6%A0%BC%E9%87%8C%E8%8A%AC",
+      "title": "洛伊丝·格里芬",
+      "excerpt": "洛伊丝·帕特里斯·格里芬（英語：Lois PatriceGriffin，娘家姓皮尤特施密特）是美国喜剧动画《恶搞之家》中的角色。由动画创始人塞思·麦克法兰创作，并首次在1998年12月20日的一部15分钟短片中亮相。她的设计由麦克法兰亲自完成。格里芬一家首次出现在《Death Has a Shadow》一集中。 洛伊丝是格里芬家的母亲，与她的丈夫彼得育有三个孩子：梅格、克里斯和斯图伊。尽管她承认自己曾经吸食冰毒和患有窃盗癖，洛伊丝也有过几次婚外情，据说这导致梅格有了类似的想法。洛伊丝的独特纽约口音源自于在一部舞台剧中艾利克斯·布斯汀饰演的角色，她在长岛长大。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-26T18:30:03.023095Z"
+    },
+    {
+      "source_id": "wiki-random:zh:6919162",
+      "source_name": "ZH Wikipedia：地质聚合物",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%9C%B0%E8%B4%A8%E8%81%9A%E5%90%88%E7%89%A9",
+      "title": "地质聚合物",
+      "excerpt": "地质聚合物（Geopolymer）属于高分子科学、化学、地质学和工程技术领域。一般来说，聚合物可以指有机材料，即碳基聚合物，也可以指无机聚合物，例如硅基聚合物。有机聚合物包括天然聚合物（橡胶、纤维素）、合成有机聚合物（纺织纤维、塑料、薄膜、弹性体等）和天然生物聚合物（生物、医药、制药）。合成硅基聚合物所用的原料主要是造岩矿物，因此得名地质聚合物。20世纪50年代，苏联基辅的Viktor Glukovsky最先开发了以“土硅酸盐混凝土（soil silicate concretes）”和“土水泥（soil cements）”命名的混凝土材料。但是，自从Joseph Davidovits在1978年创造了Geopolymer，这个概念以来，“地质聚合物”的术语和定义变得更加多样化，并且常常相互冲突。 地质聚合物可以被定义为两大类 : 纯无机及含有机物的地质聚合物； 天然存在的大分子合成地质聚合物的类似物。 地质聚合物本质上是由矿物化合物或由重复单元组成的化合物的混合物，例如氧化硅（-Si-O-Si-O-）、铝硅酸盐（-Si-O-Al-O-）、铝铁硅酸盐（-Fe-O-Si-O-Al-O-）或铝磷酸盐（-Al-O-P-O-）等 。 两种主要的地质聚合物合成路线: 碱性合成路线: Na+, K+, Li+, Ca2+, Cs+ 等； 酸性合成路线: 磷酸以及来源于植物抽提物的有机羧酸 （乙酸、柠檬酸、草酸和腐殖质酸）。 其中，碱性合成路线在研发和商业应用方面最为重要。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-26T18:30:03.024142Z"
+    },
+    {
+      "source_id": "wiki-random:en:58468005",
+      "source_name": "EN Wikipedia：IPhone XR",
+      "source_url": "https://en.wikipedia.org/wiki/IPhone_XR",
+      "title": "IPhone XR",
+      "excerpt": "The iPhone XR is a smartphone developed and marketed by Apple. It is part of the twelfth generation of the iPhone, alongside the higher-end iPhone XS/XS Max models. Pre-orders began on October 19, 2018, with the official release on October 26, 2018. Launched at $749 in the US, the iPhone XR was the least expensive device in Apple's twelfth generation of iPhones, which also includes the iPhone XS and XS Max, and was therefore considered an \"affordable flagship\" or \"budget flagship\" phone at its release. The XR shares key internal hardware with the XS but with features removed or downgraded to reduce the price. The XR features the same processor as the XS and XS Max, the Apple A12 Bionic chip built with a 7 nanometer process. Instead of the OLED screen on the XS, the XR has a 6.1-inch Liquid Retina LED-backlit LCD IPS panel display. According to Apple, the full charge of the XR battery lasts up to one-and-a-half hours longer than that of its direct predecessor, the iPhone 8 Plus. The iPhone XR was available in six colors: black, white, blue, yellow, coral (a shade of pink and orange), and Product Red. It is the second iPhone to be released in white, yellow and blue, the first being the...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-26T18:30:03.025134Z"
+    },
+    {
+      "source_id": "wiki-random:en:1432784",
+      "source_name": "EN Wikipedia：Baseline",
+      "source_url": "https://en.wikipedia.org/wiki/Baseline",
+      "title": "Baseline",
+      "excerpt": "A baseline is a line that is a base for measurement or for construction. The word baseline may refer to: Baseline (configuration management), the process of managing change in software or other fields Baseline (sea), the starting point for delimiting a coastal state's maritime zones Baseline, in underwater diving, a value used to convert cylinder pressure of a tank to free gas volume Baseline (surveying), a line between two points of the Earth's surface and the direction and distance between them Baseline (typography), the line upon which most letters \"sit\" and below which descenders extend Baseline (budgeting), an estimate of budget expected during a fiscal year Baseline (science), information found at the beginning of a study Baseline (pharmacology), a person's state of mind or being, in the absence of drugs The isoelectric line of an electrocardiogram Baseline (interferometry), the length of an astronomical interferometer The name Baseline may refer to: Baseline (magazine), a magazine devoted to typography, book arts, graphic design Baseline (database), a TV and movie industry database Baselines (album), the 1983 debut album of composer Bill Laswell Baseline Road (Arizona), a major...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-26T18:30:03.025397Z"
+    },
+    {
+      "source_id": "wiki-random:zh:4807027",
+      "source_name": "ZH Wikipedia：圣高登斯双鹰金币",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%9C%A3%E9%AB%98%E7%99%BB%E6%96%AF%E5%8F%8C%E9%B9%B0%E9%87%91%E5%B8%81",
+      "title": "圣高登斯双鹰金币",
+      "excerpt": "圣高登斯双鹰金币（英語：Saint-Gaudens double eagle）是美国铸币局于1907至1933年生产的一种20美元面额金币，金币的正面和背面都是由雕塑家奥古斯都·圣高登斯设计，硬币也是以他命名。许多评论中认为这是历史上最漂亮的美国硬币。 1904年，总统西奥多·罗斯福提议美化美国硬币设计，并举荐圣高登斯来完成这项任务。这位雕塑家此前与铸币局及其首席雕刻师查尔斯·爱德华·巴伯的关系不佳，但还是接受了总统的提议。由于圣高登斯的身体健康每况愈下，而且他的设计浮雕太高，给实际生产造成困难，导致硬币面世一拖再拖。圣高登斯于1907年谢世，这时他虽已完成鹰扬金币和双鹰金币的设计，但没能看到两种金币面世。 圣高登斯最初的设计浮雕太高，难以压制，经过多次调整仍然不能大批量生产，失去耐性的罗斯福强行要求铸币局无论产量多低都必须投产。巴伯修改了圣高登斯的设计，大幅降低浮雕高度，但引起圣高登斯的家人和助手不满。金币面世后又因其上没有格言“In God We Trust”引起争议，“火冒三丈”的国会插手干预，要求加上格言。第一次世界大战的爆发导致双鹰金币停产数年，恢复生产后的绝大部分金币都是用于国际贸易，直至1933年停产。1933年版双鹰金币非常罕见，其中一枚于2002年以759万美元高价成交。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-26T18:30:03.026031Z"
+    },
+    {
+      "source_id": "wiki-random:zh:4004920",
+      "source_name": "ZH Wikipedia：福来哥",
+      "source_url": "https://zh.wikipedia.org/wiki/%E7%A6%8F%E6%9D%A5%E5%93%A5",
+      "title": "福来哥",
+      "excerpt": "福来哥是2014年巴西世界杯的官方吉祥物，是一只人形化的巴西三带犰狳。巴西三带犰狳是巴西特有物种，被世界自然保护联盟列入濒危物种红色名单中。福来哥于2012年11月25日在巴西广播公司TV Globo返塌思迪每周娱乐秀中正式亮相。他那讨人喜欢的性格，为其在票选时赢得7.3分。研究表明，福来哥有吸引力的性格，可以用“巴西”、“自然”、“友善”、“对足球的激情”等词大致概括。福来哥的名字是Futebol（足球）和Ecologia（生态）的混合体。将环境问题的信息融入吉祥物，将生态与运动结合，受到世界各国球队的热烈欢迎。福来哥在世界各地的影响力不断提高。他曾代表巴西参加国际旅游交易会及各大洲文化、体育、娱乐盛事，同时也与世界杯奖杯一同亮相。福来哥访问巴西学校和主办城市的日程十分地紧，他向成千上万的人展示了自己在国内的知名度，时常在Facebook上与粉丝互动，这在东道国对官方吉祥物认知的历史上，达到了前所未有的水平。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-26T18:30:03.026110Z"
+    },
+    {
+      "source_id": "wiki-random:en:3985584",
+      "source_name": "EN Wikipedia：Charlotte Spencer, Countess Spencer",
+      "source_url": "https://en.wikipedia.org/wiki/Charlotte_Spencer,_Countess_Spencer",
+      "title": "Charlotte Spencer, Countess Spencer",
+      "excerpt": "Charlotte Frances Frederica Spencer, Countess Spencer, (née Seymour; 28 September 1835 – 31 October 1903) was a British philanthropist. Born in the London residence of her maternal grandfather, the 1st Marquess of Bristol, she was the youngest daughter of Frederick Charles William Seymour and his second wife Lady Augusta Hervey. In 1858 Charlotte married John Spencer, 5th Earl Spencer; they had no children. Lady Spencer was active in philanthropic causes. In the 1860s she founded the Supplemental Ladies Association, an organisation of upper-class women that \"adopted\" missions within poorer areas of the East End of London and allowed them to appeal directly to the group for material aid. She later published a book documenting her observations of this work.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-26T18:30:03.026954Z"
+    },
+    {
+      "source_id": "wiki-random:en:27254215",
+      "source_name": "EN Wikipedia：Suncoast Behavioral Health Center",
+      "source_url": "https://en.wikipedia.org/wiki/Suncoast_Behavioral_Health_Center",
+      "title": "Suncoast Behavioral Health Center",
+      "excerpt": "Suncoast Behavioral Health Center, formerly known as Manatee Palms Youth Services, is a 60-bed psychiatric hospital in Bradenton, Florida. Manatee Palms was a subsidiary of for-profit Psychiatric Solutions. The license for Suncoast Behavioral Health Center/Manatee Palms Youth Services was inactive from October 1, 2013, to August 19, 2014, for extensive remodeling. The state review indicated that while operating as a class-four hospital, the facility was placed on an emergency suspension and a moratorium on admissions was imposed effective April 16, 2010 for conditions determined to “pose an immediate risk to the health and safety of the patients.”",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-26T18:30:03.027332Z"
+    },
+    {
+      "source_id": "wiki-random:en:23817856",
+      "source_name": "EN Wikipedia：Asan, Kathmandu",
+      "source_url": "https://en.wikipedia.org/wiki/Asan,_Kathmandu",
+      "title": "Asan, Kathmandu",
+      "excerpt": "Asan (Newar: असं; Nepali: असन, pronounced [ʌsʌn]) (alternative names: Asan Tol असन टोल [ʌsʌn ʈol], Asan Twāh असं त्वाः) is a ceremonial, market and residential square in central Kathmandu, the capital of Nepal. It is one of the most well-known historical locations in the city and is famed for its bazaar, festival calendar and strategic location. Asan has been described as a fine Newar example of a traditional Asian bazaar. The Tuladhar, Maharjan, Shrestha, Bajracharya and Shakya castes make up most of the population. Six streets converge in Asan, giving the square a perpetual bustle. The bazaar in Asan attracts shoppers from all over Kathmandu because of the tremendous variety of merchandise sold here, ranging from foodstuffs, spices and textiles to electronics and bullion. Asan is also one of the popular tourist spots in the city because of its architectural sights and charming ambience. There are banks, restaurants and a post office. Two taxi stands and bus stops are situated on the eastern side.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-26T18:30:21.351598Z"
+    },
+    {
+      "source_id": "wiki-random:en:396415",
+      "source_name": "EN Wikipedia：Above-the-line (filmmaking)",
+      "source_url": "https://en.wikipedia.org/wiki/Above-the-line_(filmmaking)",
+      "title": "Above-the-line (filmmaking)",
+      "excerpt": "\"Above-the-line\" refers to the list of individuals who guide and influence the creative direction, process, and voice of a given narrative in a film and related expenditures. These roles include but are not limited to the screenwriter, producer, director, and principal cast. Often, the term is used for matters related to the film's production budget. Above-the-line expenditures reflect the expected line item compensation for an official above-the-line member's role in a given film project. These expenditures are usually set, negotiated, spent and/or promised before principal photography begins. They include rights to secure the material on which the screenplay is based, production rights to the screenplay, compensation for the screenwriter, producer, director, principal actors and other cost-related line items such as assistants for the producers, director or actors. The distinction originates from the early studio days when the budget top-sheet would literally have a line separating the above-the-line and below-the-line costs.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-26T18:30:21.352274Z"
+    },
+    {
+      "source_id": "wiki-random:zh:565878",
+      "source_name": "ZH Wikipedia：泰國人口",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%B3%B0%E5%9C%8B%E4%BA%BA%E5%8F%A3",
+      "title": "泰國人口",
+      "excerpt": "泰國全國共有20多個民族，有將近7000萬人口。泰国人口中泰国主体民族泰族占75%。泰族人口分布：中央泰族(占总人口的33.7%，包括曼谷)，东北方的老族(34.2%)，北方泰族(18.8%)，还有南方泰族(13.3%)。中央泰国人讲的方言作为官方语言广泛应用于政府和学校传播。 泰国人口14%是华族，其中相当一部份来自广东潮汕地区。泰国马来族占(2.3%)。其余的少数民族包括高棉、孟族等与泰族人相似的民族;还有越南人、还有一些住在山上的部落，例如例如巴通族、嘎良族、拉祜族、苗族、瑤族等，接近緬甸的山區有少數撣族人，这些人口大约为788,024人。 除此之外，泰国还有大量的来自亚洲、欧洲、北美等长期居住在泰国的人口，还有大量非法移民。不过由于泰国人口基数大，所以这些人口只占总人口的很小一部分。 泰国的人口主要为农业人口，集中在稻米产地，即泰国的中部和东北、北方。随着全球化进程，泰国也在工业化过程中，有大约31.1%的泰国人集中在曼谷等大城市，而且在持续增长中。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-26T18:30:21.353041Z"
+    },
+    {
+      "source_id": "wiki-random:en:4116974",
+      "source_name": "EN Wikipedia：NGC 40",
+      "source_url": "https://en.wikipedia.org/wiki/NGC_40",
+      "title": "NGC 40",
+      "excerpt": "NGC 40, also known as the Bow-Tie Nebula or Caldwell 2, is a planetary nebula located around 5280 light years (1619 parsecs) from Earth in the Constellation of Cepheus. The nebula is about one light-year across. It was discovered by William Herschel on November 25, 1788. The nebula formed due to a dying star ejecting its outer layers of gas leaving behind a small, hot stellar remnant known as a white dwarf. Radiation from the star causes the shed outer layer to heat to about 10,000 degrees Celsius and become visible as a planetary nebula. About 30,000 years from now, scientists theorize that NGC 40 will fade away, leaving only a white dwarf star approximately the size of Earth.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-26T18:30:21.353339Z"
+    },
+    {
+      "source_id": "wiki-random:zh:5540080",
+      "source_name": "ZH Wikipedia：凯撒·伊达尔戈",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%87%AF%E6%92%92%C2%B7%E4%BC%8A%E8%BE%BE%E5%B0%94%E6%88%88",
+      "title": "凯撒·伊达尔戈",
+      "excerpt": "凯撒·伊达尔戈（西班牙语：César A. Hidalgo，全名：César Augusto Hidalgo Ramaciotti，1979年12月22日—），是一位出生于智利圣地亚哥的统计物理学家、作家和数据可视化设计师。他是麻省理工学院媒体实验室（Media Lab）媒介艺术与科学方向（Media Arts and Sciences）的副教授，同时也是媒体实验室宏观连接小组（Macro Connections group）的主管、大数据分析与交互公司Datawheel的联合创始人。 伊达尔戈的研究兴趣包括：复杂系统（Complex Systems）、经济复杂性（Economic Complexity）、数据可视化（Data Visualization）和网络科学（Network Science）。他著有《增长的本质》（Why Information Grows）一书，并合著有《经济复杂性图集》（The Atlas of Economic Complexity）。 伊达尔戈因开创了经济复杂性领域而知名，同时他开发的数据可视化引擎也广为流行，如经济复杂性天文台（OEC）、数据欢呼（DataViva）、名人堂（Pantheon）、浸没（Immersion）、数据美国（DataUSA）和街比分（Streetscore）。 2012年，伊达尔戈被智利国会授予“二百周年科学勋章”（Bicentennial Medal of Science），并被英国《連線》（Wired Magazine）提名为50个将会改变世界的人。2013年，伊达尔戈被世界经济论坛推选为“全球青年领袖”（World Economic Forum 2013 Young Global Leaders）。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-26T18:30:21.353563Z"
+    },
+    {
+      "source_id": "wiki-random:en:15621301",
+      "source_name": "EN Wikipedia：WNS Global Services",
+      "source_url": "https://en.wikipedia.org/wiki/WNS_Global_Services",
+      "title": "WNS Global Services",
+      "excerpt": "WNS (Holdings) Limited (NYSE: WNS) is an Indian multinational business process management company. The company is headquartered in New York, London and Mumbai On July 7, 2025, Capgemini announced an agreement to acquire WNS for US$3.3 billion. The company has over 66,000 staff. WNS is publicly traded on the New York Stock Exchange under the ticker symbol WNS.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-26T18:30:21.354291Z"
+    },
+    {
+      "source_id": "wiki-random:en:30080819",
+      "source_name": "EN Wikipedia：Pillars of Freedom",
+      "source_url": "https://en.wikipedia.org/wiki/Pillars_of_Freedom",
+      "title": "Pillars of Freedom",
+      "excerpt": "Pillars of Freedom is a children's series created by Smiley Guy Studios Inc. and Nexus Media Inc. for TVO to teach children the importance of civics and voting. The plot follows two young dragons called Spirit and Imm who are trying to restore freedom to their kingdom of Moltonia from the reign of the oppressive Mayor Crag. As Spirit and Imm stand up for their rights based on the Canadian Charter of Rights and Freedoms they unlock the seven forgotten Pillars of Freedom and defeat the mayor in the coming election. The seven pillars of freedom are Freedom of conscience, Freedom of expression, Freedom of speech, Freedom of assembly, Freedom of association, Freedom of the press, and the Freedom to protest. The online quest game explores the concepts introduced in the television shorts in greater detail regarding the Charter freedoms and topics of municipal civics and allows kids to vote on what they think the characters should do next and receive feedback on these choices. In season 2, which was announced in 2011, the issues of municipal civics and civil planning are explored in greater detail.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-26T18:30:21.354770Z"
+    },
+    {
+      "source_id": "wiki-random:en:29536434",
+      "source_name": "EN Wikipedia：Acoustic resonance technology",
+      "source_url": "https://en.wikipedia.org/wiki/Acoustic_resonance_technology",
+      "title": "Acoustic resonance technology",
+      "excerpt": "Acoustic resonance technology (ART) is an acoustic inspection technology developed by Det Norske Veritas over the past 20 years. ART exploits the phenomenon of half-wave resonance, whereby a suitably excited resonant target (such as a pipeline wall) exhibits longitudinal resonances at certain frequencies characteristic of the target's thickness. Knowing the speed of sound in the target material, the half-wave resonant frequencies can be used to calculate the target's thickness. ART differs from traditional ultrasonic testing: although both are forms of nondestructive testing based on acoustics, ART generally uses lower frequencies and has a wider bandwidth. This has enabled its use in gaseous environments without a liquid couplant. Det Norske Veritas has licensed the technology for use in on-shore water pipes worldwide to Breivoll Inspection Technologies AS. Breivoll has proven the efficiency of the technology in assessing the condition of metallic water pipes, both with and without coating. The company has since 2008 successfully developed a method to enter and inspect water mains, and is a world-leader in their market. ART has also been used in field tests at Gassco's Kårstø facility...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-26T18:30:34.074713Z"
+    },
+    {
+      "source_id": "wiki-random:zh:6084473",
+      "source_name": "ZH Wikipedia：塑料微珠",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%A1%91%E6%96%99%E5%BE%AE%E7%8F%A0",
+      "title": "塑料微珠",
+      "excerpt": "塑料微珠（英語：Microbeads）是一类通过工业生产制成的、直径小于1毫米的固体塑料微粒。这些微粒通常由聚乙烯制成，但也有部分由聚丙烯、聚苯乙烯等材料制成。因其有去除角质与死皮之效果，故在牙膏等个人护理产品中有广泛应用。生物医学以及医疗卫生科学领域也会使用塑料微珠。市售的一支磨砂洗面奶中可能就含有超过30万颗的塑料微珠。 塑料微珠易造成塑料颗粒水污染，影响水生生物从而造成环境灾害。塑料微粒在水中可以残留数千年而不消失，即便是可以生物降解的类型，也很难在短时间内降解。 在美国，2015年无微珠水域法案分阶段禁止了塑料微珠在水洗化妆品中的使用。台湾已经立法禁止塑料微珠的生产与进口。中国的业内人士称内地的塑料微珠使用量不大，且已经大幅减少，但2018年底前环保部应会有相关法规出台。而在香港，无塑海洋等环保组织也在努力使香港业界各企业开始停止使用塑料微珠。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-26T18:30:34.074901Z"
+    },
+    {
+      "source_id": "wiki-random:en:60353532",
+      "source_name": "EN Wikipedia：FR Tower fire",
+      "source_url": "https://en.wikipedia.org/wiki/FR_Tower_fire",
+      "title": "FR Tower fire",
+      "excerpt": "On 28 March 2019, the FR Tower Fire broke out on the eighth floor of the 22-storey FR Tower in the commercial Banani area of Dhaka, Bangladesh around 1:00 pm BST. The fire claimed 25 lives and more than 70 people were injured. Duronto TV and Radio Today shut down their transmissions when the fire broke out because both of their offices were situated adjacent to the FR tower.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-26T18:30:34.076641Z"
+    },
+    {
+      "source_id": "wiki-random:en:79262531",
+      "source_name": "EN Wikipedia：Sri Ramachandra Centre for Sports Science",
+      "source_url": "https://en.wikipedia.org/wiki/Sri_Ramachandra_Centre_for_Sports_Science",
+      "title": "Sri Ramachandra Centre for Sports Science",
+      "excerpt": "Sri Ramachandra Centre for Sports Science is a sporting facility located in Chennai. It is a centre approved by the cricket's governing body International Cricket Council to conduct bowling trials specifically with the intention of monitoring the bowling action of the bowlers and to ascertain a clarity and thought process on whether the bowlers can make themselves available again for selections once they clear the air and prove their mettle by adjusting their bowling actions to justify the basic criteria that is pertinent to the bowlers to sustain in international cricket for a foreseeable future. It is apparently built up as a typical ultra-modern facility which remains as the only ICC accreditation in Asia for spotting suspected illegal bowling action.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-26T18:30:34.077455Z"
+    },
+    {
+      "source_id": "wiki-random:zh:8204143",
+      "source_name": "ZH Wikipedia：激活扩散",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%BF%80%E6%B4%BB%E6%89%A9%E6%95%A3",
+      "title": "激活扩散",
+      "excerpt": "激活扩散（英語：Spreading activation）是一种搜索关联网络、生物和人工神经网络或语义网络的方法。这一搜索过程是通过给一组源节点（例如语义网络中的概念）贴上权重或“激活”来启动的，然后迭代地将激活传播或“扩散”到与源节点相连的其他节点。大多数情况下，这些“权重”是真实的数值，伴随激活在网络中的传播而逐渐衰减。当权重值是离散的时，这个过程通常被称为标记传递。激活可能来自不同的路径，由不同的标记识别，并在两个备用路径到达同一节点时终止。大脑研究表明，几个不同的大脑区域在语义处理中都起着重要作用。 在认知心理学 中，激活扩散作为模型的语义网络中模拟扇出效应。 传播激活也可以应用于信息检索， 通过代表文件和这些文件所含术语的节点网络来实现。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-26T18:30:34.078888Z"
+    },
+    {
+      "source_id": "wiki-random:en:53791112",
+      "source_name": "EN Wikipedia：State Supreme Audit (Albania)",
+      "source_url": "https://en.wikipedia.org/wiki/State_Supreme_Audit_(Albania)",
+      "title": "State Supreme Audit (Albania)",
+      "excerpt": "The State Supreme Audit (Albanian: Kontrolli i Lartë i Shtetit) is the supreme audit institution of the Republic of Albania, and as such is the highest institution of economic and financial control in the country. As an independent governing body it is subordinated only to the law and the constitution. Its mission is to contribute towards the good management of public finances, by conducting quality audits, reporting on the regularity and the effectiveness of the use of all state financial resources for the benefit of the state and its citizens.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-26T18:30:53.759198Z"
+    },
+    {
+      "source_id": "wiki-random:en:13503559",
+      "source_name": "EN Wikipedia：Topps Meat Company",
+      "source_url": "https://en.wikipedia.org/wiki/Topps_Meat_Company",
+      "title": "Topps Meat Company",
+      "excerpt": "The Topps Meat Company, LLC was a privately owned meat processing company based in Elizabeth, New Jersey. The company produced and distributed frozen ground beef patties and other meat products processed at its 3,000-square-foot (280 m2) plant in Elizabeth and posted about $8.8 million a year in sales, according to information reported by Dun & Bradstreet. In 2007, the Topps Meat Company's products were linked to an outbreak of Escherichia coli O157:H7 (E. coli O157:H7) infections and, on October 5 of that year, the company ceased operations.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-26T18:30:53.759719Z"
+    },
+    {
+      "source_id": "wiki-random:zh:617751",
+      "source_name": "ZH Wikipedia：冰之波",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%86%B0%E4%B9%8B%E6%B3%A2",
+      "title": "冰之波",
+      "excerpt": "埃利伐加爾（Élivágar、Elivagar），意即「冰之波」（Ice Waves）。在北歐神話中，是存在於世界開始前的12條河流。 在世界的鴻溝金倫加鴻溝（Ginunaga）之北，霧國尼福爾海姆（Niflheim）是個充滿黑暗，寒冷的地方。其中有泉名赫瓦格密爾（Hvergelmir），他供應著12條大河的河水，這12條河就合稱「埃利伐加爾」，其中最大的一條河叫「維穆爾」（Vimur），另外11條河包括有 Svöl、Gunnthrá、Fjörm、Fimbulthul、Slíd、Hríd、Sylgr、Ylgr、Víd、Leiptr、Gjöll。但由於記載混亂，所以有時也會有其他河名出現。 河水在金倫加鴻溝邊緣結成冰川，大量的冰塊氣勢驚人的落入鴻溝裡。又由於鴻溝之南的火焰國穆斯貝爾海姆（Muspelheim）的影響，冰川融化形成大量的霧氣，在這樣的冷熱交替下，誕生了霜巨人的祖先尤彌爾（Ymir）。一般相信，這12條河流中有一條含有劇毒，由於混進毒水，所以巨人都是邪惡的。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-26T18:30:53.761084Z"
+    },
+    {
+      "source_id": "wiki-random:en:44478976",
+      "source_name": "EN Wikipedia：Free the Butterfly",
+      "source_url": "https://en.wikipedia.org/wiki/Free_the_Butterfly",
+      "title": "Free the Butterfly",
+      "excerpt": "Free the Butterfly is an \"inner experience\" self-help album by Suzi Quatro and Shirlie Roden, which uses music and movement as a healing therapy. The pair have appeared together at workshops and Mind, Body & Spirit festivals. Speaking of Roden, Quatro said: \"She's a sound healer and she asked me to do some workshops with her, which I did, and it was quite an interesting experience.\" When asked if she found the exercise helpful in her own life, Quatro said: \"Definitely, I think that, whenever you do something like that, you realize that most people really have the same kind of problems.\", adding \"I feel I have to do this, I have to give something back\". The work is based on the idea of the \"School of Life\". The listing for the album on the official Suzi Quatro website describes it as follows:This is a unique double CD, specially created, written and performed by Suzi and Shirlie, to help you connect with your inner self and discover the Lessons of your Life. Based on the idea of the School of Life, this CD works with the elements of Water, Air, Fire, Earth, Wood, Stone and Gold in the form of seven separate songs. Together with a guided narration by Suzi or Shirlie, each element allows...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-26T18:30:53.763420Z"
+    },
+    {
+      "source_id": "wiki-random:en:6551920",
+      "source_name": "EN Wikipedia：Gilbert R. Lavoie",
+      "source_url": "https://en.wikipedia.org/wiki/Gilbert_R._Lavoie",
+      "title": "Gilbert R. Lavoie",
+      "excerpt": "Gilbert R. Lavoie is a medical doctor and non-fiction writer. Lavoie studied medicine at the Medical College of Virginia and the Johns Hopkins School of Hygiene and Public Health. He is board certified in internal medicine and occupational medicine. Lavoie has studied the Shroud of Turin, the reputed burial cloth of Jesus Christ, for more than twenty years and has written two books on his findings as well as other original studies. He approached his study as from a scientific stand point and as a doctor and discovered in his research that the image on the cloth could not be a painting. In his books Lavoie claims that the Shroud points to the resurrection of Jesus. In 2004, Lavoie ran for the 1st Suffolk & Middlesex district seat of the Massachusetts Senate as a Republican, challenging Robert Travaglini, a six-term incumbent Democrat. He lost by a wide margin.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-26T18:30:53.763574Z"
+    },
+    {
+      "source_id": "wiki-random:en:81247750",
+      "source_name": "EN Wikipedia：2C-Se-TFM",
+      "source_url": "https://en.wikipedia.org/wiki/2C-Se-TFM",
+      "title": "2C-Se-TFM",
+      "excerpt": "2C-Se-TFM is a designer drug from the substituted phenethylamine family, which produces psychedelic-like effects in animals such as a head twitch response. It was first synthesised by Josh Hartsel and colleagues in 2024. It has a binding affinity (Ki) of 3.2 nM at the serotonin receptor 5-HT2A and an EC50 of 3.6 nM, acting as a full agonist. Aside from 2C-Se, it is the only psychedelic drug containing a selenium atom, as while other related analogues such as the ethyl compound 2C-Se-2 and the propyl derivative 2C-Se-7 have been proposed as theoretical compounds, neither is known to have been synthesised. It is a controlled substance in Canada under phenethylamine blanket-ban language.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-26T18:30:53.764199Z"
     }
   ]
 }

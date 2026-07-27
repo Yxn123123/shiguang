@@ -1,17 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-07-27T18:55:23.252214Z",
+  "updated_at": "2026-07-27T18:57:47.167712Z",
   "candidates": [
-    {
-      "source_id": "wiki-topic:en:11537515",
-      "source_name": "EN Wikipedia：Civil inattention",
-      "source_url": "https://en.wikipedia.org/wiki/Civil_inattention",
-      "title": "Civil inattention",
-      "excerpt": "Civil inattention is the respectful recognition of a stranger in an urban public space without treating them as an object of curiosity or intent. Civil inattention establishes that each recognizes the other's personhood without engagement. For example, people passing on a street will typically glance at each other, noticing and then withdrawing their attention. This minimal recognition is contrasted with other interactions such as the \"hate stare\" of the racist or the refusal to notice a beggar. Civil inattention is one of Erving Goffman's most celebrated concepts in his analyses of the rituals of public conduct in everyday life. Civil inattention is a strategy to overcome the challenges of urban life, in particular living in close proximity to \"others\", all the while showing indifferences. Such behaviors may lead to alienation, thinking of strangers as objects. However, urban life also expands individual freedom. Rural or tribal culture is based upon a communal identity with kinship and close social ties and little or no interaction with strangers.",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-07-27T18:53:29.610987Z"
-    },
     {
       "source_id": "wiki-random:en:13628958",
       "source_name": "EN Wikipedia：Beta-globin co-transcriptional cleavage ribozyme",
@@ -51,26 +41,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-12T11:39:40.579522Z"
-    },
-    {
-      "source_id": "wiki-random:en:4546838",
-      "source_name": "EN Wikipedia：Charis SIL",
-      "source_url": "https://en.wikipedia.org/wiki/Charis_SIL",
-      "title": "Charis SIL",
-      "excerpt": "Charis () or Charis SIL is a slab serif typeface developed by SIL International based on Bitstream Charter, one of the first fonts designed for laser printers. The font offers four family members: roman, bold, italic, and bold italic. Its design goal is to \"provide a single Unicode-based font family that would contain a comprehensive inventory of glyphs needed for almost any Roman- or Cyrillic-based writing system, whether used for phonetic or orthographic needs.\" Charis SIL supports OpenType and AAT technologies for advanced rendering features. Along with Doulos SIL and Gentium, it is licensed under the SIL Open Font License (OFL), and can be downloaded free of charge. Version 6.2 of the font, with over 3,800 glyphs, was released on 1 February 2023. Version 7 was released on 2 June 2025. Variant forms of many characters can be chosen in supporting word-processors such as LibreOffice. For example, for single-story a and single-story g, append ss01=1 to the name of the font in the font-selection window. (Features are appended with a colon and linked with an ampersand – see images at left.) Alternatively, customized versions of the fonts can be created with TypeTuner, prior to download...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-12T20:09:32.392581Z"
-    },
-    {
-      "source_id": "wiki-random:zh:948971",
-      "source_name": "ZH Wikipedia：法律语言",
-      "source_url": "https://zh.wikipedia.org/wiki/%E6%B3%95%E5%BE%8B%E8%AF%AD%E8%A8%80",
-      "title": "法律语言",
-      "excerpt": "法律语言（英語：legal writing，又稱法律術語、法律用詞）是指在書寫或闡述與法律相關的內容時所使用的語言。一般來說，法律文件的用語為求準確，都會對每一項事物有準確的定義。 內容近似文言文，但是以白話文書寫。如「應該」要以「應」為表示，稱「雙方」為「甲乙」方，稱「有嫌隙」為「素有恩怨」等。法律語言與官僚語言（officialese）重合性很大，因其最廣義均涵蓋法規條文、行政文書、司法判決等面向。官僚語言如:「我們樂意幫你，但是你必須先回答以下問題。」進而從以下問題回推樂意之定義。 根據《牛津法律大辞典》，「法律語言」的定義指其注释义项涵盖了法律语言的产生、运用及法律语言的词语、文句等。词条指出，法律语言最早是指英格兰和苏格兰的皇家判决、法律、诉讼程序、诉讼卷宗、特许状及法律书籍所使用的语种。关于“法律语言词语构成”的说明，与社团方言是一套符号系统的理论基本一致，词条指出“法律语言部分是由具有具体意义的单词组成，这些单词在日常用语中即使有，但也很少使用，如侵权行为人；部分则是为具有专门法律含义的日常用语的单词组成，如预谋、过失、非法侵入；还有部分是日常用语组成。”“法律如果有大量的专门词汇，其则会更好，而不会更糟。”另外，该词条还指出“法律语言在国际环境中还会产生更多的问题，将一种语言的法律文本转为另一种语言的法律文本是极为困难的。”这已涉及到法律翻译的问题。从以上引述可以看出，“法律语言”这一术语的确立源远流长，作为社团方言的法律语言随社会的发展而发展，随历史的演进而变革。 给任何事物定义，均在于揭示其本质特征与本质属性，以便确定研究对象与研究范畴，这是确保研究工作有序、有效、正确的必须。基于“法律语言生成理论”的阐释，法律语言可以定义为：为适应法律范畴特殊交际的需要，从全民共同语中分化出来的“社团变体”。换言之，法律语言是以全民共同语言为基础，在立法、司法与执法的全过程中逐渐形成的，具有法学专业特色的一种社团方言。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-12T20:09:32.393054Z"
     },
     {
       "source_id": "wiki-random:en:31159023",
@@ -141,16 +111,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-12T20:10:11.642438Z"
-    },
-    {
-      "source_id": "wiki-random:en:64434302",
-      "source_name": "EN Wikipedia：Terminal Velocity (album)",
-      "source_url": "https://en.wikipedia.org/wiki/Terminal_Velocity_(album)",
-      "title": "Terminal Velocity (album)",
-      "excerpt": "Terminal Velocity is the second studio album by Dream Theater guitarist John Petrucci, released digitally on August 28, 2020 and on October 30, 2020 for the physical version (vinyl and CD). This is his first solo album since 2005's Suspended Animation. During the recording sessions, Petrucci was reunited with his former Dream Theater bandmate Mike Portnoy, making it their first collaboration since the latter left the band in 2010. Bassist Dave LaRue, who performed on Suspended Animation, returns for this album. Petrucci planned to start working on the album in the second trimester of the year, but he ended up using the unexpected free time resulting from the New York COVID-19 lockdowns to write the songs. The whole writing and recording process took two months starting in March. Some of the tracks (\"Happy Song\", \"Glassy-Eyed Zombies\") are new versions of songs Petrucci used to play live with G3, while \"Gemini\" has been used by the guitarist on soundchecks, guitar clinics and as a warm-up exercise for his Rock Discipline DVD.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-12T20:10:11.642959Z"
     },
     {
       "source_id": "wiki-random:en:17545480",
@@ -333,16 +293,6 @@
       "added_at": "2026-07-13T20:45:49.943160Z"
     },
     {
-      "source_id": "wiki-random:zh:1134762",
-      "source_name": "ZH Wikipedia：非結構化程式設計",
-      "source_url": "https://zh.wikipedia.org/wiki/%E9%9D%9E%E7%B5%90%E6%A7%8B%E5%8C%96%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88",
-      "title": "非結構化程式設計",
-      "excerpt": "非结构化程序设计是历史上最早的能够创造图灵完备算法的程序设计模式。在它之后，历史上又出现了结构化（过程化）程序设计、面向对象程序设计。 非结构化程序设计被批评最严重的方面就是会产生很难读懂的代码（戏称面条式代码），在创建大型工程方面有时会被认为是很差的，不过，因为赋予程序设计者很大的自由，被人称赞为如同莫扎特在谱曲。. 非结构化程序设计语言既有高階语言，也有低階语言。一些语言通常被印证为非结构化语言，包括JOSS、FOCAL、TELCOMP、汇编语言、MS-DOS批处理和早期版本的BASIC、Fortran、COBOL和MUMPS。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-13T20:45:49.943609Z"
-    },
-    {
       "source_id": "wiki-random:zh:9260232",
       "source_name": "ZH Wikipedia：是誰搞的鬼 (2025年電影)",
       "source_url": "https://zh.wikipedia.org/wiki/%E6%98%AF%E8%AA%B0%E6%90%9E%E7%9A%84%E9%AC%BC_(2025%E5%B9%B4%E9%9B%BB%E5%BD%B1)",
@@ -431,16 +381,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-13T20:46:19.053850Z"
-    },
-    {
-      "source_id": "wiki-random:en:2725411",
-      "source_name": "EN Wikipedia：Solar Radiation and Climate Experiment",
-      "source_url": "https://en.wikipedia.org/wiki/Solar_Radiation_and_Climate_Experiment",
-      "title": "Solar Radiation and Climate Experiment",
-      "excerpt": "The Solar Radiation and Climate Experiment (SORCE) was a 2003–2020 NASA-sponsored satellite mission that measured incoming X-ray, ultraviolet, visible, near-infrared, and total solar radiation. These measurements specifically addressed long-term climate change, natural variability, atmospheric ozone, and UV-B radiation, enhancing climate prediction. These measurements are critical to studies of the Sun, its effect on the Earth's system, and its influence on humankind. SORCE was launched on 25 January 2003 on a Pegasus XL launch vehicle to provide NASA's Earth Science Enterprise (ESE) with precise measurements of solar radiation. SORCE measured the Sun's output using radiometers, spectrometers, photodiodes, detectors, and bolometers mounted on a satellite observatory orbiting the Earth. Spectral measurements identify the irradiance of the Sun by characterizing the Sun's energy and emissions in the form of color that can then be translated into quantities and elements of matter. Data obtained by SORCE can be used to model the Sun's output and to explain and predict the effect of the Sun's radiation on the Earth's atmosphere and climate. Flying in a 645 km (401 mi) orbit at a 40.0° inclination...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-13T20:46:19.054458Z"
     },
     {
       "source_id": "wiki-random:en:24158112",
@@ -843,16 +783,6 @@
       "added_at": "2026-07-15T18:40:08.226764Z"
     },
     {
-      "source_id": "wiki-random:zh:5932775",
-      "source_name": "ZH Wikipedia：雪鐵龍C4 Picasso",
-      "source_url": "https://zh.wikipedia.org/wiki/%E9%9B%AA%E9%90%B5%E9%BE%8DC4_Picasso",
-      "title": "雪鐵龍C4 Picasso",
-      "excerpt": "雪铁龙C4毕加索是由法國先進汽車於2006年推出的两款紧凑型MPV，分为五人座和七人座两款（大C4毕加索）。该车型于2006年8月由法国汽车制造商雪铁龙推出，并于2006年9月在2006年巴黎车展正式发布七座款。在2007年1月5日的日内瓦车展上正式发布了五座版。为了在全球称呼的统一性，七座款又被称为大C4毕加索。这两款车型均使用于雪铁龙C4和标致307相同底盘平台（标致雪铁龙PF2平台）和发动机。这两款紧凑型MPV主要用来替代雪铁龙之前生产的萨拉·毕加索。 大C4毕加索比同等级其他七座紧凑MPV稍大。如马自达5和雷诺大风景，甚至超过一些雪铁龙的早期大型MPV就像雪铁龙Evasion。出于这个原因，一些批评者认为它被归为大型MPV，而不应该因为发动机种类，车辆内部设计和价格划为紧凑型MPV。 气动后悬挂是可作为一种选择配置，这可以使得乘坐更舒适，并安装更大的车窗。在某些市场，此选项仅适用于较高等级的车辆。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-15T18:40:08.227147Z"
-    },
-    {
       "source_id": "wiki-random:zh:3896053",
       "source_name": "ZH Wikipedia：明朝歷史",
       "source_url": "https://zh.wikipedia.org/wiki/%E6%98%8E%E6%9C%9D%E6%AD%B7%E5%8F%B2",
@@ -861,16 +791,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-15T18:40:08.227724Z"
-    },
-    {
-      "source_id": "wiki-random:en:5560489",
-      "source_name": "EN Wikipedia：Retrofitting",
-      "source_url": "https://en.wikipedia.org/wiki/Retrofitting",
-      "title": "Retrofitting",
-      "excerpt": "Retrofitting is the addition of new technology or features to older systems. Retrofits can happen for a number of reasons, for example with big capital expenditures like naval vessels, military equipment or manufacturing plants, businesses or governments may retrofit in order to reduce the need to replace a system entirely. Other retrofits may be due to changing codes or requirements, such as seismic retrofit which are designed strengthening older buildings in order to make them earthquake resistant. Retrofitting is also an important part of climate change mitigation and climate change adaptation: because society invested in built infrastructure, housing and other systems before the magnitude of changes anticipated by climate change. Retrofits to increase building efficiency, for example, both help reduce the overall negative impacts of climate change by reducing building emissions and environmental impacts while also allowing the building to be more healthy during extreme weather events. Retrofitting also is part of a circular economy, reducing the amount of newly manufactured goods, thus reducing lifecycle emissions and environmental impacts.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-15T18:40:08.228807Z"
     },
     {
       "source_id": "wiki-random:en:533361",
@@ -923,16 +843,6 @@
       "added_at": "2026-07-15T18:41:22.243275Z"
     },
     {
-      "source_id": "wiki-random:en:3439",
-      "source_name": "EN Wikipedia：Piano Trio, Op. 97 (Beethoven)",
-      "source_url": "https://en.wikipedia.org/wiki/Piano_Trio,_Op._97_(Beethoven)",
-      "title": "Piano Trio, Op. 97 (Beethoven)",
-      "excerpt": "The Piano Trio in B♭ major, Op. 97, by Ludwig van Beethoven is a piano trio completed in 1811. It is commonly referred to as the Archduke Trio, because it was dedicated to Archduke Rudolph of Austria, the youngest of twelve children of Leopold II, Holy Roman Emperor. Rudolf was an amateur pianist and a patron, friend, and composition student of Beethoven. Beethoven dedicated about a dozen compositions to him. The Archduke Trio was written late in Beethoven's so-called \"middle period\". He sketched out the draft for it in the summer of 1810 and completed the composition in March 1811. It follows the traditional four movement structure with sonata form in the first and rondo sonata form in the last movement. It also allows for a more prominent part for the piano than previous compositions.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-15T18:41:22.243834Z"
-    },
-    {
       "source_id": "wiki-random:en:2433112",
       "source_name": "EN Wikipedia：Sunday Mail (Scotland)",
       "source_url": "https://en.wikipedia.org/wiki/Sunday_Mail_(Scotland)",
@@ -951,16 +861,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-17T18:31:41.234406Z"
-    },
-    {
-      "source_id": "wiki-random:en:26610577",
-      "source_name": "EN Wikipedia：Power-control theory of gender and delinquency",
-      "source_url": "https://en.wikipedia.org/wiki/Power-control_theory_of_gender_and_delinquency",
-      "title": "Power-control theory of gender and delinquency",
-      "excerpt": "In criminology, the power-control theory of gender and delinquency (abbreviated as the power-control theory) holds the gender distribution of delinquency is caused by stratification from gender relations within the family. The theory seeks to explain gender differences in the rates of delinquency by attributing them to the level of social/parental control practiced. The theory states that the class, gender, and type of family structure (e.g. egalitarian or patriarchal) will influence the severity of social/parental control practiced which will in turn set the \"accepted norm\" for the child/individual. This norm will in turn control the level of delinquency by the individual. Power-control theory differs from other control theories that view crime as a cause of low social status (cited from book). This theory compares gender and parental control mechanisms in two different types of families; patriarchal and egalitarian to explain the differences in self-reported male and female misconduct. In patriarchal families, traditional gender roles were in practice, where the father would work outside the home, and the mother would be responsible for the child rearing. In egalitarian families,...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-17T18:31:41.236053Z"
     },
     {
       "source_id": "wiki-random:en:72401960",
@@ -1001,16 +901,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-17T18:32:18.215191Z"
-    },
-    {
-      "source_id": "wiki-random:zh:7048046",
-      "source_name": "ZH Wikipedia：蓝冰 (冰川)",
-      "source_url": "https://zh.wikipedia.org/wiki/%E8%93%9D%E5%86%B0_(%E5%86%B0%E5%B7%9D)",
-      "title": "蓝冰 (冰川)",
-      "excerpt": "蓝冰是当冰川上的的降雪被压缩而成为冰川的一部分时产生的现象。在压缩的过程中，雪中的气泡被挤出，形成大块的冰晶，这一过程使得冰看起来呈现蓝色。 通常情况下小块的冰看起来带有些许白色，是由于其内部的气泡以及少量的水本身即基本呈现无色。而在冰川中，积雪的压力使气泡被逐渐挤出，密度增加，形成了冰。由于水对其他颜色光的吸收能力强于对蓝色光的吸收能力，因此冰会呈现出蓝色。此效应在少量的水或小块的冰中较为微弱，但在大块的冰中尤其明显。 关于蓝冰颜色的成因，有些说法会将其错误地归于瑞利散射。蓝冰的蓝色和和大量液态水呈现蓝色的原因相同，是水分子中氢氧键伸缩振动的泛频带会吸收可见光谱中红色端的部分所致。在湖泊和海洋中，光线入射到水面上时，少量的光反射回空气，大部分光进入水中，与水分子发生作用。此时，水分子会吸收入射光中的红、橙、黄等颜色的光，跃迁至较高的振动能级，而未被吸收的光主要是蓝、紫色波长的光。这是大面积水域呈现蓝色的主要原因。 自然界中蓝冰的一个例子是2011年1月于新西兰塔斯曼冰川观测到的蓝冰。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-17T18:32:18.216052Z"
     },
     {
       "source_id": "wiki-random:en:9568579",
@@ -1061,16 +951,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-17T18:32:56.739761Z"
-    },
-    {
-      "source_id": "wiki-random:en:4296547",
-      "source_name": "EN Wikipedia：German World War II destroyers",
-      "source_url": "https://en.wikipedia.org/wiki/German_World_War_II_destroyers",
-      "title": "German World War II destroyers",
-      "excerpt": "At the outbreak of the Second World War Nazi Germany's Kriegsmarine had 21 destroyers (German: Zerstörer) in service, while another one was just being completed. These 22 vessels – comprising 3 classes (Type 34, 34A and 36) – had all been built in the 1930s, making them modern vessels (no destroyers remained in German hands following the close of the First World War). Including that final pre-war vessel, a further 19 were brought into service during the war and more were captured from opposing navies, including the Italian Navy (Regia Marina) after the Italian Armistice with the Allies in 1943. German destroyer classes were generally known by the year of their design. Because of their size, use and weaponry, some vessels classified as \"fleet torpedo boats\", Flottentorpedoboot, are also described as destroyers. During World War II, destroyers were administratively grouped into one of several destroyer flotillas. Class general characteristics are taken from the first of each class, and may differ slightly for individual ships, particularly when they were refitted. Post-war, some surviving ships had significant changes to armament.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-17T18:32:56.742172Z"
     },
     {
       "source_id": "wiki-random:en:12598240",
@@ -1363,26 +1243,6 @@
       "added_at": "2026-07-20T19:11:49.201787Z"
     },
     {
-      "source_id": "wiki-random:zh:3058032",
-      "source_name": "ZH Wikipedia：感生放射性",
-      "source_url": "https://zh.wikipedia.org/wiki/%E6%84%9F%E7%94%9F%E6%94%BE%E5%B0%84%E6%80%A7",
-      "title": "感生放射性",
-      "excerpt": "感生放射性（英語：Induced radioactivity）是指原本稳定的材料因为接受了特殊的辐射而产生的放射性。多数辐射不会诱导其他材料产生辐射。感生放射性是伊雷娜·约里奥-居里和弗雷德里克·约里奥-居里于1934年发现的，它也是一种人工放射性。人工放射性是较轻的元素被人为改变或通过感应而具有的放射性。 居里和约里奥发现，当硼和铝等较轻的元素受到α粒子的轰击后，即使在移走α粒子源后它们仍有持续放射性。他们证明，辐射来源于一种带一个单位正电荷的粒子，它具有和电子相同的质量。 中子活化是感生放射性的主要形式。当自由中子被原子核俘获时会形成新的同位素，这种同位素不一定稳定，它的性质取决于原来的元素。脱离原子核的中子会在几分钟内衰变，因此中子辐射只能由元素的衰变、核反应和高能反应（例如宇宙簇射或粒子加速器中的碰撞）产生。被中子慢化剂减速的中子（即热中子）比快中子更容易被原子核俘获。 感生放射性的一种比较少见的形式是用光致蜕变去除原子核中的一个中子。在这种反应中，一个高能光子（伽马射线）带着比原子的结合能更高的能量轰击原子核，使它放出一个中子。这种反应所需能量的最小值是2MeV（对氢核），多数重核需要的能量大约是10MeV。许多光致蜕变不会产生能量足以激发感生放射性的伽马射线。用于食品辐照的同位素（钴-60和铯-137）产生的能量峰值都低于反应所需能量，因此不会使食物具有放射性。 一些感生放射性是由背景辐射产生的，多数是因为自然背景辐射（即天然本底辐射）。不过，由于地球上大部分地区的本底辐射都不强，一个地区的感生放射性通常都很小。 某些型号的反应堆中会产生高能中子流，能引发感生放射性。这些反应堆的组件也会因为所受到的强烈辐射而具有很强的放射性。感生放射性会增加核废料的量，但只要得到控制就不会构成辐射污染。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-20T19:11:49.201898Z"
-    },
-    {
-      "source_id": "wiki-random:en:1426168",
-      "source_name": "EN Wikipedia：The Word for World Is Forest",
-      "source_url": "https://en.wikipedia.org/wiki/The_Word_for_World_Is_Forest",
-      "title": "The Word for World Is Forest",
-      "excerpt": "The Word for World Is Forest is a science fiction novel by American writer Ursula K. Le Guin, first published in the United States in 1972 as a part of the anthology Again, Dangerous Visions, and published as a separate book in 1976 by Berkley Books. It is part of Le Guin's Hainish Cycle. The story focuses on a military logging colony set up on the fictional planet of Athshe by people from Earth (referred to as \"Terra\"). The colonists have enslaved the completely non-aggressive native Athsheans, and treat them very harshly. Eventually, one of the natives, whose wife was raped and killed by a Terran military captain, leads a revolt against the Terrans, and succeeds in getting them to leave the planet. However, in the process their own peaceful culture is introduced to mass violence for the first time. The novel carries strongly anti-colonial and anti-militaristic overtones, driven partly by Le Guin's negative reaction to the Vietnam War. It also explores themes of sensitivity to the environment, and of connections between language and culture. It shares the theme of dreaming with Le Guin's novel The Lathe of Heaven, and the metaphor of the forest as a consciousness with the story \"Vaster...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-20T19:11:49.202729Z"
-    },
-    {
       "source_id": "wiki-random:en:81167",
       "source_name": "EN Wikipedia：Provinces of France",
       "source_url": "https://en.wikipedia.org/wiki/Provinces_of_France",
@@ -1471,26 +1331,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-20T19:12:14.203724Z"
-    },
-    {
-      "source_id": "wiki-random:zh:661529",
-      "source_name": "ZH Wikipedia：義大利菜",
-      "source_url": "https://zh.wikipedia.org/wiki/%E7%BE%A9%E5%A4%A7%E5%88%A9%E8%8F%9C",
-      "title": "義大利菜",
-      "excerpt": "義大利菜是指源自義大利地區的菜系，為全球範圍內傳播最廣的菜系，廣泛適口，能迎合不同國籍、宗教與文化背景的人群，並以此聞名。由於影響絕大多数歐洲菜系的發展深遠，故也誉为“西餐之母”。 意大利菜屬於地中海料理的分支，還融合了許多西歐精緻飲食的元素，其一切成份、食譜和烹飪技術均是圍繞著意大利半島發展而來的。隨著19世紀的意大利僑民的移民浪潮，意大利菜大量流入美國和南美國家，再借由美式義大利菜而快速擴散到全世界。義大利人的飲食習慣以麵食、米食和蔬菜為主，其中不乏一些外來食物，例如美洲的馬鈴薯、蕃茄、辣椒、玉米和甜菜，至少從18世紀開始，這些美洲蔬菜就成為了意大利料理的必備食材。根據YouGov在2019年以及CNN在2021年的評選調查，意大利菜均獲得“全球最高人氣料理”中的第一名。 意大利菜具有強烈的“去中心化”傾向，全國各地的飲食文化可謂是天差地別，而且每個大區內都有著一套根深蒂固的傳統。既使以最粗略的方式來劃分，也能分出北意大利、中意大利和南意大利這三大菜系。義大利的前身是西羅馬帝國，該國於西元476年滅亡後分裂成十幾個小邦國，這些意大利小邦在此後的1300年中都維持著主权獨立，还演化出各自独特的料理模式，直到西元1861年才重新合體為一个統一的意大利。由於擁有這樣長期分裂的歷史，导致在同一個義大利大區之內也會出現好幾種風格迥異的菜。加上意大利本身的歷史足夠悠久，大部份歐洲國家都曾经對義大利菜進行過模倣，甚至很多模倣菜到了現代都有好幾百年的歷史。目前義大利食物在全球的分佈甚廣，隨處可見，許多歐美國家的家庭餐廳、酒吧和咖啡廳中所販賣的菜品要麼是意大利菜，要麼就是受到意大利菜的影響。 作為一種以“簡單”為特色的菜系，正宗的意大利菜只需要用到很少的食材、花少量的步骤即可完成，這讓食材本身的品質變得至關重要，以至於意大利廚師必須要用最苛刻的標準去檢查食材是否合格。比起过度複雜化的擺盤噱頭，意大利菜更喜歡集中強化食物的香氣、口感和顏色，這種簡單又高品質的基本架構讓意大利料理變得極易傳播，光是歐盟在2020年一年的意大利餐廳收入就超過2000億歐元。幾個世紀以來，最受歡迎的意大利食譜往往是由普通人創造的，而非某個名廚或者歷史偉人，這也是大部份意大利菜在家中就能完美烹飪的原因。雖然簡單，但意大利政府依然尊重本國的傳統農產文化，推崇人們在四季攝取不同的食材，並堅持採用歐洲最嚴格標準來保護各個大區的原產地 。 地中海氣候為意大利菜奠定絕對的基礎，富含營養的意大利麵、魚類、水果、蔬菜、起司、甜點和葡萄酒是該飲食文化之核心。舉例來說，比萨饼和咖啡（尤其是濃縮咖啡）成為各國輕食的首選 ；柑橘類的水果、開心果和杏仁能讓人體補充好每日必須的維他命；馬斯卡彭奶酪、里科塔奶酪等起司可以作為鹹味的沾醬，也可作為甜味的奶酪；可可、香草和肉桂等香料讓食材充滿異域風味；意式冰淇淋、提拉米蘇和杏仁蛋白軟糕是最著名的意大利甜點…",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-20T19:12:14.204114Z"
-    },
-    {
-      "source_id": "wiki-random:en:75404547",
-      "source_name": "EN Wikipedia：Sarcophagus of Laris Pulenas",
-      "source_url": "https://en.wikipedia.org/wiki/Sarcophagus_of_Laris_Pulenas",
-      "title": "Sarcophagus of Laris Pulenas",
-      "excerpt": "The Sarcophagus of Laris Pulenas, also known as \"The Magistrate,\" dates from the 2nd or 3rd century BCE. It was discovered in Tarquinia in Italy and is now in the Tarquinia National Museum. It features a reclining figure, Laris Pulenas, before whom is a stone carving of a long strip of cloth (volumen), half-unrolled, inscribed with one of the longer continuous inscriptions in Etruscan (Corpus Inscriptionum Etruscarum, n.5430), nearly 60 words, making it of particular linguistic value. The text opens with the name of the deceased, along with that of his father (Larce), and unusually, also those of his grandfather (Larth), his uncle (Velthuru), and his great-grandfather (Pule Laris Creice \"the Greek\"—possibly Pollus, a Greek seer who lived around 400 BC. and settled in Cerveteri—the Etruscan Cisra). The rest of the text apparently presents the deceased's accomplishments in life, including that he wrote a text on divination (zich nethshrac acas-ce). He also served as a priest of Catha and of Pacha (Etruscan Bacchus, at this point in history in the process of merging with Fufluns, the Etruscan Dionysus). Furthermore, he seems to have governed (laucar-ce) the city of Tarquinia (Tarχnalθ...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-20T19:12:14.204989Z"
     },
     {
       "source_id": "wiki-random:en:41986913",
@@ -1703,16 +1543,6 @@
       "added_at": "2026-07-21T18:47:23.000832Z"
     },
     {
-      "source_id": "wiki-random:zh:295420",
-      "source_name": "ZH Wikipedia：光行差",
-      "source_url": "https://zh.wikipedia.org/wiki/%E5%85%89%E8%A1%8C%E5%B7%AE",
-      "title": "光行差",
-      "excerpt": "光行差（或称为天文光行差、恒星光行差）是指运动的观测者观察到光的方向与同一时间同一地点静止的观测者观察到的方向有偏差的现象。光行差现象在天文观测上表现得尤为明显。由于地球公转、自转等原因，地球上观察天体的位置时总是存在光行差，其大小与观测者的速度和天体方向与观测者运动方向之间的夹角有关，并且在不断变化。 光行差本质是由于光速有限以及光源与观察者存在相对运动造成的，类似于运动中的雨滴：下雨的时候，站在原地不动的人感觉到雨滴是从正上方落下的，而向前走的人感觉雨滴是从前方倾斜落下的，因此需要把伞微微向前倾斜。走得越快，需要倾斜得越厉害。光行差的成因与此相似，只不过不符合经典的速度叠加法则，而是需要考虑相对论效应带来的修正。 地球上的观测者与天体之间的相对运动可以分解为各种成分，分别对应下面几种相应的光行差： 周年光行差——地球绕太阳公转造成的光行差，最大可以达到20.5角秒。天文学中定义周年光行差常数（简称光行差常数）为κ=v/c，其中c是光速，v是地球绕太阳公转的平均速度； 周日光行差——地球自转造成的光行差，比周年光行差小两个数量级，约为零点几角秒； 长期光行差——太阳系在宇宙空间中的运动造成的光行差，包括： 太阳自行造成的光行差，约为13角秒，但方向不变； 太阳系绕银河系自转造成的光行差，约为100多角秒，但周期很长。 在一般问题中，长期光行差可以不必考虑。 地球的公转速度约为30公里／秒，光速为30万公里／秒，由此可以估算出光行差带来的角度变化约为20.49551角秒。这个角度对于小型的天文望远镜来说非常微小，因此尽管历史上很早就有人认为存在光行差，但直到1725年才由英国天文学家詹姆斯·布拉德雷在观测恒星视差时意外发现。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-21T18:47:23.001491Z"
-    },
-    {
       "source_id": "wiki-random:en:24822548",
       "source_name": "EN Wikipedia：Swimming at the 1952 Summer Olympics – Women's 100 metre backstroke",
       "source_url": "https://en.wikipedia.org/wiki/Swimming_at_the_1952_Summer_Olympics_%E2%80%93_Women%27s_100_metre_backstroke",
@@ -1893,16 +1723,6 @@
       "added_at": "2026-07-21T18:50:17.896193Z"
     },
     {
-      "source_id": "wiki-random:zh:8169321",
-      "source_name": "ZH Wikipedia：饲料鱼",
-      "source_url": "https://zh.wikipedia.org/wiki/%E9%A5%B2%E6%96%99%E9%B1%BC",
-      "title": "饲料鱼",
-      "excerpt": "饲料鱼（英語：forage fish）也称猎物鱼（prey fish）是处在食物网中下层、被更大的捕食者（比如掠食性鱼类、海洋哺乳动物、海鸟等）所猎食的远洋鱼类，广义上还可能包括其它水生动物（比如头足动物和所谓的“壳鱼”）。饲料鱼通常是水域生态系统中的一二级消费者，主要以浮游生物和微型无脊椎动物为食。 饲料鱼通常采用r选择的生存策略，会聚集形成庞大的鱼群来弥补个体身小体弱的劣势，增加被天敌袭击时的存活率，并采用同步游泳的方式来滤食水中的浮游生物。许多饲料鱼还会和其它物种一起组成庞大的混合群体，并且进行迅游和长距离迁徙。饲料鱼群在水域生态系统（特别是海洋生态系统）中起到浓缩生物能和生物质的重要功能，是维持生态平衡的核心环节。 渔业有时也会商业捕捞饲料鱼，其中一部分作为食用鱼或用来生产鱼油，但大部分是作为鱼食用来喂养其它更有经济价值的水产养殖鱼类（比如鲑鱼）或制成鱼粉来生产畜牧业所需的混合饲料。这使得许多渔业学专家感到担心，因为饲料鱼其实可以算作水中的基石物种，人为移除大量此类鱼群（甚至过度捕捞）会严重破坏生态平衡，甚至导致整个食物网因失衡而崩溃，反而会损坏渔场的长期可持续性。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-23T18:42:12.016956Z"
-    },
-    {
       "source_id": "wiki-random:zh:7515365",
       "source_name": "ZH Wikipedia：克里伊语",
       "source_url": "https://zh.wikipedia.org/wiki/%E5%85%8B%E9%87%8C%E4%BC%8A%E8%AF%AD",
@@ -2071,16 +1891,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-23T18:42:54.173753Z"
-    },
-    {
-      "source_id": "wiki-random:en:1775636",
-      "source_name": "EN Wikipedia：Timothy II of Alexandria",
-      "source_url": "https://en.wikipedia.org/wiki/Timothy_II_of_Alexandria",
-      "title": "Timothy II of Alexandria",
-      "excerpt": "Pope Timothy II of Alexandria (died 477), also known as Timothy Ailuros or Timotheus Ælurus (from Greek Αἴλουρος, \"cat\", because of his small build or in this case probably \"weasel\"), succeeded twice in supplanting the Chalcedonian patriarch of Alexandria. Before he became a bishop, Timothy was a monk at the Eikoston. He was elected and consecrated after the death of the exiled Dioscorus of Alexandria in 454 by the Miaphysite opponents of the Council of Chalcedon and became a rival of the pro-Chalcedon bishop Proterius. According to pro-Chalcedon sources, after Proterius of Alexandria was installed as patriarch after the Council of Chalcedon, he was murdered at Timothy's instigation at the baptistery during Easter. In the Anti-Chalcedon Sources, Proterius was murdered on the order of the Byzantine General in Charge of Egypt after a heated exchange In 460, Emperor Leo I expelled him from Alexandria and installed the Chalcedonian Timothy III Salophakiolos as patriarch. In 475, Timothy was brought back to Alexandria by Basiliscus, where he ruled as patriarch until his death. According to John of Nikiu, the emperor Zeno sent an officer to summon him, but when the officer arrived, Timothy...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-23T18:42:54.174253Z"
     },
     {
       "source_id": "wiki-random:en:82719892",
@@ -2703,16 +2513,6 @@
       "added_at": "2026-07-26T18:30:03.024142Z"
     },
     {
-      "source_id": "wiki-random:en:58468005",
-      "source_name": "EN Wikipedia：IPhone XR",
-      "source_url": "https://en.wikipedia.org/wiki/IPhone_XR",
-      "title": "IPhone XR",
-      "excerpt": "The iPhone XR is a smartphone developed and marketed by Apple. It is part of the twelfth generation of the iPhone, alongside the higher-end iPhone XS/XS Max models. Pre-orders began on October 19, 2018, with the official release on October 26, 2018. Launched at $749 in the US, the iPhone XR was the least expensive device in Apple's twelfth generation of iPhones, which also includes the iPhone XS and XS Max, and was therefore considered an \"affordable flagship\" or \"budget flagship\" phone at its release. The XR shares key internal hardware with the XS but with features removed or downgraded to reduce the price. The XR features the same processor as the XS and XS Max, the Apple A12 Bionic chip built with a 7 nanometer process. Instead of the OLED screen on the XS, the XR has a 6.1-inch Liquid Retina LED-backlit LCD IPS panel display. According to Apple, the full charge of the XR battery lasts up to one-and-a-half hours longer than that of its direct predecessor, the iPhone 8 Plus. The iPhone XR was available in six colors: black, white, blue, yellow, coral (a shade of pink and orange), and Product Red. It is the second iPhone to be released in white, yellow and blue, the first being the...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-26T18:30:03.025134Z"
-    },
-    {
       "source_id": "wiki-random:en:1432784",
       "source_name": "EN Wikipedia：Baseline",
       "source_url": "https://en.wikipedia.org/wiki/Baseline",
@@ -2833,16 +2633,6 @@
       "added_at": "2026-07-26T18:30:21.354770Z"
     },
     {
-      "source_id": "wiki-random:en:29536434",
-      "source_name": "EN Wikipedia：Acoustic resonance technology",
-      "source_url": "https://en.wikipedia.org/wiki/Acoustic_resonance_technology",
-      "title": "Acoustic resonance technology",
-      "excerpt": "Acoustic resonance technology (ART) is an acoustic inspection technology developed by Det Norske Veritas over the past 20 years. ART exploits the phenomenon of half-wave resonance, whereby a suitably excited resonant target (such as a pipeline wall) exhibits longitudinal resonances at certain frequencies characteristic of the target's thickness. Knowing the speed of sound in the target material, the half-wave resonant frequencies can be used to calculate the target's thickness. ART differs from traditional ultrasonic testing: although both are forms of nondestructive testing based on acoustics, ART generally uses lower frequencies and has a wider bandwidth. This has enabled its use in gaseous environments without a liquid couplant. Det Norske Veritas has licensed the technology for use in on-shore water pipes worldwide to Breivoll Inspection Technologies AS. Breivoll has proven the efficiency of the technology in assessing the condition of metallic water pipes, both with and without coating. The company has since 2008 successfully developed a method to enter and inspect water mains, and is a world-leader in their market. ART has also been used in field tests at Gassco's Kårstø facility...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-26T18:30:34.074713Z"
-    },
-    {
       "source_id": "wiki-random:zh:6084473",
       "source_name": "ZH Wikipedia：塑料微珠",
       "source_url": "https://zh.wikipedia.org/wiki/%E5%A1%91%E6%96%99%E5%BE%AE%E7%8F%A0",
@@ -2933,16 +2723,6 @@
       "added_at": "2026-07-26T18:30:53.763574Z"
     },
     {
-      "source_id": "wiki-random:en:81247750",
-      "source_name": "EN Wikipedia：2C-Se-TFM",
-      "source_url": "https://en.wikipedia.org/wiki/2C-Se-TFM",
-      "title": "2C-Se-TFM",
-      "excerpt": "2C-Se-TFM is a designer drug from the substituted phenethylamine family, which produces psychedelic-like effects in animals such as a head twitch response. It was first synthesised by Josh Hartsel and colleagues in 2024. It has a binding affinity (Ki) of 3.2 nM at the serotonin receptor 5-HT2A and an EC50 of 3.6 nM, acting as a full agonist. Aside from 2C-Se, it is the only psychedelic drug containing a selenium atom, as while other related analogues such as the ethyl compound 2C-Se-2 and the propyl derivative 2C-Se-7 have been proposed as theoretical compounds, neither is known to have been synthesised. It is a controlled substance in Canada under phenethylamine blanket-ban language.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-26T18:30:53.764199Z"
-    },
-    {
       "source_id": "wiki-random:en:48617162",
       "source_name": "EN Wikipedia：Youth in Guatemala",
       "source_url": "https://en.wikipedia.org/wiki/Youth_in_Guatemala",
@@ -2961,16 +2741,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-27T18:53:29.614919Z"
-    },
-    {
-      "source_id": "wiki-random:zh:3988571",
-      "source_name": "ZH Wikipedia：催化三联体",
-      "source_url": "https://zh.wikipedia.org/wiki/%E5%82%AC%E5%8C%96%E4%B8%89%E8%81%94%E4%BD%93",
-      "title": "催化三联体",
-      "excerpt": "催化三联体，又稱催化金三角，通常指在水解酶和转移酶的活性位点中心同时作用的三个氨基酸残基（如蛋白酶、酰胺酶、酯酶、酰基转移酶、脂酶和β-内酰胺酶）。用于共价催化的亲核残基一般是酸-碱-亲核三联体。残基会形成一个电荷中继网络，以极化和活化亲核试剂，来进攻底物形成共价中间体，然后中间体水解，再生出游离的酶。亲核试剂大多是丝氨酸或半胱氨酸，也有少量是苏氨酸。 因为酶会折叠成复杂的三维结构，催化三联体的残基可能在其所在的氨基酸序列（一级结构）中离得很远，但最后它们将会折叠到一起。 虽然在功能上（甚至是三联体中的亲核体）进化趋异，催化三联体却是趋同进化的最好案例。对催化的化学约束使得至少23个独立的蛋白质超家族进化出了相同的催化方法。生物化学中，研究得最透彻之一的就是这些反应的作用机理。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-27T18:53:29.615720Z"
     },
     {
       "source_id": "wiki-random:en:20329656",
@@ -3231,16 +3001,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-27T18:55:23.246428Z"
-    },
-    {
-      "source_id": "wiki-random:en:165198",
-      "source_name": "EN Wikipedia：Wind speed",
-      "source_url": "https://en.wikipedia.org/wiki/Wind_speed",
-      "title": "Wind speed",
-      "excerpt": "In meteorology, wind speed, or wind flow speed, is a fundamental atmospheric quantity caused by air moving from high to low pressure, usually due to changes in temperature. Wind speed is now commonly measured with an anemometer. Wind speed affects weather forecasting, aviation and maritime operations, construction projects, growth and metabolism rates of many plant species, and has countless other implications. Wind direction is usually almost parallel to isobars (and not perpendicular, as one might expect), due to Earth's rotation.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-27T18:55:23.246579Z"
     },
     {
       "source_id": "wiki-random:en:29420427",

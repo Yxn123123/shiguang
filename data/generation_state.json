@@ -2328,7 +2328,151 @@
       "source_url": "https://en.wikipedia.org/wiki/Baltistics",
       "outcome": "no_proposal",
       "reason": ""
+    },
+    "wiki-random:en:4296547": {
+      "last_seen": "2026-07-27T18:57:47.165418Z",
+      "source_url": "https://en.wikipedia.org/wiki/German_World_War_II_destroyers",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:zh:7048046": {
+      "last_seen": "2026-07-27T18:57:47.165433Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E8%93%9D%E5%86%B0_(%E5%86%B0%E5%B7%9D)",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-topic:en:11537515": {
+      "last_seen": "2026-07-27T18:57:47.165440Z",
+      "source_url": "https://en.wikipedia.org/wiki/Civil_inattention",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-random:en:29536434": {
+      "last_seen": "2026-07-27T18:57:47.165446Z",
+      "source_url": "https://en.wikipedia.org/wiki/Acoustic_resonance_technology",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-random:zh:1134762": {
+      "last_seen": "2026-07-27T18:57:47.165451Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E9%9D%9E%E7%B5%90%E6%A7%8B%E5%8C%96%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:zh:661529": {
+      "last_seen": "2026-07-27T18:57:47.165455Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E7%BE%A9%E5%A4%A7%E5%88%A9%E8%8F%9C",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:4546838": {
+      "last_seen": "2026-07-27T18:57:47.165459Z",
+      "source_url": "https://en.wikipedia.org/wiki/Charis_SIL",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:64434302": {
+      "last_seen": "2026-07-27T18:57:47.165463Z",
+      "source_url": "https://en.wikipedia.org/wiki/Terminal_Velocity_(album)",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:zh:3058032": {
+      "last_seen": "2026-07-27T18:57:47.165466Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%84%9F%E7%94%9F%E6%94%BE%E5%B0%84%E6%80%A7",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-random:en:1426168": {
+      "last_seen": "2026-07-27T18:57:47.165470Z",
+      "source_url": "https://en.wikipedia.org/wiki/The_Word_for_World_Is_Forest",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:zh:295420": {
+      "last_seen": "2026-07-27T18:57:47.165474Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%85%89%E8%A1%8C%E5%B7%AE",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-random:zh:5932775": {
+      "last_seen": "2026-07-27T18:57:47.165478Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E9%9B%AA%E9%90%B5%E9%BE%8DC4_Picasso",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:zh:3988571": {
+      "last_seen": "2026-07-27T18:57:47.165482Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%82%AC%E5%8C%96%E4%B8%89%E8%81%94%E4%BD%93",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-random:en:3439": {
+      "last_seen": "2026-07-27T18:57:47.165486Z",
+      "source_url": "https://en.wikipedia.org/wiki/Piano_Trio,_Op._97_(Beethoven)",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:81247750": {
+      "last_seen": "2026-07-27T18:57:47.165490Z",
+      "source_url": "https://en.wikipedia.org/wiki/2C-Se-TFM",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:5560489": {
+      "last_seen": "2026-07-27T18:57:47.165494Z",
+      "source_url": "https://en.wikipedia.org/wiki/Retrofitting",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-random:en:26610577": {
+      "last_seen": "2026-07-27T18:57:47.165498Z",
+      "source_url": "https://en.wikipedia.org/wiki/Power-control_theory_of_gender_and_delinquency",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:zh:8169321": {
+      "last_seen": "2026-07-27T18:57:47.165501Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E9%A5%B2%E6%96%99%E9%B1%BC",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-random:en:75404547": {
+      "last_seen": "2026-07-27T18:57:47.165505Z",
+      "source_url": "https://en.wikipedia.org/wiki/Sarcophagus_of_Laris_Pulenas",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:zh:948971": {
+      "last_seen": "2026-07-27T18:57:47.165509Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%B3%95%E5%BE%8B%E8%AF%AD%E8%A8%80",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:58468005": {
+      "last_seen": "2026-07-27T18:57:47.165513Z",
+      "source_url": "https://en.wikipedia.org/wiki/IPhone_XR",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-random:en:165198": {
+      "last_seen": "2026-07-27T18:57:47.165517Z",
+      "source_url": "https://en.wikipedia.org/wiki/Wind_speed",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-random:en:1775636": {
+      "last_seen": "2026-07-27T18:57:47.165521Z",
+      "source_url": "https://en.wikipedia.org/wiki/Timothy_II_of_Alexandria",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:2725411": {
+      "last_seen": "2026-07-27T18:57:47.165524Z",
+      "source_url": "https://en.wikipedia.org/wiki/Solar_Radiation_and_Climate_Experiment",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
     }
   },
-  "updated_at": "2026-07-27T18:55:23.258053Z"
+  "updated_at": "2026-07-27T18:57:47.173012Z"
 }

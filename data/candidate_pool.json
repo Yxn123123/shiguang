@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-28T18:51:33.788103Z",
+  "updated_at": "2026-07-28T18:54:07.759348Z",
   "candidates": [
     {
       "source_id": "wiki-random:en:13628958",
@@ -93,16 +93,6 @@
       "added_at": "2026-07-12T20:09:32.398283Z"
     },
     {
-      "source_id": "wiki-random:en:34607657",
-      "source_name": "EN Wikipedia：Narrow-band imaging",
-      "source_url": "https://en.wikipedia.org/wiki/Narrow-band_imaging",
-      "title": "Narrow-band imaging",
-      "excerpt": "Narrow-band imaging is an imaging technique for endoscopic diagnostic medical tests, where light of specific blue and green wavelengths is used to enhance the detail of certain aspects of the surface of the mucosa. A special filter is electronically activated by a switch in the endoscope leading to the use of ambient light of wavelengths of 415 nm (blue) and 540 nm (green). Because the peak light absorption of hemoglobin occurs at these wavelengths, blood vessels will appear very dark, allowing for their improved visibility and in the improved identification of other surface structures. In gastrointestinal endoscopy, narrow-band imaging has found use in the identification of Barrett's esophagus, in the identification of pit patterns to classify colorectal polyps and tumours, and in the identification of atypical dysplastic cells in the colon of patients with ulcerative colitis. Also, in cystoscopy, which is the examination of the urinary bladder with an endoscope, narrow-band imaging is useful in differentiating between benign and malignant cells. Alternative methods to improve visualization of the mucosa in endoscopy include chromoendoscopy, confocal microscopy and optical coherence...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-12T20:10:11.642377Z"
-    },
-    {
       "source_id": "wiki-random:en:16173166",
       "source_name": "EN Wikipedia：YouCastr",
       "source_url": "https://en.wikipedia.org/wiki/YouCastr",
@@ -141,16 +131,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-12T20:10:11.643356Z"
-    },
-    {
-      "source_id": "wiki-random:en:63391388",
-      "source_name": "EN Wikipedia：Crucifix of San Marcello",
-      "source_url": "https://en.wikipedia.org/wiki/Crucifix_of_San_Marcello",
-      "title": "Crucifix of San Marcello",
-      "excerpt": "The crucifix of San Marcello is a medieval work of religious art that is venerated in the Oratory of Santissimo Crocifisso of the Church of San Marcello al Corso in Rome. Having survived a fire that destroyed the church in 1519, the crucifix was popularly believed to possess intercessory powers. During an epidemic of plague in 1522 the crucifix was carried in a procession through the city. According to popular belief at the time, the procession caused the plague to leave the neighborhoods through which the crucifix passed, and eventually to die out in Rome. Because contemporaries then believed that the crucifix had proven its spiritual efficacy twice, a confraternity was set up which quickly became one of the largest in Rome. The procession of 1522 is considered by some scholars to be the origin of modern Holy Thursday processions held annually in Catholic cities, and the crucifix itself is still part of modern Roman religious processionary, particularly at Easter, although also at times of emergency. Pope Francis had it brought to St Peter's Square on several occasions during the COVID-19 pandemic in March 2020.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-12T20:10:11.645352Z"
     },
     {
       "source_id": "wiki-random:en:23808291",
@@ -323,16 +303,6 @@
       "added_at": "2026-07-13T20:45:49.945097Z"
     },
     {
-      "source_id": "wiki-random:en:61898393",
-      "source_name": "EN Wikipedia：2020 Toronto Blue Jays season",
-      "source_url": "https://en.wikipedia.org/wiki/2020_Toronto_Blue_Jays_season",
-      "title": "2020 Toronto Blue Jays season",
-      "excerpt": "The 2020 Toronto Blue Jays season was the franchise's 44th season in Major League Baseball. On March 12, 2020, MLB announced that because of the ongoing COVID-19 pandemic (including in Toronto), the start of the regular season would be delayed by at least two weeks in addition to the remainder of spring training being cancelled. Four days later, it was announced that the start of the season would be pushed back indefinitely due to the recommendation made by the U.S. Centers for Disease Control and Prevention to restrict events of more than 50 people for eight weeks. On June 23, commissioner Rob Manfred unilaterally implemented a 60-game season. Players were to report to training camps on July 1 in order to resume spring training and prepare for a July 23 or 24 Opening Day. The team was forced to play their home games in the home of their AAA affiliate in Buffalo, New York. Due to the pandemic and the shortened season, Major League Baseball instituted certain rule changes which included the use of a universal designated hitter, a runner on second base to start extra innings, and a revised schedule. On July 30, the league and the union agreed that all remaining doubleheaders on the season...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-13T20:45:49.945743Z"
-    },
-    {
       "source_id": "wiki-random:zh:9252735",
       "source_name": "ZH Wikipedia：红旗-29",
       "source_url": "https://zh.wikipedia.org/wiki/%E7%BA%A2%E6%97%97-29",
@@ -443,16 +413,6 @@
       "added_at": "2026-07-14T20:46:40.129350Z"
     },
     {
-      "source_id": "wiki-random:zh:449152",
-      "source_name": "ZH Wikipedia：集體智慧",
-      "source_url": "https://zh.wikipedia.org/wiki/%E9%9B%86%E9%AB%94%E6%99%BA%E6%85%A7",
-      "title": "集體智慧",
-      "excerpt": "集體智慧（英語：collective intelligence），也称集體智能、群智等称，此术语中intelligence即为智力、智慧。（注意，有几个英文单词都有“群”的含义，目前中國大陆科技论文中，一般“群体智能”、“群智能”是指另外一个术语，其“群”字的英文原文是另一个词） 單一個體所做出的決策往往會比起多數決的決策來的不精準，集体智慧（集体智能）是一种共享的或者群体的智能，以及集結眾人的意見進而轉化為決策的一種過程。它是从许多个体的合作与竞争中涌现出来的。集体智慧在细菌、动物、人类以及计算机网络中形成，并以多种形式的协商一致的决策模式出现。 对于集体智慧的研究，实际上可以被认为是一个属于社会学、商业、计算机科学、大众传媒和大众行为的分支学科——研究从夸克层次到细菌、植物、动物以及人类社会层次的群体行为的一个领域。这个概念也经常出现在科幻小说中，它被当作为联结物种和生化人的心灵感应。 上述定义来自侯世达（1979）、彼得·罗素（1983）、汤姆·阿特利（1993）、皮埃尔·列维（1994）、霍華德·布洛姆（1995年）、弗朗西斯·海拉恩（1995年）、道格拉斯·恩格尔巴特、克里夫·乔斯林、罗恩·德姆博、戈特弗里德·梅尔-克瑞斯（2003年）以及其他理论家的著作。集体智慧被诺曼·L·约翰逊称为共生智能。 有的人士，例如汤姆·阿特利，他们在集体智慧方面宁愿把重点主要放在人类上，并且为改进霍华德·布洛姆所谓的“群体智商”而积极工作。阿特利认为，可以鼓励集体智慧“去克服‘团体迷思’和个人认知偏差，以使得群体在流程中进行合作成为可能，同时还能大大提高智力表现”。 集体智慧（CI）也可以定义为某种形式的网络化，即互联网，它是由通信技术的进步而引发的。Web 2.0实现了交互性，因而用户可以发布自己的内容。集体智慧凭借这一点来提高现有知识的社会共享。Henry Jenkins，一个在新媒体和媒体融合领域的主要理论家，依照他的学说，集体智慧可以归因于媒体融合以及共享文化。集体智慧不仅仅是所有文化在信息数量上的贡献，同时，它也是质量上的贡献。 一个CI的先驱，George Pór，他将集体智慧定义为“通过分化与整合、竞争与协作的创新机制，人类社区朝更高的秩序复杂性以及和谐方向演化的能力”。汤姆·阿特利和George Pór说明“集体智慧还包括实现单一的关注点以及标准的衡量尺度，以提供适当的行动门槛”。他们的方法植根于科学界的隐喻。 列维和德克霍夫从大众传播的思考方法来考虑CI，集中网络信息及通信技术的能力去提高社区知识库。他们认为，这些通讯工具可以使人类既方便又快速地进行互动、分享与合作（Flew 2008）。随着互联网的发展和广泛使用，对于那些以社区为基础的论坛，例如维基百科，为它们做贡献的机会大于以往任何时候。通过对数据库的集体访问，以及允许他们“利用蜂巢”，这些计算机网络给与参与用户存储和检索知识的机会…",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-14T20:46:40.130438Z"
-    },
-    {
       "source_id": "wiki-random:en:2099428",
       "source_name": "EN Wikipedia：Saprobiont",
       "source_url": "https://en.wikipedia.org/wiki/Saprobiont",
@@ -543,16 +503,6 @@
       "added_at": "2026-07-14T20:47:42.548914Z"
     },
     {
-      "source_id": "wiki-random:en:55148622",
-      "source_name": "EN Wikipedia：The Mountain Beverly Hills",
-      "source_url": "https://en.wikipedia.org/wiki/The_Mountain_Beverly_Hills",
-      "title": "The Mountain Beverly Hills",
-      "excerpt": "The Mountain Beverly Hills, formerly known as The Vineyard Beverly Hills, is a 157-acre (64 ha) undeveloped property in Beverly Hills, California reportedly worth $1 billion. Princess Shams Pahlavi, the sister of Iran’s last shah, Mohammad Reza Pahlavi, bought it in the 1970s and intended to build the shah a $20 million palace in exile after his overthrow in 1979. It never materialized and she sold it in 1987 to Merv Griffin for a reported $6.5 million. Griffin effectively sliced off the top of the mountain, grading 14 acres and removing about 2 million cubic yards of dirt. He planned an expanse including a 58,000-square-foot house, a helipad and a couple of lakes, but instead found himself busy with other real estate deals, including his 1987 purchase of the Beverly Hilton Hotel and several other hotels. Later, he divided the property into six lots for potential development. In 1997, Mark R. Hughes, the founder of Herbalife, bought the property for $8.5 million after that, it went through a number of owners, following a complex lawsuit after Hughes' death. The property was offered via a website for $1 billion and taken off the market in 2015. One of the owners in 2017 was Victorino...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-14T20:47:42.551172Z"
-    },
-    {
       "source_id": "wiki-random:zh:7423805",
       "source_name": "ZH Wikipedia：新闻学史",
       "source_url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%97%BB%E5%AD%A6%E5%8F%B2",
@@ -581,16 +531,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-14T20:47:42.552573Z"
-    },
-    {
-      "source_id": "wiki-random:en:66002558",
-      "source_name": "EN Wikipedia：Onion yellow dwarf virus",
-      "source_url": "https://en.wikipedia.org/wiki/Onion_yellow_dwarf_virus",
-      "title": "Onion yellow dwarf virus",
-      "excerpt": "Onion yellow dwarf virus (OYDV) is a plant virus in the genus Potyvirus that has been identified worldwide and mainly infects species of Allium such as onion, garlic, and leek. The virus causes mild to severe leaf malformation, and bulb reduction up to sixty percent has been observed in garlic.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-14T20:47:42.553559Z"
     },
     {
       "source_id": "wiki-random:en:21871925",
@@ -643,16 +583,6 @@
       "added_at": "2026-07-15T18:37:33.839331Z"
     },
     {
-      "source_id": "wiki-random:en:65810190",
-      "source_name": "EN Wikipedia：Neural Engine",
-      "source_url": "https://en.wikipedia.org/wiki/Neural_Engine",
-      "title": "Neural Engine",
-      "excerpt": "Neural Engine is a series of AI accelerators designed for machine learning by Apple. Neural Engine was first introduced with the A11 Bionic system-on-a-chip (SoC), used in the iPhone 8, iPhone 8 Plus and iPhone X from 2017. In 2020, Apple introduced its M1 processor for its Mac computers which also used a Neural Engine. Every A-series and M-series processor since 2017 has included a Neural Engine. Apple services such as its Siri virtual assistant, Face ID facial recognition and Apple Intelligence AI services are powered by the Neural Engine, and since this is handled on-device, user data is secure.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-15T18:37:33.839671Z"
-    },
-    {
       "source_id": "wiki-random:en:3902072",
       "source_name": "EN Wikipedia：CVS Caremark",
       "source_url": "https://en.wikipedia.org/wiki/CVS_Caremark",
@@ -673,16 +603,6 @@
       "added_at": "2026-07-15T18:37:33.843884Z"
     },
     {
-      "source_id": "wiki-random:zh:7143290",
-      "source_name": "ZH Wikipedia：英国铁路先进客运动车组实验型",
-      "source_url": "https://zh.wikipedia.org/wiki/%E8%8B%B1%E5%9B%BD%E9%93%81%E8%B7%AF%E5%85%88%E8%BF%9B%E5%AE%A2%E8%BF%90%E5%8A%A8%E8%BD%A6%E7%BB%84%E5%AE%9E%E9%AA%8C%E5%9E%8B",
-      "title": "英国铁路先进客运动车组实验型",
-      "excerpt": "英国铁路实验型先进客运动车组（英文原名：British Rail APT-E，英文全稱：Advanced Passenger Train Experimental，中文又称：实验型高级客运列车）是英國鐵路一型試驗型动力分散式擺式客運動車組，使用燃氣輪機動力。僅製造一組。該型动车组为4节编组，头尾两节动车（编号為PC1、PC2），中间两节拖车（编号為TC1、TC2）。每節動車安裝有四臺利蘭2S/350燃氣渦輪發動機和一臺輔助供電引擎。每臺燃氣渦輪發動機初期功率為300馬力，後期升級至330馬力。 兩端頭部的轉向架則安裝有英国通用电气公司生產的253AY型牽引電機。車體采用鋁製車體，每節車廂長21米，使用兩節車廂連接處安裝有關節式轉向架。 英国铁路实验型先进客运动车组于1972年7月25日首次上线运行，路线为德比至达菲尔德（Duffield）。但不久後英國機車工程師和司爐工會卻極力阻止該型列車的使用，因為該工會認爲英国铁路实验型先进客运动车组的一人駕駛制設計可能會導致工作崗位流失。 这使得該型動車組直到1973年8月才再次上綫運行。 英国铁路实验型先进客运动车组曾於1975年8月在大西部幹綫斯溫頓-雷丁區間達到245.1千米/小時的最高速度，打破之前英國的鐵路列車速度紀錄。 1976年1月由伦敦圣潘克拉斯车站出发经米德兰主线和Old Dalby试验线的测试中达到了231.1千米/小时的最高速度。 该型动车组仅用于内部测试使用，从未面向公众提供服务。在1976年6月测试结束后，该列车被送往位于约克的大英铁路博物馆。后又改由国立希尔登铁路博物馆收藏至今。英铁370型电力动车组亦为改型列车的衍生型号，但370型动车组采用交流25千伏50赫兹架空电缆供电。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-15T18:38:57.608239Z"
-    },
-    {
       "source_id": "wiki-random:en:46309528",
       "source_name": "EN Wikipedia：2015 Idlib offensive",
       "source_url": "https://en.wikipedia.org/wiki/2015_Idlib_offensive",
@@ -701,16 +621,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-15T18:38:57.610288Z"
-    },
-    {
-      "source_id": "wiki-random:en:4419469",
-      "source_name": "EN Wikipedia：Adaptive partition scheduler",
-      "source_url": "https://en.wikipedia.org/wiki/Adaptive_partition_scheduler",
-      "title": "Adaptive partition scheduler",
-      "excerpt": "Adaptive partition schedulers are a relatively new type of partition scheduler, which in turn is a kind of scheduling algorithm, pioneered with the most recent version of the QNX operating system. Adaptive partitioning, or AP, allows the real-time system designer to request that a percentage of processing resources be reserved for a particular partition (group of threads and/or processes making up a subsystem). The operating system's priority-driven pre-emptive scheduler will behave in the same way that a non-AP system would until the system is overloaded (i.e. system-wide there is more computation to perform than the processor is capable of sustaining over the long term). During overload, the AP scheduler enforces hard limits on total run-time for the subsystems within a partition, as dictated by the allocated percentage of processor bandwidth for the particular partition. If the system is not overloaded, a partition that is allocated (for example) 10% of the processor bandwidth, can, in fact, use more than 10%, as it will borrow from the spare budget of other partitions (but will be required to pay it back later). This is very useful for the non real-time subsystems that experience...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-15T18:38:57.612312Z"
     },
     {
       "source_id": "wiki-random:en:3009475",
@@ -941,16 +851,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-17T18:32:18.219081Z"
-    },
-    {
-      "source_id": "wiki-random:en:64448041",
-      "source_name": "EN Wikipedia：S4 ribosomal protein leader",
-      "source_url": "https://en.wikipedia.org/wiki/S4_ribosomal_protein_leader",
-      "title": "S4 ribosomal protein leader",
-      "excerpt": "The S4 ribosomal protein leader is a ribosomal protein leader involved in ribosome biogenesis. It is used as an autoregulatory mechanism to control the concentration of the ribosomal protein S4. Two examples of such leaders that use different conserved structures, in Bacillota and Gammaproteobacteria, have been experimentally confirmed. Four additional S4 ribosomal protein leaders, each with distinct structures, were predicted in various bacteria phyla. In Bacteroidia or Bacillota, the structure is located in the 5′ untranslated regions of mRNAs encoding ribosomal proteins S4 (rpsD), RNA polymerase alpha subunit (rpoA) and L17 (rplQ). In Clostridia (whose S4 ribosomal protein leader differs from that of other Bacillota) and Gammaproteobacteria, the ribosomal proteins S13 (rpsM) and S11 (rpsK) were also part of the mRNA encoding region.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-17T18:32:56.739761Z"
     },
     {
       "source_id": "wiki-random:en:12598240",
@@ -1243,16 +1143,6 @@
       "added_at": "2026-07-20T19:11:49.201787Z"
     },
     {
-      "source_id": "wiki-random:en:81167",
-      "source_name": "EN Wikipedia：Provinces of France",
-      "source_url": "https://en.wikipedia.org/wiki/Provinces_of_France",
-      "title": "Provinces of France",
-      "excerpt": "Under the Ancien Régime, the Kingdom of France was subdivided in multiple different ways (judicial, military, ecclesiastical, etc.) into several administrative units, until the National Constituent Assembly adopted a more uniform division into departments (départements) and districts in late 1789. The provinces (French pronunciation: [pʁɔvɛ̃s] ) continued to exist administratively until 21 September 1791. The country was subdivided ecclesiastically into dioceses, judicially into généralités, militarily into general governments. None of these entities was called \"province\" by their contemporaries. However, later interpretations confused the term of \"general government\" (a military division) with that of a cultural province, since the general governments often used the names and borders of a province. It was not always the case, which causes confusion as to the borders of some provinces. Today, the term \"province\" is used to name the resulting regional areas, which retain a cultural and linguistic identity. Borrowed from the institutions of the Roman Empire, the word first appeared in the 15th century and has continued to spread, both in official documents and in popular or common usage...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-20T19:11:49.203166Z"
-    },
-    {
       "source_id": "wiki-random:zh:7375620",
       "source_name": "ZH Wikipedia：阿达齐甘利亚",
       "source_url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E8%BE%BE%E9%BD%90%E7%94%98%E5%88%A9%E4%BA%9A",
@@ -1271,16 +1161,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-20T19:11:49.203957Z"
-    },
-    {
-      "source_id": "wiki-random:zh:7660692",
-      "source_name": "ZH Wikipedia：PAL语言",
-      "source_url": "https://zh.wikipedia.org/wiki/PAL%E8%AF%AD%E8%A8%80",
-      "title": "PAL语言",
-      "excerpt": "PAL，是教育算法语言（Pedagogic Algorithmic Language）的首字母简写，它是在大约1967年于麻省理工学院开发的编程语言，用于帮助教授编程语言语义和设计。它是ISWIM的直接后代，并拥有很多来自Christopher Strachey的哲学。 PAL最初用Lisp实现，由彼得·蘭丁和小詹姆斯·H·莫里斯（James H. Morris, Jr.）书写。后来馬丁·理察德、Thomas J. Barkalow、Arthur Evans, Jr.、Robert M. Graham、James Morris, Jr和約翰·沃森克拉夫特对它做了重新设计。Richards和Barkalow将它用BCPL实现为中间代码解释器，并运行在IBM System/360之上，它被称为PAL/360。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-20T19:11:49.206878Z"
     },
     {
       "source_id": "wiki-random:en:49165705",
@@ -1391,16 +1271,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-20T19:12:40.929760Z"
-    },
-    {
-      "source_id": "wiki-random:en:32257721",
-      "source_name": "EN Wikipedia：Global leadership",
-      "source_url": "https://en.wikipedia.org/wiki/Global_leadership",
-      "title": "Global leadership",
-      "excerpt": "Global leadership is the interdisciplinary study of the key elements that future leaders in all realms of the personal experience should acquire to effectively familiarize themselves with the psychological, physiological, geographical, geopolitical, anthropological and sociological effects of globalization. Global leadership occurs when an individual or individuals navigate collaborative efforts of different stakeholders through environmental complexity towards a vision by leveraging a global mindset. Today, global leaders must be capable of connecting \"people across countries and engage them to global team collaboration in order to facilitate complex processes of knowledge sharing across the globe\" Personality characteristics, as well as a cross-cultural experience, appear to influence effectiveness in global leaders. As a result of trends, starting with colonialism and perpetuated by the increase in mass media, innovation, (brought about by the Internet and other forms of human interaction based on the speed of computer-mediation) and a host of meaningful new concerns face mankind; consisting of but not limited to: human enterprises toward peace, international business design, and...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-20T19:12:40.930023Z"
     },
     {
       "source_id": "wiki-random:zh:1483346",
@@ -1983,16 +1853,6 @@
       "added_at": "2026-07-23T18:43:08.663770Z"
     },
     {
-      "source_id": "wiki-random:zh:1505626",
-      "source_name": "ZH Wikipedia：陶瓷工程",
-      "source_url": "https://zh.wikipedia.org/wiki/%E9%99%B6%E7%93%B7%E5%B7%A5%E7%A8%8B",
-      "title": "陶瓷工程",
-      "excerpt": "陶瓷工程是使用无机非金属材料制造物体的科学技术。陶瓷工程的研究范围包括包括对原材料的提纯、对需要的化学成分的研究和生产以及对产物的结构、成分和性质的研究。 陶瓷材料可能含有全部或者部分的晶体结构，在原子层面上是大范围有序的。玻璃陶瓷可能有不定型或类似玻璃的结构，几乎没有有序度或者只能小范围有序。他们的制造方法可能通过是熔化物质冷却凝固，通过加热、或者在低温下通过化学手段如水热或溶胶凝胶法得到。 陶瓷材料特性使其能够在材料工程、电子工程、化学工程以及机械工程中得到很多应用。由于通常陶瓷非常耐热，他们可以用于很多金属和聚合物无法胜任的地方。陶瓷材料在工业中有广泛的应用，包括采矿、航天、医药、精炼、軍事、食品和化学工厂、电子行业、工业输电、以及光波导传输等等。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-23T18:43:08.664950Z"
-    },
-    {
       "source_id": "wiki-random:en:1067453",
       "source_name": "EN Wikipedia：Anklet",
       "source_url": "https://en.wikipedia.org/wiki/Anklet",
@@ -2041,16 +1901,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-24T18:53:59.214293Z"
-    },
-    {
-      "source_id": "wiki-random:en:42439027",
-      "source_name": "EN Wikipedia：Metabolomic Pathway Analysis",
-      "source_url": "https://en.wikipedia.org/wiki/Metabolomic_Pathway_Analysis",
-      "title": "Metabolomic Pathway Analysis",
-      "excerpt": "Metabolomic Pathway Analysis, shortened to MetPA, is a freely available, user-friendly web server to assist with the identification analysis and visualization of metabolic pathways using metabolomic data. MetPA makes use of advances originally developed for pathway analysis in microarray experiments and applies those principles and concepts to the analysis of metabolic pathways. For input, MetPA expects either a list of compound names (identified as statistically significant or significant perturbed) or a metabolite concentration table with phenotypic labels (i.e. sick vs. healthy). The list of compounds can include common names, HMDB IDs or KEGG IDs with one compound per row. Compound concentration tables must have samples in rows and compounds in columns. MetPA's output is a series of tables indicating which pathways are significantly enriched (along with accompanying statistics) as well as a variety of graphs or pathway maps illustrating where and how certain pathways were enriched. MetPA's graphical output uses a colorful Google-Maps visualization system that allows simple, intuitive data exploration that lets users employ a computer mouse or track pad to select, drag and place...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-24T18:53:59.214473Z"
     },
     {
       "source_id": "wiki-random:en:3041100",
@@ -2233,16 +2083,6 @@
       "added_at": "2026-07-24T18:55:03.354673Z"
     },
     {
-      "source_id": "wiki-random:en:33408418",
-      "source_name": "EN Wikipedia：Software construction",
-      "source_url": "https://en.wikipedia.org/wiki/Software_construction",
-      "title": "Software construction",
-      "excerpt": "Software construction is the process of creating working software via coding and integration. The process includes unit and integration testing although does not include higher level testing such as system testing. Construction is an aspect of the software development lifecycle and is integrated in the various software development process models with varying focus on construction as an activity separate from other activities. In the waterfall model, a software development effort consists of sequential phases including requirements analysis, design, and planning which are prerequisites for starting construction. In an iterative model such as scrum, evolutionary prototyping, or extreme programming, construction as an activity that occurs concurrently or overlapping other activities. Construction planning may include defining the order in which components are created and integrated, the software quality management processes, and the allocation of tasks to teams and developers. To facilitate project management, numerous construction aspects can be measured; these include the amount of code developed, modified, reused, and destroyed, code complexity, code inspection statistics, faults-fixed...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-24T18:55:03.355023Z"
-    },
-    {
       "source_id": "wiki-random:zh:140155",
       "source_name": "ZH Wikipedia：克莱森重排反应",
       "source_url": "https://zh.wikipedia.org/wiki/%E5%85%8B%E8%8E%B1%E6%A3%AE%E9%87%8D%E6%8E%92%E5%8F%8D%E5%BA%94",
@@ -2291,16 +2131,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-25T18:13:57.596165Z"
-    },
-    {
-      "source_id": "wiki-random:en:63664855",
-      "source_name": "EN Wikipedia：Avdo Karabegović Hasanbegov",
-      "source_url": "https://en.wikipedia.org/wiki/Avdo_Karabegovi%C4%87_Hasanbegov",
-      "title": "Avdo Karabegović Hasanbegov",
-      "excerpt": "Avdo Karabegović Hasanbegov (1878–1900) was a Bosnian poet. He was the cousin of the poet S. Avdo Karabegović, who adopted the letter S. as his first initial, which stood for Srbin (Serb), partly to distinguish himself from his cousin. Karabegović secretly taught Hasanbegov the Latin alphabet against the wishes of Hasanbegov's father, who had forbidden him from receiving a Western education. After Hasanbegov began publishing in pro-Serb periodicals in the Latin alphabet, his home was attacked by a mob. Hasanbegov died in 1900. Writing about Hasanbegov in 1902, the writer and literary critic Svetozar Ćorović remarked: \"Many hated him precisely because he called himself a Serb and because he, against all their advice, did not want to reject that name. He hated them for the same reasons.\"",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-25T18:13:57.596435Z"
     },
     {
       "source_id": "wiki-random:zh:941716",
@@ -2403,16 +2233,6 @@
       "added_at": "2026-07-25T18:15:02.457193Z"
     },
     {
-      "source_id": "wiki-random:en:73353576",
-      "source_name": "EN Wikipedia：Bisse d'Ayent",
-      "source_url": "https://en.wikipedia.org/wiki/Bisse_d%27Ayent",
-      "title": "Bisse d'Ayent",
-      "excerpt": "The Bisse d'Ayent is a bisse (traditional irrigation channel) in Valais. It takes its source at the Tseuzier reservoir and irrigates vineyards and meadows in the municipalities of Ayent and Grimisuat. The Bisse d'Ayent is located on the heights of Sion in one of the driest regions of Switzerland. Built in 1442, it takes its water directly from the Liène river, below the Tseuzier dam (1777 m above sea level). The latter is fed by the water from the Wildhorn, including a small glacier on its summit. The bisse is in water from June to October. The first part of the bisse is quite spectacular as it passes through the middle of a cliff (Torrent-Croix). At the time, the bisse passed through wooden canals fixed to the vertical wall, several hundred meters above the ground. This part was abandoned in 1831 following the digging of a tunnel and was restored (but not put back into service) in 1991. Near the entrance of the tunnel is a hammer which allowed the watchman of the bisse to know if the watercourse continued to flow normally. A path follows the bisse all along; it was historically used to watch the bisse to ensure the flow of water and today allows hikers all the way. Today the bisse...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-25T18:15:02.457494Z"
-    },
-    {
       "source_id": "wiki-random:en:53776880",
       "source_name": "EN Wikipedia：Temple of Ezbet Rushdi",
       "source_url": "https://en.wikipedia.org/wiki/Temple_of_Ezbet_Rushdi",
@@ -2491,36 +2311,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-26T18:30:03.022037Z"
-    },
-    {
-      "source_id": "wiki-random:zh:4513545",
-      "source_name": "ZH Wikipedia：洛伊丝·格里芬",
-      "source_url": "https://zh.wikipedia.org/wiki/%E6%B4%9B%E4%BC%8A%E4%B8%9D%C2%B7%E6%A0%BC%E9%87%8C%E8%8A%AC",
-      "title": "洛伊丝·格里芬",
-      "excerpt": "洛伊丝·帕特里斯·格里芬（英語：Lois PatriceGriffin，娘家姓皮尤特施密特）是美国喜剧动画《恶搞之家》中的角色。由动画创始人塞思·麦克法兰创作，并首次在1998年12月20日的一部15分钟短片中亮相。她的设计由麦克法兰亲自完成。格里芬一家首次出现在《Death Has a Shadow》一集中。 洛伊丝是格里芬家的母亲，与她的丈夫彼得育有三个孩子：梅格、克里斯和斯图伊。尽管她承认自己曾经吸食冰毒和患有窃盗癖，洛伊丝也有过几次婚外情，据说这导致梅格有了类似的想法。洛伊丝的独特纽约口音源自于在一部舞台剧中艾利克斯·布斯汀饰演的角色，她在长岛长大。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-26T18:30:03.023095Z"
-    },
-    {
-      "source_id": "wiki-random:zh:6919162",
-      "source_name": "ZH Wikipedia：地质聚合物",
-      "source_url": "https://zh.wikipedia.org/wiki/%E5%9C%B0%E8%B4%A8%E8%81%9A%E5%90%88%E7%89%A9",
-      "title": "地质聚合物",
-      "excerpt": "地质聚合物（Geopolymer）属于高分子科学、化学、地质学和工程技术领域。一般来说，聚合物可以指有机材料，即碳基聚合物，也可以指无机聚合物，例如硅基聚合物。有机聚合物包括天然聚合物（橡胶、纤维素）、合成有机聚合物（纺织纤维、塑料、薄膜、弹性体等）和天然生物聚合物（生物、医药、制药）。合成硅基聚合物所用的原料主要是造岩矿物，因此得名地质聚合物。20世纪50年代，苏联基辅的Viktor Glukovsky最先开发了以“土硅酸盐混凝土（soil silicate concretes）”和“土水泥（soil cements）”命名的混凝土材料。但是，自从Joseph Davidovits在1978年创造了Geopolymer，这个概念以来，“地质聚合物”的术语和定义变得更加多样化，并且常常相互冲突。 地质聚合物可以被定义为两大类 : 纯无机及含有机物的地质聚合物； 天然存在的大分子合成地质聚合物的类似物。 地质聚合物本质上是由矿物化合物或由重复单元组成的化合物的混合物，例如氧化硅（-Si-O-Si-O-）、铝硅酸盐（-Si-O-Al-O-）、铝铁硅酸盐（-Fe-O-Si-O-Al-O-）或铝磷酸盐（-Al-O-P-O-）等 。 两种主要的地质聚合物合成路线: 碱性合成路线: Na+, K+, Li+, Ca2+, Cs+ 等； 酸性合成路线: 磷酸以及来源于植物抽提物的有机羧酸 （乙酸、柠檬酸、草酸和腐殖质酸）。 其中，碱性合成路线在研发和商业应用方面最为重要。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-26T18:30:03.024142Z"
-    },
-    {
-      "source_id": "wiki-random:en:1432784",
-      "source_name": "EN Wikipedia：Baseline",
-      "source_url": "https://en.wikipedia.org/wiki/Baseline",
-      "title": "Baseline",
-      "excerpt": "A baseline is a line that is a base for measurement or for construction. The word baseline may refer to: Baseline (configuration management), the process of managing change in software or other fields Baseline (sea), the starting point for delimiting a coastal state's maritime zones Baseline, in underwater diving, a value used to convert cylinder pressure of a tank to free gas volume Baseline (surveying), a line between two points of the Earth's surface and the direction and distance between them Baseline (typography), the line upon which most letters \"sit\" and below which descenders extend Baseline (budgeting), an estimate of budget expected during a fiscal year Baseline (science), information found at the beginning of a study Baseline (pharmacology), a person's state of mind or being, in the absence of drugs The isoelectric line of an electrocardiogram Baseline (interferometry), the length of an astronomical interferometer The name Baseline may refer to: Baseline (magazine), a magazine devoted to typography, book arts, graphic design Baseline (database), a TV and movie industry database Baselines (album), the 1983 debut album of composer Bill Laswell Baseline Road (Arizona), a major...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-26T18:30:03.025397Z"
     },
     {
       "source_id": "wiki-random:zh:4807027",
@@ -2701,16 +2491,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-26T18:30:53.761084Z"
-    },
-    {
-      "source_id": "wiki-random:en:44478976",
-      "source_name": "EN Wikipedia：Free the Butterfly",
-      "source_url": "https://en.wikipedia.org/wiki/Free_the_Butterfly",
-      "title": "Free the Butterfly",
-      "excerpt": "Free the Butterfly is an \"inner experience\" self-help album by Suzi Quatro and Shirlie Roden, which uses music and movement as a healing therapy. The pair have appeared together at workshops and Mind, Body & Spirit festivals. Speaking of Roden, Quatro said: \"She's a sound healer and she asked me to do some workshops with her, which I did, and it was quite an interesting experience.\" When asked if she found the exercise helpful in her own life, Quatro said: \"Definitely, I think that, whenever you do something like that, you realize that most people really have the same kind of problems.\", adding \"I feel I have to do this, I have to give something back\". The work is based on the idea of the \"School of Life\". The listing for the album on the official Suzi Quatro website describes it as follows:This is a unique double CD, specially created, written and performed by Suzi and Shirlie, to help you connect with your inner self and discover the Lessons of your Life. Based on the idea of the School of Life, this CD works with the elements of Water, Air, Fire, Earth, Wood, Stone and Gold in the form of seven separate songs. Together with a guided narration by Suzi or Shirlie, each element allows...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-26T18:30:53.763420Z"
     },
     {
       "source_id": "wiki-random:en:6551920",
@@ -2933,16 +2713,6 @@
       "added_at": "2026-07-27T18:54:53.086836Z"
     },
     {
-      "source_id": "wiki-random:en:30701513",
-      "source_name": "EN Wikipedia：Metzgeriothallus",
-      "source_url": "https://en.wikipedia.org/wiki/Metzgeriothallus",
-      "title": "Metzgeriothallus",
-      "excerpt": "Metzgeriothallus sharonae is the oldest known liverwort fossil, dating to the Middle Devonian. It is a simple, thalloid organism. M. metzgerioides is known from more fragmentary material dating to the Carboniferous of Scotland. A defining feature of these fossils is the presence of dark, scattered cells that closely resemble oil body cells of modern liverworts, suggesting evolutionary homology and implicating these structures in the chemical defense of liverworts against arthropod herbivory. Dark cells are distributed more or less evenly throughout the thallus wings, often forming characteristic 'salt-and-pepper' patterns, a spatial arrangement associated with the phenomenon of lateral inhibition.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-27T18:54:53.086962Z"
-    },
-    {
       "source_id": "wiki-random:zh:4269825",
       "source_name": "ZH Wikipedia：Office Sway",
       "source_url": "https://zh.wikipedia.org/wiki/Office_Sway",
@@ -2971,16 +2741,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-27T18:55:23.243946Z"
-    },
-    {
-      "source_id": "wiki-random:en:26162856",
-      "source_name": "EN Wikipedia：High Resolution Stereo Camera",
-      "source_url": "https://en.wikipedia.org/wiki/High_Resolution_Stereo_Camera",
-      "title": "High Resolution Stereo Camera",
-      "excerpt": "High Resolution Stereo Camera (HRSC) is a camera experiment on Mars Express. A version for Earth called HRSC-AX was also developed, as was a version for Mars 96. It has four main parts: camera head, super resolution channel, instrument frame, and digital unit. At an altitude of 250 km from Mars, SRC can produce images with a resolution of 2.3 meters/pixel of 2.35 km square Mars terrain. It has 9 channels and can produce digital terrain models. A typical image from HRSC of Mars has a resolution ranging from 12.5 for nadir (directly down) to 25 m/pixel for the furthest off-nadir shots, which can be up to 18.9 degrees. By 2012, about 61.5% of the surface of Mars was mapped at a resolution of at least 20 meters per pixel by the Mars Express mission using this camera. Another area of study is repeat imaging, to allow the study of dynamic processes on Mars. Another trick is to make short videos of the Mars surface by taking advantage of the pushbroom nature of the detector. Each section is slightly offset for a different color, but when combined, every view is used to make a short animation. By the start of 2015, about 70% of Mars had been imaged at resolutions greater than 20 m per pixel...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-27T18:55:23.244261Z"
     },
     {
       "source_id": "wiki-random:en:45593720",

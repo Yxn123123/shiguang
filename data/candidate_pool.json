@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-28T18:54:07.759348Z",
+  "updated_at": "2026-07-29T18:31:44.073682Z",
   "candidates": [
     {
       "source_id": "wiki-random:en:13628958",
@@ -2791,6 +2791,266 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-27T18:55:23.248767Z"
+    },
+    {
+      "source_id": "wiki-random:en:11313842",
+      "source_name": "EN Wikipedia：Carlyle Harris",
+      "source_url": "https://en.wikipedia.org/wiki/Carlyle_Harris",
+      "title": "Carlyle Harris",
+      "excerpt": "Carlyle Harris (September 1868 – May 8, 1893) was a medical student who was convicted and sentenced to death for the murder of his wife. A student at New York College of Physicians and Surgeons, Harris murdered his wife, Mary Helen Potts, whom he had married on February 8, 1890, with an overdose of morphine in the form of sleeping pills. Although Potts' death was first attributed to a stroke, the murder was discovered by physicians only because she displayed severely contracted pupils, a characteristic symptom of morphine poisoning. Prosecuted by Assistant District Attorney Charles E. Simms Jr., the witnesses against Harris included Dr. Rudolph Witthaus. Harris was represented by prominent defense attorney William F. Howe. He was found guilty of first degree murder, on February 8, 1892, the second anniversary of his marriage to Helen Potts and was executed in the electric chair at Sing Sing Prison on May 8, 1893.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-29T18:30:11.533906Z"
+    },
+    {
+      "source_id": "wiki-random:en:75591474",
+      "source_name": "EN Wikipedia：Jacob des Bouverie",
+      "source_url": "https://en.wikipedia.org/wiki/Jacob_des_Bouverie",
+      "title": "Jacob des Bouverie",
+      "excerpt": "Jacob des Bouverie (1659 – 1722), of Allhallows, Barking, London and Terlingham, near Folkestone, Kent, was an English Member of Parliament. He was a Member (MP) of the Parliament of England for Hythe 1695 to 1700 and 1713 to 1722. The Bouverie family were Huguenots who had come over from Flanders.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-29T18:30:11.534278Z"
+    },
+    {
+      "source_id": "wiki-random:zh:1572897",
+      "source_name": "ZH Wikipedia：1,3-双(二苯基膦)丙烷",
+      "source_url": "https://zh.wikipedia.org/wiki/1,3-%E5%8F%8C(%E4%BA%8C%E8%8B%AF%E5%9F%BA%E8%86%A6)%E4%B8%99%E7%83%B7",
+      "title": "1,3-双(二苯基膦)丙烷",
+      "excerpt": "1,3-双(二苯基膦)丙烷 (dppp)是一种配位化学当中的二膦配体。 二膦可以通过二苯基膦锂与1,3-二氯丙烷反应制备： 2 Ph2PLi + C3H6Cl2 → Ph2PC3H6PPh2 + 2 LiCl 二膦是络合物二氯化[1,3-双(二苯基膦基)丙烷]镍的前驱体，该络合物通过混合等当量的配体和二氯化镍六水合物制得。该镍络合物可以作为Kumada偶联反应的催化剂。 dppp还用于络合二价钯催化剂，从而进行一氧化碳合乙烯的共聚反应得到聚酮。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-29T18:30:11.536494Z"
+    },
+    {
+      "source_id": "wiki-random:en:41623226",
+      "source_name": "EN Wikipedia：Il processo di Biscardi",
+      "source_url": "https://en.wikipedia.org/wiki/Il_processo_di_Biscardi",
+      "title": "Il processo di Biscardi",
+      "excerpt": "Il Processo di Biscardi is a sports talk and debate television program produced by Frenter Communication and aired on various affiliated local television channels in Italy, entirely devoted to Italian Soccer, in particular the Serie A.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-29T18:30:11.536601Z"
+    },
+    {
+      "source_id": "wiki-random:en:667190",
+      "source_name": "EN Wikipedia：Command history",
+      "source_url": "https://en.wikipedia.org/wiki/Command_history",
+      "title": "Command history",
+      "excerpt": "Command history is a feature in many operating system shells, computer algebra programs, and other software that allows the user to recall, edit and rerun previous commands. Command line history was added to Unix in Bill Joy's C shell of 1978; Joy took inspiration from an earlier implementation in Interlisp. It quickly became popular because it made the C shell fast and easy to use. History has since become a standard feature in other shells, including ksh, Bash and Microsoft's cmd.exe. History addressed two important scenarios: Executing the same command or a short sequence of commands over and over. An example might be a developer frequently compiling and running a program. Correcting mistakes or rerunning a command with only a small modification. In Joy's original C shell, the user could refer to a previous command by typing an exclamation, !, followed by additional characters to specify a particular command, only certain words, or to edit it in some way before pasting it back into the command line. For example: !! meant the entire previous command. !$ meant just the last word of the previous command. !abc meant the command that started with abc. The usual implementation...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-29T18:30:11.536814Z"
+    },
+    {
+      "source_id": "wiki-random:zh:434444",
+      "source_name": "ZH Wikipedia：羟醛缩合",
+      "source_url": "https://zh.wikipedia.org/wiki/%E7%BE%9F%E9%86%9B%E7%BC%A9%E5%90%88",
+      "title": "羟醛缩合",
+      "excerpt": "羟醛缩合是一种有机反应：烯醇或烯醇负离子和羰基化合物反应形成β-羟基醛或者β-羟基酮，然后发生脱水得到共轭烯酮。 羟醛缩合在有机合成当中很重要，它是形成碳碳单键的关键条件之一，罗宾逊成环反应中有一步就是羟醛缩合反应。羟醛缩合在大学有机化学课程中常作为一个经典构建碳键的反应进行讲解，并用该反应介绍反应机理。 在普通的羟醛缩合反应中，包涵了酮的烯醇对于醛的亲核加成，形成β-羟基酮或者“羟醛”（广泛出现于各种天然产物及药物中的一种结构单元）。 羟醛缩合在生物化学中也同样广泛存在。羟醛反应自身由醛缩酶催化，然而该反应不是正式的缩合反应，这是因为过程中并未脱除小分子。 反应在醛和酮之间发生（交叉羟醛缩合），或者在两个醛之间发生，则称为Claisen-Schmidt缩合反应。这些反应都被冠以发现人的名字莱纳·路德维希·克莱森和J.G.施密特。他们分别于1880和1881年发表了自己在该领域的论文。 一个相关的例子是合成二亚苄基丙酮。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-29T18:30:11.537579Z"
+    },
+    {
+      "source_id": "wiki-random:en:39587158",
+      "source_name": "EN Wikipedia：The Leo Group",
+      "source_url": "https://en.wikipedia.org/wiki/The_Leo_Group",
+      "title": "The Leo Group",
+      "excerpt": "The Leo Group is a privately owned, waste-recycling company based in Halifax, England that specialises in the collection and processing of animal by-products. The company is currently run by Daniel Sawrij, the managing director, who took over from the company's founders, his parents Margaret and Leo Sawrij, in 1988.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-29T18:30:40.493876Z"
+    },
+    {
+      "source_id": "wiki-random:zh:5918398",
+      "source_name": "ZH Wikipedia：戈克塔瀑布",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%88%88%E5%85%8B%E5%A1%94%E7%80%91%E5%B8%83",
+      "title": "戈克塔瀑布",
+      "excerpt": "戈克塔瀑布（Gocta）是一座秘鲁邦加拉省瓦雷拉区的一座瀑布。它位于秘鲁亚马孙大区首府查查波亚斯以北约30千米处。它的落差为771米，是世界上落差最高的瀑布之一。它的水流量随其位于海拔2500和3000米高度的面积不大的水源地区的降水量而差异巨大。戈克塔瀑布以北约数千米处是尤姆比拉瀑布，它的落差高度达900米，但是只有在雨季有水。 戈克塔瀑布位于安第斯山脉东部。离戈克塔瀑布最近的村庄是海拔1934米的圣保罗和海拔1796米的科卡钦瓦村。当地的气温在摄氏15到22°之间。由于瀑布导致的雾气它周围的森林里的温度还有低一些。 当地5月到9月间是旱季。在这段时间里瀑布的流量骤减。10月到4月间雨季的时候流量会在短期内迅速增大。 戈克塔瀑布的名字来自黄尾绒毛猴的叫声。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-29T18:30:40.494374Z"
+    },
+    {
+      "source_id": "wiki-random:zh:6099416",
+      "source_name": "ZH Wikipedia：美能达 TC-1",
+      "source_url": "https://zh.wikipedia.org/wiki/%E7%BE%8E%E8%83%BD%E8%BE%BE_TC-1",
+      "title": "美能达 TC-1",
+      "excerpt": "美能达TC-1（Minolta TC-1）是一台由美能达公司设计制造的紧凑型相机，使用135底片，具有自动对焦功能，带有一枚固定不可换镜头，为G-Rokkor 28mm F3.5。该机型于1996年2月推出，于2005年7月停产并终止销售。 根据官方说法，TC-1正面尺寸类似名片或信用卡（85.60 x 53.98 mm），厚度约3cm；且其从发布到2005年1月，一直保持了使用35mm胶片的最小相机记录。 美能达TC-1可以说是该公司，乃至相机设计历史上具有代表性的紧凑型相机。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-29T18:30:40.494773Z"
+    },
+    {
+      "source_id": "wiki-random:en:1098754",
+      "source_name": "EN Wikipedia：Pluralistic ignorance",
+      "source_url": "https://en.wikipedia.org/wiki/Pluralistic_ignorance",
+      "title": "Pluralistic ignorance",
+      "excerpt": "In social psychology, pluralistic ignorance (also known as a collective illusion or collective delusion) is a phenomenon in which people mistakenly believe that others predominantly hold an opinion different from their own. In such cases, many people in a group may go along with a view they do not hold because they think, incorrectly, that most other people in the group hold it. Pluralistic ignorance encompasses situations in which a minority position on a given topic is wrongly perceived to be the majority position, or the majority position is wrongly perceived to be a minority position. Pluralistic ignorance can arise in different ways. An individual may misjudge overall perceptions of a topic due to fear, embarrassment, social desirability, or social inhibition. Individuals may develop collective illusions when they fear backlash for holding beliefs they think differ from society's beliefs. From a group-level perspective, divergence between public behavior and private opinion can result from conservative lags (change in attitude without a change in behavior), liberal leaps (change in behavior without a change in attitude), and social identities (conforming to societal expectations...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-29T18:30:40.495709Z"
+    },
+    {
+      "source_id": "wiki-random:en:67011131",
+      "source_name": "EN Wikipedia：2021 Champions Cup (curling)",
+      "source_url": "https://en.wikipedia.org/wiki/2021_Champions_Cup_(curling)",
+      "title": "2021 Champions Cup (curling)",
+      "excerpt": "The 2021 Humpty's Champions Cup, a curling Grand Slam event, was held April 15–19, 2021 at the Markin MacPhail Centre at Canada Olympic Park in Calgary, Alberta. Two days before the event was supposed to begin on Monday, April 12, the organizers delayed its start time by one day due to the (false) positive COVID-19 tests from the 2021 World Men's Curling Championship, which was held at the same site from April 2–11. Due to the COVID-19 pandemic in Canada, it was announced that both the Champions Cup and the Players' Championship Grand Slam of Curling events would still be held in the 2020–21 curling season but would move to a centralized \"bubble\" (similar to that of the NHL as in Edmonton) at Canada Olympic Park alongside Curling Canada's national championships. All events will be held behind closed doors with no spectators. Due to the pandemic, it is the first Grand Slam event to be held since the 2020 Canadian Open held in January 2020. The event utilized the \"no tick rule\", an experimental rule in which any guard rock touching the centre line may not be moved off of the centre line by an opposing stone until the sixth rock of the end. On the men's side, Bruce Mouat of Scotland won...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-29T18:30:40.496791Z"
+    },
+    {
+      "source_id": "wiki-random:zh:245390",
+      "source_name": "ZH Wikipedia：合式公式",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%90%88%E5%BC%8F%E5%85%AC%E5%BC%8F",
+      "title": "合式公式",
+      "excerpt": "在形式系統與逻辑中，合式公式（well-formed formula，wff）又称合適公式、良式公式，可简称公式（formula），即“符合語法規則的公式”，是一逻辑体系中的“一个表达式”或“一个有限符号序列”；此表达式或序列，来自给定的字母表（字符），且属于形式语言的一种。合式公式与该逻辑体系的构成规则相符合，类似于自然语言中的一个语法句子。 若给定一形式文法，则WFF是这个文法生成的任何字符串。 例如，在命题演算中符号序列 ( ( α → β ) → ( ¬ β → ¬ α ) ) {\\displaystyle ((\\alpha \\rightarrow \\beta )\\rightarrow (\\neg \\beta \\rightarrow \\neg \\alpha ))} 是一个wff，因为它在文法上正确。符号序列 ( ( α → β ) → ( β β ) ) α ) ) {\\displaystyle ((\\alpha \\rightarrow \\beta )\\rightarrow (\\beta \\beta ))\\alpha ))} 不是WFF，因为它不符合命题演算的文法。 在形式逻辑中，证明是有特定性质的wff序列，而序列中最终的wff就是要证明的。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-29T18:30:40.497902Z"
+    },
+    {
+      "source_id": "wiki-random:en:37769865",
+      "source_name": "EN Wikipedia：Irreligion in China",
+      "source_url": "https://en.wikipedia.org/wiki/Irreligion_in_China",
+      "title": "Irreligion in China",
+      "excerpt": "China has the world's largest irreligious population, with the government of the People's Republic of China adhering to the doctrine of state atheism. Successive Chinese polities since the Qing dynasty have conducted antireligious campaigns to discourage folk religious practices, and the government maintains an official attitude of secularism and non-promotion. Since 1978, the constitution provides for religious freedom: \"No state organ, public organization or individual may compel citizens to believe in, or not to believe in, any religion; nor may they discriminate against citizens because they do, or do not believe in religion\" (article 36). Among the general Chinese population are a wide variety of religious practices. Most Chinese frequently engage in incense burning, paper-money offering, tomb-kneeing, oracle-seeking, temple-visiting, or horoscope-consulting. China officially recognizes five religions - Buddhism, Taoism, Islam, Catholicism, and Protestantism - managed by the State Administration for Religious Affairs of the United Front Work Department. According to a 2012 Gallup poll, 47% of Chinese people were convinced atheists, and a further 30% were not religious. In comparison...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-29T18:30:40.498246Z"
+    },
+    {
+      "source_id": "wiki-random:en:1432191",
+      "source_name": "EN Wikipedia：Japanese encephalitis",
+      "source_url": "https://en.wikipedia.org/wiki/Japanese_encephalitis",
+      "title": "Japanese encephalitis",
+      "excerpt": "Japanese encephalitis (JE) is an infection of the brain caused by the Japanese encephalitis virus (JEV). While most infections result in little or no symptoms, occasional inflammation of the brain occurs. In these cases, symptoms may include headache, vomiting, fever, confusion and seizures. This occurs about 5 to 15 days after infection. JEV is generally spread by mosquitoes, specifically those of the Culex type. Pigs and wild birds serve as a reservoir for the virus. The disease occurs mostly outside of cities. Diagnosis is based on blood or cerebrospinal fluid testing. Prevention is generally achieved with the Japanese encephalitis vaccine, which is both safe and effective. Other measures include avoiding mosquito bites. Once infected, there is no specific treatment, with care being supportive. This is generally carried out in a hospital. Permanent problems occur in up to half of people who recover from JE. The disease primarily occurs in East and Southeast Asia as well as the Western Pacific. About 3 billion people live in areas where the disease occurs. About 68,000 symptomatic cases occur a year, with about 17,000 deaths. Often, cases occur in outbreaks. The disease was first...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-29T18:30:40.498779Z"
+    },
+    {
+      "source_id": "wiki-random:en:2179636",
+      "source_name": "EN Wikipedia：Arcus senilis",
+      "source_url": "https://en.wikipedia.org/wiki/Arcus_senilis",
+      "title": "Arcus senilis",
+      "excerpt": "Arcus senilis (AS), also known as gerontoxon, arcus lipoides, arcus corneae, corneal arcus, arcus adiposus, or arcus cornealis, are rings in the peripheral cornea. It is usually caused by cholesterol deposits, so it may be a sign of high cholesterol. It is the most common peripheral corneal opacity, and is usually found in the elderly where it is considered a benign condition. When AS is found in patients less than 50 years old it is termed arcus juvenilis. The finding of arcus juvenilis in combination with hyperlipidemia in younger men represents an increased risk for cardiovascular disease.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-29T18:31:13.412552Z"
+    },
+    {
+      "source_id": "wiki-random:zh:8417738",
+      "source_name": "ZH Wikipedia：热电材料",
+      "source_url": "https://zh.wikipedia.org/wiki/%E7%83%AD%E7%94%B5%E6%9D%90%E6%96%99",
+      "title": "热电材料",
+      "excerpt": "热电材料 是利用热电效应实现固体发电和制冷的基础。 热电效应是指温差产生电压或电流产生温差的现象。其中温差发电现象被称为塞贝克效应（通过温差产生电压）、电流制冷现象被称为珀耳帖效应（用电流驱动热流），温度梯度改变塞贝克系数的现象被称为汤姆逊效应。虽然所有材料都具有热电效应，但在大多数材料的热电效应很不明显，无法付诸实际应用。因此，寻找和制备高性能的固体热电材料，取代传统发电热机和传统压缩制冷，来实现未来的发电、制冷需求，称为现在材料学的重点课题之一。目前，室温下最常用的热电材料大多为基于碲化铋（ Bi2Te3) 的半导体合金.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-29T18:31:13.413648Z"
+    },
+    {
+      "source_id": "wiki-random:en:26598807",
+      "source_name": "EN Wikipedia：Scars of Mirrodin",
+      "source_url": "https://en.wikipedia.org/wiki/Scars_of_Mirrodin",
+      "title": "Scars of Mirrodin",
+      "excerpt": "Scars of Mirrodin is a Magic: The Gathering block, consisting of the expansion sets Scars of Mirrodin (October 1, 2010), Mirrodin Besieged (February 4, 2011) and New Phyrexia. This block marked the return to the plane of Mirrodin. This plane was last visited in the Mirrodin block that concluded in 2004. The interim tagline for the set was \"The Corrosion Begins October 1, 2010.\" The plans for this set were first made public by mananation.com when it was discovered that \"Scars of Mirrodin\", as well as \"Mirrodin Pure\" and \"New Phyrexia\" had been registered as trademarks with the US Patent and Trademark Office by Wizards of the Coast. As with the original Mirrodin block, artifacts make up the overarching theme of Scars of Mirrodin; Nearly half of all cards in the set are artifacts. In his May 24 column, Mark Rosewater confirmed that the \"Infect\" game mechanic in Scars of Mirrodin would bring poison counters back to Magic. All cards (other than basic lands) in the Scars of Mirrodin block carried a watermark, either Mirran or Phyrexian.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-29T18:31:13.414063Z"
+    },
+    {
+      "source_id": "wiki-random:en:12187248",
+      "source_name": "EN Wikipedia：Destroy All Humans! Big Willy Unleashed",
+      "source_url": "https://en.wikipedia.org/wiki/Destroy_All_Humans!_Big_Willy_Unleashed",
+      "title": "Destroy All Humans! Big Willy Unleashed",
+      "excerpt": "Destroy All Humans! Big Willy Unleashed is a 2008 action-adventure video game developed by Locomotive Games and published by THQ for the Wii and is the third installment in the Destroy All Humans! franchise. A PlayStation 2 version was originally going to be released alongside the Wii, but was ultimately canceled because of budget cuts. A PlayStation Portable version was also canceled, due to \"control issues\" involved with translating the Wii version's controls to the port.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-29T18:31:13.414287Z"
+    },
+    {
+      "source_id": "wiki-random:en:3960733",
+      "source_name": "EN Wikipedia：Syncopation (dance)",
+      "source_url": "https://en.wikipedia.org/wiki/Syncopation_(dance)",
+      "title": "Syncopation (dance)",
+      "excerpt": "The terms syncopation and syncopated step in dancing are used for two senses: The first definition matches the musical term: stepping on (or otherwise emphasizing) an unstressed beat. For example, ballroom cha-cha-cha is a syncopated dance in this sense, because the basic step \"breaks on two\". An example for a syncopated dance figure is the lockstep in quickstep and waltz. When dancing to the disparate threads contained within the music, hands, torso, and head can independently move in relation to a thread, creating a fluidly syncopated performance of the music. The word \"syncopation\" is often used by dance teachers to mean improvised or rehearsed execution of step patterns that have more rhythmical nuances than \"standard\" step patterns. It takes advanced dancing skill to dance syncopations in this sense. Advanced dancing of West Coast Swing and the Lindy Hop makes heavy use of \"syncopation\" in this sense (although swing music and swing dances feature the \"usual\" syncopation, i.e., emphasising the even beats). Many dance teachers criticise the use of the term \"syncopation\" and abandon it in favour of the term \"double-time\". That is most likely because of a convenience in similarity...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-29T18:31:13.415101Z"
+    },
+    {
+      "source_id": "wiki-random:zh:1619564",
+      "source_name": "ZH Wikipedia：次级代谢产物",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%AC%A1%E7%BA%A7%E4%BB%A3%E8%B0%A2%E4%BA%A7%E7%89%A9",
+      "title": "次级代谢产物",
+      "excerpt": "次级代谢产物（英語：Secondary metabolites，又称为次生代谢物、二代謝物）是不直接涉及到生命正常生长、发育或繁殖的有机化合物。不像初级代谢产物，缺少次级代谢产物不会导致立即死亡，但是在长期看来，有可能损伤生物的存活率、配對成功率或繁殖力，也可能一点也没有明显的改变。特定的次级代谢产物常常只出現在特定的一個類群中作為這些物種的共有衍徵。次级代谢产物在植物防被食防卫方面起着重要的作用。人类利用次级代谢产物作为药物、调味品或消遣类药物。細菌利用抗生素來和周圍的細菌合作和溝通，常常次級代謝都發生在細菌成長期之後的固定期（stationary phase），而人類使用提煉出來的抗生素做藥物。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-29T18:31:13.415180Z"
+    },
+    {
+      "source_id": "wiki-random:zh:4813734",
+      "source_name": "ZH Wikipedia：双截龙3 罗塞塔之石",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%8F%8C%E6%88%AA%E9%BE%993_%E7%BD%97%E5%A1%9E%E5%A1%94%E4%B9%8B%E7%9F%B3",
+      "title": "双截龙3 罗塞塔之石",
+      "excerpt": "《双截龙3 罗塞塔之石》（日語：ダブルドラゴン3 ザ・ロゼッタストーン）是1990年5月31日在街机推出的横向卷轴清版动作游戏。游戏为双截龙系列第三款街机游戏。游戏后来移植到大量平台。本作並不是由Technōs Japan開發的游戏，而是外包給日本電子遊戲開發商East Technology（イースト・テクノロジー）主導開發（East Technology曾於同年2月開發並發行街機遊戲《Gigandes》）。 游戏可以最多至2或3个人同时进行游戏。美版還設有物品商店，玩家可以透過花費現實上的金錢來購買遊戲內物品，例如武器、額外動作和新的可使用角色，這是電子遊戲史上最早出現微交易系統的遊戲。由於爭議不斷，該系統最終在日版和歐版被刪除。 任天堂版本的《双截龙III 罗塞塔之石》由Technōs Japan開發，並在街机版本的几个月后的1991年2月发行。这个版本并不是移植，而是两个游戏同时进行开发。 《电脑与电子游戏》的Julian Rignall打出83%，称赞游戏更逼真的画风，并向系列爱好者推荐游戏。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-29T18:31:13.415291Z"
+    },
+    {
+      "source_id": "wiki-random:en:23225253",
+      "source_name": "EN Wikipedia：Release (Sister Hazel album)",
+      "source_url": "https://en.wikipedia.org/wiki/Release_(Sister_Hazel_album)",
+      "title": "Release (Sister Hazel album)",
+      "excerpt": "Release is Sister Hazel's seventh studio album. It was released on August 18, 2009 through Croakin' Poets/Rock Ridge. Unlike previous Sister Hazel albums, all of the band members contributed to the songwriting. According to Ryan Newell, the album got its name because they \"Took a different approach on this record and 'released' the past method.\"",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-29T18:31:13.415924Z"
+    },
+    {
+      "source_id": "wiki-random:en:28624844",
+      "source_name": "EN Wikipedia：Bova Marina Synagogue",
+      "source_url": "https://en.wikipedia.org/wiki/Bova_Marina_Synagogue",
+      "title": "Bova Marina Synagogue",
+      "excerpt": "The Bova Marina Synagogue (Italian: Sinagoga di Bova Marina) is a former Jewish congregation and synagogue, that was located in Bova Marina, Calabria, Italy. It is the second oldest synagogue discovered in Italy and one of the oldest in Europe, dating from the 4th century CE. The former site of the synagogue has been an archaeological site since 1983.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-29T18:31:44.067288Z"
+    },
+    {
+      "source_id": "wiki-random:en:1224698",
+      "source_name": "EN Wikipedia：Synaptogenesis",
+      "source_url": "https://en.wikipedia.org/wiki/Synaptogenesis",
+      "title": "Synaptogenesis",
+      "excerpt": "Synaptogenesis is the formation of synapses between neurons in the nervous system. Although it occurs throughout a healthy person's lifespan, an explosion of synapse formation occurs during early brain development, known as exuberant synaptogenesis. Synaptogenesis is particularly important during an individual's critical period, during which there is a certain degree of synaptic pruning due to competition for neural growth factors by neurons and synapses. Processes that are not used, or inhibited during their critical period will fail to develop normally later on in life.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-29T18:31:44.068937Z"
+    },
+    {
+      "source_id": "wiki-random:en:3567887",
+      "source_name": "EN Wikipedia：Stamp tongs",
+      "source_url": "https://en.wikipedia.org/wiki/Stamp_tongs",
+      "title": "Stamp tongs",
+      "excerpt": "Stamp tongs are tweezers used to handle postage stamps. They are used by stamp collectors and philatelists, because they are a reliable way to hold and move stamps without damaging or getting skin oils on them. The jaws of stamp tongs are smooth in contrast to the striated jaws of the type of tweezers one might use to grasp and pull a thorn; such tweezers will damage stamps. They can also be an efficient way to handle a small stack of stamps. Stamp tongs are nearly always made of metal, with lengths ranging from 10–20 cm (4–8 in). The tip is usually thin, so it can slide under a stamp easily, and may come in several different forms. The \"shovel\" tip is a broad spatula shape, often bent at an angle. The \"pointed\" tip tapers to a sharp point; while useful for precise positioning, as when mounting the stamp on a page or picking a particular stamp from a pile, the sharper tip can also tear a delicate stamp. There are also \"rounded\" tips available that beginning stamp collectors like to use to avoid damaging their collection.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-29T18:31:44.069312Z"
+    },
+    {
+      "source_id": "wiki-random:en:12700741",
+      "source_name": "EN Wikipedia：Deinacrida parva",
+      "source_url": "https://en.wikipedia.org/wiki/Deinacrida_parva",
+      "title": "Deinacrida parva",
+      "excerpt": "Deinacrida parva is a species of insect in the family Anostostomatidae, the king crickets and weta. It is known commonly as the Kaikoura wētā or Kaikoura giant wētā. It was first described in 1894 from a male individual then rediscovered in 1966 by Dr J.C. Watt at Lake Sedgemore in Upper Wairau. It is endemic to New Zealand, where it can be found in the northern half of the South Island. This is a small to medium-sized robust wētā. It is easily confused with Deinacrida rugosa. Due to the rarity of this weta, there is still much to be learnt.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-07-29T18:31:44.070886Z"
     }
   ]
 }

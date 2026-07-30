@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "updated_at": "2026-07-29T18:34:00.203730Z",
+  "updated_at": "2026-07-30T18:53:36.251340Z",
   "approved_cards": 119,
-  "pending_candidates": 281,
+  "pending_candidates": 305,
   "last_run": {
     "github_run_id": "30480339538",
     "source": "workflow_run",
@@ -1776,27 +1776,29 @@
     }
   ],
   "last_harvest": {
-    "github_run_id": "30480107846",
+    "github_run_id": "30572303917",
     "source": "harvest_schedule",
-    "started_at": "2026-07-29T18:29:25.169857Z",
-    "finished_at": "2026-07-29T18:31:44.071953Z",
+    "started_at": "2026-07-30T18:52:12.295353Z",
+    "finished_at": "2026-07-30T18:53:36.241508Z",
     "passes": 4,
-    "fetched": 662,
-    "added": 26,
-    "pool_before": 279,
+    "fetched": 640,
+    "added": 24,
+    "pool_before": 281,
     "pool_after": 305,
     "target_pool_size": 500,
     "refill_trigger": 300,
     "refill_needed": true,
     "source_counts": {
       "维基主题分类": 142,
+      "历史上的今天": 3,
       "英文维基随机": 400,
-      "中文维基随机": 120
+      "中文维基随机": 95
     },
     "success": true,
     "min_added_for_success": 20,
     "ok_sources": [
       "Wikipedia topic samples",
+      "Wikimedia On This Day",
       "English Wikipedia random pass 1",
       "Chinese Wikipedia random pass 1",
       "English Wikipedia random pass 2",

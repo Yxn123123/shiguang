@@ -1,34 +1,34 @@
 {
   "version": 1,
-  "updated_at": "2026-07-30T18:53:36.251340Z",
-  "approved_cards": 119,
-  "pending_candidates": 305,
+  "updated_at": "2026-07-30T18:57:12.295340Z",
+  "approved_cards": 124,
+  "pending_candidates": 281,
   "last_run": {
-    "github_run_id": "30480339538",
+    "github_run_id": "30572433849",
     "source": "workflow_run",
-    "started_at": "2026-07-29T18:32:15.694794Z",
-    "finished_at": "2026-07-29T18:34:00.202653Z",
-    "duration_seconds": 104.51,
+    "started_at": "2026-07-30T18:53:58.567627Z",
+    "finished_at": "2026-07-30T18:57:12.294640Z",
+    "duration_seconds": 193.73,
     "target_new_cards": 5,
     "rounds": 1,
     "pool_before": 305,
     "pool_after": 281,
     "processed": 24,
-    "proposals": 10,
+    "proposals": 11,
     "reviewed": 10,
     "added": 5,
     "pass_rate": 20.8,
-    "input_tokens": 17674,
-    "output_tokens": 5326,
+    "input_tokens": 41115,
+    "output_tokens": 5488,
     "filters": {
       "before_ai": {
         "invalid_record": 0,
         "duplicate_source": 0,
         "seen_recently": 0,
         "low_information": 0,
-        "explicit_topic_selected": 0,
-        "random_selected": 24,
-        "average_hook_score": 4
+        "explicit_topic_selected": 2,
+        "random_selected": 22,
+        "average_hook_score": 3
       },
       "before_review": {
         "low_confidence": 0,
@@ -43,55 +43,165 @@
         "score_below_78": 0,
         "bad_title": 0,
         "bad_category": 0,
-        "evidence_mismatch": 1,
+        "evidence_mismatch": 0,
         "duplicate_source": 0,
         "similar_title": 0,
         "semantic_duplicate": 0
       }
     },
     "source_stats": {
-      "中文维基随机": {
-        "processed": 5,
-        "accepted": 2
-      },
       "英文维基随机": {
-        "processed": 19,
-        "accepted": 3
+        "processed": 18,
+        "accepted": 4
+      },
+      "历史上的今天": {
+        "processed": 2,
+        "accepted": 0
+      },
+      "中文维基随机": {
+        "processed": 4,
+        "accepted": 1
       }
     },
     "quality": {
       "category_distribution": {
-        "科学": 35,
+        "科学": 37,
         "科技": 28,
-        "生物": 20,
+        "生物": 21,
         "生活": 18,
-        "历史": 10,
+        "历史": 11,
         "综合": 5,
-        "艺术": 3
+        "艺术": 4
       },
       "new_category_distribution": {
-        "科学": 3,
-        "生活": 2
+        "科学": 2,
+        "历史": 1,
+        "生物": 1,
+        "艺术": 1
       },
       "source_pass_rates": {
-        "中文维基随机": {
-          "processed": 5,
-          "accepted": 2,
-          "pass_rate": 40.0
-        },
         "英文维基随机": {
-          "processed": 19,
-          "accepted": 3,
-          "pass_rate": 15.8
+          "processed": 18,
+          "accepted": 4,
+          "pass_rate": 22.2
+        },
+        "历史上的今天": {
+          "processed": 2,
+          "accepted": 0,
+          "pass_rate": 0.0
+        },
+        "中文维基随机": {
+          "processed": 4,
+          "accepted": 1,
+          "pass_rate": 25.0
         }
       },
       "review_pass_rate": 50.0,
       "processed_pass_rate": 20.8,
-      "evidence_mismatch": 1,
-      "evidence_mismatch_rate": 10.0
+      "evidence_mismatch": 0,
+      "evidence_mismatch_rate": 0.0
     }
   },
   "recent_runs": [
+    {
+      "github_run_id": "30572433849",
+      "source": "workflow_run",
+      "started_at": "2026-07-30T18:53:58.567627Z",
+      "finished_at": "2026-07-30T18:57:12.294640Z",
+      "duration_seconds": 193.73,
+      "target_new_cards": 5,
+      "rounds": 1,
+      "pool_before": 305,
+      "pool_after": 281,
+      "processed": 24,
+      "proposals": 11,
+      "reviewed": 10,
+      "added": 5,
+      "pass_rate": 20.8,
+      "input_tokens": 41115,
+      "output_tokens": 5488,
+      "filters": {
+        "before_ai": {
+          "invalid_record": 0,
+          "duplicate_source": 0,
+          "seen_recently": 0,
+          "low_information": 0,
+          "explicit_topic_selected": 2,
+          "random_selected": 22,
+          "average_hook_score": 3
+        },
+        "before_review": {
+          "low_confidence": 0,
+          "missing_candidate": 0,
+          "bad_title": 0,
+          "bad_category": 0,
+          "similar_title": 0,
+          "semantic_duplicate": 0
+        },
+        "final": {
+          "model_rejected": 0,
+          "score_below_78": 0,
+          "bad_title": 0,
+          "bad_category": 0,
+          "evidence_mismatch": 0,
+          "duplicate_source": 0,
+          "similar_title": 0,
+          "semantic_duplicate": 0
+        }
+      },
+      "source_stats": {
+        "英文维基随机": {
+          "processed": 18,
+          "accepted": 4
+        },
+        "历史上的今天": {
+          "processed": 2,
+          "accepted": 0
+        },
+        "中文维基随机": {
+          "processed": 4,
+          "accepted": 1
+        }
+      },
+      "quality": {
+        "category_distribution": {
+          "科学": 37,
+          "科技": 28,
+          "生物": 21,
+          "生活": 18,
+          "历史": 11,
+          "综合": 5,
+          "艺术": 4
+        },
+        "new_category_distribution": {
+          "科学": 2,
+          "历史": 1,
+          "生物": 1,
+          "艺术": 1
+        },
+        "source_pass_rates": {
+          "英文维基随机": {
+            "processed": 18,
+            "accepted": 4,
+            "pass_rate": 22.2
+          },
+          "历史上的今天": {
+            "processed": 2,
+            "accepted": 0,
+            "pass_rate": 0.0
+          },
+          "中文维基随机": {
+            "processed": 4,
+            "accepted": 1,
+            "pass_rate": 25.0
+          }
+        },
+        "review_pass_rate": 50.0,
+        "processed_pass_rate": 20.8,
+        "evidence_mismatch": 0,
+        "evidence_mismatch_rate": 0.0
+      }
+    },
     {
       "github_run_id": "30480339538",
       "source": "workflow_run",
@@ -1710,67 +1820,6 @@
         "大都会博物馆": {
           "processed": 3,
           "accepted": 0
-        }
-      }
-    },
-    {
-      "github_run_id": "29188666985",
-      "source": "web",
-      "started_at": "2026-07-12T10:12:56.013894Z",
-      "finished_at": "2026-07-12T10:14:15.846876Z",
-      "duration_seconds": 79.83,
-      "target_new_cards": 12,
-      "rounds": 1,
-      "harvested": 11,
-      "new_candidates": 11,
-      "pool_before": 0,
-      "pool_after": 0,
-      "processed": 11,
-      "proposals": 7,
-      "reviewed": 7,
-      "added": 6,
-      "pass_rate": 54.5,
-      "input_tokens": 21625,
-      "output_tokens": 3450,
-      "filters": {
-        "harvest": {
-          "already_in_pool": 0,
-          "already_published": 0,
-          "seen_recently": 0,
-          "low_information": 0,
-          "pool_limit": 0
-        },
-        "before_ai": {
-          "invalid_record": 0,
-          "duplicate_source": 0,
-          "seen_recently": 0,
-          "low_information": 0
-        },
-        "before_review": {
-          "low_confidence": 0,
-          "missing_candidate": 0,
-          "bad_title": 0,
-          "bad_category": 0,
-          "similar_title": 0
-        },
-        "final": {
-          "model_rejected": 0,
-          "score_below_78": 0,
-          "bad_title": 0,
-          "bad_category": 0,
-          "evidence_mismatch": 1,
-          "duplicate_source": 0,
-          "similar_title": 0
-        }
-      },
-      "source_stats": {
-        "大都会博物馆": {
-          "processed": 3,
-          "accepted": 0
-        },
-        "英文维基分类": {
-          "processed": 8,
-          "accepted": 6
         }
       }
     }

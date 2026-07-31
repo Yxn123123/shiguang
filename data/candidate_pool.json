@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-31T18:50:17.828266Z",
+  "updated_at": "2026-07-31T18:52:59.358929Z",
   "candidates": [
     {
       "source_id": "wiki-random:en:13628958",
@@ -143,16 +143,6 @@
       "added_at": "2026-07-13T20:45:20.583799Z"
     },
     {
-      "source_id": "wiki-random:zh:723181",
-      "source_name": "ZH Wikipedia：M46 (疏散星團)",
-      "source_url": "https://zh.wikipedia.org/wiki/M46_(%E7%96%8F%E6%95%A3%E6%98%9F%E5%9C%98)",
-      "title": "M46 (疏散星團)",
-      "excerpt": "梅西耶46或M46，也稱為NGC 2437，是在船尾座的一個疏散星團。它於1771年被梅西耶發現，Dreyer描述它是\"非常明亮、非常豐富、非常大\"。M46距離地球大約4,920 光年，估計有約500顆恆星，總質量大約是453 M☉，年齡大約是2億5120萬年。 星團的潮汐半徑是37.8 ± 4.6 ly（11.6 ± 1.4 pc），核半徑是8.5 ± 1.3 ly（2.6 ± 0.4 pc）。它在紅外空間上比可見光有更大的空間擴展，表明這個星團正在經歷一些質量區隔，較黯淡（較紅）的恆星遷移至暈區。由於過去的交互作用，向南和西南延伸的黯淡恆星可能會形成潮汐尾。 行星狀星雲NGC 2438似乎在集團內靠近星團北側的邊緣（影像頂部中心模糊的斑點），但因為徑向速度與星團的其他成員不同，因此可能與星團無關。這是可能與NGC 2818類似，是一個疊加的範例。 另一方面，使雙極性的葫蘆星雲發光的恆星與M46有著相同的徑向速度和自行，還有相同的距離，因此是這個疏散星團真正的成員。 M46鄰近另一個疏散星團梅西耶 47。在天球上，M46在M47東方約一度，因此在雙筒望遠鏡或廣角的天文望遠鏡的視野中可以同時看見這兩個疏散星團。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-13T20:45:20.584881Z"
-    },
-    {
       "source_id": "wiki-random:en:2168278",
       "source_name": "EN Wikipedia：The Stone Tape",
       "source_url": "https://en.wikipedia.org/wiki/The_Stone_Tape",
@@ -231,16 +221,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-13T20:45:49.944928Z"
-    },
-    {
-      "source_id": "wiki-random:zh:9252735",
-      "source_name": "ZH Wikipedia：红旗-29",
-      "source_url": "https://zh.wikipedia.org/wiki/%E7%BA%A2%E6%97%97-29",
-      "title": "红旗-29",
-      "excerpt": "红旗-29是在中华人民共和国开发的一型太空远程反弹道导弹和反卫星武器拦截系统，可用于拦截地球大气层外的威胁，大致与美国的陆基中段防御系统相当。该系统于2025年6月首次在导弹发射车上被发现。在纪念抗日战争胜利80周年大会公开亮相，直播介绍中提及可实施多段多层反导拦截、远中近程防空抗击。 红旗-29为车辆双联装机动发射模式，採用動能拦截戰鬥部，设计拦截主要目标是洲际弹道导弹、核弹头等，可以进行远程中段拦截，与红旗-19组成双层国土反导拦截体系，在红旗-29进行首次拦截后，红旗-19再进行靠近末端的二次评估拦截。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-13T20:45:49.947341Z"
     },
     {
       "source_id": "wiki-random:zh:4835506",
@@ -363,26 +343,6 @@
       "added_at": "2026-07-14T20:47:10.118083Z"
     },
     {
-      "source_id": "wiki-random:en:5181993",
-      "source_name": "EN Wikipedia：Jacob ben Reuben (Karaite)",
-      "source_url": "https://en.wikipedia.org/wiki/Jacob_ben_Reuben_(Karaite)",
-      "title": "Jacob ben Reuben (Karaite)",
-      "excerpt": "Jacob ben Reuben (יעקב בן ראובן) was a Karaite scholar and Bible exegete of the eleventh century. He wrote a brief Hebrew language commentary on the entire Bible, which he entitled Sefer ha-'Osher, because, as he says in the introduction, the reader will find therein sufficient information, and will not need to have recourse to the many voluminous commentaries which the author himself had consulted. The book is, in fact, merely a compilation; the author's explanation of any given passage is frequently introduced by the abbreviations or (i.e., Arabic \"ma'nahu\" or \"ya'ni\" = \"that is to say\"); and divergent explanations of other commentators are added one after the other and preceded by the vague phrase (\"another says\"). It is, in fact, chiefly an extract of Yefet ben Ali's work, from whom Jacob borrowed most of his explanations as well as the quotations from various authors, chiefly on the Pentateuch. But Jacob also drew upon later Karaite authors, the last of whom is Jeshua ben Judah, who, so far as is known, flourished about 1054. This date points to the second half of the eleventh century as the date of composition of the Sefer ha-'Osher. Among Rabbinitic authors Jacob quotes Abu...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-14T20:47:10.120184Z"
-    },
-    {
-      "source_id": "wiki-random:en:53990911",
-      "source_name": "EN Wikipedia：Gray molasses",
-      "source_url": "https://en.wikipedia.org/wiki/Gray_molasses",
-      "title": "Gray molasses",
-      "excerpt": "Gray molasses is a method of sub-Doppler laser cooling of atoms. It employs principles from Sisyphus cooling in conjunction with a so-called \"dark\" state whose transition to the excited state is not addressed by the resonant lasers. Ultracold atomic physics experiments on atomic species with poorly-resolved hyperfine structure, like isotopes of lithium and potassium, often utilize gray molasses instead of Sisyphus cooling as a secondary cooling stage after the ubiquitous magneto-optical trap (MOT) to achieve temperatures below the Doppler limit. Unlike a MOT, which combines a molasses force with a confining force, a gray molasses can only slow but not trap atoms; hence, its efficacy as a cooling mechanism lasts only milliseconds before further cooling and trapping stages must be employed.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-14T20:47:10.120795Z"
-    },
-    {
       "source_id": "wiki-random:en:30313921",
       "source_name": "EN Wikipedia：Polygon experiment",
       "source_url": "https://en.wikipedia.org/wiki/Polygon_experiment",
@@ -421,16 +381,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-14T20:47:42.552338Z"
-    },
-    {
-      "source_id": "wiki-random:en:1524589",
-      "source_name": "EN Wikipedia：Paper recycling",
-      "source_url": "https://en.wikipedia.org/wiki/Paper_recycling",
-      "title": "Paper recycling",
-      "excerpt": "Paper recycling is the process by which waste paper is turned into new paper products. After repeated processing the fibres become too short for the production of new paper, which is why virgin fibre (from sustainably farmed trees) is frequently added to the pulp recipe. Waste paper recycling most often involves mixing used/old paper with water and chemicals to break it down. Three categories of paper can be used as feedstocks for making recycled paper: mill broke, pre-consumer waste, and post-consumer waste. The industrial process of removing printing ink from paper fibres of recycled paper to make deinked pulp is called deinking, an invention of the German jurist Justus Claproth. Recycling of paper saves waste paper from occupying the homes of people and producing methane as it breaks down. Industrialized papermaking affects the environment where raw materials are acquired and processed with waste-disposal impacts.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-14T20:47:42.552573Z"
     },
     {
       "source_id": "wiki-random:en:21871925",
@@ -473,16 +423,6 @@
       "added_at": "2026-07-15T18:37:33.838564Z"
     },
     {
-      "source_id": "wiki-random:en:33740268",
-      "source_name": "EN Wikipedia：Yoga pants",
-      "source_url": "https://en.wikipedia.org/wiki/Yoga_pants",
-      "title": "Yoga pants",
-      "excerpt": "Yoga pants are high-denier hosiery reaching from ankle to waist, originally designed for yoga as exercise and first sold in 1998 by Lululemon, a company founded for that purpose. They were initially made of a mix of nylon and Lycra; more specialised fabrics have been introduced to provide moisture-wicking, compression, and odour reduction. The market has increased both through the popularity of yoga and because many women wear yoga pants as casual everyday dress. This is part of a long-term \"athleisure\" trend of increasing informality in dress, threatening sales of traditional jeans. In the U.S., the wearing of yoga pants other than for exercise has aroused controversy, both for school use and when worn by women. Global sales of yoga clothing have all the same grown rapidly, reaching some $31 billion by 2018.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-15T18:37:33.839331Z"
-    },
-    {
       "source_id": "wiki-random:en:3902072",
       "source_name": "EN Wikipedia：CVS Caremark",
       "source_url": "https://en.wikipedia.org/wiki/CVS_Caremark",
@@ -521,16 +461,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-15T18:38:57.610288Z"
-    },
-    {
-      "source_id": "wiki-random:en:3009475",
-      "source_name": "EN Wikipedia：Isaac F. Hughes",
-      "source_url": "https://en.wikipedia.org/wiki/Isaac_F._Hughes",
-      "title": "Isaac F. Hughes",
-      "excerpt": "Isaac Fremont Hughes (July 29, 1861 – January 17, 1931) was an American miller, grocer, and businessman who was the first representative of Los Angeles City Council District 3 after a new city charter went into effect in 1925. He served for two years, until 1927.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-15T18:38:57.613518Z"
     },
     {
       "source_id": "wiki-random:zh:5913495",
@@ -823,16 +753,6 @@
       "added_at": "2026-07-19T18:14:14.904403Z"
     },
     {
-      "source_id": "wiki-random:zh:65669",
-      "source_name": "ZH Wikipedia：螢幕閱讀器",
-      "source_url": "https://zh.wikipedia.org/wiki/%E8%9E%A2%E5%B9%95%E9%96%B1%E8%AE%80%E5%99%A8",
-      "title": "螢幕閱讀器",
-      "excerpt": "螢幕閱讀器（英語：screen reader）又稱為螢幕報讀軟體，是安裝於電腦上的應用程式軟體，用來將文字、圖形以及電腦介面的其他部分（如文字轉語音（Text-To-Speech, TTS）技術）轉換成語音或點字。對於視障者或閱讀障礙者甚有助益，有些人會搭配放大軟體一齊使用。螢幕閱讀器至少可以讀出： 作業系統的大致情形。 文字式程式，例如DOS和telnet session。 任何圖形用戶界面呈現在螢幕上的圖形和文字。 網頁瀏覽器、電子郵件和Usenet客端。 當使用螢幕報讀軟體時，螢幕是否開啟並不會影響其運作，它本身並不構成一部電腦的要件，只是一個軟體或輸出裝置。 使用者在挑選螢幕報讀軟體時，通常會考量許多因素。包含使用平台、成本、使用者偏好等，並也會受到其所屬組織（如慈善機構、學校、任職公司）之影響，而螢幕報讀軟體在選擇上是備受爭議的。 自從Windows 2000以來，微軟作業系統已在其版本中加入名為Microsoft Narrator light-duty之螢幕報讀軟體。而蘋果公司則於其麥金塔作業系統中加入一功能豐富的螢幕報讀軟體VoiceOver。另一方面，Oralux Linux中則裝載了三種螢幕報讀軟體：Emacspeak，Yasr，以及Speakup。而開放軟體GNOME桌面環境則包含了Gnopernicus與Orca兩種螢幕報讀軟體。此外還有許多開放原始碼的螢幕報讀軟體，如適用於GNOME平台的Linux Screen Reader，以及NonVisual Desktop Access for Windows（NVDA）。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-19T18:14:14.905093Z"
-    },
-    {
       "source_id": "wiki-random:zh:9496962",
       "source_name": "ZH Wikipedia：安第斯病毒",
       "source_url": "https://zh.wikipedia.org/wiki/%E5%AE%89%E7%AC%AC%E6%96%AF%E7%97%85%E6%AF%92",
@@ -1053,16 +973,6 @@
       "added_at": "2026-07-20T19:12:14.205671Z"
     },
     {
-      "source_id": "wiki-random:en:35389589",
-      "source_name": "EN Wikipedia：Consort Dowager Zhao",
-      "source_url": "https://en.wikipedia.org/wiki/Consort_Dowager_Zhao",
-      "title": "Consort Dowager Zhao",
-      "excerpt": "Consort Dowager Zhao (Chinese: 趙太妃; personal name unknown) was the mother of Liu Bin (Emperor Shang), the second emperor of the Chinese Southern Han dynasty. She was a concubine to Liu Bin's father, the founding emperor Liu Yan (Emperor Gaozu). Very little is known about the future Consort Dowager Zhao's background. It is known that she was considered very beautiful and was favored by Liu Yan. In 920, she gave birth to his third son Liu Hongdu — who would effectively become his oldest son since Liu Hongdu's older brothers Liu Yaoshu (劉耀樞) and Liu Guitu (劉龜圖) would both die early. During Liu Yan's Dayou era (928-942), she would receive the imperial consort title Zhaoyi (昭儀). Liu Yan died in 942 and was succeeded by Liu Hongdu, who changed his name to Liu Bin. He honored Consort Zhao as consort dowager, but not as empress dowager. In 943, his younger brother Liu Hongxi (Emperor Zhongzong), then the Prince of Jin, whom he had put in command of the government, had his associates Chen Daoxiang (陳道庠) and Liu Sichao (劉思潮) assassinate him, and Liu Hongxi subsequently took the throne. It is not known what occurred to Consort Dowager Zhao.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-20T19:12:14.206268Z"
-    },
-    {
       "source_id": "wiki-random:en:4806634",
       "source_name": "EN Wikipedia：Ryerson (company)",
       "source_url": "https://en.wikipedia.org/wiki/Ryerson_(company)",
@@ -1191,16 +1101,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-21T18:47:22.998374Z"
-    },
-    {
-      "source_id": "wiki-random:en:59336713",
-      "source_name": "EN Wikipedia：RFK Racing in the NASCAR Cup Series",
-      "source_url": "https://en.wikipedia.org/wiki/RFK_Racing_in_the_NASCAR_Cup_Series",
-      "title": "RFK Racing in the NASCAR Cup Series",
-      "excerpt": "Founded in 1988, the NASCAR program is built around having multiple cars and providing engine, engineering and race car build services to other NASCAR teams fielding Ford branded vehicles. The multi-team aspect of the company allows for information and resources to be shared across the enterprise, improving the performance of all of the teams. Since the 2004 season, engines for the cars have been provided by Roush-Yates Engines, a partnership between Roush Fenway Racing and now-closed rival Yates Racing, with Doug Yates as head engine builder. Roush-Yates also provides engines, cars and parts to other Cup teams, including Wood Brothers Racing, Team Penske, and Front Row Motorsports. Between 1998 and 2000 and 2003–2009, Roush Racing operated five full-time Cup teams (6, 16, 17, 26/97, 99), more than any other organization including Hendrick Motorsports and Richard Childress Racing, which have both operated as many as four full-time teams. Beginning in 2001, after years of operating in separate facilities, the teams were moved into a single shop in Concord, North Carolina to improve performance and communication. Roush Racing set a NASCAR record by putting all five of its race teams in...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-21T18:47:22.999426Z"
     },
     {
       "source_id": "wiki-random:en:68515155",
@@ -1411,16 +1311,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-23T18:42:12.019184Z"
-    },
-    {
-      "source_id": "wiki-random:en:77098420",
-      "source_name": "EN Wikipedia：Lo Justo por el Perú",
-      "source_url": "https://en.wikipedia.org/wiki/Lo_Justo_por_el_Per%C3%BA",
-      "title": "Lo Justo por el Perú",
-      "excerpt": "Lo Justo por el Perú (also known simply as Lo Justo, lit. 'The Just for Peru') was a brief radical centrist political party in Peru. In order to participate of the 2026 general election, it was annexed by First The People – Community, Ecology, Liberty, and Progress on 18 June 2024 as the party’s apparatus desisted of registering at the National Jury of Elections based on the limited time to complete the process before the deadline on 12 July 2024. The main party initiators were former ministers Marisol Pérez Tello and Flor Pablo.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-23T18:42:12.019588Z"
     },
     {
       "source_id": "wiki-random:en:2811008",
@@ -1763,16 +1653,6 @@
       "added_at": "2026-07-24T18:54:29.172034Z"
     },
     {
-      "source_id": "wiki-random:en:45485077",
-      "source_name": "EN Wikipedia：Autoimmune oophoritis",
-      "source_url": "https://en.wikipedia.org/wiki/Autoimmune_oophoritis",
-      "title": "Autoimmune oophoritis",
-      "excerpt": "Autoimmune oophoritis is a rare autoimmune disease where the body's own immune system attacks the ovaries. This causes the ovaries to have inflammation, atrophy, and fibrosis. Such changes in the ovaries can cause them to not function properly. This disease is caused by primary ovarian insufficiency (POI), where reproduction and hormonal function of the ovaries stops before the age of 40.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-24T18:55:03.352106Z"
-    },
-    {
       "source_id": "wiki-random:en:5585777",
       "source_name": "EN Wikipedia：Lost frog",
       "source_url": "https://en.wikipedia.org/wiki/Lost_frog",
@@ -1841,16 +1721,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-25T18:13:57.596165Z"
-    },
-    {
-      "source_id": "wiki-random:zh:941716",
-      "source_name": "ZH Wikipedia：八木天线",
-      "source_url": "https://zh.wikipedia.org/wiki/%E5%85%AB%E6%9C%A8%E5%A4%A9%E7%BA%BF",
-      "title": "八木天线",
-      "excerpt": "八木-宇田天线（日語：八木・宇田アンテナ／やぎ・うだアンテナ，羅馬化：Yagi-Uda Antena），也稱為“引向天线”，是一种定向天线。这种天线是1928年由日本天线专家八木秀次和宇田新太郎两人设计的。 用于接收电视信号的魚骨天綫其实也是八木天线一种，因为这种天线往往使用了较多的引向器，所以看起来像是鱼骨而得名。 因为八木天线具有增益高、方向性强、结构简单的优点，它被广泛应用在无线电测向和长距离无线电通信。但是，若使用八木天线以收看模拟电视，容易受天氣及地形環境所影響，導致電視畫面出現雪花、殘影等的現象。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-25T18:13:57.597313Z"
     },
     {
       "source_id": "wiki-random:en:73490231",
@@ -2103,16 +1973,6 @@
       "added_at": "2026-07-26T18:30:21.353563Z"
     },
     {
-      "source_id": "wiki-random:en:15621301",
-      "source_name": "EN Wikipedia：WNS Global Services",
-      "source_url": "https://en.wikipedia.org/wiki/WNS_Global_Services",
-      "title": "WNS Global Services",
-      "excerpt": "WNS (Holdings) Limited (NYSE: WNS) is an Indian multinational business process management company. The company is headquartered in New York, London and Mumbai On July 7, 2025, Capgemini announced an agreement to acquire WNS for US$3.3 billion. The company has over 66,000 staff. WNS is publicly traded on the New York Stock Exchange under the ticker symbol WNS.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-26T18:30:21.354291Z"
-    },
-    {
       "source_id": "wiki-random:en:30080819",
       "source_name": "EN Wikipedia：Pillars of Freedom",
       "source_url": "https://en.wikipedia.org/wiki/Pillars_of_Freedom",
@@ -2213,16 +2073,6 @@
       "added_at": "2026-07-27T18:53:29.616946Z"
     },
     {
-      "source_id": "wiki-random:zh:1773566",
-      "source_name": "ZH Wikipedia：極高階語言",
-      "source_url": "https://zh.wikipedia.org/wiki/%E6%A5%B5%E9%AB%98%E9%9A%8E%E8%AA%9E%E8%A8%80",
-      "title": "極高階語言",
-      "excerpt": "極高階語言（英語：Very high-level programming language，簡稱VHLL），或稱非常高阶编程语言，是指一類非常高度抽象的程式語言，通常被用於特殊的程式目的。 極高階語言通常是领域特定语言，仅限于特定的应用、目的或任务类型，并且它们通常是脚本语言（尤其是扩展语言），用于控制特定环境。出于这个原因，極高階語言通常被称为目标向导的编程语言。極高階語言起源於20世紀90年代，曾用來稱謂腳本語言如Perl、Python、Ruby、Visual Basic，現在它們大多數又被僅稱為高階語言。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-27T18:53:29.617094Z"
-    },
-    {
       "source_id": "wiki-random:en:80268815",
       "source_name": "EN Wikipedia：Project 596L",
       "source_url": "https://en.wikipedia.org/wiki/Project_596L",
@@ -2271,26 +2121,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-27T18:54:12.625091Z"
-    },
-    {
-      "source_id": "wiki-random:zh:9377317",
-      "source_name": "ZH Wikipedia：器官冷凍保存",
-      "source_url": "https://zh.wikipedia.org/wiki/%E5%99%A8%E5%AE%98%E5%86%B7%E5%87%8D%E4%BF%9D%E5%AD%98",
-      "title": "器官冷凍保存",
-      "excerpt": "器官冷凍保存（英語：Organ cryopreservation）是指把人體或動物的器官，在低溫中進行長期的冷凍保存。如果成功把器官在深低溫(一般是攝氏零下196度以下)保存，器官一般可保存一段非常長的時期，通常能長達十年以上。 截止2025年為止，器官冷凍保存仍在試驗階段。目前，大部分器官只能在大約攝氏零度左右的低溫下進行保存，以防止冰晶形式，但只能保存數天。一些器官可以在零下20度至零下50度中，保存數星期至數個月。 在2023年，研究人員首次成功把大鼠的腎臟在零下196度下保存100天。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-27T18:54:12.625944Z"
-    },
-    {
-      "source_id": "wiki-random:zh:9295322",
-      "source_name": "ZH Wikipedia：短柄乳牛肝菌",
-      "source_url": "https://zh.wikipedia.org/wiki/%E7%9F%AD%E6%9F%84%E4%B9%B3%E7%89%9B%E8%82%9D%E8%8F%8C",
-      "title": "短柄乳牛肝菌",
-      "excerpt": "短柄乳牛肝菌是乳牛肝菌科的一种真菌。该物种于19世纪末被首次描述。其子实体的特征是菌盖呈巧克力色至红褐色，表面覆盖黏滑层；菌柄短小呈白色。菌盖直径可达10厘米，菌柄长度不超过6厘米，厚度达2厘米。与其他牛肝菌类似，短柄乳牛肝菌的孢子产生于垂直排列的海绵状菌管中，菌管开口在菌盖下侧形成淡黄色多孔层。 短柄乳牛肝菌与二针松及三针松类树种（尤其是北美短叶松和西黄松）形成菌根共生关系。该真菌遍布北美各地，并随着松树移植被引入多个其他国家。在皆伐或野火后北美短叶松再生过程中的菌根演替序列里，短柄乳牛肝菌作为多阶段真菌，可见于树木发育的所有阶段。这种蘑菇可食用，且富含必需脂肪酸亚油酸。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-27T18:54:12.626807Z"
     },
     {
       "source_id": "wiki-random:en:199416",
@@ -2483,16 +2313,6 @@
       "added_at": "2026-07-29T18:30:11.536814Z"
     },
     {
-      "source_id": "wiki-random:en:39587158",
-      "source_name": "EN Wikipedia：The Leo Group",
-      "source_url": "https://en.wikipedia.org/wiki/The_Leo_Group",
-      "title": "The Leo Group",
-      "excerpt": "The Leo Group is a privately owned, waste-recycling company based in Halifax, England that specialises in the collection and processing of animal by-products. The company is currently run by Daniel Sawrij, the managing director, who took over from the company's founders, his parents Margaret and Leo Sawrij, in 1988.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-29T18:30:40.493876Z"
-    },
-    {
       "source_id": "wiki-random:zh:5918398",
       "source_name": "ZH Wikipedia：戈克塔瀑布",
       "source_url": "https://zh.wikipedia.org/wiki/%E6%88%88%E5%85%8B%E5%A1%94%E7%80%91%E5%B8%83",
@@ -2571,16 +2391,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-29T18:31:13.413648Z"
-    },
-    {
-      "source_id": "wiki-random:en:12187248",
-      "source_name": "EN Wikipedia：Destroy All Humans! Big Willy Unleashed",
-      "source_url": "https://en.wikipedia.org/wiki/Destroy_All_Humans!_Big_Willy_Unleashed",
-      "title": "Destroy All Humans! Big Willy Unleashed",
-      "excerpt": "Destroy All Humans! Big Willy Unleashed is a 2008 action-adventure video game developed by Locomotive Games and published by THQ for the Wii and is the third installment in the Destroy All Humans! franchise. A PlayStation 2 version was originally going to be released alongside the Wii, but was ultimately canceled because of budget cuts. A PlayStation Portable version was also canceled, due to \"control issues\" involved with translating the Wii version's controls to the port.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-29T18:31:13.414287Z"
     },
     {
       "source_id": "wiki-random:en:3960733",
@@ -2823,16 +2633,6 @@
       "added_at": "2026-07-31T18:49:17.051530Z"
     },
     {
-      "source_id": "wiki-random:en:50763351",
-      "source_name": "EN Wikipedia：Ikertivaq",
-      "source_url": "https://en.wikipedia.org/wiki/Ikertivaq",
-      "title": "Ikertivaq",
-      "excerpt": "Ikertivaq, also known as Ikersuaq or Ikerssuaq, is a bay or fjord in Sermersooq municipality, southeastern Greenland. Tundra climate prevails in the area of the fjord, the average annual temperature in the area being -8 °C . The warmest month is July when the average temperature rises to 0 °C and the coldest is January with -14 °C. This fjord has been labeled as one of the most dangerous fjords in the area because of the abundance of pack ice. Large ice floes encumber its entrance, blocking the fjord and keeping the calf ice inside.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-31T18:49:17.051768Z"
-    },
-    {
       "source_id": "wiki-random:zh:5030938",
       "source_name": "ZH Wikipedia：印度金丝燕",
       "source_url": "https://zh.wikipedia.org/wiki/%E5%8D%B0%E5%BA%A6%E9%87%91%E4%B8%9D%E7%87%95",
@@ -2903,16 +2703,6 @@
       "added_at": "2026-07-31T18:49:37.440343Z"
     },
     {
-      "source_id": "wiki-random:en:161921",
-      "source_name": "EN Wikipedia：Predicative verb",
-      "source_url": "https://en.wikipedia.org/wiki/Predicative_verb",
-      "title": "Predicative verb",
-      "excerpt": "A predicative verb is a verb that behaves as a grammatical adjective; that is, it predicates (qualifies or informs about the properties of its argument). It is a special kind of stative verb. Many languages do not use the present forms of the verb \"to be\" to separate an adjective from its noun: instead, these forms of the verb \"to be\" are understood as part of the adjective. Egyptian uses this structure: \"my mouth is red\" is written as \"red my mouth\" (/dSr=f r=i/). Other languages to use this structure include the Northwest Caucasian languages, the Thai language, Indonesian, the East Slavic languages, the Semitic languages, some Nilotic languages and the Athabaskan languages. Many adjectives in Chinese and Japanese also behave like this. In the Akkadian languages, the \"predicative\" (also called the \"permansive\" or \"stative\") is a set of pronominal inflections used to convert noun stems into effective sentences, so that the form šarrāku is a single word more or less equivalent to either of the sentences šarrum anāku \"I am king\" or šarratum anāku \"I am queen\".",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-31T18:49:37.441816Z"
-    },
-    {
       "source_id": "wiki-random:en:2728973",
       "source_name": "EN Wikipedia：Tensor product of Hilbert spaces",
       "source_url": "https://en.wikipedia.org/wiki/Tensor_product_of_Hilbert_spaces",
@@ -2951,16 +2741,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-31T18:49:59.024719Z"
-    },
-    {
-      "source_id": "wiki-random:en:26855357",
-      "source_name": "EN Wikipedia：United Nations Security Council Resolution 993",
-      "source_url": "https://en.wikipedia.org/wiki/United_Nations_Security_Council_Resolution_993",
-      "title": "United Nations Security Council Resolution 993",
-      "excerpt": "United Nations Security Council resolution 993, adopted unanimously on 12 May 1995, after reaffirming all resolutions on Georgia, particularly 971 (1995), the Council discussed efforts for a political settlement between Georgia and Abkhazia and extended the mandate of the United Nations Observer Mission in Georgia (UNOMIG) until 12 January 1996. The security council felt that insufficient progress had been made towards a political agreement. Consultations regarding a new constitution for Georgia were welcomed. It was also reaffirmed that all refugees and displaced persons had the right to return, deploring the decision of the Abkhaz authorities for the obstruction of this process. The return of the refugees to the Gali there would be a welcome first step. Both parties were urged to comply with international humanitarian law. Furthermore, it was recognised that humanitarian aid programmes were suffering from funding shortages. There had been a ceasefire which was generally observed though there were still attacks on civilians in the Gali region. After extending the mandate of UNOMIG until 12 January 1996, the council the parties to the conflict were called upon to make progress with...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-31T18:49:59.025099Z"
     },
     {
       "source_id": "wiki-random:en:34136892",
@@ -3023,16 +2803,6 @@
       "added_at": "2026-07-31T18:50:17.822517Z"
     },
     {
-      "source_id": "wiki-random:en:59476264",
-      "source_name": "EN Wikipedia：Lumpiang keso",
-      "source_url": "https://en.wikipedia.org/wiki/Lumpiang_keso",
-      "title": "Lumpiang keso",
-      "excerpt": "Lumpiang keso is a Filipino deep-fried appetizer consisting of a stick of cheese wrapped in a thin egg crêpe. It is more commonly known as cheese sticks, cheese lumpia, or cheese turon. It is usually served warm and crispy, with a dipping sauce made from a mixture of banana ketchup and mayonnaise. It can also be served with garlic mayonnaise or sweet chili sauce. The recipe merely involves rolling a large stick of cheese (usually processed cheese or cheddar) in a thin lumpia wrapper. They are cooked quickly, usually less than 2 minutes. Ideally, the cheese or the entire lumpia is chilled or even frozen before cooking as this prevents the cheese from melting completely upon frying. Alternatively, the lumpia wrapper can be rolled tightly to prevent the cheese from leaking out. The thickness of the roll varies from very thin and long, to thick and stubby. It is optionally sprinkled with cheese powder. Lumpiang keso is a type of lumpia. The dish is easy to modify, and variants may use other types of cheese like cream cheese or add milk to moisten the cheese. Other types of lumpia may also use cheese, like dinamita and lumpiang Shanghai, but these are considered separate dishes altogether...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-31T18:50:17.823132Z"
-    },
-    {
       "source_id": "wiki-random:en:1009840",
       "source_name": "EN Wikipedia：Socket 3",
       "source_url": "https://en.wikipedia.org/wiki/Socket_3",
@@ -3041,16 +2811,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-31T18:50:17.824859Z"
-    },
-    {
-      "source_id": "wiki-random:en:18501598",
-      "source_name": "EN Wikipedia：Sterling SAR-87",
-      "source_url": "https://en.wikipedia.org/wiki/Sterling_SAR-87",
-      "title": "Sterling SAR-87",
-      "excerpt": "The Sterling SAR-87 is a military assault rifle of the late 20th century. The Sterling Assault Rifle (SAR), which included elements from Sterling's earlier Light Automatic Rifle (LAR) design, was jointly engineered by Sterling Armaments Company and Chartered Industries of Singapore in the early 1980s as an advanced version of the AR-18 for the export sales. It was also offered to the British Armed Forces, who declined it because they were already in the process of adopting the SA80 bullpup design manufactured by Royal Ordnance Factories.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-31T18:50:17.825414Z"
     }
   ]
 }

@@ -1,43 +1,13 @@
 {
   "version": 1,
-  "updated_at": "2026-08-02T18:18:26.714769Z",
+  "updated_at": "2026-08-02T18:21:00.325538Z",
   "candidates": [
-    {
-      "source_id": "onthisday:zh:08/02:2014:2",
-      "source_name": "Wikimedia On This Day：江苏省",
-      "source_url": "https://zh.wikipedia.org/wiki/%E6%B1%9F%E8%8B%8F%E7%9C%81",
-      "title": "2014: 位於中國江蘇省崑山市崑山經濟技術開發區的中榮金屬製品有限公司發生爆炸。至當年12月30日止，共有146人死亡，114人受傷。",
-      "excerpt": "事件：位於中國江蘇省崑山市崑山經濟技術開發區的中榮金屬製品有限公司發生爆炸。至當年12月30日止，共有146人死亡，114人受傷。\n相关页面摘要：江苏省，简称苏，是中华人民共和国东部沿海的一个省份，省会南京。“江苏”之名可追溯至清初设置的江苏布政使司，是当时江宁府（今南京市）和苏州府（今苏州市）两府首字之合称。江苏省北接山东省，东濒黄海，西临安徽省，东南与浙江省与上海市毗邻，地处长江、淮河下游，全省土地面积10.72万平方公里，占全国1.12%。省人民政府駐南京市鼓樓區北京西路68号。",
-      "category_hint": "历史",
-      "source_rank": 3,
-      "added_at": "2026-08-02T18:16:42.036571Z"
-    },
-    {
-      "source_id": "onthisday:zh:08/02:1985:13",
-      "source_name": "Wikimedia On This Day：洛歇L-1011三星",
-      "source_url": "https://zh.wikipedia.org/wiki/%E6%B4%9B%E6%AD%87L-1011%E4%B8%89%E6%98%9F",
-      "title": "1985: 由洛克希德L-1011執行的達美航空191號班機在降落達拉斯-沃斯堡國際機場時因微下擊暴流墜毀，136人（含1名地面人員）不幸罹難。",
-      "excerpt": "事件：由洛克希德L-1011執行的達美航空191號班機在降落達拉斯-沃斯堡國際機場時因微下擊暴流墜毀，136人（含1名地面人員）不幸罹難。\n相关页面摘要：洛克希德L-1011“三星” 是一款中长程，廣體三引擎噴射機。它是繼波音747和麥道DC-10後，第三款投入商业运营的宽体噴射客機，亦是洛歇公司的唯一一款大型噴射民航客機。該機型以其超前的航電技術聞名，是首款獲得認證具備CAT IIIB全自動著陸系統的客機。機艙設計包含多項創新，如搭載專用電梯的下層甲板廚房、配備大型下放式銀幕的投影電影院，以及可手動調節進光量的偏光防眩光窗戶。其搭載的三具勞斯萊斯RB211發動機採用先進的三轉子設計，在靜音與燃油效率上表現相當優異。",
-      "category_hint": "历史",
-      "source_rank": 3,
-      "added_at": "2026-08-02T18:16:42.036673Z"
-    },
     {
       "source_id": "wiki-random:en:13628958",
       "source_name": "EN Wikipedia：Beta-globin co-transcriptional cleavage ribozyme",
       "source_url": "https://en.wikipedia.org/wiki/Beta-globin_co-transcriptional_cleavage_ribozyme",
       "title": "Beta-globin co-transcriptional cleavage ribozyme",
       "excerpt": "The Beta-globin co-transcriptional cleavage ribozyme (CotC ribozyme) was a proposed ribozyme (short for ribonucleic acid enzyme). Transcription termination of RNA polymerase II transcripts is proposed to occur by a two-stage process. The first stage involves pre-termination cleavage (PTC) of the nascent transcript downstream of the poly(A) site. This process is also referred to as co-transcriptional cleavage (CoTC). The CoTC process in the human beta-globin gene was proposed to involve an RNA self-cleaving activity located in the 3' flanking region of the beta-globin gene. The CoTC core is highly conserved in the 3' UTR of other primate beta-globin genes. However, there has been no independent confirmation of these findings, and a subsequent analysis by a team including members of the original report failed to demonstrate ribozyme activity.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-12T11:39:40.578535Z"
-    },
-    {
-      "source_id": "wiki-random:en:83339469",
-      "source_name": "EN Wikipedia：Joseph Murray (politician)",
-      "source_url": "https://en.wikipedia.org/wiki/Joseph_Murray_(politician)",
-      "title": "Joseph Murray (politician)",
-      "excerpt": "Joseph Murray (1844 – 1926) was an Irish-American political operative, Republican Party leader, and federal public official in New York City. He is best known in American history for \"discovering\" Theodore Roosevelt and engineering Roosevelt's first political nomination to the New York State Assembly in 1881, effectively launching the career of the future president.",
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-12T11:39:40.578535Z"
@@ -91,16 +61,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-12T20:10:11.643196Z"
-    },
-    {
-      "source_id": "wiki-random:zh:3676527",
-      "source_name": "ZH Wikipedia：负折射",
-      "source_url": "https://zh.wikipedia.org/wiki/%E8%B4%9F%E6%8A%98%E5%B0%84",
-      "title": "负折射",
-      "excerpt": "负折射（英語：Negative refraction）指的是光束在界面处的折射方向与正常折射方向（正常的折射光线与入射光线在法线异侧）相反，即折射光线和入射光线位于法线同侧的电动力学现象。用同时具备负介电常数 ϵ {\\displaystyle \\epsilon } 和负磁导率 μ {\\displaystyle \\mu } 的超材料可以得到这一现象。此时超材料具负折射率。 这样的材料也被称作负折射率材料。 负折射会在具备正相速度（正折射率）的介质与负相速度（负折射率）介质的界面处发生。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-12T20:10:11.643356Z"
     },
     {
       "source_id": "wiki-random:en:23808291",
@@ -171,26 +131,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-13T20:45:20.586234Z"
-    },
-    {
-      "source_id": "wiki-random:en:2656870",
-      "source_name": "EN Wikipedia：Inner sphere complex",
-      "source_url": "https://en.wikipedia.org/wiki/Inner_sphere_complex",
-      "title": "Inner sphere complex",
-      "excerpt": "Inner sphere complex is a type of surface complex that refers to the surface chemistry changing a water-surface interface to one without water molecules bridging a ligand to the metal ion. Formation of inner sphere complexes occurs when ions bind directly to the surface with no intervening water molecules. These types of surface complexes are restricted to ions that have a high affinity for surface sites and include specifically adsorbed ions that can bind to the surface through covalent bonding. Inner sphere complexes describe active surface sites that are involved in nucleation, crystal growth, redox processes, soil chemistry, alongside other reactions taking place between a cation and surface. This affinity to surface sites can be attributed to covalent bonding. When compared to outer sphere complexes that have water molecules separating ions from ligands, inner sphere complexes have surface hydroxyl groups that function as σ {\\displaystyle \\sigma } -donor ligands, increasing the coordinated metal ion's electron density. This is an example of competitive complex formation, in which ligands will compete for space on an activation site of...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-13T20:45:20.587733Z"
-    },
-    {
-      "source_id": "wiki-random:en:7851774",
-      "source_name": "EN Wikipedia：Live at Donington (AC/DC album)",
-      "source_url": "https://en.wikipedia.org/wiki/Live_at_Donington_(AC/DC_album)",
-      "title": "Live at Donington (AC/DC album)",
-      "excerpt": "Live at Donington is the DVD recording of the Australian rock band AC/DC‘s show at Donington Park on 17 August 1991, directed by David Mallet; it was the band's third Monsters of Rock festival. The two-hour show was performed before 72,500 spectators and included real cannons, the Hells Bell, an inflatable Rosie and two inflatable Anguses: one to the right of the stage, and one in the back of the stage during Hell Ain't a Bad Place to Be. It was filmed in 35 mm Panavision and had 26 cameras that included one situated inside a helicopter. The DVD includes special features such as stereo and 5.1 surround sound, Iso-cam versions of certain songs for different band members, and audio commentary from Angus and Malcolm Young. Another option allows the viewer to focus on just one member for the length of a song. This option is available for Angus Young on \"Thunderstruck\", \"Back in Black\", and \"Highway to Hell\". The option is offered for Malcolm Young on \"T.N.T.\", Brian Johnson on \"Whole Lotta Rosie\" and Cliff Williams on \"Dirty Deeds Done Dirt Cheap\". For unknown reasons, this option was not available for Chris Slade. One other feature is a full catalogue discography with audio interview of...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-13T20:45:20.588146Z"
     },
     {
       "source_id": "wiki-random:zh:8007598",
@@ -291,16 +231,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-14T20:46:40.129350Z"
-    },
-    {
-      "source_id": "wiki-random:en:2099428",
-      "source_name": "EN Wikipedia：Saprobiont",
-      "source_url": "https://en.wikipedia.org/wiki/Saprobiont",
-      "title": "Saprobiont",
-      "excerpt": "Saprobionts are organisms that digest their food externally and then absorb the products. This process is called saprotrophic nutrition. Fungi are examples of saprobiontic organisms, which are a type of decomposer. Saprobiontic organisms feed off dead and/or decaying biological materials. Digestion is accomplished by excretion of digestive enzymes which break down cell tissues, allowing saprobionts to extract the nutrients they need while leaving the indigestible waste. This is called extracellular digestion. This is very important in ecosystems, for the nutrient cycle. Saprobionts should not be confused with detritivores, another class of decomposers which digest internally. These organisms can be good sources of extracellular enzymes for industrial processes such as the production of fruit juice. For instance, the fungus Aspergillus niger is used to produce pectinase, an enzyme which is used to break down pectin in juice concentrates, making the juice appear more translucent.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-14T20:46:40.131608Z"
     },
     {
       "source_id": "wiki-random:en:68709219",
@@ -711,16 +641,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-19T18:14:36.446125Z"
-    },
-    {
-      "source_id": "wiki-random:en:45655682",
-      "source_name": "EN Wikipedia：Corona Borealis Supercluster",
-      "source_url": "https://en.wikipedia.org/wiki/Corona_Borealis_Supercluster",
-      "title": "Corona Borealis Supercluster",
-      "excerpt": "The Corona Borealis Supercluster is a supercluster located in the constellation Corona Borealis and the most prominent example of its kind in the Northern Celestial Hemisphere. Dense and compact compared with other superclusters, its mass has been calculated to lie somewhere between 0.6 and 12 × 1016 solar masses (M⊙). It contains the galaxy clusters Abell 2056, Abell 2061, Abell 2065 (the most massive galaxy cluster within the supercluster), Abell 2067, Abell 2079, Abell 2089, and Abell 2092. Of these, Abell 2056, 2061, 2065, 2067 and A2089 are gravitationally bound and in the process of collapsing to form a massive cluster. This entity has an estimated mass of around 1 × 1016 M⊙. If there is inter-cluster mass present, then Abell 2092 may also be involved. It has been estimated to be 100 megaparsecs (330 million light-years) wide and 40 megaparsecs (130 million light years) deep. It has a redshift of 0.07, which is equivalent to a distance of around 265.5 megaparsecs (964 million light-years).",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-19T18:14:36.446361Z"
     },
     {
       "source_id": "wiki-random:en:21844293",
@@ -1183,16 +1103,6 @@
       "added_at": "2026-07-23T18:42:12.017124Z"
     },
     {
-      "source_id": "wiki-random:en:28330170",
-      "source_name": "EN Wikipedia：1997 Harnai earthquake",
-      "source_url": "https://en.wikipedia.org/wiki/1997_Harnai_earthquake",
-      "title": "1997 Harnai earthquake",
-      "excerpt": "The 1997 Harnai earthquake occurred on February 27 at 21:08 UTC near Harnai, Pakistan, and felt throughout much of central Balochistan, with a magnitude estimated at 7.0 on the Mw scale. A 2016 study determined that this was a doublet earthquake, the Mw6.8 shock that hit 19 seconds later being a continuation of the initial main shock. The largest aftershock was an Ms 6.4 shock that hit 22 minutes after the main shock. The earthquake was caused by the collision between the Indian plate and the Eurasian plate. The mountainous villages near Quetta, the capital of Balochistan province, suffered most of the damage. Small villages in Sibi District, with mostly adobe dwellings, were completely destroyed, and the town of Harnai alone had 75 fatalities. The total number of deaths due to the earthquakes was over 100.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-23T18:42:12.018418Z"
-    },
-    {
       "source_id": "wiki-random:en:12063332",
       "source_name": "EN Wikipedia：Miss USA 1990",
       "source_url": "https://en.wikipedia.org/wiki/Miss_USA_1990",
@@ -1301,16 +1211,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-23T18:42:54.171975Z"
-    },
-    {
-      "source_id": "wiki-random:en:4566662",
-      "source_name": "EN Wikipedia：Ma Jun (mechanical engineer)",
-      "source_url": "https://en.wikipedia.org/wiki/Ma_Jun_(mechanical_engineer)",
-      "title": "Ma Jun (mechanical engineer)",
-      "excerpt": "Ma Jun (fl. 200–265), courtesy name Deheng, was a Chinese practical man, inventor, and politician who lived in the state of Cao Wei during the Three Kingdoms period of China. His most notable invention was that of the south-pointing chariot, a directional compass vehicle which actually had no magnetic function, but was operated by use of differential gears (which applies equal amount of torque to driving wheels rotating at different speeds). It is because of this revolutionary device (and other achievements) that Ma Jun is known as one of the most brilliant mechanical engineers and inventors of his day (alongside Zhang Heng of the earlier Eastern Han dynasty). The device was re-invented by many after Ma Jun, including the astronomer and mathematician Zu Chongzhi (429–500). In the later medieval dynastic periods, Ma Jun's south-pointing chariot was combined in a single device with the distance-measuring odometer.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-23T18:42:54.173286Z"
     },
     {
       "source_id": "wiki-random:en:26709629",
@@ -1913,16 +1813,6 @@
       "added_at": "2026-07-27T18:53:29.614629Z"
     },
     {
-      "source_id": "wiki-random:en:20329656",
-      "source_name": "EN Wikipedia：Pomerania in the High Middle Ages",
-      "source_url": "https://en.wikipedia.org/wiki/Pomerania_in_the_High_Middle_Ages",
-      "title": "Pomerania in the High Middle Ages",
-      "excerpt": "Pomerania during the High Middle Ages covers the history of Pomerania in the 12th and 13th centuries. The early 12th century Obodrite, Polish, Saxon, and Danish conquests resulted in vassalage and Christianization of the formerly pagan and independent Pomeranian tribes. Local dynasties ruled the Principality of Rügen (House of Vitslav), the Duchy of Pomerania (House of Pomerania, \"Griffins\"), the Lands of Schlawe and Stolp (Ratiboride branch of the Griffins), and the duchies in Pomerelia (Samborides). The dukes of Pomerania expanded their realm into Circipania and Uckermark to the southwest, and competed with the Kingdom of Poland and the Margraviate of Brandenburg for territory and formal overlordship over their duchies. Pomerania-Demmin lost most of its territory and was integrated into Pomerania-Stettin (Szczecin) in the mid-13th century. When the Ratiborides died out in 1223, competition arose for the Lands of Schlawe and Stolp, which changed hands numerous times. Starting in the High Middle Ages, an influx of German settlers and the introduction of German law, custom, and Low German language began the process of Germanisation (Ostsiedlung). Many of the people groups that had dominated...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-27T18:53:29.616946Z"
-    },
-    {
       "source_id": "wiki-random:en:80268815",
       "source_name": "EN Wikipedia：Project 596L",
       "source_url": "https://en.wikipedia.org/wiki/Project_596L",
@@ -1953,16 +1843,6 @@
       "added_at": "2026-07-27T18:53:29.618335Z"
     },
     {
-      "source_id": "wiki-random:zh:226313",
-      "source_name": "ZH Wikipedia：法律实证主义",
-      "source_url": "https://zh.wikipedia.org/wiki/%E6%B3%95%E5%BE%8B%E5%AE%9E%E8%AF%81%E4%B8%BB%E4%B9%89",
-      "title": "法律实证主义",
-      "excerpt": "法律實證主義（Legal Positivism），或稱法實證主義，是当代法理学和法哲学關於法律的本質 (the nature of law) 的理論流派。 法律實證主義認為法律是人定的規則，它的有效成立取決於某些社會事實的發生或存在（例如經立法院通過，總統公布的事實，可使法律有效制定而成立 ），並且法律限於指涉那些能被某些社會事實所鑑別的才算數。因此，法律的成立及內容，與道德沒有必然的關係。 法律实证主义在很多方面和自然法理论针锋相对。自然法认为在法律和公正之间存在着本质的关联性，而法实证主义则认为，法律的有效性和道德、公正无关。 在哈特的《法律的概念》问世之后，英美的法律实证主义与牛津语言哲学紧密结合；其所依赖之“描述社会学”的方法，被认为源自約翰·奧斯丁与后期维特根斯坦的语言哲学理论，并与马克斯·韦伯的社会学方法有耦合之处。在新自然法学派代表人物德沃金的《认真对待权利》发表之后，法实证主义在回应德沃金“法律原则说”的过程中，分裂为以哈特、科尔曼为代表的「包容的法实证主义」（soft legal positivism）与以約瑟夫·拉茲为代表的「排他的法实证主义」（hard legal positivism）：前者主张法律与道德可以有偶然的联系，后者则认为法律与道德在概念上截然相分。 在欧陆方面，凯尔森亦被认为是法实证主义的代表，其纯粹法学理论被认为法律作为“规范”，是与事实及道德相分的第三领域。 實質上實證法學與法實證主義仍有一段差距，凱爾森創立法律位階最高階為基礎規範。而法實證主義則忽視法律文字以外的社會、文化、價值等因素，強調法律的規範。因此，難以認為實證法學等同於法實證主義。 法实证主义乃当今英美法律理论的主流理论，上述两派皆为有力说。不过，法实证主义理论亦有诸多弱点，比如，无法完备解释法律之合法性-正统性来源，无论是哈特的“承认规则”还是凯尔森的“基础规范”皆是如此。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-27T18:54:12.624282Z"
-    },
-    {
       "source_id": "wiki-random:zh:665939",
       "source_name": "ZH Wikipedia：碳氮氧循環",
       "source_url": "https://zh.wikipedia.org/wiki/%E7%A2%B3%E6%B0%AE%E6%B0%A7%E5%BE%AA%E7%92%B0",
@@ -1981,16 +1861,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-27T18:54:12.628135Z"
-    },
-    {
-      "source_id": "wiki-random:zh:7909156",
-      "source_name": "ZH Wikipedia：乌克兰难民危机",
-      "source_url": "https://zh.wikipedia.org/wiki/%E4%B9%8C%E5%85%8B%E5%85%B0%E9%9A%BE%E6%B0%91%E5%8D%B1%E6%9C%BA",
-      "title": "乌克兰难民危机",
-      "excerpt": "乌克兰难民危机是2022年俄羅斯入侵烏克蘭後逃離至其他國家的烏克蘭人所引發的人道主義危機。在戰爭爆發後的數月時間，有超過600万难民离开乌克兰前往歐洲其他國家，而烏克蘭国内流离失所者人數已達到800萬（截至2022年5月底）。截至2022年3月20日，有四分之一的烏克蘭人逃離家園；由於18至60歲的男子被禁止離境，逃往國外的難民大多為婦女和兒童。俄羅斯入侵烏克蘭造成了欧洲自二战以来最大的难民危机，也是自1990年代南斯拉夫內戰以来欧洲首次出现大規模難民危机，也是自21世纪以來全球最大的难民危机之一。 联合国人权事务高级专员办事处负责人称乌克兰难民外流的速度“惊人”，并暗示乌克兰境内流离失所者的人数与离开该国的人数一样多。自2014年顿巴斯战争開始至俄羅斯全面入侵烏克蘭前，就已產生了超过200万难民和国内流离失所者。 絕大多數難民最初進入烏克蘭西部的鄰國（波蘭、斯洛伐克、匈牙利、羅馬尼亞、和摩爾多瓦）。在德國逐漸成為最大定居國之前，波兰接收的乌克兰难民一度比所有其他欧洲国家的总和还要多（截至2022年3月27日波蘭已接收230万乌克兰难民）。其他接收难民的國家還有罗马尼亚、摩尔多瓦、匈牙利和斯洛伐克。 與此前百般反對難民相比，此次歐洲人對難民的態度明顯比其他地域歡迎，對烏克蘭人大開邊境，在歐洲各國幾乎未有人發聲反對烏人來本國長期居住；在德國的調查顯示近一半還願意提供部分物質資助，有超過四分之一甚至同意讓他們來自己的家中暫避。而歐洲社會在戰後一年仍保持很高的容忍度，除了民族比較親近的原因，還可以被解釋為地緣關係密切、有共同歷史與宗教等造成收容意願奇高。 部分难民随后进一步向西迁移，但观察人士指出，他们中的大多数人可能会留在烏克蘭周邊國家。部分欧洲国家的铁路公司已经允许乌克兰难民免费乘坐火车出行。目前已登記的難民數有810萬人以上，造成歐洲政府的沈重財務負擔，但也因多數為青壯年女性與兒童，為老齡化的歐洲補充了相當的工作人口，預期還需要有長期方案以平衡移民、教育、民族問題與烏克蘭的經濟發展。 2022年3月上旬，也有22萬烏克蘭難民因為想家而返回烏克蘭。2023年9月28日，欧盟将此前授予乌克兰难民享有歐盟公民待遇的临时保护地位延长至2025年。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-27T18:54:12.629183Z"
     },
     {
       "source_id": "wiki-random:en:75400334",
@@ -2453,16 +2323,6 @@
       "added_at": "2026-07-30T18:53:36.241034Z"
     },
     {
-      "source_id": "wiki-random:en:28480233",
-      "source_name": "EN Wikipedia：Matthias Gast House",
-      "source_url": "https://en.wikipedia.org/wiki/Matthias_Gast_House",
-      "title": "Matthias Gast House",
-      "excerpt": "The Matthias Gast House is a historic building in Maria Stein, Ohio, United States. Built in the middle of the nineteenth century, it was the home of one of Mercer County's most prominent early citizens, and it has been designated a historic site because of its importance in local history.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-31T18:49:17.051530Z"
-    },
-    {
       "source_id": "wiki-random:zh:5030938",
       "source_name": "ZH Wikipedia：印度金丝燕",
       "source_url": "https://zh.wikipedia.org/wiki/%E5%8D%B0%E5%BA%A6%E9%87%91%E4%B8%9D%E7%87%95",
@@ -2501,16 +2361,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-31T18:49:37.437069Z"
-    },
-    {
-      "source_id": "wiki-random:en:34010616",
-      "source_name": "EN Wikipedia：Transient liquid phase diffusion bonding",
-      "source_url": "https://en.wikipedia.org/wiki/Transient_liquid_phase_diffusion_bonding",
-      "title": "Transient liquid phase diffusion bonding",
-      "excerpt": "Transient liquid phase diffusion bonding (TLPDB) is a joining process that has been applied for bonding many metallic and ceramic systems which cannot be bonded by conventional fusion welding techniques. The bonding process produces joints with a uniform composition profile, tolerant of surface oxides and geometrical defects. The bonding technique has been exploited in a wide range of applications, from the production and repair of turbine engines in the aerospace industry, to nuclear power plants, and in making connections to integrated circuit dies as a part of the microelectronics industry.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-31T18:49:37.438437Z"
     },
     {
       "source_id": "wiki-random:en:24472672",
@@ -2643,16 +2493,6 @@
       "added_at": "2026-08-01T18:27:50.896669Z"
     },
     {
-      "source_id": "wiki-random:en:19816554",
-      "source_name": "EN Wikipedia：Lake Kussharo",
-      "source_url": "https://en.wikipedia.org/wiki/Lake_Kussharo",
-      "title": "Lake Kussharo",
-      "excerpt": "Lake Kussharo (屈斜路湖, Kussharo-ko) is a caldera lake in Akan National Park, eastern Hokkaidō, Japan. As with many geographic names in Hokkaidō, the name derives from the Ainu language. It is the largest caldera lake in Japan in terms of surface area, and the sixth largest lake in Japan. It is also the largest lake in Japan to freeze over completely in winter. The name Lake Kutcharo is also sometimes used. The lake's central island, Nakajima (not to be confused with another island of the same name in Lake Tōya), is a stratovolcano. It is also Japan's largest recursive island. Volcanic gases render the lake water acidic, and it supports few fish, except in areas where inflowing streams dilute the water. Rainbow trout, which are resistant to fairly acidic water, have been artificially introduced. In 1951, the rare Hyalessa maculaticollis, commonly known as the Minminzemi cicada was discovered, and is now protected by the government. The lake is also on the migratory path of the whooper swan. Along the lake shore are several outdoor hot springs and a sand beach, with naturally heated sand and hot groundwater. The lake is also known as \"Japan's Loch Ness\", after numerous reported sightings...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-01T18:27:50.897974Z"
-    },
-    {
       "source_id": "wiki-random:zh:7658481",
       "source_name": "ZH Wikipedia：生态狩猎",
       "source_url": "https://zh.wikipedia.org/wiki/%E7%94%9F%E6%80%81%E7%8B%A9%E7%8C%8E",
@@ -2671,16 +2511,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-08-01T18:27:50.901625Z"
-    },
-    {
-      "source_id": "wiki-random:en:20759889",
-      "source_name": "EN Wikipedia：Tiapamil",
-      "source_url": "https://en.wikipedia.org/wiki/Tiapamil",
-      "title": "Tiapamil",
-      "excerpt": "Tiapamil (INN; also known as dimeditiapramine) is a calcium antagonist or calcium channel blocker. It is an experimental drug that has never been marketed. Tiapamil has been described as an antianginal agent. It exhibits properties of anti-arrhythmic medications. These are medications that are used to treat unusually fast or irregular heartbeats. Examples of arrhytmthic conditions include atrial fibrillation, atrial flutter, and super-ventricular tachycardia. Upon research, the drug shows promising effects on treatment of these condition. Research seeks to create a treatment with tiapamil in order to mitigate the side effects of the more commonly prescribed calcium antagonist and anti-hypertensive verapamil. The two drugs have similar properties; however, tiapamil appears to treat arrhythmic conditions without many of the hypotensive, negative inotropic, and negative chronotropic side effects. Tiapamil is a calcium channel blocker that acts on the slow calcium channels. It can treat ventricular arrhythmias to a higher degree than traditional calcium antagonists.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-01T18:27:50.901915Z"
     },
     {
       "source_id": "wiki-random:en:2026964",
@@ -2843,26 +2673,6 @@
       "added_at": "2026-08-02T18:16:42.037438Z"
     },
     {
-      "source_id": "wiki-random:en:32634412",
-      "source_name": "EN Wikipedia：Robertson ministry (1885–1886)",
-      "source_url": "https://en.wikipedia.org/wiki/Robertson_ministry_(1885%E2%80%931886)",
-      "title": "Robertson ministry (1885–1886)",
-      "excerpt": "The fifth Robertson ministry was the 22nd ministry of the Colony of New South Wales, and was led by the Premier, Sir John Robertson. It was the fifth and final occasion that Robertson was Premier. Robertson was elected in the first free elections for the New South Wales Legislative Assembly held in March 1856. The title of Premier was widely used to refer to the Leader of Government, but was not a formal position in the government until 1920. Instead the Premier was appointed to another portfolio, usually Colonial Secretary. There was no party system in New South Wales politics until 1887. Under the constitution, ministers in the Legislative Assembly were required to resign to recontest their seats in a by-election when appointed. Such ministerial by-elections were usually uncontested and on this occasion all of the ministers were re-elected unopposed. Louis Heydon resigned on 4 February 1886 because he disagreed with the suggested property tax, and was not replaced as Minister of Justice. This ministry covers the period from 22 December 1885 until 25 February 1886, when Robertson's government faltered due to the destablishing influence of his old foe, Sir Henry Parkes. Robertson was...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-02T18:16:42.037925Z"
-    },
-    {
-      "source_id": "wiki-random:zh:7859703",
-      "source_name": "ZH Wikipedia：道德自我许可",
-      "source_url": "https://zh.wikipedia.org/wiki/%E9%81%93%E5%BE%B7%E8%87%AA%E6%88%91%E8%AE%B8%E5%8F%AF",
-      "title": "道德自我许可",
-      "excerpt": "道德自我许可（英語：moral self-licensing, self-licensing, moral licensing, or licensing effect），也称为自我许可、道德许可或许可效应，是社会心理学和市场营销中使用的一个术语，用于描述一种潜意识现象，即对一个人的自我形象或自我概念增强的信心和安全感，往往会使那个人较少担心随后的不道德行为的后果； 因此，更有可能做出不道德的选择和不道德的行为。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-02T18:16:42.038329Z"
-    },
-    {
       "source_id": "wiki-random:en:7978458",
       "source_name": "EN Wikipedia：Effects of Hurricane Isabel in North Carolina",
       "source_url": "https://en.wikipedia.org/wiki/Effects_of_Hurricane_Isabel_in_North_Carolina",
@@ -2913,26 +2723,6 @@
       "added_at": "2026-08-02T18:17:18.345650Z"
     },
     {
-      "source_id": "wiki-random:en:248339",
-      "source_name": "EN Wikipedia：Brandon, Manitoba",
-      "source_url": "https://en.wikipedia.org/wiki/Brandon,_Manitoba",
-      "title": "Brandon, Manitoba",
-      "excerpt": "Brandon () is the second-largest city in the province of Manitoba, Canada. It is located on the banks of the Assiniboine River in Western Manitoba, approximately 214 kilometres (133 mi) west of the provincial capital, Winnipeg, and 120 kilometres (75 mi) east of the Saskatchewan provincial border. The city covers an area of 77.41 km2 (29.89 sq mi) with a population of 51,313, and a census metropolitan area population of 54,268. Brandon is the primary commercial centre for the Westman Region and parts of southeastern Saskatchewan, an area with a population of more than 190,000 people. The City of Brandon was incorporated in 1882, having a history rooted in the Assiniboine River fur trade as well as its role as a major junction on the Canadian Pacific Railway. Known as The Wheat City, Brandon's economy is predominantly associated with agriculture, as well as education, food processing, manufacturing, health care, business services, and transportation. Brandon's post-secondary institutions include Brandon University, Assiniboine College, and the Manitoba Emergency Services College. Canadian Forces Base Shilo is located 30 km (19 mi) east of Brandon and maintains close ties with the city...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-02T18:17:18.347359Z"
-    },
-    {
-      "source_id": "wiki-random:en:24567168",
-      "source_name": "EN Wikipedia：Undertow (water waves)",
-      "source_url": "https://en.wikipedia.org/wiki/Undertow_(water_waves)",
-      "title": "Undertow (water waves)",
-      "excerpt": "In physical oceanography, undertow is the undercurrent that moves offshore while waves approach the shore. Undertow is a natural and universal feature for almost any large body of water; it is a return flow compensating for the onshore-directed average transport of water by the waves in the zone above the wave troughs. The undertow's flow velocities are generally strongest in the surf zone, where the water is shallow and the waves are high because of shoaling. In popular usage, the word undertow is often misapplied to rip currents. An undertow occurs everywhere, underneath the shore-approaching waves, whereas rip currents are localized narrow offshore currents occurring at certain locations along the coast and most forceful by the water's surface.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-02T18:17:18.348269Z"
-    },
-    {
       "source_id": "wiki-random:en:48289901",
       "source_name": "EN Wikipedia：The Jos Forum Inter-communal Dialogue Process",
       "source_url": "https://en.wikipedia.org/wiki/The_Jos_Forum_Inter-communal_Dialogue_Process",
@@ -2961,16 +2751,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-08-02T18:17:51.369945Z"
-    },
-    {
-      "source_id": "wiki-random:zh:8051056",
-      "source_name": "ZH Wikipedia：大过滤器理论",
-      "source_url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E8%BF%87%E6%BB%A4%E5%99%A8%E7%90%86%E8%AE%BA",
-      "title": "大过滤器理论",
-      "excerpt": "大过滤器理论是解释费米悖论的一种假说。大过滤器理论假设，在生命的发展过程中，即从生命起源的早期阶段到卡尔达肖夫指数的最高等级（即Ⅲ级，可利用所在星系全部资源）的过程中，存在着一些特殊的发展障碍（被称作“过滤器”）。因此，人类可探测到的地外生命极其罕见。 大过滤器这个概念由罗宾·汉森提出：目前在可观测宇宙中找不到任何地外文明，意味着高階智慧生命的出现機率很低。这一发现被概念化为“大过滤器”。大过滤器的作用是将可能出现智慧生命的大量场所，减少到实际观察到的能出现具有先进文明的智慧物种（目前发现的只有一个：人类）的极少场所。大过滤器的位置可能位于我们身后（过去）或前方（未来），可能会成为智慧生命进化的障碍，或意味着自我毁灭的機率很高。这一论点的主要结论是：生命越容易进化到我们的阶段，我们未来的机会可能就越渺茫。 这一理论最初是在一篇经济学家罗宾·汉森撰写的题为“大过滤器——我们快过去了吗？”的在线文章中提出的。此文的最初版本写于1996年8月，1998年9月15日，文章最后一次更新。汉森在讨论费米悖论时创造的公式已经被许多已出版的资料认可。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-02T18:17:51.371018Z"
     },
     {
       "source_id": "wiki-random:zh:5259643",
@@ -3003,16 +2783,6 @@
       "added_at": "2026-08-02T18:18:26.706782Z"
     },
     {
-      "source_id": "wiki-random:en:46620094",
-      "source_name": "EN Wikipedia：German submarine U-2545",
-      "source_url": "https://en.wikipedia.org/wiki/German_submarine_U-2545",
-      "title": "German submarine U-2545",
-      "excerpt": "German submarine U-2545 was a Type XXI U-boat of Nazi Germany's Kriegsmarine during World War II. The Elektroboote submarine was laid down on 20 November 1944 at the Blohm & Voss yard at Hamburg, launched on 22 February 1945, and commissioned on 8 April 1945 under the command of Korvettenkapitän Otto von Bülow. U-2545 was a brand new, high technology electric boat which could run constantly submerged rather than having to surface to recharge her batteries every day the way submarines until that point had had to do. However, these advanced vessels were introduced to the Kriegsmarine only late in 1944, much too late to influence the Battle of the Atlantic, and too late for many of them to serve in an offensive capacity at all. With the end of the war near, training on U-boats had dropped to a minimum due to lack of fuel, falling morale and the effectiveness of allied attacks on U-boat construction and preparation. The exception to this were the new Type XXI boats, which continued to train in the Baltic Sea.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-02T18:18:26.708264Z"
-    },
-    {
       "source_id": "wiki-random:zh:6102738",
       "source_name": "ZH Wikipedia：万柳塘公园",
       "source_url": "https://zh.wikipedia.org/wiki/%E4%B8%87%E6%9F%B3%E5%A1%98%E5%85%AC%E5%9B%AD",
@@ -3021,16 +2791,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-08-02T18:18:26.709179Z"
-    },
-    {
-      "source_id": "wiki-random:en:65958229",
-      "source_name": "EN Wikipedia：Alexander Lindsay (East India Company officer)",
-      "source_url": "https://en.wikipedia.org/wiki/Alexander_Lindsay_(East_India_Company_officer)",
-      "title": "Alexander Lindsay (East India Company officer)",
-      "excerpt": "General Sir Alexander Lindsay KCB (14 January 1785 – 22 January 1872) was an officer in both the British and East India Company armies. Commissioned into the British Army at the age of nine, he was placed on half-pay after the 104th Regiment of Foot (Royal Manchester Volunteers) was disbanded in 1795. After passing out from the Royal Military Academy, Woolwich, Lindsay joined the Bengal Army of the East India Company as an artillery officer in 1804. He served in a number of sieges and on campaign in Bundelkhand before joining David Ochterlony's army in the 1814–16 Anglo-Nepalese War, in which he was wounded in the hand and leg. Lindsay recovered to fight in the 1817–18 Third Anglo-Maratha War and later had responsibility for telegraphs and gunpowder manufacture in part of Bengal. He commanded the artillery of Joseph Wanton Morrison's division during the 1824–26 First Anglo-Burmese War. Lindsay was promoted to major-general in 1838, to lieutenant-general in 1851 and to general in 1859. His general's commission was transferred to the British Army when the East India Company armies were absorbed in the 1860s. Because of this he was in the unusual position of holding two British...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-02T18:18:26.710769Z"
     },
     {
       "source_id": "wiki-random:en:4223337",

@@ -1,17 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-08-03T19:02:27.897122Z",
+  "updated_at": "2026-08-03T19:04:55.607867Z",
   "candidates": [
-    {
-      "source_id": "wiki-random:en:13628958",
-      "source_name": "EN Wikipedia：Beta-globin co-transcriptional cleavage ribozyme",
-      "source_url": "https://en.wikipedia.org/wiki/Beta-globin_co-transcriptional_cleavage_ribozyme",
-      "title": "Beta-globin co-transcriptional cleavage ribozyme",
-      "excerpt": "The Beta-globin co-transcriptional cleavage ribozyme (CotC ribozyme) was a proposed ribozyme (short for ribonucleic acid enzyme). Transcription termination of RNA polymerase II transcripts is proposed to occur by a two-stage process. The first stage involves pre-termination cleavage (PTC) of the nascent transcript downstream of the poly(A) site. This process is also referred to as co-transcriptional cleavage (CoTC). The CoTC process in the human beta-globin gene was proposed to involve an RNA self-cleaving activity located in the 3' flanking region of the beta-globin gene. The CoTC core is highly conserved in the 3' UTR of other primate beta-globin genes. However, there has been no independent confirmation of these findings, and a subsequent analysis by a team including members of the original report failed to demonstrate ribozyme activity.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-12T11:39:40.578535Z"
-    },
     {
       "source_id": "wiki-random:zh:2872377",
       "source_name": "ZH Wikipedia：服務性 (電腦)",
@@ -213,16 +203,6 @@
       "added_at": "2026-07-13T20:46:19.054834Z"
     },
     {
-      "source_id": "wiki-random:en:75539186",
-      "source_name": "EN Wikipedia：DOE mean plot",
-      "source_url": "https://en.wikipedia.org/wiki/DOE_mean_plot",
-      "title": "DOE mean plot",
-      "excerpt": "In statistics, specifically the analysis of data in the design of experiments, a DOE mean plot is a graphical tool used to analyze data from an experiment. In it, it demonstrates the relative importance of all the factors in an experiment with respect to a chosen location statistic, in this case the mean. Each factor is plotted and all mean levels of the factor (two or more) are connected with straight lines. The plot is meant to complement other analyses, such as the typical analysis of variance.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-13T20:46:19.057688Z"
-    },
-    {
       "source_id": "wiki-random:zh:5932070",
       "source_name": "ZH Wikipedia：WebLOAD",
       "source_url": "https://zh.wikipedia.org/wiki/WebLOAD",
@@ -291,16 +271,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-14T20:47:42.551761Z"
-    },
-    {
-      "source_id": "wiki-random:zh:7471775",
-      "source_name": "ZH Wikipedia：多聚腺苷酸结合蛋白",
-      "source_url": "https://zh.wikipedia.org/wiki/%E5%A4%9A%E8%81%9A%E8%85%BA%E8%8B%B7%E9%85%B8%E7%BB%93%E5%90%88%E8%9B%8B%E7%99%BD",
-      "title": "多聚腺苷酸结合蛋白",
-      "excerpt": "多聚腺苷酸结合蛋白（Poly(A)-binding protein，簡稱PABP）是真核生物細胞中一類可與mRNA3端的多腺苷酸尾結合的蛋白質。多聚腺苷酸结合蛋白最早被發現的功能是保護mRNA不被水解，後續研究發現它還可與許多RNA序列與蛋白結合，參與許多其他基因表現機制。轉譯時起始時PABP結合多腺苷酸尾後，可和與mRNA5端結合的起始因子eIF4G結合，令mRNA形成一環狀結構，促進43S前起始複合物的結合以開始轉譯；轉譯終止時PABP可能與eRF3結合以促進終止；RNA干擾途徑中RNA誘導沉默複合體（miRISC）與mRNA的3'非轉譯區結合後，GW182可與PABP和CCR4-Not複合體結合，促進mRNA脫腺苷酸（deadenylation）。另外PABP也調控无义介导的mRNA降解（NMD）途徑，當PABP和終止密碼子距離接近時其可與釋放因子結合而維持mRNA的穩定，當mRNA中提早出現終止密碼子時，PABP與終止密碼子距離較遠，釋放因子改與Upf1結合以啟動NMD途徑，抑制轉譯並將mRNA降解。在細胞核中PABP參與多腺苷酸尾合成的反應，mRNA轉錄結束後，CPSF會與mRNA上的多腺苷酸尾信號和PABP、多聚腺苷酸聚合酶等蛋白結合，促進後者合成多腺苷酸尾，PABP可與新生成的多腺苷酸尾結合以保護mRNA不被降解。 胚胎發育早期細胞中尚無轉錄進行，只轉譯既有的mRNA，這些mRNA的多腺苷酸尾受到精密調控，有些mRNA會失去多腺苷酸尾而被降解，有些則mRNA則會在細胞質中由GLD-2等多聚腺苷酸聚合酶加上新的多腺苷酸尾，PABP也參與此過程，可與細胞質中mRNA上的多腺苷酸化複合體結合，促進多腺苷酸化進行。 單細胞真核生物一般僅有一種PABP；脊椎動物細胞質中有四種PABP，細胞核中則有一種（例如人類的PABP為PABPN1、PABPC1、PABPC3、PABPC4與PABPC5，人類的罕見疾病眼咽型肌营养不良（OPMD）即是PABPN1基因突變造成。）；阿拉伯芥細胞質中有八種PABP，細胞核中則有一種。 當細胞被輪狀病毒感染時，病毒的NSP3蛋白會與mRNA上的eIF4G結合，而阻止PABP與之結合，進而抑制宿主細胞mRNA的轉譯，而病毒自身的mRNA3端則可和NSP3結合，因而可正常轉譯。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-14T20:47:42.552338Z"
     },
     {
       "source_id": "wiki-random:en:21871925",
@@ -373,16 +343,6 @@
       "added_at": "2026-07-15T18:38:57.609059Z"
     },
     {
-      "source_id": "wiki-random:zh:31152",
-      "source_name": "ZH Wikipedia：台灣地理",
-      "source_url": "https://zh.wikipedia.org/wiki/%E5%8F%B0%E7%81%A3%E5%9C%B0%E7%90%86",
-      "title": "台灣地理",
-      "excerpt": "臺灣，舊稱福爾摩沙，佔中華民國現今實際統治領土面積的99%。主島面積為35,808平方公里（13,826平方英里），以臺灣海峽與中國大陸東南沿海相隔，距離約180公里（112英里）。臺灣島北臨東海，東鄰菲律賓海，南隔呂宋海峽，西南接南海。此外，中華民國還控制多個島嶼，包括台灣海峽內的澎湖群島，靠近中國大陸福建沿海的金門群島和馬祖列島，以及部分南海諸島。 從地質構造上來說，臺灣本島由傾斜的斷塊組成，特色在於東部3分之2地區主要由5座沿著東海岸平行分布的崎嶇山脈構成，西部3分之1則為平坦或緩坡的平原地帶，是大部分人口的聚居地。臺灣多座山峰高度超過3,500公尺，其中玉山為最高峰，海拔達3,952米（12,966英尺），使臺灣成為全球第四高的島嶼。形成這些山脈的構造邊界仍然活躍，島上時常發生地震，有些地震破壞性極高。此外，臺灣海峽內還存在許多活躍的海底火山。 臺灣氣候南部屬熱帶，北部則為亞熱帶，並受到東亞季風的主導影響。本島平均每年有4場颱風襲擊，雨量豐沛，使得東部茂密的森林山區為各類野生動植物提供了棲息地，而西部與北部的低地則因人類土地使用密集而高度開發。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-15T18:38:57.610288Z"
-    },
-    {
       "source_id": "wiki-random:zh:5913495",
       "source_name": "ZH Wikipedia：欧洲灭亡语言列表",
       "source_url": "https://zh.wikipedia.org/wiki/%E6%AC%A7%E6%B4%B2%E7%81%AD%E4%BA%A1%E8%AF%AD%E8%A8%80%E5%88%97%E8%A1%A8",
@@ -401,16 +361,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-15T18:40:08.223254Z"
-    },
-    {
-      "source_id": "wiki-random:zh:7044199",
-      "source_name": "ZH Wikipedia：Surface Go 2",
-      "source_url": "https://zh.wikipedia.org/wiki/Surface_Go_2",
-      "title": "Surface Go 2",
-      "excerpt": "Surface Go 2是Microsoft研发的的2合1可拆卸式平板电脑 ，是Surface Go的第二代产品，于2020年5月6日与Surface Book 3一同于线上发布。 2020年5月12日开始发售。 Surface Go 2保持了和上一代一样的轻薄设计，但是具有更大的10.5英寸显示屏，更长的电池使用时间和更高的性能，其中一种型号的性能比上一代快64％。 这也是Intel Core m处理器首次应用于这种小型设备。 设备运行Windows 10 Home S模式。 它具有与上一代相同的五百万像素前置摄像头，八百万像素后置摄像头和红外摄像头。 它还具有NFC芯片和最大能展开165°角度支架。 这一代在提升显示屏的尺寸的同时也提升了分辨率（1920 x 1280，220 ppi）。不过型号仍然保持了Surface系列传统的3：2的宽高比。 Surface Go 2的起价为399.99美元，最高为729.99美元。 带有触控板的可拆卸键盘和手写笔单独出售。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-15T18:40:08.223715Z"
     },
     {
       "source_id": "wiki-random:en:7441583",
@@ -513,16 +463,6 @@
       "added_at": "2026-07-17T18:31:41.236242Z"
     },
     {
-      "source_id": "wiki-random:en:9568579",
-      "source_name": "EN Wikipedia：Fatty acid synthesis",
-      "source_url": "https://en.wikipedia.org/wiki/Fatty_acid_synthesis",
-      "title": "Fatty acid synthesis",
-      "excerpt": "In biochemistry, fatty acid synthesis is the process by which fatty acids, the fundamental building blocks of fats, are derived from metabolic intermediates through the coordinated actions of enzymes. Fatty acids (FAs), comprise a large group of chemically heterogeneous compounds. Each fatty acid is composed of a carboxylic acid attached to an aliphatic hydrocarbon chain, of which is either saturated or unsaturated. FAs prove crucial within the cell, as these molecules serve as the indispensable building blocks of cell membranes. FAs also provide dense, long-term energy sources for the cell, and the biosynthetic production of FAs is essential for maintaining cellular homeostasis. Fatty acid biosynthetic pathways are highly evolutionarily conserved across species, though different enzymes and genetic organizations have evolved to reach similarities about the general pathway. In both animals and fungi, all fatty acid synthetic pathways utilize one multifunctional protein complex, type-I fatty acid synthase (FAS), which is divided into the type-Ia FAS (in fungi) and the type-Ib FAS (in animals). In most prokaryotes and in the plastids of plants, fatty acid synthesis occurs via type-II...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-17T18:32:18.217820Z"
-    },
-    {
       "source_id": "wiki-random:en:22211736",
       "source_name": "EN Wikipedia：Aerosol impaction",
       "source_url": "https://en.wikipedia.org/wiki/Aerosol_impaction",
@@ -541,26 +481,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-17T18:32:18.218570Z"
-    },
-    {
-      "source_id": "wiki-random:en:12598240",
-      "source_name": "EN Wikipedia：Miller Lake lamprey",
-      "source_url": "https://en.wikipedia.org/wiki/Miller_Lake_lamprey",
-      "title": "Miller Lake lamprey",
-      "excerpt": "The Miller Lake lamprey (Entosphenus minimus) is a species of lamprey in the Petromyzontidae family endemic to the United States. Its natural habitat is the Miller Lake drainage in the state of Oregon. This species is of special interest because it has an extremely limited distribution, with all known animals contained within a single small drainage system, and it is the smallest known parasitic lamprey in the world. The Miller lake lamprey was presumed extinct in 1958, after state fishery managers attempted to eradicate the lamprey from the lake because it was feeding on the introduced trout. The known larval streams for this lamprey were treated with lampricide and a barrier was erected to prevent adults from entering to spawn. The Miller Lake lamprey was presumed to be extinct until 1992, when it was collected again. Continued collection efforts yielded more animals, and in 2000, the group published a paper on the redescription of this lamprey. In an attempt to restore and protect the Miller Lake lamprey, restoration efforts to remove the barrier originally have been carried out, and surveys are done regularly to establish an understanding of the population's health. Understanding...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-17T18:32:56.743631Z"
-    },
-    {
-      "source_id": "wiki-random:en:674758",
-      "source_name": "EN Wikipedia：Mike Cuellar",
-      "source_url": "https://en.wikipedia.org/wiki/Mike_Cuellar",
-      "title": "Mike Cuellar",
-      "excerpt": "Miguel Ángel Cuellar Santana (KWAY-ar; May 8, 1937 – April 2, 2010) was a Cuban professional baseball player. He played for 15 seasons in Major League Baseball as a left-handed pitcher in 1959 and from 1964 through 1977, most prominently as a member of the Baltimore Orioles who won the American League (AL) pennant in each of Cuellar's first three seasons with the team. During that time, Cuellar and the Orioles won the 1970 World Series. Cuellar also played for the Cincinnati Reds, St. Louis Cardinals, Houston Astros and California Angels. Cuellar and Denny McLain each won the AL Cy Young Award in 1969, due to a tie in the voting. For the Orioles, Cuellar won 20-or-more games in a season four times from 1969 through 1974. Along with Jim Palmer, Dave McNally, and Pat Dobson, he was one of four Oriole starters to win at least 20 games in 1971. Cuellar, nicknamed \"Crazy Horse\" because of his superstitious nature, ranks among Baltimore's top five career leaders in wins (143), strikeouts (1,011), shutouts (30) and innings pitched (2,028). In 1982, Cuellar was inducted into the Baltimore Orioles Hall of Fame.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-17T18:33:30.558507Z"
     },
     {
       "source_id": "wiki-random:en:19696541",
@@ -771,16 +691,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-20T19:11:49.207447Z"
-    },
-    {
-      "source_id": "wiki-random:zh:5181310",
-      "source_name": "ZH Wikipedia：硫磺島 (遊戲)",
-      "source_url": "https://zh.wikipedia.org/wiki/%E7%A1%AB%E7%A3%BA%E5%B3%B6_(%E9%81%8A%E6%88%B2)",
-      "title": "硫磺島 (遊戲)",
-      "excerpt": "《硫磺岛》（英語：Iwo Jima）是Personal Software Services开发，并于1986年在Commodore 64和ZX Spectrum上发行的回合制策略游戏。游戏是“策略战争游戏”系列的第二款作品。游戏背景为二战太平洋战场的硫磺岛战役，美军攻破日军坚守的硫磺岛。 玩家在这款回合制战略游戏中，要操作单位攻取日军驻守的海岛。玩家的单位要从陆地、空中或海上，消灭全部日军。游戏发行后所获评价不一。评论称游戏物有所值，难度适合新手，但许多声音批评游戏的图形和机制。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-20T19:11:49.207722Z"
     },
     {
       "source_id": "wiki-random:zh:5570025",
@@ -1203,16 +1113,6 @@
       "added_at": "2026-07-23T18:42:35.477491Z"
     },
     {
-      "source_id": "wiki-random:zh:1635243",
-      "source_name": "ZH Wikipedia：通信顺序进程",
-      "source_url": "https://zh.wikipedia.org/wiki/%E9%80%9A%E4%BF%A1%E9%A1%BA%E5%BA%8F%E8%BF%9B%E7%A8%8B",
-      "title": "通信顺序进程",
-      "excerpt": "在计算机科学中，通信顺序进程（英語：Communicating sequential processes，縮寫為CSP），又譯為交談循序程式、交換訊息的循序程式，是一種形式語言，用來描述並行性系統間進行互動的模式。它是叫做进程代数或进程演算的关于并发的数学理论家族的一员，基于了通过通道的消息传递。CSP高度影響了Occam的設計，也影響了程式語言如Limbo、RaftLib、Go、 Crystal和Clojure的core.async等。 CSP最早出現於東尼·霍爾在1978年發表的論文，但在之後又經過一系列的改善。CSP已经实际的应用在工业之中，作为一种工具去规定和验证各种不同系统的并发状况，比如T9000 Transputer，还有安全电子商务系统。CSP的理论自身仍是活跃研究的主题，包括了增加它的实际可应用性的范围（比如增大可以跟踪分析的系统的规模）。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-23T18:42:54.171975Z"
-    },
-    {
       "source_id": "wiki-random:en:26709629",
       "source_name": "EN Wikipedia：André Villas-Boas",
       "source_url": "https://en.wikipedia.org/wiki/Andr%C3%A9_Villas-Boas",
@@ -1261,16 +1161,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-23T18:43:08.661301Z"
-    },
-    {
-      "source_id": "wiki-random:en:2601806",
-      "source_name": "EN Wikipedia：Tenjiku shogi",
-      "source_url": "https://en.wikipedia.org/wiki/Tenjiku_shogi",
-      "title": "Tenjiku shogi",
-      "excerpt": "Tenjiku shogi (天竺将棋 tenjiku shōgi, \"Indian chess\" or 天竺大将棋 tenjiku dai shōgi \"great Indian chess\") is a large-board variant of shogi (Japanese chess). The game dates back to the 15th or 16th century and was based on the earlier chu shogi, which itself was based on dai shogi. Because of the terse and often incomplete wording of the historical sources for the large shogi variants, except for chu shogi and to a lesser extent dai shogi (which were at some points of time the most prestigious forms of shogi being played), the historical rules of tenjiku shogi are not clear. Different sources often differ significantly in the moves attributed to the pieces. The descriptions listed here are a likely reconstruction based on chu shogi, the primary basis of tenjiku shogi, but not all contemporary players follow these historically-based rules. It is not clear if the game was ever played much historically, as there is no record of sets ever having been made.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-23T18:43:08.661619Z"
     },
     {
       "source_id": "wiki-random:en:55629124",
@@ -1421,16 +1311,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-24T18:55:03.352421Z"
-    },
-    {
-      "source_id": "wiki-random:zh:95687",
-      "source_name": "ZH Wikipedia：数值控制",
-      "source_url": "https://zh.wikipedia.org/wiki/%E6%95%B0%E5%80%BC%E6%8E%A7%E5%88%B6",
-      "title": "数值控制",
-      "excerpt": "電腦數值控制（英語：numerical control, computer numerical control (CNC)，简称数控）是指通过计算机自动控制机械加工工具和3D打印机的行为。一台使用CNC的机器会根据写好的程序，将一块原材料（金属、木头、塑料、陶瓷、复合材料均可），在无需人类干预的情况下完成制造过程。采用數值控制的工具機叫做數控工具機。 在現代的電腦數值控制系統中，工件的設計高度依賴電腦輔助設計及電腦輔助製造等軟體。電腦輔助製造軟體解析設計模型並計算加工過程中的移動指令，透過後處理器將移動指令及其他加工過程中需使用到的輔助指令轉換成數值控制系統可以讀取的格式，之後將後處理器產生的檔案載入電腦數值控制工具機中進行工件加工。 将程式指令輸入數控系統之記憶體後，經由電腦編譯計算，透過位移控制系統，將資訊傳至驅動器以驅動馬達之過程，來切削加工所設計之零件。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-24T18:55:03.353995Z"
     },
     {
       "source_id": "wiki-random:en:63727895",
@@ -1641,16 +1521,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-26T18:30:03.022037Z"
-    },
-    {
-      "source_id": "wiki-random:zh:4807027",
-      "source_name": "ZH Wikipedia：圣高登斯双鹰金币",
-      "source_url": "https://zh.wikipedia.org/wiki/%E5%9C%A3%E9%AB%98%E7%99%BB%E6%96%AF%E5%8F%8C%E9%B9%B0%E9%87%91%E5%B8%81",
-      "title": "圣高登斯双鹰金币",
-      "excerpt": "圣高登斯双鹰金币（英語：Saint-Gaudens double eagle）是美国铸币局于1907至1933年生产的一种20美元面额金币，金币的正面和背面都是由雕塑家奥古斯都·圣高登斯设计，硬币也是以他命名。许多评论中认为这是历史上最漂亮的美国硬币。 1904年，总统西奥多·罗斯福提议美化美国硬币设计，并举荐圣高登斯来完成这项任务。这位雕塑家此前与铸币局及其首席雕刻师查尔斯·爱德华·巴伯的关系不佳，但还是接受了总统的提议。由于圣高登斯的身体健康每况愈下，而且他的设计浮雕太高，给实际生产造成困难，导致硬币面世一拖再拖。圣高登斯于1907年谢世，这时他虽已完成鹰扬金币和双鹰金币的设计，但没能看到两种金币面世。 圣高登斯最初的设计浮雕太高，难以压制，经过多次调整仍然不能大批量生产，失去耐性的罗斯福强行要求铸币局无论产量多低都必须投产。巴伯修改了圣高登斯的设计，大幅降低浮雕高度，但引起圣高登斯的家人和助手不满。金币面世后又因其上没有格言“In God We Trust”引起争议，“火冒三丈”的国会插手干预，要求加上格言。第一次世界大战的爆发导致双鹰金币停产数年，恢复生产后的绝大部分金币都是用于国际贸易，直至1933年停产。1933年版双鹰金币非常罕见，其中一枚于2002年以759万美元高价成交。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-26T18:30:03.026031Z"
     },
     {
       "source_id": "wiki-random:zh:4004920",
@@ -1943,16 +1813,6 @@
       "added_at": "2026-07-27T18:55:23.242626Z"
     },
     {
-      "source_id": "wiki-random:en:2978075",
-      "source_name": "EN Wikipedia：Piguaquan",
-      "source_url": "https://en.wikipedia.org/wiki/Piguaquan",
-      "title": "Piguaquan",
-      "excerpt": "Piguaquan (Chinese: 劈挂拳; lit. 'chop-hanging fist'), also known as Piguazhang (Chinese: 劈挂掌; lit. 'chop-hanging palm') due to its emphasis on palm techniques, is often practiced along with Bajiquan (Chinese: 八极拳; lit. 'eight extremes fist') and is a style of wushu (Chinese martial arts) that features explosive, long-range power. It originated in Cangzhou, a prefecture in Hebei Province of North China, but today is also well known in other locales, including Taiwan. Piguaquan's power is from the accelerational force of the arms which are often in rotation. The hip movement in Piguaquan is more subtle and gentle compared to Bajiquan, because you only need enough to guide the big chops whereas in Bajiquan, the hammers, punches, elbows and swings rely completely on the quick and powerful rotation of the hips, and sink to bring its power out.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-27T18:55:23.243946Z"
-    },
-    {
       "source_id": "wiki-random:en:142456",
       "source_name": "EN Wikipedia：Good Will Hunting",
       "source_url": "https://en.wikipedia.org/wiki/Good_Will_Hunting",
@@ -2111,16 +1971,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-29T18:31:13.415180Z"
-    },
-    {
-      "source_id": "wiki-random:zh:4813734",
-      "source_name": "ZH Wikipedia：双截龙3 罗塞塔之石",
-      "source_url": "https://zh.wikipedia.org/wiki/%E5%8F%8C%E6%88%AA%E9%BE%993_%E7%BD%97%E5%A1%9E%E5%A1%94%E4%B9%8B%E7%9F%B3",
-      "title": "双截龙3 罗塞塔之石",
-      "excerpt": "《双截龙3 罗塞塔之石》（日語：ダブルドラゴン3 ザ・ロゼッタストーン）是1990年5月31日在街机推出的横向卷轴清版动作游戏。游戏为双截龙系列第三款街机游戏。游戏后来移植到大量平台。本作並不是由Technōs Japan開發的游戏，而是外包給日本電子遊戲開發商East Technology（イースト・テクノロジー）主導開發（East Technology曾於同年2月開發並發行街機遊戲《Gigandes》）。 游戏可以最多至2或3个人同时进行游戏。美版還設有物品商店，玩家可以透過花費現實上的金錢來購買遊戲內物品，例如武器、額外動作和新的可使用角色，這是電子遊戲史上最早出現微交易系統的遊戲。由於爭議不斷，該系統最終在日版和歐版被刪除。 任天堂版本的《双截龙III 罗塞塔之石》由Technōs Japan開發，並在街机版本的几个月后的1991年2月发行。这个版本并不是移植，而是两个游戏同时进行开发。 《电脑与电子游戏》的Julian Rignall打出83%，称赞游戏更逼真的画风，并向系列爱好者推荐游戏。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-29T18:31:13.415291Z"
     },
     {
       "source_id": "wiki-random:en:23225253",
@@ -2343,16 +2193,6 @@
       "added_at": "2026-07-31T18:49:17.053072Z"
     },
     {
-      "source_id": "wiki-random:en:2444141",
-      "source_name": "EN Wikipedia：Drospirenone",
-      "source_url": "https://en.wikipedia.org/wiki/Drospirenone",
-      "title": "Drospirenone",
-      "excerpt": "Drospirenone is a progestin and antiandrogen medication which is used in birth control pills to prevent pregnancy and in menopausal hormone therapy, among other uses. It is available both alone under the brand name Slynd and in combination with an estrogen under the brand name Yasmin among others. The medication is an analog of the drug spironolactone. Drospirenone is taken by mouth. Common side effects include acne, headache, breast tenderness, weight increase, and menstrual changes. Rare side effects may include high potassium levels and blood clots (when taken as a combined oestrogen-progestogen pill), among others. Drospirenone is a progestin, or a synthetic progestogen, and hence is an agonist of the progesterone receptor, the biological target of progestogens like progesterone. It has additional antimineralocorticoid and antiandrogenic activity and no other important hormonal activity. Because of its antimineralocorticoid activity and lack of undesirable off-target activity, drospirenone is said to more closely resemble bioidentical progesterone than other progestins. Drospirenone was patented in 1976 and introduced for medical use in 2000. It is available widely throughout the...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-31T18:49:17.053897Z"
-    },
-    {
       "source_id": "wiki-random:en:22019683",
       "source_name": "EN Wikipedia：Lindenberg Medal",
       "source_url": "https://en.wikipedia.org/wiki/Lindenberg_Medal",
@@ -2361,16 +2201,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-31T18:49:37.437069Z"
-    },
-    {
-      "source_id": "wiki-random:en:24472672",
-      "source_name": "EN Wikipedia：1703 Apennine earthquakes",
-      "source_url": "https://en.wikipedia.org/wiki/1703_Apennine_earthquakes",
-      "title": "1703 Apennine earthquakes",
-      "excerpt": "The 1703 Apennine earthquakes were a sequence of three earthquakes of magnitude ≥6 that occurred in the central Apennines of Italy, over a period of 19 days. The epicenters were near Norcia (14 January), Montereale (16 January) and L'Aquila (2 February), showing a southwards progression over about 36 kilometres (22 mi). These events involved all of the known active faults between Norcia and L'Aquila. A total of about 10,000 people are estimated to have died as a result of these earthquakes, although because of the overlap in areas affected by the three events, casualty numbers remain highly uncertain.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-31T18:49:37.439410Z"
     },
     {
       "source_id": "wiki-random:en:2728973",
@@ -2503,26 +2333,6 @@
       "added_at": "2026-08-01T18:27:50.898580Z"
     },
     {
-      "source_id": "wiki-random:en:14996149",
-      "source_name": "EN Wikipedia：Flow table test",
-      "source_url": "https://en.wikipedia.org/wiki/Flow_table_test",
-      "title": "Flow table test",
-      "excerpt": "The flow table test or slump-flow test is a method to determine consistency of fresh concrete. Flow table test is also used to identify transportable moisture limit of solid bulk cargoes. It is used primarily for assessing concrete that is too fluid (workable) to be measured using the slump test, because the concrete will not retain its shape when the cone is removed.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-01T18:27:50.901625Z"
-    },
-    {
-      "source_id": "wiki-random:en:2026964",
-      "source_name": "EN Wikipedia：Mushroom Jazz",
-      "source_url": "https://en.wikipedia.org/wiki/Mushroom_Jazz",
-      "title": "Mushroom Jazz",
-      "excerpt": "Mushroom Jazz is a series of musical compilations by DJ Mark Farina. Originating in 1992 these were released on cassette tape, then since 1996 have been commercial CD and vinyl releases. Farina combines elements of downtempo, hip hop, jazz and R&B, French, Latin, beatmatching and mixing songs together. As with Farina's house mixes, the Mushroom Jazz series incorporates transitional effects (such as a high-pass filter) and a generally dry reverb tone. Originally launched as a cassette series, the Mushroom Jazz tapes grew from the first Chicago run of 50 copies each on to the next stage, where 500 copies of several volumes were easily distributed and sought after. As the acid jazz boom began, he perfected his sound and fused the newest tracks from the West Coast's jazzy, organic producers with the more urban sounds he had championed in Chicago. While the predominant musical force in San Francisco was still dark, dubby House and Wicked-style Breaks, the city embraced the downtempo movement with a healthy bunch of live bands and DJs generating the tunes. Mark Farina, along with Patty Ryan-Smith, created the now legendary weekly Mushroom Jazz club night in San Francisco in 1992. Every Monday...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-01T18:28:30.417895Z"
-    },
-    {
       "source_id": "wiki-random:en:7616809",
       "source_name": "EN Wikipedia：Lightering",
       "source_url": "https://en.wikipedia.org/wiki/Lightering",
@@ -2561,16 +2371,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-08-01T18:28:55.845123Z"
-    },
-    {
-      "source_id": "wiki-random:en:376571",
-      "source_name": "EN Wikipedia：Lord Chief Justice of England and Wales",
-      "source_url": "https://en.wikipedia.org/wiki/Lord_Chief_Justice_of_England_and_Wales",
-      "title": "Lord Chief Justice of England and Wales",
-      "excerpt": "The lord or lady chief justice of England and Wales is the head of the judiciary of England and Wales and the president of the courts of England and Wales. Until 2005, the lord chief justice was the second-most senior judge of the English and Welsh courts, surpassed by the lord chancellor, who normally sat in the highest court. The Constitutional Reform Act 2005 changed the roles of judges, creating the position of president of the Supreme Court of the United Kingdom and altering the duties of the lord chief justice and the lord chancellor. The lord chief justice ordinarily serves as president of the Criminal Division of the Court of Appeal and head of criminal justice, meaning its technical processes within the legal domain, but under the 2005 Act can appoint another judge to these positions. The lord chancellor became a purely executive office, with no judicial role. The equivalent in Scotland is the lord president of the Court of Session, who also holds the post of Lord Justice-General in the High Court of Justiciary. The equivalent in Northern Ireland is the lord chief justice of Northern Ireland, local successor to the lord chief justice of Ireland of the pre-Partition era. Sue...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-01T18:28:55.846395Z"
     },
     {
       "source_id": "wiki-random:zh:5584356",
@@ -2673,16 +2473,6 @@
       "added_at": "2026-08-02T18:16:42.037438Z"
     },
     {
-      "source_id": "wiki-random:en:7978458",
-      "source_name": "EN Wikipedia：Effects of Hurricane Isabel in North Carolina",
-      "source_url": "https://en.wikipedia.org/wiki/Effects_of_Hurricane_Isabel_in_North_Carolina",
-      "title": "Effects of Hurricane Isabel in North Carolina",
-      "excerpt": "In North Carolina, the effects of Hurricane Isabel were widespread, with the heaviest damage in Dare County. The hurricane made landfall in the Outer Banks of North Carolina on September 18, 2003. There, storm surge flooding and strong winds damaged thousands of houses. The storm surge produced a 2,000 feet (610 m) wide inlet on Hatteras Island, isolating Hatteras by road for two months. Several locations along North Carolina Highway 12 were partially washed out or covered with debris. Hurricane Isabel produced hurricane-force wind gusts across eastern North Carolina, knocking down trees and power lines. About 700,000 residents lost power due to the storm, although most outages were restored within a few days. The hurricane killed three people in the state – two due to falling trees, and the other a utility worker attempting to restore electricity. Damage in the state totaled $450 million (2003 USD, $788 million 2026 USD). The National Hurricane Center issued a hurricane watch, and later warning, for the state's coastline in advance of the hurricane's landfall. Local officials issued evacuation orders for 18 counties, along with various flood warnings. In the aftermath of the hurricane...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-02T18:16:42.039633Z"
-    },
-    {
       "source_id": "wiki-random:zh:363358",
       "source_name": "ZH Wikipedia：伊桑·艾伦级潜艇",
       "source_url": "https://zh.wikipedia.org/wiki/%E4%BC%8A%E6%A1%91%C2%B7%E8%89%BE%E4%BC%A6%E7%BA%A7%E6%BD%9C%E8%89%87",
@@ -2691,16 +2481,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-08-02T18:16:42.040507Z"
-    },
-    {
-      "source_id": "wiki-random:en:339605",
-      "source_name": "EN Wikipedia：Frozen food",
-      "source_url": "https://en.wikipedia.org/wiki/Frozen_food",
-      "title": "Frozen food",
-      "excerpt": "Freezing food preserves it from the time it is prepared to the time it is eaten. Since early times, farmers, fishermen, and trappers have preserved grains and produce in unheated buildings during the winter season. Freezing food slows decomposition by turning residual moisture into ice, inhibiting the growth of most bacterial species. In the food commodity industry, there are two processes: mechanical and cryogenic (or flash freezing). The freezing kinetics is important to preserve the food quality and texture. Quicker freezing generates smaller ice crystals and maintains cellular structure. Cryogenic freezing is the quickest freezing technology available due to the ultra low liquid nitrogen temperature −196 °C (−320 °F). Preserving food in domestic kitchens during modern times is achieved using household freezers. Accepted advice to householders was to freeze food on the day of purchase. An initiative by a supermarket group in 2012 (backed by the United Kingdom's Waste & Resources Action Programme) promotes the freezing of food \"as soon as possible up to the product's 'use by' date\". The Food Standards Agency was reported as supporting the change, provided the food had been stored...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-02T18:16:42.040828Z"
     },
     {
       "source_id": "wiki-random:en:31167913",
@@ -2731,16 +2511,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-08-02T18:17:51.368167Z"
-    },
-    {
-      "source_id": "wiki-random:en:97839",
-      "source_name": "EN Wikipedia：Canine distemper",
-      "source_url": "https://en.wikipedia.org/wiki/Canine_distemper",
-      "title": "Canine distemper",
-      "excerpt": "Canine distemper (CDV) (sometimes termed \"footpad disease\") is a viral disease that affects a wide variety of mammal families, including domestic and wild species of dogs, coyotes, foxes, pandas, wolves, ferrets, skunks, raccoons, and felines, as well as pinnipeds, some primates, and a variety of other species. CDV does not affect humans. In canines, CDV affects several body systems, including the gastrointestinal and respiratory tracts, the spinal cord, and the brain. Common symptoms include high fever, eye inflammation and eye/nose discharge, labored breathing and coughing, vomiting and diarrhea, loss of appetite and lethargy, and hardening of the nose and footpads. The viral infection can be accompanied by secondary bacterial infections and can eventually present serious neurological symptoms. Canine distemper is caused by a single-stranded RNA virus of the family Paramyxoviridae (the same family of viruses that causes measles and mumps in humans). The disease is highly contagious via inhalation. Morbidity and mortality may vary greatly among animal species, with up to 100% mortality in unvaccinated populations of ferrets. In domestic dogs, while the acute generalized form of distemper...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-02T18:17:51.369548Z"
     },
     {
       "source_id": "wiki-random:en:9737684",
@@ -2901,16 +2671,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-08-03T19:01:57.875516Z"
-    },
-    {
-      "source_id": "wiki-random:en:12727938",
-      "source_name": "EN Wikipedia：Argus As 014",
-      "source_url": "https://en.wikipedia.org/wiki/Argus_As_014",
-      "title": "Argus As 014",
-      "excerpt": "The Argus As 014 (designated 109-014 by the RLM) was a pulsejet engine used on the German V-1 flying bomb of World War II, and the first model of pulsejet engine placed in mass production. License manufacture of the As 014 was carried out in Japan in the latter stages of World War II, as the Kawanishi Maru Ka10 for the Kawanishi Baika kamikaze jet. The United States reverse-engineered the design for the Ford PJ31 powering the Republic-Ford JB-2 cruise missile and the experimental USAAF-developed JB-4 television-guided bomb.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-03T19:02:13.485450Z"
     },
     {
       "source_id": "wiki-random:en:1607928",

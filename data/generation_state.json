@@ -3336,7 +3336,151 @@
       "source_url": "https://en.wikipedia.org/wiki/Lake_Kussharo",
       "outcome": "accepted",
       "reason": ""
+    },
+    "wiki-random:en:12727938": {
+      "last_seen": "2026-08-03T19:04:55.604968Z",
+      "source_url": "https://en.wikipedia.org/wiki/Argus_As_014",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:zh:4813734": {
+      "last_seen": "2026-08-03T19:04:55.604984Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%8F%8C%E6%88%AA%E9%BE%993_%E7%BD%97%E5%A1%9E%E5%A1%94%E4%B9%8B%E7%9F%B3",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-random:zh:5181310": {
+      "last_seen": "2026-08-03T19:04:55.604991Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E7%A1%AB%E7%A3%BA%E5%B3%B6_(%E9%81%8A%E6%88%B2)",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:339605": {
+      "last_seen": "2026-08-03T19:04:55.604997Z",
+      "source_url": "https://en.wikipedia.org/wiki/Frozen_food",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-random:zh:31152": {
+      "last_seen": "2026-08-03T19:04:55.605001Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%8F%B0%E7%81%A3%E5%9C%B0%E7%90%86",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:674758": {
+      "last_seen": "2026-08-03T19:04:55.605005Z",
+      "source_url": "https://en.wikipedia.org/wiki/Mike_Cuellar",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:75539186": {
+      "last_seen": "2026-08-03T19:04:55.605008Z",
+      "source_url": "https://en.wikipedia.org/wiki/DOE_mean_plot",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:12598240": {
+      "last_seen": "2026-08-03T19:04:55.605013Z",
+      "source_url": "https://en.wikipedia.org/wiki/Miller_Lake_lamprey",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-random:en:2978075": {
+      "last_seen": "2026-08-03T19:04:55.605017Z",
+      "source_url": "https://en.wikipedia.org/wiki/Piguaquan",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:13628958": {
+      "last_seen": "2026-08-03T19:04:55.605021Z",
+      "source_url": "https://en.wikipedia.org/wiki/Beta-globin_co-transcriptional_cleavage_ribozyme",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:2444141": {
+      "last_seen": "2026-08-03T19:04:55.605024Z",
+      "source_url": "https://en.wikipedia.org/wiki/Drospirenone",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:2601806": {
+      "last_seen": "2026-08-03T19:04:55.605028Z",
+      "source_url": "https://en.wikipedia.org/wiki/Tenjiku_shogi",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:2026964": {
+      "last_seen": "2026-08-03T19:04:55.605032Z",
+      "source_url": "https://en.wikipedia.org/wiki/Mushroom_Jazz",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-random:zh:95687": {
+      "last_seen": "2026-08-03T19:04:55.605036Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%95%B0%E5%80%BC%E6%8E%A7%E5%88%B6",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-random:zh:7044199": {
+      "last_seen": "2026-08-03T19:04:55.605040Z",
+      "source_url": "https://zh.wikipedia.org/wiki/Surface_Go_2",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:zh:7471775": {
+      "last_seen": "2026-08-03T19:04:55.605044Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%A4%9A%E8%81%9A%E8%85%BA%E8%8B%B7%E9%85%B8%E7%BB%93%E5%90%88%E8%9B%8B%E7%99%BD",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-random:en:9568579": {
+      "last_seen": "2026-08-03T19:04:55.605047Z",
+      "source_url": "https://en.wikipedia.org/wiki/Fatty_acid_synthesis",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-random:zh:1635243": {
+      "last_seen": "2026-08-03T19:04:55.605051Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E9%80%9A%E4%BF%A1%E9%A1%BA%E5%BA%8F%E8%BF%9B%E7%A8%8B",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:14996149": {
+      "last_seen": "2026-08-03T19:04:55.605054Z",
+      "source_url": "https://en.wikipedia.org/wiki/Flow_table_test",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-random:en:97839": {
+      "last_seen": "2026-08-03T19:04:55.605058Z",
+      "source_url": "https://en.wikipedia.org/wiki/Canine_distemper",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-random:en:24472672": {
+      "last_seen": "2026-08-03T19:04:55.605062Z",
+      "source_url": "https://en.wikipedia.org/wiki/1703_Apennine_earthquakes",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-random:en:7978458": {
+      "last_seen": "2026-08-03T19:04:55.605066Z",
+      "source_url": "https://en.wikipedia.org/wiki/Effects_of_Hurricane_Isabel_in_North_Carolina",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-random:en:376571": {
+      "last_seen": "2026-08-03T19:04:55.605069Z",
+      "source_url": "https://en.wikipedia.org/wiki/Lord_Chief_Justice_of_England_and_Wales",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:zh:4807027": {
+      "last_seen": "2026-08-03T19:04:55.605073Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%9C%A3%E9%AB%98%E7%99%BB%E6%96%AF%E5%8F%8C%E9%B9%B0%E9%87%91%E5%B8%81",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
     }
   },
-  "updated_at": "2026-08-03T19:02:27.902326Z"
+  "updated_at": "2026-08-03T19:04:55.612868Z"
 }

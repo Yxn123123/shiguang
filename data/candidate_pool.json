@@ -1,27 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-08-07T18:09:43.822058Z",
+  "updated_at": "2026-08-07T18:12:24.661319Z",
   "candidates": [
-    {
-      "source_id": "wiki-topic:en:26446",
-      "source_name": "EN Wikipedia：Recreational mathematics",
-      "source_url": "https://en.wikipedia.org/wiki/Recreational_mathematics",
-      "title": "Recreational mathematics",
-      "excerpt": "Recreational mathematics is mathematics carried out for recreation (entertainment) rather than as a strictly research-and-application-based professional activity or as a part of a student's formal education. The Mathematical Association of America (MAA) has seventeen Special Interest Groups which includes a recreational math group called SIGMAA-Rec. The SIGMAA-Rec website defines recreational mathematics as, \"...a broad term that covers many different areas including games, puzzles, magic, art, and more.\" Although it is not necessarily limited to being an endeavor for amateurs, many topics in this field require no knowledge of advanced mathematics. Mathematical competitions (such as those sponsored by mathematical associations) are also categorized under recreational mathematics.",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-08-07T18:08:32.155043Z"
-    },
-    {
-      "source_id": "wiki-topic:en:4303674",
-      "source_name": "EN Wikipedia：Deposition (phase transition)",
-      "source_url": "https://en.wikipedia.org/wiki/Deposition_(phase_transition)",
-      "title": "Deposition (phase transition)",
-      "excerpt": "}} Deposition is the phase transition in which gas transforms into solid without passing through the liquid phase. Deposition is a thermodynamic process. The reverse of deposition is sublimation and hence sometimes deposition is called desublimation.",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-08-07T18:08:32.155225Z"
-    },
     {
       "source_id": "wiki-random:zh:2872377",
       "source_name": "ZH Wikipedia：服務性 (電腦)",
@@ -201,16 +181,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-13T20:46:19.053850Z"
-    },
-    {
-      "source_id": "wiki-random:zh:1821676",
-      "source_name": "ZH Wikipedia：重氮化合物1,3-偶极环加成反应",
-      "source_url": "https://zh.wikipedia.org/wiki/%E9%87%8D%E6%B0%AE%E5%8C%96%E5%90%88%E7%89%A91,3-%E5%81%B6%E6%9E%81%E7%8E%AF%E5%8A%A0%E6%88%90%E5%8F%8D%E5%BA%94",
-      "title": "重氮化合物1,3-偶极环加成反应",
-      "excerpt": "重氮化合物1,3-偶极环加成反应（英語：diazoalkane 1,3-dipolar cycloaddition）是发生在1,3-偶极重氮化合物（尤其是重氮甲烷）与亲偶极体间的1,3-偶极环加成反应。当以烯烃或其衍生物作为这类有机化学反应中的亲偶极体时，反应的产物为吡唑啉类物质。 重氮甲烷与反-戊烯二酸重氮化合物1,3-偶极环加成反应的产物则为1-吡唑啉。因为重氮化合物末端氮原子仅能与酯中的α-碳原子结合，所以此反应具有100%的区域选择性。重氮化合物1,3-偶极环加成反应属于顺式加成（syn addition），亲偶极体的构型在反应中会被保留下来。1-吡唑啉不稳定，且因为分子倾向于朝杂环与酯基间的存在共轭体系的构型转变，所以会自发异构化形成2-吡唑啉。此反应过程如下图所示： 若以苯基重氮甲烷作为反应物，反应的区域选择性将会颠倒。在2-吡唑啉发生简单空气有机氧化产生吡唑后，能继续参与重氮化合物1,3-偶极环加成反应。 重氮化合物1,3-偶极环加成反应的另一个例子是重氮化合物-硫酮偶联反应。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-13T20:46:19.054834Z"
     },
     {
       "source_id": "wiki-random:zh:5932070",
@@ -983,16 +953,6 @@
       "added_at": "2026-07-23T18:42:12.017124Z"
     },
     {
-      "source_id": "wiki-random:en:12063332",
-      "source_name": "EN Wikipedia：Miss USA 1990",
-      "source_url": "https://en.wikipedia.org/wiki/Miss_USA_1990",
-      "title": "Miss USA 1990",
-      "excerpt": "Miss USA 1990 was the 39th Miss USA pageant, televised live from the Century II Convention Center in Wichita, Kansas on March 2, 1990. At the conclusion of the final competition, Carole Gist of Michigan was crowned by outgoing titleholder Gretchen Polhemus of Texas. Carole became the first African American winner ever and the first woman from Michigan to be crowned as Miss USA, ending the streak of \"Texas Aces\" from 1985. For the first time, each judge's score was displayed to the audience, adding transparency to the process. A major format change in 1990 transformed the Miss USA competition for the next decade: the delegates faced an extra round of elimination on finals night: the top six judges' questions. Instead of reducing the top twelve to the usual final five, the judges picked an intermediate top six. Those six finalists answered questions from the judges, and the field was then reduced to a final three, who faced the traditional final question, adding unpredictability to the competition after five Texan Miss USA winners from GuyRex Associates, which would lose its Miss Texas USA franchise the next year. The pageant was hosted by Dick Clark for the second of five times, with...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-23T18:42:12.018858Z"
-    },
-    {
       "source_id": "wiki-random:en:29254986",
       "source_name": "EN Wikipedia：ACT Biotech Inc",
       "source_url": "https://en.wikipedia.org/wiki/ACT_Biotech_Inc",
@@ -1353,16 +1313,6 @@
       "added_at": "2026-07-25T18:14:30.269796Z"
     },
     {
-      "source_id": "wiki-random:en:219023",
-      "source_name": "EN Wikipedia：Swift (bird)",
-      "source_url": "https://en.wikipedia.org/wiki/Swift_(bird)",
-      "title": "Swift (bird)",
-      "excerpt": "The Apodidae, or swifts, form a family of highly aerial birds. They are superficially similar to swallows, but are not closely related to any passerine species. Swifts are placed in the order Apodiformes along with hummingbirds. The treeswifts are closely related to the true swifts, but form a separate family, the Hemiprocnidae. Resemblances between swifts and swallows are due to convergent evolution, reflecting similar life styles based on catching insects in flight. The family name, Apodidae, is derived from the Greek ἄπους (ápous), meaning \"footless\", a reference to the small, weak legs of these most aerial of birds. The tradition of depicting swifts without feet continued into the Middle Ages, as seen in the heraldic martlet.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-25T18:14:30.270341Z"
-    },
-    {
       "source_id": "wiki-random:zh:2762023",
       "source_name": "ZH Wikipedia：大器晚成 (美国电视剧)",
       "source_url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E5%99%A8%E6%99%9A%E6%88%90_(%E7%BE%8E%E5%9B%BD%E7%94%B5%E8%A7%86%E5%89%A7)",
@@ -1403,16 +1353,6 @@
       "added_at": "2026-07-25T18:15:02.454997Z"
     },
     {
-      "source_id": "wiki-random:en:53776880",
-      "source_name": "EN Wikipedia：Temple of Ezbet Rushdi",
-      "source_url": "https://en.wikipedia.org/wiki/Temple_of_Ezbet_Rushdi",
-      "title": "Temple of Ezbet Rushdi",
-      "excerpt": "The ancient Egyptian Temple of Ezbet Rushdi was discovered near the modern village of Ezbet Rushdi el-Saghira – itself just north of Tell el-Dab'a, the ancient Avaris – and dates to the 12th Dynasty. It was first excavated from 1951 by Shehata Adam who was working for the Egyptian Antiquities Service. The temple was again excavated in 1996 by an Austrian mission under Manfred Bietak.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-25T18:15:02.458575Z"
-    },
-    {
       "source_id": "wiki-random:en:1522669",
       "source_name": "EN Wikipedia：God and Man at Yale",
       "source_url": "https://en.wikipedia.org/wiki/God_and_Man_at_Yale",
@@ -1431,16 +1371,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-25T18:15:02.459908Z"
-    },
-    {
-      "source_id": "wiki-random:zh:3740869",
-      "source_name": "ZH Wikipedia：美國鐵路運輸史",
-      "source_url": "https://zh.wikipedia.org/wiki/%E7%BE%8E%E5%9C%8B%E9%90%B5%E8%B7%AF%E9%81%8B%E8%BC%B8%E5%8F%B2",
-      "title": "美國鐵路運輸史",
-      "excerpt": "美國擁有世界上最大的鐵路網絡。鐵路在美國經濟社會發展中曾起到十分重要的作用。在鐵路建成之前，美國的交通網絡很差，很多道路剛剛開始建設，依靠水路。最初是由重力和畜力驅動的有軌電車開始，最終由於受到英格蘭的影響，蒸汽機車開始運行。第一台蒸汽機車於1830年開始商業運營，此後蒸汽機車鐵路迅速普及。從1810－1850年工業革命時期到1850-1890年新殖民地開拓時期，鐵路均扮演了不可替代的作用。美國鐵路時代始於1828年巴爾的摩和俄亥俄鐵路的創立，其後由於政府扶持等原因，鐵路業得到了蓬勃的發展，雖然由於數次經濟危機而導致鐵路業衰退，但總體而言整個19世紀鐵路均處於高速發展中。 美國南部雖然很早就開始修築鐵路以聯繫棉花產區和主要海港，但是直至美國內戰前整個南方一直缺乏聯結成網絡的鐵路系統。內戰及戰後初期的另一個鐵路修築增長點位於美國中西部。第一條橫貫大陸鐵路於1869年竣工，極大的促進了美國中西部的開發。隨著玉米帶地區農業發展，鐵路成為運送農產品和居民出行的主要方式。在玉米帶地區，有80%的農場位於鐵路沿線5英里以內的地區，以便於農產品的運輸。至19世紀末，美國已擁有20家全國性大型鐵路公司，以及不可勝數的地區性小型鐵路公司。 美國鐵路在1910年代發展到頂峰，其路網長度達到254,251英里（1916年），居世界之冠，約有210萬名鐵路員工。但隨後卡車的到來吞噬了貨運量，汽車（以及後來的飛機）吞噬了客運量。 1940年之後，柴油電力機車的使用使得運營更加高效，需要更少的鐵路工人和維修工人。隨著汽車和航空業的發展，以及社會經濟發展水平的提高，鐵路業在客貨運輸中所占的份額逐年減少，雖然在第二次世界大戰時期有所回潮，但總體呈衰退趨勢。二戰以後，不少鐵路公司紛紛破產，線路也被廢棄。至1980年，全國只剩下數家大型鐵路公司。長途客運也與1971年交由政府主導的國家鐵路客運公司運營。此外，在紐約市、芝加哥、洛杉磯等大型城市，通勤鐵路仍然得到發展。1980年代對鐵路實行放寬管制，使票價自由化的鐵路在貨運方面重獲生機。目前，美國鐵路網的總長度為139,679英里（2011年），鐵路員工數約為21萬。 雖然目前美國鐵路長途客運日漸式微，但貨運總量仍十分可觀。美國鐵路大量運送的貨櫃、煤炭和石油，在經濟發展中起重要作用。從1987年至2000年，美國鐵路貨運量增長172％，鐵路運輸占運輸市場份額的43%，高於其他發達國家。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-25T18:15:02.460135Z"
     },
     {
       "source_id": "wiki-random:en:752474",
@@ -1853,16 +1783,6 @@
       "added_at": "2026-07-29T18:30:40.498246Z"
     },
     {
-      "source_id": "wiki-random:en:1432191",
-      "source_name": "EN Wikipedia：Japanese encephalitis",
-      "source_url": "https://en.wikipedia.org/wiki/Japanese_encephalitis",
-      "title": "Japanese encephalitis",
-      "excerpt": "Japanese encephalitis (JE) is an infection of the brain caused by the Japanese encephalitis virus (JEV). While most infections result in little or no symptoms, occasional inflammation of the brain occurs. In these cases, symptoms may include headache, vomiting, fever, confusion and seizures. This occurs about 5 to 15 days after infection. JEV is generally spread by mosquitoes, specifically those of the Culex type. Pigs and wild birds serve as a reservoir for the virus. The disease occurs mostly outside of cities. Diagnosis is based on blood or cerebrospinal fluid testing. Prevention is generally achieved with the Japanese encephalitis vaccine, which is both safe and effective. Other measures include avoiding mosquito bites. Once infected, there is no specific treatment, with care being supportive. This is generally carried out in a hospital. Permanent problems occur in up to half of people who recover from JE. The disease primarily occurs in East and Southeast Asia as well as the Western Pacific. About 3 billion people live in areas where the disease occurs. About 68,000 symptomatic cases occur a year, with about 17,000 deaths. Often, cases occur in outbreaks. The disease was first...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-29T18:30:40.498779Z"
-    },
-    {
       "source_id": "wiki-random:en:2179636",
       "source_name": "EN Wikipedia：Arcus senilis",
       "source_url": "https://en.wikipedia.org/wiki/Arcus_senilis",
@@ -2001,16 +1921,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-30T18:53:19.966979Z"
-    },
-    {
-      "source_id": "wiki-random:en:20032059",
-      "source_name": "EN Wikipedia：Radio Éireann Players",
-      "source_url": "https://en.wikipedia.org/wiki/Radio_%C3%89ireann_Players",
-      "title": "Radio Éireann Players",
-      "excerpt": "The Radio Éireann Players (RÉP) were a repertory company for radio in Ireland, formed in 1947, which performed in regular drama productions for Irish broadcaster, Radio Éireann. After the depredations of the war-time years and a devastating fire in the Abbey Theatre in 1951, the Radio Éireann Players' powerful weekly performances inspired interest in drama throughout the country. Their effect has been compared to an effort at national re-invention, in the same way that the national theatre fifty years earlier had been an attempt to redefine Irish identity.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-30T18:53:19.969244Z"
     },
     {
       "source_id": "wiki-random:zh:3941959",
@@ -2183,16 +2093,6 @@
       "added_at": "2026-07-31T18:50:17.821473Z"
     },
     {
-      "source_id": "wiki-random:en:35591349",
-      "source_name": "EN Wikipedia：Far Away Places (Mad Men)",
-      "source_url": "https://en.wikipedia.org/wiki/Far_Away_Places_(Mad_Men)",
-      "title": "Far Away Places (Mad Men)",
-      "excerpt": "\"Far Away Places\" is the sixth episode of the fifth season of the American television drama series Mad Men and the 58th episode of the series overall. It was written by series creator and executive producer Matthew Weiner and writer Semi Chellas, and directed by Scott Hornbacher. It originally aired on AMC in the United States on April 22, 2012. The episode takes place almost entirely over a single day, telling three stories in a non-linear narrative. Peggy becomes alienated after separate fights with her boyfriend Abe and a client. Roger and Jane take LSD with a group of intellectuals, altering how they see the world and allowing them to speak honestly about their marriage. Don and Megan leave the office and take an impromptu road trip to Plattsburgh, New York, which doesn't turn out as planned after Megan becomes aggrieved with how Don treats her. \"Far Away Places\" was watched by 2.6 million viewers and achieved 0.9 million viewers in the key 18–49 demographic. The episode received overwhelming critical acclaim, with many critics noting the episode's formal experiments with and focus on the passage of time. The sequence where Roger and Jane take LSD was particularly celebrated for...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-31T18:50:17.821899Z"
-    },
-    {
       "source_id": "wiki-random:en:75250253",
       "source_name": "EN Wikipedia：NGC 3786",
       "source_url": "https://en.wikipedia.org/wiki/NGC_3786",
@@ -2361,16 +2261,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-08-02T18:16:42.036927Z"
-    },
-    {
-      "source_id": "wiki-random:en:10993971",
-      "source_name": "EN Wikipedia：Pinolate (cookie)",
-      "source_url": "https://en.wikipedia.org/wiki/Pinolate_(cookie)",
-      "title": "Pinolate (cookie)",
-      "excerpt": "Pinolate ( pl.: Italian: [pinoˈlaːte]) or pignolate (Italian: [piɲɲoˈlaːte], sg.: pinolata / pignolata) are a type of cookie originating in Neapolitan, Genovese and Umbrian cuisine. They are popular in all of southern Italy, and in Sicilian communities in the United States, where they may also be known as pignoli (sg.: pignolo). The cookies are light golden color and studded with golden pine nuts (pinoli in Italian). Made with almond paste and egg whites, they are moist, soft and chewy. Pinolate are a popular Italian holiday treat, especially at Christmas. Because both almond paste and pine nuts are relatively expensive and these cookies use substantial amounts of both, it is a luxury food. Being essentially an almond macaroon, pinolate belong to a type known as \"amaretto\".",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-02T18:16:42.037438Z"
     },
     {
       "source_id": "wiki-random:zh:363358",
@@ -2643,16 +2533,6 @@
       "added_at": "2026-08-03T19:02:27.894111Z"
     },
     {
-      "source_id": "wiki-random:en:27910411",
-      "source_name": "EN Wikipedia：The New Adventures of Old Christine season 1",
-      "source_url": "https://en.wikipedia.org/wiki/The_New_Adventures_of_Old_Christine_season_1",
-      "title": "The New Adventures of Old Christine season 1",
-      "excerpt": "The first season of The New Adventures of Old Christine originally aired on CBS on Monday nights at 9:30/8:30 pm from March 13, 2006 through May 22, 2006. It consisted of 13 episodes. In this season Christine has only just enrolled her son, Richie at a new posh private school, where she is constantly being humiliated by Marly and Lindsay, some non-working mothers at the school. On top of all this she has just discovered her ex-husband, Richard has started dating a much younger woman who is also named Christine. Christine has a brief fling with Burton but they soon break up due to Christine not being able to commit to the relationship. In the season finale Christine kisses Richard so New Christine breaks up with him. The first season on DVD and Blu-ray Disc box set was released on January 15, 2008.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-03T19:02:27.894725Z"
-    },
-    {
       "source_id": "wiki-random:en:2051480",
       "source_name": "EN Wikipedia：Coulter counter",
       "source_url": "https://en.wikipedia.org/wiki/Coulter_counter",
@@ -2853,26 +2733,6 @@
       "added_at": "2026-08-07T18:08:32.155876Z"
     },
     {
-      "source_id": "wiki-random:en:3491674",
-      "source_name": "EN Wikipedia：Constitution of New York",
-      "source_url": "https://en.wikipedia.org/wiki/Constitution_of_New_York",
-      "title": "Constitution of New York",
-      "excerpt": "The Constitution of the State of New York establishes the structure of the government of the State of New York, and enumerates the basic rights of the citizens of New York. Like most state constitutions in the United States, New York's constitution's provisions tend to be more detailed and amended more often than its federal counterpart. Because the history of the state constitution differs from the federal constitution, the New York Court of Appeals has seen fit to interpret analogous provisions differently from United States Supreme Court's interpretation of federal provisions.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-07T18:08:32.156328Z"
-    },
-    {
-      "source_id": "wiki-random:en:24539740",
-      "source_name": "EN Wikipedia：Montana v. United States",
-      "source_url": "https://en.wikipedia.org/wiki/Montana_v._United_States",
-      "title": "Montana v. United States",
-      "excerpt": "Montana v. United States, 450 U.S. 544 (1981), was a Supreme Court case that addressed two issues: (1) Whether the title of the Big Horn Riverbed rested with the United States, in trust for the Crow Tribe or passed to the State of Montana upon becoming a state and (2) Whether Crow Tribe retained the power to regulate hunting and fishing on tribal lands owned in fee-simple by a non-tribal member. First, the Court held that Montana held title to the Big Horn Riverbed because the Equal Footing Doctrine required the United States to pass title to the newly incorporated State. Second, the Court held that Crow Tribe lacked the power to regulate nonmember hunting and fishing on fee-simple land owned by nonmembers, but within the bounds of its reservation. More broadly, the Court held that Tribes could not exercise regulatory authority over nonmembers on fee-simple land within the reservation unless (1) the nonmember entered a \"consensual relationship\" with the Tribe or its members or (2) the nonmember's \"conduct threatens or has some direct effect on the political integrity, the economic security, or the health or welfare of the tribe.\" The Supreme Court in Montana v. United States set a precedent...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-07T18:08:32.156880Z"
-    },
-    {
       "source_id": "wiki-random:en:70686163",
       "source_name": "EN Wikipedia：Squatting in Bhutan",
       "source_url": "https://en.wikipedia.org/wiki/Squatting_in_Bhutan",
@@ -2891,16 +2751,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-08-07T18:08:32.157498Z"
-    },
-    {
-      "source_id": "wiki-random:zh:697199",
-      "source_name": "ZH Wikipedia：茶色蟆口鴟",
-      "source_url": "https://zh.wikipedia.org/wiki/%E8%8C%B6%E8%89%B2%E8%9F%86%E5%8F%A3%E9%B4%9F",
-      "title": "茶色蟆口鴟",
-      "excerpt": "茶色蟆口鴟（英文：Tawny frogmouth，学名：Podargus strigoides），又名褐蟆口鴟、茶色蛙口鷹、茶色夜鶯或茶色夜鷹，是一種蟆口鴟，主要分佈在澳大利亚大陆、塔斯曼尼亞岛及新畿內亞南部。茶色蟆口鴟因为其外形和通常在低光环境下出没，经常被误认为是猫头鹰。 雄鳥與雌鳥相似，約長35～50厘米。牠們的眼睛是黃色的，闊喙上有一束羽毛。牠們可以用喙發出響聲。 茶色蟆口鴟於夜間飛行獵食，早上會留在樹上，等待獵物的到來。牠們會用喙捕捉獵物而不用鈎爪，有時從樹上衝往地上捕捉獵物。牠們的飞行能力不是很强，并且没有攻击能力，因此遇到危险时依赖保护色和拟态躲避捕食者——它们的偽裝很好，當一动不动時會被当作是樹幹的一部份。茶色蟆口鴟主要捕食昆蟲（比如蛾子、蟬、蚜蟲、甲蟲、黄蜂、螞蟻等）、蝸牛、蛞蝓、蠕蟲、蜘蛛、蠍子、蜈蚣、馬陸等小型猎物，偶尔也会捕食青蛙、蜥蜴、壁虎、老鼠以及一些小型的鸟类和哺乳动物。 茶色蟆口鴟成雙成對的生活，直至另一方死去。牠們於每年的8月至12月交配。牠們會住在同一個巢中，並會修理鬆散及不整齊的部份。雌鳥與雄鳥交配後，會在巢中產下2～3顆蛋。雄鳥及雌鳥會輪流看守蛋，約於30日就會孵化。牠們會一同的哺育雛鳥。雛鳥孵化後25日就可以離巢過自己的生活。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-07T18:08:32.158063Z"
     },
     {
       "source_id": "wiki-random:zh:3764800",
@@ -2973,16 +2823,6 @@
       "added_at": "2026-08-07T18:08:32.161873Z"
     },
     {
-      "source_id": "wiki-random:zh:7329060",
-      "source_name": "ZH Wikipedia：抗原漂變",
-      "source_url": "https://zh.wikipedia.org/wiki/%E6%8A%97%E5%8E%9F%E6%BC%82%E8%AE%8A",
-      "title": "抗原漂變",
-      "excerpt": "抗原漂变，又称抗原漂移、抗原性漂变、抗原连续变异（英文：Antigenic drift），是病毒突变的一类形式，指病毒内的一种基因变化，由病毒表面蛋白基因（宿主抗体可识别）的持续突变产生。 抗原漂变会产生新的病毒毒株，可使得原本可防止感染的抗体失效，并让病毒可在免疫人群中扩散。流感病毒的抗原漂变也是人群每年需要接种新流感疫苗的重要原因。 当病毒的表面抗原与相应的免疫受体相结合时，免疫系统即可识别该病毒。这些免疫受体可以是血液中的抗体，或免疫细胞的表面蛋白。识别过程非常精准，就像门锁和相匹配的钥匙一般。在人体受到感染或接种疫苗后，体内将产生大量相关的病毒免疫受体，可防止同一病毒的再次感染，这被称为获得性免疫。但是，病毒基因组存在持续突变，会产生新的病原体。如果新的毒株与原本的毒株相差甚大，则不会再与原有的抗体或免疫细胞相结合，使得变种病毒依然可以感染对原本病毒已免疫的人群。 1940年代，美国微生物学家莫里斯·希勒曼发现了抗原漂变现象。抗原漂变是流感病毒最常见的变化方式，可发生在所有流感病毒中，包括甲型流感病毒、乙型流感病毒、丙型流感病毒。 抗原漂变的速率主要取决于两个方面：流行病疫情持续的时间，以及宿主免疫的强度。长时间的疫情流行可产生长时间的演化压力，而高强度的宿主免疫也会加强演化压力，进而可能产生新型病原体。 另一种变化方式是抗原转变，即当病毒间或不同毒株间通过相互融合而获得全新的表面抗原的过程。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-07T18:08:58.882681Z"
-    },
-    {
       "source_id": "wiki-random:zh:1579959",
       "source_name": "ZH Wikipedia：時間反演對稱",
       "source_url": "https://zh.wikipedia.org/wiki/%E6%99%82%E9%96%93%E5%8F%8D%E6%BC%94%E5%B0%8D%E7%A8%B1",
@@ -3011,16 +2851,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-08-07T18:08:58.883970Z"
-    },
-    {
-      "source_id": "wiki-random:en:1383618",
-      "source_name": "EN Wikipedia：Mama and papa",
-      "source_url": "https://en.wikipedia.org/wiki/Mama_and_papa",
-      "title": "Mama and papa",
-      "excerpt": "In linguistics, mama and papa are considered a special case of false cognates. In many languages of the world, sequences of sounds similar to /mama/ and /papa/ mean \"mother\" and \"father\", usually but not always in that order. This is thought to be a coincidence resulting from the process of early language acquisition.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-07T18:08:58.885122Z"
     },
     {
       "source_id": "wiki-random:en:70956038",
@@ -3053,16 +2883,6 @@
       "added_at": "2026-08-07T18:08:58.886888Z"
     },
     {
-      "source_id": "wiki-random:zh:3546109",
-      "source_name": "ZH Wikipedia：三相 (电学)",
-      "source_url": "https://zh.wikipedia.org/wiki/%E4%B8%89%E7%9B%B8_(%E7%94%B5%E5%AD%A6)",
-      "title": "三相 (电学)",
-      "excerpt": "在电子工程学中，三相交流电一般是将可变的电压通过三组不同的导体。这三组电压幅值相等、频率相等、彼此之间的相位差为120度。 通常来说，三相交流电分三角形接法（Δ）和星型接法（Y）两种。三角形接法即为将各相电源或负载依次首尾相连，形成一个三角环；而星型接法则是将各相电源或负载的一端连接在一点，形成一个中性点，这种接法又称为三相三线制。如果从该中性点再引出一条中性线，则整个结构变为三相四线制。其中星型接法允许对各相加上不同的电压。例如常见的230/400伏三相交流电，就是在中性点和任意一相上加上230伏，余下的两相各加上400伏的电压。三角形接法由于各相首尾相连，只能存在一种电压，但是其优点在于即使三相中有一相失去作用，整个系统仍然可以运作（效率为原来的57.7%）。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-07T18:09:21.624234Z"
-    },
-    {
       "source_id": "wiki-random:zh:9428649",
       "source_name": "ZH Wikipedia：拦街福",
       "source_url": "https://zh.wikipedia.org/wiki/%E6%8B%A6%E8%A1%97%E7%A6%8F",
@@ -3073,16 +2893,6 @@
       "added_at": "2026-08-07T18:09:21.624751Z"
     },
     {
-      "source_id": "wiki-random:en:28602375",
-      "source_name": "EN Wikipedia：Ichthyosis with confetti",
-      "source_url": "https://en.wikipedia.org/wiki/Ichthyosis_with_confetti",
-      "title": "Ichthyosis with confetti",
-      "excerpt": "Ichthyosis en confetti, is a very rare form of congenital ichthyosis in which healthy patches of normal skin co-exist within the abnormal skin areas. The condition is caused by a frameshift mutation in the keratin 10 gene (KRT10); mutant keratin 10 accumulates in the nucleolus, a sub-nuclear structure, rather than within cellular intermediate filaments like the wild-type protein. Children with the condition exhibit red, flaky skin; however, for reasons not yet totally clear, wild type clonal patches of skin start to appear, in place of the red, flaky skin. Due to the clonal nature of the growth of the normal skin cells, it appears the patient is covered with confetti, hence the name of the condition. It has been hypothesized that this is the result of a combination of mitotic recombination and natural selection within the skin.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-07T18:09:21.626340Z"
-    },
-    {
       "source_id": "wiki-random:zh:1154229",
       "source_name": "ZH Wikipedia：聚对二甲苯",
       "source_url": "https://zh.wikipedia.org/wiki/%E8%81%9A%E5%AF%B9%E4%BA%8C%E7%94%B2%E8%8B%AF",
@@ -3091,16 +2901,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-08-07T18:09:21.627487Z"
-    },
-    {
-      "source_id": "wiki-random:zh:7976797",
-      "source_name": "ZH Wikipedia：大西洋湿地公园",
-      "source_url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E8%A5%BF%E6%B4%8B%E6%B9%BF%E5%9C%B0%E5%85%AC%E5%9B%AD",
-      "title": "大西洋湿地公园",
-      "excerpt": "大西洋湿地公园（西班牙語：Parque atlántico de Las Llamas）是一个城市公园，位于西班牙坎塔布里亚自治区桑坦德市。2007年5月11日对公众开放。面积309173平方米（第一期），另有426000平方米待开发。全部建成后，它将是桑坦德市树木最茂盛的公园设计小组由加泰罗尼亚建筑师恩里克·巴特勒（Enric Batlle）和琼·罗伊格（Joan Roig）领导。 “llama”一词意为湿地。 过去，进入湿地的唯一途径是难行的小径，公众无法使用和享受这片湿地。这片被废弃之地沦为堆放垃圾之地，城市废水的排放也导致生态系统的水质退化。从2006年开始，桑坦德市政厅从私人业主那里获得土地，建造前卫主义风格的桑坦德体育宫，同时，在旁边建造一个大型城市公园，作为该市的主要绿肺，配备各种设施，包括健身房、圆形剧场、博物馆和植物园，种植世界各地植物。可以从桑坦德体育宫、坎塔布里亚大学、卡斯特罗大道或宪法大道附近进入公园。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-07T18:09:21.628756Z"
     },
     {
       "source_id": "wiki-random:zh:3983829",
@@ -3123,16 +2923,6 @@
       "added_at": "2026-08-07T18:09:21.630259Z"
     },
     {
-      "source_id": "wiki-random:en:51599956",
-      "source_name": "EN Wikipedia：Dental health diets for dogs",
-      "source_url": "https://en.wikipedia.org/wiki/Dental_health_diets_for_dogs",
-      "title": "Dental health diets for dogs",
-      "excerpt": "Oral disease is one of the most common diseases found in dogs. It is caused by the buildup of various anaerobic bacteria in the mouth which forms plaque, eventually hardening into tartar on the teeth along the gum line, and is related to the development of gingivitis. Since small and toy breeds have a much smaller jaw but contain the same number of teeth, crowding allows higher bacterial build up and puts them at higher risk of developing periodontal disease. Although daily brushing provides the best preventative measure, feeding a dental diet or using dental chews for dogs is an effective approach pet owners can take to help prevent and control accumulation of plaque and tartar to avoid consequences of severe periodontal disease. Dental diets consider many aspects of oral health such as inflammation, bone health and physical and chemical characteristics of the kibble when being formulated. Some diets, chews and/or other oral products may also strive to receive approval by the Veterinary Oral Health Council (VOHC) for validation of their product's claims.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-07T18:09:43.814996Z"
-    },
-    {
       "source_id": "wiki-random:en:16212349",
       "source_name": "EN Wikipedia：Optical landing system",
       "source_url": "https://en.wikipedia.org/wiki/Optical_landing_system",
@@ -3143,16 +2933,6 @@
       "added_at": "2026-08-07T18:09:43.815353Z"
     },
     {
-      "source_id": "wiki-random:en:42427303",
-      "source_name": "EN Wikipedia：Digital Solid State Propulsion",
-      "source_url": "https://en.wikipedia.org/wiki/Digital_Solid_State_Propulsion",
-      "title": "Digital Solid State Propulsion",
-      "excerpt": "Digital Solid State Propulsion (DSSP) is an aerospace company developing microthruster propulsion technology for small satellites. DSSP's technology utilizes Electric Solid Propellants (ESPs) to enable small satellites to make orbital maneuvers that have generally not been possible in the very small, mass-constrained satellites such as CubeSats and nanosats. DSSP's first flight was aboard the NRL SPINSAT, launched as a secondary payload on SpaceX CRS-4 and deployed from the Kibo module airlock on 28 November 2014. NASA safety experts approved the mission because the satellite's 12 thruster-clusters burn an inert solid fuel, that only ignite when an electric charge is passed across it. In July 2012, DSSP won second place in the 2012 NewSpace Business Plan Competition in Silicon Valley, sponsored by the Space Frontier Foundation.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-07T18:09:43.816103Z"
-    },
-    {
       "source_id": "wiki-random:zh:5698996",
       "source_name": "ZH Wikipedia：乌兹伯伊水道",
       "source_url": "https://zh.wikipedia.org/wiki/%E4%B9%8C%E5%85%B9%E4%BC%AF%E4%BC%8A%E6%B0%B4%E9%81%93",
@@ -3161,26 +2941,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-08-07T18:09:43.818101Z"
-    },
-    {
-      "source_id": "wiki-random:en:9481583",
-      "source_name": "EN Wikipedia：Lexicalization",
-      "source_url": "https://en.wikipedia.org/wiki/Lexicalization",
-      "title": "Lexicalization",
-      "excerpt": "In linguistics, lexicalization is the process of adding words, set phrases, or word patterns to a language's lexicon. Whether word formation and lexicalization refer to the same process is controversial within the field of linguistics. Most linguists agree that there is a distinction, but there are many ideas of what the distinction is. Lexicalization may be simple, for example borrowing a word from another language, or more involved, as in calque or loan translation, wherein a foreign phrase is translated literally, as in marché aux puces, or in English, flea market. Other mechanisms include compounding, abbreviation, and blending. Particularly interesting from the perspective of historical linguistics is the process by which ad hoc phrases become set in the language, and eventually become new words (see lexicon). Lexicalization contrasts with grammaticalization, and the relationship between the two processes is subject to some debate.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-07T18:09:43.818708Z"
-    },
-    {
-      "source_id": "wiki-random:en:65146839",
-      "source_name": "EN Wikipedia：Fachtna Joseph Harte",
-      "source_url": "https://en.wikipedia.org/wiki/Fachtna_Joseph_Harte",
-      "title": "Fachtna Joseph Harte",
-      "excerpt": "Monsignor Fachtna Joseph Harte (1930-2020), was an Irish Catholic priest, who served in Washington and Orlando, and founded the Basilica of Mary, Queen of the Universe, the national shrine in Florida. Born in 1930 in County Mayo, in Ireland. Educated at St. Gerald’s Secondary School in Castlebar and St. Mary’s Secondary School in Athlone, he trained as Teacher in De La Salle College Waterford and joined the Marist Teaching order which i left in 1955 to become a priest training first in Mound Melleray Seminary Co. Waterford and at the foreign missionary college All Hallows College, Dublin. He was ordained for the priesthood in All Hallows College, Dublin in 1961, working first in Diocese of Yakima, Washington State where he worked as a priest and school teacher then being transferred to the Diocese of Orlando. He gained a masters in education from the University of Portland, and later a Masters in Religious Education from Barry University, Miami. He was honoured with the title Monsignor, chaplain to his holiness in 2003, and retired in 2007. His book They Shall Bear You Up - Memories of a Catholic Priest, was published in 2011. Monsignor Harte's, Flames at Twilight: The Novel of St....",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-07T18:09:43.819735Z"
     }
   ]
 }

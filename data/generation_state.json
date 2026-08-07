@@ -3624,7 +3624,151 @@
       "source_url": "https://zh.wikipedia.org/wiki/%E9%A2%B1%E9%A2%A8%E5%93%88%E7%88%BE_(1985%E5%B9%B4)",
       "outcome": "no_proposal",
       "reason": ""
+    },
+    "wiki-random:en:51599956": {
+      "last_seen": "2026-08-07T18:12:24.657993Z",
+      "source_url": "https://en.wikipedia.org/wiki/Dental_health_diets_for_dogs",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-random:en:1383618": {
+      "last_seen": "2026-08-07T18:12:24.658009Z",
+      "source_url": "https://en.wikipedia.org/wiki/Mama_and_papa",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-topic:en:26446": {
+      "last_seen": "2026-08-07T18:12:24.658017Z",
+      "source_url": "https://en.wikipedia.org/wiki/Recreational_mathematics",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:4303674": {
+      "last_seen": "2026-08-07T18:12:24.658022Z",
+      "source_url": "https://en.wikipedia.org/wiki/Deposition_(phase_transition)",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-random:en:9481583": {
+      "last_seen": "2026-08-07T18:12:24.658027Z",
+      "source_url": "https://en.wikipedia.org/wiki/Lexicalization",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:65146839": {
+      "last_seen": "2026-08-07T18:12:24.658031Z",
+      "source_url": "https://en.wikipedia.org/wiki/Fachtna_Joseph_Harte",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:24539740": {
+      "last_seen": "2026-08-07T18:12:24.658035Z",
+      "source_url": "https://en.wikipedia.org/wiki/Montana_v._United_States",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:zh:7329060": {
+      "last_seen": "2026-08-07T18:12:24.658040Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%8A%97%E5%8E%9F%E6%BC%82%E8%AE%8A",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-random:en:28602375": {
+      "last_seen": "2026-08-07T18:12:24.658045Z",
+      "source_url": "https://en.wikipedia.org/wiki/Ichthyosis_with_confetti",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-random:zh:7976797": {
+      "last_seen": "2026-08-07T18:12:24.658048Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E8%A5%BF%E6%B4%8B%E6%B9%BF%E5%9C%B0%E5%85%AC%E5%9B%AD",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:42427303": {
+      "last_seen": "2026-08-07T18:12:24.658052Z",
+      "source_url": "https://en.wikipedia.org/wiki/Digital_Solid_State_Propulsion",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-random:zh:697199": {
+      "last_seen": "2026-08-07T18:12:24.658056Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E8%8C%B6%E8%89%B2%E8%9F%86%E5%8F%A3%E9%B4%9F",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-random:en:1432191": {
+      "last_seen": "2026-08-07T18:12:24.658061Z",
+      "source_url": "https://en.wikipedia.org/wiki/Japanese_encephalitis",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-random:en:27910411": {
+      "last_seen": "2026-08-07T18:12:24.658065Z",
+      "source_url": "https://en.wikipedia.org/wiki/The_New_Adventures_of_Old_Christine_season_1",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:35591349": {
+      "last_seen": "2026-08-07T18:12:24.658069Z",
+      "source_url": "https://en.wikipedia.org/wiki/Far_Away_Places_(Mad_Men)",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:zh:3546109": {
+      "last_seen": "2026-08-07T18:12:24.658073Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E4%B8%89%E7%9B%B8_(%E7%94%B5%E5%AD%A6)",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-random:zh:1821676": {
+      "last_seen": "2026-08-07T18:12:24.658077Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E9%87%8D%E6%B0%AE%E5%8C%96%E5%90%88%E7%89%A91,3-%E5%81%B6%E6%9E%81%E7%8E%AF%E5%8A%A0%E6%88%90%E5%8F%8D%E5%BA%94",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:53776880": {
+      "last_seen": "2026-08-07T18:12:24.658081Z",
+      "source_url": "https://en.wikipedia.org/wiki/Temple_of_Ezbet_Rushdi",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:219023": {
+      "last_seen": "2026-08-07T18:12:24.658085Z",
+      "source_url": "https://en.wikipedia.org/wiki/Swift_(bird)",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-random:en:3491674": {
+      "last_seen": "2026-08-07T18:12:24.658089Z",
+      "source_url": "https://en.wikipedia.org/wiki/Constitution_of_New_York",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:20032059": {
+      "last_seen": "2026-08-07T18:12:24.658093Z",
+      "source_url": "https://en.wikipedia.org/wiki/Radio_%C3%89ireann_Players",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-random:en:10993971": {
+      "last_seen": "2026-08-07T18:12:24.658097Z",
+      "source_url": "https://en.wikipedia.org/wiki/Pinolate_(cookie)",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-random:en:12063332": {
+      "last_seen": "2026-08-07T18:12:24.658101Z",
+      "source_url": "https://en.wikipedia.org/wiki/Miss_USA_1990",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-random:zh:3740869": {
+      "last_seen": "2026-08-07T18:12:24.658105Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E7%BE%8E%E5%9C%8B%E9%90%B5%E8%B7%AF%E9%81%8B%E8%BC%B8%E5%8F%B2",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
     }
   },
-  "updated_at": "2026-08-07T18:09:43.826970Z"
+  "updated_at": "2026-08-07T18:12:24.666376Z"
 }

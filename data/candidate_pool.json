@@ -1,7 +1,27 @@
 {
   "version": 1,
-  "updated_at": "2026-08-04T19:04:25.877105Z",
+  "updated_at": "2026-08-07T18:09:43.822058Z",
   "candidates": [
+    {
+      "source_id": "wiki-topic:en:26446",
+      "source_name": "EN Wikipedia：Recreational mathematics",
+      "source_url": "https://en.wikipedia.org/wiki/Recreational_mathematics",
+      "title": "Recreational mathematics",
+      "excerpt": "Recreational mathematics is mathematics carried out for recreation (entertainment) rather than as a strictly research-and-application-based professional activity or as a part of a student's formal education. The Mathematical Association of America (MAA) has seventeen Special Interest Groups which includes a recreational math group called SIGMAA-Rec. The SIGMAA-Rec website defines recreational mathematics as, \"...a broad term that covers many different areas including games, puzzles, magic, art, and more.\" Although it is not necessarily limited to being an endeavor for amateurs, many topics in this field require no knowledge of advanced mathematics. Mathematical competitions (such as those sponsored by mathematical associations) are also categorized under recreational mathematics.",
+      "category_hint": "生活",
+      "source_rank": 2,
+      "added_at": "2026-08-07T18:08:32.155043Z"
+    },
+    {
+      "source_id": "wiki-topic:en:4303674",
+      "source_name": "EN Wikipedia：Deposition (phase transition)",
+      "source_url": "https://en.wikipedia.org/wiki/Deposition_(phase_transition)",
+      "title": "Deposition (phase transition)",
+      "excerpt": "}} Deposition is the phase transition in which gas transforms into solid without passing through the liquid phase. Deposition is a thermodynamic process. The reverse of deposition is sublimation and hence sometimes deposition is called desublimation.",
+      "category_hint": "科学",
+      "source_rank": 2,
+      "added_at": "2026-08-07T18:08:32.155225Z"
+    },
     {
       "source_id": "wiki-random:zh:2872377",
       "source_name": "ZH Wikipedia：服務性 (電腦)",
@@ -2821,6 +2841,346 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-08-04T19:02:23.892011Z"
+    },
+    {
+      "source_id": "wiki-random:zh:4813821",
+      "source_name": "ZH Wikipedia：埃及河流",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%9F%83%E5%8F%8A%E6%B2%B3%E6%B5%81",
+      "title": "埃及河流",
+      "excerpt": "埃及河流列表，列舉全部或部分在埃及境內的河流。 埃及境內只有一條常年有水的河流：尼羅河。它在埃及境內並無任何非季節性支流，即使是最近的支流：藍尼羅河與白尼羅河，也在南邊鄰國蘇丹的中部就已經會合。 在尼羅河三角洲裡，河水分叉成一些分流及小型運河。在古代，尼羅河曾經有「七條分流」，由於泥沙淤塞，僅有兩條存留至今。這七條分流是： 皮拉波尼西安河（Pilaponesian） 坦尼提克河（Tanitic） 門得西案河（Mendesian） 法特尼提克河（Phatnitic）：存留至今，現名達米耶塔河（Damietta）或達姆耶特河（Damyat）。 塞班尼提克河（Sebennytic） 波爾比提尼克河（Bolbitinic） 卡諾皮克河（Canopic）：存留至今，現名羅塞塔河（Rosetta）或瑞希德河（Rashid）。 尼羅河也有一些穿越東部沙漠的經常性乾枯支流（乾谷）與它交會。這些乾谷由沿著埃及紅海海岸分佈的山區收集雨水，只有極少數的雨水可以流至乾谷的幹流，再注入尼羅河。其中三條主要的乾谷為： 阿巴德乾谷（Wadi Abbad）：流域面積 7,000 km² 夏伊特乾谷（Wadi Shait）：長200 km，流域面積 10,000 km² 艾爾-卡里特乾谷（Wadi El-Kharit）：長 260 km，流域面積 23,000 km²",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-07T18:08:32.155876Z"
+    },
+    {
+      "source_id": "wiki-random:en:3491674",
+      "source_name": "EN Wikipedia：Constitution of New York",
+      "source_url": "https://en.wikipedia.org/wiki/Constitution_of_New_York",
+      "title": "Constitution of New York",
+      "excerpt": "The Constitution of the State of New York establishes the structure of the government of the State of New York, and enumerates the basic rights of the citizens of New York. Like most state constitutions in the United States, New York's constitution's provisions tend to be more detailed and amended more often than its federal counterpart. Because the history of the state constitution differs from the federal constitution, the New York Court of Appeals has seen fit to interpret analogous provisions differently from United States Supreme Court's interpretation of federal provisions.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-07T18:08:32.156328Z"
+    },
+    {
+      "source_id": "wiki-random:en:24539740",
+      "source_name": "EN Wikipedia：Montana v. United States",
+      "source_url": "https://en.wikipedia.org/wiki/Montana_v._United_States",
+      "title": "Montana v. United States",
+      "excerpt": "Montana v. United States, 450 U.S. 544 (1981), was a Supreme Court case that addressed two issues: (1) Whether the title of the Big Horn Riverbed rested with the United States, in trust for the Crow Tribe or passed to the State of Montana upon becoming a state and (2) Whether Crow Tribe retained the power to regulate hunting and fishing on tribal lands owned in fee-simple by a non-tribal member. First, the Court held that Montana held title to the Big Horn Riverbed because the Equal Footing Doctrine required the United States to pass title to the newly incorporated State. Second, the Court held that Crow Tribe lacked the power to regulate nonmember hunting and fishing on fee-simple land owned by nonmembers, but within the bounds of its reservation. More broadly, the Court held that Tribes could not exercise regulatory authority over nonmembers on fee-simple land within the reservation unless (1) the nonmember entered a \"consensual relationship\" with the Tribe or its members or (2) the nonmember's \"conduct threatens or has some direct effect on the political integrity, the economic security, or the health or welfare of the tribe.\" The Supreme Court in Montana v. United States set a precedent...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-07T18:08:32.156880Z"
+    },
+    {
+      "source_id": "wiki-random:en:70686163",
+      "source_name": "EN Wikipedia：Squatting in Bhutan",
+      "source_url": "https://en.wikipedia.org/wiki/Squatting_in_Bhutan",
+      "title": "Squatting in Bhutan",
+      "excerpt": "In 2001, about 10 per cent of the population of Bhutan's capital city Thimphu were living in squatted informal settlements; by 2019, the figure had dropped to 2 per cent since the squatters had been rehoused. There are also rudimentary settlements on the periphery of other cities such as Phuntsholing and Samdrup Jongkhar. The inhabitants work as manual labourers or in the informal economy. There are forest squatters in the south of Bhutan on the border with India: in 2016, evictions led to riots in Chirang district, in the Bodoland Territorial Region; in Kokrajhar district, entrepreneurs clear forest land and sell the right the live there to people who become de facto squatters. In the 1990s, a process of ethnic cleansing in the south of Bhutan led to around 100,000 Lhotshampa (Bhutanese people of Nepalese descent) being driven into Nepal, where they either squat or live in refugee camps.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-07T18:08:32.157293Z"
+    },
+    {
+      "source_id": "wiki-random:en:38644701",
+      "source_name": "EN Wikipedia：Allan Hills A81005",
+      "source_url": "https://en.wikipedia.org/wiki/Allan_Hills_A81005",
+      "title": "Allan Hills A81005",
+      "excerpt": "Allan Hills A81005 or ALH A81005 (sometimes also named without the \"A\" in front of the number) was the first meteorite to be recognised as a lunar meteorite. The meteorite Yamato 791197 was discovered in 1979 but its lunar origin was not recognised until 1984. ALH A81005 was found in 1982 in the Allan Hills at the end of the Transantarctic Mountains, during a meteorite gathering expedition (ANSMET).",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-07T18:08:32.157498Z"
+    },
+    {
+      "source_id": "wiki-random:zh:697199",
+      "source_name": "ZH Wikipedia：茶色蟆口鴟",
+      "source_url": "https://zh.wikipedia.org/wiki/%E8%8C%B6%E8%89%B2%E8%9F%86%E5%8F%A3%E9%B4%9F",
+      "title": "茶色蟆口鴟",
+      "excerpt": "茶色蟆口鴟（英文：Tawny frogmouth，学名：Podargus strigoides），又名褐蟆口鴟、茶色蛙口鷹、茶色夜鶯或茶色夜鷹，是一種蟆口鴟，主要分佈在澳大利亚大陆、塔斯曼尼亞岛及新畿內亞南部。茶色蟆口鴟因为其外形和通常在低光环境下出没，经常被误认为是猫头鹰。 雄鳥與雌鳥相似，約長35～50厘米。牠們的眼睛是黃色的，闊喙上有一束羽毛。牠們可以用喙發出響聲。 茶色蟆口鴟於夜間飛行獵食，早上會留在樹上，等待獵物的到來。牠們會用喙捕捉獵物而不用鈎爪，有時從樹上衝往地上捕捉獵物。牠們的飞行能力不是很强，并且没有攻击能力，因此遇到危险时依赖保护色和拟态躲避捕食者——它们的偽裝很好，當一动不动時會被当作是樹幹的一部份。茶色蟆口鴟主要捕食昆蟲（比如蛾子、蟬、蚜蟲、甲蟲、黄蜂、螞蟻等）、蝸牛、蛞蝓、蠕蟲、蜘蛛、蠍子、蜈蚣、馬陸等小型猎物，偶尔也会捕食青蛙、蜥蜴、壁虎、老鼠以及一些小型的鸟类和哺乳动物。 茶色蟆口鴟成雙成對的生活，直至另一方死去。牠們於每年的8月至12月交配。牠們會住在同一個巢中，並會修理鬆散及不整齊的部份。雌鳥與雄鳥交配後，會在巢中產下2～3顆蛋。雄鳥及雌鳥會輪流看守蛋，約於30日就會孵化。牠們會一同的哺育雛鳥。雛鳥孵化後25日就可以離巢過自己的生活。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-07T18:08:32.158063Z"
+    },
+    {
+      "source_id": "wiki-random:zh:3764800",
+      "source_name": "ZH Wikipedia：既得利益",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%97%A2%E5%BE%97%E5%88%A9%E7%9B%8A",
+      "title": "既得利益",
+      "excerpt": "既得利益（英語：Vested interest）是一種利益衝突，指的是一個人在決策時可能會因為在既有選擇下有機會獲得利益，而偏好這個選項。在社会生活中常被指责为有损社会公正的特权。 既得利益不一定是現在就已經有的利益，也可是若制度不變，該人或群體可以得到的。例如某地公務員有「論資排輩」制度，某人只需到達某個年齡即可得到某種職位；若在某些人已等了半輩子的情況之下改變這個制度，某人雖仍未得到該職位，仍可說是觸動了其既得利益。 在馬克思主義的視角下，統治階級與資產階級被認為會運用其掌握的政權與其思想的影響力，針對任何妨礙其身為既得利益者的個人或群體進行鬥爭並加以去除。目的是為了確保其在現實環境中賴以生存的經濟基礎，能進一步朝有利於自身的方向鞏固與發展，其運作模式可概括為「保護自己、排除異己」。擁有物質優勢的統治階級和資產階級形塑了該社會的經濟基礎，於是其思想意識便成為當代之主流、主體思想，即該社會的意識形態，由此也引伸出了馬克思的階級鬥爭說，其呼籲全世界的無產階級者聯合起來，推翻資產階級與統治階級透過政府行政機關等國家機器對其之剝削及壓迫等枷鎖。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-07T18:08:32.158428Z"
+    },
+    {
+      "source_id": "wiki-random:zh:9035448",
+      "source_name": "ZH Wikipedia：美国战队：世界警察",
+      "source_url": "https://zh.wikipedia.org/wiki/%E7%BE%8E%E5%9B%BD%E6%88%98%E9%98%9F%EF%BC%9A%E4%B8%96%E7%95%8C%E8%AD%A6%E5%AF%9F",
+      "title": "美国战队：世界警察",
+      "excerpt": "《美国战队：世界警察》（英語：Team America: World Police）是一部2004年上映的木偶喜剧电影，由特雷·帕克执导，他与马特·斯通和帕姆·布雷迪共同编剧。帕克和斯通与克里斯汀·米勒、马苏米·马克斯、达兰·诺里斯、菲尔·亨德里、莫里斯·拉马奇、杰里米·沙达和弗雷德·塔塔西奥雷共同主演。本片是一部对动作片套路、美国军国主义以及外交政策的讽刺作品，讲述了一个虚构的国际反恐部队招募一名百老汇演员，协助拯救世界免受金正日、伊斯兰恐怖分子和自由派好莱坞演员联盟的威胁。 影片采用木偶和微缩模型效果，类似于英国电视节目《雷鸟神机队》所采用的超级木偶技术，尽管斯通和帕克并非该节目的粉丝。他们与前《南方公园》编剧布雷迪合作近两年完善剧本。影片制作过程充满挑战，木偶的各种技术问题以及紧张的档期使得按时完成上映成为难题。影片还与美国电影协会多次冲突，因涉及木偶的露骨性爱场景而多次被评为NC-17级。 《美国战队：世界警察》于2004年10月14日在丹佛电影节首映，次日在美国影院上映。影片获得了评论家的普遍好评，并在票房上取得了一定的成功，全球票房超过5100万美元，制作预算为3200万美元。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-07T18:08:32.158644Z"
+    },
+    {
+      "source_id": "wiki-random:en:10853405",
+      "source_name": "EN Wikipedia：Biluochun",
+      "source_url": "https://en.wikipedia.org/wiki/Biluochun",
+      "title": "Biluochun",
+      "excerpt": "Biluochun or Bi Luo Chun (Chinese: 碧螺春; pinyin: Bì luó chūn; pronounced [pî.lwǒ.ʈʂʰwə́n]) is a famous green tea originally grown in the Dongting mountain region near Lake Tai in Suzhou, Jiangsu, China. Also known as Pi Lo Chun, it is renowned for its delicate appearance, fruity taste, floral aroma, showy white hairs and early cropping. The name Biluochun literally means \"green snail spring\". It is called so because it is a green tea that is rolled into a tight spiral, resembling snail meat, and is cropped in early spring. Its original name is Xia Sha Ren Xiang (simplified Chinese: 吓煞人香; traditional Chinese: 嚇煞人香; pinyin: xià shà rén xiāng; \"scary fragrance\"). Legend tells of its discovery by a tea picker who ran out of space in her basket and put the tea between her breasts instead. The tea, warmed by her body heat, emitted a strong aroma that surprised the girl. According to the Qing Dynasty chronicle Ye Shi Da Guan, the Kangxi Emperor visited Lake Tai in the 38th year of his rule. At that time, because of its rich aroma, local people called it \"Scary Fragrance\". The Kangxi Emperor decided to give it a more elegant name, \"Green Snail Spring\". It is so delicate and tender that...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-07T18:08:32.159646Z"
+    },
+    {
+      "source_id": "wiki-random:zh:415621",
+      "source_name": "ZH Wikipedia：蒸水蛋",
+      "source_url": "https://zh.wikipedia.org/wiki/%E8%92%B8%E6%B0%B4%E8%9B%8B",
+      "title": "蒸水蛋",
+      "excerpt": "蒸水蛋，又称蒸蛋、蛋羹、鸡蛋羹、鸡蛋糕，為中國烹饪中常見的小菜。各地做法细节均有所不同，一般而言，蒸水蛋应先将雞蛋打散成蛋液，加入调味料如鹽或酱油和饮用水一起攪勻蒸熟後，浇上熟油或葱花即可享用。 蒸水蛋对蒸制的时间要求比较苛刻，过久的蒸制会形成蜂窝状气泡、蒸熟後晾凉後再蒸，都會丧失滑嫩口感。蒸水蛋可以隨時揭開撿查成果。可揭蓋看多幾次及搖它幾下，蛋液已經凝固堅實表示蒸水蛋已熟。 常见的蒸蛋烹饪方式： 石灰蒸蛋 加入熟石灰帮助蒸蛋凝固。 肉饼蒸蛋 加入肉泥、肉饼一并蒸熟 蛤蜊蒸蛋、蝦仁蒸蛋、皮蛋蒸蛋 在蒸蛋快熟时加入蛤蜊、虾仁或皮蛋",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-07T18:08:32.160206Z"
+    },
+    {
+      "source_id": "wiki-random:zh:201015",
+      "source_name": "ZH Wikipedia：行程控制表",
+      "source_url": "https://zh.wikipedia.org/wiki/%E8%A1%8C%E7%A8%8B%E6%8E%A7%E5%88%B6%E8%A1%A8",
+      "title": "行程控制表",
+      "excerpt": "行程控制段（英語：Process Control Block，PCB）是作業系統核心中一種資料結構，主要表示行程狀態。 雖各實際情況不盡相同，PCB通常記載行程之相關資訊，包括： 行程狀態：可以是new、ready、running、waiting或blocked等。 程式計數器：接著要執行的指令位址。 CPU暫存器：如累加器、索引暫存器、堆疊指標以及一般用途暫存器、狀況代碼等，主要用途在於中斷時暫時儲存資料，以便稍後繼續利用；其數量及類別因電腦架構有所差異。 CPU排班法：優先順序、排班佇列等指標以及其他參數。 記憶體管理：如分頁表等。 會計資訊：如CPU與實際時間之使用數量、時限、帳號、工作或行程號碼。 輸入輸出狀態：配置行程使用I/O裝置，如磁帶機。 總言之，PCB如其名，內容不脫離各行程相關資訊。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-07T18:08:32.160281Z"
+    },
+    {
+      "source_id": "wiki-random:zh:3999",
+      "source_name": "ZH Wikipedia：艾伦·图灵",
+      "source_url": "https://zh.wikipedia.org/wiki/%E8%89%BE%E4%BC%A6%C2%B7%E5%9B%BE%E7%81%B5",
+      "title": "艾伦·图灵",
+      "excerpt": "艾伦·麦席森·图灵，OBE，FRS（英語：Alan Mathison Turing，又译阿兰·图灵，Turing也常翻譯成涂林或者杜林，1912年6月23日—1954年6月7日），英国電腦科學家、数学家、邏輯學家、密码分析学家和理论生物学家，他被誉为计算机科学與人工智能之父。 二次世界大战期间，「Hut 8」小组，负责德国海军密码分析。 期间他设计了一些加速破译德国密码的技术，包括改进波兰战前研制的机器Bombe，一种可以找到恩尼格玛密码机设置的机电机器。 图灵在破译截获的编码信息方面发挥了关键作用，使盟军能够在包括大西洋战役在内的许多重要交战中击败軸心國海軍，并因此帮助赢得了战争。 图灵对于人工智能的发展有诸多贡献，例如图灵曾写过一篇名为《計算機器和智能》的论文，提問「机器会思考吗？」（Can Machines Think?），作為一种用于判定机器是否具有智能的测试方法，即图灵测试。至今，每年都有试验的比赛。此外，图灵提出的著名的图灵机模型为现代计算机的逻辑工作方式奠定了基础。 图灵是男同性恋者，并因为其性倾向而遭到当时的英国政府迫害，职业生涯尽毁。他亦患有花粉过敏症。 图灵还是一位长跑运动员。他的马拉松最好成绩是2小時46分03秒（手動計時），比1948年奥林匹克运动会金牌成绩慢11分钟。1948年的一次越野赛跑中，他跑赢了同年奥运会银牌得主汤姆·理查兹。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-07T18:08:32.161709Z"
+    },
+    {
+      "source_id": "wiki-random:zh:898547",
+      "source_name": "ZH Wikipedia：螯变反应",
+      "source_url": "https://zh.wikipedia.org/wiki/%E8%9E%AF%E5%8F%98%E5%8F%8D%E5%BA%94",
+      "title": "螯变反应",
+      "excerpt": "螯变反应是环加成反应的一种，反应中，一个反应物的一个原子向另一个反应物共轭系统的两端原子加成，形成两个新的σ键。反应底物减少一个π键，该原子的配位数上升。 螯变反应形式上是(m+1)环加成反应，反应产物大多为五元环。逆反应称螯变消除反应，其驱动力常常是气态产物导致的熵增优势。螯变反应与逆反应都是立体专一反应，都遵守分子轨道对称守恒原理。 常见的螯变反应是1,3-丁二烯与二氧化硫的加成反应。该反应是可逆的，100°C以下有利于生成加成产物，100°C以上加成产物分解。ΔH = -16.5kcal/mol，平衡常数在100°C时约等于1。利用这个反应，环丁烯砜（固体）可用来提供1,3-丁二烯（气体）。 3-吡咯啉类化合物用N-硝基羟胺处理，得到一个二氮烯，分解生成氮气和一个二烯。 合成六苯基苯时，最后一步采用了螯变消除反应。用取代环戊二烯酮与炔烃加成生成取代双环[2.2.1]庚二烯-7-酮，脱羰得到六苯基苯： 环状砜类通过螯变消除反应，放出二氧化硫，生成二烯烃，紧接着与亲双烯体发生狄尔斯-阿尔德反应，是合成某类多环化合物的常用方法。下图的反应也是螯变消除反应的一个应用：",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-07T18:08:32.161873Z"
+    },
+    {
+      "source_id": "wiki-random:zh:7329060",
+      "source_name": "ZH Wikipedia：抗原漂變",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%8A%97%E5%8E%9F%E6%BC%82%E8%AE%8A",
+      "title": "抗原漂變",
+      "excerpt": "抗原漂变，又称抗原漂移、抗原性漂变、抗原连续变异（英文：Antigenic drift），是病毒突变的一类形式，指病毒内的一种基因变化，由病毒表面蛋白基因（宿主抗体可识别）的持续突变产生。 抗原漂变会产生新的病毒毒株，可使得原本可防止感染的抗体失效，并让病毒可在免疫人群中扩散。流感病毒的抗原漂变也是人群每年需要接种新流感疫苗的重要原因。 当病毒的表面抗原与相应的免疫受体相结合时，免疫系统即可识别该病毒。这些免疫受体可以是血液中的抗体，或免疫细胞的表面蛋白。识别过程非常精准，就像门锁和相匹配的钥匙一般。在人体受到感染或接种疫苗后，体内将产生大量相关的病毒免疫受体，可防止同一病毒的再次感染，这被称为获得性免疫。但是，病毒基因组存在持续突变，会产生新的病原体。如果新的毒株与原本的毒株相差甚大，则不会再与原有的抗体或免疫细胞相结合，使得变种病毒依然可以感染对原本病毒已免疫的人群。 1940年代，美国微生物学家莫里斯·希勒曼发现了抗原漂变现象。抗原漂变是流感病毒最常见的变化方式，可发生在所有流感病毒中，包括甲型流感病毒、乙型流感病毒、丙型流感病毒。 抗原漂变的速率主要取决于两个方面：流行病疫情持续的时间，以及宿主免疫的强度。长时间的疫情流行可产生长时间的演化压力，而高强度的宿主免疫也会加强演化压力，进而可能产生新型病原体。 另一种变化方式是抗原转变，即当病毒间或不同毒株间通过相互融合而获得全新的表面抗原的过程。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-07T18:08:58.882681Z"
+    },
+    {
+      "source_id": "wiki-random:zh:1579959",
+      "source_name": "ZH Wikipedia：時間反演對稱",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%99%82%E9%96%93%E5%8F%8D%E6%BC%94%E5%B0%8D%E7%A8%B1",
+      "title": "時間反演對稱",
+      "excerpt": "時間反演對稱（T-symmetry或time reversal symmetry）描述的是在时间反演 T : t ↦ − t {\\displaystyle T:t\\mapsto -t} 運算下，物理系统所保有的对称性，又可標作T對稱。 虽然在一些限定条件下存在时间反演对称性，但是由于热力学第二定律我们观测到的宇宙并不具有时间反演对称性。 發生不对称性有两种情况：第一種是物理定律时间反演的不对称性，比如弱相互作用；第二個則是宇宙初始条件所导致的不对称性。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-07T18:08:58.882771Z"
+    },
+    {
+      "source_id": "wiki-random:en:5393194",
+      "source_name": "EN Wikipedia：Operability",
+      "source_url": "https://en.wikipedia.org/wiki/Operability",
+      "title": "Operability",
+      "excerpt": "Operability is the ability to keep a piece of equipment, a system or a whole industrial installation in a safe and reliable functioning condition, according to pre-defined operational requirements. In the development and implementation of industrial and civil plants, operability is generally defined in terms of performance and reliability, as well as the traceability of information relevant to the design, procurement, construction and commissioning of facilities. In the context of systems engineering or information technology, operability refers to a system's ability to perform its functions effectively and efficiently, providing users with an accessible, intuitive, and obstacle-free interaction. Operability is considered one of the non-functional requirements (also called “ilities”), and is closely related to the concepts of reliability, availability, scalability, testability and maintainability. Operability also refers to whether or not a surgical operation can be performed to treat a patient with a reasonable degree of safety and chance of success.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-07T18:08:58.883398Z"
+    },
+    {
+      "source_id": "wiki-random:en:176644",
+      "source_name": "EN Wikipedia：Hyperion (moon)",
+      "source_url": "https://en.wikipedia.org/wiki/Hyperion_(moon)",
+      "title": "Hyperion (moon)",
+      "excerpt": "Hyperion is the eighth-largest moon of Saturn. It is distinguished by its highly irregular shape, chaotic rotation, low density, and unusual sponge-like appearance. It was the first non-rounded moon to be discovered.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-07T18:08:58.883970Z"
+    },
+    {
+      "source_id": "wiki-random:en:1383618",
+      "source_name": "EN Wikipedia：Mama and papa",
+      "source_url": "https://en.wikipedia.org/wiki/Mama_and_papa",
+      "title": "Mama and papa",
+      "excerpt": "In linguistics, mama and papa are considered a special case of false cognates. In many languages of the world, sequences of sounds similar to /mama/ and /papa/ mean \"mother\" and \"father\", usually but not always in that order. This is thought to be a coincidence resulting from the process of early language acquisition.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-07T18:08:58.885122Z"
+    },
+    {
+      "source_id": "wiki-random:en:70956038",
+      "source_name": "EN Wikipedia：Polyakov loop",
+      "source_url": "https://en.wikipedia.org/wiki/Polyakov_loop",
+      "title": "Polyakov loop",
+      "excerpt": "In quantum field theory, the Polyakov loop is the thermal analogue of the Wilson loop, acting as an order parameter for confinement in pure gauge theories at nonzero temperatures. In particular, it is a Wilson loop that winds around the compactified Euclidean temporal direction of a thermal quantum field theory. It indicates confinement because its vacuum expectation value must vanish in the confined phase due to its non-invariance under center gauge transformations. This also follows from the fact that the expectation value is related to the free energy of individual quarks, which diverges in this phase. Introduced by Alexander M. Polyakov in 1975, they can also be used to study the potential between pairs of quarks at nonzero temperatures.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-07T18:08:58.885913Z"
+    },
+    {
+      "source_id": "wiki-random:en:4051125",
+      "source_name": "EN Wikipedia：Inden, North Rhine-Westphalia",
+      "source_url": "https://en.wikipedia.org/wiki/Inden,_North_Rhine-Westphalia",
+      "title": "Inden, North Rhine-Westphalia",
+      "excerpt": "Inden (German pronunciation: [ˈɪndn̩]) is a municipality in the district of Düren in the state of North Rhine-Westphalia, Germany. It is located on the river Inde, approx. 10 km north-west of Düren. In the area around Inden lignite is extracted in open-pit mines. One mine is being rehabilitated with lake, park, solar power and energy storage. Several hundreds of inhabitants have been resettled in the 1990s and 2000s because of these activities.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-07T18:08:58.886100Z"
+    },
+    {
+      "source_id": "wiki-random:en:4753777",
+      "source_name": "EN Wikipedia：Opsimath",
+      "source_url": "https://en.wikipedia.org/wiki/Opsimath",
+      "title": "Opsimath",
+      "excerpt": "An opsimath is a person who begins, or continues, to study or learn late in life. The word is derived from the Greek ὀψέ (opsé), meaning 'late', and μανθάνω (manthánō), meaning 'learn'. Opsimathy was once frowned upon, used as a put-down with implications of laziness, and considered less effective by educators than early learning. The emergence of \"opsimath clubs\" has demonstrated that opsimathy has shed much of this negative connotation. Notable opsimaths include 19th-century army officer and orientalist Sir Henry Rawlinson, Vivian Stanshall's fictitious character Sir Henry Rawlinson, 11h-century Chinese scholar‌ Su Xun, Grandma Moses, Rabbi Akiva (according to the Talmud, he began studying at age 40), and Cato the Elder, who learned Greek only at the age of 80.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-07T18:08:58.886888Z"
+    },
+    {
+      "source_id": "wiki-random:zh:3546109",
+      "source_name": "ZH Wikipedia：三相 (电学)",
+      "source_url": "https://zh.wikipedia.org/wiki/%E4%B8%89%E7%9B%B8_(%E7%94%B5%E5%AD%A6)",
+      "title": "三相 (电学)",
+      "excerpt": "在电子工程学中，三相交流电一般是将可变的电压通过三组不同的导体。这三组电压幅值相等、频率相等、彼此之间的相位差为120度。 通常来说，三相交流电分三角形接法（Δ）和星型接法（Y）两种。三角形接法即为将各相电源或负载依次首尾相连，形成一个三角环；而星型接法则是将各相电源或负载的一端连接在一点，形成一个中性点，这种接法又称为三相三线制。如果从该中性点再引出一条中性线，则整个结构变为三相四线制。其中星型接法允许对各相加上不同的电压。例如常见的230/400伏三相交流电，就是在中性点和任意一相上加上230伏，余下的两相各加上400伏的电压。三角形接法由于各相首尾相连，只能存在一种电压，但是其优点在于即使三相中有一相失去作用，整个系统仍然可以运作（效率为原来的57.7%）。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-07T18:09:21.624234Z"
+    },
+    {
+      "source_id": "wiki-random:zh:9428649",
+      "source_name": "ZH Wikipedia：拦街福",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%8B%A6%E8%A1%97%E7%A6%8F",
+      "title": "拦街福",
+      "excerpt": "拦街福，又名春祈、平安福，是浙江温州的地方特色民俗活动，以求平安、纳吉祥为主旨，集戏曲灯会、民间艺术展示与商贸集市功能于一身的综合型节庆。拦街福是温州市区特色的民俗活动，即使在温州市域其他县市也少见同类民俗，仅瑞安、平阳等地有“拦垟福”。拦街福历史上是由城区商户与城郊农民共同参与，如今形成面向大众的地方性狂欢节会，吸引大量外地人参观。关于“拦街福”名称的来源，温州民间流传多种说法，但仍缺乏被普遍认可的解释。其中一种说法认为其与明代戚继光抗倭有关：传说温州因击退倭寇而免遭战火，民众遂在农历二三月于街巷举行祝福庆贺活动，并逐渐演变为一年一度、按街巷轮流举行的祈福民俗。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-07T18:09:21.624751Z"
+    },
+    {
+      "source_id": "wiki-random:en:28602375",
+      "source_name": "EN Wikipedia：Ichthyosis with confetti",
+      "source_url": "https://en.wikipedia.org/wiki/Ichthyosis_with_confetti",
+      "title": "Ichthyosis with confetti",
+      "excerpt": "Ichthyosis en confetti, is a very rare form of congenital ichthyosis in which healthy patches of normal skin co-exist within the abnormal skin areas. The condition is caused by a frameshift mutation in the keratin 10 gene (KRT10); mutant keratin 10 accumulates in the nucleolus, a sub-nuclear structure, rather than within cellular intermediate filaments like the wild-type protein. Children with the condition exhibit red, flaky skin; however, for reasons not yet totally clear, wild type clonal patches of skin start to appear, in place of the red, flaky skin. Due to the clonal nature of the growth of the normal skin cells, it appears the patient is covered with confetti, hence the name of the condition. It has been hypothesized that this is the result of a combination of mitotic recombination and natural selection within the skin.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-07T18:09:21.626340Z"
+    },
+    {
+      "source_id": "wiki-random:zh:1154229",
+      "source_name": "ZH Wikipedia：聚对二甲苯",
+      "source_url": "https://zh.wikipedia.org/wiki/%E8%81%9A%E5%AF%B9%E4%BA%8C%E7%94%B2%E8%8B%AF",
+      "title": "聚对二甲苯",
+      "excerpt": "聚对二甲苯（Poly-p-xylylene），商品名帕里纶（Parylene），是通过化学气相沉积法制备的具有聚二甲撑苯撑结构的聚合物薄膜的统称，它有极其优良的电性能、耐热性、耐候性和化学稳定性，主要有 Parylene N（聚对二甲苯）、Parylene C（聚一氯对二甲苯）和 Parylene D（聚二氯对二甲苯）三种。它是采用真空热解气相堆积工艺制备，可制成极薄的薄膜，主要用作薄膜和涂层，用于电子元器件的电绝缘介质、保护性涂料和包封材料等。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-07T18:09:21.627487Z"
+    },
+    {
+      "source_id": "wiki-random:zh:7976797",
+      "source_name": "ZH Wikipedia：大西洋湿地公园",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E8%A5%BF%E6%B4%8B%E6%B9%BF%E5%9C%B0%E5%85%AC%E5%9B%AD",
+      "title": "大西洋湿地公园",
+      "excerpt": "大西洋湿地公园（西班牙語：Parque atlántico de Las Llamas）是一个城市公园，位于西班牙坎塔布里亚自治区桑坦德市。2007年5月11日对公众开放。面积309173平方米（第一期），另有426000平方米待开发。全部建成后，它将是桑坦德市树木最茂盛的公园设计小组由加泰罗尼亚建筑师恩里克·巴特勒（Enric Batlle）和琼·罗伊格（Joan Roig）领导。 “llama”一词意为湿地。 过去，进入湿地的唯一途径是难行的小径，公众无法使用和享受这片湿地。这片被废弃之地沦为堆放垃圾之地，城市废水的排放也导致生态系统的水质退化。从2006年开始，桑坦德市政厅从私人业主那里获得土地，建造前卫主义风格的桑坦德体育宫，同时，在旁边建造一个大型城市公园，作为该市的主要绿肺，配备各种设施，包括健身房、圆形剧场、博物馆和植物园，种植世界各地植物。可以从桑坦德体育宫、坎塔布里亚大学、卡斯特罗大道或宪法大道附近进入公园。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-07T18:09:21.628756Z"
+    },
+    {
+      "source_id": "wiki-random:zh:3983829",
+      "source_name": "ZH Wikipedia：达娃扎西",
+      "source_url": "https://zh.wikipedia.org/wiki/%E8%BE%BE%E5%A8%83%E6%89%8E%E8%A5%BF",
+      "title": "达娃扎西",
+      "excerpt": "达娃扎西（藏語：ཟླ་བ་བཀྲ་ཤིས་，威利转写：zla ba bkra shis，1958年—），西藏普兰人，藏族，中华人民共和国政治人物、第十一届全国人民代表大会西藏地区代表。 毕业于西藏自治区阿里地区中等专业学校，是中共党员。2006年8月起担任西藏自治区阿里地委副书记、行署专员。2008年起担任全国人大代表。2012年4月至2016年9月，任西藏自治區水利廳廳長。2023年7月，因为涉嫌严重违纪违法，达娃扎西接受西藏自治区纪委监委纪律审查和监察调查。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-07T18:09:21.629591Z"
+    },
+    {
+      "source_id": "wiki-random:en:168703",
+      "source_name": "EN Wikipedia：Thujone",
+      "source_url": "https://en.wikipedia.org/wiki/Thujone",
+      "title": "Thujone",
+      "excerpt": "Thujone ( ) is a ketone and a monoterpene that occurs predominantly in two diastereomeric (epimeric) forms: (−)-α-thujone and (+)-β-thujone. Though it is best known as a chemical compound in the spirit absinthe, it is only present in trace amounts and is unlikely to be responsible for the spirit's purported stimulant and psychoactive effects. Thujone acts on the GABAA receptor as an antagonist. As a competitive antagonist of GABAA receptor, thujone alone is considered to be convulsant, though by interfering with the inhibitory transmitter GABA, it may convey stimulating, mood-elevating effects at low doses. It is also found in perfumery as a component of several essential oils. In addition to the naturally occurring (−)-α-thujone and (+)-β-thujone, two other forms are possible: (+)-α-thujone and (−)-β-thujone. In 2016, they were found in nature as well, in Salvia officinalis.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-07T18:09:21.630259Z"
+    },
+    {
+      "source_id": "wiki-random:en:51599956",
+      "source_name": "EN Wikipedia：Dental health diets for dogs",
+      "source_url": "https://en.wikipedia.org/wiki/Dental_health_diets_for_dogs",
+      "title": "Dental health diets for dogs",
+      "excerpt": "Oral disease is one of the most common diseases found in dogs. It is caused by the buildup of various anaerobic bacteria in the mouth which forms plaque, eventually hardening into tartar on the teeth along the gum line, and is related to the development of gingivitis. Since small and toy breeds have a much smaller jaw but contain the same number of teeth, crowding allows higher bacterial build up and puts them at higher risk of developing periodontal disease. Although daily brushing provides the best preventative measure, feeding a dental diet or using dental chews for dogs is an effective approach pet owners can take to help prevent and control accumulation of plaque and tartar to avoid consequences of severe periodontal disease. Dental diets consider many aspects of oral health such as inflammation, bone health and physical and chemical characteristics of the kibble when being formulated. Some diets, chews and/or other oral products may also strive to receive approval by the Veterinary Oral Health Council (VOHC) for validation of their product's claims.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-07T18:09:43.814996Z"
+    },
+    {
+      "source_id": "wiki-random:en:16212349",
+      "source_name": "EN Wikipedia：Optical landing system",
+      "source_url": "https://en.wikipedia.org/wiki/Optical_landing_system",
+      "title": "Optical landing system",
+      "excerpt": "An optical landing system (OLS) (nicknamed \"meatball\" or simply \"ball\") is used to give glidepath information to pilots in the terminal phase of landing on an aircraft carrier. From the beginning of aircraft landing on ships in the 1920s to the introduction of OLSs, pilots relied solely on their visual perception of the landing area and the aid of the Landing Signal Officer (LSO in the U.S. Navy, or \"batsman\" in the Commonwealth navies). LSOs used coloured flags, cloth paddles and lighted wands. The OLS was developed after World War II by the British and was deployed on U.S. Navy carriers from 1955. In its developed form, the OLS consists of a horizontal row of green lights, used as a reference, and a column of vertical lights. The vertical lights signal whether the aircraft is too high, too low, or at the correct altitude as the pilot descends the glide slope towards the carrier's deck. Other lights give various commands and can be used to require the pilot to abort the landing and \"go around.\" The OLS remains under control of the LSO, who can also communicate with the pilot via radio.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-07T18:09:43.815353Z"
+    },
+    {
+      "source_id": "wiki-random:en:42427303",
+      "source_name": "EN Wikipedia：Digital Solid State Propulsion",
+      "source_url": "https://en.wikipedia.org/wiki/Digital_Solid_State_Propulsion",
+      "title": "Digital Solid State Propulsion",
+      "excerpt": "Digital Solid State Propulsion (DSSP) is an aerospace company developing microthruster propulsion technology for small satellites. DSSP's technology utilizes Electric Solid Propellants (ESPs) to enable small satellites to make orbital maneuvers that have generally not been possible in the very small, mass-constrained satellites such as CubeSats and nanosats. DSSP's first flight was aboard the NRL SPINSAT, launched as a secondary payload on SpaceX CRS-4 and deployed from the Kibo module airlock on 28 November 2014. NASA safety experts approved the mission because the satellite's 12 thruster-clusters burn an inert solid fuel, that only ignite when an electric charge is passed across it. In July 2012, DSSP won second place in the 2012 NewSpace Business Plan Competition in Silicon Valley, sponsored by the Space Frontier Foundation.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-07T18:09:43.816103Z"
+    },
+    {
+      "source_id": "wiki-random:zh:5698996",
+      "source_name": "ZH Wikipedia：乌兹伯伊水道",
+      "source_url": "https://zh.wikipedia.org/wiki/%E4%B9%8C%E5%85%B9%E4%BC%AF%E4%BC%8A%E6%B0%B4%E9%81%93",
+      "title": "乌兹伯伊水道",
+      "excerpt": "乌兹伯伊水道（土庫曼語：Uzboý，烏茲別克語：Oʻzboʻy，Özboi）是历史上穿过土库曼斯坦西北部的阿姆河的一条支流，在17世纪短时间内干涸，也为其沿岸蓬勃发展的农业画上了句号。 乌兹伯伊水道长约750公里（470英里），从阿姆河的一处分支开始，通过萨雷卡梅什湖流入里海。 水道沿岸的文明最晚从公元前5世纪兴起，持续至17世纪。之后，乌兹伯伊水道迅速干涸，导致沿岸的部落被迅速分散开，幸存者成为沙漠中的游牧民。如今，这条水道留下了一条干涸的河道和众多考古遗迹。 火星上的乌斯钵谷（Uzboi Vallis）以这条河的名字命名。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-07T18:09:43.818101Z"
+    },
+    {
+      "source_id": "wiki-random:en:9481583",
+      "source_name": "EN Wikipedia：Lexicalization",
+      "source_url": "https://en.wikipedia.org/wiki/Lexicalization",
+      "title": "Lexicalization",
+      "excerpt": "In linguistics, lexicalization is the process of adding words, set phrases, or word patterns to a language's lexicon. Whether word formation and lexicalization refer to the same process is controversial within the field of linguistics. Most linguists agree that there is a distinction, but there are many ideas of what the distinction is. Lexicalization may be simple, for example borrowing a word from another language, or more involved, as in calque or loan translation, wherein a foreign phrase is translated literally, as in marché aux puces, or in English, flea market. Other mechanisms include compounding, abbreviation, and blending. Particularly interesting from the perspective of historical linguistics is the process by which ad hoc phrases become set in the language, and eventually become new words (see lexicon). Lexicalization contrasts with grammaticalization, and the relationship between the two processes is subject to some debate.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-07T18:09:43.818708Z"
+    },
+    {
+      "source_id": "wiki-random:en:65146839",
+      "source_name": "EN Wikipedia：Fachtna Joseph Harte",
+      "source_url": "https://en.wikipedia.org/wiki/Fachtna_Joseph_Harte",
+      "title": "Fachtna Joseph Harte",
+      "excerpt": "Monsignor Fachtna Joseph Harte (1930-2020), was an Irish Catholic priest, who served in Washington and Orlando, and founded the Basilica of Mary, Queen of the Universe, the national shrine in Florida. Born in 1930 in County Mayo, in Ireland. Educated at St. Gerald’s Secondary School in Castlebar and St. Mary’s Secondary School in Athlone, he trained as Teacher in De La Salle College Waterford and joined the Marist Teaching order which i left in 1955 to become a priest training first in Mound Melleray Seminary Co. Waterford and at the foreign missionary college All Hallows College, Dublin. He was ordained for the priesthood in All Hallows College, Dublin in 1961, working first in Diocese of Yakima, Washington State where he worked as a priest and school teacher then being transferred to the Diocese of Orlando. He gained a masters in education from the University of Portland, and later a Masters in Religious Education from Barry University, Miami. He was honoured with the title Monsignor, chaplain to his holiness in 2003, and retired in 2007. His book They Shall Bear You Up - Memories of a Catholic Priest, was published in 2011. Monsignor Harte's, Flames at Twilight: The Novel of St....",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-07T18:09:43.819735Z"
     }
   ]
 }

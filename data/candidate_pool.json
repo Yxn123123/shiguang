@@ -1,7 +1,17 @@
 {
   "version": 1,
-  "updated_at": "2026-08-07T18:12:24.661319Z",
+  "updated_at": "2026-08-08T17:59:31.511103Z",
   "candidates": [
+    {
+      "source_id": "onthisday:zh:08/08:1988:13",
+      "source_name": "Wikimedia On This Day：一党制",
+      "source_url": "https://zh.wikipedia.org/wiki/%E4%B8%80%E5%85%9A%E5%88%B6",
+      "title": "1988: 缅甸展开一系列抗议缅甸社会主义纲领党进行一党制统治的8888民主运动。",
+      "excerpt": "事件：缅甸展开一系列抗议缅甸社会主义纲领党进行一党制统治的8888民主运动。\n相关页面摘要：一党制，又称单党制 或一党专政，是單一執政黨壟斷政治與軍事權力，並通過憲法、政府、軍警、特務等各種制度內外之手段，長期將其他勢力排除於政治權力外的国家。第一个一党制国家为1878年至1980年由真辉格党統治的西非国家利比里亚，统治时间为102年；現存歷史最悠久的一黨制國家為自1945年9月2日起由越南共產黨統治的越南民主共和國（1976年越南統一后改国号为越南社会主义共和国）。",
+      "category_hint": "历史",
+      "source_rank": 3,
+      "added_at": "2026-08-08T17:55:56.436256Z"
+    },
     {
       "source_id": "wiki-random:zh:2872377",
       "source_name": "ZH Wikipedia：服務性 (電腦)",
@@ -2941,6 +2951,326 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-08-07T18:09:43.818101Z"
+    },
+    {
+      "source_id": "wiki-random:en:4106095",
+      "source_name": "EN Wikipedia：Natural Bridge State Resort Park",
+      "source_url": "https://en.wikipedia.org/wiki/Natural_Bridge_State_Resort_Park",
+      "title": "Natural Bridge State Resort Park",
+      "excerpt": "Natural Bridge State Resort Park is a public recreation area located along the Middle Fork of the Red River, two miles south of the unincorporated community of Slade, in Powell and Wolfe counties, Kentucky, United States. The state park lies adjacent to the Red River Gorge geologic area and is surrounded by the Daniel Boone National Forest. Its namesake natural bridge is the centerpiece of the park. The natural sandstone arch spans 78 feet (24 m) and is 65 feet (20 m) high. The natural process of weathering formed the arch over millions of years. Some of the most famous sites in the park are the arch itself, \"Lover's Leap\", and \"Fat Man's Squeeze\". The park is approximately 2,300 acres (930 ha), of which around 1,200 acres (490 ha) is dedicated by the Office of Kentucky Nature Preserves as a nature preserve. In 1981, this land was dedicated into the nature preserves system to protect the ecological communities and rare species habitat. The first federally endangered Virginia big-eared bats, Corynorhinus townsendii virginianus, recorded in Kentucky were found at Natural Bridge State Resort Park in the 1950s.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-08T17:55:56.436735Z"
+    },
+    {
+      "source_id": "wiki-random:en:539146",
+      "source_name": "EN Wikipedia：2004 Taiwanese cross-strait relations referendum",
+      "source_url": "https://en.wikipedia.org/wiki/2004_Taiwanese_cross-strait_relations_referendum",
+      "title": "2004 Taiwanese cross-strait relations referendum",
+      "excerpt": "A consultative referendum was held in Taiwan on 20 March 2004 to coincide with the 2004 presidential elections. Voters were asked two questions regarding the cross-strait relations, that is, between Taiwan and China. The initiation of this referendum by President Chen Shui-bian came under intense criticism from China because it was seen as an exercise for an eventual vote on Taiwanese independence. The Pan-Blue Coalition urged a boycott, citing that the referendum was illegal and unnecessary. Over 90% of voters approved the two questions, but the results were invalid due to insufficient voter turnout, which was below 50%.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-08T17:55:56.437995Z"
+    },
+    {
+      "source_id": "wiki-random:en:22714897",
+      "source_name": "EN Wikipedia：Changsha Economic and Technological Development Zone",
+      "source_url": "https://en.wikipedia.org/wiki/Changsha_Economic_and_Technological_Development_Zone",
+      "title": "Changsha Economic and Technological Development Zone",
+      "excerpt": "Changsha Economic and Technological Development Zone (CETZ) (simplified Chinese: 长沙经济技术开发区; traditional Chinese: 長沙經濟技術開發區; pinyin: Chángshā Jīngjì Jìshù Kāifāqū) is an economic and technical development zone at state level in Changsha, Hunan, China. The zone was established in August 1992, its old name was Xingsha Development Zone of Changsha (长沙星沙开发区), changed to the present name on 29 March, 1994. CETZ was upgraded to an economic and technical development zone at state-level in February, 2000. The headquarters for CETZ is situated in Xingsha in the eastern suburb of Changsha, including Xingsha, Langli and Huanghua 3 Industrial parks, its planning area covers 105 km2 (41 sq mi). The zone attracts many foreign investments, such as Mitsubishi Motor, NEC, Bosch, Philips, LG, HEG, Coca-Cola and Pepsi. Major industries in the zone include machinery processing and manufacturing, electronics and information, building materials, food and beverage, and printing.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-08T17:55:56.438270Z"
+    },
+    {
+      "source_id": "wiki-random:zh:5734462",
+      "source_name": "ZH Wikipedia：粪口路径",
+      "source_url": "https://zh.wikipedia.org/wiki/%E7%B2%AA%E5%8F%A3%E8%B7%AF%E5%BE%84",
+      "title": "粪口路径",
+      "excerpt": "粪口路径（也称为口腔-粪便路径或者口粪路径），是一种疾病传播途径。具体指的是，病原体由一个宿主的粪便中被引入另一个宿主的口腔中的传播方式。在一些发展中国家，粪口疾病传播的主要原因是卫生设施的匮乏和粪便造成的水污染。 传播的共同因素可以归纳为五个F：手指（fingers）、苍蝇（flies）、田野（fields）、液体（fluids）和食物（food）。粪便传播引起的疾病包括腹泻，伤寒，霍乱，小儿麻痹症和肝炎。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-08T17:55:56.439078Z"
+    },
+    {
+      "source_id": "wiki-random:zh:6381736",
+      "source_name": "ZH Wikipedia：邮件马车",
+      "source_url": "https://zh.wikipedia.org/wiki/%E9%82%AE%E4%BB%B6%E9%A9%AC%E8%BD%A6",
+      "title": "邮件马车",
+      "excerpt": "邮件马车（Mail coach）是英国邮政业曾经使用的一种驿站马车。马车负责运送皇家邮政的邮件，马车上有皇家邮政的雇员负责保护邮件，他们通常站在马车后部。马车前部则有四个旅客座位，旅客在交过钱后可以搭乘马车旅行。但除了换马、收发邮件时马车会短暂停留外，其他时候一般不会为了乘客的私人原因停车。 这一邮寄模式始于1784年，1789年爱尔兰也开始有了邮件马车。到19世纪中期，随着铁路列车的出现，邮件马车逐渐消失。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-08T17:55:56.439985Z"
+    },
+    {
+      "source_id": "wiki-random:zh:1650349",
+      "source_name": "ZH Wikipedia：Such a Better Day",
+      "source_url": "https://zh.wikipedia.org/wiki/Such_a_Better_Day",
+      "title": "Such a Better Day",
+      "excerpt": "《Such a Better Day》，为香港女子雙人歌唱組合Twins的第二张精选專輯，于2004年12月10日在香港发行，主要收录抒情慢歌，包括〈精选〉、〈冬令时间〉、〈18變〉、〈追女仔〉四首新歌。 2004年對於Twins可以算是丰收的一年，除了已經接拍超过10个广告，加上内地巡回演唱会、唱片及电影。《Such a Better Day》新曲加精选专辑为她们的音乐成绩作一个小结。随精美礼盒特别版加赠Twins皮手带一对。 由出道一炮而红的“女校男生”、“爱情当入樽”，到最新大碟《Girl Power》的“丢架”、“女人味”等24首“饮歌”尽皆收录。Twins成员蔡卓妍(阿Sa)虽然在中国湖北发生车祸轻伤，两位小妮子仍努力忙完對电影的拍攝，并全力宣传新碟，泡制“冬令时间”及“精选”等四首新歌，力谷年尾颁奖礼。为了配合“精选”，Twins大玩时空交错，并以60年代怀旧look與众乐迷相會。而“冬令时间”亦是全城热播的电视广告歌。 除此以外，唱片公司更费尽心思超本制作，大碟封套设计成立体巨形硬盒设计，内附Twins真皮潮爆车花皮手带两条及精美镜盒。实在不能错过。 这次大碟名为《《Such a better day》》，故设计师弃用Twins一贯的华丽包装，一齐回归简约，务必给歌迷们清新亮丽的感觉，在封面设计方面，为配合回归简约感觉，设计师特别安排她们到郊外公园拍摄封面照。但Twins实在太忙，故封套照片早于8月中旬于一郊野公园拍摄，全身喷满蚊怕水外，因要配合出碟时已踏入冬季的緣故，二人均要穿戴冬季的衣服，于清晨7时开始拍摄至日落时分，皓热的天气穿着毛衣，跑跑跳跳很是活泼享受阳光的样子。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-08T17:55:56.440379Z"
+    },
+    {
+      "source_id": "wiki-random:en:9891486",
+      "source_name": "EN Wikipedia：99.9F°",
+      "source_url": "https://en.wikipedia.org/wiki/99.9F%C2%B0",
+      "title": "99.9F°",
+      "excerpt": "99.9F° (pronounced Ninety-Nine Point Nine Fahrenheit Degrees) is the fourth studio album by American singer-songwriter Suzanne Vega. Released on September 7, 1992, by A&M Records, the album marked a departure for Vega, as she embraced a more electronic, experimental sound. It peaked at No. 86 on the U.S. Billboard 200 and was Vega's fourth Top 20 album on the UK Albums Chart. The single \"Blood Makes Noise\" reached number one on the Billboard Modern Rock Tracks chart. 99.9F° was the first of two of Vega's albums to be produced by Mitchell Froom, whom she later married. The album was certified gold (500,000 copies sold) by the RIAA in October 1997. It was certified silver in the UK (60,000 copies sold) by the BPI in March 1993. Vega has referred to 99.9F° as her favorite of her studio albums.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-08T17:55:56.441679Z"
+    },
+    {
+      "source_id": "wiki-random:zh:146410",
+      "source_name": "ZH Wikipedia：军团病",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%86%9B%E5%9B%A2%E7%97%85",
+      "title": "军团病",
+      "excerpt": "军团病（英語：Legionellosis），又名退伍軍人症，是由嗜肺军团菌（又名退伍军人桿菌）引发的非典型肺炎。其症状包括咳嗽、呼吸困难、发热、肌肉疼痛、头痛。有时亦会发生恶心、呕吐、腹泻，嚴重甚至會導致死亡。军团病的症状通常在暴露后两到十天产生。 军团菌自然存在于淡水中。该菌可污染热水器、浴缸及大型空调的冷却塔。军团病通常透过吸入带有细菌的水雾传播，亦可透过吸入受污染水体引发。军团病一般不直接透过人际传播，大多数人在暴露后沒有被感染。感染本病的危险因子包括年老、有吸烟史、慢性肺病、免疫功能弱。严重肺炎患者和近期出行的肺炎患者应检查本病。本病透过尿抗原检测和痰培养诊断。 本病目前尚无疫苗，须透过加强对供水系统的维护来预防。军团病乃透过抗生素治疗，推荐用药包括喹诺酮类、阿奇霉素及多西环素等。本病往往需要住院治疗，感染者死亡率约10%。 本病在全世界的发病情况尚不清楚。目前估计院外感染肺炎中2~9%病例由军团病导致。在美国预计一年有8,000到18,000例需住院治疗。爆发疫情仅佔全部病例的一小部分。本病全年均可发生，于夏秋两季较为常见。本病因在1976年美国费城退伍军人大会上首次检出而得名。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-08T17:55:56.442008Z"
+    },
+    {
+      "source_id": "wiki-random:zh:8824950",
+      "source_name": "ZH Wikipedia：方舟UI框架",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%96%B9%E8%88%9FUI%E6%A1%86%E6%9E%B6",
+      "title": "方舟UI框架",
+      "excerpt": "方舟UI框架（简称ArkUI，原名方舟开发框架）是一个由华为开发的声明式的用户界面框架，用于在原生鸿蒙、OpenHarmony以及Oniro OS应用程序上构建用户界面。ArkUI采用基于TypeScript声明式UI语法扩展而来的ArkTS语言，同时也支持使用鸿蒙标记语言（HarmonyOS Markup Language，缩写HML）、JavaScript和CSS以类似Vue.js 2的语法、MVVM范式开发。 ArkUI与DevEco Studio集成，提供实时预览、调试和其他开发功能。 ArkUI-X是基于ArkUI扩展的跨平台用户界面框架，可使ArkUI不局限于OpenHarmony、HarmonyOS，运行到Android、 iOS等系统上。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-08T17:55:56.442878Z"
+    },
+    {
+      "source_id": "wiki-random:zh:38028",
+      "source_name": "ZH Wikipedia：富勒烯",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%AF%8C%E5%8B%92%E7%83%AF",
+      "title": "富勒烯",
+      "excerpt": "富勒烯（英語：Fullerene） 或巴克球、巴基球（英語：Buckyball）是一種完全由碳组成的中空分子，形狀呈球型、椭球型、柱型或管状。富勒烯在结构上与石墨很相似，石墨是由六元环组成的石墨烯层堆积而成，而富勒烯不仅含有六元环还有五元环，偶尔还有七元环。 1985年英国化学家哈罗德·沃特尔·克罗托博士和美国科学家理查德·斯莫利在萊斯大學制备出了第一种富勒烯，即「C60分子」或「[60]富勒烯」，因为这个分子与建筑学家巴克明斯特·富勒的建筑作品很相似，为了表达对他的敬意，将其命名为「巴克明斯特·富勒烯」（巴克球）。饭岛澄男早在20世纪80年代以前就在透射电子显微镜下观察到这样洋葱状的结构。自然界也是存在富勒烯分子的，2010年科学家们通过史匹哲太空望远镜发现在外太空中也存在富勒烯。 “也许外太空的富勒烯为地球提供了生命的种子”。 在富勒烯发现之前，碳的同素异形体的只有石墨、钻石、无定形碳（如炭黑和炭），它的发现极大地拓展了碳的同素异形体的数目。富勒烯和碳纳米管独特的化学和物理性质以及在技术方面潜在的应用，引起了科学家们强烈的兴趣，尤其是在材料科学、电子学和纳米技术方面。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-08T17:56:53.830549Z"
+    },
+    {
+      "source_id": "wiki-random:zh:667539",
+      "source_name": "ZH Wikipedia：三角廣底球狀罩帳",
+      "source_url": "https://zh.wikipedia.org/wiki/%E4%B8%89%E8%A7%92%E5%BB%A3%E5%BA%95%E7%90%83%E7%8B%80%E7%BD%A9%E5%B8%B3",
+      "title": "三角廣底球狀罩帳",
+      "excerpt": "三角廣底球狀罩帳（Triangular hebesphenorotunda）是约翰逊多面體的其中一個，索引為J92。它無法由柏拉圖立體（正多面體）和阿基米得立體（半正多面體）經過切割、增補而得來，是詹森多面體中的基本立體之一。詹森多面體是凸多面體，面皆由正多邊形組成但不屬於均勻多面體，共有92種。這些立體最早在1966年由諾曼·詹森（Norman Johnson）命名並給予描述。 雖然其無法由正多面體和半正多面體經過切割、增補而得來，但他其實與截半二十面體（半正多面體的一種）有著不可分離的關係，最明顯的就是他們都有三個五邊形和四個三角群位於立體的其中一邊。如果將這些面與面一個個地被排列在截半二十面體上，那麼唯一的六邊形面就會位於平面上兩相對的三角形面中間。 三角廣底球狀罩帳還存在可以與小斜方截半二十面体相應面對齊的部分，即3個新月狀的三角形-正方形-三角形帶。其位於頂點圖表示為(33.5)的頂點周圍也可以與正二十面體欠側錐的相應面對齊。 諾曼·詹森使用前綴hebespheno-（廣底球狀）來指代由三個相鄰的新月狀（lunes）形成的鈍楔狀複合結構，新月狀（lunes）是一個正方形和兩個正三角形連接在正方形相對兩側的結構。 後綴（triangular）-rotunda（罩帳）是指三個正三角形和三個正五邊形圍繞另一個正三角形的複合結構，其結構類似於五角罩帳。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-08T17:56:53.832849Z"
+    },
+    {
+      "source_id": "wiki-random:zh:7110046",
+      "source_name": "ZH Wikipedia：C与C++的兼容性",
+      "source_url": "https://zh.wikipedia.org/wiki/C%E4%B8%8EC%2B%2B%E7%9A%84%E5%85%BC%E5%AE%B9%E6%80%A7",
+      "title": "C与C++的兼容性",
+      "excerpt": "C语言和C++的关系相當密切，但是也存在许多显著的差异。C++标准起源于早期C标准，并被设计与当时的C语言在源代码编写和链接方面很大程度上兼容。因此，两种语言的开发工具（例如IDE和编译器）通常被放到单个产品中，程序员可以自己选择编写的是C还是C++，开发工具通常会根据程序员的选择使用不同的编译器、链接器和不同的函式库。 但是，C并不是C++的一部分，一般的C代码不经修改，很难严格符合C++标准；同样，C++引入了许多C中没有的特性，所以，几乎所有用C++编写的代码都无法被C编译器成功编译。我们主要讨论它们共同部分的差异，比如在C语言中合法的代码到了C++中成为了不合法的代码，或一段代码在C和C++中表现出不同的行为。 C++的创始人BjarneStroustrup建议C和C++应该尽可能减小差异，以最大限度地提高这两种语言的兼容性；而另一些人则认为C和C++毕竟是两种不同的语言——虽然C++起源于C——因此它们之间的兼容性并不是那么重要。而ANSI是这样看的：「我们赞同保持C与C++的交集」，同时「保持它们的差别，使这两种语言继续独立发展」，「……委员会希望C++成为重要的和强有力的语言。」 截止到C++20和C2x，C++还是不支持部分C语言特性，如可變長陣列，原生复数支持和restrict类型修饰符。另一方面，与C89相比，C99通过合并C++功能（例如//注释，允许声明出现在代码中而不只是在函数头）减少了一些其他不兼容性。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-08T17:56:53.833464Z"
+    },
+    {
+      "source_id": "wiki-random:zh:1187482",
+      "source_name": "ZH Wikipedia：普林尼式火山噴發",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%99%AE%E6%9E%97%E5%B0%BC%E5%BC%8F%E7%81%AB%E5%B1%B1%E5%99%B4%E7%99%BC",
+      "title": "普林尼式火山噴發",
+      "excerpt": "普林尼式火山噴發（Plinian eruption），又名維蘇威式火山噴發，是火山噴發的一種，其特徵類似公元79年的維蘇威火山噴發。古羅馬学者老普林尼（拉丁語：Gaius Plinius Secundus）在研究此次火山喷发的观察中葬身，其外甥小普林尼（Gaius Plinius Caecilius Secundus）紀錄描述了喷发过程。普林尼式火山噴發特徵是噴射高达平流層（十公里以上）的火山氣體及火山灰。最特別的是其噴發大量的浮岩及非常劇烈的氣體爆發。 短暫的噴發可以在一天內完結，但也可以長達數日，甚至數月。較長時間的噴發最初导致灰雲的生成，有時會連同火山碎屑流。这种喷发可以噴出大量岩漿，導致地下岩漿室騰空而使火山口崩塌，形成破火山口。細灰可以覆蓋很大面積。普林尼式火山噴發一般伴随着巨大的轰鸣，就如喀拉喀托火山噴發時一樣。 熔岩一般是由流紋岩及有豐富的矽酸鹽构成。普林尼式火山噴發很少會有玄武岩熔岩，而最近一次有玄武岩熔岩的喷发来自1886年的塔拉威拉山噴發。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-08T17:56:53.835465Z"
+    },
+    {
+      "source_id": "wiki-random:zh:9388687",
+      "source_name": "ZH Wikipedia：黄腐酚",
+      "source_url": "https://zh.wikipedia.org/wiki/%E9%BB%84%E8%85%90%E9%85%9A",
+      "title": "黄腐酚",
+      "excerpt": "黄腐酚（英語：Xanthohumol）是一种天然黄酮类化合物，存在于蛇麻的雌花序（即啤酒花）及啤酒中，属于贡献啤酒花及啤酒的特殊味道及苦味的主要化合物之一。它是一种异戊二烯基查耳酮类化合物，其生物合成途径涉及III型聚酮合酶及后续修饰酶的作用。 在酿造过程中，黄腐酚及其他异戊二烯基黄酮类化合物会因受热等工艺影响而发生异构化，转化为相应的黄烷酮，从而导致其含量下降。不同品种的啤酒花以及不同种类的啤酒中，黄腐酚的含量存在很大差异；市面上啤酒中，黄腐酚的浓度范围约为2μg/L至1.2mg/L。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-08T17:56:53.836664Z"
+    },
+    {
+      "source_id": "wiki-random:zh:8485991",
+      "source_name": "ZH Wikipedia：聯想Yoga 2 Pro",
+      "source_url": "https://zh.wikipedia.org/wiki/%E8%81%AF%E6%83%B3Yoga_2_Pro",
+      "title": "聯想Yoga 2 Pro",
+      "excerpt": "联想 IdeaPad Yoga 2 Pro是IdeaPad系列中的一款超极本，它即是一款平板电脑，也是一款笔记本电脑，也就是說联想 Yoga 2 Pro是一款二合一產品。联想在2013年的柏林国际广播展上首次推出Yoga 2 Pro。它于2013年10月在美国上市。它有两种颜色可供選擇，分別是银灰色和柑橘橙色。由于該產品具有铰链，所以它的屏幕可以旋转360度，而且屏幕是觸摸屏。Yoga 2 Pro預裝的操作系統是Windows 8。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-08T17:58:16.641622Z"
+    },
+    {
+      "source_id": "wiki-random:zh:9413369",
+      "source_name": "ZH Wikipedia：热惰性",
+      "source_url": "https://zh.wikipedia.org/wiki/%E7%83%AD%E6%83%B0%E6%80%A7",
+      "title": "热惰性",
+      "excerpt": "热惰性（thermal inertia），也稱為熱慣量，常用于描述在传热过程中观测到的物体温度响应延迟。该现象产生于物体相对于其环境既能存储热量又能传输热量的能力。由于系统组分的构型与传热方式（例如传导、对流、辐射、相变）以及能量存储形式（例如内能、焓、潜热）在不同实例间差异显著，因此不存在对热惰性具有普适适用性的封閉形式数学表达式。 具有较大质量和熱容量的实体通常表现出较慢的温度响应。然而，仅以热容量来量化热惰性并不充分。对热惰性的测量还取决于热流在体内与体外的分布情况，需根据系统的边值问题予以判断。 热惰性是內含及外延性質取决于语境。一些作者将其作为一种材料的强度性属性来识别，例如与热逸散率相关联时。也有人根据系统在瞬态传热过程中的时空行为对其作为外延量进行评价。在这种基于测量或数值模拟的空间—时间行为分析中，有时可用一个时间常数作为所选组件或子系统热惰性的简单参数化表示。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-08T17:58:16.642871Z"
+    },
+    {
+      "source_id": "wiki-random:en:63521618",
+      "source_name": "EN Wikipedia：Tonight (I Wish I Was Your Boy)",
+      "source_url": "https://en.wikipedia.org/wiki/Tonight_(I_Wish_I_Was_Your_Boy)",
+      "title": "Tonight (I Wish I Was Your Boy)",
+      "excerpt": "\"Tonight (I Wish I Was Your Boy)\" is a song by English band the 1975 from their fourth studio album, Notes on a Conditional Form (2020). The song was written by band members Matty Healy, George Daniel, Adam Hann and Ross MacDonald alongside Guendoline Viray Rome Gomez and Hiroshi Sato. Daniel and Healy handled the production of the song. It originated from an a cappella sample, with the band gradually merging different pieces of music together to create the final version. Healy was inspired by the Backstreet Boys, producer Max Martin and rapper Kanye West, along with the melodic music of Brandy, Whitney Houston, SWV and TLC. \"Tonight (I Wish I Was Your Boy)\" is a mid-tempo experimental alternative R&B and neo soul slow jam. The song is produced in a retro 1990s style, containing a funk-influenced drum beat, reggae rhythms, brass instrumentation and influences of contemporary R&B, electropop, jazz, dub, ska and electronic music. The lyrics recount Healy's wish that his feelings of attraction toward a potential partner are reciprocated, touching upon themes of existentialism and dread. The song samples \"Just My Imagination (Running Away with Me)\" by the Temptations, while the chord progression...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-08T17:58:16.643846Z"
+    },
+    {
+      "source_id": "wiki-random:en:18724706",
+      "source_name": "EN Wikipedia：Before You Love Me",
+      "source_url": "https://en.wikipedia.org/wiki/Before_You_Love_Me",
+      "title": "Before You Love Me",
+      "excerpt": "\"Before You Love Me\" is a song by Russian singer Alsou, her first single released from her first album, Alsou. It was released on April 30, 2001, in Australia and the United Kingdom, and a few weeks later in May 2001 in various countries throughout Europe. The single failed to chart in Australia. In the United Kingdom it peaked at number twenty-seven. A lack of promotional support from Alsou's record company meant that no further releases occurred in either Australia or the United Kingdom, with the impending release of the Alsou album cancelled in both regions. The single was, however, effective in producing the hype it needed throughout Europe for the album to be released and proper promotion to take place.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-08T17:59:31.501755Z"
+    },
+    {
+      "source_id": "wiki-random:zh:712472",
+      "source_name": "ZH Wikipedia：盾牌-南十字臂",
+      "source_url": "https://zh.wikipedia.org/wiki/%E7%9B%BE%E7%89%8C-%E5%8D%97%E5%8D%81%E5%AD%97%E8%87%82",
+      "title": "盾牌-南十字臂",
+      "excerpt": "盾牌-南十字臂，也稱為盾牌-半人馬臂，是從銀河系中心接近棒的末端，由瀰散的氣體和塵埃組成，向外螺旋彎曲的長串星流。儘管自20世紀50年代以來，沒有確實強而有力的證據，但銀河系一直被認為有4條螺旋臂。在2008年，利用史匹哲太空望遠鏡觀測的資料，在船底-人馬臂和矩尺臂的紅群聚沒有如預期的密度。在2014年，一項為期12年，研究大質量恆星的分布和壽命，以及對邁射和疏散星團分布的研究，兩者都發現4條螺旋臂的證據。 盾牌-半人馬臂位於小船底-人馬臂和主要的英仙臂之間。盾牌-半人馬臂開始的位置靠近盾牌臂的核心，然後逐漸變成半人馬臂。 盾牌-半人馬臂與銀河的棒連接的區域是豐富的恆星形成區。2006年在那兒發現一大群新恆星，其中包括有14顆紅超巨星命名為RSGC1的集團。在2007年發現距離RSGC1只有幾百光年，擁有5,000顆新形成恆星，命名為RSGC2的集團。估計它的年齡還不到2,000萬年，並有26顆紅超巨星，是已知此種恆星的最大集團。這個區域的恆星集團還有紅超巨星團3和阿利坎特8。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-08T17:59:31.502052Z"
+    },
+    {
+      "source_id": "wiki-random:en:6995526",
+      "source_name": "EN Wikipedia：Hydraulic motor",
+      "source_url": "https://en.wikipedia.org/wiki/Hydraulic_motor",
+      "title": "Hydraulic motor",
+      "excerpt": "A hydraulic motor is a mechanical actuator that converts hydraulic pressure and flow into torque and angular displacement (rotation). The hydraulic motor is the rotary counterpart of the hydraulic cylinder as a linear actuator. Most broadly, the category of devices called hydraulic motors has sometimes included those that run on hydropower (namely, water engines and water motors) but in today's terminology the name usually refers more specifically to motors that use hydraulic fluid as part of closed hydraulic circuits in modern hydraulic machinery. Conceptually, a hydraulic motor should be interchangeable with a hydraulic pump because it performs the opposite function – similar to the way a DC electric motor is theoretically interchangeable with a DC electrical generator. However, many hydraulic pumps cannot be used as hydraulic motors because they cannot be backdriven. Also, a hydraulic motor is usually designed for working pressure at both sides of the motor, whereas most hydraulic pumps rely on low pressure provided from the reservoir at the input side and would leak fluid when abused as a motor.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-08T17:59:31.502799Z"
+    },
+    {
+      "source_id": "wiki-random:en:48494550",
+      "source_name": "EN Wikipedia：Kanyashree Prakalpa",
+      "source_url": "https://en.wikipedia.org/wiki/Kanyashree_Prakalpa",
+      "title": "Kanyashree Prakalpa",
+      "excerpt": "Kanyashree is an initiative undertaken by the Government of West Bengal to improve the lives and status of the girls by helping low-income families with cash so that families do not force their daughters into arranged child marriages because of economic difficulties. The purpose of this initiative is to uplift girls who are from poor families and are unable pursue higher studies due to tough economic conditions. It has been internationally recognised by the United Nations Department of International Development and the UNICEF. The scheme has two components: Annual scholarship of Rs. 1000.00 One time grant of Rs. 25,000.00 The annual scholarship is for unmarried girls aged 13–18 years enrolled in class VIII-XII in government recognized regular or equivalent open school or vocational / technical training courses. Recently the bar of income was withdrawn by the government of West Bengal; now every girl can apply for that scheme.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-08T17:59:31.503879Z"
+    },
+    {
+      "source_id": "wiki-random:zh:137260",
+      "source_name": "ZH Wikipedia：理性主义",
+      "source_url": "https://zh.wikipedia.org/wiki/%E7%90%86%E6%80%A7%E4%B8%BB%E4%B9%89",
+      "title": "理性主义",
+      "excerpt": "理性主义（英語：rationalism）、欧洲理性主义是建立在承认人的理性可以作为知识来源的理论基础上的一种哲学方法，认为理性高於感官感知，也称作唯理论。形式的来说，理性主义是指认定真理不能依赖感官, 而需依赖理智和演绎推理的方法论或理論。 理性主義最早的發源地是在英國，一般认为是隨著以哥白尼日心說為先驅的科學革命在歐洲大陸的發展，然後在包含法國在內的歐洲大陸各地繼續發揚光大，最後在笛卡儿的思想出現以後而产生的一套理論，17-18世纪间主要在欧洲各地例如在歐洲大陸以及冰島和愛爾蘭跟英國得以传播。同时代相对的另一种哲学方法稱為經驗主義，它认为人类的想法来源于经验，所有知识可能除了数学以外主要来源于经验。这里主要关注的是人类的知识来源以及证实我们所知的一种手段。 理性指能够识别、判断、评估實踐理由以及使人的行为符合特定目的等方面的智能。理性通过论点与具有说服力的论据发现真理，通过符合逻辑的推理而非依靠表象而获得结论，意见和行动的理由。 理性主义及经验主义并非由当时的哲学家，而是后人作出了区分。事实上，有时两者之间的区分并不像人们所说的那么显著。三位主要的理性主义者都认同经验科学的重要性，并且他们在研究方法及形而上学的理论上更接近笛卡儿而不是斯宾诺莎和莱布尼兹。尽管这种区分在著书立作时很有必要，他们在哲学本身来说不是非常有用。 典型的理性主义者认为，人类首先本能地掌握一些基本原则，如几何法则，随后可以依据这些推理出其余知识。最典型的持这种观点的是斯宾诺莎及莱布尼兹，在他们试图解决由笛卡儿提出的认知及形而上学问题的过程中，他们使理性主义的基本方法得以发展。斯宾诺莎及莱布尼兹都认为原则上所有知识（包括科学知识）可以通过单纯的推理得到，另一方面他们也承认现实中除了数学之外人类不能做到单纯用推理得到别的知识。 笛卡儿的理论相对来说更接近亚里士多德，他认为只有一些永恒真理（包括数学以及科学的认知及形而上学基础）可以单纯靠推理得到，其余的知识需要借助生活经验以及必要的科学手段。更准确地说笛卡儿是一位重视形而上学的理性主义者，是一位重视科学的经验主义者。 康德开始时是一位理性主义者，但是经过休谟的“将他从沉睡中唤醒”的著作（《人类理智研究》）的熏陶，他成了理性主义者以及经验主义者的综合体。 现在理性主义表达一种人类行为应该由理性所支配的观点（这种观点被欧洲所有的理性主义者以及所有的经验主义者所认同）。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-08T17:59:31.504066Z"
+    },
+    {
+      "source_id": "wiki-random:en:74545434",
+      "source_name": "EN Wikipedia：Pachati",
+      "source_url": "https://en.wikipedia.org/wiki/Pachati",
+      "title": "Pachati",
+      "excerpt": "Pachati or Pasoti, festival is usually celebrated on the fifth day of Janmashtami. The word Pachati generally means a birth ceremony performed on the fifth day after the birth of a child. However, It is the festival celebrated five days after the birth anniversary of the eternal child Krishna. The day after Janmashtami is known as Nandotsav, This is because a festival was held at Nanda Puri on that day. Panchati is the next festival to Nandotsav. In some places, the festival is celebrated on the day after Nandotsav.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-08T17:59:31.504308Z"
+    },
+    {
+      "source_id": "wiki-random:zh:5877249",
+      "source_name": "ZH Wikipedia：壓力管理",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%A3%93%E5%8A%9B%E7%AE%A1%E7%90%86",
+      "title": "壓力管理",
+      "excerpt": "壓力管理（stress management）又称压力管理，是減輕身心壓力的方法和應對策略的統稱，包括如何评价应激性事件、发展应对技能，并练习使用这些应对技能等。當人們的復原力和自我修復能力由於內部和外部壓力，而不足以維持表現或身心健康時，壓力管理方法可能會有所幫助。壓力管理是為了增進日常生活功能，使用不同技巧或進行心理治療來控制一個人的壓力水準，尤其針對慢性壓力的處理。在許多實用的壓力管理技術中，有些由衛生專業人員施作，有些藉由自行操作來幫助減輕壓力，提高人生掌控感與促進整體健康。 應對策略涉及資源的保護和促進，以及壓力的心智、情緒和身體方面的管理。心理學家 Gert Kaluza 將應對策略分為三組：工具性壓力管理（影響壓力源）、心智壓力管理（改變加劇壓力的想法）、姑息—再生（英語：palliative-regenerative，姑息意指緩解疼痛，但不處理狀態起因）壓力管理（影響壓力反應）。 壓力管理有幾個步驟： 分析壓力來源 將禁忌自心理壓力中移除 提升個人應對技巧 壓力管理策略由心理學家、心理治療師等相關領域專業從業者傳授。除了身體活動和健康飲食外，通常還建議使用放鬆技巧和正念練習以及時間管理來進行自助。 根據個人狀況的不同，壓力會產生許多身體和心理症狀，包括身體不適以及憂鬱症。壓力管理是現代社會成功和幸福的一項關鍵所在。縱使生命中有許多難以處理的課題，壓力管理可以提供多種治療焦慮和維持個人健全的方法。儘管壓力常被認為是主觀經驗，使用各種生理儀器可以很容易地測量壓力水準，例如測謊機中使用的那些工具。因為目前相關研究仍有限，評估各種壓力管理技術的有效性是相當困難的。因此，不同技術的證據數量和品質差別很大。有些被認可為專業心理治療的有效方法，而其他證據較少者則被認為是替代療法。這些技術有著不同壓力控制機轉的解釋模型，未來仍需要有更多的研究以便清楚了解哪些機轉為真並在實作中可行。許多專業組織從事促進和培訓這些療法的運用。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-08T17:59:31.504825Z"
+    },
+    {
+      "source_id": "wiki-random:en:25071",
+      "source_name": "EN Wikipedia：Paavo Nurmi",
+      "source_url": "https://en.wikipedia.org/wiki/Paavo_Nurmi",
+      "title": "Paavo Nurmi",
+      "excerpt": "Paavo Johannes Nurmi (Finnish pronunciation: [ˈpɑːʋo ˈnurmi] ; 13 June 1897 – 2 October 1973) was a Finnish middle-distance and long-distance runner. He was called the \"Flying Finn\" because he dominated distance running in the 1920s. Nurmi set 22 official world records at distances between 1,500 metres and 20 kilometres, and won nine gold and three silver medals in his 12 events in the Summer Olympic Games. At his peak, Nurmi was undefeated for 121 races at distances from 800 m upwards. Throughout his 14-year career, he remained unbeaten in cross country events and the 10,000 metres. Born into a working-class family, Nurmi left school at the age of 12 to provide for his family. In 1912, he was inspired by the Olympic feats of Hannes Kolehmainen and began developing a strict training program. Nurmi started to flourish during his military service, setting Finnish records in athletics en route to his international debut at the 1920 Summer Olympics. After winning a silver medal in the 5,000 m, he won gold in the 10,000 m and the cross country events. In 1923, Nurmi became the first runner to hold simultaneous world records in the mile, the 5,000 m and the 10,000 m races, a feat which has...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-08T17:59:31.505360Z"
+    },
+    {
+      "source_id": "wiki-random:zh:5714054",
+      "source_name": "ZH Wikipedia：逆流交換",
+      "source_url": "https://zh.wikipedia.org/wiki/%E9%80%86%E6%B5%81%E4%BA%A4%E6%8F%9B",
+      "title": "逆流交換",
+      "excerpt": "逆流熱交換（英語：countercurrent heat exchange）是出現於自然界的交換機制，兩股流體反向而流，同時交換熱。也可以交換其他性質，如化學物質濃度，此時統稱為逆流交換（countercurrent exchange）。工業和工程學亦常模倣此機制。其中「流體」可以是液體、氣體，甚至固體粉末，或其任意組合。例如，蒸餾塔中，蒸氣泡上升時，經過向下流的液體，同時交換熱和質量。 藉逆流熱交換或質量交換，交換的量可以比並流交換（同向流動）更多，因為逆流熱交換能維持溫差梯度下降得較慢。並流時，初始梯度很高，但是下降得很快，最終有浪費。以右圖舉例，受加熱的流體（向上），離開交換器時，溫度比降溫後的流體（向下）離開的溫度更高。對於平行流動的交換，此為不可能，因為兩者的溫度衹能彼此趨近。所以逆流熱交換與並流相比，同樣條件下，可以達到更大的交換量。見换热器。 逆流交換的環路和迴圈常見於自然，尤其生物的系統中。恒温动物在寒冷的環境下，為了減少熱能（能量）的散失，血管的排列變得特殊，使動脈的血與靜脈的血之間進行逆流熱交換。脊椎動物中，此種結構稱為迷網，原先是魚鰓從水吸收氧氣的器官名，工業模倣製成各種逆流交換系統。逆流交換是化学工程热力学和製造過程的重要概念，例如從糖用甜菜提煉蔗糖就要考慮。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-08T17:59:31.505678Z"
+    },
+    {
+      "source_id": "wiki-random:zh:890932",
+      "source_name": "ZH Wikipedia：亚历山大·格拉祖诺夫",
+      "source_url": "https://zh.wikipedia.org/wiki/%E4%BA%9A%E5%8E%86%E5%B1%B1%E5%A4%A7%C2%B7%E6%A0%BC%E6%8B%89%E7%A5%96%E8%AF%BA%E5%A4%AB",
+      "title": "亚历山大·格拉祖诺夫",
+      "excerpt": "亚历山大·康斯坦丁诺维奇·格拉祖诺夫（俄語：Александр Константинович Глазунов，羅馬化：Aleksandr Konstantinovič Glazunov，1865年8月10日—1936年3月21日），又譯葛拉佐諾夫、葛拉祖諾夫、葛拉茲諾夫，俄罗斯作曲家、音乐教育家和指挥家。1906年至1917年间担任圣彼得堡音乐学院院长，后参与重组彼得格勒音乐学院和后来的列宁格勒音乐学院并继续担任院长直至1930年。格拉祖诺夫担任院长期间最著名的学生是德米特里·肖斯塔科维奇。1928年，格拉祖诺夫离开苏联，前往欧洲和美国游历，最后定居在巴黎。 格拉祖诺夫成名颇早，其初期作品接近强力集团风格，后力图在作品中将强力集团与柴可夫斯基的风格融合，并大量运用对位法。格拉祖诺夫的音乐配器色彩丰富，旋律优美，写作技巧精湛。格拉祖诺夫从本质上说是一位器乐作曲家，尤以其管弦乐，芭蕾音乐和室内乐著称。他还是罕见的写作管风琴作品的俄罗斯作曲家。 格拉祖諾夫在音樂史上，一度被忽視而湮沒，作品鮮少被公開演奏與錄音。格拉祖諾夫的九首交響曲，就像古斯塔夫·馬勒的九首交響曲一樣，一度被視為音樂史上不值得探討、無關緊要的交響創作，原因在於它既不夠前衛、也不夠古典。但是，隨著馬勒交響曲的歷史定位逐漸塵埃落定，全世界音樂界終於也開始對格拉祖諾夫所留下的交響曲價值感到好奇，重新予以評價。二十世紀後期，他的交響曲全集與管弦樂作品，成為最常令資深古典樂迷驚豔，並多所詢問，卻一直苦於無法收集到的一套「失落的環節」。格拉祖諾夫的作品旋律甘美浪漫、配器豐富，並富俄羅斯風情，作為交響樂史上連接柴可夫斯基的俄國浪漫樂派和蕭士塔高維契的現代樂派之間的重要環節，許多唱片公司和多位指揮家，同一時間開始紛紛競逐格拉祖諾夫交響曲全集的錄音。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-08T17:59:31.505860Z"
+    },
+    {
+      "source_id": "wiki-random:en:42413718",
+      "source_name": "EN Wikipedia：Glasgow, Oregon",
+      "source_url": "https://en.wikipedia.org/wiki/Glasgow,_Oregon",
+      "title": "Glasgow, Oregon",
+      "excerpt": "Glasgow is an unincorporated community in Coos County, Oregon, United States. For statistical purposes, the United States Census Bureau has defined Glasgow as a census-designated place (CDP). The census definition of the area may not precisely correspond to local understanding of the area with the same name. As of the 2020 census the Glasgow CDP had a population of 785. Glasgow is located on the north side of Coos Bay, about 6 miles (10 km) north of the city of Coos Bay, just east of U.S. Route 101. The community was founded by real estate speculators in the 1890s, including Henry L. Pittock, Phil Metschan, and Admiral Schley of the Pacific Coal & Transportation Company. The community did not flourish until 30 years after its founding, when construction of Route 101 made Glasgow the northern terminus of the ferry from North Bend, which was used to cross the bay prior to the completion of the Coos Bay Bridge. The place was supposedly named by a Scot because it reminded him of Glasgow, Scotland, but the authors of Oregon Geographic Names were unable to verify this. Glasgow has a store and a Grange hall, the North Bayside Grange, also known as the Glasgow Grange, that was built in 1928...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-08T17:59:31.506319Z"
+    },
+    {
+      "source_id": "wiki-random:zh:949534",
+      "source_name": "ZH Wikipedia：四氯化钛的有机反应",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%9B%9B%E6%B0%AF%E5%8C%96%E9%92%9B%E7%9A%84%E6%9C%89%E6%9C%BA%E5%8F%8D%E5%BA%94",
+      "title": "四氯化钛的有机反应",
+      "excerpt": "Ti元素的发现至今刚刚经过了两百年的时间。1790年Gregor由钛铁矿砂中首次发现Ti，1795年Klaproth又进行了在进一步研究后命名这种元素为“Titanium”，意思是希腊神话中地球之子。但他们都只得到TiO2。1910年，Hunter用Na还原TiCl4，首次得到单质Ti。Ti元素在地壳中的含量达到0.6%，比一般的常见金属，如Zn、Cu和Sn的含量都高，甚至超过常见的非金属元素Cl、P，在金属中仅次于Al、Fe、Ca、Na、Mg居第七位。 自Ti元素發现以来，人们对其进行了长期系统的研究。早起的研究主要侧重于TiCl4的无机反应。对有机Ti反应的研究起步与19世纪中叶，1861年Cahours研究了TiCl4与ZnEt2的反应。1952年第一个含有Ti-C σ键的有机Ti化合物 PhTi(O-iC3H7)3才合成与分离成功。上个世纪五十年代以来，有机Ti化学获得了迅速发展，一方面稳定的MAO-Ti结构化合物如Cp2TiBr2和Cp2TiCl2 (Cp=η5-C5H5)的合成与报道开启了一个全新的有机Ti化学分支；另一方面Ziegler-Natta催化剂的出现将传统Ti-X（X=Cl，Br，I，F）化合物的研究应用提升到了一个新的层次。 本文主要介绍 TiCl4 的相关反应和应用。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-08T17:59:31.506504Z"
+    },
+    {
+      "source_id": "wiki-random:en:2934451",
+      "source_name": "EN Wikipedia：St. Martin's Day",
+      "source_url": "https://en.wikipedia.org/wiki/St._Martin%27s_Day",
+      "title": "St. Martin's Day",
+      "excerpt": "Saint Martin's Day or Martinmas (obsolete: Martlemas), and historically called Old Halloween or Old All Hallows Eve, is the feast day of Saint Martin of Tours and is celebrated in the liturgical year on 11 November. In the Middle Ages and early modern period, it was an important festival in many parts of Europe, particularly Germanic-speaking regions. In these regions, it marked the end of the harvest season and beginning of winter and the \"winter revelling season\". Traditions include feasting on 'Martinmas goose' or 'Martinmas beef', drinking the first wine of the season, and mumming. In some German and Dutch-speaking towns, there are processions of children with lanterns (Laternelaufen), sometimes led by a horseman representing St Martin. The saint was also said to bestow gifts on children. In the Rhineland, it is also marked by lighting bonfires.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-08T17:59:31.506752Z"
+    },
+    {
+      "source_id": "wiki-random:en:11703873",
+      "source_name": "EN Wikipedia：Effective refractory period",
+      "source_url": "https://en.wikipedia.org/wiki/Effective_refractory_period",
+      "title": "Effective refractory period",
+      "excerpt": "In electrocardiography, during a cardiac cycle, once an action potential is initiated, there is a period of time that a new action potential cannot be initiated. This is termed the effective refractory period (ERP) of the tissue. This period is approximately equal to the absolute refractory period (ARP), it occurs because the fast sodium channels remain closed until the cell fully repolarizes. During this period, depolarization on adjacent cardiac muscles does not produce a new depolarization in the current cell as it has to refract back to phase 4 of the action potential before a new action potential can activate it. ERP acts as a protective mechanism and keeps the heart rate in check and prevents arrhythmias, and it helps coordinates muscle contraction. Anti-arrhythmic agents used for arrhythmias usually prolong the ERP. For the treatment of atrial fibrillation, it is a problem that the prolongation of the ERP by these agents also affects the ventricles, which can induce other types of arrhythmias.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-08T17:59:31.507721Z"
+    },
+    {
+      "source_id": "wiki-random:zh:7424727",
+      "source_name": "ZH Wikipedia：韧性城市",
+      "source_url": "https://zh.wikipedia.org/wiki/%E9%9F%A7%E6%80%A7%E5%9F%8E%E5%B8%82",
+      "title": "韧性城市",
+      "excerpt": "传统上， 城市韧性（英語：urban resilience）定义为“城市系统及其居民在各种冲击和压力下保持正常运作，且积极适应并能转向可持续发展”。因此，一座韧性城市就是对自然和人为的、突发和慢性的、预期和未预期到的灾害进行评估、计划并采取行动，以对灾害未雨绸缪和积极应对的城市。韧性城市更能够保护和改善人们的生活、保卫发展成果、营造良好投资环境以及推动积极的改变。关于城市韧性的学术讨论主要集中在三种不同的威胁上：气候变化、自然灾害和恐怖主义。不少学者已讨论过城市规划和设计的物质和非物质层面上抵御这些威胁的能力。因此，韧性城市更多在反恐、自然灾害（地震、海啸、洪水、太阳耀斑等）以及基础设施采用可持續能源方面提出应变策略。 近来，人们越来越重视城市韧性的谱系和城市系统对不断变化的环境的适应能力。韧性理论的这一分支建立在城市作为高度复杂适应系统的概念之上。这种见解的内涵是将城市规划从基于几何规划的传统方法转变为以网络科学为基础的、对城市运作干扰更少的方法。网络科学提供了一种将城市规模与能够使城市以不同方式运转的网络形式联系起来的方法。它可以进一步洞察各种城市政策的潜在效力。这就需要更好地了解有助于建立城市适应力的各类实践和工具。谱系方法探索了这些实践（包括支撑它们的价值观和权力关系）随时间的演变。 提高城市的韧性取决于投资决策，这些决策要将支出优先提供给有备用方案、在不同情况下都能正常工作的项目。此类决策需要考虑未来的风险和不确定性。由于风险不可能完全消除，因此紧急情况和灾难下的救援计划至关重要。例如，灾害风险管理框架为增强抗灾能力提供了切实的机会。 截至2007年，全球已有一半以上的人口居住在城市中，到2050年，城市化率预计将上升至80％。这意味着，这个时代面临的抵御风险的主要挑战，诸如减贫、自然灾害和气候变化、环境可持续性以及社会包容性，其成败将取决于城市。高人口密度使人们特别容易受到突如其来的灾害以及缓慢的气候变化带来的影响；这些都使韧性规划至关重要。同时，在过去的一个世纪中，城市化的进程也与显著的城市蔓延有关。韧性城市不仅能帮助个人、社区和企业面对多种冲击和压力的挑战，也能为转型发展提供机会。 作为应对城市地区灾害风险的一种方法，国家和地方政府可以组织不适宜居住区的移民安置。这可以是预防性的，也可以在灾难后发生。这虽然减少了人们受灾的风险，但是也可能导致其他问题。理解重新安置，需要将其作为长期可持续发展的一部分，而不仅仅是减少灾害风险的一种手段。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-08T17:59:31.508365Z"
     }
   ]
 }

@@ -1,17 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-08-08T17:59:31.511103Z",
+  "updated_at": "2026-08-08T18:02:38.133443Z",
   "candidates": [
-    {
-      "source_id": "onthisday:zh:08/08:1988:13",
-      "source_name": "Wikimedia On This Day：一党制",
-      "source_url": "https://zh.wikipedia.org/wiki/%E4%B8%80%E5%85%9A%E5%88%B6",
-      "title": "1988: 缅甸展开一系列抗议缅甸社会主义纲领党进行一党制统治的8888民主运动。",
-      "excerpt": "事件：缅甸展开一系列抗议缅甸社会主义纲领党进行一党制统治的8888民主运动。\n相关页面摘要：一党制，又称单党制 或一党专政，是單一執政黨壟斷政治與軍事權力，並通過憲法、政府、軍警、特務等各種制度內外之手段，長期將其他勢力排除於政治權力外的国家。第一个一党制国家为1878年至1980年由真辉格党統治的西非国家利比里亚，统治时间为102年；現存歷史最悠久的一黨制國家為自1945年9月2日起由越南共產黨統治的越南民主共和國（1976年越南統一后改国号为越南社会主义共和国）。",
-      "category_hint": "历史",
-      "source_rank": 3,
-      "added_at": "2026-08-08T17:55:56.436256Z"
-    },
     {
       "source_id": "wiki-random:zh:2872377",
       "source_name": "ZH Wikipedia：服務性 (電腦)",
@@ -1473,16 +1463,6 @@
       "added_at": "2026-07-26T18:30:21.353041Z"
     },
     {
-      "source_id": "wiki-random:zh:5540080",
-      "source_name": "ZH Wikipedia：凯撒·伊达尔戈",
-      "source_url": "https://zh.wikipedia.org/wiki/%E5%87%AF%E6%92%92%C2%B7%E4%BC%8A%E8%BE%BE%E5%B0%94%E6%88%88",
-      "title": "凯撒·伊达尔戈",
-      "excerpt": "凯撒·伊达尔戈（西班牙语：César A. Hidalgo，全名：César Augusto Hidalgo Ramaciotti，1979年12月22日—），是一位出生于智利圣地亚哥的统计物理学家、作家和数据可视化设计师。他是麻省理工学院媒体实验室（Media Lab）媒介艺术与科学方向（Media Arts and Sciences）的副教授，同时也是媒体实验室宏观连接小组（Macro Connections group）的主管、大数据分析与交互公司Datawheel的联合创始人。 伊达尔戈的研究兴趣包括：复杂系统（Complex Systems）、经济复杂性（Economic Complexity）、数据可视化（Data Visualization）和网络科学（Network Science）。他著有《增长的本质》（Why Information Grows）一书，并合著有《经济复杂性图集》（The Atlas of Economic Complexity）。 伊达尔戈因开创了经济复杂性领域而知名，同时他开发的数据可视化引擎也广为流行，如经济复杂性天文台（OEC）、数据欢呼（DataViva）、名人堂（Pantheon）、浸没（Immersion）、数据美国（DataUSA）和街比分（Streetscore）。 2012年，伊达尔戈被智利国会授予“二百周年科学勋章”（Bicentennial Medal of Science），并被英国《連線》（Wired Magazine）提名为50个将会改变世界的人。2013年，伊达尔戈被世界经济论坛推选为“全球青年领袖”（World Economic Forum 2013 Young Global Leaders）。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-26T18:30:21.353563Z"
-    },
-    {
       "source_id": "wiki-random:en:30080819",
       "source_name": "EN Wikipedia：Pillars of Freedom",
       "source_url": "https://en.wikipedia.org/wiki/Pillars_of_Freedom",
@@ -1531,16 +1511,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-26T18:30:53.759198Z"
-    },
-    {
-      "source_id": "wiki-random:en:13503559",
-      "source_name": "EN Wikipedia：Topps Meat Company",
-      "source_url": "https://en.wikipedia.org/wiki/Topps_Meat_Company",
-      "title": "Topps Meat Company",
-      "excerpt": "The Topps Meat Company, LLC was a privately owned meat processing company based in Elizabeth, New Jersey. The company produced and distributed frozen ground beef patties and other meat products processed at its 3,000-square-foot (280 m2) plant in Elizabeth and posted about $8.8 million a year in sales, according to information reported by Dun & Bradstreet. In 2007, the Topps Meat Company's products were linked to an outbreak of Escherichia coli O157:H7 (E. coli O157:H7) infections and, on October 5 of that year, the company ceased operations.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-26T18:30:53.759719Z"
     },
     {
       "source_id": "wiki-random:en:6551920",
@@ -2133,16 +2103,6 @@
       "added_at": "2026-08-01T18:27:50.896669Z"
     },
     {
-      "source_id": "wiki-random:zh:7658481",
-      "source_name": "ZH Wikipedia：生态狩猎",
-      "source_url": "https://zh.wikipedia.org/wiki/%E7%94%9F%E6%80%81%E7%8B%A9%E7%8C%8E",
-      "title": "生态狩猎",
-      "excerpt": "生态狩猎（英語：eco-hunting），也称绿色狩猎（green hunting）或飞镖游猎（darting safari），指使用非致命手段（比如麻醉枪或配有麻醉剂针头做箭头的弓弩）将猎物击倒捕捉后尽可能无伤害放生的狩猎行为，通常被兽医用来捉捕自然保护区内的野生动物以便对其进行医疗体检、抽血或活检采样、GPS监视和人为迁移。 生态狩猎可以用来提供一种更符合野生动物保护的休闲狩猎方式，用来取代损失不可逆的传统狩猎，概念上与现代西方国家休闲捕鱼时倡导的钓获放流相似，可以让猎手在能享受到捕猎成功的快感同时不需要真正去牺牲猎物性命并减少物种数量。在猎物被麻醉倒后，猎手依旧可以像传统狩猎那样与猎物拍照合影、测量尺寸、甚至收集毛发作为纪念，狩猎俱乐部也通常会承认猎手的成功记录并可以颁发额外制作的玻璃钢奖状。除此之外，业余猎手也可以参与帮助专业动物管理人员在动物身上植入追踪器并定期受到动物状态的更新报告，增进猎手和猎物之间的联系。而且虽然绿色狩猎形式的狩猎旅行的费用也不菲（每次可高达25000美元），但仍比传统的狩猎（高达60000美元）要更便宜，因为野生动物并未被杀死成为一次性消耗品，顾客不需要补偿很高的保护区动物成本损失。而从客人付费狩猎得来的收入反倒可以用来资助保护区的管理开销、各种器材的运营成本和改善动物兽医条件。 因为生态狩猎使用的非致命性武器通常是发射麻醉镖的气枪，外弹道和终端弹道（穿透力和停止作用）性能都被有意降低，所以猎手必须靠近到距离目标动物30米（33碼）以内才可能将其成功麻倒，比传统的狩猎距离要近得多，因此也具有一定的危险性，需要团队协同配合行动，必要时可能还会使用致命性的枪械以便防身。有组织的生态狩猎旅行有时候还会带领一些不参与狩猎的观众或纪录片剧组随行，因此可以充当一种观赏性体育运动。 在理想情况下，所有的生态狩猎都有由专业兽医带领并严格控制麻醉剂的剂量以确保不会损害动物福利，具体的猎捕应选择较为凉爽的清晨进行。在动物被麻倒后，如果需要进行采样或植入追踪器，就应该将动物的耳目遮住减少其紧张，并且在完成后给于解药让动物尽快从麻醉状态恢复到正常行动。猫科动物对麻醉剂尤其敏感，因此需要额外追踪观察24小时。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-01T18:27:50.898580Z"
-    },
-    {
       "source_id": "wiki-random:en:7616809",
       "source_name": "EN Wikipedia：Lightering",
       "source_url": "https://en.wikipedia.org/wiki/Lightering",
@@ -2431,16 +2391,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-08-03T19:01:57.873683Z"
-    },
-    {
-      "source_id": "wiki-random:zh:4018566",
-      "source_name": "ZH Wikipedia：硫二甘醇",
-      "source_url": "https://zh.wikipedia.org/wiki/%E7%A1%AB%E4%BA%8C%E7%94%98%E9%86%87",
-      "title": "硫二甘醇",
-      "excerpt": "硫二甘醇（英語：Thiodiglycol），又称二（2-羟基乙基）硫醚，是一种无色至淡黄色的粘稠液体，通常用作溶剂。属于监控化学品而受到严格管制。其化学式为C4H10O2S, 结构简式为HOCH2CH2SCH2CH2OH。它与丙酮、氯仿和醇类互溶，可溶于苯、乙醚及四氯化碳。 硫二甘醇可由硫化钠和2-氯乙醇反应制得。它在结构上与二甘醇类似。 硫二甘醇兼具极性溶剂和非极性溶剂的性质，其用途非常广泛，例如用于纺织品染色或部分圆珠笔油墨的制造。 尿液中硫二甘醇由芥子气在体内水解形成，为芥子气中毒的标志物，常用气相色谱法-质谱联用分析。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-03T19:01:57.874053Z"
     },
     {
       "source_id": "wiki-random:en:1808849",
@@ -2833,16 +2783,6 @@
       "added_at": "2026-08-07T18:08:32.161873Z"
     },
     {
-      "source_id": "wiki-random:zh:1579959",
-      "source_name": "ZH Wikipedia：時間反演對稱",
-      "source_url": "https://zh.wikipedia.org/wiki/%E6%99%82%E9%96%93%E5%8F%8D%E6%BC%94%E5%B0%8D%E7%A8%B1",
-      "title": "時間反演對稱",
-      "excerpt": "時間反演對稱（T-symmetry或time reversal symmetry）描述的是在时间反演 T : t ↦ − t {\\displaystyle T:t\\mapsto -t} 運算下，物理系统所保有的对称性，又可標作T對稱。 虽然在一些限定条件下存在时间反演对称性，但是由于热力学第二定律我们观测到的宇宙并不具有时间反演对称性。 發生不对称性有两种情况：第一種是物理定律时间反演的不对称性，比如弱相互作用；第二個則是宇宙初始条件所导致的不对称性。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-07T18:08:58.882771Z"
-    },
-    {
       "source_id": "wiki-random:en:5393194",
       "source_name": "EN Wikipedia：Operability",
       "source_url": "https://en.wikipedia.org/wiki/Operability",
@@ -2903,16 +2843,6 @@
       "added_at": "2026-08-07T18:09:21.624751Z"
     },
     {
-      "source_id": "wiki-random:zh:1154229",
-      "source_name": "ZH Wikipedia：聚对二甲苯",
-      "source_url": "https://zh.wikipedia.org/wiki/%E8%81%9A%E5%AF%B9%E4%BA%8C%E7%94%B2%E8%8B%AF",
-      "title": "聚对二甲苯",
-      "excerpt": "聚对二甲苯（Poly-p-xylylene），商品名帕里纶（Parylene），是通过化学气相沉积法制备的具有聚二甲撑苯撑结构的聚合物薄膜的统称，它有极其优良的电性能、耐热性、耐候性和化学稳定性，主要有 Parylene N（聚对二甲苯）、Parylene C（聚一氯对二甲苯）和 Parylene D（聚二氯对二甲苯）三种。它是采用真空热解气相堆积工艺制备，可制成极薄的薄膜，主要用作薄膜和涂层，用于电子元器件的电绝缘介质、保护性涂料和包封材料等。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-07T18:09:21.627487Z"
-    },
-    {
       "source_id": "wiki-random:zh:3983829",
       "source_name": "ZH Wikipedia：达娃扎西",
       "source_url": "https://zh.wikipedia.org/wiki/%E8%BE%BE%E5%A8%83%E6%89%8E%E8%A5%BF",
@@ -2953,16 +2883,6 @@
       "added_at": "2026-08-07T18:09:43.818101Z"
     },
     {
-      "source_id": "wiki-random:en:4106095",
-      "source_name": "EN Wikipedia：Natural Bridge State Resort Park",
-      "source_url": "https://en.wikipedia.org/wiki/Natural_Bridge_State_Resort_Park",
-      "title": "Natural Bridge State Resort Park",
-      "excerpt": "Natural Bridge State Resort Park is a public recreation area located along the Middle Fork of the Red River, two miles south of the unincorporated community of Slade, in Powell and Wolfe counties, Kentucky, United States. The state park lies adjacent to the Red River Gorge geologic area and is surrounded by the Daniel Boone National Forest. Its namesake natural bridge is the centerpiece of the park. The natural sandstone arch spans 78 feet (24 m) and is 65 feet (20 m) high. The natural process of weathering formed the arch over millions of years. Some of the most famous sites in the park are the arch itself, \"Lover's Leap\", and \"Fat Man's Squeeze\". The park is approximately 2,300 acres (930 ha), of which around 1,200 acres (490 ha) is dedicated by the Office of Kentucky Nature Preserves as a nature preserve. In 1981, this land was dedicated into the nature preserves system to protect the ecological communities and rare species habitat. The first federally endangered Virginia big-eared bats, Corynorhinus townsendii virginianus, recorded in Kentucky were found at Natural Bridge State Resort Park in the 1950s.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-08T17:55:56.436735Z"
-    },
-    {
       "source_id": "wiki-random:en:539146",
       "source_name": "EN Wikipedia：2004 Taiwanese cross-strait relations referendum",
       "source_url": "https://en.wikipedia.org/wiki/2004_Taiwanese_cross-strait_relations_referendum",
@@ -2973,26 +2893,6 @@
       "added_at": "2026-08-08T17:55:56.437995Z"
     },
     {
-      "source_id": "wiki-random:en:22714897",
-      "source_name": "EN Wikipedia：Changsha Economic and Technological Development Zone",
-      "source_url": "https://en.wikipedia.org/wiki/Changsha_Economic_and_Technological_Development_Zone",
-      "title": "Changsha Economic and Technological Development Zone",
-      "excerpt": "Changsha Economic and Technological Development Zone (CETZ) (simplified Chinese: 长沙经济技术开发区; traditional Chinese: 長沙經濟技術開發區; pinyin: Chángshā Jīngjì Jìshù Kāifāqū) is an economic and technical development zone at state level in Changsha, Hunan, China. The zone was established in August 1992, its old name was Xingsha Development Zone of Changsha (长沙星沙开发区), changed to the present name on 29 March, 1994. CETZ was upgraded to an economic and technical development zone at state-level in February, 2000. The headquarters for CETZ is situated in Xingsha in the eastern suburb of Changsha, including Xingsha, Langli and Huanghua 3 Industrial parks, its planning area covers 105 km2 (41 sq mi). The zone attracts many foreign investments, such as Mitsubishi Motor, NEC, Bosch, Philips, LG, HEG, Coca-Cola and Pepsi. Major industries in the zone include machinery processing and manufacturing, electronics and information, building materials, food and beverage, and printing.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-08T17:55:56.438270Z"
-    },
-    {
-      "source_id": "wiki-random:zh:5734462",
-      "source_name": "ZH Wikipedia：粪口路径",
-      "source_url": "https://zh.wikipedia.org/wiki/%E7%B2%AA%E5%8F%A3%E8%B7%AF%E5%BE%84",
-      "title": "粪口路径",
-      "excerpt": "粪口路径（也称为口腔-粪便路径或者口粪路径），是一种疾病传播途径。具体指的是，病原体由一个宿主的粪便中被引入另一个宿主的口腔中的传播方式。在一些发展中国家，粪口疾病传播的主要原因是卫生设施的匮乏和粪便造成的水污染。 传播的共同因素可以归纳为五个F：手指（fingers）、苍蝇（flies）、田野（fields）、液体（fluids）和食物（food）。粪便传播引起的疾病包括腹泻，伤寒，霍乱，小儿麻痹症和肝炎。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-08T17:55:56.439078Z"
-    },
-    {
       "source_id": "wiki-random:zh:6381736",
       "source_name": "ZH Wikipedia：邮件马车",
       "source_url": "https://zh.wikipedia.org/wiki/%E9%82%AE%E4%BB%B6%E9%A9%AC%E8%BD%A6",
@@ -3001,36 +2901,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-08-08T17:55:56.439985Z"
-    },
-    {
-      "source_id": "wiki-random:zh:1650349",
-      "source_name": "ZH Wikipedia：Such a Better Day",
-      "source_url": "https://zh.wikipedia.org/wiki/Such_a_Better_Day",
-      "title": "Such a Better Day",
-      "excerpt": "《Such a Better Day》，为香港女子雙人歌唱組合Twins的第二张精选專輯，于2004年12月10日在香港发行，主要收录抒情慢歌，包括〈精选〉、〈冬令时间〉、〈18變〉、〈追女仔〉四首新歌。 2004年對於Twins可以算是丰收的一年，除了已經接拍超过10个广告，加上内地巡回演唱会、唱片及电影。《Such a Better Day》新曲加精选专辑为她们的音乐成绩作一个小结。随精美礼盒特别版加赠Twins皮手带一对。 由出道一炮而红的“女校男生”、“爱情当入樽”，到最新大碟《Girl Power》的“丢架”、“女人味”等24首“饮歌”尽皆收录。Twins成员蔡卓妍(阿Sa)虽然在中国湖北发生车祸轻伤，两位小妮子仍努力忙完對电影的拍攝，并全力宣传新碟，泡制“冬令时间”及“精选”等四首新歌，力谷年尾颁奖礼。为了配合“精选”，Twins大玩时空交错，并以60年代怀旧look與众乐迷相會。而“冬令时间”亦是全城热播的电视广告歌。 除此以外，唱片公司更费尽心思超本制作，大碟封套设计成立体巨形硬盒设计，内附Twins真皮潮爆车花皮手带两条及精美镜盒。实在不能错过。 这次大碟名为《《Such a better day》》，故设计师弃用Twins一贯的华丽包装，一齐回归简约，务必给歌迷们清新亮丽的感觉，在封面设计方面，为配合回归简约感觉，设计师特别安排她们到郊外公园拍摄封面照。但Twins实在太忙，故封套照片早于8月中旬于一郊野公园拍摄，全身喷满蚊怕水外，因要配合出碟时已踏入冬季的緣故，二人均要穿戴冬季的衣服，于清晨7时开始拍摄至日落时分，皓热的天气穿着毛衣，跑跑跳跳很是活泼享受阳光的样子。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-08T17:55:56.440379Z"
-    },
-    {
-      "source_id": "wiki-random:en:9891486",
-      "source_name": "EN Wikipedia：99.9F°",
-      "source_url": "https://en.wikipedia.org/wiki/99.9F%C2%B0",
-      "title": "99.9F°",
-      "excerpt": "99.9F° (pronounced Ninety-Nine Point Nine Fahrenheit Degrees) is the fourth studio album by American singer-songwriter Suzanne Vega. Released on September 7, 1992, by A&M Records, the album marked a departure for Vega, as she embraced a more electronic, experimental sound. It peaked at No. 86 on the U.S. Billboard 200 and was Vega's fourth Top 20 album on the UK Albums Chart. The single \"Blood Makes Noise\" reached number one on the Billboard Modern Rock Tracks chart. 99.9F° was the first of two of Vega's albums to be produced by Mitchell Froom, whom she later married. The album was certified gold (500,000 copies sold) by the RIAA in October 1997. It was certified silver in the UK (60,000 copies sold) by the BPI in March 1993. Vega has referred to 99.9F° as her favorite of her studio albums.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-08T17:55:56.441679Z"
-    },
-    {
-      "source_id": "wiki-random:zh:146410",
-      "source_name": "ZH Wikipedia：军团病",
-      "source_url": "https://zh.wikipedia.org/wiki/%E5%86%9B%E5%9B%A2%E7%97%85",
-      "title": "军团病",
-      "excerpt": "军团病（英語：Legionellosis），又名退伍軍人症，是由嗜肺军团菌（又名退伍军人桿菌）引发的非典型肺炎。其症状包括咳嗽、呼吸困难、发热、肌肉疼痛、头痛。有时亦会发生恶心、呕吐、腹泻，嚴重甚至會導致死亡。军团病的症状通常在暴露后两到十天产生。 军团菌自然存在于淡水中。该菌可污染热水器、浴缸及大型空调的冷却塔。军团病通常透过吸入带有细菌的水雾传播，亦可透过吸入受污染水体引发。军团病一般不直接透过人际传播，大多数人在暴露后沒有被感染。感染本病的危险因子包括年老、有吸烟史、慢性肺病、免疫功能弱。严重肺炎患者和近期出行的肺炎患者应检查本病。本病透过尿抗原检测和痰培养诊断。 本病目前尚无疫苗，须透过加强对供水系统的维护来预防。军团病乃透过抗生素治疗，推荐用药包括喹诺酮类、阿奇霉素及多西环素等。本病往往需要住院治疗，感染者死亡率约10%。 本病在全世界的发病情况尚不清楚。目前估计院外感染肺炎中2~9%病例由军团病导致。在美国预计一年有8,000到18,000例需住院治疗。爆发疫情仅佔全部病例的一小部分。本病全年均可发生，于夏秋两季较为常见。本病因在1976年美国费城退伍军人大会上首次检出而得名。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-08T17:55:56.442008Z"
     },
     {
       "source_id": "wiki-random:zh:8824950",
@@ -3073,16 +2943,6 @@
       "added_at": "2026-08-08T17:56:53.833464Z"
     },
     {
-      "source_id": "wiki-random:zh:1187482",
-      "source_name": "ZH Wikipedia：普林尼式火山噴發",
-      "source_url": "https://zh.wikipedia.org/wiki/%E6%99%AE%E6%9E%97%E5%B0%BC%E5%BC%8F%E7%81%AB%E5%B1%B1%E5%99%B4%E7%99%BC",
-      "title": "普林尼式火山噴發",
-      "excerpt": "普林尼式火山噴發（Plinian eruption），又名維蘇威式火山噴發，是火山噴發的一種，其特徵類似公元79年的維蘇威火山噴發。古羅馬学者老普林尼（拉丁語：Gaius Plinius Secundus）在研究此次火山喷发的观察中葬身，其外甥小普林尼（Gaius Plinius Caecilius Secundus）紀錄描述了喷发过程。普林尼式火山噴發特徵是噴射高达平流層（十公里以上）的火山氣體及火山灰。最特別的是其噴發大量的浮岩及非常劇烈的氣體爆發。 短暫的噴發可以在一天內完結，但也可以長達數日，甚至數月。較長時間的噴發最初导致灰雲的生成，有時會連同火山碎屑流。这种喷发可以噴出大量岩漿，導致地下岩漿室騰空而使火山口崩塌，形成破火山口。細灰可以覆蓋很大面積。普林尼式火山噴發一般伴随着巨大的轰鸣，就如喀拉喀托火山噴發時一樣。 熔岩一般是由流紋岩及有豐富的矽酸鹽构成。普林尼式火山噴發很少會有玄武岩熔岩，而最近一次有玄武岩熔岩的喷发来自1886年的塔拉威拉山噴發。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-08T17:56:53.835465Z"
-    },
-    {
       "source_id": "wiki-random:zh:9388687",
       "source_name": "ZH Wikipedia：黄腐酚",
       "source_url": "https://zh.wikipedia.org/wiki/%E9%BB%84%E8%85%90%E9%85%9A",
@@ -3091,26 +2951,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-08-08T17:56:53.836664Z"
-    },
-    {
-      "source_id": "wiki-random:zh:8485991",
-      "source_name": "ZH Wikipedia：聯想Yoga 2 Pro",
-      "source_url": "https://zh.wikipedia.org/wiki/%E8%81%AF%E6%83%B3Yoga_2_Pro",
-      "title": "聯想Yoga 2 Pro",
-      "excerpt": "联想 IdeaPad Yoga 2 Pro是IdeaPad系列中的一款超极本，它即是一款平板电脑，也是一款笔记本电脑，也就是說联想 Yoga 2 Pro是一款二合一產品。联想在2013年的柏林国际广播展上首次推出Yoga 2 Pro。它于2013年10月在美国上市。它有两种颜色可供選擇，分別是银灰色和柑橘橙色。由于該產品具有铰链，所以它的屏幕可以旋转360度，而且屏幕是觸摸屏。Yoga 2 Pro預裝的操作系統是Windows 8。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-08T17:58:16.641622Z"
-    },
-    {
-      "source_id": "wiki-random:zh:9413369",
-      "source_name": "ZH Wikipedia：热惰性",
-      "source_url": "https://zh.wikipedia.org/wiki/%E7%83%AD%E6%83%B0%E6%80%A7",
-      "title": "热惰性",
-      "excerpt": "热惰性（thermal inertia），也稱為熱慣量，常用于描述在传热过程中观测到的物体温度响应延迟。该现象产生于物体相对于其环境既能存储热量又能传输热量的能力。由于系统组分的构型与传热方式（例如传导、对流、辐射、相变）以及能量存储形式（例如内能、焓、潜热）在不同实例间差异显著，因此不存在对热惰性具有普适适用性的封閉形式数学表达式。 具有较大质量和熱容量的实体通常表现出较慢的温度响应。然而，仅以热容量来量化热惰性并不充分。对热惰性的测量还取决于热流在体内与体外的分布情况，需根据系统的边值问题予以判断。 热惰性是內含及外延性質取决于语境。一些作者将其作为一种材料的强度性属性来识别，例如与热逸散率相关联时。也有人根据系统在瞬态传热过程中的时空行为对其作为外延量进行评价。在这种基于测量或数值模拟的空间—时间行为分析中，有时可用一个时间常数作为所选组件或子系统热惰性的简单参数化表示。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-08T17:58:16.642871Z"
     },
     {
       "source_id": "wiki-random:en:63521618",
@@ -3123,16 +2963,6 @@
       "added_at": "2026-08-08T17:58:16.643846Z"
     },
     {
-      "source_id": "wiki-random:en:18724706",
-      "source_name": "EN Wikipedia：Before You Love Me",
-      "source_url": "https://en.wikipedia.org/wiki/Before_You_Love_Me",
-      "title": "Before You Love Me",
-      "excerpt": "\"Before You Love Me\" is a song by Russian singer Alsou, her first single released from her first album, Alsou. It was released on April 30, 2001, in Australia and the United Kingdom, and a few weeks later in May 2001 in various countries throughout Europe. The single failed to chart in Australia. In the United Kingdom it peaked at number twenty-seven. A lack of promotional support from Alsou's record company meant that no further releases occurred in either Australia or the United Kingdom, with the impending release of the Alsou album cancelled in both regions. The single was, however, effective in producing the hype it needed throughout Europe for the album to be released and proper promotion to take place.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-08T17:59:31.501755Z"
-    },
-    {
       "source_id": "wiki-random:zh:712472",
       "source_name": "ZH Wikipedia：盾牌-南十字臂",
       "source_url": "https://zh.wikipedia.org/wiki/%E7%9B%BE%E7%89%8C-%E5%8D%97%E5%8D%81%E5%AD%97%E8%87%82",
@@ -3141,36 +2971,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-08-08T17:59:31.502052Z"
-    },
-    {
-      "source_id": "wiki-random:en:6995526",
-      "source_name": "EN Wikipedia：Hydraulic motor",
-      "source_url": "https://en.wikipedia.org/wiki/Hydraulic_motor",
-      "title": "Hydraulic motor",
-      "excerpt": "A hydraulic motor is a mechanical actuator that converts hydraulic pressure and flow into torque and angular displacement (rotation). The hydraulic motor is the rotary counterpart of the hydraulic cylinder as a linear actuator. Most broadly, the category of devices called hydraulic motors has sometimes included those that run on hydropower (namely, water engines and water motors) but in today's terminology the name usually refers more specifically to motors that use hydraulic fluid as part of closed hydraulic circuits in modern hydraulic machinery. Conceptually, a hydraulic motor should be interchangeable with a hydraulic pump because it performs the opposite function – similar to the way a DC electric motor is theoretically interchangeable with a DC electrical generator. However, many hydraulic pumps cannot be used as hydraulic motors because they cannot be backdriven. Also, a hydraulic motor is usually designed for working pressure at both sides of the motor, whereas most hydraulic pumps rely on low pressure provided from the reservoir at the input side and would leak fluid when abused as a motor.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-08T17:59:31.502799Z"
-    },
-    {
-      "source_id": "wiki-random:en:48494550",
-      "source_name": "EN Wikipedia：Kanyashree Prakalpa",
-      "source_url": "https://en.wikipedia.org/wiki/Kanyashree_Prakalpa",
-      "title": "Kanyashree Prakalpa",
-      "excerpt": "Kanyashree is an initiative undertaken by the Government of West Bengal to improve the lives and status of the girls by helping low-income families with cash so that families do not force their daughters into arranged child marriages because of economic difficulties. The purpose of this initiative is to uplift girls who are from poor families and are unable pursue higher studies due to tough economic conditions. It has been internationally recognised by the United Nations Department of International Development and the UNICEF. The scheme has two components: Annual scholarship of Rs. 1000.00 One time grant of Rs. 25,000.00 The annual scholarship is for unmarried girls aged 13–18 years enrolled in class VIII-XII in government recognized regular or equivalent open school or vocational / technical training courses. Recently the bar of income was withdrawn by the government of West Bengal; now every girl can apply for that scheme.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-08T17:59:31.503879Z"
-    },
-    {
-      "source_id": "wiki-random:zh:137260",
-      "source_name": "ZH Wikipedia：理性主义",
-      "source_url": "https://zh.wikipedia.org/wiki/%E7%90%86%E6%80%A7%E4%B8%BB%E4%B9%89",
-      "title": "理性主义",
-      "excerpt": "理性主义（英語：rationalism）、欧洲理性主义是建立在承认人的理性可以作为知识来源的理论基础上的一种哲学方法，认为理性高於感官感知，也称作唯理论。形式的来说，理性主义是指认定真理不能依赖感官, 而需依赖理智和演绎推理的方法论或理論。 理性主義最早的發源地是在英國，一般认为是隨著以哥白尼日心說為先驅的科學革命在歐洲大陸的發展，然後在包含法國在內的歐洲大陸各地繼續發揚光大，最後在笛卡儿的思想出現以後而产生的一套理論，17-18世纪间主要在欧洲各地例如在歐洲大陸以及冰島和愛爾蘭跟英國得以传播。同时代相对的另一种哲学方法稱為經驗主義，它认为人类的想法来源于经验，所有知识可能除了数学以外主要来源于经验。这里主要关注的是人类的知识来源以及证实我们所知的一种手段。 理性指能够识别、判断、评估實踐理由以及使人的行为符合特定目的等方面的智能。理性通过论点与具有说服力的论据发现真理，通过符合逻辑的推理而非依靠表象而获得结论，意见和行动的理由。 理性主义及经验主义并非由当时的哲学家，而是后人作出了区分。事实上，有时两者之间的区分并不像人们所说的那么显著。三位主要的理性主义者都认同经验科学的重要性，并且他们在研究方法及形而上学的理论上更接近笛卡儿而不是斯宾诺莎和莱布尼兹。尽管这种区分在著书立作时很有必要，他们在哲学本身来说不是非常有用。 典型的理性主义者认为，人类首先本能地掌握一些基本原则，如几何法则，随后可以依据这些推理出其余知识。最典型的持这种观点的是斯宾诺莎及莱布尼兹，在他们试图解决由笛卡儿提出的认知及形而上学问题的过程中，他们使理性主义的基本方法得以发展。斯宾诺莎及莱布尼兹都认为原则上所有知识（包括科学知识）可以通过单纯的推理得到，另一方面他们也承认现实中除了数学之外人类不能做到单纯用推理得到别的知识。 笛卡儿的理论相对来说更接近亚里士多德，他认为只有一些永恒真理（包括数学以及科学的认知及形而上学基础）可以单纯靠推理得到，其余的知识需要借助生活经验以及必要的科学手段。更准确地说笛卡儿是一位重视形而上学的理性主义者，是一位重视科学的经验主义者。 康德开始时是一位理性主义者，但是经过休谟的“将他从沉睡中唤醒”的著作（《人类理智研究》）的熏陶，他成了理性主义者以及经验主义者的综合体。 现在理性主义表达一种人类行为应该由理性所支配的观点（这种观点被欧洲所有的理性主义者以及所有的经验主义者所认同）。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-08T17:59:31.504066Z"
     },
     {
       "source_id": "wiki-random:en:74545434",
@@ -3191,26 +2991,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-08-08T17:59:31.504825Z"
-    },
-    {
-      "source_id": "wiki-random:en:25071",
-      "source_name": "EN Wikipedia：Paavo Nurmi",
-      "source_url": "https://en.wikipedia.org/wiki/Paavo_Nurmi",
-      "title": "Paavo Nurmi",
-      "excerpt": "Paavo Johannes Nurmi (Finnish pronunciation: [ˈpɑːʋo ˈnurmi] ; 13 June 1897 – 2 October 1973) was a Finnish middle-distance and long-distance runner. He was called the \"Flying Finn\" because he dominated distance running in the 1920s. Nurmi set 22 official world records at distances between 1,500 metres and 20 kilometres, and won nine gold and three silver medals in his 12 events in the Summer Olympic Games. At his peak, Nurmi was undefeated for 121 races at distances from 800 m upwards. Throughout his 14-year career, he remained unbeaten in cross country events and the 10,000 metres. Born into a working-class family, Nurmi left school at the age of 12 to provide for his family. In 1912, he was inspired by the Olympic feats of Hannes Kolehmainen and began developing a strict training program. Nurmi started to flourish during his military service, setting Finnish records in athletics en route to his international debut at the 1920 Summer Olympics. After winning a silver medal in the 5,000 m, he won gold in the 10,000 m and the cross country events. In 1923, Nurmi became the first runner to hold simultaneous world records in the mile, the 5,000 m and the 10,000 m races, a feat which has...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-08T17:59:31.505360Z"
-    },
-    {
-      "source_id": "wiki-random:zh:5714054",
-      "source_name": "ZH Wikipedia：逆流交換",
-      "source_url": "https://zh.wikipedia.org/wiki/%E9%80%86%E6%B5%81%E4%BA%A4%E6%8F%9B",
-      "title": "逆流交換",
-      "excerpt": "逆流熱交換（英語：countercurrent heat exchange）是出現於自然界的交換機制，兩股流體反向而流，同時交換熱。也可以交換其他性質，如化學物質濃度，此時統稱為逆流交換（countercurrent exchange）。工業和工程學亦常模倣此機制。其中「流體」可以是液體、氣體，甚至固體粉末，或其任意組合。例如，蒸餾塔中，蒸氣泡上升時，經過向下流的液體，同時交換熱和質量。 藉逆流熱交換或質量交換，交換的量可以比並流交換（同向流動）更多，因為逆流熱交換能維持溫差梯度下降得較慢。並流時，初始梯度很高，但是下降得很快，最終有浪費。以右圖舉例，受加熱的流體（向上），離開交換器時，溫度比降溫後的流體（向下）離開的溫度更高。對於平行流動的交換，此為不可能，因為兩者的溫度衹能彼此趨近。所以逆流熱交換與並流相比，同樣條件下，可以達到更大的交換量。見换热器。 逆流交換的環路和迴圈常見於自然，尤其生物的系統中。恒温动物在寒冷的環境下，為了減少熱能（能量）的散失，血管的排列變得特殊，使動脈的血與靜脈的血之間進行逆流熱交換。脊椎動物中，此種結構稱為迷網，原先是魚鰓從水吸收氧氣的器官名，工業模倣製成各種逆流交換系統。逆流交換是化学工程热力学和製造過程的重要概念，例如從糖用甜菜提煉蔗糖就要考慮。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-08T17:59:31.505678Z"
     },
     {
       "source_id": "wiki-random:zh:890932",
@@ -3241,26 +3021,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-08-08T17:59:31.506504Z"
-    },
-    {
-      "source_id": "wiki-random:en:2934451",
-      "source_name": "EN Wikipedia：St. Martin's Day",
-      "source_url": "https://en.wikipedia.org/wiki/St._Martin%27s_Day",
-      "title": "St. Martin's Day",
-      "excerpt": "Saint Martin's Day or Martinmas (obsolete: Martlemas), and historically called Old Halloween or Old All Hallows Eve, is the feast day of Saint Martin of Tours and is celebrated in the liturgical year on 11 November. In the Middle Ages and early modern period, it was an important festival in many parts of Europe, particularly Germanic-speaking regions. In these regions, it marked the end of the harvest season and beginning of winter and the \"winter revelling season\". Traditions include feasting on 'Martinmas goose' or 'Martinmas beef', drinking the first wine of the season, and mumming. In some German and Dutch-speaking towns, there are processions of children with lanterns (Laternelaufen), sometimes led by a horseman representing St Martin. The saint was also said to bestow gifts on children. In the Rhineland, it is also marked by lighting bonfires.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-08T17:59:31.506752Z"
-    },
-    {
-      "source_id": "wiki-random:en:11703873",
-      "source_name": "EN Wikipedia：Effective refractory period",
-      "source_url": "https://en.wikipedia.org/wiki/Effective_refractory_period",
-      "title": "Effective refractory period",
-      "excerpt": "In electrocardiography, during a cardiac cycle, once an action potential is initiated, there is a period of time that a new action potential cannot be initiated. This is termed the effective refractory period (ERP) of the tissue. This period is approximately equal to the absolute refractory period (ARP), it occurs because the fast sodium channels remain closed until the cell fully repolarizes. During this period, depolarization on adjacent cardiac muscles does not produce a new depolarization in the current cell as it has to refract back to phase 4 of the action potential before a new action potential can activate it. ERP acts as a protective mechanism and keeps the heart rate in check and prevents arrhythmias, and it helps coordinates muscle contraction. Anti-arrhythmic agents used for arrhythmias usually prolong the ERP. For the treatment of atrial fibrillation, it is a problem that the prolongation of the ERP by these agents also affects the ventricles, which can induce other types of arrhythmias.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-08T17:59:31.507721Z"
     },
     {
       "source_id": "wiki-random:zh:7424727",

@@ -1,37 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-08-09T17:54:08.705132Z",
+  "updated_at": "2026-08-09T17:56:23.074303Z",
   "candidates": [
-    {
-      "source_id": "wiki-random:zh:2872377",
-      "source_name": "ZH Wikipedia：服務性 (電腦)",
-      "source_url": "https://zh.wikipedia.org/wiki/%E6%9C%8D%E5%8B%99%E6%80%A7_(%E9%9B%BB%E8%85%A6)",
-      "title": "服務性 (電腦)",
-      "excerpt": "在軟體工程及計算機工程中，服務性（serviceability）也稱為可支持性（supportability），是一種非功能性需求，是IBM提出的RAS中的一項。服務性是指技術服務人員安裝、配置及監控電腦產品，提供硬體或軟體服務的能力，也包括在出現例外情形或故障時排除問題，使產品可以正常運作的相關能力，包括針對故障除錯或隔離故障，進行根本原因分析等。服務性的提昇一般也代表產品維護效率的提昇，同時減少了營運的成本，保持業務的持續性。 以下是一些有關服務性的機能： 在有異常事件時，自動送出電子郵件或傳送文字訊息至傳呼機。 网络监控 說明文件 事件記錄/追蹤 (軟體) 記錄軟體狀態，例如 執行路徑及（或）區域變數及全域變數 子程序的進入點及結束點，包括其傳入值及傳出值 例外處理區塊的進入點及其狀態 軟體升級 柔性降級（Graceful degradation），指產品的設計可以在不需技術人員的介入下，由例外事件中復原的機能 硬體更換或升級計劃，而產品的設計可以在電腦系統停工期最短的條件下，進行有效率的硬體升級（例如熱插拔元件） 服務性工程一般也包括了一些例行性系統維護相關的特點（參見營運管理與維護（OAM））。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-12T11:39:40.578535Z"
-    },
-    {
-      "source_id": "wiki-random:en:31226719",
-      "source_name": "EN Wikipedia：St. George's (Round) Church (Halifax, Nova Scotia)",
-      "source_url": "https://en.wikipedia.org/wiki/St._George%27s_(Round)_Church_(Halifax,_Nova_Scotia)",
-      "title": "St. George's (Round) Church (Halifax, Nova Scotia)",
-      "excerpt": "St. George's (Anglican) Round Church is a wooden round church in the neo-Classical Palladian style located in Halifax Regional Municipality in Downtown Halifax. Construction on the church began in 1800 thanks in large part to the financial backing of the British royal family. The church’s primary architect remains a mystery, but Prince Edward, Duke of Kent and Strathearn (and father of Queen Victoria) was highly influential & involved in the design process. It is located at the corner of Brunswick and Nora Bernard Streets in the North End district. The church was designated a National Historic Site of Canada in 1983 given its associations with the early history of Halifax and its Palladian architecture.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-12T11:39:40.579522Z"
-    },
-    {
-      "source_id": "wiki-random:zh:561058",
-      "source_name": "ZH Wikipedia：實踐社群",
-      "source_url": "https://zh.wikipedia.org/wiki/%E5%AF%A6%E8%B8%90%E7%A4%BE%E7%BE%A4",
-      "title": "實踐社群",
-      "excerpt": "實踐社群（英語：Community of Practice，COP），又譯為實務社群，是由一群人所組成，他們「對自己所做的事情有著共同的關注與熱情，並在定期互動中學習如何做得更好」。此一概念最早由認知人類學家珍·拉夫和教育理論家愛丁納·溫格在他們1991年共同出版的書籍《情境學習》（Situated Learning）中提出。隨後，溫格在他1998年出版的《實踐社群》（Communities of Practice）一書中對這一概念進行了大幅擴展。 實踐社群可以因為成員對某一特定領域的共同興趣而自然發展，也可以為了獲得特定領域的相關知識而刻意創建。通過與社群分享信息和經驗的過程，成員相互學習，並有機會在個人和專業上獲得發展（Lave & Wenger 1991）。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-12T20:09:32.395509Z"
-    },
     {
       "source_id": "wiki-random:zh:936346",
       "source_name": "ZH Wikipedia：圖書掃描",
@@ -373,16 +343,6 @@
       "added_at": "2026-07-15T18:41:22.240789Z"
     },
     {
-      "source_id": "wiki-random:zh:5536639",
-      "source_name": "ZH Wikipedia：氣態矮星",
-      "source_url": "https://zh.wikipedia.org/wiki/%E6%B0%A3%E6%85%8B%E7%9F%AE%E6%98%9F",
-      "title": "氣態矮星",
-      "excerpt": "氣態矮星是累積了氫、氦、和其他揮發物的厚重氣體殼層，使得其半徑介於1.7至3.9地球半徑（1.7–3.9 R🜨）之間，有著岩石核心的氣態天體。這個名詞通常有三種涵義：以金屬量為基礎分類，也包含岩石類的短週期系外行星；像地球這樣，半徑小於1.71.7 R🜨；和半徑大於3.9 R🜨，被稱為冰巨星和氣態巨行星。在太陽系中沒有已知的氣態矮星，但在其它的行星系統中則很常見。 較小的氣態行星和比較接近母恆星的行星，通過流體動力將會比較大的行星和距離較遠的行星更快失去大氣層的質量。 已知氣態行星中體積可能最小的是克卜勒-138d，它的質量與地球相似，但是比地球大了60%，因此由它的密度顯示有著厚重的氣體殼層。 一顆低質量的氣態行星，如果有合適的溫度，仍然可以有類似氣態巨行星的半徑。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-15T18:41:22.241053Z"
-    },
-    {
       "source_id": "wiki-random:en:30421363",
       "source_name": "EN Wikipedia：Copper tubing",
       "source_url": "https://en.wikipedia.org/wiki/Copper_tubing",
@@ -431,16 +391,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-17T18:32:18.218238Z"
-    },
-    {
-      "source_id": "wiki-random:zh:64921",
-      "source_name": "ZH Wikipedia：緩衝區 (邊界)",
-      "source_url": "https://zh.wikipedia.org/wiki/%E7%B7%A9%E8%A1%9D%E5%8D%80_(%E9%82%8A%E7%95%8C)",
-      "title": "緩衝區 (邊界)",
-      "excerpt": "緩衝區，又稱中立區、中立地帶等，指的是位于两个或两个以上地区（通常但不一定是国家）之间的地域性区域。根据缓冲区的类型，它可以用来分隔或连接这些地区。缓冲区的一般类型是非軍事區、边境区和某些限制性地役区和绿带。这些区域可能由主权国家组成，形成緩衝國。 缓冲区有各种政治或其他目的。它们可以用来防止暴力，保护环境，保护居民区和商业区不受工业事故或自然灾害的影响，或者用来隔离监狱，还可以用于其他一些情况。缓冲区往往会形成大片无人居住的区域。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-17T18:32:18.218570Z"
     },
     {
       "source_id": "wiki-random:en:19696541",
@@ -843,16 +793,6 @@
       "added_at": "2026-07-21T18:47:23.003154Z"
     },
     {
-      "source_id": "wiki-random:en:5910480",
-      "source_name": "EN Wikipedia：Light Yagami",
-      "source_url": "https://en.wikipedia.org/wiki/Light_Yagami",
-      "title": "Light Yagami",
-      "excerpt": "Light Yagami (Japanese: 夜神 月ライト, Hepburn: Yagami Raito) is the main protagonist of the manga series Death Note, created by Tsugumi Ohba and Takeshi Obata. He is portrayed as a brilliant but bored genius who finds the Death Note, a supernatural notebook that allows the user to kill anyone by knowing their name and face, after it is dropped by the Shinigami Ryuk. With the power of the Death Note, Light eliminates those he deems morally unworthy of life, masterminding a worldwide massacre as the mass murderer Kira (キラ). He claims that he is making the world a better place by purging it of all its crime and impurities, taking the stance of the \"God of the new world\" and thus fulfilling his goal, although his massacre involved a significant amount of innocent civilians or law officers. Over the course of his efforts to create a world free of crime, wherein he would rule as a godlike figure, Yagami is pursued by law enforcement groups such as the NPA and a world-renowned detective named L. In the anime adaptation, he is voiced by Mamoru Miyano in Japanese and by Brad Swaile in the English version. In the live-action film series, he is portrayed by Tatsuya Fujiwara with Swaile reprising his...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-21T18:48:21.196380Z"
-    },
-    {
       "source_id": "wiki-random:zh:6143223",
       "source_name": "ZH Wikipedia：安阳号导弹护卫舰",
       "source_url": "https://zh.wikipedia.org/wiki/%E5%AE%89%E9%98%B3%E5%8F%B7%E5%AF%BC%E5%BC%B9%E6%8A%A4%E5%8D%AB%E8%88%B0",
@@ -951,16 +891,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-23T18:42:12.017124Z"
-    },
-    {
-      "source_id": "wiki-random:en:29254986",
-      "source_name": "EN Wikipedia：ACT Biotech Inc",
-      "source_url": "https://en.wikipedia.org/wiki/ACT_Biotech_Inc",
-      "title": "ACT Biotech Inc",
-      "excerpt": "ACT Biotech Inc is a San Francisco-based, privately held biopharmaceutical company focused on the development and commercialization of targeted cancer drugs. It was founded in 2008. The Company's clinical stage pipeline includes: Telatinib, an oral kinase inhibitor for the first-line treatment of advanced gastric cancer. It has been granted Orphan Drug status by the U.S. Food and Drug Administration (FDA). It has reported encouraging interim results from a phase II trial. ACTB1003, an oral kinase inhibitor that targets cancer cells through multiple modes of action. It inhibits cancer cell growth by targeting the FGF receptor family, which are mutated in a number of human cancer types. ACTB1003 also directly induces apoptosis by targeting kinases downstream of the PI3K pathway, all at low nanomolar concentrations. Other pipeline products include an oral Aurora A and B kinase inhibitor at the pre-IND stage, and an ABL tyrosine kinase inhibitor targeting the T315I mutant enzyme in pre-clinical development.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-23T18:42:12.019184Z"
     },
     {
       "source_id": "wiki-random:en:2811008",
@@ -1313,16 +1243,6 @@
       "added_at": "2026-07-25T18:14:30.269796Z"
     },
     {
-      "source_id": "wiki-random:zh:2762023",
-      "source_name": "ZH Wikipedia：大器晚成 (美国电视剧)",
-      "source_url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E5%99%A8%E6%99%9A%E6%88%90_(%E7%BE%8E%E5%9B%BD%E7%94%B5%E8%A7%86%E5%89%A7)",
-      "title": "大器晚成 (美国电视剧)",
-      "excerpt": "《大器晚成》（英語：Hung，又译《因为有你》）是一部美国喜剧電視劇，2009年6月28日在HBO首播，至2011年12月4日為止。本劇由Dmitry Lipkin和Colette Burson创造，湯馬士·珍饰演的主角Ray Drecker是一个拥有辉煌过去的高中篮球教练，老婆和有钱的男人跑了，唯一的房子因火灾而不适宜居住导致孩子们也去前妻那，而受到经济不景气的影响他的工资也缩水，在一次创业课上他受到启发决定利用他的“长处”来挣钱，就是當男妓。第二季於2010年6月27日首播，共有10集，至2010年9月12日完結。第三季也是最後一季於2011年10月2日首播，共有10集，至2011年12月4日完結。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-25T18:14:30.271282Z"
-    },
-    {
       "source_id": "wiki-random:zh:6021331",
       "source_name": "ZH Wikipedia：拉克万纳河",
       "source_url": "https://zh.wikipedia.org/wiki/%E6%8B%89%E5%85%8B%E4%B8%87%E7%BA%B3%E6%B2%B3",
@@ -1433,16 +1353,6 @@
       "added_at": "2026-07-26T18:30:03.026954Z"
     },
     {
-      "source_id": "wiki-random:en:27254215",
-      "source_name": "EN Wikipedia：Suncoast Behavioral Health Center",
-      "source_url": "https://en.wikipedia.org/wiki/Suncoast_Behavioral_Health_Center",
-      "title": "Suncoast Behavioral Health Center",
-      "excerpt": "Suncoast Behavioral Health Center, formerly known as Manatee Palms Youth Services, is a 60-bed psychiatric hospital in Bradenton, Florida. Manatee Palms was a subsidiary of for-profit Psychiatric Solutions. The license for Suncoast Behavioral Health Center/Manatee Palms Youth Services was inactive from October 1, 2013, to August 19, 2014, for extensive remodeling. The state review indicated that while operating as a class-four hospital, the facility was placed on an emergency suspension and a moratorium on admissions was imposed effective April 16, 2010 for conditions determined to “pose an immediate risk to the health and safety of the patients.”",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-26T18:30:03.027332Z"
-    },
-    {
       "source_id": "wiki-random:en:23817856",
       "source_name": "EN Wikipedia：Asan, Kathmandu",
       "source_url": "https://en.wikipedia.org/wiki/Asan,_Kathmandu",
@@ -1531,16 +1441,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-27T18:53:29.614629Z"
-    },
-    {
-      "source_id": "wiki-random:en:80268815",
-      "source_name": "EN Wikipedia：Project 596L",
-      "source_url": "https://en.wikipedia.org/wiki/Project_596L",
-      "title": "Project 596L",
-      "excerpt": "596L (CIA designation: CHIC-3) was the third nuclear weapon test conducted by the People's Republic of China. Detonated on May 9, 1966, at Lop Nur, it was the first Chinese test to use thermonuclear reactions in a layer cake design, and yielded 220 kilotons of TNT. As part of the Two Bombs, One Satellite project, it was conducted as a physics experiment to verify computational simulation for China's development of true (multi-stage) thermonuclear weapons.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-27T18:53:29.617340Z"
     },
     {
       "source_id": "wiki-random:zh:565351",
@@ -1841,16 +1741,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-29T18:31:44.070886Z"
-    },
-    {
-      "source_id": "wiki-random:en:1864282",
-      "source_name": "EN Wikipedia：North Coast-Haida Gwaii",
-      "source_url": "https://en.wikipedia.org/wiki/North_Coast-Haida_Gwaii",
-      "title": "North Coast-Haida Gwaii",
-      "excerpt": "North Coast-Haida Gwaii is a provincial electoral district for the Legislative Assembly of British Columbia, Canada. It was created under the original name North Coast by 1990 legislation which came into effect for the 1991 election, largely out of the previous riding of Prince Rupert. Following the 2021 British Columbia electoral redistribution that took effect for the 2024 election, it adopted its present name but did not undergo any boundary changes.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-30T18:52:42.191150Z"
     },
     {
       "source_id": "wiki-random:en:1168570",
@@ -2323,16 +2213,6 @@
       "added_at": "2026-08-02T18:18:26.711863Z"
     },
     {
-      "source_id": "wiki-random:zh:509915",
-      "source_name": "ZH Wikipedia：Toll样受体",
-      "source_url": "https://zh.wikipedia.org/wiki/Toll%E6%A0%B7%E5%8F%97%E4%BD%93",
-      "title": "Toll样受体",
-      "excerpt": "類鐸受体（英語：Toll-like receptors，缩写TLR，或译为類鐸受體）是單次跨膜蛋白受体，识别侵入体内的微生物进而激活免疫细胞的反应，在先天性免疫系统中起关键作用。Toll样受体是模式识别受体（pattern recognition receptors，PRR）的一类，主要识别与宿主不同的病原体分子，即病原相关分子模式（pathogen-associated molecular patterns，PAMPs），也识别损害相关分子模式（Damage-associated molecular pattern, DAMPs）。在脊椎动物（包括鱼类、两栖类、 哺乳类、鸟类、爬虫类）以及无脊椎动物（如昆虫果蝇已被广泛研究）发现有Toll样受体。在细菌和植物以及更高的生物界中也发现有Toll样受体。所以，Toll样受体是最古老最保守的免疫系统的组成部分，也被称作原始模式识别受体，因为它们在免疫系统的其他部分之前演变，尤其是在后天免疫系统之前。 「類鐸受體」這個名稱是來自於1985年在黑腹果蠅體內發現的鐸基因。「鐸」來自於的德文的「德語：toll」，為嘆詞。當時研究人員在發現時說出一句「這太棒了！」（\"Das ist ja toll!\"〉，因此而得名。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-02T18:18:26.712358Z"
-    },
-    {
       "source_id": "wiki-random:zh:289749",
       "source_name": "ZH Wikipedia：馬場町紀念公園",
       "source_url": "https://zh.wikipedia.org/wiki/%E9%A6%AC%E5%A0%B4%E7%94%BA%E7%B4%80%E5%BF%B5%E5%85%AC%E5%9C%92",
@@ -2353,16 +2233,6 @@
       "added_at": "2026-08-03T19:01:42.455568Z"
     },
     {
-      "source_id": "wiki-random:en:32553446",
-      "source_name": "EN Wikipedia：(706765) 2010 TK7",
-      "source_url": "https://en.wikipedia.org/wiki/(706765)_2010_TK7",
-      "title": "(706765) 2010 TK7",
-      "excerpt": "(706765) 2010 TK7 is a sub-kilometer near-Earth asteroid and the first Earth trojan discovered; it precedes Earth in its orbit around the Sun. Trojan objects are most easily conceived as orbiting at a Lagrangian point, a dynamically stable location (where the combined gravitational force acts through the Sun's and Earth's barycenter) 60 degrees ahead of or behind a massive orbiting body, in a type of 1:1 orbital resonance. In reality, they oscillate around such a point. Such objects had previously been observed in the orbits of Mars, Jupiter, Neptune, and the Saturnian moons Tethys and Dione. 2010 TK7 has a diameter of about 300 meters (1,000 ft). Its path oscillates about the Sun–Earth L4 Lagrangian point (60 degrees ahead of Earth), shuttling between its closest approach to Earth and its closest approach to the L3 point (180 degrees from Earth). The asteroid was discovered in October 2010 by the NEOWISE team of astronomers using NASA's Wide-field Infrared Survey Explorer (WISE).",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-03T19:01:42.456936Z"
-    },
-    {
       "source_id": "wiki-random:en:82901137",
       "source_name": "EN Wikipedia：Dental anthropology",
       "source_url": "https://en.wikipedia.org/wiki/Dental_anthropology",
@@ -2371,16 +2241,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-08-03T19:01:42.457467Z"
-    },
-    {
-      "source_id": "wiki-random:en:24190640",
-      "source_name": "EN Wikipedia：Ōkamiden",
-      "source_url": "https://en.wikipedia.org/wiki/%C5%8Ckamiden",
-      "title": "Ōkamiden",
-      "excerpt": "Ōkamiden, known in Japan as Ōkamiden: Chiisaki Taiyō, is a 2010 action-adventure game developed by Mobile & Game Studio, Inc. and published by Capcom for the Nintendo DS. It is a spiritual successor, rather than a sequel, to Ōkami, a game released originally for the PlayStation 2. Ōkamiden was designed by Kuniomi Matsushita, the director of the Wii port of Ōkami, and Motohide Eshiro, producer of Ace Attorney Investigations: Miles Edgeworth and Onimusha 2: Samurai's Destiny. It was released in Japan on September 30, 2010, in North America on March 15, 2011, and in Europe on March 18. It stars Chibiterasu, a small celestial wolf born from Amaterasu, the protagonist of Ōkami, and features much of the same gameplay as its predecessor, including the Celestial Brush which allows players to freeze the gameplay and draw shapes or patterns using the touch screen. Development began when Matsushita expressed an interest in creating a new Ōkami game and showed Eshiro a technical demo of such a game in December 2008. Because the demo was so well-done, development began on a sequel, and in September 2010, four years after Ōkami debuted, the game was released to positive reviews from critics and moderate...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-03T19:01:57.872138Z"
     },
     {
       "source_id": "wiki-random:en:63852665",
@@ -2513,16 +2373,6 @@
       "added_at": "2026-08-04T19:01:09.708347Z"
     },
     {
-      "source_id": "wiki-random:en:5620837",
-      "source_name": "EN Wikipedia：Christmas Tree EXEC",
-      "source_url": "https://en.wikipedia.org/wiki/Christmas_Tree_EXEC",
-      "title": "Christmas Tree EXEC",
-      "excerpt": "Christmas Tree EXEC was the first widely disruptive computer worm, which paralyzed several international computer networks in December 1987. The malware ran on the IBM VM/CMS operating system. Written by a student at the Clausthal University of Technology in the REXX scripting language, it drew a crude Christmas tree as text graphics, then sent itself to each entry in the target's email contacts file. In this way it spread onto the European Academic Research Network (EARN), BITNET, and IBM's worldwide VNET. On all of these systems it caused massive disruption. The core mechanism of the ILOVEYOU worm of 2000 was essentially the same as Christmas Tree, although it ran on PCs rather than mainframes, was spread over a different network, and was scripted using VBScript rather than REXX.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-04T19:01:09.708564Z"
-    },
-    {
       "source_id": "wiki-random:en:19619592",
       "source_name": "EN Wikipedia：Sabinus of Heraclea",
       "source_url": "https://en.wikipedia.org/wiki/Sabinus_of_Heraclea",
@@ -2633,16 +2483,6 @@
       "added_at": "2026-08-04T19:02:00.088880Z"
     },
     {
-      "source_id": "wiki-random:en:10194111",
-      "source_name": "EN Wikipedia：Charles Lambe",
-      "source_url": "https://en.wikipedia.org/wiki/Charles_Lambe",
-      "title": "Charles Lambe",
-      "excerpt": "Admiral of the Fleet Sir Charles Edward Lambe, (20 December 1900 – 29 August 1960) was a senior Royal Navy officer. He fought in the Second World War in command of a cruiser, as Director of Naval Plans and then in command of an aircraft carrier. He served as First Sea Lord and Chief of the Naval Staff from 1959 until 1960 when he was forced to retire early because of a heart condition. He died only a few months later.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-04T19:02:23.888510Z"
-    },
-    {
       "source_id": "wiki-random:zh:6657336",
       "source_name": "ZH Wikipedia：山姆·伯恩斯",
       "source_url": "https://zh.wikipedia.org/wiki/%E5%B1%B1%E5%A7%86%C2%B7%E4%BC%AF%E6%81%A9%E6%96%AF",
@@ -2661,16 +2501,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-08-04T19:02:23.890469Z"
-    },
-    {
-      "source_id": "wiki-random:en:3337550",
-      "source_name": "EN Wikipedia：Bigg Snoop Dogg Presents... Welcome to tha Chuuch: Da Album",
-      "source_url": "https://en.wikipedia.org/wiki/Bigg_Snoop_Dogg_Presents..._Welcome_to_tha_Chuuch:_Da_Album",
-      "title": "Bigg Snoop Dogg Presents... Welcome to tha Chuuch: Da Album",
-      "excerpt": "Bigg Snoop Dogg Presents... Welcome to tha Chuuch: Da Album is a compilation album by Snoop Dogg and various artists. It was released on December 13, 2005 by Doggy Style Records and Koch Records. The \"Save Tookie\" version of the single \"Real Soon\", by the DPGC featuring Jamie Foxx, was available to download for free on Doggystyle Records website. It features the reunited Tha Dogg Pound and the comeback for The Lady of Rage. Track 1, 10 features the artist Mira Craig who is best known in Norway. There were two videos launched for promotion. One was \"Real Soon\" with the artists involved as DPGC that gained fair airplay, especially around December, and the other for \"Shake That\" directed by Mike Taylor of Robot Films and shot in Los Angeles but with St. Louis' color, red, dominating the set. Cameo appearances are made by Warren G and Zab Judah, with the latter being cut off because of his knock out win over St. Louis native Cory Spinks in February 2005 after the video was wrapped. ([1], [2]) The two music videos landed on the LAUNCH Music Videos Top 100 at the 37th and 35th spot respectively.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-04T19:02:23.891722Z"
     },
     {
       "source_id": "wiki-random:zh:2948359",
@@ -2783,16 +2613,6 @@
       "added_at": "2026-08-07T18:08:32.161873Z"
     },
     {
-      "source_id": "wiki-random:en:5393194",
-      "source_name": "EN Wikipedia：Operability",
-      "source_url": "https://en.wikipedia.org/wiki/Operability",
-      "title": "Operability",
-      "excerpt": "Operability is the ability to keep a piece of equipment, a system or a whole industrial installation in a safe and reliable functioning condition, according to pre-defined operational requirements. In the development and implementation of industrial and civil plants, operability is generally defined in terms of performance and reliability, as well as the traceability of information relevant to the design, procurement, construction and commissioning of facilities. In the context of systems engineering or information technology, operability refers to a system's ability to perform its functions effectively and efficiently, providing users with an accessible, intuitive, and obstacle-free interaction. Operability is considered one of the non-functional requirements (also called “ilities”), and is closely related to the concepts of reliability, availability, scalability, testability and maintainability. Operability also refers to whether or not a surgical operation can be performed to treat a patient with a reasonable degree of safety and chance of success.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-07T18:08:58.883398Z"
-    },
-    {
       "source_id": "wiki-random:en:176644",
       "source_name": "EN Wikipedia：Hyperion (moon)",
       "source_url": "https://en.wikipedia.org/wiki/Hyperion_(moon)",
@@ -2821,16 +2641,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-08-07T18:08:58.886100Z"
-    },
-    {
-      "source_id": "wiki-random:en:4753777",
-      "source_name": "EN Wikipedia：Opsimath",
-      "source_url": "https://en.wikipedia.org/wiki/Opsimath",
-      "title": "Opsimath",
-      "excerpt": "An opsimath is a person who begins, or continues, to study or learn late in life. The word is derived from the Greek ὀψέ (opsé), meaning 'late', and μανθάνω (manthánō), meaning 'learn'. Opsimathy was once frowned upon, used as a put-down with implications of laziness, and considered less effective by educators than early learning. The emergence of \"opsimath clubs\" has demonstrated that opsimathy has shed much of this negative connotation. Notable opsimaths include 19th-century army officer and orientalist Sir Henry Rawlinson, Vivian Stanshall's fictitious character Sir Henry Rawlinson, 11h-century Chinese scholar‌ Su Xun, Grandma Moses, Rabbi Akiva (according to the Talmud, he began studying at age 40), and Cato the Elder, who learned Greek only at the age of 80.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-07T18:08:58.886888Z"
     },
     {
       "source_id": "wiki-random:zh:9428649",
@@ -2863,36 +2673,6 @@
       "added_at": "2026-08-07T18:09:21.630259Z"
     },
     {
-      "source_id": "wiki-random:en:16212349",
-      "source_name": "EN Wikipedia：Optical landing system",
-      "source_url": "https://en.wikipedia.org/wiki/Optical_landing_system",
-      "title": "Optical landing system",
-      "excerpt": "An optical landing system (OLS) (nicknamed \"meatball\" or simply \"ball\") is used to give glidepath information to pilots in the terminal phase of landing on an aircraft carrier. From the beginning of aircraft landing on ships in the 1920s to the introduction of OLSs, pilots relied solely on their visual perception of the landing area and the aid of the Landing Signal Officer (LSO in the U.S. Navy, or \"batsman\" in the Commonwealth navies). LSOs used coloured flags, cloth paddles and lighted wands. The OLS was developed after World War II by the British and was deployed on U.S. Navy carriers from 1955. In its developed form, the OLS consists of a horizontal row of green lights, used as a reference, and a column of vertical lights. The vertical lights signal whether the aircraft is too high, too low, or at the correct altitude as the pilot descends the glide slope towards the carrier's deck. Other lights give various commands and can be used to require the pilot to abort the landing and \"go around.\" The OLS remains under control of the LSO, who can also communicate with the pilot via radio.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-07T18:09:43.815353Z"
-    },
-    {
-      "source_id": "wiki-random:zh:5698996",
-      "source_name": "ZH Wikipedia：乌兹伯伊水道",
-      "source_url": "https://zh.wikipedia.org/wiki/%E4%B9%8C%E5%85%B9%E4%BC%AF%E4%BC%8A%E6%B0%B4%E9%81%93",
-      "title": "乌兹伯伊水道",
-      "excerpt": "乌兹伯伊水道（土庫曼語：Uzboý，烏茲別克語：Oʻzboʻy，Özboi）是历史上穿过土库曼斯坦西北部的阿姆河的一条支流，在17世纪短时间内干涸，也为其沿岸蓬勃发展的农业画上了句号。 乌兹伯伊水道长约750公里（470英里），从阿姆河的一处分支开始，通过萨雷卡梅什湖流入里海。 水道沿岸的文明最晚从公元前5世纪兴起，持续至17世纪。之后，乌兹伯伊水道迅速干涸，导致沿岸的部落被迅速分散开，幸存者成为沙漠中的游牧民。如今，这条水道留下了一条干涸的河道和众多考古遗迹。 火星上的乌斯钵谷（Uzboi Vallis）以这条河的名字命名。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-07T18:09:43.818101Z"
-    },
-    {
-      "source_id": "wiki-random:en:539146",
-      "source_name": "EN Wikipedia：2004 Taiwanese cross-strait relations referendum",
-      "source_url": "https://en.wikipedia.org/wiki/2004_Taiwanese_cross-strait_relations_referendum",
-      "title": "2004 Taiwanese cross-strait relations referendum",
-      "excerpt": "A consultative referendum was held in Taiwan on 20 March 2004 to coincide with the 2004 presidential elections. Voters were asked two questions regarding the cross-strait relations, that is, between Taiwan and China. The initiation of this referendum by President Chen Shui-bian came under intense criticism from China because it was seen as an exercise for an eventual vote on Taiwanese independence. The Pan-Blue Coalition urged a boycott, citing that the referendum was illegal and unnecessary. Over 90% of voters approved the two questions, but the results were invalid due to insufficient voter turnout, which was below 50%.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-08T17:55:56.437995Z"
-    },
-    {
       "source_id": "wiki-random:zh:6381736",
       "source_name": "ZH Wikipedia：邮件马车",
       "source_url": "https://zh.wikipedia.org/wiki/%E9%82%AE%E4%BB%B6%E9%A9%AC%E8%BD%A6",
@@ -2921,16 +2701,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-08-08T17:56:53.830549Z"
-    },
-    {
-      "source_id": "wiki-random:zh:667539",
-      "source_name": "ZH Wikipedia：三角廣底球狀罩帳",
-      "source_url": "https://zh.wikipedia.org/wiki/%E4%B8%89%E8%A7%92%E5%BB%A3%E5%BA%95%E7%90%83%E7%8B%80%E7%BD%A9%E5%B8%B3",
-      "title": "三角廣底球狀罩帳",
-      "excerpt": "三角廣底球狀罩帳（Triangular hebesphenorotunda）是约翰逊多面體的其中一個，索引為J92。它無法由柏拉圖立體（正多面體）和阿基米得立體（半正多面體）經過切割、增補而得來，是詹森多面體中的基本立體之一。詹森多面體是凸多面體，面皆由正多邊形組成但不屬於均勻多面體，共有92種。這些立體最早在1966年由諾曼·詹森（Norman Johnson）命名並給予描述。 雖然其無法由正多面體和半正多面體經過切割、增補而得來，但他其實與截半二十面體（半正多面體的一種）有著不可分離的關係，最明顯的就是他們都有三個五邊形和四個三角群位於立體的其中一邊。如果將這些面與面一個個地被排列在截半二十面體上，那麼唯一的六邊形面就會位於平面上兩相對的三角形面中間。 三角廣底球狀罩帳還存在可以與小斜方截半二十面体相應面對齊的部分，即3個新月狀的三角形-正方形-三角形帶。其位於頂點圖表示為(33.5)的頂點周圍也可以與正二十面體欠側錐的相應面對齊。 諾曼·詹森使用前綴hebespheno-（廣底球狀）來指代由三個相鄰的新月狀（lunes）形成的鈍楔狀複合結構，新月狀（lunes）是一個正方形和兩個正三角形連接在正方形相對兩側的結構。 後綴（triangular）-rotunda（罩帳）是指三個正三角形和三個正五邊形圍繞另一個正三角形的複合結構，其結構類似於五角罩帳。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-08T17:56:53.832849Z"
     },
     {
       "source_id": "wiki-random:zh:7110046",
@@ -3021,16 +2791,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-08-08T17:59:31.506504Z"
-    },
-    {
-      "source_id": "wiki-random:zh:7424727",
-      "source_name": "ZH Wikipedia：韧性城市",
-      "source_url": "https://zh.wikipedia.org/wiki/%E9%9F%A7%E6%80%A7%E5%9F%8E%E5%B8%82",
-      "title": "韧性城市",
-      "excerpt": "传统上， 城市韧性（英語：urban resilience）定义为“城市系统及其居民在各种冲击和压力下保持正常运作，且积极适应并能转向可持续发展”。因此，一座韧性城市就是对自然和人为的、突发和慢性的、预期和未预期到的灾害进行评估、计划并采取行动，以对灾害未雨绸缪和积极应对的城市。韧性城市更能够保护和改善人们的生活、保卫发展成果、营造良好投资环境以及推动积极的改变。关于城市韧性的学术讨论主要集中在三种不同的威胁上：气候变化、自然灾害和恐怖主义。不少学者已讨论过城市规划和设计的物质和非物质层面上抵御这些威胁的能力。因此，韧性城市更多在反恐、自然灾害（地震、海啸、洪水、太阳耀斑等）以及基础设施采用可持續能源方面提出应变策略。 近来，人们越来越重视城市韧性的谱系和城市系统对不断变化的环境的适应能力。韧性理论的这一分支建立在城市作为高度复杂适应系统的概念之上。这种见解的内涵是将城市规划从基于几何规划的传统方法转变为以网络科学为基础的、对城市运作干扰更少的方法。网络科学提供了一种将城市规模与能够使城市以不同方式运转的网络形式联系起来的方法。它可以进一步洞察各种城市政策的潜在效力。这就需要更好地了解有助于建立城市适应力的各类实践和工具。谱系方法探索了这些实践（包括支撑它们的价值观和权力关系）随时间的演变。 提高城市的韧性取决于投资决策，这些决策要将支出优先提供给有备用方案、在不同情况下都能正常工作的项目。此类决策需要考虑未来的风险和不确定性。由于风险不可能完全消除，因此紧急情况和灾难下的救援计划至关重要。例如，灾害风险管理框架为增强抗灾能力提供了切实的机会。 截至2007年，全球已有一半以上的人口居住在城市中，到2050年，城市化率预计将上升至80％。这意味着，这个时代面临的抵御风险的主要挑战，诸如减贫、自然灾害和气候变化、环境可持续性以及社会包容性，其成败将取决于城市。高人口密度使人们特别容易受到突如其来的灾害以及缓慢的气候变化带来的影响；这些都使韧性规划至关重要。同时，在过去的一个世纪中，城市化的进程也与显著的城市蔓延有关。韧性城市不仅能帮助个人、社区和企业面对多种冲击和压力的挑战，也能为转型发展提供机会。 作为应对城市地区灾害风险的一种方法，国家和地方政府可以组织不适宜居住区的移民安置。这可以是预防性的，也可以在灾难后发生。这虽然减少了人们受灾的风险，但是也可能导致其他问题。理解重新安置，需要将其作为长期可持续发展的一部分，而不仅仅是减少灾害风险的一种手段。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-08T17:59:31.508365Z"
     }
   ]
 }

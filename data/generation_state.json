@@ -3912,7 +3912,151 @@
       "source_url": "https://zh.wikipedia.org/wiki/%E7%B2%AA%E5%8F%A3%E8%B7%AF%E5%BE%84",
       "outcome": "reviewed_not_saved",
       "reason": ""
+    },
+    "wiki-random:en:539146": {
+      "last_seen": "2026-08-09T17:56:23.071254Z",
+      "source_url": "https://en.wikipedia.org/wiki/2004_Taiwanese_cross-strait_relations_referendum",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-random:en:5393194": {
+      "last_seen": "2026-08-09T17:56:23.071268Z",
+      "source_url": "https://en.wikipedia.org/wiki/Operability",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:27254215": {
+      "last_seen": "2026-08-09T17:56:23.071274Z",
+      "source_url": "https://en.wikipedia.org/wiki/Suncoast_Behavioral_Health_Center",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:3337550": {
+      "last_seen": "2026-08-09T17:56:23.071279Z",
+      "source_url": "https://en.wikipedia.org/wiki/Bigg_Snoop_Dogg_Presents..._Welcome_to_tha_Chuuch:_Da_Album",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:24190640": {
+      "last_seen": "2026-08-09T17:56:23.071283Z",
+      "source_url": "https://en.wikipedia.org/wiki/%C5%8Ckamiden",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:zh:64921": {
+      "last_seen": "2026-08-09T17:56:23.071288Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E7%B7%A9%E8%A1%9D%E5%8D%80_(%E9%82%8A%E7%95%8C)",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:zh:2762023": {
+      "last_seen": "2026-08-09T17:56:23.071291Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E5%99%A8%E6%99%9A%E6%88%90_(%E7%BE%8E%E5%9B%BD%E7%94%B5%E8%A7%86%E5%89%A7)",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:5620837": {
+      "last_seen": "2026-08-09T17:56:23.071295Z",
+      "source_url": "https://en.wikipedia.org/wiki/Christmas_Tree_EXEC",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-random:zh:2872377": {
+      "last_seen": "2026-08-09T17:56:23.071300Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%9C%8D%E5%8B%99%E6%80%A7_(%E9%9B%BB%E8%85%A6)",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-random:zh:509915": {
+      "last_seen": "2026-08-09T17:56:23.071304Z",
+      "source_url": "https://zh.wikipedia.org/wiki/Toll%E6%A0%B7%E5%8F%97%E4%BD%93",
+      "outcome": "rejected",
+      "reason": "证据未能在原文中匹配"
+    },
+    "wiki-random:zh:561058": {
+      "last_seen": "2026-08-09T17:56:23.071309Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%AF%A6%E8%B8%90%E7%A4%BE%E7%BE%A4",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:4753777": {
+      "last_seen": "2026-08-09T17:56:23.071313Z",
+      "source_url": "https://en.wikipedia.org/wiki/Opsimath",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-random:zh:7424727": {
+      "last_seen": "2026-08-09T17:56:23.071317Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E9%9F%A7%E6%80%A7%E5%9F%8E%E5%B8%82",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-random:en:10194111": {
+      "last_seen": "2026-08-09T17:56:23.071321Z",
+      "source_url": "https://en.wikipedia.org/wiki/Charles_Lambe",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:zh:5698996": {
+      "last_seen": "2026-08-09T17:56:23.071324Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E4%B9%8C%E5%85%B9%E4%BC%AF%E4%BC%8A%E6%B0%B4%E9%81%93",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-random:zh:667539": {
+      "last_seen": "2026-08-09T17:56:23.071328Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E4%B8%89%E8%A7%92%E5%BB%A3%E5%BA%95%E7%90%83%E7%8B%80%E7%BD%A9%E5%B8%B3",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:32553446": {
+      "last_seen": "2026-08-09T17:56:23.071331Z",
+      "source_url": "https://en.wikipedia.org/wiki/(706765)_2010_TK7",
+      "outcome": "rejected",
+      "reason": "证据未能在原文中匹配"
+    },
+    "wiki-random:en:31226719": {
+      "last_seen": "2026-08-09T17:56:23.071336Z",
+      "source_url": "https://en.wikipedia.org/wiki/St._George%27s_(Round)_Church_(Halifax,_Nova_Scotia)",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:5910480": {
+      "last_seen": "2026-08-09T17:56:23.071340Z",
+      "source_url": "https://en.wikipedia.org/wiki/Light_Yagami",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:zh:5536639": {
+      "last_seen": "2026-08-09T17:56:23.071343Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%B0%A3%E6%85%8B%E7%9F%AE%E6%98%9F",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-random:en:29254986": {
+      "last_seen": "2026-08-09T17:56:23.071347Z",
+      "source_url": "https://en.wikipedia.org/wiki/ACT_Biotech_Inc",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:16212349": {
+      "last_seen": "2026-08-09T17:56:23.071351Z",
+      "source_url": "https://en.wikipedia.org/wiki/Optical_landing_system",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-random:en:1864282": {
+      "last_seen": "2026-08-09T17:56:23.071354Z",
+      "source_url": "https://en.wikipedia.org/wiki/North_Coast-Haida_Gwaii",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:80268815": {
+      "last_seen": "2026-08-09T17:56:23.071358Z",
+      "source_url": "https://en.wikipedia.org/wiki/Project_596L",
+      "outcome": "no_proposal",
+      "reason": ""
     }
   },
-  "updated_at": "2026-08-09T17:54:08.710257Z"
+  "updated_at": "2026-08-09T17:56:23.078259Z"
 }

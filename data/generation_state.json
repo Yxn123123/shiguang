@@ -4056,7 +4056,151 @@
       "source_url": "https://en.wikipedia.org/wiki/Project_596L",
       "outcome": "no_proposal",
       "reason": ""
+    },
+    "wiki-random:en:52453": {
+      "last_seen": "2026-08-10T18:14:23.472122Z",
+      "source_url": "https://en.wikipedia.org/wiki/Tetun_language",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-random:zh:6880138": {
+      "last_seen": "2026-08-10T18:14:23.472142Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%9A%B4%E9%87%8D%E6%80%A5%E6%80%A7%E5%91%BC%E5%90%B8%E7%B6%9C%E5%90%88%E7%97%87%E5%86%A0%E7%8B%80%E7%97%85%E6%AF%922%E5%9E%8B",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:zh:5685676": {
+      "last_seen": "2026-08-10T18:14:23.472149Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%90%AC%E8%A7%89%E7%9A%AE%E5%B1%82",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-random:en:34341322": {
+      "last_seen": "2026-08-10T18:14:23.472154Z",
+      "source_url": "https://en.wikipedia.org/wiki/Canta_e_Vinci",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:9461907": {
+      "last_seen": "2026-08-10T18:14:23.472158Z",
+      "source_url": "https://en.wikipedia.org/wiki/War_Requiem_(film)",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:7479922": {
+      "last_seen": "2026-08-10T18:14:23.472162Z",
+      "source_url": "https://en.wikipedia.org/wiki/Abbott%27s_booby",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-random:en:63022914": {
+      "last_seen": "2026-08-10T18:14:23.472166Z",
+      "source_url": "https://en.wikipedia.org/wiki/Canal_community",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-random:en:47062857": {
+      "last_seen": "2026-08-10T18:14:23.472181Z",
+      "source_url": "https://en.wikipedia.org/wiki/Rebecca_Merritt_Austin",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:zh:8461808": {
+      "last_seen": "2026-08-10T18:14:23.472185Z",
+      "source_url": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E4%BA%AC%E6%B4%A5%E5%86%80%E6%9A%B4%E9%9B%A8%E7%81%BE%E5%AE%B3",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-random:zh:9010859": {
+      "last_seen": "2026-08-10T18:14:23.472189Z",
+      "source_url": "https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E5%86%AC%E5%AD%A3%E5%A5%A5%E6%9E%97%E5%8C%B9%E5%85%8B%E8%BF%90%E5%8A%A8%E4%BC%9A%E6%96%AF%E6%B4%9B%E4%BC%90%E5%85%8B%E4%BB%A3%E8%A1%A8%E5%9B%A2",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:12355891": {
+      "last_seen": "2026-08-10T18:14:23.472192Z",
+      "source_url": "https://en.wikipedia.org/wiki/Archdiocese_of_Nueva_Segovia",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:34022580": {
+      "last_seen": "2026-08-10T18:14:23.472196Z",
+      "source_url": "https://en.wikipedia.org/wiki/Ecometrics",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:zh:3999": {
+      "last_seen": "2026-08-10T18:14:23.472199Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E8%89%BE%E4%BC%A6%C2%B7%E5%9B%BE%E7%81%B5",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:zh:271941": {
+      "last_seen": "2026-08-10T18:14:23.472203Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E8%83%9C%E5%88%A9%E4%B9%8B%E6%97%A5%EF%BC%9A%E8%B5%B7%E6%BA%90",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:199416": {
+      "last_seen": "2026-08-10T18:14:23.472206Z",
+      "source_url": "https://en.wikipedia.org/wiki/Master_of_Reality",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-random:zh:5203446": {
+      "last_seen": "2026-08-10T18:14:23.472210Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E7%A0%B4%E5%82%B7%E9%A2%A8%E7%96%AB%E8%8B%97",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-random:zh:50527": {
+      "last_seen": "2026-08-10T18:14:23.472219Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E9%9B%86%E6%88%90%E7%94%B5%E8%B7%AF%E9%80%9A%E7%94%A8%E6%A8%A1%E6%8B%9F%E7%A8%8B%E5%BA%8F",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-random:en:13478422": {
+      "last_seen": "2026-08-10T18:14:23.472223Z",
+      "source_url": "https://en.wikipedia.org/wiki/The_History_of_the_Anglo-Saxons",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:zh:3941959": {
+      "last_seen": "2026-08-10T18:14:23.472227Z",
+      "source_url": "https://zh.wikipedia.org/wiki/CSX%E9%81%8B%E8%BC%B8",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:176644": {
+      "last_seen": "2026-08-10T18:14:23.472230Z",
+      "source_url": "https://en.wikipedia.org/wiki/Hyperion_(moon)",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-random:zh:7515365": {
+      "last_seen": "2026-08-10T18:14:23.472233Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%85%8B%E9%87%8C%E4%BC%8A%E8%AF%AD",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-random:zh:8007598": {
+      "last_seen": "2026-08-10T18:14:23.472237Z",
+      "source_url": "https://zh.wikipedia.org/wiki/2022%E5%B9%B4%E6%AC%A7%E6%B4%B2%E8%8A%B1%E6%A0%B7%E6%BB%91%E5%86%B0%E9%94%A6%E6%A0%87%E8%B5%9B",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-random:en:20045428": {
+      "last_seen": "2026-08-10T18:14:23.472240Z",
+      "source_url": "https://en.wikipedia.org/wiki/Milroy%27s_disease",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-random:en:82901137": {
+      "last_seen": "2026-08-10T18:14:23.472243Z",
+      "source_url": "https://en.wikipedia.org/wiki/Dental_anthropology",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
     }
   },
-  "updated_at": "2026-08-10T18:11:50.533483Z"
+  "updated_at": "2026-08-10T18:14:23.479869Z"
 }

@@ -1,127 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-08-12T18:14:41.554687Z",
+  "updated_at": "2026-08-12T18:18:13.104322Z",
   "candidates": [
-    {
-      "source_id": "wiki-topic:en:177680",
-      "source_name": "EN Wikipedia：History of aviation",
-      "source_url": "https://en.wikipedia.org/wiki/History_of_aviation",
-      "title": "History of aviation",
-      "excerpt": "The history of aviation spans over two millennia, from the earliest innovations like kites and attempts at tower jumping to supersonic and hypersonic flight in powered, heavier-than-air jet aircraft. Kite flying in China, dating back several hundred years BC, is considered the earliest example of man-made flight. In the 15th-century Leonardo da Vinci designed several flying machines incorporating aeronautical concepts, but they were unworkable due to the limitations of contemporary knowledge. In the late 18th century, the Montgolfier brothers invented the hot-air balloon which soon led to manned flights. At almost the same time, the discovery of hydrogen gas led to the invention of the hydrogen balloon. Various theories in mechanics by physicists during the same period, such as fluid dynamics and Newton's laws of motion, led to the development of modern aerodynamics; most notably by Sir George Cayley. Balloons, both free-flying and tethered, began to be used for military purposes from the end of the 18th century, with France establishing balloon companies during the French Revolution. In the 19th century, especially the second half, experiments with gliders provided the basis for learning...",
-      "category_hint": "历史",
-      "source_rank": 2,
-      "added_at": "2026-08-12T18:13:20.557997Z"
-    },
-    {
-      "source_id": "wiki-topic:en:50550012",
-      "source_name": "EN Wikipedia：Biological rules",
-      "source_url": "https://en.wikipedia.org/wiki/Biological_rules",
-      "title": "Biological rules",
-      "excerpt": "A biological rule or biological law is a generalized law, principle, or rule of thumb formulated to describe patterns observed in living organisms. Biological rules and laws are often developed as succinct, broadly applicable ways to explain complex phenomena or salient observations about the ecology and biogeographical distributions of plant and animal species around the world, though they have been proposed for or extended to all types of organisms. Many of these regularities of ecology and biogeography are named after the biologists who first described them. From the birth of their science, biologists have sought to explain apparent regularities in observational data. In his biology, Aristotle inferred rules governing differences between live-bearing tetrapods (in modern terms, terrestrial placental mammals). Among his rules were that brood size decreases with adult body mass, while lifespan increases with gestation period and with body mass, and fecundity decreases with lifespan. Thus, for example, elephants have smaller and fewer broods than mice, but longer lifespan and gestation. Rules like these concisely organized the sum of knowledge obtained by early scientific measurements...",
-      "category_hint": "生物",
-      "source_rank": 2,
-      "added_at": "2026-08-12T18:13:20.558237Z"
-    },
-    {
-      "source_id": "wiki-topic:en:9251",
-      "source_name": "EN Wikipedia：Engineering",
-      "source_url": "https://en.wikipedia.org/wiki/Engineering",
-      "title": "Engineering",
-      "excerpt": "Engineering is the practice of systematically applying natural science and mathematics to design and improve systems, devices, or processes that solve problems under constraints. It is typically motivated by satisfying human needs, resulting in creations such as bridges, engines, smartphones, pacemakers, the internet, spacecraft, and washing machines. Engineering involves balancing competing demands such as safety, performance, aesthetics, cost, laws and regulations, and time, while operating within fundamental limits such as the laws of physics. The traditional disciplines of engineering are civil, mechanical, electrical, and chemical. The academic discipline of engineering encompasses a broad range of more specialized subfields, and each can have a more specific emphasis for applications of mathematics and science. Modern engineering practice follows the engineering design process and spans multiple fields, which include designing and improving infrastructure, machinery, vehicles, electronics, materials, and energy systems. As a human endeavor, engineering has existed since ancient times, starting with the six classic simple machines. Examples of large-scale engineering projects from...",
-      "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-08-12T18:13:20.558423Z"
-    },
-    {
-      "source_id": "wiki-topic:en:37188422",
-      "source_name": "EN Wikipedia：Brewster angle microscope",
-      "source_url": "https://en.wikipedia.org/wiki/Brewster_angle_microscope",
-      "title": "Brewster angle microscope",
-      "excerpt": "A Brewster angle microscope (BAM) is a microscope for studying thin films on liquid surfaces, most typically Langmuir films. In a Brewster angle microscope, both the microscope and a polarized light source are aimed towards a liquid surface at that liquid's Brewster angle, in such a way for the microscope to catch an image of any light reflected from the light source via the liquid surface. Because there is no p-polarized reflection from the pure liquid when both are angled towards it at the Brewster angle, light is only reflected when some other phenomenon such as a surface film affects the liquid surface. The technique was first introduced in 1991.",
-      "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-08-12T18:13:20.558614Z"
-    },
-    {
-      "source_id": "wiki-topic:en:73877676",
-      "source_name": "EN Wikipedia：Marine construction",
-      "source_url": "https://en.wikipedia.org/wiki/Marine_construction",
-      "title": "Marine construction",
-      "excerpt": "Marine construction is the process of building structures in or adjacent to large bodies of water, usually the sea. These structures can be built for a variety of purposes, including transportation, energy production, and recreation. Marine construction can involve the use of a variety of building materials, predominantly steel and concrete. Some examples of marine structures include ships, offshore platforms, moorings, pipelines, cables, wharves, bridges, tunnels, breakwaters and docks. Marine construction may require diving work, but professional diving is expensive and dangerous, and may involve relatively high risk, and the types of tools and equipment that can both function underwater and be safely used by divers are limited. Remotely operated underwater vehicles (ROVs) and other types of submersible equipment are a lower risk alternative, but they are also expensive and limited in applications, so when reasonably practicable, most underwater construction involves either removing the water from the building site by dewatering behind a cofferdam or inside a caisson, or prefabrication of structural units off-site with mainly assembly and installation done on-site.",
-      "category_hint": "科技",
-      "source_rank": 2,
-      "added_at": "2026-08-12T18:13:20.558857Z"
-    },
-    {
-      "source_id": "wiki-topic:en:52481827",
-      "source_name": "EN Wikipedia：50 Things That Made the Modern Economy",
-      "source_url": "https://en.wikipedia.org/wiki/50_Things_That_Made_the_Modern_Economy",
-      "title": "50 Things That Made the Modern Economy",
-      "excerpt": "50 Things That Made the Modern Economy is a radio show and podcast on the BBC World Service. It is presented by economist and journalist Tim Harford. The first series was broadcast between 5 November 2016 and 28 October 2017. A second series began on 30 March 2019. Harford explained in a BBC interview in 2017 that his motivation for creating the show was \"to paint a picture of economic change by telling the stories of the ideas, people, and tools that had far-reaching consequences\". He was \"fascinated\" by the many unexpected outcomes, such as \"the impact of the fridge on global politics, or of the gramophone on income inequality.\" Towards the end of the first series, a public call was made for suggestions of a \"51st thing\". Harford chose six submissions for an online vote. The winning item was announced as the credit card in an episode on 28 October 2017. A bonus episode about Santa Claus was broadcast on 24 December 2018. The first series was published in Britain as Fifty Things That Made The Modern Economy. by Little, Brown, and as Fifty Inventions That Shaped The Modern Economy in the US by Riverhead. Reviews of the book were mixed. The show won a silver award for \"Best Radio Podcast...",
-      "category_hint": "历史",
-      "source_rank": 2,
-      "added_at": "2026-08-12T18:13:20.559172Z"
-    },
-    {
-      "source_id": "wiki-topic:en:42306483",
-      "source_name": "EN Wikipedia：Denunciation",
-      "source_url": "https://en.wikipedia.org/wiki/Denunciation",
-      "title": "Denunciation",
-      "excerpt": "Denunciation (from Latin denuntiare, \"to denounce\") is the act of publicly assigning to a person the blame for a perceived wrongdoing, with the hope of bringing attention to it. Notably, centralized social control in authoritarian states requires some level of cooperation from the populace. The following two forms of cooperation occur: first, authorities actively use incentives to elicit denunciations from the populace, either through coercion or through the promise of rewards. Second, authorities passively gain access to political negative networks, as individuals denounce to harm others whom they dislike and to gain relative to them. Paradoxically, social control is most effective when authorities provide individuals maximum freedom to direct its coercive power. The most famous informer in western cultural history is Judas - according to the New Testament, Judas, one of the twelve disciples of Jesus of Nazareth, betrayed Jesus, making his arrest and his subsequent delivery to the Romans possible. Commonly, denunciation is justified by proponents because it allegedly leads to a better society by reducing or discouraging crime. The punishment of the denounced person is said to...",
-      "category_hint": "生活",
-      "source_rank": 2,
-      "added_at": "2026-08-12T18:13:20.559350Z"
-    },
-    {
-      "source_id": "wiki-topic:en:5565588",
-      "source_name": "EN Wikipedia：Climate system",
-      "source_url": "https://en.wikipedia.org/wiki/Climate_system",
-      "title": "Climate system",
-      "excerpt": "Earth's climate system is a complex system with five interacting components: the atmosphere (air), the hydrosphere (water), the cryosphere (ice and permafrost), the lithosphere (earth's upper rocky layer) and the biosphere (living things). Climate is the statistical characterization of the climate system. It represents the average weather, typically over a period of 30 years, and is determined by a combination of processes, such as ocean currents and wind patterns. Circulation in the atmosphere and oceans transports heat from the tropical regions to regions that receive less energy from the Sun. Solar radiation is the main driving force for this circulation. The water cycle also moves energy throughout the climate system. In addition, certain chemical elements are constantly moving between the components of the climate system. Two examples for these biochemical cycles are the carbon and nitrogen cycles. The climate system can change due to internal variability and external forcings. These external forcings can be natural, such as variations in solar intensity and volcanic eruptions, or caused by humans. Accumulation of greenhouse gases in the atmosphere, mainly being emitted by people...",
-      "category_hint": "科学",
-      "source_rank": 2,
-      "added_at": "2026-08-12T18:13:20.559727Z"
-    },
-    {
-      "source_id": "wiki-topic:en:33934108",
-      "source_name": "EN Wikipedia：Digital infinity",
-      "source_url": "https://en.wikipedia.org/wiki/Digital_infinity",
-      "title": "Digital infinity",
-      "excerpt": "Digital infinity is a technical term in theoretical linguistics. Alternative formulations are \"discrete infinity\" and \"the infinite use of finite means\". The idea is that all human languages follow a simple logical principle, according to which a limited set of digits—irreducible atomic sound elements—are combined to produce an infinite range of potentially meaningful expressions. Language is, at its core, a system that is both digital and infinite. To my knowledge, there is no other biological system with these properties.... It remains for us to examine the spiritual element of speech ... this marvelous invention of composing from twenty-five or thirty sounds an infinite variety of words, which, although not having any resemblance in themselves to that which passes through our minds, nevertheless do not fail to reveal to others all of the secrets of the mind, and to make intelligible to others who cannot penetrate into the mind all that we conceive and all of the diverse movements of our souls. Noam Chomsky cites Galileo as perhaps the first to recognise the significance of digital infinity. This principle, notes Chomsky, is \"the core property of human language, and one of its most...",
-      "category_hint": "综合",
-      "source_rank": 2,
-      "added_at": "2026-08-12T18:13:20.559966Z"
-    },
-    {
-      "source_id": "onthisday:zh:08/12:1989:15",
-      "source_name": "Wikimedia On This Day：中华人民共和国",
-      "source_url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD",
-      "title": "1989: 中华人民共和国山东省青岛市黄岛油库发生特大火灾爆炸事故，造成19名消防员牺牲，100多人受伤，泄露的原油和燃烧产生的污染物对胶州湾及黄海青岛近岸造成生态危机。",
-      "excerpt": "事件：中华人民共和国山东省青岛市黄岛油库发生特大火灾爆炸事故，造成19名消防员牺牲，100多人受伤，泄露的原油和燃烧产生的污染物对胶州湾及黄海青岛近岸造成生态危机。\n相关页面摘要：中华人民共和国是位於东亚的社会主义国家，也是現今世界少數由共产党建立並持續單獨執政的國家。国土面积约960万平方千米，位居世界各國第三位，其以漢族傳統領域為核心，涵蓋鄰太平洋的亞洲大陸東側大部區域，並與14個國家以陸地邊界接壤。全国行政区域划分为23個省、5個自治區、4個直轄市、以及2個特别行政区，共計34個省級行政區。首都为北京市，城區常住人口最多城市为上海市。政治上依憲法採用人民代表大會制度，以社会主义为基础实行人民民主专政，事实上由中国共产党实行一党执政，在包括武装力量在内的国家体制上处于绝对领导地位。",
-      "category_hint": "历史",
-      "source_rank": 3,
-      "added_at": "2026-08-12T18:13:20.560078Z"
-    },
-    {
-      "source_id": "onthisday:zh:08/12:2015:3",
-      "source_name": "Wikimedia On This Day：天津市",
-      "source_url": "https://zh.wikipedia.org/wiki/%E5%A4%A9%E6%B4%A5%E5%B8%82",
-      "title": "2015: 中国天津市滨海新区天津港一危化品仓库发生爆炸事故，共造成165人遇难、8人失踪，798人受伤。",
-      "excerpt": "事件：中国天津市滨海新区天津港一危化品仓库发生爆炸事故，共造成165人遇难、8人失踪，798人受伤。\n相关页面摘要：天津市，简称津，是中华人民共和国直辖市、国家中心城市和中国北方最大沿海开放城市。天津位于华北平原的海河各支流交汇处，东临渤海，北依燕山，毗邻首都北京市和河北省；有海河在城中蜿蜒而过，跨越海河的各式桥梁形成“一桥一景”的景致。",
-      "category_hint": "历史",
-      "source_rank": 3,
-      "added_at": "2026-08-12T18:13:20.560131Z"
-    },
-    {
-      "source_id": "onthisday:zh:08/12:2021:0",
-      "source_name": "Wikimedia On This Day：普利茅斯",
-      "source_url": "https://zh.wikipedia.org/wiki/%E6%99%AE%E5%88%A9%E8%8C%85%E6%96%AF",
-      "title": "2021: 在英國普利茅斯發生的一起大規模槍擊事件中，包括行兇者在內共有六人喪生。",
-      "excerpt": "事件：在英國普利茅斯發生的一起大規模槍擊事件中，包括行兇者在內共有六人喪生。\n相关页面摘要：普利茅斯 是英国英格兰西南區域德文郡的一座城市和單一管理區，西南鄰英吉利海峡，北鄰西德文區，東鄰南哈姆斯區。東北距伦敦310公里（192英哩），距德文郡郡治埃克塞特58公里（36英哩）。行政區面積79.29平方公里，人口246,100人，人口密度为每平方公里3,085人。城市西部有普利姆河 流過，東部有泰馬河 流過，兩條河的河口形成普利茅斯灣。",
-      "category_hint": "历史",
-      "source_rank": 3,
-      "added_at": "2026-08-12T18:13:20.560199Z"
-    },
     {
       "source_id": "wiki-random:zh:936346",
       "source_name": "ZH Wikipedia：圖書掃描",
@@ -1793,26 +1673,6 @@
       "added_at": "2026-07-30T18:53:19.966979Z"
     },
     {
-      "source_id": "wiki-random:en:44042767",
-      "source_name": "EN Wikipedia：Call Me Tonight",
-      "source_url": "https://en.wikipedia.org/wiki/Call_Me_Tonight",
-      "title": "Call Me Tonight",
-      "excerpt": "Call Me Tonight (Call Me コール・ミー・トゥナイト, Kōru Mī Tunaito) is a 1986 Japanese adult animated horror comedy romance short film directed by Tatsuya Okamoto. It was released on 28 July 1986. In the film, a young horror fan is possessed by an alien entity. He starts shapeshifting into a monster whenever he feels sexually aroused. An adolescent hotline owner tries to train him in controlling his transformations, in part because she is romantically interested in him. They unwittingly attract the interest of a female member of the yakuza and her sukeban (delinquent) sister. The younger sister kidnaps the man with the intent to rape him, while arranging for the man's love interest to be gang raped by her subordinates.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-30T18:53:36.234577Z"
-    },
-    {
-      "source_id": "wiki-random:zh:3335564",
-      "source_name": "ZH Wikipedia：Back number",
-      "source_url": "https://zh.wikipedia.org/wiki/Back_number",
-      "title": "Back number",
-      "excerpt": "back number（バックナンバー）是一個日本強力三重奏乐队，属环球音乐唱片公司旗下，官方粉絲團名為「one room」。 樂隊名稱「back number」在日本可以解作「雜誌的舊刊」，例如9月期的雜誌到了10月份就成為了「back number」；此名由主唱清水依與吏所取，而取這名字是因為自己和樂隊成員被女生甩掉後，就會成為她們的「back number」，變成沒用的東西。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-30T18:53:36.235432Z"
-    },
-    {
       "source_id": "wiki-random:en:49240217",
       "source_name": "EN Wikipedia：Lewis Merson Davies",
       "source_url": "https://en.wikipedia.org/wiki/Lewis_Merson_Davies",
@@ -2111,16 +1971,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-08-02T18:17:18.345212Z"
-    },
-    {
-      "source_id": "wiki-random:zh:6385435",
-      "source_name": "ZH Wikipedia：理查兹控制器",
-      "source_url": "https://zh.wikipedia.org/wiki/%E7%90%86%E6%9F%A5%E5%85%B9%E6%8E%A7%E5%88%B6%E5%99%A8",
-      "title": "理查兹控制器",
-      "excerpt": "理查茲控制器（Richards controller），是使用简单的集成电路和组合逻辑电路来实现一个有限状态机的一种方法。该方法以发明家查尔斯·L·理查兹（Charles L. Richards）命名。一个明显的优势是，这种方法相对于传统的有限状态机的设计方法允许更容易地设计复杂的有限状态机相比较于使用状态图、状态转移表和布尔代数所能提供的。使用这项技术可以更容易地实现设计具有成百上千状态的状态机。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-02T18:17:18.345650Z"
     },
     {
       "source_id": "wiki-random:en:48289901",
@@ -2823,16 +2673,6 @@
       "added_at": "2026-08-11T18:12:56.735844Z"
     },
     {
-      "source_id": "wiki-random:zh:502171",
-      "source_name": "ZH Wikipedia：免疫組織化學",
-      "source_url": "https://zh.wikipedia.org/wiki/%E5%85%8D%E7%96%AB%E7%B5%84%E7%B9%94%E5%8C%96%E5%AD%B8",
-      "title": "免疫組織化學",
-      "excerpt": "免疫组织化学（immunohistochemistry，IHC）简称 免疫组化，是在组织水平下，进行的免疫细胞化学研究。 免疫組織化學染色（immunohistochemical staining）属一种免疫染色（immunostaining），是在抗體上結合螢光或可呈色的化學物質，利用此经修饰后的抗体与生物组织中的抗原具特异性结合的免疫學原理，选择性地识别组织切片或涂片细胞中的抗原，檢測細胞或組織中是否有“目標抗原”的存在；此方式不只可以用來測知抗原的表現量，也可觀察抗原所表現的位置，并可提高病理诊断的灵敏度和特异度。 免疫組織化學染色中，经人为制备修饰后的特异性抗体带有显色剂标记，如：酶、金属离子、同位素等；而待检测的細胞或組織的目标抗原，则可为任何能讓抗體結合的物質，也就是具有抗原性的物質，包括：蛋白質、多肽、核酸、多醣、病原體等都可偵測。两者通过免疫学的抗原抗体反应和组织化学的呈色反应，再结合组织细胞形态学分析，对组织或细胞的抗原进行定位、定性及定量。 免疫組織化學的優勢在於專一性、靈敏度、簡便快速以及成本低廉，所以廣為醫院採用，通常是藉由特定的腫瘤標記來篩選癌症。免疫組織化學染色法對基礎研究及預防和診療上都是相當重要的一個方法。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-11T18:12:56.741405Z"
-    },
-    {
       "source_id": "wiki-random:en:37963",
       "source_name": "EN Wikipedia：European Bank for Reconstruction and Development",
       "source_url": "https://en.wikipedia.org/wiki/European_Bank_for_Reconstruction_and_Development",
@@ -2963,16 +2803,6 @@
       "added_at": "2026-08-12T18:13:20.562147Z"
     },
     {
-      "source_id": "wiki-random:en:69958280",
-      "source_name": "EN Wikipedia：Language row and movement in Jharkhand",
-      "source_url": "https://en.wikipedia.org/wiki/Language_row_and_movement_in_Jharkhand",
-      "title": "Language row and movement in Jharkhand",
-      "excerpt": "2021–2022 Language Movement in Jharkhand is a language movement organized on 2021 in Jharkhand, which is still going on in 2022. The people's demand was expressed to protect the local language and to prevent the aggression of other languages on the local language. Local language rights activists in Dhanbad and Bokaro protested against the inclusion of Bhojpuri, Magahi and Maithili languages in the state government's list of regional languages for Dhanbad and Bokaro, and launched a series of movements under the banner of Jharkhandi Bhasa Bachao Sangharsh Samiti. On 30 January 2022, Local language right activists making a 50- km long human chain from Telmachcho to Chandankiyari in Bokaro with intensely protests. The voice of the protesters on that day was \"Bahari Bhasa Nei Chalto\", means outsiders' languages will not work. About five kilometer long torch procession was taken out under the banner of Jharkhand Bhasha Sangharsh Samiti, Nawadih on Tuesday to protest against making Bhojpuri and Magahi languages as regional languages in Dhanbad-Bokaro. About two thousand youths involved in this raised slogans against the government with torches in their hands. Nawadih Deputy Chief Vishwanath...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-12T18:13:20.562984Z"
-    },
-    {
       "source_id": "wiki-random:zh:1191770",
       "source_name": "ZH Wikipedia：乳糜微粒",
       "source_url": "https://zh.wikipedia.org/wiki/%E4%B9%B3%E7%B3%9C%E5%BE%AE%E7%B2%92",
@@ -2981,16 +2811,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-08-12T18:13:20.565266Z"
-    },
-    {
-      "source_id": "wiki-random:zh:8356",
-      "source_name": "ZH Wikipedia：组合数学",
-      "source_url": "https://zh.wikipedia.org/wiki/%E7%BB%84%E5%90%88%E6%95%B0%E5%AD%A6",
-      "title": "组合数学",
-      "excerpt": "组合数学（英語：Combinatorics），在总體上是一门研究可數或离散对象的科学。它可分为廣義上的和狭義上的兩種層面，若是前者 (廣義的组合数学) ，其相当于离散数学，而后者 (狭义的组合数学) 則是组合计数、图论、代数结构、数理逻辑等的总称，但这只是不同学者在稱謂上的区别。而随着计算机科学日益发展，组合数学的重要性也日渐凸显，因为计算机科学的核心内容是使用算法处理离散数据。 狭义的组合数学主要研究满足一定条件的组态（也称组合模型）的存在、计数以及构造等方面的问题。组合数学的主要内容有组合计数、组合设计(Combinatorial design)、组合矩阵(Combinatorial matrix theory)、组合最佳化（最佳組合）等。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-12T18:13:42.827090Z"
     },
     {
       "source_id": "wiki-random:en:46319976",
@@ -3073,36 +2893,6 @@
       "added_at": "2026-08-12T18:14:08.754487Z"
     },
     {
-      "source_id": "wiki-random:en:3697468",
-      "source_name": "EN Wikipedia：Savitri: A Legend and a Symbol",
-      "source_url": "https://en.wikipedia.org/wiki/Savitri:_A_Legend_and_a_Symbol",
-      "title": "Savitri: A Legend and a Symbol",
-      "excerpt": "Savitri: A Legend and a Symbol is an epic poem in blank verse by Sri Aurobindo. Consisting of nearly 24,000 lines, it is based on the legend of Savitri and Satyavan in the Mahabharata, which Sri Aurobindo reinterpreted as a symbolic myth of the Vedic cycle. Sri Aurobindo described the work as a \"symbolic epic of the aim of supramental Yoga\". It narrates the spiritual ascent of the king Aswapati (the Lord of Tapasya) to the highest planes of consciousness to bring down a divine power, and the subsequent birth and yoga of Savitri (the Divine Word) who must descend into the grip of death and ignorance to conquer them. The poem was written as an experiment in \"mantric\" poetry, intended to express a direct vision from the \"Overhead\" planes of consciousness.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-12T18:14:08.756478Z"
-    },
-    {
-      "source_id": "wiki-random:en:34049588",
-      "source_name": "EN Wikipedia：Lung cancer vaccine",
-      "source_url": "https://en.wikipedia.org/wiki/Lung_cancer_vaccine",
-      "title": "Lung cancer vaccine",
-      "excerpt": "A lung cancer vaccine is a cancer vaccine for lung cancer. Lung cancer vaccine may specifically refer to: CimaVax-EGF, the first therapeutic cancer vaccine developed to target lung cancer Stimuvax, which had promising results from a phase IIB trial for inoperable lung cancer",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-12T18:14:08.757932Z"
-    },
-    {
-      "source_id": "wiki-random:en:28847598",
-      "source_name": "EN Wikipedia：High mobility group protein HMG14 and HMG17",
-      "source_url": "https://en.wikipedia.org/wiki/High_mobility_group_protein_HMG14_and_HMG17",
-      "title": "High mobility group protein HMG14 and HMG17",
-      "excerpt": "High mobility group protein HMG14 and HMG17 also known as nucleosomal binding domain is a family of evolutionarily related proteins. High mobility group (HMG) proteins constitute a family of relatively low molecular weight non-histone components in chromatin. HMG14 and HMG17 are highly-similar proteins of about 100 amino acid residues; the sequence of chicken HMG14 is almost as similar to chicken HMG17 as it is to mammalian HMG14 polypeptides. The proteins bind to the inner side of the nucleosomal DNA, altering the interaction between the DNA and the histone octamer. It is thought that they may be involved in the process that confers specific chromatin conformations to transcribable regions in the genome. The SMART signature describes a nucleosomal binding domain, which facilitates binding of proteins to nucleosomes in chromatin. The domain is most commonly found in the high mobility group (HMG) proteins, HMG14 and HMG17, however, it is also found in other proteins which bind to nucleosomes, e.g. NBP-45. NBP-45 is a nucleosomal binding protein, first identified in mice, which is related to HMG14 and HMG17. NBP-45 binds specifically to nucleosome core particles, and can function as a...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-12T18:14:08.758362Z"
-    },
-    {
       "source_id": "wiki-random:zh:788182",
       "source_name": "ZH Wikipedia：同化作用",
       "source_url": "https://zh.wikipedia.org/wiki/%E5%90%8C%E5%8C%96%E4%BD%9C%E7%94%A8",
@@ -3123,16 +2913,6 @@
       "added_at": "2026-08-12T18:14:41.548166Z"
     },
     {
-      "source_id": "wiki-random:en:27211157",
-      "source_name": "EN Wikipedia：United Nations Security Council Resolution 1106",
-      "source_url": "https://en.wikipedia.org/wiki/United_Nations_Security_Council_Resolution_1106",
-      "title": "United Nations Security Council Resolution 1106",
-      "excerpt": "United Nations Security Council resolution 1106, adopted unanimously on 16 April 1997, after reaffirming Resolution 696 (1991) and all subsequent resolutions on Angola, the Council welcomed the establishment of the Government of Unity and National Reconciliation (GURN) and extended the mandate of the United Nations Angola Verification Mission III (UNAVEM III) until 30 June 1997. The resolution noted the improving situation in Angola with regard to the peace process. The National Assembly approved the status of the leader of UNITA Jonas Savimbi as leader of the largest opposition party and at the same time, also approved UNITA deputies in the Assembly. UNITA had 4 out of 29 ministers and 7 out of 58 vice-ministers. The Security Council welcomed the establishment of the GURN as called for in Resolution 1102 (1997). The parties were called upon to implement the other aspects of the peace process, such as the integration of UNITA soldiers into the Angolan Armed Forces, demobilisation and the improvement of state administration throughout the country. In this regard, the Council anticipated a meeting between the President of Angola José Eduardo dos Santos and the leader of UNITA Jonas Savimbi...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-12T18:14:41.549003Z"
-    },
-    {
       "source_id": "wiki-random:en:72665270",
       "source_name": "EN Wikipedia：Uncertain geographic context problem",
       "source_url": "https://en.wikipedia.org/wiki/Uncertain_geographic_context_problem",
@@ -3151,26 +2931,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-08-12T18:14:41.550709Z"
-    },
-    {
-      "source_id": "wiki-random:zh:361772",
-      "source_name": "ZH Wikipedia：化工原料",
-      "source_url": "https://zh.wikipedia.org/wiki/%E5%8C%96%E5%B7%A5%E5%8E%9F%E6%96%99",
-      "title": "化工原料",
-      "excerpt": "化工原料是应用于化学工业中的原料，用来生产化工产品。 化工原料根据物质来源可分为： 无机原料，主要有酸、碱、盐和氧化物； 有机原料，主要是各种烃类，如脂肪烃、脂环烃和芳香烃等。 根据生产过程来分，可分为： 起始原料，是化工生产时第一步需要的原料，如空气、水、化石燃料（即煤、石油、天然气等）、海盐、各种矿物、农业产品（如含淀粉的粮食或野生植物、含纤维素的木材、竹、芦苇、秸杆等）。 基本原料，是经加工起始原料得到的，如电石以及上面所列的各种有机无机原料。 中间原料，也叫中间体，一般指复杂的有机化工生产中，用基本原料生产出的产品，但还不是最终应用的产品，还需要进一步加工。例如生产染料、塑料和药品的各种有机化合物：甲醇、丙酮、氯乙烯等。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-12T18:14:41.550913Z"
-    },
-    {
-      "source_id": "wiki-random:en:1236472",
-      "source_name": "EN Wikipedia：Chlorite group",
-      "source_url": "https://en.wikipedia.org/wiki/Chlorite_group",
-      "title": "Chlorite group",
-      "excerpt": "The chlorites are the group of phyllosilicate minerals common in low-grade metamorphic rocks and in altered igneous rocks. Chlorite minerals do not contain the element chlorine. The name chlorite is from the Greek chloros (χλωρός), meaning \"green\", in reference to its color. Greenschist, formed by metamorphism of basalt or other low-silica volcanic rock, typically contains significant amounts of chlorite mineral (but not the chlorite ion, nor chlorine in any other form). Chlorite minerals show a wide variety of compositions, in which magnesium, iron, aluminium, and silicon substitute for each other in the crystal structure. A complete solid solution series exists between the two most common end members, magnesium-rich clinochlore and iron-rich chamosite. In addition, manganese, zinc, lithium, and calcium species are known. The great range in composition results in considerable variation in physical, optical, and X-ray properties. Similarly, the range of chemical composition allows chlorite group minerals to exist over a wide range of temperature and pressure conditions. For this reason chlorite minerals are ubiquitous minerals within low and medium temperature metamorphic rocks, some...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-12T18:14:41.551438Z"
     }
   ]
 }

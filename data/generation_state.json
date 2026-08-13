@@ -182,9 +182,9 @@
       "reason": ""
     },
     "wiki-topic:en:1515853": {
-      "last_seen": "2026-07-13T16:10:51.768468Z",
+      "last_seen": "2026-08-13T18:18:32.476088Z",
       "source_url": "https://en.wikipedia.org/wiki/Food_engineering",
-      "outcome": "reviewed_not_saved",
+      "outcome": "no_proposal",
       "reason": ""
     },
     "wiki-topic:en:10930626": {
@@ -248,21 +248,21 @@
       "reason": ""
     },
     "wiki-topic:en:27616733": {
-      "last_seen": "2026-07-13T16:10:51.768501Z",
+      "last_seen": "2026-08-13T18:18:32.476118Z",
       "source_url": "https://en.wikipedia.org/wiki/Advanced_composite_materials_(engineering)",
-      "outcome": "filtered_before_review",
+      "outcome": "reviewed_not_saved",
       "reason": ""
     },
     "wiki-topic:en:2785135": {
-      "last_seen": "2026-07-13T16:10:51.768504Z",
+      "last_seen": "2026-08-13T18:18:32.476097Z",
       "source_url": "https://en.wikipedia.org/wiki/Imbibition",
-      "outcome": "filtered_before_review",
+      "outcome": "reviewed_not_saved",
       "reason": ""
     },
     "wiki-topic:en:13653300": {
-      "last_seen": "2026-07-13T16:10:51.768508Z",
+      "last_seen": "2026-08-13T18:18:32.476102Z",
       "source_url": "https://en.wikipedia.org/wiki/Kinetic_proofreading",
-      "outcome": "filtered_before_review",
+      "outcome": "accepted",
       "reason": ""
     },
     "wiki-topic:en:50550012": {
@@ -272,9 +272,9 @@
       "reason": ""
     },
     "wiki-topic:en:563120": {
-      "last_seen": "2026-07-13T16:10:51.768513Z",
+      "last_seen": "2026-08-13T18:18:32.476110Z",
       "source_url": "https://en.wikipedia.org/wiki/Biological_rhythm",
-      "outcome": "no_proposal",
+      "outcome": "reviewed_not_saved",
       "reason": ""
     },
     "nasa-apod:2025-04-13": {
@@ -332,7 +332,7 @@
       "reason": ""
     },
     "wiki-topic:en:74446282": {
-      "last_seen": "2026-07-13T20:50:53.917467Z",
+      "last_seen": "2026-08-13T18:18:32.476093Z",
       "source_url": "https://en.wikipedia.org/wiki/Competence_(polyseme)",
       "outcome": "no_proposal",
       "reason": ""
@@ -368,7 +368,7 @@
       "reason": ""
     },
     "wiki-topic:en:177515": {
-      "last_seen": "2026-07-13T20:50:53.917488Z",
+      "last_seen": "2026-08-13T18:18:32.476114Z",
       "source_url": "https://en.wikipedia.org/wiki/Molecular_engineering",
       "outcome": "no_proposal",
       "reason": ""
@@ -386,9 +386,9 @@
       "reason": ""
     },
     "wiki-topic:en:1983326": {
-      "last_seen": "2026-07-13T20:50:53.917499Z",
+      "last_seen": "2026-08-13T18:18:32.476077Z",
       "source_url": "https://en.wikipedia.org/wiki/History_of_the_automobile",
-      "outcome": "no_proposal",
+      "outcome": "reviewed_not_saved",
       "reason": ""
     },
     "wiki-topic:en:3189819": {
@@ -416,16 +416,16 @@
       "reason": ""
     },
     "wiki-topic:en:10469455": {
-      "last_seen": "2026-07-13T20:50:53.917516Z",
+      "last_seen": "2026-08-13T18:18:32.476106Z",
       "source_url": "https://en.wikipedia.org/wiki/Immunoglobulin_class_switching",
       "outcome": "reviewed_not_saved",
       "reason": ""
     },
     "wiki-topic:en:55742877": {
-      "last_seen": "2026-07-13T20:50:53.917520Z",
+      "last_seen": "2026-08-13T18:18:32.476122Z",
       "source_url": "https://en.wikipedia.org/wiki/Droplet_cluster",
-      "outcome": "rejected",
-      "reason": "证据未能在原文中匹配"
+      "outcome": "accepted",
+      "reason": ""
     },
     "wiki-topic:en:7555": {
       "last_seen": "2026-07-13T20:50:53.917524Z",
@@ -4434,7 +4434,91 @@
       "source_url": "https://zh.wikipedia.org/wiki/%E7%90%86%E6%9F%A5%E5%85%B9%E6%8E%A7%E5%88%B6%E5%99%A8",
       "outcome": "reviewed_not_saved",
       "reason": ""
+    },
+    "wiki-random:en:21888487": {
+      "last_seen": "2026-08-13T18:18:32.476057Z",
+      "source_url": "https://en.wikipedia.org/wiki/Thomas_Webb_%26_Sons",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-random:en:10759133": {
+      "last_seen": "2026-08-13T18:18:32.476070Z",
+      "source_url": "https://en.wikipedia.org/wiki/West_Pharmaceutical_Services_explosion",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "onthisday:zh:08/13:2004:8": {
+      "last_seen": "2026-08-13T18:18:32.476083Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E4%BD%9B%E7%BD%97%E9%87%8C%E8%BE%BE%E5%B7%9E",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-topic:en:83929814": {
+      "last_seen": "2026-08-13T18:18:32.476126Z",
+      "source_url": "https://en.wikipedia.org/wiki/De_Vaucouleurs_system",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:4989310": {
+      "last_seen": "2026-08-13T18:18:32.476130Z",
+      "source_url": "https://en.wikipedia.org/wiki/Unequal_rotor_lift_distribution",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-random:zh:38461": {
+      "last_seen": "2026-08-13T18:18:32.476134Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%B1%A1%E6%9F%93%E7%89%A9%E6%8E%92%E6%94%BE%E6%8E%A7%E5%88%B6",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-random:en:45632027": {
+      "last_seen": "2026-08-13T18:18:32.476137Z",
+      "source_url": "https://en.wikipedia.org/wiki/Early_and_simple_domes",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:zh:8828184": {
+      "last_seen": "2026-08-13T18:18:32.476141Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%BD%98%E8%AF%BA%E5%B0%BC%E4%BA%9A%E9%BE%99%E5%B1%9E",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-random:zh:670199": {
+      "last_seen": "2026-08-13T18:18:32.476144Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%B5%81%E6%B0%B4%E7%BA%BF_(%E8%AE%A1%E7%AE%97%E6%9C%BA)",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-random:zh:433448": {
+      "last_seen": "2026-08-13T18:18:32.476149Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E7%94%B5%E5%AD%90%E5%81%B6%E7%B4%A0",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-random:en:66439294": {
+      "last_seen": "2026-08-13T18:18:32.476153Z",
+      "source_url": "https://en.wikipedia.org/wiki/Meat_Machine_(album)",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:54234131": {
+      "last_seen": "2026-08-13T18:18:32.476156Z",
+      "source_url": "https://en.wikipedia.org/wiki/Andreas_Wallraff",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-random:en:24177560": {
+      "last_seen": "2026-08-13T18:18:32.476159Z",
+      "source_url": "https://en.wikipedia.org/wiki/21st_Delaware_General_Assembly",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:zh:35816": {
+      "last_seen": "2026-08-13T18:18:32.476162Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E8%80%81%E5%AD%90_(%E6%9B%B8)",
+      "outcome": "accepted",
+      "reason": ""
     }
   },
-  "updated_at": "2026-08-13T18:15:46.312568Z"
+  "updated_at": "2026-08-13T18:18:32.484275Z"
 }

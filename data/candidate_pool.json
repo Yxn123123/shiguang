@@ -1,7 +1,127 @@
 {
   "version": 1,
-  "updated_at": "2026-08-12T18:18:13.104322Z",
+  "updated_at": "2026-08-13T18:15:46.307418Z",
   "candidates": [
+    {
+      "source_id": "wiki-topic:en:55742877",
+      "source_name": "EN Wikipedia：Droplet cluster",
+      "source_url": "https://en.wikipedia.org/wiki/Droplet_cluster",
+      "title": "Droplet cluster",
+      "excerpt": "Droplet cluster is a self-assembled levitating monolayer of microdroplets usually arranged into a hexagonally ordered structure over a locally heated thin (about 1 mm) layer of water. The droplet cluster is typologically similar to colloidal crystals. The phenomenon was observed for the first time in 2004, and it has been extensively studied after that. Growing condensing droplets with a typical diameter of 0.01 mm – 0.2 mm levitate at an equilibrium height, where their weight is equilibrated by the drag force of the ascending air-vapor jet rising over the heated spot. At the same time, the droplets are dragged towards the center of the heated spot; however, they do not merge, forming an ordered hexagonal (densest packed) pattern due to an aerodynamic repulsive pressure force from gas flow between the droplets. The spot is usually heated by a laser beam or another source of heat to 60 °C – 95 °C, although the phenomenon was observed also at temperatures slightly above 20 °C. The height of levitation and the distance between the droplets are of the same order as their diameters. Due to complex nature of aerodynamic forces between the microdroplets in an ascending jet, the droplets do...",
+      "category_hint": "科学",
+      "source_rank": 2,
+      "added_at": "2026-08-13T18:14:32.147571Z"
+    },
+    {
+      "source_id": "wiki-topic:en:74446282",
+      "source_name": "EN Wikipedia：Competence (polyseme)",
+      "source_url": "https://en.wikipedia.org/wiki/Competence_(polyseme)",
+      "title": "Competence (polyseme)",
+      "excerpt": "Competence (also called competency or capability) is a polyseme indicating a variety of different notions. In current literature, three notions are most evident. The first notion is that of a general competence, which is someone's capacity or ability to perform effectively on a specified set of behavioral attributes (e.g. performances, skills, attitudes, tasks, roles, talents, and so forth). The second notion refers to someone's capacity or ability to successfully perform a specific behavioral attribute — be it overt or covert — like learning a language, reading a book or playing a musical instrument. In both notions, someone may be qualified as being competent. In a third notion, a competence is the behavioral attribute itself, instead of a general or specific capacity or ability. One may for example excel at the competence of baking, at the competency of ceramics, or at the capability of reflexivity. The pluralized forms of competence and competency are respectively competences and competencies. According to Boyatzis (2008) competencies are part of a behavioral approach to emotional, social, and cognitive intelligence. Moreover, competence is measurable and can be developed through...",
+      "category_hint": "生活",
+      "source_rank": 2,
+      "added_at": "2026-08-13T18:14:32.147871Z"
+    },
+    {
+      "source_id": "wiki-topic:en:1515853",
+      "source_name": "EN Wikipedia：Food engineering",
+      "source_url": "https://en.wikipedia.org/wiki/Food_engineering",
+      "title": "Food engineering",
+      "excerpt": "Food engineering is a scientific, academic, and professional field that interprets and applies principles of engineering, science, and mathematics to food manufacturing and operations, including the processing, production, handling, storage, conservation, control, packaging and distribution of food products. Given its reliance on food science and broader engineering disciplines, such as electrical, mechanical, civil, chemical, industrial and agricultural engineering, food engineering is considered a multidisciplinary and narrow field. Due to the complex nature of food materials, food engineering also combines the study of more specific chemical and physical concepts, such as biochemistry, microbiology, food chemistry, thermodynamics, transport phenomena, rheology, and heat transfer. Food engineers apply this knowledge to the cost-effective design, production, and commercialization of sustainable, safe, nutritious, healthy, appealing, affordable and high-quality ingredients and foods, as well as to the development of food systems, machinery, and instrumentation.",
+      "category_hint": "生活",
+      "source_rank": 2,
+      "added_at": "2026-08-13T18:14:32.148072Z"
+    },
+    {
+      "source_id": "wiki-topic:en:563120",
+      "source_name": "EN Wikipedia：Biological rhythm",
+      "source_url": "https://en.wikipedia.org/wiki/Biological_rhythm",
+      "title": "Biological rhythm",
+      "excerpt": "Biological rhythms are repetitive biological processes. Some types of biological rhythms have been described as biological clocks. They can range in frequency from microseconds to less than one repetitive event per decade. Biological rhythms are studied by chronobiology. In the biochemical context biological rhythms are called biochemical oscillations. The variations of the timing and duration of biological activity in living organisms occur for many essential biological processes. These occur (a) in animals (eating, sleeping, mating, hibernating, migration, cellular regeneration, etc.), (b) in plants (leaf movements, photosynthetic reactions, etc.), and in microbial organisms such as fungi and protozoa. They have even been found in bacteria, especially among the cyanobacteria (aka blue-green algae, see bacterial circadian rhythms).",
+      "category_hint": "生物",
+      "source_rank": 2,
+      "added_at": "2026-08-13T18:14:32.148199Z"
+    },
+    {
+      "source_id": "wiki-topic:en:27616733",
+      "source_name": "EN Wikipedia：Advanced composite materials (engineering)",
+      "source_url": "https://en.wikipedia.org/wiki/Advanced_composite_materials_(engineering)",
+      "title": "Advanced composite materials (engineering)",
+      "excerpt": "In materials science, advanced composite materials (ACMs) are materials that are generally characterized by unusually high-strength fibres with unusually high stiffness, or modulus of elasticity characteristics, compared to other materials, while bound together by weaker matrices. These are termed \"advanced composite materials\" in comparison to the composite materials commonly in use such as reinforced concrete, or even concrete itself. The high-strength fibers are also low density while occupying a large fraction of the volume. Advanced composites exhibit desirable physical and chemical properties that include light weight coupled with high stiffness (elasticity), and strength along the direction of the reinforcing fiber, dimensional stability, temperature and chemical resistance, flex performance, and relatively easy processing. Advanced composites are replacing metal components in many uses, particularly in the aerospace industry. Composites are classified according to their matrix phases. These classifications are polymer matrix composites (PMCs), ceramic matrix composites (CMCs), and metal matrix composites (MMCs). Also, materials within these categories are often called \"advanced...",
+      "category_hint": "科技",
+      "source_rank": 2,
+      "added_at": "2026-08-13T18:14:32.148370Z"
+    },
+    {
+      "source_id": "wiki-topic:en:83929814",
+      "source_name": "EN Wikipedia：De Vaucouleurs system",
+      "source_url": "https://en.wikipedia.org/wiki/De_Vaucouleurs_system",
+      "title": "De Vaucouleurs system",
+      "excerpt": "The de Vaucouleurs system, also known as the revised Hubble system or the de Vaucouleurs–Sandage system, is a comprehensive galaxy morphological classification scheme developed by French astronomer Gérard de Vaucouleurs in 1959. It extends Edwin Hubble's original tuning-fork classification into a three-dimensional parameter space that describes the structural complexity of galaxies.",
+      "category_hint": "科学",
+      "source_rank": 2,
+      "added_at": "2026-08-13T18:14:32.148471Z"
+    },
+    {
+      "source_id": "wiki-topic:en:10469455",
+      "source_name": "EN Wikipedia：Immunoglobulin class switching",
+      "source_url": "https://en.wikipedia.org/wiki/Immunoglobulin_class_switching",
+      "title": "Immunoglobulin class switching",
+      "excerpt": "Immunoglobulin class switching, also known as isotype switching, isotypic commutation or class-switch recombination (CSR), is a biological mechanism that changes a B cell's production of immunoglobulin from one type to another, such as from the isotype IgM to the isotype IgG. During this process, the constant-region portion of the antibody heavy chain is changed, but the variable region of the heavy chain stays the same (the terms variable and constant refer to changes or lack thereof between antibodies that target different epitopes). Since the variable region does not change, class switching does not affect antigen specificity. Instead, the antibody retains affinity for the same antigens, but can interact with different effector molecules.",
+      "category_hint": "生物",
+      "source_rank": 2,
+      "added_at": "2026-08-13T18:14:32.148611Z"
+    },
+    {
+      "source_id": "wiki-topic:en:177515",
+      "source_name": "EN Wikipedia：Molecular engineering",
+      "source_url": "https://en.wikipedia.org/wiki/Molecular_engineering",
+      "title": "Molecular engineering",
+      "excerpt": "Molecular engineering is an emerging field of study concerned with the design and testing of molecular properties, behavior and interactions in order to assemble better materials, systems, and processes for specific functions. This approach, in which observable properties of a macroscopic system are influenced by direct alteration of a molecular structure, falls into the broader category of “bottom-up” design. This field is utmost relevant to Cheminformatics, when related to the research in the Computational Sciences. Molecular engineering is highly interdisciplinary by nature, encompassing aspects of chemical engineering, materials science, bioengineering, electrical engineering, physics, mechanical engineering, and chemistry. There is also considerable overlap with nanotechnology, in that both are concerned with the behavior of materials on the scale of nanometers or smaller. Given the highly fundamental nature of molecular interactions, there are a plethora of potential application areas, limited perhaps only by one's imagination and the laws of physics. However, some of the early successes of molecular engineering have come in the fields of immunotherapy, synthetic biology, and...",
+      "category_hint": "科技",
+      "source_rank": 2,
+      "added_at": "2026-08-13T18:14:32.148946Z"
+    },
+    {
+      "source_id": "wiki-topic:en:2785135",
+      "source_name": "EN Wikipedia：Imbibition",
+      "source_url": "https://en.wikipedia.org/wiki/Imbibition",
+      "title": "Imbibition",
+      "excerpt": "Imbibition is a special type of diffusion that takes place when liquid is absorbed by solids-colloids causing an increase in volume. Water surface potential movement takes place along a concentration gradient; some dry materials absorb water. A gradient between the absorbent and the liquid is essential for imbibition. For a substance to imbibe a liquid, there must first be some attraction between them. Imbibition occurs when a wetting fluid displaces a non-wetting fluid, the opposite of drainage in which a non-wetting phase displaces the wetting fluid. The two processes are governed by different mechanisms. Imbibition can also be said as a type of diffusion since water movement is along the concentration gradient. Seeds and other such materials have almost no water hence they absorb water easily. Water potential gradient between the absorbent and liquid imbibed is essential for imbibition.",
+      "category_hint": "生物",
+      "source_rank": 2,
+      "added_at": "2026-08-13T18:14:32.149091Z"
+    },
+    {
+      "source_id": "wiki-topic:en:1983326",
+      "source_name": "EN Wikipedia：History of the automobile",
+      "source_url": "https://en.wikipedia.org/wiki/History_of_the_automobile",
+      "title": "History of the automobile",
+      "excerpt": "Crude ideas and designs of automobiles can be traced back to ancient and medieval times. In 1649, Hans Hautsch of Nuremberg built a clockwork-driven carriage. In 1672, a small-scale steam-powered vehicle was created by Ferdinand Verbiest; the first steam-powered automobile capable of human transportation was built by Nicolas-Joseph Cugnot in 1769. Inventors began to branch out at the start of the 19th century, creating the de Rivaz engine, one of the first internal combustion engines, and an early electric motor. Samuel Brown later tested the first industrially applied internal combustion engine in 1826. Only two of these were made. Development was hindered in the mid-19th century by a backlash against large vehicles, yet progress continued on some internal combustion engines. The engine evolved as engineers created two- and four-cycle combustion engines and began using gasoline. The first modern car—a practical, marketable automobile for everyday use—and the first car in series production appeared in 1886, when Carl Benz developed a gasoline-powered automobile and made several identical copies. In 1890, Gottlieb Daimler, inventor of the high-speed liquid petroleum-fueled engine, and...",
+      "category_hint": "历史",
+      "source_rank": 2,
+      "added_at": "2026-08-13T18:14:32.149464Z"
+    },
+    {
+      "source_id": "wiki-topic:en:13653300",
+      "source_name": "EN Wikipedia：Kinetic proofreading",
+      "source_url": "https://en.wikipedia.org/wiki/Kinetic_proofreading",
+      "title": "Kinetic proofreading",
+      "excerpt": "Kinetic proofreading (or kinetic amplification) is a mechanism for error correction in biochemical reactions, proposed independently by John Hopfield (1974) and Jacques Ninio (1975). Kinetic proofreading allows enzymes to discriminate between two possible reaction pathways leading to correct or incorrect products with an accuracy higher than what one would predict based on the difference in the activation energy between these two pathways. Increased specificity is obtained by introducing an irreversible step exiting the pathway, with reaction intermediates leading to incorrect products more likely to prematurely exit the pathway than reaction intermediates leading to the correct product. If the exit step is fast relative to the next step in the pathway, the specificity can be increased by a factor of up to the ratio between the two exit rate constants. (If the next step is fast relative to the exit step, specificity will not be increased because there will not be enough time for exit to occur.) This can be repeated more than once to increase specificity further. As an analogy, if we have a medicine assembly line sometimes produces empty boxes, and we are unable to upgrade the assembly...",
+      "category_hint": "生物",
+      "source_rank": 2,
+      "added_at": "2026-08-13T18:14:32.149826Z"
+    },
+    {
+      "source_id": "onthisday:zh:08/13:2004:8",
+      "source_name": "Wikimedia On This Day：佛罗里达州",
+      "source_url": "https://zh.wikipedia.org/wiki/%E4%BD%9B%E7%BD%97%E9%87%8C%E8%BE%BE%E5%B7%9E",
+      "title": "2004: 在熱帶風暴邦妮襲擊美國佛羅里達州僅22小時之後，颶風查利對該地區造成了進一步的破壞。",
+      "excerpt": "事件：在熱帶風暴邦妮襲擊美國佛羅里達州僅22小時之後，颶風查利對該地區造成了進一步的破壞。\n相关页面摘要：佛罗里达州，简称佛州，是位于美国东南部的一个州。该州西临墨西哥湾，西北与阿拉巴马州接壤，北邻佐治亚州，东濒大西洋，南接佛罗里达海峡，并与古巴隔海相望。佛罗里达州大部分土地位于墨西哥湾和大西洋之间的佛罗里达半岛，约占全州三分之二的面积。该州拥有美国本土最长的海岸线，即使未计入众多障壁岛，其海岸线全长约2,170公里（1,350英里）。佛州是全美唯一一个既与墨西哥湾又与大西洋相邻的州。截至2020年人口普查，佛罗里达州人口超过2300万，是全美人口第三多的州，人口密度在全美50个州中排名第八。全州总面积为170,310平方公里（65,758平方英里），在美国各州面积列表中列第22位。佛州的首府是塔拉哈西，但最大的城市为杰克逊维尔。其最大的都会区是位于州南部的迈阿密都会区，由迈阿密、劳德代尔堡和西棕榈滩等城市组成，人口约为613.8万，是全美第九大都会区。佛州人口最多的城市为杰克逊维尔，其他主要人口密集地区包括坦帕湾区、奥兰多、开普科勒尔以及塔拉哈西。",
+      "category_hint": "历史",
+      "source_rank": 3,
+      "added_at": "2026-08-13T18:14:32.149932Z"
+    },
     {
       "source_id": "wiki-random:zh:936346",
       "source_name": "ZH Wikipedia：圖書掃描",
@@ -2931,6 +3051,396 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-08-12T18:14:41.550709Z"
+    },
+    {
+      "source_id": "wiki-random:en:36971464",
+      "source_name": "EN Wikipedia：Second Battle of Caloocan",
+      "source_url": "https://en.wikipedia.org/wiki/Second_Battle_of_Caloocan",
+      "title": "Second Battle of Caloocan",
+      "excerpt": "The Second Battle of Caloocan (Filipino: Ikalawang Labanan sa Kalookan, Spanish: Segunda Batalla de Caloocan), alternately called the Second Battle of Manila, was fought from February 22 to 24, 1899, in Caloocan during the Philippine–American War. The battle featured a Filipino counterattack aimed at gaining Manila from the Americans. This counterattack failed to regain Manila mainly because of lack of coordination among Filipino units and lack of artillery support.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-13T18:14:32.150167Z"
+    },
+    {
+      "source_id": "wiki-random:en:1487705",
+      "source_name": "EN Wikipedia：Thergothon",
+      "source_url": "https://en.wikipedia.org/wiki/Thergothon",
+      "title": "Thergothon",
+      "excerpt": "Thergothon was a Finnish funeral doom band active from 1990 to 1993. They are one of the pioneers of the funeral doom subgenre. The band only released one demo, Fhtagn nagh Yog-Sothoth (1991), and one album, Stream from the Heavens (1994). Their sound was extremely slow and dirge-like in long pieces, which combined heavy guitar riffs, extremely deep death grunts and sparse lead guitar melodies. They disbanded a year before the release of the album and its members focused on other projects. Niko Sirkiä and Jori Sjöroos went on to form This Empty Flow, which marked a distinct stylistic departure from Thergothon. The project began as somewhat of a shoegaze band, taking cues from groups like Slowdive, but ended up as more in the area of trip hop. Lately, Sjöroos has gained reputation for composing songs for popular Finnish pop rock act PMMP. Sirkiä, later known as Niko Skorpio, works as a visual artist and records experimental electronic music. He also used to run a record label called Some Place Else.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-13T18:14:32.152445Z"
+    },
+    {
+      "source_id": "wiki-random:en:66439294",
+      "source_name": "EN Wikipedia：Meat Machine (album)",
+      "source_url": "https://en.wikipedia.org/wiki/Meat_Machine_(album)",
+      "title": "Meat Machine (album)",
+      "excerpt": "MEAT MACHINE is the third studio album by Barcelona-based band Obsidian Kingdom. It features ten songs that draw from a diverse range of styles including experimental rock, industrial rock, post-metal, sludge and electronica. The album was released by Season of Mist on September 25, 2020, with artwork designed by Elena Gallen and Ritxi Ostáriz. The release received generally favorable reviews from critics worldwide, who praised its variety and unpredictability. With regard to its experimental value, Trent Bos from Heavy Blog is Heavy wrote that \"Metal needs bands to continue to push the boundaries of what it can be, and that’s exactly what MEAT MACHINE has accomplished\".",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-13T18:14:32.153204Z"
+    },
+    {
+      "source_id": "wiki-random:en:644391",
+      "source_name": "EN Wikipedia：Gluino",
+      "source_url": "https://en.wikipedia.org/wiki/Gluino",
+      "title": "Gluino",
+      "excerpt": "In the particle physics theory of supersymmetry, a gluino (symbol g͂) is the hypothetical supersymmetric partner of a gluon. In supersymmetric theories, gluinos are Majorana fermions and interact via the strong force as a color octet. Gluinos have a lepton number 0, baryon number 0, and spin 1/2. Experimentally, gluinos have been one of the most promising SUSY particle candidates to be discovered since the production cross-section is the highest among SUSYs in the energy-frontier hadron colliders such as Tevatron and the Large Hadron Collider (LHC). The experimental signatures are typically a pair-produced gluinos and their cascade decays. In models of supersymmetry that conserve R-parity, gluinos eventually decay into the undetected lightest super-symmetric particle with many quarks (looking as jets) and the standard model gauge bosons or Higgs bosons. In the R-parity violating scenarios, gluinos can either decay promptly into multiple jets, or be long-lived leaving anomalous sign of \"displaced decay vertices\" from the interaction point where they are generated. There has been no sign of gluinos observed so far. The strongest limit has been set by LHC (ATLAS/CMS) where up to minimum...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-13T18:14:32.153766Z"
+    },
+    {
+      "source_id": "wiki-random:zh:4940285",
+      "source_name": "ZH Wikipedia：性別過渡",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%80%A7%E5%88%A5%E9%81%8E%E6%B8%A1",
+      "title": "性別過渡",
+      "excerpt": "性别过渡（gender transitioning），也称性别跨越、性别转换，是一个人改变其性别表现或性别特征以符合其性别认同——即男性，女性，或是非二元或性别酷儿的性别认同。对于跨性别或变性人士，即性别认同与其出生时的指定性别不符的人，这一过程经常但不必须包括性別重置療法（可能包括性别肯定激素治疗和性別肯定手術）。性别过渡可能但不一定包括医学治疗。变装者，变装皇后，和变装国王因其性别表现通常只是暂时的，所以一般不会性别过渡。 一个人的性别过渡在其因觉得自己性别认同与其指定性别不一致，而决定性别过渡而开始。最常见的性别过渡的一个组成部分是第一次出柜。性别过渡是一个可能持续几个月到几年的过程。有些跨性别者，尤其是非二元性别人士于性别酷儿们的性别过渡可能持续其一生，并随着时间流逝而重新定义和理解他们的性别。总的来说，一个人的性别过渡通常于其感到最安全和适应的地方开始：对于有些人，这首先会是他们的家庭，然后才是朋友；而其他人则可能正相反。有时一个人的性别过渡在其生活的不同圈子里可能处于不同的阶段。譬如，一个人的性别过渡可能在其家庭和朋友的圈子里走的很远，但在工作单位里可能还没有出柜。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-13T18:14:32.154078Z"
+    },
+    {
+      "source_id": "wiki-random:zh:38461",
+      "source_name": "ZH Wikipedia：污染物排放控制",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%B1%A1%E6%9F%93%E7%89%A9%E6%8E%92%E6%94%BE%E6%8E%A7%E5%88%B6",
+      "title": "污染物排放控制",
+      "excerpt": "污染物排放控制基本从三个方面开发： 直接处理排放的污染物； 改变生产工艺流程，以减少或消除污染物排放； 改变原料构成，以减少或消除污染物排放。 第一种方法是目前最常用的方法，但需要投入并没有经济效益，采取这种方法肯定会增加生产成本，降低产品竞争力，一般污染物排放单位不会自动处理，必须在控制污染物排放政策的压力下，才不得不采取的措施。这种方法需要以尽量低的成本，达到政策允许排放的目标。成本包括固定资产投资和运转费用。尽量争取可以回收部分投资。如烟气脱硫技术，有的可以回收石膏；污水处理厂的污泥发酵，可以回收沼气等。 第二种方法需要改变工艺，需要一定的固定资产投资，但可以一劳永逸的减少污染物排放，特别适合新建企业。如生产硝酸铵化肥会排放有害的氮氧化物废气，处理非常困难，需要高压高温，只能分解成没有用处的氮气，但如果改为生产尿素，同样的原料，产品质量更高，还不会排放上述的废气。造纸含碱废水处理也非常困难，但如果上碱回收工艺，即可以回收碱，又可以减少难处理的废水。但改变工艺并不是可以用于所有的工业，有的没有合适的技术，有的不适应现有的工艺，如碱回收就只适合用木材造纸，不适合用稻草造纸。所以新建厂一定要充分调研，选好最合适的工艺，可以避免许多不必要的污染。 第三种方法同样会增加成本，但比第一种方法简单、经济。如烧煤会排放烟尘、二氧化硫和二氧化碳，只要改为烧油则不会产生烟尘，如果改为烧低硫油则大大降低二氧化硫的排放。但低硫油肯定要比煤的价格贵，虽然贵可是比处理排放烟尘和二氧化硫的投入低的多，但这种方法同样会受资源来源的限制。对于像日本这种所有能源：煤、石油都要依靠进口的国家，这种方法就比较可行。 由于控制污染物排放政策强制污染者降低污染物的排放，开发污染物排放控制则有相当大的市场，这方面越早执行控制污染政策的国家，控制污染技术开发的越好，并可以出口。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-13T18:14:32.155203Z"
+    },
+    {
+      "source_id": "wiki-random:en:65640749",
+      "source_name": "EN Wikipedia：Imperial boomerang",
+      "source_url": "https://en.wikipedia.org/wiki/Imperial_boomerang",
+      "title": "Imperial boomerang",
+      "excerpt": "The imperial boomerang, or the colonial boomerang, is the theory that governments that develop repressive techniques to enforce imperialism or control colonial territories will eventually deploy those same techniques domestically against their own citizens. This concept originates with Aimé Césaire in his 1950 work Discourse on Colonialism, where Césaire analyzed the origins of European fascism. Hannah Arendt agreed with this usage, calling it the boomerang effect in The Origins of Totalitarianism (1951). It is sometimes called Foucault's boomerang as Michel Foucault also described the phenomenon in the 1970s. According to this theory, the methods employed by Adolf Hitler and the Nazi Party in Germany were not historically unique when viewed from a global perspective. Rather, the violence was an extension of the logic of European colonialism, which had resulted in the deaths of millions across the Global South for centuries. As such, the Holocaust and Nazi atrocities were only categorized as \"exceptional\" because they were applied to Europeans within Europe, rather than to colonized populations in Africa, Asia, or the Americas. This framework posits that the techniques of mass surveillance...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-13T18:14:32.155679Z"
+    },
+    {
+      "source_id": "wiki-random:zh:4506226",
+      "source_name": "ZH Wikipedia：斯維內明德要塞師",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%96%AF%E7%B6%AD%E5%85%A7%E6%98%8E%E5%BE%B7%E8%A6%81%E5%A1%9E%E5%B8%AB",
+      "title": "斯維內明德要塞師",
+      "excerpt": "斯維內明德要塞師（德語：Festungs-Division Swinemünde）是納粹德國於第二次世界大戰末期的1945年1月編成的一個師，駐紮於波美拉尼亞中部的斯維內明德。由「波美拉尼亞海港司令部」形成其師部核心，其下屬單位包括： 第1要塞警備團：來自空軍學校部隊、航空部隊、驅逐艦和魚雷艇的水兵組成。 第2要塞警備團：原米斯德羅伊海軍防空學校的官兵與學生。 第3要塞警備團：前128海軍步槍營。 第4要塞警備團：海軍防空兵和海岸砲兵組成 「里爾」海岸砲兵團 該師一直負責保衛哈索·冯·曼陀菲尔將軍的第3裝甲軍團之北翼，一直到1945年4月最後一週，隨後逃向西方盟軍投降。 師長僅有一任：1945年3月15日職掌該職的陸軍少將阿圖爾·科普（Arthur Kopp）。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-13T18:14:32.156688Z"
+    },
+    {
+      "source_id": "wiki-random:zh:8828184",
+      "source_name": "ZH Wikipedia：潘诺尼亚龙属",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%BD%98%E8%AF%BA%E5%B0%BC%E4%BA%9A%E9%BE%99%E5%B1%9E",
+      "title": "潘诺尼亚龙属",
+      "excerpt": "潘诺尼亚龙属（学名：Pannoniasaurus）是沧龙超科特提斯龙亚科已灭绝的一个属，化石发现于匈牙利晚白垩世（桑托阶）的切赫巴尼亚组及奥伊考煤矿组。属下包括单一物种意外潘诺尼亚龙（Pannoniasaurus inexpectatus），之所以称其“意外”，是因为潘诺尼亚龙发现于淡水沉积物中，不像其它沧龙那样是海洋掠食者。它是种长达6米（20英尺）的中型沧龙。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-13T18:14:32.157273Z"
+    },
+    {
+      "source_id": "wiki-random:en:24159628",
+      "source_name": "EN Wikipedia：35th Delaware General Assembly",
+      "source_url": "https://en.wikipedia.org/wiki/35th_Delaware_General_Assembly",
+      "title": "35th Delaware General Assembly",
+      "excerpt": "The 35th Delaware General Assembly was a meeting of the legislative branch of the state government, consisting of the Delaware Senate and the Delaware House of Representatives. Elections were held the first Tuesday of October and terms began on the first Tuesday in January. It met in Dover, Delaware, convening January 1, 1811, two weeks before the beginning of the first year of the administration of Governor Joseph Haslet. The apportionment of seats was permanently assigned to three senators and seven representatives for each of the three counties. Population of the county did not effect the number of delegates. Both chambers had a Federalist majority.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-13T18:14:32.157399Z"
+    },
+    {
+      "source_id": "wiki-random:zh:9351598",
+      "source_name": "ZH Wikipedia：戰鬥空中巡邏",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%88%B0%E9%AC%A5%E7%A9%BA%E4%B8%AD%E5%B7%A1%E9%82%8F",
+      "title": "戰鬥空中巡邏",
+      "excerpt": "戰鬥空中巡邏（英語：Combat air patrol，CAP）是一種由戰鬥機執行的軍事戰術，在目標區域、部隊保護區域、戰區關鍵區域、防空區域等指定地點上空進行飛機巡邏，目的是在敵機抵達指定地點之前將其攔截並摧毀，通常會以輪班方式保持不間斷的巡邏。戰鬥空中巡邏適用於陸地或海洋，可以用於保護其他飛機、陸地設施、海洋船隻。 最早的戰鬥空中巡邏是航空母艦進行作戰的典型特徵，但如今該術語已涵蓋陸基和海基的飛行。戰鬥空中巡邏與戰鬥機護航的區別在於，戰鬥空中巡邏不隸屬於其保護目標的編隊，飛行高度和速度不受限制，具有戰術靈活性可以應對威脅，而戰鬥機護航通常其保護的目標保持同步，以應對近距離威脅。現代戰鬥空中巡邏由地面管制攔截或預警機控制，為防禦提供最大程度的提前預警。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-13T18:14:52.568487Z"
+    },
+    {
+      "source_id": "wiki-random:zh:35816",
+      "source_name": "ZH Wikipedia：老子 (書)",
+      "source_url": "https://zh.wikipedia.org/wiki/%E8%80%81%E5%AD%90_(%E6%9B%B8)",
+      "title": "老子 (書)",
+      "excerpt": "《老子》，又名《道德經》，是先秦時期的古籍，相傳為春秋末期思想家老子所著。「完成於魯定公元年至魯定公五年或八年之間，也即前509年至前505年或前502年。」《老子》為春秋戰國時期道家学派的代表性經典，亦是道教尊奉的經典。至唐代，唐太宗命人將《道德經》的內容譯成梵文；唐玄宗时，尊此经为《道德眞經》。 《道德經》以哲學意義之「道」與「德」為綱，論述修身、治國、用兵、養生之理，而多以政治為旨歸，對傳統思想、科學、政治、文學、藝術等領域產生了深刻影響。《道德经》因历史久远，在传抄与刊印过程中产生了诸多版本。目前发现最早的版本是战国中期的郭店楚简本和秦朝末年的马王堆帛书本。後世通行的註解本，以三国时期的玄学家王弼的《老子道德經注》，以及据传为东汉的河上公《老子章句》流傳最廣。 “老子言道德之意，著書上下篇”，據帛書本為上篇〈德〉、下篇〈道〉；通行本為〈道〉在上，〈德〉在下。上、下篇在各版本分章不定。通行本八十一章的分法，最早出自劉向《七略》、《老子河上公章句》，道經三十七章，德經四十四章。嚴遵《老子指歸》分為德經四十章，道經三十二章。馬王堆帛書本、郭店楚簡本有分章符號，但未形成今本「八十一章」的格局。北大漢簡本為德經四十四章，道經三十三章。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-13T18:14:52.569272Z"
+    },
+    {
+      "source_id": "wiki-random:en:28625630",
+      "source_name": "EN Wikipedia：2006 Copiapó mining accident",
+      "source_url": "https://en.wikipedia.org/wiki/2006_Copiap%C3%B3_mining_accident",
+      "title": "2006 Copiapó mining accident",
+      "excerpt": "The 2006 Copiapó mining accident occurred on January 20, 2006, when an explosion occurred in the underground Carola-Agustina copper mine in Copiapó, Chile. It was caused by two trucks colliding, and the explosion covered the only escape route for the miners inside the mine. The explosion caused two deaths and two injuries. Seventy miners were trapped. Shortly after the explosion occurred, workers at the nearby mine, \"Punta de Cobre\", began digging a tunnel towards the Carola-Agustina mine to assist in rescuing the trapped miners. Rescue efforts lasted seven hours, and the 70 trapped miners were rescued alive.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-13T18:14:52.569446Z"
+    },
+    {
+      "source_id": "wiki-random:zh:120209",
+      "source_name": "ZH Wikipedia：马德拉群岛",
+      "source_url": "https://zh.wikipedia.org/wiki/%E9%A9%AC%E5%BE%B7%E6%8B%89%E7%BE%A4%E5%B2%9B",
+      "title": "马德拉群岛",
+      "excerpt": "馬德拉（葡萄牙語：Madeira），正式名称为马德拉自治区（葡萄牙語：Região Autónoma da Madeira），是葡萄牙在其國土西南方的北大西洋中央所轄的群岛，葡萄牙的两个自治区之一，也是其主岛的岛名。在葡萄牙语中，“馬德拉”是木头之意。明代《坤輿萬國全圖》即把馬德拉島称为“木島”。群岛南距加纳利群岛的特内里费岛仅有400公里，東北距里斯本约1000千米，東南距離西北非摩洛哥的海岸线约600千米。由馬德拉島、圣港岛和两个无人居住的小岛群（德塞塔群岛和萨维奇群岛，今天是自然保护区）组成。马德拉的首府是丰沙尔，位于主岛的南海岸。 在恩里克王子时期，葡萄牙人就发现了马德拉并宣称其为葡萄牙领土（1419年）。1420年，葡萄牙人开始在马德拉上建立殖民地。这是葡萄牙在地理大发现时代的第一次发现与扩张。自从1976年以来，群岛成为葡萄牙的两个自治省之一（另外一个自治省是亚速尔群岛，位于西北方）。自治省的范围覆盖整个群岛。马斯特里赫特条约的299-2条规定，它是欧洲联盟特别领域的外延地區。 今天，馬德拉群島是一處受欢迎的全年度假村，每年大约有一百万游客访问，是当地人口的三倍。该地区以马德拉酒、美食、历史和文化价值、植物和动物、被列为世界遗产的风景（月桂树林）和刺绣工匠而闻名。每年一次的新年烟火秀曾于2006年被吉尼斯世界纪录认证为世界上最大的烟火秀。丰沙尔港是葡萄牙最繁忙的港口之一，是超过半数前往葡萄牙的邮轮的目的地，也是来往于欧洲与加勒比、北非的大西洋轮渡乘客重要的中途停靠站点。马德拉群岛是葡萄牙人均GDP第二高的区域，仅次于里斯本。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-13T18:14:52.569552Z"
+    },
+    {
+      "source_id": "wiki-random:zh:433448",
+      "source_name": "ZH Wikipedia：电子偶素",
+      "source_url": "https://zh.wikipedia.org/wiki/%E7%94%B5%E5%AD%90%E5%81%B6%E7%B4%A0",
+      "title": "电子偶素",
+      "excerpt": "电子偶素或稱正電子素（英語：Positronium）是一个电子与一个正电子组成的亚稳定的束缚态(e+e-)，属于一种偶素，化学符号是Ps。最早由麻省理工学院物理学家Martin Deutsch在1951年发现。 由于电子和正电子最终会湮灭产生光子，电子偶素的半衰期是很短的。根据电子与正电子自旋状态的不同，电子偶素主要分为两种。单态（1S0，自旋相反，总自旋为0）即仲电子偶素（para-positronium，简记为p-Ps），三重态（3S1，自旋同向,总自旋为1）即正电子偶素（ortho-positronium，简记为o-Ps）。在真空中，单态的电子偶素半衰期为125ps，之后湮灭产生两个光子（511keV）；三重态电子偶素半衰期为142ns，湮灭产生三个光子，有时会产生多个光子。光子总能量为1022keV，即电子和正电子的总质量。 在介质中，三重态电子偶素的半衰期会相应变化，这就给人们提供了研究物质性质的一种手段。利用正电子或电子偶素研究物质内部性质已经成为一个应用非常广泛的学科。它主要利用电子偶素在介质中的湮灭时间谱图（英語：Positron Annihilation Lifetime Spectroscopy，简称PALS）的拟合为测量手段，而且是一种非破坏性的方法。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-13T18:14:52.570173Z"
+    },
+    {
+      "source_id": "wiki-random:zh:8066837",
+      "source_name": "ZH Wikipedia：平板俯衝",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%B9%B3%E6%9D%BF%E4%BF%AF%E8%A1%9D",
+      "title": "平板俯衝",
+      "excerpt": "平板俯衝（英語：flat slab subduction）的特點是俯衝角度有兩個折點，在淺処的震源層(seismogenic layer)與其他俯衝板塊相同，但在震源層之外的俯衝角較小（與水平面小於 30 度），並且在遠離海溝的地方恢復正常俯衝角度。 平板俯衝與在墨西哥西部的下部板塊淺傾斜不同。平板俯衝可導致軟流圈的尖滅、弧形岩漿作用向內陸遷移以及導致弧形岩漿作用的最終停止。 平板與被俯衝的上板之間的耦合被認為，是造成上板表面的變形改變方式，如同落基山脈一樣，是由基底核心隆起造成的.平板還可能導致大陸岩石圈下部的水化，形成經濟意義礦床。在俯衝過程中，平板本身可能會變形或屈曲，從而導致平板上的海洋沉積物出現沉積間斷。 平板俯衝的停止和弧形火山活動的反向遷移有關。關於平板俯衝成因有多種假設，由於較厚（15-20 公里）並有浮力的的洋殼俯衝,或由於海溝的退滾並伴隨著上板塊的快速超越的，以至於增強的海溝吸力。 南美洲西海岸有兩個最大的平板俯衝帶。 平板俯衝佔全球俯衝帶的10%。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-13T18:14:52.570839Z"
+    },
+    {
+      "source_id": "wiki-random:en:38121957",
+      "source_name": "EN Wikipedia：Census of agriculture",
+      "source_url": "https://en.wikipedia.org/wiki/Census_of_agriculture",
+      "title": "Census of agriculture",
+      "excerpt": "A census of agriculture is a statistical operation for collecting, processing and disseminating data on the structure of agriculture, covering the whole or a significant part of a country. Typical structural data collected in a census of agriculture are number and size of holdings, land tenure, land use, crop area, irrigation, livestock numbers, gender of holders, number of household members, labour and other agricultural inputs. In a census of agriculture, data are collected at the holding level, but some community-level data may also be collected. The most widely accepted definition of the census of agriculture is that provided by the World Programme for the Census of Agriculture (WCA), particularly in its guidelines that are updated every ten years. In practice, countries adapt this definition to their national circumstances and needs. Some examples are available here. Eurostat, the statistical office of the European Union provides a common definition for all its member countries.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-13T18:14:52.571092Z"
+    },
+    {
+      "source_id": "wiki-random:zh:8726258",
+      "source_name": "ZH Wikipedia：船嘴鹭",
+      "source_url": "https://zh.wikipedia.org/wiki/%E8%88%B9%E5%98%B4%E9%B9%AD",
+      "title": "船嘴鹭",
+      "excerpt": "船嘴鷺（學名：Cochlearius cochlearius），又作寬嘴鷺，是鹈形目鹭科船嘴鷺屬（Cochlearius）下的唯一一种鸟类。這個物種分佈於中、南美洲的紅樹林和有水的密林中，是一種肉食性鳥類。目前其物種狀態被歸入無危。 這個物種由瑞典博物學家卡尔·林奈於其1766年《自然系統》第十二版首次描述，歸於Cancroma下。現今該屬被視為是法國動物學家馬蒂蘭·雅克·布里松於1760年所建立之Cochlearius異名。其重名的學名Cochlearius來自拉丁語的cochlearium，意為「湯匙」。 1960年代時，船嘴鷺曾經因其外觀而被獨立為一科。後來在1976年時被歸入所謂「夜鷺亞科」（Nycticoracinae）下，並自己獨立為一個族——船嘴鹭族（Cochleariini）內。此後親緣研究認為船嘴鷺與虎斑鷺屬有關。直到2023年的研究顯示實際上可能應該屬於一個獨立的亞科為止。目前船嘴鷺有五個亞種，這些亞種之間主要以其體色分別，其中指名亞種體色最淺；C. c. panamensis最深。 船嘴鷺的體長約45—51公分，體重平均643.2公克，是一種中等大小且矮壯的鷺鳥。成鳥有著黑色的頭冠、白色的額頭和臉頰，灰色的翅膀，下半身棕紅色；大眼睛，虹膜顏色較深，喙黑，腿綠。其鳥喙寬平均約43.3公釐、深平均約28.9公釐、嘴峰長平均約86.4公釐；翼長平均約264.6公釐；跗蹠約78.3公釐；尾長約117.0公釐。在繁殖季時，其鳥喙內部、眼窩和喉部區域會變得更黑，雄鳥還會長出額外的冠羽，並在築巢期間脫落。 這個物種以各種蝦、昆蟲、兩棲動物、魚類、小型哺乳動物為食物。捕食時往往站立不動，直到獵物接近之後才攻擊獵食。其勺子般的鳥喙可能是一種適應於撈取泥土和落葉中的靜態獵物的結果。牠們通常在凌晨或傍晚時分活動。 其繁殖季與降雨季節有關：在墨西哥西部為7月、在千里達島為6月至10月，在巴西為11月，在全年有水的地方在2月至4月之間也有紀錄。船嘴鷺會形成小群或獨自繁殖，巢築於紅樹林或類似樹木上，每窩產2—4枚卵，卵的孵化期23—28天。相較於其他鷺，船嘴鷺是相當習慣於在求偶行為中發出聲音的物種，且其叫聲明顯與其他鷺有所不同。 這個物種的整體族群數量尚未被實際估計，但2021年的研究模型預測約有218萬隻左右，而飞行伙伴則預估其整體族群介於50萬—500萬隻之間。雖然其適合的生存環境正在逐漸喪失和退化，而可能使數量正在減少，但其分佈範圍相當大而不被認為會需要被近一步歸類。在《國際自然保護聯盟瀕危物種紅色名錄》中，國際鳥盟藉此將船嘴鷺列為無危物種。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-13T18:14:52.571301Z"
+    },
+    {
+      "source_id": "wiki-random:en:10759133",
+      "source_name": "EN Wikipedia：West Pharmaceutical Services explosion",
+      "source_url": "https://en.wikipedia.org/wiki/West_Pharmaceutical_Services_explosion",
+      "title": "West Pharmaceutical Services explosion",
+      "excerpt": "The West Pharmaceutical Plant explosion was an industrial disaster that occurred on January 29, 2003, at the West Pharmaceutical Plant in Kinston, North Carolina, United States. Six people were killed and thirty-six people were injured when a large explosion ripped through the facility. Two firefighters were injured in the subsequent blaze. The disaster occurred twelve years and 170 miles (270 km) from the 1991 Hamlet chicken processing plant fire, North Carolina's second-worst industrial disaster.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-13T18:14:52.573321Z"
+    },
+    {
+      "source_id": "wiki-random:zh:670199",
+      "source_name": "ZH Wikipedia：流水线 (计算机)",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%B5%81%E6%B0%B4%E7%BA%BF_(%E8%AE%A1%E7%AE%97%E6%9C%BA)",
+      "title": "流水线 (计算机)",
+      "excerpt": "流水线（pipeline），亦称管线，是现代计算机处理器中必不可少的部分，是指将计算机指令处理过程拆分为多个步骤，并通过多个硬件处理单元并行执行来加快指令执行速度。其具体执行过程类似工厂中的流水线，并因此得名。 如果作出类比，则计算机指令就是流水线传送带上的产品，各个硬件处理单元就是流水线旁的工人。 在使用流水线的处理器中一个指令不是在处理器的一个定時器訊號中完成的，而是被分到多个讯号中去完成，但是与此同时多个指令的分任务被同时处理。由于这些分任务比整个指令要简单，因此可以通过使用流水线提高定時器频率。虽然每个指令需要多个讯号后才能完成，但是通过多个指令的并行运算每个讯号内一个指令可以完成，因此通过这个方法整个速度可以提高。 一条流水线的每个分步骤被称为流水线级。它们被流水线寄存器分开。除指令流水线外在现代系统中还有其它流水线，比如用来计算浮点数的算术流水线。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-13T18:14:52.573471Z"
+    },
+    {
+      "source_id": "wiki-random:zh:4815582",
+      "source_name": "ZH Wikipedia：2010年飓风西莉亚",
+      "source_url": "https://zh.wikipedia.org/wiki/2010%E5%B9%B4%E9%A3%93%E9%A3%8E%E8%A5%BF%E8%8E%89%E4%BA%9A",
+      "title": "2010年飓风西莉亚",
+      "excerpt": "飓风希莉亚（英語：Hurricane Celia）是2010年6月下旬东太平洋开放水域上空形成的一场强劲的热带气旋，可以在萨菲尔-辛普森飓风等级下达到五级飓风标准。系统由6月18日墨西哥阿卡普尔科东南方向约595公里的一股东风波发展而成，然后迅速组织，深层对流将中心包裹起来，于6月20日达到飓风强度。受风切变影响，飓风强度在接下来几天里呈现波动，无法得到显著发展，所以没有对陆地构成威胁。6月24日风切变减少后，气旋快速增强至风力时速260公里，最低气压估计为921毫巴（百帕，27.2英寸汞柱）的最高强度。达到最高强度后不久，风切变开始增多，系统进入更为干燥、稳定的大气环境。接下来的42小时里，希莉亚的持续风速降至热带风暴水平，到6月27日时，其移动速度也开始减缓。虽然外界环境不利，但气旋还是在6月28日再次达到热带风暴标准，再于当晚退化成不含对流的残留低气压。希莉亚的残留向北飘流，前进方向形成逆时针环路，最终在6月30日消散。 飓风希莉亚存在期间始终远离有人口居住的陆地，但风暴产生的大浪仍然促使气象部门向墨西哥南海岸沿线发布公告，气旋的外围雨带还给瓦哈卡州和格雷罗州部分地区带去中等程度降水。由于飓风强度很高，持续时间也长，因此2010年6月东太平洋盆地的气旋能量指数创下历史新高。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-13T18:14:52.573555Z"
+    },
+    {
+      "source_id": "wiki-random:en:54234131",
+      "source_name": "EN Wikipedia：Andreas Wallraff",
+      "source_url": "https://en.wikipedia.org/wiki/Andreas_Wallraff",
+      "title": "Andreas Wallraff",
+      "excerpt": "Andreas Wallraff is a German physicist who conducts research in quantum information processing and quantum optics. He has taught as a professor at ETH Zurich in Zurich, Switzerland since 2006. He worked as a research scientist with Robert J. Schoelkopf at Yale University from 2002 to 2005, during which time he performed experiments in which the coherent interaction of a single photon with a single quantum electronic circuit was observed for the first time. His current work at ETH Zurich focuses on hybrid quantum systems combining superconducting electronic circuits with semiconductor quantum dots and individual Rydberg atoms as well as quantum error correction with superconducting qubits. He has contributed primarily to the field of quantum information science, particularly in superconducting quantum computing and hybrid quantum systems.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-13T18:14:52.573897Z"
+    },
+    {
+      "source_id": "wiki-random:en:39301",
+      "source_name": "EN Wikipedia：Orientalism",
+      "source_url": "https://en.wikipedia.org/wiki/Orientalism",
+      "title": "Orientalism",
+      "excerpt": "In art history, literature, and cultural studies, Orientalism is the imitation or depiction of aspects of the Eastern world (or \"Orient\") by writers, designers, and artists from the Western world. Orientalist painting, particularly of West Asia and North Africa, was one of the many specialties of 19th-century academic art, and Western literature was influenced by a similar interest in Oriental themes. Since the publication of Edward Said's Orientalism in 1978, much academic discourse has begun to use the term 'Orientalism' to refer to a general patronizing Western attitude towards Asian and North African societies. In Said's analysis, 'the West' essentializes these societies as static and undeveloped. This fabricates a view of Oriental culture that can be studied, depicted, and reproduced in the service of imperial power. Implicit in this fabrication, writes Said, is the idea that Western society is developed, rational, flexible, and superior. This allows 'Western imagination' to see 'Eastern' cultures and people as both alluring and a threat to Western civilization. Journalist and art critic Jonathan Jones proposed the opposite to Said's theory, and claimed that the majority of Orientalism...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-13T18:15:21.179687Z"
+    },
+    {
+      "source_id": "wiki-random:en:24177560",
+      "source_name": "EN Wikipedia：21st Delaware General Assembly",
+      "source_url": "https://en.wikipedia.org/wiki/21st_Delaware_General_Assembly",
+      "title": "21st Delaware General Assembly",
+      "excerpt": "The 21st Delaware General Assembly was a meeting of the legislative branch of the state government, consisting of the Delaware Senate and the Delaware House of Representatives. Elections were held the first Tuesday of October and terms began on the first Tuesday in January. It met in Dover, convening January 3, 1797, two weeks before the beginning of the second year of the administration of Governor Gunning Bedford Sr. After his death on September 18, 1797, Daniel Rogers inherited the position. The apportionment of seats was permanently assigned to three senators and seven representatives for each of the three counties. Population of the county did not effect the number of delegates. Both chambers had a Federalist majority.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-13T18:15:21.180040Z"
+    },
+    {
+      "source_id": "wiki-random:zh:94508",
+      "source_name": "ZH Wikipedia：文言文",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%96%87%E8%A8%80%E6%96%87",
+      "title": "文言文",
+      "excerpt": "文言，或称古文，也常稱爲“文言文”，西方语言一般称之为「古典漢語」（英語：Classical Chinese；法語：Chinois classique），是汉语的一種書面形式，起源自中国春秋战国时期經潤飾的汉语口语（相較於西周以前被認為晦澀難懂、詰屈聱牙的文獻，如尚書、易經等）。 据胡适考证，至汉代，文言已经脱离了日常口语，而当时的书面语（即文言）已经开始向复古和口语化两个方向发展。至中國唐宋時期，漢語的口語与先秦时期口语差异更加明显，这時，有三种书面语： 一种文言文是模仿上古汉文书面文献的书面语，如唐宋八大家的散文，即古文運動的作品； 另一种是在兩漢至魏晉南北朝的基础上所形成的书面语，如西漢《史記》、東漢佛經翻譯、南北朝刘义庆的《世说新语》等寫法； 第三種則是各語言白話的源頭，如唐代的变文、宋代的话本等。 由於文言並不是一時一地的一種語言，因此不同時代或地區的文獻，在語法和詞彙上會有差異。到了元、明、清的近代时期，情况与中古时期类似，既有盡可能復刻上古風格的书面语，如桐城派的散文，亦有今日所謂的一般文言（如明史、清史稿），又有所謂的近代白话，比如現代人也可直接理解的《水滸傳》、《西遊記》等（甚至有《閩都別記》、《荔鏡記》、《海上花列傳》等方言作品），撰寫方式十分多樣。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-13T18:15:21.180361Z"
+    },
+    {
+      "source_id": "wiki-random:en:650207",
+      "source_name": "EN Wikipedia：Null morpheme",
+      "source_url": "https://en.wikipedia.org/wiki/Null_morpheme",
+      "title": "Null morpheme",
+      "excerpt": "In morphology, a null morpheme or zero morpheme is a morpheme that has no phonetic form. In simpler terms, a null morpheme is an \"invisible\" affix. It is a concept useful for analysis, by contrasting null morphemes with alternatives that do have some phonetic realization. The null morpheme is represented as either the figure zero (0) or the empty set symbol ∅. In most languages, it is the affixes that are realized as null morphemes, indicating that the derived form does not differ from the stem. For example, plural form sheep can be analyzed as combination of sheep with added null affix for the plural. The process of adding a null affix is called null affixation, null derivation or zero derivation. The concept was first used by the 4th century BCE Sanskrit grammarian from ancient India, Pāṇini, in his Sanskrit grammar.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-13T18:15:21.185963Z"
+    },
+    {
+      "source_id": "wiki-random:en:58985074",
+      "source_name": "EN Wikipedia：Mini-grid",
+      "source_url": "https://en.wikipedia.org/wiki/Mini-grid",
+      "title": "Mini-grid",
+      "excerpt": "A mini-grid is an aggregation of electrical loads and one or more energy sources operating as a single system providing electricity and possibly heat, isolated from a main power grid. A modern mini-grid may include renewable- and fossil fuel-based power generation, energy storage, and load control. A mini grid can be fully isolated from the main grid (wide area synchronous grid) or interconnected to it. If it is interconnected to the main grid, it must also be able to isolate (“island”) from the main grid and continue to serve its customers while operating in an island or autonomous mode. Mini-grids are used as a cost-effective solution for electrifying rural communities where a grid connection is challenging in terms of transmission and cost for the end user population density, with mini-grids often used to electrify rural communities of a hundred or more households that are 10 km or more from the main grid. Mini grids and microgrids are similar, and the terms are sometimes used as synonyms. Both microgrids and mini grids include generation and distribution, and generally include electricity storage in the form of electrochemical batteries. Both can “island” in the event of a blackout...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-13T18:15:21.186288Z"
+    },
+    {
+      "source_id": "wiki-random:zh:8313043",
+      "source_name": "ZH Wikipedia：碘氧化钐",
+      "source_url": "https://zh.wikipedia.org/wiki/%E7%A2%98%E6%B0%A7%E5%8C%96%E9%92%90",
+      "title": "碘氧化钐",
+      "excerpt": "碘氧化钐是一种无机化合物，化学式为SmOI。它可由二碘化钐和干燥的氧气反应得到。它在空气中加热至335 °C发生氧化，于460 °C、560 °C、640 °C开始生成nSmOI·Sm2O3（n分别为7、4、2），并在885 °C完全转化为氧化钐。它可以催化环氧丙烷衍生物重排为甲基酮的反应。它和三碘化钐、碘化钠、钠在钽制容器中于903 K反应，可以得到黑色的Sm4OI6。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-13T18:15:46.298318Z"
+    },
+    {
+      "source_id": "wiki-random:en:4989310",
+      "source_name": "EN Wikipedia：Unequal rotor lift distribution",
+      "source_url": "https://en.wikipedia.org/wiki/Unequal_rotor_lift_distribution",
+      "title": "Unequal rotor lift distribution",
+      "excerpt": "Unequal rotor lift distribution is an effect where the blades of a helicopter rotor generate more lift at the rotor tips than at the rotor hub. A helicopter rotor blade is an airfoil, which is driven through the air to create lift. The lift generated is proportional to the square of the speed. Because the tips of the rotating blades travel much faster through the air than the parts of the blades near the hub, they generate much more lift. If not mitigated, this effect would cause large bending stresses in the blade. In addition, the tip would have to be made stronger to handle the increased load. Helicopter manufacturers use the following techniques to equalise lift across the blade: Washout is a geometric twist in the blade, such that the blade root near the hub has a higher angle-of-attack, thus higher lift. Varying the airfoil cross-section, such as flattening the airfoil towards the tip, or tapering the blade towards the tip, which reduces its surface area thus reducing lift. These techniques also equalise drag and downwash along the blade. The high twisting necessary for good hover performance unfortunately causes vibrations at high forward speeds, because the angle of attack...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-13T18:15:46.299151Z"
+    },
+    {
+      "source_id": "wiki-random:en:21888487",
+      "source_name": "EN Wikipedia：Thomas Webb & Sons",
+      "source_url": "https://en.wikipedia.org/wiki/Thomas_Webb_%26_Sons",
+      "title": "Thomas Webb & Sons",
+      "excerpt": "Thomas Webb & Sons was an English glass company, founded in 1837 by Thomas Webb (1804-1869) near Stourbridge, England. The name T. Webb & Co. was adopted in 1842, and later became Thomas Webb & Sons. Webb operated the Platts glasshouse from 1837 to 1856 and then the Dennis glassworks from 1855 to 1990. The company, known originally as the \"Crystal King of England,\" was noted for the high quality of its Cameo glass. Cameo glass is created by a process of etching and carving through a layer of opaque white glass, leaving a white relief design on a darker colored glass body. Some pieces used two layers of etched glass to create a three-color Cameo glass product. In the 1870s John Northwood produced the first pieces, inspired by the Portland Vase. George Woodall would produce the most distinguished Webb Cameo work towards the end of the 19th century. The finest and most valuable pieces were signed with \"GEM CAMEO\" included in the mark - Roman cameo glass was itself an imitation of the luxury art form of the cameo engraved gem. In 1889 Thomas Webb & Sons secured an American patent for their process, and in that same year they received a Grand Prix for their exquisite colored glass at the...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-13T18:15:46.299374Z"
+    },
+    {
+      "source_id": "wiki-random:en:6989814",
+      "source_name": "EN Wikipedia：Pentti Hämäläinen",
+      "source_url": "https://en.wikipedia.org/wiki/Pentti_H%C3%A4m%C3%A4l%C3%A4inen",
+      "title": "Pentti Hämäläinen",
+      "excerpt": "Pentti Olavi Hämäläinen (19 December 1929 – 11 December 1984) was a Finnish boxer. He competed at the 1952 and 1956 Olympics and won a gold and a bronze medal, respectively. He won two more bronze medals at European championships in 1951 and 1955. Domestically he won six Finnish titles between 1951 and 1956, two in flyweight, two in bantamweight and two in featherweight division. After the 1956 Olympics he turned professional and won five consecutive bouts. He lost his sixth bout in 1959 and retired from boxing, after which he worked as a mechanic and a policeman. Four of his brothers also competed in boxing at the national level. Pentti Hämäläinen died in 1984, aged 54, of undisclosed causes.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-13T18:15:46.300394Z"
+    },
+    {
+      "source_id": "wiki-random:zh:325952",
+      "source_name": "ZH Wikipedia：國子監祭酒",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E5%AD%90%E7%9B%A3%E7%A5%AD%E9%85%92",
+      "title": "國子監祭酒",
+      "excerpt": "國子監祭酒，古禮祭祀宴饗時，由最年長尊者舉酒以祭於地，故祭酒為尊稱，同輩之長之義。最早追溯可源與夏商周時代之官品職位役階。與功曹、僕射等為同類官職，漢博士之長原稱仆射，東漢改稱「博士祭酒」，秩六百石，西晉國子學之長為國子祭酒，北齊國子寺、隋唐國子監均以祭酒為長，《續漢書·百官志二》劉昭注引：「漢人胡廣说，謂官名祭酒，系部門之長。」 在宋朝為中央政府官職之一。在宋神宗元豐改制後始創，為國子監最高負責人，地位等同於國立大學校長。多由宰相兼領，其佐貳官為國子監司業。主掌國子監、太學、武學、律學、小學的政令，以及課試、升黜、教導之事，同時也負責替學官打考績。此外，依照太學三舍法的規定，屬最低階的外舍太學生須於季終，依序接受學諭、學錄、學正、博士的考試，最終再由祭酒與司業加以考核，視其成績，決定是否可以升至內舍。 明、清時為中央政府官職之一，為國家最高學府國子監之主管官員。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-13T18:15:46.301370Z"
+    },
+    {
+      "source_id": "wiki-random:en:76747726",
+      "source_name": "EN Wikipedia：Ambler Road",
+      "source_url": "https://en.wikipedia.org/wiki/Ambler_Road",
+      "title": "Ambler Road",
+      "excerpt": "The Ambler Mining District Industrial Access Project is a proposed industrial haul road that would connect the Dalton Highway to the area around the Ambler Mining District, allowing for future mining projects in the area. The project is being managed by the Alaska Industrial Development and Export Authority (AIDEA)—Alaska's state-owned economic development authority. Concerns have been raised due to its potential impact on the environment and Alaska Native communities. In April 2024, the Bureau of Land Management (BLM) issued a Supplemental Environmental Impact Statement (SEIS) evaluating the project's potential impact on the environment and nearby communities. The BLM selected the \"no action\" alternative, effectively halting the project. In January 2025, US President Donald Trump ordered the suspension of the SEIS and the reinstatement of an earlier Environmental Impact Statement, once again opening the door for the project to move forward. Trump signed an order approving project construction on October 6, 2025.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-13T18:15:46.302403Z"
+    },
+    {
+      "source_id": "wiki-random:en:33507747",
+      "source_name": "EN Wikipedia：40 Golden Greats (Jim Reeves album)",
+      "source_url": "https://en.wikipedia.org/wiki/40_Golden_Greats_(Jim_Reeves_album)",
+      "title": "40 Golden Greats (Jim Reeves album)",
+      "excerpt": "40 Golden Greats is a greatest hits album by Jim Reeves. It was released in 1975 and reached number one on the UK Albums Chart, where it was a posthumous number one. Surprisingly, it does not include \"I Love You Because\".",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-13T18:15:46.302468Z"
+    },
+    {
+      "source_id": "wiki-random:en:42709653",
+      "source_name": "EN Wikipedia：Susan Band Horwitz",
+      "source_url": "https://en.wikipedia.org/wiki/Susan_Band_Horwitz",
+      "title": "Susan Band Horwitz",
+      "excerpt": "Susan Band Horwitz is an American biochemist and professor at the Albert Einstein College of Medicine where she holds the Falkenstein chair in Cancer Research as well as co-chair of the department of Molecular Pharmacology. Horwitz is a pioneer in dissecting the mechanisms of action of chemotherapeutic drugs including camptothecin, epipodophyllotoxins, and bleomycin, and taxol. Horwitz's work on taxol in particular has brought her international recognition. Horwitz discovered that taxol binds to microtubules, resulting in arrest of the cell cycle in metaphase. Her work paved the way to using taxol and other microtubule binding agents as chemotherapeutics. Taxol remains widely used today, as a means to treat ovarian, breast, and lung cancer. However, since taxol is in short supply, Horwitz is directing studies in her lab to identify similar therapies in natural products.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-13T18:15:46.302731Z"
+    },
+    {
+      "source_id": "wiki-random:zh:3168231",
+      "source_name": "ZH Wikipedia：抗輻射奇異球菌",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%8A%97%E8%BC%BB%E5%B0%84%E5%A5%87%E7%95%B0%E7%90%83%E8%8F%8C",
+      "title": "抗輻射奇異球菌",
+      "excerpt": "抗輻射奇異球菌（学名：Deinococcus radiodurans）又称耐辐射奇异球菌，是奇异球菌属的一種對輻射有免疫力的嗜極生物，可以承受能殺死人類3000倍和蟑螂無法抵抗的15倍輻射，也可在充满辐射的外太空存活3年。该菌具有超强的DNA损伤修复能力以及多种高效抗氧化系统的协同作用，使其能够在数小时内高效而精准地修复同一个基因组中产生的多达100个以上的DNA双链断裂。 抗輻射奇異球菌最早是1956年辐照灭菌后仍腐败的肉罐头中分离得到的，被命名为耐辐射微球菌（Micrococcus radiodurans），属于微球菌属，之后才归为奇异球菌属。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-13T18:15:46.304094Z"
+    },
+    {
+      "source_id": "wiki-random:en:30366430",
+      "source_name": "EN Wikipedia：Jinghong Dam",
+      "source_url": "https://en.wikipedia.org/wiki/Jinghong_Dam",
+      "title": "Jinghong Dam",
+      "excerpt": "The Jinghong Dam (Chinese: 景洪大坝) is a gravity dam composed of roller-compacted concrete on the Lancang (Mekong) River near Jinghong in Yunnan Province, China. The main purpose of the dam is hydroelectric power production and it has an associated 1,750 MW power station. Part of the power generated is sold to Thailand under an agreement with China. As of January 2020 it is the nearest Chinese dam upstream of the Thai border, and has helped to cause huge fluctuations in river levels, affecting people's livelihoods downstream by disrupting the river's natural cycle. It, along with the many other dams on the river, is exacerbating the effects of climate change and impacting the ecosystem, disturbing the migratory patterns of fish as well as riverbank plants and local agriculture downstream.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-13T18:15:46.304416Z"
+    },
+    {
+      "source_id": "wiki-random:en:45632027",
+      "source_name": "EN Wikipedia：Early and simple domes",
+      "source_url": "https://en.wikipedia.org/wiki/Early_and_simple_domes",
+      "title": "Early and simple domes",
+      "excerpt": "Cultures from pre-history to the modern era constructed domed dwellings using local materials. Although it is not known when or where the first dome was created, sporadic examples of early domed structures have been discovered. Brick domes from the ancient Near East and corbelled stone domes have been found from the Middle East to Western Europe. These may indicate a common source or multiple independent traditions. A variety of materials have been used, including wood, mudbrick, or fabric. Indigenous peoples around the world produce similar structures today.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-13T18:15:46.304621Z"
+    },
+    {
+      "source_id": "wiki-random:zh:1044747",
+      "source_name": "ZH Wikipedia：中國驛站史",
+      "source_url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9C%8B%E9%A9%9B%E7%AB%99%E5%8F%B2",
+      "title": "中國驛站史",
+      "excerpt": "驛站在中国的沿袭时间有数千年之久。自周代的驛傳以来，官办驿站体系维持至1914年方才大致结束。 從《春秋》、《左傳》等書敘述，可知先秦時代郵件的传递方式有三種：一是「傳」，為車遞；二是「郵」，為步遞；三是「驛」，為馬遞（乘馬傳遞），綜稱「傳遞」，後因車遞費用太大，漸不使用，只剩步遞及馬遞，故改稱為「郵驛」站。官办驿站体系与郵政密切相关。有關「郵」字的始源意義，可從中國的郵驛及郵政的演變中瞭解：在中國古籍中，關於通信事務之紀載常見「傳」、「遽」二字，至於「郵」字，則語出《孟子·公孫丑》：“孔子曰德之流行速於置郵而傳命”。 驿站除用于郵件传递，亦供傳遞軍事情報的官員途中食宿、換馬。邊疆防衛軍傳遞信息，為古老海關、水師、海軍所管。驿站体系的建立，使中國成为世界上最早建立有組織的傳遞信息系統的國家之一。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-13T18:15:46.304872Z"
     }
   ]
 }

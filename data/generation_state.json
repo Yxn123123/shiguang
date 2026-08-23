@@ -4518,7 +4518,151 @@
       "source_url": "https://zh.wikipedia.org/wiki/%E8%80%81%E5%AD%90_(%E6%9B%B8)",
       "outcome": "accepted",
       "reason": ""
+    },
+    "wiki-random:en:33507747": {
+      "last_seen": "2026-08-23T17:42:54.444945Z",
+      "source_url": "https://en.wikipedia.org/wiki/40_Golden_Greats_(Jim_Reeves_album)",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:650207": {
+      "last_seen": "2026-08-23T17:42:54.444961Z",
+      "source_url": "https://en.wikipedia.org/wiki/Null_morpheme",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-random:en:24159628": {
+      "last_seen": "2026-08-23T17:42:54.444968Z",
+      "source_url": "https://en.wikipedia.org/wiki/35th_Delaware_General_Assembly",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:62450890": {
+      "last_seen": "2026-08-23T17:42:54.444973Z",
+      "source_url": "https://en.wikipedia.org/wiki/NGC_5728",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-random:en:83093200": {
+      "last_seen": "2026-08-23T17:42:54.444977Z",
+      "source_url": "https://en.wikipedia.org/wiki/2004_Uber_Cup_qualification",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:zh:7881166": {
+      "last_seen": "2026-08-23T17:42:54.444983Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%8A%A0%E5%9F%83%E5%A1%94%E4%B9%8B%E5%9B%B4",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-random:zh:7375620": {
+      "last_seen": "2026-08-23T17:42:54.444987Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E8%BE%BE%E9%BD%90%E7%94%98%E5%88%A9%E4%BA%9A",
+      "outcome": "reviewed_not_saved",
+      "reason": ""
+    },
+    "wiki-random:zh:1483346": {
+      "last_seen": "2026-08-23T17:42:54.444991Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%8F%B2%E5%AF%86%E6%96%AF%E5%A8%81%E6%A3%AEM29%E5%B7%A6%E8%BC%AA%E6%89%8B%E6%A7%8D",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:19619592": {
+      "last_seen": "2026-08-23T17:42:54.444995Z",
+      "source_url": "https://en.wikipedia.org/wiki/Sabinus_of_Heraclea",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:zh:942490": {
+      "last_seen": "2026-08-23T17:42:54.444999Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E9%93%85%E7%9B%B4%E4%B8%9B",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:38644701": {
+      "last_seen": "2026-08-23T17:42:54.445004Z",
+      "source_url": "https://en.wikipedia.org/wiki/Allan_Hills_A81005",
+      "outcome": "rejected",
+      "reason": "证据未能在原文中匹配"
+    },
+    "wiki-random:en:3985584": {
+      "last_seen": "2026-08-23T17:42:54.445008Z",
+      "source_url": "https://en.wikipedia.org/wiki/Charlotte_Spencer,_Countess_Spencer",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:28312507": {
+      "last_seen": "2026-08-23T17:42:54.445013Z",
+      "source_url": "https://en.wikipedia.org/wiki/M74_syndrome",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-random:zh:9496962": {
+      "last_seen": "2026-08-23T17:42:54.445016Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%AE%89%E7%AC%AC%E6%96%AF%E7%97%85%E6%AF%92",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-random:zh:349176": {
+      "last_seen": "2026-08-23T17:42:54.445020Z",
+      "source_url": "https://zh.wikipedia.org/wiki/IceWM",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:42709653": {
+      "last_seen": "2026-08-23T17:42:54.445023Z",
+      "source_url": "https://en.wikipedia.org/wiki/Susan_Band_Horwitz",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-random:en:63521618": {
+      "last_seen": "2026-08-23T17:42:54.445027Z",
+      "source_url": "https://en.wikipedia.org/wiki/Tonight_(I_Wish_I_Was_Your_Boy)",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:zh:5911372": {
+      "last_seen": "2026-08-23T17:42:54.445031Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E9%9B%86%E9%AB%94%E9%85%8D%E5%B0%8D%E7%B4%84%E6%9C%83",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:73490231": {
+      "last_seen": "2026-08-23T17:42:54.445035Z",
+      "source_url": "https://en.wikipedia.org/wiki/1986_Danish_speedway_season",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:752474": {
+      "last_seen": "2026-08-23T17:42:54.445038Z",
+      "source_url": "https://en.wikipedia.org/wiki/Leader_of_the_Opposition_in_the_Senate_(Canada)",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:zh:565351": {
+      "last_seen": "2026-08-23T17:42:54.445042Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E9%A2%86%E5%9F%9F%E6%A8%A1%E5%9E%8B",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:en:29427231": {
+      "last_seen": "2026-08-23T17:42:54.445046Z",
+      "source_url": "https://en.wikipedia.org/wiki/Westliche_Petermann_Range",
+      "outcome": "no_proposal",
+      "reason": ""
+    },
+    "wiki-random:zh:5918398": {
+      "last_seen": "2026-08-23T17:42:54.445050Z",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%88%88%E5%85%8B%E5%A1%94%E7%80%91%E5%B8%83",
+      "outcome": "accepted",
+      "reason": ""
+    },
+    "wiki-random:en:70686163": {
+      "last_seen": "2026-08-23T17:42:54.445053Z",
+      "source_url": "https://en.wikipedia.org/wiki/Squatting_in_Bhutan",
+      "outcome": "no_proposal",
+      "reason": ""
     }
   },
-  "updated_at": "2026-08-23T17:40:55.874237Z"
+  "updated_at": "2026-08-23T17:42:54.453863Z"
 }

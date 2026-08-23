@@ -1,34 +1,34 @@
 {
   "version": 1,
-  "updated_at": "2026-08-23T17:40:55.878677Z",
-  "approved_cards": 184,
-  "pending_candidates": 320,
+  "updated_at": "2026-08-23T17:42:54.459132Z",
+  "approved_cards": 189,
+  "pending_candidates": 296,
   "last_run": {
-    "github_run_id": "31729857181",
+    "github_run_id": "32655620213",
     "source": "workflow_run",
-    "started_at": "2026-08-13T18:16:04.331090Z",
-    "finished_at": "2026-08-13T18:18:32.488104Z",
-    "duration_seconds": 148.16,
+    "started_at": "2026-08-23T17:41:14.238263Z",
+    "finished_at": "2026-08-23T17:42:54.457966Z",
+    "duration_seconds": 100.22,
     "target_new_cards": 5,
     "rounds": 1,
-    "pool_before": 344,
-    "pool_after": 320,
+    "pool_before": 320,
+    "pool_after": 296,
     "processed": 24,
-    "proposals": 15,
-    "reviewed": 15,
+    "proposals": 9,
+    "reviewed": 9,
     "added": 5,
     "pass_rate": 20.8,
-    "input_tokens": 19177,
-    "output_tokens": 7727,
+    "input_tokens": 33547,
+    "output_tokens": 5031,
     "filters": {
       "before_ai": {
         "invalid_record": 0,
         "duplicate_source": 0,
         "seen_recently": 0,
         "low_information": 0,
-        "explicit_topic_selected": 12,
-        "random_selected": 12,
-        "average_hook_score": 5
+        "explicit_topic_selected": 0,
+        "random_selected": 24,
+        "average_hook_score": 2
       },
       "before_review": {
         "low_confidence": 0,
@@ -43,7 +43,7 @@
         "score_below_78": 0,
         "bad_title": 0,
         "bad_category": 0,
-        "evidence_mismatch": 0,
+        "evidence_mismatch": 1,
         "duplicate_source": 0,
         "similar_title": 0,
         "semantic_duplicate": 0
@@ -51,67 +51,137 @@
     },
     "source_stats": {
       "英文维基随机": {
-        "processed": 7,
-        "accepted": 1
-      },
-      "维基主题分类": {
-        "processed": 11,
+        "processed": 15,
         "accepted": 2
-      },
-      "历史上的今天": {
-        "processed": 1,
-        "accepted": 0
       },
       "中文维基随机": {
-        "processed": 5,
-        "accepted": 2
+        "processed": 9,
+        "accepted": 3
       }
     },
     "quality": {
       "category_distribution": {
-        "科学": 57,
+        "科学": 58,
         "科技": 44,
-        "生物": 36,
+        "生物": 39,
         "生活": 19,
-        "历史": 16,
+        "历史": 17,
         "综合": 7,
         "艺术": 5
       },
       "new_category_distribution": {
-        "科学": 2,
+        "生物": 3,
         "历史": 1,
-        "生物": 1,
-        "科技": 1
+        "科学": 1
       },
       "source_pass_rates": {
         "英文维基随机": {
-          "processed": 7,
-          "accepted": 1,
-          "pass_rate": 14.3
-        },
-        "维基主题分类": {
-          "processed": 11,
+          "processed": 15,
           "accepted": 2,
-          "pass_rate": 18.2
-        },
-        "历史上的今天": {
-          "processed": 1,
-          "accepted": 0,
-          "pass_rate": 0.0
+          "pass_rate": 13.3
         },
         "中文维基随机": {
-          "processed": 5,
-          "accepted": 2,
-          "pass_rate": 40.0
+          "processed": 9,
+          "accepted": 3,
+          "pass_rate": 33.3
         }
       },
-      "review_pass_rate": 33.3,
+      "review_pass_rate": 55.6,
       "processed_pass_rate": 20.8,
-      "evidence_mismatch": 0,
-      "evidence_mismatch_rate": 0.0
+      "evidence_mismatch": 1,
+      "evidence_mismatch_rate": 11.1
     }
   },
   "recent_runs": [
+    {
+      "github_run_id": "32655620213",
+      "source": "workflow_run",
+      "started_at": "2026-08-23T17:41:14.238263Z",
+      "finished_at": "2026-08-23T17:42:54.457966Z",
+      "duration_seconds": 100.22,
+      "target_new_cards": 5,
+      "rounds": 1,
+      "pool_before": 320,
+      "pool_after": 296,
+      "processed": 24,
+      "proposals": 9,
+      "reviewed": 9,
+      "added": 5,
+      "pass_rate": 20.8,
+      "input_tokens": 33547,
+      "output_tokens": 5031,
+      "filters": {
+        "before_ai": {
+          "invalid_record": 0,
+          "duplicate_source": 0,
+          "seen_recently": 0,
+          "low_information": 0,
+          "explicit_topic_selected": 0,
+          "random_selected": 24,
+          "average_hook_score": 2
+        },
+        "before_review": {
+          "low_confidence": 0,
+          "missing_candidate": 0,
+          "bad_title": 0,
+          "bad_category": 0,
+          "similar_title": 0,
+          "semantic_duplicate": 0
+        },
+        "final": {
+          "model_rejected": 0,
+          "score_below_78": 0,
+          "bad_title": 0,
+          "bad_category": 0,
+          "evidence_mismatch": 1,
+          "duplicate_source": 0,
+          "similar_title": 0,
+          "semantic_duplicate": 0
+        }
+      },
+      "source_stats": {
+        "英文维基随机": {
+          "processed": 15,
+          "accepted": 2
+        },
+        "中文维基随机": {
+          "processed": 9,
+          "accepted": 3
+        }
+      },
+      "quality": {
+        "category_distribution": {
+          "科学": 58,
+          "科技": 44,
+          "生物": 39,
+          "生活": 19,
+          "历史": 17,
+          "综合": 7,
+          "艺术": 5
+        },
+        "new_category_distribution": {
+          "生物": 3,
+          "历史": 1,
+          "科学": 1
+        },
+        "source_pass_rates": {
+          "英文维基随机": {
+            "processed": 15,
+            "accepted": 2,
+            "pass_rate": 13.3
+          },
+          "中文维基随机": {
+            "processed": 9,
+            "accepted": 3,
+            "pass_rate": 33.3
+          }
+        },
+        "review_pass_rate": 55.6,
+        "processed_pass_rate": 20.8,
+        "evidence_mismatch": 1,
+        "evidence_mismatch_rate": 11.1
+      }
+    },
     {
       "github_run_id": "31729857181",
       "source": "workflow_run",
@@ -1875,95 +1945,6 @@
         "processed_pass_rate": 20.8,
         "evidence_mismatch": 0,
         "evidence_mismatch_rate": 0.0
-      }
-    },
-    {
-      "github_run_id": "30034929878",
-      "source": "workflow_run",
-      "started_at": "2026-07-23T18:43:26.908390Z",
-      "finished_at": "2026-07-23T18:45:25.394579Z",
-      "duration_seconds": 118.49,
-      "target_new_cards": 5,
-      "rounds": 1,
-      "pool_before": 308,
-      "pool_after": 284,
-      "processed": 24,
-      "proposals": 11,
-      "reviewed": 11,
-      "added": 5,
-      "pass_rate": 20.8,
-      "input_tokens": 13346,
-      "output_tokens": 5820,
-      "filters": {
-        "before_ai": {
-          "invalid_record": 0,
-          "duplicate_source": 0,
-          "seen_recently": 0,
-          "low_information": 0,
-          "explicit_topic_selected": 24,
-          "random_selected": 0,
-          "average_hook_score": 4
-        },
-        "before_review": {
-          "low_confidence": 0,
-          "missing_candidate": 0,
-          "bad_title": 0,
-          "bad_category": 0,
-          "similar_title": 0,
-          "semantic_duplicate": 0
-        },
-        "final": {
-          "model_rejected": 0,
-          "score_below_78": 0,
-          "bad_title": 0,
-          "bad_category": 0,
-          "evidence_mismatch": 1,
-          "duplicate_source": 0,
-          "similar_title": 0,
-          "semantic_duplicate": 0
-        }
-      },
-      "source_stats": {
-        "维基主题分类": {
-          "processed": 22,
-          "accepted": 5
-        },
-        "历史上的今天": {
-          "processed": 2,
-          "accepted": 0
-        }
-      },
-      "quality": {
-        "category_distribution": {
-          "科学": 26,
-          "科技": 22,
-          "生物": 16,
-          "生活": 12,
-          "历史": 8,
-          "艺术": 3,
-          "综合": 2
-        },
-        "new_category_distribution": {
-          "生物": 2,
-          "科技": 2,
-          "生活": 1
-        },
-        "source_pass_rates": {
-          "维基主题分类": {
-            "processed": 22,
-            "accepted": 5,
-            "pass_rate": 22.7
-          },
-          "历史上的今天": {
-            "processed": 2,
-            "accepted": 0,
-            "pass_rate": 0.0
-          }
-        },
-        "review_pass_rate": 45.5,
-        "processed_pass_rate": 20.8,
-        "evidence_mismatch": 1,
-        "evidence_mismatch_rate": 9.1
       }
     }
   ],

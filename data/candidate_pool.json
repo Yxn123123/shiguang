@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-08-23T17:40:55.869058Z",
+  "updated_at": "2026-08-23T17:42:54.448997Z",
   "candidates": [
     {
       "source_id": "wiki-random:zh:936346",
@@ -71,16 +71,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-13T20:45:20.586234Z"
-    },
-    {
-      "source_id": "wiki-random:en:83093200",
-      "source_name": "EN Wikipedia：2004 Uber Cup qualification",
-      "source_url": "https://en.wikipedia.org/wiki/2004_Uber_Cup_qualification",
-      "title": "2004 Uber Cup qualification",
-      "excerpt": "The 2004 Uber Cup qualification process is a series of tournaments organised by the five IBF confederations to decide 10 of the 12 teams which will play in the 2004 Uber Cup, with Indonesia qualifying automatically as hosts and China as trophy holders.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-13T20:45:49.943160Z"
     },
     {
       "source_id": "wiki-random:zh:4835506",
@@ -373,26 +363,6 @@
       "added_at": "2026-07-19T18:14:14.904308Z"
     },
     {
-      "source_id": "wiki-random:zh:7881166",
-      "source_name": "ZH Wikipedia：加埃塔之围",
-      "source_url": "https://zh.wikipedia.org/wiki/%E5%8A%A0%E5%9F%83%E5%A1%94%E4%B9%8B%E5%9B%B4",
-      "title": "加埃塔之围",
-      "excerpt": "加埃塔之围（法语：Siège de Gaète）发生于1806年2月26日至7月18日。此役中，意大利的要塞城市加埃塔及守城的那不勒斯驻军在黑森-菲利普斯塔尔的路德维希王子的指挥下抵抗安德烈·马塞纳率领的法国军团围攻。经过长时间的围城战后，路德维希王子身负重伤被迫撤出该地，最终加埃塔的全部守军投降，马塞纳给予投降的士兵慷慨的条件。 1806年，拿破仑军队入侵那不勒斯是因为西西里国王费迪南多一世加入了第三次反法同盟。那不勒斯王国被法军士兵迅速占领，但路德维希王子顽固地坚守着加埃塔并不断抵抗法军的进攻，以至于马塞纳军团的大部分士兵被牵制了近五个月。这阻止了马塞纳派遣增援部队平息在卡拉布里亚的起义，也使得法军无法阻止英国远征军在马伊达战役中的胜利。然而，由于英军未能援救加埃塔的守军，在法军炮击该城防线的缺口后，该城终于在7月中旬被攻占。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-19T18:14:14.904403Z"
-    },
-    {
-      "source_id": "wiki-random:zh:9496962",
-      "source_name": "ZH Wikipedia：安第斯病毒",
-      "source_url": "https://zh.wikipedia.org/wiki/%E5%AE%89%E7%AC%AC%E6%96%AF%E7%97%85%E6%AF%92",
-      "title": "安第斯病毒",
-      "excerpt": "安第斯病毒是南美洲引起汉坦病毒肺综合征最常见的病原体。安第斯病毒主要通过长尾侏儒稻鼠传播。人类可能通过吸入含有啮齿动物唾液、尿液或粪便的气溶胶，以及通过咬伤和抓伤而感染。人类感染安第斯病毒会出现汉坦病毒肺综合征。 安第斯病毒于1995年首次在阿根廷和智利被发现。每年约有100例由安第斯病毒引起的汉坦病毒肺综合征病例报告，主要集中在这两个国家。。安第斯病毒是目前已知唯一可通过人际传播的汉坦病毒。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-19T18:14:14.905315Z"
-    },
-    {
       "source_id": "wiki-random:en:7035995",
       "source_name": "EN Wikipedia：Poot (The Wire)",
       "source_url": "https://en.wikipedia.org/wiki/Poot_(The_Wire)",
@@ -503,26 +473,6 @@
       "added_at": "2026-07-19T18:15:14.350600Z"
     },
     {
-      "source_id": "wiki-random:zh:349176",
-      "source_name": "ZH Wikipedia：IceWM",
-      "source_url": "https://zh.wikipedia.org/wiki/IceWM",
-      "title": "IceWM",
-      "excerpt": "IceWM是由Marko Maček开发的，用于X Window系统的堆叠式窗口管理器，使用C++编写并依据GNU宽通用公共许可证的条款发布。它对CPU和内存的占用比较小，并且带有主题支持，可以模仿Windows 95、Windows XP、Windows 7、OS/2、Motif和其它图形用户界面。IceWM意在提升感观和体验，同时兼顾了轻量和可定制性。 IceWM可以通过存放在家目录的纯文本文件进行配置，以便于自定义和复制设置。IceWM有一个可选的，带有菜单、任务管理器、网络和CPU仪表、邮件检查和可配置时钟的任务栏。对于GNOME和KDE程序菜单的支持，曾在一个单独的软件包中提供，但是在最近的IceWM版本中已经内置这些功能。另外也有用于配置和编辑菜单的外部图形界面工具提供。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-19T18:15:14.351336Z"
-    },
-    {
-      "source_id": "wiki-random:zh:7375620",
-      "source_name": "ZH Wikipedia：阿达齐甘利亚",
-      "source_url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E8%BE%BE%E9%BD%90%E7%94%98%E5%88%A9%E4%BA%9A",
-      "title": "阿达齐甘利亚",
-      "excerpt": "阿达齐甘利亚（塞爾維亞語：Ада Циганлија ;發音：[ˈǎːda tsiˈɡǎnlija]）通常简称为阿达，原本是一个河心岛，后经人工填补成一个半岛，坐落在横穿贝尔格莱德的萨瓦河主航道中。阿达齐甘利亚还可以指代临近的一个人造湖--萨瓦湖及其海滩。为了利用其中心位置，在过去的几十年中，它变成了一个非常受欢迎的休闲区，最著名的是它的海滩和体育设施，在夏季，每天有超过十万名游客前来，到了周末有30万游客来游玩。 因为超高的人气程度，阿达齐甘利亚岛通常被昵称为“More Beograda”（“贝尔格莱德的海”），该名称于2008年正式成为广告口号。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-20T19:11:49.203722Z"
-    },
-    {
       "source_id": "wiki-random:en:49165705",
       "source_name": "EN Wikipedia：Jason Smith (visual effects)",
       "source_url": "https://en.wikipedia.org/wiki/Jason_Smith_(visual_effects)",
@@ -591,16 +541,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-20T19:12:40.929760Z"
-    },
-    {
-      "source_id": "wiki-random:zh:1483346",
-      "source_name": "ZH Wikipedia：史密斯威森M29左輪手槍",
-      "source_url": "https://zh.wikipedia.org/wiki/%E5%8F%B2%E5%AF%86%E6%96%AF%E5%A8%81%E6%A3%AEM29%E5%B7%A6%E8%BC%AA%E6%89%8B%E6%A7%8D",
-      "title": "史密斯威森M29左輪手槍",
-      "excerpt": "史密斯威森M29（英語：Smith & Wesson Model 29）是一系列由美国槍械公司史密斯威森所研製及生產的6發式“N型底把”雙動式左輪手槍，發射火力強大的.44麥格農或火力相對較弱的.44 S&W特種彈這二種.44口徑的手枪子彈。 該槍因為是克林·伊斯威特主演的緊急追捕令系列電影的主角·哈拉·卡拉漢的招牌武器關係而聲名大噪。 史密斯威森M29配備了4英吋（101.6毫米）、5英吋（127毫米）、6英吋（152.4毫米）、61⁄2英吋（165.1毫米）、83⁄8英吋（212.725毫米）和較後期的105⁄8英吋（269.875毫米）槍管長度為其標準型號。用戶還分別可以通過聯繫史密斯威森性能中心的特別訂單或是通過槍匠進行其他槍管長度版本的個人化定製。5英吋（127毫米）槍管長度版本還裝有全尺寸長度槍管底部凸桿。M29的生產質量優良，並且具有兩種華麗的主要表面處理，分別是高級的拋光烤藍表面處理（有皇家藍色表面）和鍍光亮镍表面處理（半光亮表面）。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-20T19:12:40.931369Z"
     },
     {
       "source_id": "wiki-random:zh:8273343",
@@ -1143,16 +1083,6 @@
       "added_at": "2026-07-25T18:13:57.596165Z"
     },
     {
-      "source_id": "wiki-random:en:73490231",
-      "source_name": "EN Wikipedia：1986 Danish speedway season",
-      "source_url": "https://en.wikipedia.org/wiki/1986_Danish_speedway_season",
-      "title": "1986 Danish speedway season",
-      "excerpt": "The 1986 Danish speedway season was the 1986 season of motorcycle speedway in Denmark. The season was hugely significant because a new professional league was introduced called the Danish Superliga. Previously the league consisted of multiple amateur teams and Danish speedway suffered from the fact that many of their top professional riders chose not to race in Denmark.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-25T18:14:30.269583Z"
-    },
-    {
       "source_id": "wiki-random:zh:1515699",
       "source_name": "ZH Wikipedia：明道加斯家族",
       "source_url": "https://zh.wikipedia.org/wiki/%E6%98%8E%E9%81%93%E5%8A%A0%E6%96%AF%E5%AE%B6%E6%97%8F",
@@ -1213,16 +1143,6 @@
       "added_at": "2026-07-25T18:15:02.459908Z"
     },
     {
-      "source_id": "wiki-random:en:752474",
-      "source_name": "EN Wikipedia：Leader of the Opposition in the Senate (Canada)",
-      "source_url": "https://en.wikipedia.org/wiki/Leader_of_the_Opposition_in_the_Senate_(Canada)",
-      "title": "Leader of the Opposition in the Senate (Canada)",
-      "excerpt": "In Canada, the leader of the Opposition in the Senate (French: Chef de l'opposition au Sénat) is the leader of the largest party in the Senate not in government. Even though the position's name is very similar to the leader of the Opposition in the House of Commons (the Opposition House leader), the leader of the Opposition in the Senate's role is more analogous to the leader of the Official Opposition because its holder is the leader of the party's Senate caucus. The responsibilities that, in the House of Commons, are done by the house leaders—including day-to-day scheduling of business—are undertaken in the Senate by Government and Opposition deputy leaders and Opposition whips.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-25T18:15:39.751030Z"
-    },
-    {
       "source_id": "wiki-random:zh:5728415",
       "source_name": "ZH Wikipedia：耶律阿思",
       "source_url": "https://zh.wikipedia.org/wiki/%E8%80%B6%E5%BE%8B%E9%98%BF%E6%80%9D",
@@ -1261,16 +1181,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-26T18:30:03.026110Z"
-    },
-    {
-      "source_id": "wiki-random:en:3985584",
-      "source_name": "EN Wikipedia：Charlotte Spencer, Countess Spencer",
-      "source_url": "https://en.wikipedia.org/wiki/Charlotte_Spencer,_Countess_Spencer",
-      "title": "Charlotte Spencer, Countess Spencer",
-      "excerpt": "Charlotte Frances Frederica Spencer, Countess Spencer, (née Seymour; 28 September 1835 – 31 October 1903) was a British philanthropist. Born in the London residence of her maternal grandfather, the 1st Marquess of Bristol, she was the youngest daughter of Frederick Charles William Seymour and his second wife Lady Augusta Hervey. In 1858 Charlotte married John Spencer, 5th Earl Spencer; they had no children. Lady Spencer was active in philanthropic causes. In the 1860s she founded the Supplemental Ladies Association, an organisation of upper-class women that \"adopted\" missions within poorer areas of the East End of London and allowed them to appeal directly to the group for material aid. She later published a book documenting her observations of this work.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-26T18:30:03.026954Z"
     },
     {
       "source_id": "wiki-random:zh:565878",
@@ -1351,16 +1261,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-27T18:53:29.614629Z"
-    },
-    {
-      "source_id": "wiki-random:zh:565351",
-      "source_name": "ZH Wikipedia：领域模型",
-      "source_url": "https://zh.wikipedia.org/wiki/%E9%A2%86%E5%9F%9F%E6%A8%A1%E5%9E%8B",
-      "title": "领域模型",
-      "excerpt": "领域模型（或称域模型；英語：domain model）可以被看作是一个系统的概念模型，用于以可视化的形式描述系统中的各个实体及其之间的关系。领域模型记录了一个系统中的关键概念和词汇表，显示出了系统中的主要实体之间的关系，并确定了它们的重要的方法和属性。因此，对应于用例所描述的动态视图，领域模型提供了一种对整个系统的结构化的视图。领域模型的一个好处是描述并限制了系统边界。 领域模型的語意可以被用在原始碼中，因此领域模型可以被应用在底层的软件开发阶段中。实体可以演化为類別，方法和属性可以直接演化至程式碼之中。 在UML中，類別图被用来描述领域模型。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-27T18:53:29.618143Z"
     },
     {
       "source_id": "wiki-random:zh:3773180",
@@ -1501,16 +1401,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-07-29T18:30:11.536814Z"
-    },
-    {
-      "source_id": "wiki-random:zh:5918398",
-      "source_name": "ZH Wikipedia：戈克塔瀑布",
-      "source_url": "https://zh.wikipedia.org/wiki/%E6%88%88%E5%85%8B%E5%A1%94%E7%80%91%E5%B8%83",
-      "title": "戈克塔瀑布",
-      "excerpt": "戈克塔瀑布（Gocta）是一座秘鲁邦加拉省瓦雷拉区的一座瀑布。它位于秘鲁亚马孙大区首府查查波亚斯以北约30千米处。它的落差为771米，是世界上落差最高的瀑布之一。它的水流量随其位于海拔2500和3000米高度的面积不大的水源地区的降水量而差异巨大。戈克塔瀑布以北约数千米处是尤姆比拉瀑布，它的落差高度达900米，但是只有在雨季有水。 戈克塔瀑布位于安第斯山脉东部。离戈克塔瀑布最近的村庄是海拔1934米的圣保罗和海拔1796米的科卡钦瓦村。当地的气温在摄氏15到22°之间。由于瀑布导致的雾气它周围的森林里的温度还有低一些。 当地5月到9月间是旱季。在这段时间里瀑布的流量骤减。10月到4月间雨季的时候流量会在短期内迅速增大。 戈克塔瀑布的名字来自黄尾绒毛猴的叫声。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-07-29T18:30:40.494374Z"
     },
     {
       "source_id": "wiki-random:en:1098754",
@@ -2163,16 +2053,6 @@
       "added_at": "2026-08-04T19:01:09.708347Z"
     },
     {
-      "source_id": "wiki-random:en:19619592",
-      "source_name": "EN Wikipedia：Sabinus of Heraclea",
-      "source_url": "https://en.wikipedia.org/wiki/Sabinus_of_Heraclea",
-      "title": "Sabinus of Heraclea",
-      "excerpt": "Sabinus of Heraclea was bishop of Heraclea in Thrace, and a leader of the party and sect of Macedonius. He was the author of a collection of the Acts of the councils of the Catholic Church, from the council of Nicaea to his own time. William Cave fixes the date at which Sabinus flourished as c. 425. The church history of Sabinus was much used by Socrates of Constantinople in his Ecclesiastical History, who speaks of it as untrustworthy, because Sabinus was partisan, and omitted, and even wilfully altered, facts and statements adverse to his views and interests. Socrates shows how Sabinus tries to disparage the fathers of Nicaea in the face of the contrary evidence of Eusebius, and makes no mention whatever of Macedonius, lest he should have to describe his deeds. Baronius speaks strongly of Sabinus's unscrupulous handling of history, calls him \"homo mendacissimus,\" and suggests that Sozomen gives a garbled account of the election of Athanasius, \"ex officina Sabini.\"",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-04T19:01:09.708846Z"
-    },
-    {
       "source_id": "wiki-random:en:13075075",
       "source_name": "EN Wikipedia：Lamina cribrosa",
       "source_url": "https://en.wikipedia.org/wiki/Lamina_cribrosa",
@@ -2191,16 +2071,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-08-04T19:01:09.710818Z"
-    },
-    {
-      "source_id": "wiki-random:zh:5911372",
-      "source_name": "ZH Wikipedia：集體配對約會",
-      "source_url": "https://zh.wikipedia.org/wiki/%E9%9B%86%E9%AB%94%E9%85%8D%E5%B0%8D%E7%B4%84%E6%9C%83",
-      "title": "集體配對約會",
-      "excerpt": "集體配對約會（group dating），又稱聯誼，是一種多位單身人士交友求偶的聚會活動，盛行於日本，也流行於台灣等地。與會人透過聚會彼此認識，旨在覓得可以進一步交往成爲伴侶的人。少數與會人可能不志在求偶，但會主動或被期待發揮活絡氣氛或串聯的作用。活動若屬異性向，則由二群單身的异性恋或双性恋的男性和女性參與；若非純屬異性向，原則上應有至少兩位與會人符合任何一位與會人的性傾向。 集體配對約會由於其中有認識的人一起參與，氣氛會比較輕鬆，因此在一些文化中是替代一對一約會（尤其是雙方不認識、首次碰面的盲目約會）的較安穩作法。 一般而言，集體配對約會的目的主要是交友求偶，甚少為求一夜情。東亞的異性向集體配對約會，一般會讓男生坐一排，女性坐另一排，彼此面對面交談，同時也會和同性別的朋友彼此耳語，討論彼此感興趣的人，有時也會玩遊戲來舒緩緊張，營造歡樂氣氛。近來由於行動電子產品的進步，同性別朋友之間也會在手機上留言討論。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-04T19:01:09.712759Z"
     },
     {
       "source_id": "wiki-random:en:1029653",
@@ -2311,26 +2181,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-08-07T18:08:32.155876Z"
-    },
-    {
-      "source_id": "wiki-random:en:70686163",
-      "source_name": "EN Wikipedia：Squatting in Bhutan",
-      "source_url": "https://en.wikipedia.org/wiki/Squatting_in_Bhutan",
-      "title": "Squatting in Bhutan",
-      "excerpt": "In 2001, about 10 per cent of the population of Bhutan's capital city Thimphu were living in squatted informal settlements; by 2019, the figure had dropped to 2 per cent since the squatters had been rehoused. There are also rudimentary settlements on the periphery of other cities such as Phuntsholing and Samdrup Jongkhar. The inhabitants work as manual labourers or in the informal economy. There are forest squatters in the south of Bhutan on the border with India: in 2016, evictions led to riots in Chirang district, in the Bodoland Territorial Region; in Kokrajhar district, entrepreneurs clear forest land and sell the right the live there to people who become de facto squatters. In the 1990s, a process of ethnic cleansing in the south of Bhutan led to around 100,000 Lhotshampa (Bhutanese people of Nepalese descent) being driven into Nepal, where they either squat or live in refugee camps.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-07T18:08:32.157293Z"
-    },
-    {
-      "source_id": "wiki-random:en:38644701",
-      "source_name": "EN Wikipedia：Allan Hills A81005",
-      "source_url": "https://en.wikipedia.org/wiki/Allan_Hills_A81005",
-      "title": "Allan Hills A81005",
-      "excerpt": "Allan Hills A81005 or ALH A81005 (sometimes also named without the \"A\" in front of the number) was the first meteorite to be recognised as a lunar meteorite. The meteorite Yamato 791197 was discovered in 1979 but its lunar origin was not recognised until 1984. ALH A81005 was found in 1982 in the Allan Hills at the end of the Transantarctic Mountains, during a meteorite gathering expedition (ANSMET).",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-07T18:08:32.157498Z"
     },
     {
       "source_id": "wiki-random:zh:3764800",
@@ -2473,16 +2323,6 @@
       "added_at": "2026-08-08T17:56:53.833464Z"
     },
     {
-      "source_id": "wiki-random:en:63521618",
-      "source_name": "EN Wikipedia：Tonight (I Wish I Was Your Boy)",
-      "source_url": "https://en.wikipedia.org/wiki/Tonight_(I_Wish_I_Was_Your_Boy)",
-      "title": "Tonight (I Wish I Was Your Boy)",
-      "excerpt": "\"Tonight (I Wish I Was Your Boy)\" is a song by English band the 1975 from their fourth studio album, Notes on a Conditional Form (2020). The song was written by band members Matty Healy, George Daniel, Adam Hann and Ross MacDonald alongside Guendoline Viray Rome Gomez and Hiroshi Sato. Daniel and Healy handled the production of the song. It originated from an a cappella sample, with the band gradually merging different pieces of music together to create the final version. Healy was inspired by the Backstreet Boys, producer Max Martin and rapper Kanye West, along with the melodic music of Brandy, Whitney Houston, SWV and TLC. \"Tonight (I Wish I Was Your Boy)\" is a mid-tempo experimental alternative R&B and neo soul slow jam. The song is produced in a retro 1990s style, containing a funk-influenced drum beat, reggae rhythms, brass instrumentation and influences of contemporary R&B, electropop, jazz, dub, ska and electronic music. The lyrics recount Healy's wish that his feelings of attraction toward a potential partner are reciprocated, touching upon themes of existentialism and dread. The song samples \"Just My Imagination (Running Away with Me)\" by the Temptations, while the chord progression...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-08T17:58:16.643846Z"
-    },
-    {
       "source_id": "wiki-random:zh:712472",
       "source_name": "ZH Wikipedia：盾牌-南十字臂",
       "source_url": "https://zh.wikipedia.org/wiki/%E7%9B%BE%E7%89%8C-%E5%8D%97%E5%8D%81%E5%AD%97%E8%87%82",
@@ -2613,16 +2453,6 @@
       "added_at": "2026-08-10T18:11:15.659452Z"
     },
     {
-      "source_id": "wiki-random:zh:942490",
-      "source_name": "ZH Wikipedia：铅直丛",
-      "source_url": "https://zh.wikipedia.org/wiki/%E9%93%85%E7%9B%B4%E4%B8%9B",
-      "title": "铅直丛",
-      "excerpt": "在数学微分几何领域，一个光滑纤维丛的铅直丛（vertical bundle）是切丛的一个子丛，由所有和纤维相切的向量组成。更具体地，如果 π:E→M 是一个光滑流形 M 上一个光滑纤维丛，设 e ∈ E 满足 π(e)=x ∈ M，则在 e 处的铅直空间（vertical space） VeE 是纤维 Ex 包含 e 的切空间 Te(Ex)。这就是， VeE = Te(Eπ(e))。从而铅直空间是 TeE 的一个子空间，所有铅直空间的并是 TE 的一个子丛 VE，这便是 E 的铅直丛。 铅直丛是微分 dπ:TE→π-1TM 的核，这里 π-1TM 是拉回丛；用符号表示，VeE=ker(dπe)。因为 dπe 在每一点 e 是满射，它得出了商丛 TE/VE 与拉回 π-1TM 的一个典范等价。 E 上一个埃雷斯曼联络是选取 VE 在 TE 中的一个补子丛，称为这个联络的水平丛（horizontal bundle）。",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-10T18:11:15.660981Z"
-    },
-    {
       "source_id": "wiki-random:en:8952532",
       "source_name": "EN Wikipedia：Anautogeny",
       "source_url": "https://en.wikipedia.org/wiki/Anautogeny",
@@ -2631,16 +2461,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-08-10T18:11:15.661635Z"
-    },
-    {
-      "source_id": "wiki-random:en:62450890",
-      "source_name": "EN Wikipedia：NGC 5728",
-      "source_url": "https://en.wikipedia.org/wiki/NGC_5728",
-      "title": "NGC 5728",
-      "excerpt": "NGC 5728 is an active barred spiral galaxy located 146 million light years away in the southern constellation of Libra. It was discovered on May 7, 1787 by William Herschel. The designation comes from the New General Catalogue of J. L. E. Dreyer, published in 1888. It has an apparent visual magnitude of 13.40 and spans an angle of 3.4 arcminutes. The galaxy shows a red shift of 0.00935 and has a heliocentric radial velocity of 2,803 km/s. It has an estimated mass of 72 billion times the mass of the Sun and stretches around 30 kpc across. The morphological classification of this galaxy is SAB(r)a?, which indicates a weakly barred spiral galaxy (SAB) with a ring-like structure (r) and possible tightly wound arms (a?). The Spitzer galactic survey lists a morphology code of (R1)SB(r′l,bl,nr,nb)0/a, meaning a barred spiral having a closer outer ring and an inner pseudo-ring/lens, plus a nuclear ring and bar/bar-lens. Vera Rubin described it as having a \"distinct elliptical structure intermediate between a spheroid and a disk\". Asymmetrical gas distribution in the galaxy suggests it has undergone a minor merger event that did not produce tidal tails. In addition to the main bar, there is...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-10T18:11:50.522840Z"
     },
     {
       "source_id": "wiki-random:en:54205427",
@@ -2661,16 +2481,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-08-10T18:11:50.526127Z"
-    },
-    {
-      "source_id": "wiki-random:en:28312507",
-      "source_name": "EN Wikipedia：M74 syndrome",
-      "source_url": "https://en.wikipedia.org/wiki/M74_syndrome",
-      "title": "M74 syndrome",
-      "excerpt": "The M74 syndrome is a reproduction disorder of salmon (Salmo salar) feeding in the Baltic Sea. M74 manifests as offspring mortality during the yolk-sac fry phase. Before dying, the yolk-sac fry display typical symptoms. Thiamine (vitamin B1) deficiency in eggs is the immediate cause of M74 mortality. The deficiency can be prevented by thiamine treatments. For the first time Bulgarian research team opines that with M74 syndrome are affected also male gametes and worsened parameters of the spermiogram. The use of Bulgarian semen protective media 49282, 49283 and 49397 for trout sperm fertility improving was proposed. The thiamine deficiency syndrome M74 is related to the fat and thiamine content of prey fish. The diet of Baltic salmon leads to thiamine deficiency in eggs and consequently to the mortality of yolk-sac fry: The main prey species of the Baltic salmon are sprat (Sprattus sprattus) and herring (Clupea harengus membras). Average fat content is greater in sprat than in herring. The fat content is highest and the thiamine concentration is lowest in the youngest sprat. The need for thiamine depends on the amount of fat in the diet. Thiamine deficiency in eggs results from an unbalanced...",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-11T18:12:56.735844Z"
     },
     {
       "source_id": "wiki-random:en:37963",
@@ -2781,16 +2591,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-08-11T18:14:20.090735Z"
-    },
-    {
-      "source_id": "wiki-random:en:29427231",
-      "source_name": "EN Wikipedia：Westliche Petermann Range",
-      "source_url": "https://en.wikipedia.org/wiki/Westliche_Petermann_Range",
-      "title": "Westliche Petermann Range",
-      "excerpt": "Westliche Petermann Range (German: Westliche Petermannkette, \"Western Petermann Range\", 71°35′S 12°10′E) is one of the Petermann Ranges, extending north–south for 16 nautical miles (30 km) from Mount Hansen to Aurdalen Valley, in the Wohlthat Mountains, Queen Maud Land. Discovered and plotted from air photos by German Antarctic Expedition, 1938–39, and so named by them for its western position in the northern part of the Petermann Ranges. This article incorporates public domain material from \"Westliche Petermann Range\". Geographic Names Information System. United States Geological Survey.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-11T18:14:20.090902Z"
     },
     {
       "source_id": "wiki-random:zh:9355396",
@@ -2993,16 +2793,6 @@
       "added_at": "2026-08-13T18:14:32.156688Z"
     },
     {
-      "source_id": "wiki-random:en:24159628",
-      "source_name": "EN Wikipedia：35th Delaware General Assembly",
-      "source_url": "https://en.wikipedia.org/wiki/35th_Delaware_General_Assembly",
-      "title": "35th Delaware General Assembly",
-      "excerpt": "The 35th Delaware General Assembly was a meeting of the legislative branch of the state government, consisting of the Delaware Senate and the Delaware House of Representatives. Elections were held the first Tuesday of October and terms began on the first Tuesday in January. It met in Dover, Delaware, convening January 1, 1811, two weeks before the beginning of the first year of the administration of Governor Joseph Haslet. The apportionment of seats was permanently assigned to three senators and seven representatives for each of the three counties. Population of the county did not effect the number of delegates. Both chambers had a Federalist majority.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-13T18:14:32.157399Z"
-    },
-    {
       "source_id": "wiki-random:zh:9351598",
       "source_name": "ZH Wikipedia：戰鬥空中巡邏",
       "source_url": "https://zh.wikipedia.org/wiki/%E6%88%B0%E9%AC%A5%E7%A9%BA%E4%B8%AD%E5%B7%A1%E9%82%8F",
@@ -3093,16 +2883,6 @@
       "added_at": "2026-08-13T18:15:21.180361Z"
     },
     {
-      "source_id": "wiki-random:en:650207",
-      "source_name": "EN Wikipedia：Null morpheme",
-      "source_url": "https://en.wikipedia.org/wiki/Null_morpheme",
-      "title": "Null morpheme",
-      "excerpt": "In morphology, a null morpheme or zero morpheme is a morpheme that has no phonetic form. In simpler terms, a null morpheme is an \"invisible\" affix. It is a concept useful for analysis, by contrasting null morphemes with alternatives that do have some phonetic realization. The null morpheme is represented as either the figure zero (0) or the empty set symbol ∅. In most languages, it is the affixes that are realized as null morphemes, indicating that the derived form does not differ from the stem. For example, plural form sheep can be analyzed as combination of sheep with added null affix for the plural. The process of adding a null affix is called null affixation, null derivation or zero derivation. The concept was first used by the 4th century BCE Sanskrit grammarian from ancient India, Pāṇini, in his Sanskrit grammar.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-13T18:15:21.185963Z"
-    },
-    {
       "source_id": "wiki-random:en:58985074",
       "source_name": "EN Wikipedia：Mini-grid",
       "source_url": "https://en.wikipedia.org/wiki/Mini-grid",
@@ -3151,26 +2931,6 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-08-13T18:15:46.302403Z"
-    },
-    {
-      "source_id": "wiki-random:en:33507747",
-      "source_name": "EN Wikipedia：40 Golden Greats (Jim Reeves album)",
-      "source_url": "https://en.wikipedia.org/wiki/40_Golden_Greats_(Jim_Reeves_album)",
-      "title": "40 Golden Greats (Jim Reeves album)",
-      "excerpt": "40 Golden Greats is a greatest hits album by Jim Reeves. It was released in 1975 and reached number one on the UK Albums Chart, where it was a posthumous number one. Surprisingly, it does not include \"I Love You Because\".",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-13T18:15:46.302468Z"
-    },
-    {
-      "source_id": "wiki-random:en:42709653",
-      "source_name": "EN Wikipedia：Susan Band Horwitz",
-      "source_url": "https://en.wikipedia.org/wiki/Susan_Band_Horwitz",
-      "title": "Susan Band Horwitz",
-      "excerpt": "Susan Band Horwitz is an American biochemist and professor at the Albert Einstein College of Medicine where she holds the Falkenstein chair in Cancer Research as well as co-chair of the department of Molecular Pharmacology. Horwitz is a pioneer in dissecting the mechanisms of action of chemotherapeutic drugs including camptothecin, epipodophyllotoxins, and bleomycin, and taxol. Horwitz's work on taxol in particular has brought her international recognition. Horwitz discovered that taxol binds to microtubules, resulting in arrest of the cell cycle in metaphase. Her work paved the way to using taxol and other microtubule binding agents as chemotherapeutics. Taxol remains widely used today, as a means to treat ovarian, breast, and lung cancer. However, since taxol is in short supply, Horwitz is directing studies in her lab to identify similar therapies in natural products.",
-      "category_hint": "综合",
-      "source_rank": 4,
-      "added_at": "2026-08-13T18:15:46.302731Z"
     },
     {
       "source_id": "wiki-random:zh:3168231",

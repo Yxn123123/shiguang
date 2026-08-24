@@ -1,7 +1,837 @@
 {
   "version": 1,
-  "updated_at": "2026-08-23T17:42:54.448997Z",
+  "updated_at": "2026-08-24T17:55:53.096814Z",
   "candidates": [
+    {
+      "source_id": "wiki-topic:en:53905375",
+      "source_name": "EN Wikipedia：Anthropology of food",
+      "source_url": "https://en.wikipedia.org/wiki/Anthropology_of_food",
+      "title": "Anthropology of food",
+      "excerpt": "The anthropology of food is a sub-field of cultural anthropology that connects an ethnographic and historical perspective with contemporary social issues in food-production and food-consumption systems. Although early anthropological accounts often dealt with cooking and eating as part of ritual or daily life, food rarely became the central point of academic focus. This changed in the later half of the 20th century, when foundational work by Mary Douglas, Marvin Harris, Arjun Appadurai, Jack Goody, and Sidney Mintz cemented the study of food as a key insight into modern social life. Mintz became known as the \"Father of food anthropology\" for his 1985 work Sweetness and Power, which linked Europe's demand for sugar with imperial expansion and with exploitative industrial-labor conditions in both Europe and America. Research has traced the material and symbolic importance of food, as well as how they intersect. Examples of ongoing research themes include food as a form of differentiation, commensality, and food's role in industrialization and in globalizing labor and commodity chains. Several related and interdisciplinary academic programs exist in the US and the UK (listed under Food...",
+      "category_hint": "生活",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.954391Z"
+    },
+    {
+      "source_id": "wiki-topic:en:1676383",
+      "source_name": "EN Wikipedia：History of agricultural science",
+      "source_url": "https://en.wikipedia.org/wiki/History_of_agricultural_science",
+      "title": "History of agricultural science",
+      "excerpt": "The history of agricultural science is a sub-field of the history of agriculture which looks at the scientific advancement of techniques and understanding of agriculture. Early study of organic production in botanical gardens was continued in with agricultural experiment stations in several countries. Fertilizer is a major contribution to agriculture history increasing the fertility of the soil and minimizing nutrient loss. Scientific study of fertilizer was advanced significantly in 1840 with the publication Die organische Chemie in ihrer Anwendung auf Agrikulturchemie und Physiologie (Organic Chemistry in Its Applications to Agriculture and Physiology) by Justus von Liebig. One of Liebig's advances in agricultural science was the discovery of nitrogen as an essential plant nutrient.",
+      "category_hint": "历史",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.954534Z"
+    },
+    {
+      "source_id": "wiki-topic:en:80609308",
+      "source_name": "EN Wikipedia：Astrotourism",
+      "source_url": "https://en.wikipedia.org/wiki/Astrotourism",
+      "title": "Astrotourism",
+      "excerpt": "Astrotourism is travel to view the night sky and experience celestial events such as eclipses. A closely related concept is dark sky tourism, which involves travel to places with little light pollution. The practice gained popularity following the 2024 total solar eclipse over North America.",
+      "category_hint": "科学",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.954607Z"
+    },
+    {
+      "source_id": "wiki-topic:en:78283444",
+      "source_name": "EN Wikipedia：Robotics engineering",
+      "source_url": "https://en.wikipedia.org/wiki/Robotics_engineering",
+      "title": "Robotics engineering",
+      "excerpt": "Robotics engineering is a branch of engineering that focuses on the conception, design, manufacturing, and operation of robots. It involves a multidisciplinary approach, drawing primarily from mechanical, electrical, software, and artificial intelligence (AI) engineering . Robotics engineers are tasked with designing these robots to function reliably and safely in real-world scenarios, which often require addressing complex mechanical movements, real-time control, and adaptive decision-making through software and AI.",
+      "category_hint": "科技",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.954695Z"
+    },
+    {
+      "source_id": "wiki-topic:en:47561162",
+      "source_name": "EN Wikipedia：History of Sulzer diesel engines",
+      "source_url": "https://en.wikipedia.org/wiki/History_of_Sulzer_diesel_engines",
+      "title": "History of Sulzer diesel engines",
+      "excerpt": "This article covers the History of Sulzer diesel engines from 1898 to 1997. Sulzer Brothers foundry was established in Winterthur, Switzerland, in 1834 by Johann Jakob Sulzer-Neuffert and his two sons, Johann Jakob and Salomon. Products included cast iron, firefighting pumps and textile machinery. Rudolf Diesel was educated in Augsburg and Munich and his works training was with Sulzer, and his later co-operation with Sulzer led to the construction of the first Sulzer diesel engine in 1898. In 2015, the Sulzer company lives on but it no longer manufactures diesel engines, having sold the diesel engine business to Wärtsilä in 1997.",
+      "category_hint": "历史",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.954813Z"
+    },
+    {
+      "source_id": "wiki-topic:en:49660332",
+      "source_name": "EN Wikipedia：Analysis of similarities",
+      "source_url": "https://en.wikipedia.org/wiki/Analysis_of_similarities",
+      "title": "Analysis of similarities",
+      "excerpt": "Analysis of similarities (ANOSIM) is a non-parametric statistical test widely used in the field of ecology. The test was first suggested by K. R. Clarke as an ANOVA-like test, where instead of operating on raw data, operates on a ranked dissimilarity matrix. Given a matrix of rank dissimilarities between a set of samples, each belonging to a single site (e.g. a single treatment group), the ANOSIM tests whether we can reject the null hypothesis that the similarity between sites is greater than or equal to the similarity within each site. The test statistic R is calculated in the following way: R = r B − r W M / 2 {\\displaystyle R={\\frac {r_{B}-r_{W}}{M/2}}} where rB is the average of rank similarities of pairs of samples (or replicates) originating from different...",
+      "category_hint": "生物",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.954970Z"
+    },
+    {
+      "source_id": "wiki-topic:en:77269960",
+      "source_name": "EN Wikipedia：Manuel Bibes",
+      "source_url": "https://en.wikipedia.org/wiki/Manuel_Bibes",
+      "title": "Manuel Bibes",
+      "excerpt": "Manuel Bibes (born July 15, 1976) is a French physicist specializing in functional oxides, multiferroic materials, and spintronics. He is currently a Research Director at the National Center for Scientific Research (CNRS).",
+      "category_hint": "科技",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.955025Z"
+    },
+    {
+      "source_id": "wiki-topic:en:563299",
+      "source_name": "EN Wikipedia：Human behavior",
+      "source_url": "https://en.wikipedia.org/wiki/Human_behavior",
+      "title": "Human behavior",
+      "excerpt": "Human behavior is the potential and expressed capacity (mentally, physically, and socially) of human individuals or groups to respond to internal and external stimuli throughout their life. Behavior is driven by environmental and genetic factors that affect an individual. Behavior is also driven, in part, by thoughts and feelings, which provide insight into individual psyche, revealing such things as attitudes and values. Human behavior is shaped by psychological traits, as personality types vary from person to person, producing different actions and behavior. Human behavior encompasses a vast array of domains that span the entirety of human experience. Social behavior involves interactions between individuals and groups , while cultural behavior reflects the diverse patterns, values, and practices that vary across societies and historical periods.Moral behavior encompasses ethical decision-making and value-based conduct,contrasted with antisocial behavior that violates social norms and legal standards.Cognitive behavior involves mental processes of learning, memory, and decision-making, interconnected with psychological behavior that includes emotional regulation, mental health, and...",
+      "category_hint": "生活",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.955184Z"
+    },
+    {
+      "source_id": "wiki-topic:en:151604",
+      "source_name": "EN Wikipedia：Deception",
+      "source_url": "https://en.wikipedia.org/wiki/Deception",
+      "title": "Deception",
+      "excerpt": "Deception is the act of convincing one or many recipients of untrue information. The person creating the deception knows it to be false while the receiver of the information does not. It is often done for personal gain or advantage. Deceit and dishonesty can also form grounds for civil litigation in tort, or contract law (where it is known as misrepresentation or fraudulent misrepresentation if deliberate), or give rise to criminal prosecution for fraud.",
+      "category_hint": "生活",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.955264Z"
+    },
+    {
+      "source_id": "wiki-topic:en:58687",
+      "source_name": "EN Wikipedia：Aggression",
+      "source_url": "https://en.wikipedia.org/wiki/Aggression",
+      "title": "Aggression",
+      "excerpt": "Aggression is behavior aimed at opposing or attacking something or someone. Though often done with the intent to cause harm, some might channel it into creative and practical outlets. It may occur either reactively or without provocation. In humans, aggression can be caused by various triggers. For example, aggression may result from built-up frustration due to blocked goals or perceived disrespect. Human aggression can be classified into direct and indirect aggression; while the former is characterized by physical or verbal behavior intended to cause harm to someone, the latter is characterized by behavior intended to harm the social relations of an individual or group. In definitions commonly used in the social sciences and behavioral sciences, aggression is an action or response by an individual that delivers something unpleasant to another person. Some definitions include that the individual must intend to harm another person. In an interdisciplinary perspective, aggression is regarded as \"an ensemble of mechanisms formed during the course of evolution in order to assert oneself, relatives, or friends against others, to gain or to defend resources (ultimate causes) by harmful damaging...",
+      "category_hint": "生活",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.955436Z"
+    },
+    {
+      "source_id": "wiki-topic:en:54081969",
+      "source_name": "EN Wikipedia：Everyday Urbanism",
+      "source_url": "https://en.wikipedia.org/wiki/Everyday_Urbanism",
+      "title": "Everyday Urbanism",
+      "excerpt": "Everyday Urbanism is a concept introduced by Margaret Crawford, John Chase and John Kaliski in 1999. Everyday Urbanism is in Margaret Crawford words: ”an approach to Urbanism that finds its meanings in everyday life”. Contrary to New Urbanism, Everyday Urbanism is not concerned with aesthetics but with specific activities of the daily life. It constitutes an empirical approach that strengthens frequently unnoticed existing situations and experiences that occur in everyday life. Everyday Urbanism can also be considered as a method with a multidimensional consideration of the value of public spaces as it introduces various responses to specific times and places. For instance, the value of public spaces and community life is burst with street markets, street food vendors and murals organically created; this burst created by community life results in improvements to the public space that 'Everyday Urbanism' understands as an ‘improvement by appropriation’ or as a challenging appropriation of places in the city with temporary, short-lived urban activities. The study of Everyday Urbanism contributes urban planning and urban design studies with an approach to the understanding of the social...",
+      "category_hint": "生活",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.955645Z"
+    },
+    {
+      "source_id": "wiki-topic:en:56057622",
+      "source_name": "EN Wikipedia：European Union food quality scandal",
+      "source_url": "https://en.wikipedia.org/wiki/European_Union_food_quality_scandal",
+      "title": "European Union food quality scandal",
+      "excerpt": "The European Union food quality scandal is a controversy claiming that certain food brands and items targeted at Central and Eastern European Union countries' markets are of lower quality than their exact equivalents produced for the Western European Union markets. European Commission President Jean-Claude Juncker acknowledged the issue in his State of the Union address pledging funding to help national food authorities test the inferior products and start to tackle the food inequality. In April 2018 EU Justice and Consumers Commissioner Věra Jourová stated that \"We will step up the fight against dual food quality. We have amended the Unfair Commercial Practice Directive to make it black and white that dual food quality is forbidden.\"",
+      "category_hint": "生活",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.955806Z"
+    },
+    {
+      "source_id": "wiki-topic:en:11344743",
+      "source_name": "EN Wikipedia：Biomolecular engineering",
+      "source_url": "https://en.wikipedia.org/wiki/Biomolecular_engineering",
+      "title": "Biomolecular engineering",
+      "excerpt": "Biomolecular engineering is the application of engineering principles and practices to the purposeful manipulation of molecules of biological origin. Biomolecular engineers integrate knowledge of biological processes with the core knowledge of chemical engineering in order to focus on molecular level solutions to issues and problems in the life sciences related to the environment, agriculture, energy, industry, food production, biotechnology, biomanufacturing, and medicine. Biomolecular engineers purposefully manipulate carbohydrates, proteins, nucleic acids and lipids within the framework of the relation between their structure (see: nucleic acid structure, carbohydrate chemistry, protein structure,), function (see: protein function) and properties and in relation to applicability to such areas as environmental remediation, crop and livestock production, biofuel cells and biomolecular diagnostics. The thermodynamics and kinetics of molecular recognition in enzymes, antibodies, DNA hybridization, bio-conjugation/bio-immobilization and bioseparations are studied. Attention is also given to the rudiments of engineered biomolecules in cell signaling, cell growth kinetics, biochemical pathway...",
+      "category_hint": "生物",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.955962Z"
+    },
+    {
+      "source_id": "wiki-topic:en:52634",
+      "source_name": "EN Wikipedia：Baking",
+      "source_url": "https://en.wikipedia.org/wiki/Baking",
+      "title": "Baking",
+      "excerpt": "Baking is a method of preparing food or clay that uses dry heat, typically in an oven, hot ashes, or on hot stones. The most commonly baked food is bread. Heat is gradually transferred from the surface of unbaked goods to their center, typically at elevated temperatures surpassing 300 °F (148 °C). Dry heat cooking imparts a distinctive richness to foods through the processes of caramelization and surface browning. As heat travels through, it transforms batters and doughs into baked goods and more with a firm dry crust and a softer center. Baking can be combined with grilling to produce a hybrid barbecue variant by using both methods simultaneously, or one after the other. Baking is related to barbecuing because the concept of the masonry oven is similar to that of a smoke pit. Baking has traditionally been performed at home for day-to-day meals and in bakeries and restaurants for local consumption. When production was industrialized, baking was automated by machines in large factories. The art of baking remains a fundamental skill and is important for nutrition, as baked goods, especially bread, are a common and important food, both from an economic and cultural point of view. A person...",
+      "category_hint": "生活",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.956147Z"
+    },
+    {
+      "source_id": "wiki-topic:en:184495",
+      "source_name": "EN Wikipedia：Biefeld–Brown effect",
+      "source_url": "https://en.wikipedia.org/wiki/Biefeld%E2%80%93Brown_effect",
+      "title": "Biefeld–Brown effect",
+      "excerpt": "The Biefeld–Brown effect () is an electrical phenomenon, first noticed by inventor Thomas Townsend Brown in the 1920s, where high voltage applied to the electrodes of an asymmetric capacitor causes a net propulsive force toward the smaller electrode. Brown believed this effect was an anti-gravity force, and referred to it as electrogravitics based on it being an electricity/gravity phenomenon. Detailed studies in vacuum chambers failed to replicate Brown's observations and follow-up studies attribute the force measure to corona wind from electrical discharge.",
+      "category_hint": "科学",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.956264Z"
+    },
+    {
+      "source_id": "wiki-topic:en:26805",
+      "source_name": "EN Wikipedia：Biological sex",
+      "source_url": "https://en.wikipedia.org/wiki/Biological_sex",
+      "title": "Biological sex",
+      "excerpt": "Sex is the phenotypic trait of a sexually reproducing organism in producing gametes of one of two different sizes or shapes—male or female gametes. During sexual reproduction, a male and a female gamete fuse to form a zygote, which develops into an offspring that inherits traits from each parent. By convention, organisms that produce smaller gametes (spermatozoa, sperm) are called male, while organisms that produce larger gametes (ova, often called egg cells) are called female. An organism that produces both types of gamete is a hermaphrodite. Sex is often referred to as biological sex when using the word sex alone could be ambiguous with other meanings of sex. In non-hermaphroditic species, the sex of an individual is determined through one of several biological sex-determination systems. Most mammalian species have the XY sex-determination system, where the male usually carries an X and a Y chromosome (XY), and the female usually carries two X chromosomes (XX). Other chromosomal sex-determination systems in animals include the ZW system in birds and the XO system in some insects. Various environmental systems include temperature-dependent sex determination in reptiles and crustaceans...",
+      "category_hint": "生物",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.956483Z"
+    },
+    {
+      "source_id": "wiki-topic:en:29637793",
+      "source_name": "EN Wikipedia：Aerospace materials",
+      "source_url": "https://en.wikipedia.org/wiki/Aerospace_materials",
+      "title": "Aerospace materials",
+      "excerpt": "Aerospace materials are materials, frequently metal alloys, that have either been developed for, or have come to prominence through their use for aerospace purposes. These uses often require exceptional performance, strength or heat resistance, even at the cost of considerable expense in their production or machining. Others are chosen for their long-term reliability in this safety-conscious field, particularly for their resistance to fatigue. The field of materials engineering is an important one within aerospace engineering. Its practice is defined by the international standards bodies who maintain standards for the materials and processes involved. Engineers in this field may often have studied for degrees or post-graduate qualifications in it as a speciality.",
+      "category_hint": "科技",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.956600Z"
+    },
+    {
+      "source_id": "wiki-topic:en:1573182",
+      "source_name": "EN Wikipedia：Behavior change (public health)",
+      "source_url": "https://en.wikipedia.org/wiki/Behavior_change_(public_health)",
+      "title": "Behavior change (public health)",
+      "excerpt": "Behavior change, in context of public health, refers to efforts put in place to change people's personal habits and attitudes, to prevent disease. Behavior change in public health can take place at several levels and is known as social and behavior change (SBC). More and more, efforts focus on prevention of disease to save healthcare care costs. This is particularly important in low and middle income countries, where supply side health interventions have come under increased scrutiny because of the cost.",
+      "category_hint": "生活",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.956694Z"
+    },
+    {
+      "source_id": "wiki-topic:en:35215882",
+      "source_name": "EN Wikipedia：Isothermal microcalorimetry",
+      "source_url": "https://en.wikipedia.org/wiki/Isothermal_microcalorimetry",
+      "title": "Isothermal microcalorimetry",
+      "excerpt": "Isothermal microcalorimetry (IMC) is a laboratory method for real-time monitoring and dynamic analysis of chemical, physical and biological processes. Over a period of hours or days, IMC determines the onset, rate, extent and energetics of such processes for specimens in small ampoules (e.g. 3–20 ml) at a constant set temperature (c. 15 °C–150 °C). IMC accomplishes this dynamic analysis by measuring and recording vs. elapsed time the net rate of heat flow (μJ/s = μW) to or from the specimen ampoule, and the cumulative amount of heat (J) consumed or produced. IMC is a powerful and versatile analytical tool for four closely related reasons: All chemical and physical processes are either exothermic or endothermic—produce or consume heat. The rate of heat flow is proportional to the rate of the process taking place. IMC is sensitive enough to detect and follow either slow processes (reactions proceeding at a few % per year) in a few grams of material, or processes which generate minuscule amounts of heat (e.g. metabolism of a few thousand living cells). IMC instruments generally have a huge dynamic range—heat flows as low as 1 μW and as high as 50,000 μW can be measured by the same instrument...",
+      "category_hint": "生物",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.956915Z"
+    },
+    {
+      "source_id": "wiki-topic:en:42940",
+      "source_name": "EN Wikipedia：Biostasis",
+      "source_url": "https://en.wikipedia.org/wiki/Biostasis",
+      "title": "Biostasis",
+      "excerpt": "Biostasis is the ability of an organism to tolerate environmental changes without having to actively adapt to them. Biostasis is found in organisms that live in habitats that likely encounter unfavorable living conditions, such as drought, freezing temperatures, change in pH levels, pressure, or temperature. Insects undergo a type of dormancy to survive these conditions, called diapause. Diapause may be obligatory for these insects to survive. The insect may also be able to undergo change prior to the arrival of the initiating event.",
+      "category_hint": "生物",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.957001Z"
+    },
+    {
+      "source_id": "wiki-topic:en:987492",
+      "source_name": "EN Wikipedia：Food browning",
+      "source_url": "https://en.wikipedia.org/wiki/Food_browning",
+      "title": "Food browning",
+      "excerpt": "Browning is the process of food turning brown due to the chemical reactions that take place within. The process of browning is one of the chemical reactions that take place in food chemistry and represents an interesting research topic regarding health, nutrition, and food technology. Though there are many different ways food chemically changes over time, browning in particular falls into two main categories: enzymatic versus non-enzymatic browning processes. Browning has many important implications on the food industry relating to nutrition, technology, and economic cost. Researchers are especially interested in studying the control (inhibition) of browning and the different methods that can be employed to maximize this inhibition and ultimately prolong the shelf life of food.",
+      "category_hint": "生活",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.957112Z"
+    },
+    {
+      "source_id": "wiki-topic:en:11791198",
+      "source_name": "EN Wikipedia：Bioclimatology",
+      "source_url": "https://en.wikipedia.org/wiki/Bioclimatology",
+      "title": "Bioclimatology",
+      "excerpt": "Bioclimatology is the interdisciplinary field of science that studies the interactions between the biosphere and the Earth's atmosphere on time scales of the order of seasons or longer (in contrast to biometeorology).",
+      "category_hint": "生物",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.957162Z"
+    },
+    {
+      "source_id": "wiki-topic:en:16794300",
+      "source_name": "EN Wikipedia：Economics of language",
+      "source_url": "https://en.wikipedia.org/wiki/Economics_of_language",
+      "title": "Economics of language",
+      "excerpt": "The economics of language is an emerging field of study concerning a range of topics such as the effect of language skills on income and trade, the costs and benefits of language planning options, the preservation of minority languages, etc. It is relevant to analysis of language policy. In his book 'Language and Economy', the German sociolinguist Florian Coulmas discusses \"the many ways in which language and economy interact, how economic developments influence the emergence, expansion, or decline of languages; how linguistic conditions facilitate or obstruct the economic process; how multilingualism and social affluence are interrelated; how and why language and money fulfill similar functions in modern societies; why the availability of a standard language is an economic advantage; how the unequal distribution of languages in multilingual societies makes for economic inequality; how the economic value of languages can be assessed; why languages have an internal economy and how they adapt to the demands of the external economy. Florian Coulmas asserts that language is the medium of business, an asset in itself and sometimes a barrier to trade\". States shoulder language costs, because...",
+      "category_hint": "综合",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.957332Z"
+    },
+    {
+      "source_id": "wiki-topic:en:65586806",
+      "source_name": "EN Wikipedia：Museum of Everyday Life",
+      "source_url": "https://en.wikipedia.org/wiki/Museum_of_Everyday_Life",
+      "title": "Museum of Everyday Life",
+      "excerpt": "The Museum of Everyday Life was founded in 2011 by Clare Dolan in Glover, Vermont. It is an independently run museum whose mission is to capture a “...slow-motion cataloguing of the quotidian–a detailed, theatrical expression of gratitude and love for the minuscule and unglamorous experience of daily life in all its forms.” The museum's focus is to highlight the beauty in everyday objects that are traditionally overlooked or taken for granted and does so by creating public exhibits, writing articles and manifestos in their philosophy department, and by creating and doing live performances. The museum, housed in a 70-year-old barn on Dolan's personal property, operates using the honor system where visitors are asked to turn on and off the lights as they come and go and are asked to make a donation instead of being charged admission.",
+      "category_hint": "生活",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.957494Z"
+    },
+    {
+      "source_id": "wiki-topic:en:30946399",
+      "source_name": "EN Wikipedia：Displacement (linguistics)",
+      "source_url": "https://en.wikipedia.org/wiki/Displacement_(linguistics)",
+      "title": "Displacement (linguistics)",
+      "excerpt": "In linguistics, displacement is the capability of language to communicate about things that are not immediately present (spatially or temporally); i.e., things that are either not here or are not here now. In 1960, Charles F. Hockett proposed displacement as one of 13 design features of language that distinguish human language from animal communication systems (ACSs): Man is apparently almost unique in being able to talk about things that are remote in space or time (or both) from where the talking goes on. This feature—\"displacement\"—seems to be definitely lacking in the vocal signaling of man's closest relatives, though it does occur in bee-dancing.",
+      "category_hint": "综合",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.957625Z"
+    },
+    {
+      "source_id": "wiki-topic:en:213008",
+      "source_name": "EN Wikipedia：Carrion",
+      "source_url": "https://en.wikipedia.org/wiki/Carrion",
+      "title": "Carrion",
+      "excerpt": "Carrion (from Latin caro 'meat'), also known as a carcass, is the decaying flesh of dead animals. Carrion may be of natural or anthropic origin (e.g. wildlife, human remains, livestock), and enters the food chain via different routes (e.g. animals dying of disease or malnutrition, predators and hunters discarding parts of their prey, collisions with automobiles). Carrion is an important food source for large carnivores and omnivores in most ecosystems. Examples of carrion-eating animals include vultures, eagles, hyenas, Virginia opossum, Tasmanian devils, and coyotes. Many invertebrates, for example carrion beetles, burying beetles, blow-fly maggots, and flesh-fly maggots, also eat carrion. All of these animals, together with microbial decomposers, help to recycle nitrogen and carbon in animal remains. The act of eating carrion is termed necrophagy or necrophagia, and animals that do this are described as necrophages or carrion feeders. The term scavenger is widely used to describe carrion-eating animals too, but this term is broader in scope, encompassing also the consumption of refuse and dead plant material. Carrion begins to decay at the moment of the animal's death, and it will...",
+      "category_hint": "生物",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.957788Z"
+    },
+    {
+      "source_id": "wiki-topic:en:502060",
+      "source_name": "EN Wikipedia：Conditional sentence",
+      "source_url": "https://en.wikipedia.org/wiki/Conditional_sentence",
+      "title": "Conditional sentence",
+      "excerpt": "A conditional sentence is a sentence in a natural language that expresses that one thing is contingent on another, e.g., \"If it rains, the picnic will be cancelled.\" They are so called because the impact of the sentence’s main clause is conditional on a subordinate clause. A full conditional thus contains two clauses: the subordinate clause, called the antecedent (or protasis or if-clause), which expresses the condition, and the main clause, called the consequent (or apodosis or then-clause) expressing the result. To form conditional sentences, languages use a variety of grammatical forms and constructions. The forms of verbs used in the antecedent and consequent are often subject to particular rules as regards their tense, aspect, and mood. Many languages have a specialized type of verb form called the conditional mood – broadly equivalent in meaning to the English \"would (do something)\" – for use in some types of conditional sentences.",
+      "category_hint": "综合",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.957970Z"
+    },
+    {
+      "source_id": "wiki-topic:en:1710634",
+      "source_name": "EN Wikipedia：Dramaturgy (sociology)",
+      "source_url": "https://en.wikipedia.org/wiki/Dramaturgy_(sociology)",
+      "title": "Dramaturgy (sociology)",
+      "excerpt": "Dramaturgy is a sociological perspective that analyzes micro-sociological accounts of everyday social interactions through the analogy of performativity and theatrical dramaturgy, dividing such interactions between \"actors\", \"audience\" members, and various \"front\" and \"back\" stages. The term was first adapted into sociology from the theatre by Erving Goffman, who developed most of the related terminology and ideas in his 1956 book, The Presentation of Self in Everyday Life. Kenneth Burke, whom Goffman would later acknowledge as an influence, had earlier presented his notions of dramatism in 1945, which in turn derives from Shakespeare. The fundamental difference between Burke's and Goffman's view, however, is that Burke believed that life was in fact theatre, whereas Goffman viewed theatre as a metaphor. If people imagine themselves as directors observing what goes on in the theatre of everyday life, they are doing what Goffman called dramaturgical analysis, the study of social interaction in terms of theatrical performance. In dramaturgical sociology, it is argued that the elements of human interactions are dependent upon time, place, and audience. In other words, to Goffman, the self...",
+      "category_hint": "生活",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.958132Z"
+    },
+    {
+      "source_id": "wiki-topic:en:81782559",
+      "source_name": "EN Wikipedia：Alaknanda Galaxy",
+      "source_url": "https://en.wikipedia.org/wiki/Alaknanda_Galaxy",
+      "title": "Alaknanda Galaxy",
+      "excerpt": "The Alaknanda Galaxy (designated as UNCOVER DR3 ID 42812) is a spiral galaxy about 12 billion light years away, in the constellation Sculptor. It was discovered in 2025 with NASA's James Webb Space Telescope (JWST). It was discovered by two Indian astronomers Rashi Jain and Yogesh Wadadekar from the National Centre for Radio Astrophysics. It has been estimated that the large spiral galaxy existed just 1.5 billion years after the Big Bang. The discovery of the Alaknanda Galaxy was published in Astronomy and Astrophysics in November 2025.",
+      "category_hint": "科学",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.958228Z"
+    },
+    {
+      "source_id": "wiki-topic:en:64919",
+      "source_name": "EN Wikipedia：Environmental science",
+      "source_url": "https://en.wikipedia.org/wiki/Environmental_science",
+      "title": "Environmental science",
+      "excerpt": "Environmental science is an academic field that integrates the physical, biological, and mathematical sciences to study the environment and solve environmental problems. It uses an integrated, quantitative, and interdisciplinary approach to analyze environmental systems and emerged from the fields of natural history and medicine during the Enlightenment. It is considered interdisciplinary because it is an integration of various fields such as: biology, chemistry, physics, geology, engineering, sociology, and ecology. Environmental science came alive as a substantive, active field of scientific investigation in the 1960s and 1970s, driven by the need for a multi-disciplinary approach to analyze complex environmental problems, as well as the arrival of substantive environmental laws requiring specific environmental protocols of investigation, and the growing public awareness of a need for action in addressing environmental problems. Events that spurred this development included the publication of Rachel Carson's landmark environmental book Silent Spring along with major environmental issues becoming public, such as the 1969 Santa Barbara oil spill, and the Cuyahoga River of Cleveland...",
+      "category_hint": "科学",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.958403Z"
+    },
+    {
+      "source_id": "wiki-topic:en:49223016",
+      "source_name": "EN Wikipedia：Electrolithoautotroph",
+      "source_url": "https://en.wikipedia.org/wiki/Electrolithoautotroph",
+      "title": "Electrolithoautotroph",
+      "excerpt": "An electrolithoautotroph is an organism which feeds on electricity. These organisms use electricity to convert carbon dioxide into organic matter by using electrons directly taken from solid-inorganic electron donors. Electrolithoautotrophs are microorganisms which are found in the deep crevices of the ocean. The warm, mineral-rich environment provides a rich source of nutrients. The electron source for carbon assimilation from diffusible Fe2+ ions to an electrode under the condition that electrical current is the only source of energy and electrons. Electrolithoautotrophs form a third metabolic pathway compared to photosynthesis (plants converting light into sugar) and chemosynthesis (bacteria converting chemical energy into food).",
+      "category_hint": "生物",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.958533Z"
+    },
+    {
+      "source_id": "wiki-topic:en:53782753",
+      "source_name": "EN Wikipedia：Behavior change (individual)",
+      "source_url": "https://en.wikipedia.org/wiki/Behavior_change_(individual)",
+      "title": "Behavior change (individual)",
+      "excerpt": "A behavioral change can be a temporary or permanent effect that is considered a change in an individual's behavior when compared to previous behavior. It is sometimes considered a mental disorder, yet it is also a strategy used to improve such disorders. This change is generally characterized by changes in thinking, interpretations, emotions, or relationships. These changes can be either good or bad, depending on which behavior is being affected. Often, it takes much more work to change behavior for the better than it does to experience a negative change. Medications can cause this change as a side effect. The interaction between physiological processes and their effect on individual behavior is the basis of psychophysiology. Several theories exist as to why and how behavioral change can be affected, including behaviorism, Self-efficacy theory, and the stages of change model. Behavioral change can be very beneficial to an individual. Two such theories on the subject include behavior modification theory and cognitive behavioral theory. Both of these seek to help a patient engage in a positive behavioral change. Both legal and illegal drugs have been shown to alter behavior, both acutely...",
+      "category_hint": "生活",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.958701Z"
+    },
+    {
+      "source_id": "wiki-topic:en:37207",
+      "source_name": "EN Wikipedia：Nuclear engineering",
+      "source_url": "https://en.wikipedia.org/wiki/Nuclear_engineering",
+      "title": "Nuclear engineering",
+      "excerpt": "Nuclear engineering is the engineering discipline concerned with designing and applying systems that utilize the energy released by nuclear processes. The most prominent application of nuclear engineering is the generation of electricity. Worldwide, some 439 nuclear reactors in 31 countries generate 10 percent of the world's energy through nuclear fission. In the future, it is expected that nuclear fusion will add another nuclear means of generating energy. Both reactions make use of the nuclear binding energy released when atomic nucleons are either separated (fission) or brought together (fusion). The energy available is given by the binding energy curve, and the amount generated is much greater than that generated through chemical reactions. Fission of 1 gram of uranium yields as much energy as burning 3 tons of coal or 600 gallons of fuel oil, without adding carbon dioxide to the atmosphere.",
+      "category_hint": "科技",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.958833Z"
+    },
+    {
+      "source_id": "wiki-topic:en:71498816",
+      "source_name": "EN Wikipedia：Anthropology of technology",
+      "source_url": "https://en.wikipedia.org/wiki/Anthropology_of_technology",
+      "title": "Anthropology of technology",
+      "excerpt": "The anthropology of technology (AoT) is a unique, diverse, and growing field of study that bears much in common with kindred developments in the sociology and history of technology: first, a growing refusal to view the role of technology in human societies as the irreversible and predetermined consequence of a given technology's putative \"inner logic\"; and second, a focus on the social and cultural factors that shape a given technology's development and impact in a society. However, AoT defines technology far more broadly than the sociologists and historians of technology. AoT encompasses not only the study of the processes and products of modern science and engineering, but also the techniques of small-scale societies (such as basket-weaving and bow and arrow fabrication), and the technologies of the past recoverable only by archaeology. Methodologically, AoT shares much in common with Science and Technology Studies (STS), typically employing intensive fieldwork methodologies in order to grasp the social and cultural shaping of technological artifacts and systems. These may include a phenomenological approach: how people feel, see, sense, smell, and apprehend through the body as...",
+      "category_hint": "历史",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.958998Z"
+    },
+    {
+      "source_id": "wiki-topic:en:82411497",
+      "source_name": "EN Wikipedia：Boulouki",
+      "source_url": "https://en.wikipedia.org/wiki/Boulouki",
+      "title": "Boulouki",
+      "excerpt": "Boulouki (Greek: Το Μπουλούκι) is a Greek non-profit organization operating as a travelling workshop for traditional building practices in Greece and the Balkans. As an interdisciplinary collective, it brings together architects, civil engineers, and researchers of cultural heritage, with the main aim of documenting, preserving, and revitalizing traditional building knowledge, techniques, and materials, particularly in stone and wood. Since May 2018, Boulouki has operated as a civil non-profit company based in Athens, with a regional branch in Epirus. In June 2024, it was awarded the first European Cultural Heritage Award, Europa Nostra 2024, for its activities and overall contribution.",
+      "category_hint": "生物",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.959137Z"
+    },
+    {
+      "source_id": "wiki-topic:en:43831428",
+      "source_name": "EN Wikipedia：Overprovisioning",
+      "source_url": "https://en.wikipedia.org/wiki/Overprovisioning",
+      "title": "Overprovisioning",
+      "excerpt": "Overprovisioning is the technique of committing more of some resource than strictly necessary, in order to improve the performance or reliability of an engineered system. In specific contexts, overprovisioning can describe:",
+      "category_hint": "科技",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.959188Z"
+    },
+    {
+      "source_id": "wiki-topic:en:38558185",
+      "source_name": "EN Wikipedia：Everyday Aesthetics",
+      "source_url": "https://en.wikipedia.org/wiki/Everyday_Aesthetics",
+      "title": "Everyday Aesthetics",
+      "excerpt": "Everyday Aesthetics is a recent subfield of philosophical aesthetics focusing on everyday life, events, settings and activities in which the faculty of sensibility is saliently at stake. Alexander Baumgarten established Aesthetics as a discipline and defined it as scientia cognitionis sensitivae, the science of sensory knowledge, in his foundational work Aesthetica (1750). This field has been dedicated since then to the clarification of fine arts, beauty and taste only marginally referring to the aesthetics in design, crafts, urban environments and social practice until the emergence of everyday aesthetics during the ‘90s. As other subfields like environmental aesthetics or the aesthetics of nature, everyday aesthetics also attempts to countervail aesthetics' almost exclusive focus on the philosophy of art.",
+      "category_hint": "生活",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.959355Z"
+    },
+    {
+      "source_id": "wiki-topic:en:23789867",
+      "source_name": "EN Wikipedia：Critical language awareness",
+      "source_url": "https://en.wikipedia.org/wiki/Critical_language_awareness",
+      "title": "Critical language awareness",
+      "excerpt": "In linguistics, critical language awareness (CLA) refers to an understanding of social, political, and ideological aspects of language, linguistic variation, and discourse. It functions as a pedagogical application of a critical discourse analysis (CDA), which is a research approach that regards language as a social practice. More specifically, critical language awareness is a consideration of how features of language such as words, grammar, and discourse choices reproduce, reinforce, or challenge certain ideologies and struggles for power and dominance. Regarding linguistic variation, linguist Norman Fairclough argued that it is insufficient to teach students to use \"appropriate\" language without considering why that language is preferred and who makes that decision (as well as the implications for speakers who do not use \"appropriate language\"). CLA generally includes consideration of how a person may be marginalized by speaking a particular way, especially if that way of speaking serves as an index of their race, ethnicity, religion, social status, etc. Because power is reproduced through language, CLA is \"a prerequisite for effective democratic citizenship, and should therefore...",
+      "category_hint": "综合",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.959537Z"
+    },
+    {
+      "source_id": "wiki-topic:en:13413780",
+      "source_name": "EN Wikipedia：Alloplastic adaptation",
+      "source_url": "https://en.wikipedia.org/wiki/Alloplastic_adaptation",
+      "title": "Alloplastic adaptation",
+      "excerpt": "Alloplastic adaptation (from the Greek word \"allos\", meaning \"other\") is a form of adaptation where the subject attempts to change the environment when faced with a difficult situation. Criminality, mental illness, and activism can all be classified as categories of alloplastic adaptation. The concept of alloplastic adaptation was developed by Sigmund Freud, Sándor Ferenczi, and Franz Alexander. They proposed that when an individual was presented with a stressful situation, he could react in one of two ways: Autoplastic adaptation: The subject tries to change himself, i.e. the internal environment. Alloplastic adaptation: The subject tries to change the situation, i.e. the external environment.",
+      "category_hint": "生活",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.959660Z"
+    },
+    {
+      "source_id": "wiki-topic:en:56566",
+      "source_name": "EN Wikipedia：Chronobiology",
+      "source_url": "https://en.wikipedia.org/wiki/Chronobiology",
+      "title": "Chronobiology",
+      "excerpt": "Chronobiology is a field of biology that examines timing processes, including periodic (cyclic) phenomena in living organisms, such as their adaptation to solar- and lunar-related rhythms. These cycles are known as biological rhythms. Chronobiology comes from the ancient Greek χρόνος (chrónos, meaning \"time\"), and biology, which pertains to the study, or science, of life. The related terms chronomics and chronome have been used in some cases to describe either the molecular mechanisms involved in chronobiological phenomena or the more quantitative aspects of chronobiology, particularly where comparison of cycles between organisms is required. Chronobiological studies include but are not limited to comparative anatomy, physiology, genetics, molecular biology and behavior of organisms related to their biological rhythms. Other aspects include epigenetics, development, reproduction, ecology and evolution.",
+      "category_hint": "生物",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.959826Z"
+    },
+    {
+      "source_id": "wiki-topic:en:16250616",
+      "source_name": "EN Wikipedia：Epicentral distance",
+      "source_url": "https://en.wikipedia.org/wiki/Epicentral_distance",
+      "title": "Epicentral distance",
+      "excerpt": "Epicentral distance refers to the ground distance from the epicenter to a specified point. Generally, the smaller the epicentral distance of an earthquake of the same scale, the heavier the damage caused by the earthquake. On the contrary, with the increase of epicentral distance, the damage caused by the earthquake is gradually reduced. Due to the limitation of seismometers designed in the early years, some seismic magnitude scales began to show errors when the epicentral distance exceeded a certain range from the observation points. In seismology, the unit of far earthquakes is usually ° (degree), while the unit of near earthquakes is km. But regardless of distance, Δ is used as a symbol for the epicentral distance.",
+      "category_hint": "科学",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.959989Z"
+    },
+    {
+      "source_id": "wiki-topic:en:1525710",
+      "source_name": "EN Wikipedia：Assimilation (biology)",
+      "source_url": "https://en.wikipedia.org/wiki/Assimilation_(biology)",
+      "title": "Assimilation (biology)",
+      "excerpt": "In biology, assimilation is a crucial metabolic process in which absorbed nutrients are transformed into complex biomolecules, that become an integral part of an organism's cellular structure and function. It occurs after digestion and absorption, ensuring that essential macromolecules—such as carbohydrates, proteins, and lipids—are synthesized and utilized for growth, repair, and maintenance of bodily functions. For instance, monosaccharides like glucose, derived from carbohydrate digestion, enter cells via facilitated diffusion or active transport. Once inside, glucose undergoes glycolysis, the Krebs cycle, and oxidative phosphorylation to generate ATP, which fuels cellular activities. Similarly, amino acids absorbed from dietary proteins are assimilated into cells and serve as precursors for protein synthesis, supporting enzymatic reactions, muscle development, and tissue repair. Fatty acids and glycerol, obtained from lipid digestion, are reassembled into triglycerides and stored in adipose tissue or utilized in membrane synthesis and energy production. In plants, assimilation primarily involves the conversion of inorganic carbon (CO2) into organic compounds via photosynthesis....",
+      "category_hint": "生物",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.960207Z"
+    },
+    {
+      "source_id": "wiki-topic:en:3697368",
+      "source_name": "EN Wikipedia：Coffee ring effect",
+      "source_url": "https://en.wikipedia.org/wiki/Coffee_ring_effect",
+      "title": "Coffee ring effect",
+      "excerpt": "In physics, a coffee ring is a pattern of particles on a surface left by a suspension puddle after the liquid phase evaporates. The phenomenon is named for the characteristic ring-like deposit along the perimeter of a spill of coffee. It is also commonly seen after spilling red wine. The mechanism behind the formation of these and similar rings is known as the coffee ring effect or in some instances, the coffee stain effect, or simply ring stain. It originates from the capillary flow directed from the interior to the edge of the puddle as it evaporates.",
+      "category_hint": "科学",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.960306Z"
+    },
+    {
+      "source_id": "wiki-topic:en:601958",
+      "source_name": "EN Wikipedia：Process engineering",
+      "source_url": "https://en.wikipedia.org/wiki/Process_engineering",
+      "title": "Process engineering",
+      "excerpt": "Process engineering is a field of study focused on the development and optimization of industrial processes. It consists of the understanding and application of the fundamental principles and laws of nature to allow humans to transform raw material and energy into products that are useful to society, at an industrial level. By taking advantage of the driving forces of nature such as pressure, temperature and concentration gradients, as well as the law of conservation of mass, process engineers can develop methods to synthesize and purify large quantities of desired chemical products. Process engineering focuses on the design, operation, control, optimization and intensification of chemical, physical, and biological processes. Their work involves analyzing the chemical makeup of various ingredients and determining how they might react with one another. A process engineer can specialize in a number of areas, including the following: Agriculture processing Food and dairy production Beer and whiskey production Cosmetics production Pharmaceutical production Petrochemical manufacturing Mineral processing Printed circuit board production",
+      "category_hint": "科技",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.960469Z"
+    },
+    {
+      "source_id": "wiki-topic:en:1758866",
+      "source_name": "EN Wikipedia：Accelerating change",
+      "source_url": "https://en.wikipedia.org/wiki/Accelerating_change",
+      "title": "Accelerating change",
+      "excerpt": "In futures studies and the history of technology, accelerating change is the observed exponential nature of the rate of technological change in recent history, which may suggest faster and more profound change in the future and may or may not be accompanied by equally profound social and cultural change.",
+      "category_hint": "历史",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.960534Z"
+    },
+    {
+      "source_id": "wiki-topic:en:13905340",
+      "source_name": "EN Wikipedia：Lists of problems",
+      "source_url": "https://en.wikipedia.org/wiki/Lists_of_problems",
+      "title": "Lists of problems",
+      "excerpt": "The following articles contain lists of notable problems. This includes unsolved problems, which may refer to several notable conjectures or open problems in various academic fields:",
+      "category_hint": "科技",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.960583Z"
+    },
+    {
+      "source_id": "wiki-topic:en:29819979",
+      "source_name": "EN Wikipedia：Cognitive hearing science",
+      "source_url": "https://en.wikipedia.org/wiki/Cognitive_hearing_science",
+      "title": "Cognitive hearing science",
+      "excerpt": "Cognitive hearing science is an interdisciplinary science field concerned with the physiological and cognitive basis of hearing and its interplay with signal processing in hearing aids. The field includes genetics, physiology, medical and technical audiology, cognitive neuroscience, cognitive psychology, linguistics and social psychology. Theoretically the research in cognitive hearing science combines a physiological model for the information transfer from the outer auditory organ to the auditory cerebral cortex, and a cognitive model for how language comprehension is influenced by the interplay between the incoming language signal and the individual's cognitive skills, especially the long-term memory and the working memory. Researchers examine the interplay between type of hearing impairment or deafness, type of signal processing in different hearing aids, type of listening environment and the individual's cognitive skills. Research in cognitive hearing science has importance for the knowledge about different types of hearing impairment and its effects, as for the possibilities to determine which individuals can make use of certain type of signal processing in hearing aid or cochlear...",
+      "category_hint": "综合",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.960747Z"
+    },
+    {
+      "source_id": "wiki-topic:en:12217323",
+      "source_name": "EN Wikipedia：Bounded deformation",
+      "source_url": "https://en.wikipedia.org/wiki/Bounded_deformation",
+      "title": "Bounded deformation",
+      "excerpt": "In mathematics, a function of bounded deformation is a function whose distributional derivatives are not quite well-behaved-enough to qualify as functions of bounded variation, although the symmetric part of the derivative matrix does meet that condition. Thought of as deformations of elasto-plastic bodies, functions of bounded deformation play a major role in the mathematical study of materials, e.g. the Francfort-Marigo model of brittle crack evolution. More precisely, given an open subset Ω of Rn, a function u : Ω → Rn is said to be of bounded deformation if the symmetrized gradient ε(u) of u, ε ( u ) = ∇ u + ∇ u ⊤ 2 {\\displaystyle \\varepsilon (u)={\\frac {\\nabla u+\\nabla u^{\\top }}{2}}} is a bounded, symmetric n × n matrix-valued Radon measure. The collection of all functions of bounded deformation is denoted BD(Ω; Rn), or simply BD, introduced essentially by P.-M. Suquet in 1978...",
+      "category_hint": "科技",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.960920Z"
+    },
+    {
+      "source_id": "wiki-topic:en:18053246",
+      "source_name": "EN Wikipedia：History of condoms",
+      "source_url": "https://en.wikipedia.org/wiki/History_of_condoms",
+      "title": "History of condoms",
+      "excerpt": "The history of condoms goes back at least several centuries, and perhaps beyond. For most of their history, condoms have been used both as a method of birth control, and as a protective measure against sexually transmitted infections such as syphilis, gonorrhea, chlamydia, hepatitis B and more recently HIV/AIDS. Condoms have been made from a variety of materials; prior to the 19th century, chemically treated linen and animal tissue (intestine or bladder) are the best documented varieties. Rubber condoms gained popularity in the mid-19th century, and in the early 20th century major advances were made in manufacturing techniques. Prior to the introduction of the combined oral contraceptive pill, condoms were the most popular birth control method in the Western world. In the second half of the 20th century, the low cost of condoms contributed to their importance in family planning programs throughout the developing world. Condoms have also become increasingly important in efforts to fight the AIDS pandemic.",
+      "category_hint": "历史",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.961063Z"
+    },
+    {
+      "source_id": "wiki-topic:en:42076934",
+      "source_name": "EN Wikipedia：Antique Telescope Society",
+      "source_url": "https://en.wikipedia.org/wiki/Antique_Telescope_Society",
+      "title": "Antique Telescope Society",
+      "excerpt": "The Antique Telescope Society (ATS) is a society for people interested in antique telescopes, binoculars, instruments, books, atlases, etc. It was established in 1992 and presently based in Virginia, the USA. The society has an annual meeting. It also publishes the Journal of the Antique Telescope Society and has an active email list. The American astronomer Michael D. Reynolds was the President of the Antique Telescope Society.",
+      "category_hint": "历史",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.961141Z"
+    },
+    {
+      "source_id": "wiki-topic:en:24747438",
+      "source_name": "EN Wikipedia：Avoidance coping",
+      "source_url": "https://en.wikipedia.org/wiki/Avoidance_coping",
+      "title": "Avoidance coping",
+      "excerpt": "In psychology, avoidance coping is a coping mechanism and form of experiential avoidance. It is characterized by a person's efforts, conscious or unconscious, to avoid dealing with a stressor in order to protect oneself from the difficulties the stressor presents. Avoidance coping can lead to substance abuse, social withdrawal, and other forms of escapism. High levels of avoidance behaviors may lead to a diagnosis of avoidant personality disorder, though not everyone who displays such behaviors meets the definition of having this disorder. Avoidance coping is also a symptom of post-traumatic stress disorder and related to symptoms of depression and anxiety. Additionally, avoidance coping is part of the approach-avoidance conflict theory introduced by psychologist Kurt Lewin. Literature on coping often classifies coping strategies into two broad categories: approach/active coping and avoidance/passive coping. Approach coping includes behaviors that attempt to reduce stress by alleviating the problem directly, and avoidance coping includes behaviors that reduce stress by distancing oneself from the problem. Traditionally, approach coping has been seen as the healthiest and most beneficial...",
+      "category_hint": "生活",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.961299Z"
+    },
+    {
+      "source_id": "wiki-topic:en:909363",
+      "source_name": "EN Wikipedia：Biotinylation",
+      "source_url": "https://en.wikipedia.org/wiki/Biotinylation",
+      "title": "Biotinylation",
+      "excerpt": "In biochemistry, biotinylation is the process of covalently attaching biotin to a protein, nucleic acid or other molecule. Biotinylation is rapid, specific and is unlikely to disturb the natural function of the molecule due to the small size of biotin (MW = 244.31 g/mol). Biotin binds to streptavidin and avidin with an extremely high affinity, fast on-rate, and high specificity, and these interactions are exploited in many areas of biotechnology to isolate biotinylated molecules of interest. Biotin-binding to streptavidin and avidin is resistant to extremes of heat, pH and proteolysis, making capture of biotinylated molecules possible in a wide variety of environments. Also, multiple biotin molecules can be conjugated to a protein of interest, which allows binding of multiple streptavidin, avidin or neutravidin protein molecules and increases the sensitivity of detection of the protein of interest. There is a large number of biotinylation reagents available that exploit the wide range of possible labelling methods. Due to the strong affinity between biotin and streptavidin, the purification of biotinylated proteins has been a widely used approach to identify protein-protein interactions...",
+      "category_hint": "生物",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.961472Z"
+    },
+    {
+      "source_id": "wiki-topic:en:23535218",
+      "source_name": "EN Wikipedia：Industrial engineering",
+      "source_url": "https://en.wikipedia.org/wiki/Industrial_engineering",
+      "title": "Industrial engineering",
+      "excerpt": "Industrial engineering (IE) revolves around the design, improvement and installation of integrated systems of people, materials, information, equipment and energy. It draws upon specialized knowledge and skill in the mathematical, physical, and social sciences together with the principles and methods of engineering analysis and design, to specify, predict, and evaluate the results to be obtained from such systems. Industrial engineering is a branch of engineering that focuses on optimizing complex processes, systems, and organizations by improving efficiency, productivity, and quality. It combines principles from engineering, mathematics, and business to design, analyze, and manage systems that involve people, materials, information, equipment, and energy. Industrial engineers aim to reduce waste, streamline operations, and enhance overall performance across various industries, including manufacturing, healthcare, logistics, and service sectors. Industrial engineers are employed in numerous industries, such as automobile manufacturing, aerospace, healthcare, forestry, finance, leisure, and education. Industrial engineering combines the physical and social sciences together with engineering...",
+      "category_hint": "科技",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.961629Z"
+    },
+    {
+      "source_id": "wiki-topic:en:50650",
+      "source_name": "EN Wikipedia：Astronomy",
+      "source_url": "https://en.wikipedia.org/wiki/Astronomy",
+      "title": "Astronomy",
+      "excerpt": "Astronomy is a natural science that studies celestial objects and the phenomena that occur in the cosmos. It uses mathematics, physics, and chemistry to explain their origin and their overall evolution. Objects of interest include planets, moons, stars, nebulae, galaxies, meteoroids, asteroids, and comets. Relevant phenomena include supernova explosions, gamma ray bursts, quasars, blazars, pulsars, and cosmic microwave background radiation. More generally, astronomy studies everything that originates beyond Earth's atmosphere. Cosmology is the branch of astronomy that studies the universe as a whole. Astronomy is one of the oldest natural sciences. The early civilizations in recorded history made methodical observations of the night sky. These include the Egyptians, Babylonians, Greeks, Indians, Chinese, Maya, and many ancient indigenous peoples of the Americas. In the past, astronomy included disciplines as diverse as astrometry, celestial navigation, observational astronomy, and the making of calendars. Astronomy is one of the few sciences in which amateurs play an active role. This is especially true for the discovery and observation of transient events. Amateur astronomers have...",
+      "category_hint": "科学",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.961951Z"
+    },
+    {
+      "source_id": "wiki-topic:en:24544",
+      "source_name": "EN Wikipedia：Photosynthesis",
+      "source_url": "https://en.wikipedia.org/wiki/Photosynthesis",
+      "title": "Photosynthesis",
+      "excerpt": "Photosynthesis is a system of biological processes by which photopigment-bearing autotrophic organisms, such as most plants, algae and cyanobacteria, convert light energy—typically from sunlight—into the chemical energy necessary to fuel their metabolism. The term photosynthesis usually refers to oxygenic photosynthesis, a process that releases oxygen as a byproduct of water splitting. Photosynthetic organisms store the converted chemical energy within the bonds of intracellular organic compounds (complex compounds containing carbon), typically carbohydrates like sugars (mainly glucose, fructose and sucrose), starches, phytoglycogen and cellulose. When needing to use this stored energy, an organism's cells then metabolize the organic compounds through cellular respiration. Photosynthesis plays a critical role in producing and maintaining the oxygen content of the Earth's atmosphere, and it supplies most of the biological energy necessary for complex life on Earth. Some organisms also perform anoxygenic photosynthesis, which does not produce oxygen. Some bacteria (e.g. purple bacteria) use bacteriochlorophyll to split hydrogen sulfide as a reductant instead of water, releasing sulfur...",
+      "category_hint": "生物",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.962180Z"
+    },
+    {
+      "source_id": "wiki-topic:en:295888",
+      "source_name": "EN Wikipedia：History of calendars",
+      "source_url": "https://en.wikipedia.org/wiki/History_of_calendars",
+      "title": "History of calendars",
+      "excerpt": "The history of calendars covers practices with ancient roots as people created and used various methods to keep track of days and larger divisions of time. Calendars commonly serve both cultural and practical purposes and are often connected to astronomy and agriculture. Archeologists have reconstructed methods of timekeeping that go back to prehistoric times at least as old as the Neolithic. The natural units for timekeeping used by most historical societies are the day, the solar year and the lunation. Calendars are explicit schemes used for timekeeping. The first historically attested and formulized calendars date to the Bronze Age, dependent on the development of writing in the ancient Near East. The Yoruba people of West Africa have one of the oldest recorded calendars in human history. It is one of the oldest verified calendar systems in the world used by a continuing culture. Known as Kojoda, the Yoruba calendar dates back over 10,068 years as of 2026, meaning its origin can be traced to approximately 8042 BC. In Victoria, Australia, a Wurdi Youang stone arrangement undergoing research could date back more than 11,000 years. In 2013, archaeologists unearthed ancient evidence...",
+      "category_hint": "历史",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.962370Z"
+    },
+    {
+      "source_id": "wiki-topic:en:13552978",
+      "source_name": "EN Wikipedia：Behavioral confirmation",
+      "source_url": "https://en.wikipedia.org/wiki/Behavioral_confirmation",
+      "title": "Behavioral confirmation",
+      "excerpt": "Behavioral confirmation is a type of self-fulfilling prophecy whereby people's social expectations lead them to behave in ways that cause others to confirm their expectations. The phenomenon of belief creating reality is known by several names in literature: self-fulfilling prophecy, expectancy confirmation, and behavioral confirmation, which was coined by social psychologist Mark Snyder in 1984. Snyder preferred this term because it emphasizes that it is the target's actual behavior that confirms the perceiver's beliefs.",
+      "category_hint": "生活",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.962463Z"
+    },
+    {
+      "source_id": "wiki-topic:en:20653168",
+      "source_name": "EN Wikipedia：Earth science",
+      "source_url": "https://en.wikipedia.org/wiki/Earth_science",
+      "title": "Earth science",
+      "excerpt": "Earth science or geoscience includes all fields of natural science related to planet Earth. This is a branch of science dealing with the physical, chemical, and biological complex constitutions and synergistic linkages of Earth's four spheres: the biosphere, hydrosphere/cryosphere, atmosphere, and geosphere (or lithosphere). Earth science can be generalized into planetary science, a more recent branch of science.",
+      "category_hint": "科学",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.962540Z"
+    },
+    {
+      "source_id": "wiki-topic:en:12608",
+      "source_name": "EN Wikipedia：Geodesy",
+      "source_url": "https://en.wikipedia.org/wiki/Geodesy",
+      "title": "Geodesy",
+      "excerpt": "Geodesy (, jee-OD-iss-ee) or geodetics is the science of measuring and representing the geometry, gravity, and spatial orientation of the Earth in temporally varying 3D space. It is called planetary geodesy when studying other astronomical bodies, such as planets or circumplanetary systems. Geodetic job titles include geodesist and geodetic surveyor. Through highly accurate observations, geodesy provides the scientific basis for mapping, navigation, and positioning, and supports applications such as infrastructure development (including construction), natural resource management, mineral exploration, and geophysics. Its measurements underpin modern geospatial reference frames used in transportation, satellite systems, global trade, and timekeeping. Geodynamic phenomena, including crustal motion, tides, and polar motion, are studied through global and national control networks, space geodesy and terrestrial geodetic techniques, and the use of datums and coordinate systems.",
+      "category_hint": "科学",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.962679Z"
+    },
+    {
+      "source_id": "wiki-topic:en:10389558",
+      "source_name": "EN Wikipedia：Jack B. Newton",
+      "source_url": "https://en.wikipedia.org/wiki/Jack_B._Newton",
+      "title": "Jack B. Newton",
+      "excerpt": "John Borden \"Jack\" Newton (13 August 1942 – 11 November 2025) was a Canadian astronomer, known for his publications and images in amateur astrophotography, and for his outreach to educate the public about astronomy. Newton is credited with the invention of \"cold camera\" astrophotography, which enabled enhanced images of galaxies, the Sun, and other astronomical objects taken from a ground-based, amateur-level telescope. His expert astrophotographs were exhibited by publication of six books and articles in astronomy, scientific, and popular magazines, and in public presentations. For his contributions to science and astronomy education over decades, Newton received national and regional astronomy awards in Canada, the United States, and England. With his wife, Alice, Jack Newton was devoted to preserving dark skies to reveal unique celestial objects to the public.",
+      "category_hint": "科学",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.962846Z"
+    },
+    {
+      "source_id": "wiki-topic:en:30214247",
+      "source_name": "EN Wikipedia：Business History Conference",
+      "source_url": "https://en.wikipedia.org/wiki/Business_History_Conference",
+      "title": "Business History Conference",
+      "excerpt": "The Business History Conference (BHC) is an academic organization that supports all aspects of research, writing, and teaching about business history and about the environment in which businesses operate. Founded in 1954, the BHC supports ongoing research among its members and holds conferences to bring together business and economic historians. It also publishes a quarterly academic journal, Enterprise & Society, along with selected papers from its annual meetings via BEH On-Line.",
+      "category_hint": "历史",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.962929Z"
+    },
+    {
+      "source_id": "wiki-topic:en:7555",
+      "source_name": "EN Wikipedia：Casimir effect",
+      "source_url": "https://en.wikipedia.org/wiki/Casimir_effect",
+      "title": "Casimir effect",
+      "excerpt": "In quantum field theory, the Casimir effect (or Casimir force) is a physical force acting on the macroscopic boundaries of a confined space which arises from the quantum fluctuations of a field. The term Casimir pressure is sometimes used when it is described in units of force per unit area. It is named after the Dutch physicist Hendrik Casimir, who predicted the effect for electromagnetic systems in 1948. In the same year Casimir, together with Dirk Polder, described a similar effect experienced by a neutral atom in the vicinity of a macroscopic interface which is called the Casimir–Polder force. Their result is a generalization of the London–van der Waals force and includes retardation due to the finite speed of light. The fundamental principles leading to the London–van der Waals force, the Casimir force, and the Casimir–Polder force can be formulated on the same footing. In 1997, a direct experiment by Steven K. Lamoreaux quantitatively measured the Casimir force to be within 5% of the value predicted by the theory. The Casimir effect can be understood by the idea that the presence of macroscopic material interfaces, such as electrical conductors and dielectrics, alters the vacuum...",
+      "category_hint": "科学",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.963138Z"
+    },
+    {
+      "source_id": "wiki-topic:en:27700571",
+      "source_name": "EN Wikipedia：Abstraction (linguistics)",
+      "source_url": "https://en.wikipedia.org/wiki/Abstraction_(linguistics)",
+      "title": "Abstraction (linguistics)",
+      "excerpt": "The term abstraction has a number of uses in the field of linguistics. It can describe the way some languages form abstract ideas from concrete objects or instances, as in the plural of abstraction. It can denote a process (also called object abstraction) in the development of language, whereby terms become used for concepts further removed from the objects to which they were originally attached. It can also denote a process applied by linguists themselves, whereby phenomena are considered without the details that are not relevant to the desired level of analysis.",
+      "category_hint": "综合",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.963239Z"
+    },
+    {
+      "source_id": "wiki-topic:en:17787631",
+      "source_name": "EN Wikipedia：Bi-isotropic material",
+      "source_url": "https://en.wikipedia.org/wiki/Bi-isotropic_material",
+      "title": "Bi-isotropic material",
+      "excerpt": "In physics, engineering and materials science, a bi-isotropic material is an isotropic medium where the electric and magnetic flux densities are linearly coupled to both the electric and magnetic fields via scalar constitutive relations, including magnetoelectric coupling terms. A major subset of such materials, known as Pasteur media, are optically active: they can rotate the polarization of light in either refraction or transmission. This does not mean all materials with twist effect fall in the bi-isotropic class. The twist effect of the class of bi-isotropic materials is caused by the chirality and/or non-reciprocity of the structure of the media, in which the electric and magnetic field of an electromagnetic wave (or simply, light) interact in an unusual way. Acoustic analog of bi-anisotropy is known as Willis coupling.",
+      "category_hint": "科技",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.963366Z"
+    },
+    {
+      "source_id": "wiki-topic:en:82060710",
+      "source_name": "EN Wikipedia：Chinese Annals of History of Science and Technology",
+      "source_url": "https://en.wikipedia.org/wiki/Chinese_Annals_of_History_of_Science_and_Technology",
+      "title": "Chinese Annals of History of Science and Technology",
+      "excerpt": "The Chinese Annals of History of Science and Technology is a biannual peer-reviewed academic journal focusing on the history of science and technology related to China. It is published by the Institute for the History of Natural Sciences of the Chinese Academy of Sciences and China Science Publishing & Media. The journal publishes research articles and reviews, including specific studies of original documents and archaeological findings. It also publishes book reviews, review essays on previous research, current debates and controversies on historiography or methodology, and news on the history of science and technology. The journal aims to make each issue thematic, with articles focusing on a more or less homogeneous topic. The editors-in-chief are Zhang Baichun and Jürgen Renn (Max Planck Institute for the History of Science).",
+      "category_hint": "历史",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.963510Z"
+    },
+    {
+      "source_id": "wiki-topic:en:5652450",
+      "source_name": "EN Wikipedia：Biological process",
+      "source_url": "https://en.wikipedia.org/wiki/Biological_process",
+      "title": "Biological process",
+      "excerpt": "A biological process is a process necessary for an organism to live, and therefore shapes its capacity to interact with its environment. Biological processes are made of many chemical reactions or other events that are involved in the persistence and transformation of life forms.",
+      "category_hint": "生物",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.963568Z"
+    },
+    {
+      "source_id": "wiki-topic:en:255468",
+      "source_name": "EN Wikipedia：Excretion",
+      "source_url": "https://en.wikipedia.org/wiki/Excretion",
+      "title": "Excretion",
+      "excerpt": "Excretion is elimination of metabolic waste, which is an essential process in all organisms. In vertebrates, this is primarily carried out by the lungs, kidneys, and skin. This is in contrast with secretion, where the substance may have specific tasks after leaving the cell. For example, placental mammals expel urine from the bladder through the urethra, which is part of the excretory system. Unicellular organisms discharge waste products directly through the surface of the cell. Another example would be how mammals release solid waste (feces) through the anus during defecation. During activities such as cellular respiration, several chemical reactions take place in the body. These are known as metabolism. These chemical reactions produce waste products such as carbon dioxide, water, salts, urea and uric acid. Accumulation of these wastes beyond a level inside the body is harmful to the body. The excretory organs remove these wastes. This process of removal of metabolic waste from the body is known as excretion.",
+      "category_hint": "生物",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.963704Z"
+    },
+    {
+      "source_id": "wiki-topic:en:23589578",
+      "source_name": "EN Wikipedia：Assimilative capacity",
+      "source_url": "https://en.wikipedia.org/wiki/Assimilative_capacity",
+      "title": "Assimilative capacity",
+      "excerpt": "Assimilative capacity is the ability for pollutants to be absorbed by an environment without detrimental effects to the environment or those who use of it. Natural absorption into an environment is achieved through dilution, dispersion and removal through chemical or biological processes. The term assimilative capacity has been used interchangeably with environmental capacity, receiving capacity and absorptive capacity. It is used as a measurement perimeter in hydrology, meteorology and pedology for a variety of environments examples consist of: lakes, rivers, oceans, cities and soils. Assimilative capacity is a subjective measurement that is quantified by governments and institutions such as Environmental Protection Agency (EPA) of environments into guidelines. Using assimilative capacity as a guideline can help the allocation of resources while reducing the impact on organisms in an environment. This concept is paired with carrying capacity in order to facilitate sustainable development of city regions. Assimilative capacity has been critiqued as to its effectiveness due to ambiguity in its definition that can confuses readers and false assumptions that a small amount of pollutants...",
+      "category_hint": "生物",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.963861Z"
+    },
+    {
+      "source_id": "wiki-topic:en:36079379",
+      "source_name": "EN Wikipedia：SLR Consulting",
+      "source_url": "https://en.wikipedia.org/wiki/SLR_Consulting",
+      "title": "SLR Consulting",
+      "excerpt": "SLR Consulting is a privately owned international sustainability consultancy with offices in Europe, North America, South America, Australasia, and Africa. In 2025, it reported revenues of £99.7 million. It states its purpose is ‘Making Sustainability Happen’, which it achieves through its global team of advisors and technicians, who partner with clients to tackle sustainability challenges. The company operates more than 140 offices and employs over 5,000 staff across six continents. Its ultimate owner is Ares Management.",
+      "category_hint": "科技",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.963970Z"
+    },
+    {
+      "source_id": "wiki-topic:en:26114602",
+      "source_name": "EN Wikipedia：Back-story (production)",
+      "source_url": "https://en.wikipedia.org/wiki/Back-story_(production)",
+      "title": "Back-story (production)",
+      "excerpt": "Back-story, in the production of consumer goods, is information about the effects of their production. As of June 2007 sustainability advocates had begun evoking literary backstories to refer to the \"backstories\" of goods: that is, the impacts on the planet and people, caused by producing and delivering those goods. Without knowledge of the full backstory of a product, a consumer cannot accurately judge whether the impacts of purchasing it are good or bad. Some environmentalists and consumer-protection advocates argue that greater corporate and governmental transparency would be a critical step towards sustainability, enabling consumers to make more informed choices, and activists to bring public opinion to bear on practices they consider unethical.",
+      "category_hint": "生物",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.964081Z"
+    },
+    {
+      "source_id": "wiki-topic:en:4008035",
+      "source_name": "EN Wikipedia：Efficiency movement",
+      "source_url": "https://en.wikipedia.org/wiki/Efficiency_movement",
+      "title": "Efficiency movement",
+      "excerpt": "The efficiency movement was a major movement in the United States, Britain and other industrial nations in the early 20th century that sought to identify and eliminate waste in all areas of the economy and society, and to develop and implement best practices. The concept covered mechanical, economic, social, and personal improvement. The quest for efficiency promised effective, dynamic management rewarded by growth. As a result of the influence of an early proponent, it is more often known as Taylorism.",
+      "category_hint": "历史",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.964164Z"
+    },
+    {
+      "source_id": "wiki-topic:en:1508445",
+      "source_name": "EN Wikipedia：Ergosphere",
+      "source_url": "https://en.wikipedia.org/wiki/Ergosphere",
+      "title": "Ergosphere",
+      "excerpt": "In astrophysics, the ergosphere is a region located just outside a rotating black hole, between its event horizon and a further external surface predicted by the Kerr metric which describes these objects. Its name was proposed by Remo Ruffini and John Archibald Wheeler during the Les Houches lectures in 1971 and is derived from Ancient Greek ἔργον (ergon) 'work'. It received this name because it is theoretically possible to extract energy and mass from this region. The ergosphere touches the event horizon at the poles of a rotating black hole and extends to a greater radius at the equator. A black hole with modest angular momentum has an ergosphere with a shape approximated by an oblate spheroid, while faster spins produce a more pumpkin-shaped ergosphere. The equatorial (maximal) radius of an ergosphere is the Schwarzschild radius, the radius of a non-rotating black hole. The polar (minimal) radius is also the polar (minimal) radius of the event horizon which can be as little as half the Schwarzschild radius for a maximally rotating black hole.",
+      "category_hint": "科学",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.964363Z"
+    },
+    {
+      "source_id": "wiki-topic:en:3631020",
+      "source_name": "EN Wikipedia：Extract",
+      "source_url": "https://en.wikipedia.org/wiki/Extract",
+      "title": "Extract",
+      "excerpt": "An extract (essence) is a substance made by extracting a part of a raw material, often by using a solvent such as ethanol, oil or water. Extracts may be sold as tinctures or absolutes or dried and powdered. Extracts are widely used in various industries, such as perfumes, cosmetics, pharmaceuticals, and the food industry, among others. The aromatic principles of many spices, nuts, herbs, fruits, etc., and some flowers, are marketed as extracts, among the best known of true extracts being almond, cinnamon, cloves, ginger, lemon, nutmeg, orange, peppermint, pistachio, rose, spearmint, vanilla, violet, rum, and wintergreen.",
+      "category_hint": "生活",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.964466Z"
+    },
+    {
+      "source_id": "wiki-topic:en:11125818",
+      "source_name": "EN Wikipedia：Borrowing (linguistics)",
+      "source_url": "https://en.wikipedia.org/wiki/Borrowing_(linguistics)",
+      "title": "Borrowing (linguistics)",
+      "excerpt": "In linguistics, borrowing is a type of language change in which a language or dialect undergoes change as a result of contact with another language or dialect. In typical cases of borrowing, speakers of one language (the \"recipient\" language) adopt into their own speech a novel linguistic feature that they were exposed to due to its presence in a different language (the \"source\" or \"donor\" language).",
+      "category_hint": "综合",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.964549Z"
+    },
+    {
+      "source_id": "wiki-topic:en:26780222",
+      "source_name": "EN Wikipedia：Earth analog",
+      "source_url": "https://en.wikipedia.org/wiki/Earth_analog",
+      "title": "Earth analog",
+      "excerpt": "An Earth analog, also called an Earth twin or second Earth, is a planet or moon with environmental conditions similar to those found on Earth. The term Earth-like planet is also used, but this term may refer to any terrestrial planet. The possibility is of particular interest to astrobiologists and astronomers under reasoning that the more similar a planet is to Earth, the more likely it is to be capable of sustaining complex extraterrestrial life. As such, it has long been speculated and the subject expressed in science, philosophy, science fiction and popular culture. Advocates of space colonization and space and survival have long sought an Earth analog for settlement. In the far future, humans might artificially produce an Earth analog by terraforming. Before the scientific search for and study of extrasolar planets, the possibility was argued through philosophy and science fiction. Philosophers have suggested that the size of the universe is such that a near-identical planet must exist somewhere. The mediocrity principle suggests that planets like Earth should be common in the universe, while the Rare Earth hypothesis suggests that they are extremely rare. The thousands of...",
+      "category_hint": "科学",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.964725Z"
+    },
+    {
+      "source_id": "wiki-topic:en:70608126",
+      "source_name": "EN Wikipedia：Amanda Bradford",
+      "source_url": "https://en.wikipedia.org/wiki/Amanda_Bradford",
+      "title": "Amanda Bradford",
+      "excerpt": "Dr. Amanda Bradford is a marine mammal biologist who is currently researching cetacean population dynamics for the National Marine Fisheries Service of the National Oceanic and Atmospheric Administration. Bradford is currently a Research Ecologist with the Pacific Islands Fisheries Science Center's Cetacean Research Program. Her research primarily focuses on assessing populations of cetaceans, including evaluating population size, health, and impacts of human-caused threats, such as fisheries interactions. Bradford is a cofounder and organizer of the Women in Marine Mammal Science (WIMMS) Initiative.",
+      "category_hint": "生物",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.964823Z"
+    },
+    {
+      "source_id": "wiki-topic:en:65462416",
+      "source_name": "EN Wikipedia：Exoplanet Explorers",
+      "source_url": "https://en.wikipedia.org/wiki/Exoplanet_Explorers",
+      "title": "Exoplanet Explorers",
+      "excerpt": "Exoplanet Explorers was a Zooniverse citizen science project aimed at discovering new exoplanets with Kepler data from the K2 mission. The project was launched in April 2017 and reached 26,281 registered volunteers. Two campaigns took place, the first one containing 148,061 images and the second one 56,794 images. A total of 9 exoplanets were found through the project: K2-138 b, c, d, e, f and g (initially referred to as EE-1b, EE-1c, EE-1d, and EE-1e), K2-233 b, c, and d, and K2-288Bb. K2-288Bb is considered to be potentially habitable with a radius of 1.91 Earth radii and a temperature of 206 K. Several other candidates in size groups were also found: Jupiters: 44, Neptunes: 72, super-Earths: 53, Earths: 15.",
+      "category_hint": "科学",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.964992Z"
+    },
+    {
+      "source_id": "wiki-topic:en:52213563",
+      "source_name": "EN Wikipedia：Cross ventilation",
+      "source_url": "https://en.wikipedia.org/wiki/Cross_ventilation",
+      "title": "Cross ventilation",
+      "excerpt": "Cross ventilation is a natural phenomenon where wind enters an opening, such as a window, flows directly through the space, and exits through an opening on the opposite side of the building (where the air pressure is lower). This produces a cool stream of air and a current across the room from the exposed area to the sheltered area. Cross ventilation is powered by the wind and thus requires no energy input, in addition to being the most effective method of wind ventilation. A commonly used technique to remove pollutants and heat in an indoor environment, cross ventilation can also decrease or even obviate the need for air conditioning and can improve indoor air quality. Other terms used for the effect include cross-breeze, cross-draft, wind effect ventilation and cross-flow ventilation. In Germany they have been called lüften and Stoßlüften.",
+      "category_hint": "科学",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.965137Z"
+    },
+    {
+      "source_id": "wiki-topic:en:77848947",
+      "source_name": "EN Wikipedia：Bataan Rice Enrichment Project",
+      "source_url": "https://en.wikipedia.org/wiki/Bataan_Rice_Enrichment_Project",
+      "title": "Bataan Rice Enrichment Project",
+      "excerpt": "Bataan Rice Enrichment Project or the Bataan Experiment, was a collaborative research venture between American chemist Robert R. Williams and Juan Salcedo Jr. It was a series of feeding experiments conducted in municipalities in Bataan between 1947 and 1949. By the end of the experiments, it is shown that thiamine-enriched rice can reduce the cases of beriberi in the Philippines, which was the leading cause of deaths during those times.",
+      "category_hint": "生活",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.965221Z"
+    },
+    {
+      "source_id": "wiki-topic:en:1254336",
+      "source_name": "EN Wikipedia：Applied ecology",
+      "source_url": "https://en.wikipedia.org/wiki/Applied_ecology",
+      "title": "Applied ecology",
+      "excerpt": "Applied ecology is a sub-field within ecology that considers the application of the science of ecology to real-world (usually management) questions. It is also described as a scientific field that focuses on the application of concepts, theories, models, or methods of fundamental ecology to environmental problems.",
+      "category_hint": "生物",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.965283Z"
+    },
+    {
+      "source_id": "wiki-topic:en:7783",
+      "source_name": "EN Wikipedia：Coriolis force",
+      "source_url": "https://en.wikipedia.org/wiki/Coriolis_force",
+      "title": "Coriolis force",
+      "excerpt": "In physics, the Coriolis force is a pseudo-force that acts on objects in motion within a frame of reference that rotates with respect to an inertial frame. In a reference frame with clockwise rotation, the force acts to the left of the motion of the object. In one with anticlockwise (or counterclockwise) rotation, the force acts to the right. Deflection of an object due to the Coriolis force is called the Coriolis effect. Though recognized previously by others, the mathematical expression for the Coriolis force appeared in an 1835 paper by French scientist Gaspard-Gustave de Coriolis, in connection with the theory of water wheels. Early in the 20th century, the term Coriolis force began to be used in connection with meteorology. On Earth, the Coriolis force will affect the movement of air and water over long distance. Because of Earth's rotation, the moving object does not travel in a straight line relative to the Earth's surface but follows a curved path. This deflection (clockwise in the Northern Hemisphere and counterclockwise in the Southern Hemisphere) significantly influences large-scale circulation of winds and ocean currents. In popular (non-technical) usage of the term \"Coriolis...",
+      "category_hint": "科学",
+      "source_rank": 2,
+      "added_at": "2026-08-24T17:54:09.965461Z"
+    },
+    {
+      "source_id": "onthisday:zh:08/24:2012:5",
+      "source_name": "Wikimedia On This Day：2011年挪威爆炸和枪击事件",
+      "source_url": "https://zh.wikipedia.org/wiki/2011%E5%B9%B4%E6%8C%AA%E5%A8%81%E7%88%86%E7%82%B8%E5%92%8C%E6%9E%AA%E5%87%BB%E4%BA%8B%E4%BB%B6",
+      "title": "2012: 在2011年挪威爆炸和槍擊事件中殺死77人的凶手安德斯·貝林·布雷维克被奥斯擊的法院判處21年監禁。",
+      "excerpt": "事件：在2011年挪威爆炸和槍擊事件中殺死77人的凶手安德斯·貝林·布雷维克被奥斯擊的法院判處21年監禁。\n相关页面摘要：2011年挪威爆炸和枪击事件，又称烏托亞島大屠殺，是指2011年7月22日发生在挪威首都奥斯陆市的爆炸事件与数小时后发生在于特岛的枪击事件。当地时间15时26分，位于奥斯陆市中心的挪威政府办公大楼附近发生爆炸，挪威政府大楼、财政部大楼以及对面的《世界之路》报社在爆炸中受到破坏，造成8人死亡，30人受伤。在炸彈爆炸發生2小時後，在位于奥斯陆以西约40公里处于特岛发生枪击事件，一名装扮成警察的枪手向在岛上参加執政挪威工黨举办的青年团的人群射击，69人死亡，打伤66人，疑犯當場被捕。",
+      "category_hint": "历史",
+      "source_rank": 3,
+      "added_at": "2026-08-24T17:54:09.965533Z"
+    },
+    {
+      "source_id": "onthisday:zh:08/24:2012:6",
+      "source_name": "Wikimedia On This Day：加利福尼亚州",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%8A%A0%E5%88%A9%E7%A6%8F%E5%B0%BC%E4%BA%9A%E5%B7%9E",
+      "title": "2012: 美國加州納帕發生矩震級6.0地震，約200人受傷，美加州舊金山灣區近百人受傷。",
+      "excerpt": "事件：美國加州納帕發生矩震級6.0地震，約200人受傷，美加州舊金山灣區近百人受傷。\n相关页面摘要：加利福尼亚州，簡稱加州，是美国西部太平洋沿岸的一个州。面積列美國第三；人口為3,918萬，列美國各州第一。州首府是萨克拉门托。在地理、地貌、物產、人口構成方面都具有多样化的特點。加州有一别名叫做“金州”，邮政缩写是CA，此外尚有英文昵称为Cali。州內的大洛杉矶地区及舊金山灣區分別為美國第二及第五大都會區，人口分別為1,870萬及880萬人。洛杉矶為全州最大城市，且為美國第二大城市，僅次於纽约。洛杉矶县是美國人口最多的縣；聖貝納迪諾縣為美國面積最大的縣。",
+      "category_hint": "历史",
+      "source_rank": 3,
+      "added_at": "2026-08-24T17:54:09.965592Z"
+    },
     {
       "source_id": "wiki-random:zh:936346",
       "source_name": "ZH Wikipedia：圖書掃描",
@@ -2961,6 +3791,286 @@
       "category_hint": "综合",
       "source_rank": 4,
       "added_at": "2026-08-13T18:15:46.304872Z"
+    },
+    {
+      "source_id": "wiki-random:zh:6088668",
+      "source_name": "ZH Wikipedia：马里安山",
+      "source_url": "https://zh.wikipedia.org/wiki/%E9%A9%AC%E9%87%8C%E5%AE%89%E5%B1%B1",
+      "title": "马里安山",
+      "excerpt": "马里安山（Marjan）是克罗地亚的达尔马提亚地区最大的城市斯普利特的半岛上的一座小山。它被覆盖在茂密的地中海松树林中，完全被城市和大海包围，使其成为独特的景观。早在三世纪，它就被市民作为公园使用，是一个受欢迎的周末短途旅游目的地和城市休闲中心。这也是许多海滩和慢跑道以及网球场和动物园的所在地，都被风景优美的森林所环绕。半岛的顶端设有海洋学和渔业研究所（Institut za oceanografiju i ribarstvo, IZOR）。 马里安山高178米，可以欣赏到整个城市、周围的岛屿以及附近的莫索尔和科扎亚克山脉。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-24T17:54:09.966545Z"
+    },
+    {
+      "source_id": "wiki-random:en:70542680",
+      "source_name": "EN Wikipedia：Murder of Anthony Joseph Dolff",
+      "source_url": "https://en.wikipedia.org/wiki/Murder_of_Anthony_Joseph_Dolff",
+      "title": "Murder of Anthony Joseph Dolff",
+      "excerpt": "Anthony Joseph Dolff, was a farmer in Kamsack, Saskatchewan, Canada, who was killed in 1993. He was stabbed 17 times, hit on the head with a television, and strangled with a telephone cord. Three Saulteaux people, members of the Keeseekoose First Nation, were convicted of the crime. One, Jason Keshane, 14 years old at the time of the crime, confessed to the killing and as a juvenile was sentenced to two years in prison for second degree murder. His cousins, sisters Nerissa and Odelia Quewezance, 19 and 21 at the time, were sentenced to life in prison. Neither confessed and both have maintained their innocence at all times. Dolff had been a maintenance man at the residential school the two sisters attended. That night they reportedly drank a great deal of liquor and took prescription sleeping pills at Dolff's house, where he pestered them for sex. When he discovered that Odelia had taken money from his bedroom, a violent confrontation took place, in the course of which he was killed. The sisters' convictions are considered by many people to be a miscarriage of justice. Keshane, maintains that his cousins were not involved in the killing. The two sisters asked for a lawyer when they were...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-24T17:54:09.967827Z"
+    },
+    {
+      "source_id": "wiki-random:en:342977",
+      "source_name": "EN Wikipedia：Business process",
+      "source_url": "https://en.wikipedia.org/wiki/Business_process",
+      "title": "Business process",
+      "excerpt": "A business process, business method, or business function is a collection of related, structured activities or tasks performed by people or equipment in which a specific sequence produces a service or product (that serves a particular business goal) for a particular customer or customers. Business processes occur at all organizational levels and may or may not be visible to the customers. A business process may often be visualized (modeled) as a flowchart of a sequence of activities with interleaving decision points or as a process matrix of a sequence of activities with relevance rules based on data in the process. The benefits of using business processes include improved customer satisfaction and improved agility for reacting to rapid market change. Process-oriented organizations break down the barriers of structural departments and try to avoid functional silos.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-24T17:54:09.970835Z"
+    },
+    {
+      "source_id": "wiki-random:zh:7443062",
+      "source_name": "ZH Wikipedia：選擇性執法",
+      "source_url": "https://zh.wikipedia.org/wiki/%E9%81%B8%E6%93%87%E6%80%A7%E5%9F%B7%E6%B3%95",
+      "title": "選擇性執法",
+      "excerpt": "在法律上，当警察、檢察官等政府官员行使执法自由裁量权时，就会出现选择性执法，即选择是否行使或如何惩罚违法者的权力。執法者會有偏见地行使执法自由裁量权，例如基于种族偏见或是腐败因素。通常選擇性執法被认为是一种法律滥用行為和对法治的威胁。 在某些情况下，选择性执法可能是可取的。例如，对青少年进行口头警告可以有效地改变他们的行为，此時可以不需要對他們诉诸法律惩罚，而且还可以减少政府的法律费用。在其他情况下，选择性执法可能是不可避免的。例如，要警察向他们所看到的每一个超速驾驶者开出交通罰單可能是不切实际的，因此警察可能别无选择，只能將懲罰對象鎖定在那些最鲁莽的驾驶員身上。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-24T17:54:09.970987Z"
+    },
+    {
+      "source_id": "wiki-random:en:83744169",
+      "source_name": "EN Wikipedia：Ochre House Theater",
+      "source_url": "https://en.wikipedia.org/wiki/Ochre_House_Theater",
+      "title": "Ochre House Theater",
+      "excerpt": "The Ochre House Theater is a small nonprofit storefront theater in the Exposition Park neighborhood of Dallas, Texas, near Fair Park and the main gate of the State Fair of Texas. Founded in 2008 by the actor, writer, and director Matthew Posey, the roughly 50-seat company is known for staging original, experimental productions that combine live music, puppetry, dance, and video, most of them written and directed by Posey. The company describes itself as the \"Pioneers of the Suavant Garde.\"",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-24T17:54:09.971153Z"
+    },
+    {
+      "source_id": "wiki-random:zh:6439955",
+      "source_name": "ZH Wikipedia：消失女人之谜",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%B6%88%E5%A4%B1%E5%A5%B3%E4%BA%BA%E4%B9%8B%E8%B0%9C",
+      "title": "消失女人之谜",
+      "excerpt": "消失女人之謎、女性消失（英文：Missing women），是指一個地區或國家的婦女人數相對於預期婦女人數的短缺。 它通常透過男女性別比例來衡量，可能造成原因包含性別選擇性墮胎、殺害女嬰以及女孩醫療保健和營養不足引起的。 有人認為，自 1970 年代起就開始商業化的產前性別選擇技術是造成女性的消失的主要原因之一。 1990年，经济学家阿马蒂亚·库马尔·森首次提出该现象。在发表于纽约时报书评的一篇文章《消失的一亿女人》中，阿马蒂亚·库马尔·森指出在世界范围内，出生性别比例是大致相同的，即每出生100个女童就同时出生105到106个男童；但是，生物学研究表明，女性在相同的生活、医疗水平下，平均寿命高于男性，疾病抵抗力也强于男性。但是蹊跷的是统计数据显示欧洲、美洲和日本的男女性别比普遍低于西亚、南亚和中国。随后阿马蒂亚·库马尔·森继续进行该疑问的研究，并估算出在亚洲地区至少有一亿名女性“消失”了，即按照其它地区性别比估算得出的女性人口数量与实际的差值超过一亿。 南希·錢（Nancy_Qian）和西瑪·賈揚錢德蘭（Seema_Jayachandran）等經濟學家發現，中國和印度的赤字很大一部分是由於女性工資較低和性別選擇性墮胎造成的。 這種差異也存在於美國的華人和印度移民社區中，儘管程度遠小於亞洲。 1991年至2004年間，估計有2000名中國和印度女性胎兒被墮胎，短缺現象可以追溯到1980年。除了女性的健康福祉之外，女性的消失也導致社會男性過剩、婚姻市場不平衡。 女性消失率較高的國家往往也有較高的婦女健康狀況不佳的比例，導致嬰兒健康狀況不佳的比例較高。 研究人員認為，增加婦女的教育和婦女的就業機會有助於減少失蹤婦女的數量，但由於文化之間根深蒂固的性別歧視程度不同，這些政策解決方案的效果在不同國家之間存在很大差異。 許多國際組織已開始採取措施來解決女性消失的問題。 例如，為了提高人們對失蹤婦女問題的認識，OECD透過其SIGI指數中的「偏好兒子」參數來衡量失蹤婦女的數量。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-24T17:54:45.326345Z"
+    },
+    {
+      "source_id": "wiki-random:en:19562496",
+      "source_name": "EN Wikipedia：Battle of Hysiae (c. 669 BC)",
+      "source_url": "https://en.wikipedia.org/wiki/Battle_of_Hysiae_(c._669_BC)",
+      "title": "Battle of Hysiae (c. 669 BC)",
+      "excerpt": "A Battle of Hysiae is recorded by Pausanias as having been fought at Hysiae in the Argolis, possibly c. 669 BC during the rule of the Argive tyrant Pheidon. One of the few major setbacks suffered by the Spartans in conflict with their neighbors, the battle was mentioned by Pausanias as a significant victory for Argos. Pausanias reports no details of the battle, although he was shown the burial-site of the Argive dead. Nothing else is known about the conflict, except that the location in the Argolis suggests the repulse of a Spartan invasion. Hysiae was a stronghold located to the southwest of Argos and east of Tegea, near the border with Sparta. Modern scholars suggest that the battle marked a turning point in military history, because their defeat led the Spartans to change their military strategy, adopting the phalanx of hoplites in place of the loose spear-throwing formations prevalent until then. In the centuries to come, the phalanx revolutionised warfare in the classical world.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-24T17:54:45.326829Z"
+    },
+    {
+      "source_id": "wiki-random:zh:367341",
+      "source_name": "ZH Wikipedia：颶風伊歐凱",
+      "source_url": "https://zh.wikipedia.org/wiki/%E9%A2%B6%E9%A2%A8%E4%BC%8A%E6%AD%90%E5%87%B1",
+      "title": "颶風伊歐凱",
+      "excerpt": "飓风伊欧凯（Hurricane Ioke）又名台风伊欧凯（Typhoon Ioke），是有纪录以来中太平洋出现的最强热带气旋。作为2006年太平洋飓风季期间中太平洋形成的首场风暴，伊欧凯创下多项纪录，不但纵横太平洋达17天之久，而且强度先后3度达到萨菲尔-辛普森飓风等级下的五级飓风标准。 气旋由夏威夷州以南较远处的热带辐合带发展而成，由于水温较高，风切变极少，还有良好的外流推波助澜，伊欧凯迅速增强，在48小时内就从热带低气压强化成四级飓风。8月22日晚，风暴快速弱化成二级飓风，然后从约翰斯顿环礁上空经过。两天后，气旋又因外界环境有利而得以快速增强，于8月25日达到五级飓风标准并在不久后穿越国际日期变更线。伊欧凯继续向西行进，其强度反复波动，于8月31日以风力时速249公里强度从威克岛附近经过。风暴接下来转朝西北方向移动，之后又转向北上，并在此期间逐渐弱化，于9月6日转变成温带气旋。系统残留加速向东北前进，最终进入阿拉斯加州上空。 无论是在飓风还是台风时期，伊欧凯都没有对中太平洋和西太平洋任何人口常住地区构成影响。约翰斯顿环礁有12人在风暴来袭期间躲进飓风掩体，他们估计气旋风速超过每小时160公里，对岛上树木构成破坏，但鸟类基本没有受到影响。台风在威克岛构成中等程度破坏，部分建筑受损，房屋的屋顶被刮掉，损失总额约8800万美元（2006年美元，相当于2026年的1.41億美元），幸而所有军事人员均已撤离，岛上基础设施也都完好无损。伊欧凯的温带残留之后还在阿拉斯加州海岸沿线产生强烈风暴潮，引起海滩侵蚀。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-24T17:54:45.327470Z"
+    },
+    {
+      "source_id": "wiki-random:en:33996914",
+      "source_name": "EN Wikipedia：1999 Bovenkarspel legionellosis outbreak",
+      "source_url": "https://en.wikipedia.org/wiki/1999_Bovenkarspel_legionellosis_outbreak",
+      "title": "1999 Bovenkarspel legionellosis outbreak",
+      "excerpt": "The Bovenkarspel legionellosis outbreak (Dutch: Legionellaramp; Legionella disaster) began on 25 February 1999 in Bovenkarspel, the Netherlands, and was one of the largest outbreaks of legionellosis in history. With at least 32 dead and 206 severe infections, it was the deadliest legionellosis outbreak since the original 1976 outbreak in Philadelphia, United States. Between 19 and 28 February 1999, the Westfriese Flora took place in Bovenkarspel, one of the largest indoor flower exhibitions in the world (later the Holland Flowers Festival). A vendor had several recreational hot tubs on display, with one of them filled from a long-inactive fire hose and heated to 37 degrees Celsius (98.6 degrees Fahrenheit). In the water that had previously stagnated inside the hose, a very aggressive type of Legionella pneumophila bacterium had developed. Although the Dutch Health Council had recommended treating whirlpool water with chlorine since 1986, this was not done with the affected hot tub, allowing the bacteria to spread. In 2001, the Regulation on Legionella Prevention in Drinking Water and Warm Tap Water came into effect to prevent further legionellosis outbreaks. In October 2000, a memorial...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-24T17:54:45.330005Z"
+    },
+    {
+      "source_id": "wiki-random:en:64280332",
+      "source_name": "EN Wikipedia：Pseudopterygium",
+      "source_url": "https://en.wikipedia.org/wiki/Pseudopterygium",
+      "title": "Pseudopterygium",
+      "excerpt": "Pseudopterygium is the conjunctival adhesion to cornea caused by limbal or corneal inflammation or trauma. The pseudopterygium can be easily distinguished from pterygium by bowman's probe test. Because of the lack of adherence of pseudopterygium at every point, the probe can be passed beneath it at some point.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-24T17:54:45.330302Z"
+    },
+    {
+      "source_id": "wiki-random:en:77609190",
+      "source_name": "EN Wikipedia：Chlodantane",
+      "source_url": "https://en.wikipedia.org/wiki/Chlodantane",
+      "title": "Chlodantane",
+      "excerpt": "Chlodantane (developmental code name ADK-910) is a drug described as an adaptogen or actoprotector \"of the estrogen activity type\" that was developed in Russia and was never marketed. It is an adamantane derivative and is closely related to bromantane (N-(2-adamantyl)-N-(para-bromophenyl)amine) and other adamantanes. It has been said to improve physical performance. However, only animal or cell culture research has been conducted and it has not been studied in humans. The drug is described as having a broader spectrum of activity than bromantane. It also has immunostimulant effects that are said to be more pronounced than those of bromantane.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-24T17:54:45.330546Z"
+    },
+    {
+      "source_id": "wiki-random:zh:670398",
+      "source_name": "ZH Wikipedia：法杰伊·别林斯高晋",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%B3%95%E6%9D%B0%E4%BC%8A%C2%B7%E5%88%AB%E6%9E%97%E6%96%AF%E9%AB%98%E6%99%8B",
+      "title": "法杰伊·别林斯高晋",
+      "excerpt": "法杰伊·法捷耶维奇·别林斯高晋（俄語：Фадде́й Фадде́евич Беллинсга́узен；1778年8月18日—1852年1月25日），德语名法比安·戈特利布·本亚明·冯·贝林斯豪森（德語：Fabian Gottlieb Benjamin von Bellingshausen），俄罗斯帝国海军中将及著名探险家，有波罗的海德意志人血统。他参与了俄罗斯的第一次环球航行，随后成为另一个环球航行探险队的领导者，该次航行发现了南极洲大陆，因此他是的南极洲大陆发现者之一。 别林斯高晋的航海生涯始于在波罗的海舰队的服役。在1803年至1806年参与俄罗斯的第一次环球航行时，他在亚当·约翰·冯·克鲁森施滕指挥的商船娜杰日达号（上服务。在结束这次环球航行后他出版了新探索地区和太平洋诸岛的地图集。 后来他指挥过几艘波罗的海舰队和黑海舰队的舰船。 作为一个著名制图师，别林斯高晋指挥了1818年至1821年期间的俄罗斯环球航行，意在探索南大洋并找到南极附近的陆地。此次探险由他的襄理米哈伊尔·拉扎列夫筹备，他也是单桅帆船米尔内号的船长。别林斯高晋则亲自指挥单桅帆船东方号。在这次探险期间，别林斯高晋和拉扎列夫在1820年1月28日成为第一批看到南极大陆的探险者。他们设法两次环游南极大陆，航行过程中两船均保持在对方视线之内。 因此他们驳斥了库克船长关于在南冰洋找不到陆地的说法。 探险队发现并命名了彼得一世岛、扎沃多夫斯基岛、列斯科夫岛和维索科伊岛以及南极半岛和亚历山大一世岛，并在太平洋的热带海域有了其他发现。 在结束环球航行返俄后，别林斯高晋参加了1828年至1829年期间的第八次俄土战争。晋升为中将之后，他再次在波罗的海舰队服役。自1839年起，别林斯高晋担任喀琅施塔得的军政总督直至去世。1831年，他出版了以自己南极探险经历为内容的书籍。俄国人将别林斯高晋作为他们最伟大的海军将领和探险家之一，南极地区的多个地名以别林斯高晋的名字来命名，以此纪念他在探索南极地区上做出的贡献。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-24T17:54:45.330737Z"
+    },
+    {
+      "source_id": "wiki-random:en:32391066",
+      "source_name": "EN Wikipedia：Neonothopanus gardneri",
+      "source_url": "https://en.wikipedia.org/wiki/Neonothopanus_gardneri",
+      "title": "Neonothopanus gardneri",
+      "excerpt": "Neonothopanus gardneri, locally known as flor de coco, is a bioluminescent fungus native to Goiás, Piauí and Tocantins states in Brazil. The fungus was first discovered in 1839 by the English botanist George Gardner, after he came across some youths playing with glowing material in the streets of Villa de Natividade in Goiás state in Brazil. Initially thinking it was a firefly, he then discovered it was a mushroom—known as Flor de Coco locally—that was common locally and found on decaying palm leaves. Gardner sought to call it Agaricus phosphorescens. However, his colleague Miles Joseph Berkeley opined that the attribute was not unique, and hence described it with the specific name A. gardneri. Gardner thought it resembled members of the genus Pleurotus in structure, while Berkeley felt it was more akin to the genus Panus but conceded spores were necessary for further classification. It was rediscovered in February 2005 by scientists Patricia Izar, Elisabetta Visalberghi and Dorothy Fragaszy, with the aid of Marino Gomes de Oliveira. It is larger and brighter than other known bioluminescent fungi. Marina Capelari and colleagues investigated its relationships by analysing it and close...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-24T17:54:45.331378Z"
+    },
+    {
+      "source_id": "wiki-random:zh:6739863",
+      "source_name": "ZH Wikipedia：加斯頓·馬伯樂",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%8A%A0%E6%96%AF%E9%A0%93%C2%B7%E9%A6%AC%E4%BC%AF%E6%A8%82",
+      "title": "加斯頓·馬伯樂",
+      "excerpt": "加斯顿·卡米尔·查尔斯·马伯乐（法語：Gaston Camille Charles Maspero，1846年6月23日—1916年6月30日）法国埃及学学者，1881年的论文使得“海上民族”一词得以流行。其子亨利·馬伯樂是著名的汉学家，喬治·馬伯樂是东方学家。 加斯顿·马伯乐祖籍意大利。1874年在巴黎法兰西学院任埃及学教授。1881年起在开罗主持埃及古物管理所,从事考古工作。在萨卡拉等地发现古王国金字塔铭文和新王国法老的木乃伊。著作有《埃及古物考》《古代埃及与亚述人的生活》和《文明之曙光》等。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-24T17:54:45.332023Z"
+    },
+    {
+      "source_id": "wiki-random:zh:5536752",
+      "source_name": "ZH Wikipedia：次地球",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%AC%A1%E5%9C%B0%E7%90%83",
+      "title": "次地球",
+      "excerpt": "次地球是規模（質量）遠小於地球和金星的行星，目錄中包括太陽系的水星和火星。因為它們的小尺寸和低質量，只能產生微弱的信號，是最難檢測出的太陽系外行星。儘管如此的困難，發現的第一顆系外行星是繞著毫秒脈衝星 PSR B1257+12的次行星。 太空望遠鏡克卜勒打開發現次地球的契機。在2012年1月10日，克布勒發現三顆環繞著克卜勒42的次地球。迄2014年6月，克卜勒已經確認45顆比地球小的系外行星，其中17顆的半徑是0.8 Rⴲ。此外，還有310顆行星候選者的半徑估計是1 Rⴲ，以及135顆是小於0.8 Rⴲ。 由於低重力和磁場微弱，使得母恆星的輻射可以消蝕它們的大氣層，因此次地球通常缺乏大氣層。由於尺寸小，除非在其軌道接近母恆星時有強大的潮汐力，次地球才會有短時間的地質活動。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-24T17:55:13.424165Z"
+    },
+    {
+      "source_id": "wiki-random:en:217118",
+      "source_name": "EN Wikipedia：Minesweeper",
+      "source_url": "https://en.wikipedia.org/wiki/Minesweeper",
+      "title": "Minesweeper",
+      "excerpt": "A minesweeper is a small warship designed to remove or detonate naval mines. Using various mechanisms intended to counter the threat posed by naval mines, minesweepers keep waterways clear for safe shipping.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-24T17:55:13.424410Z"
+    },
+    {
+      "source_id": "wiki-random:en:82490234",
+      "source_name": "EN Wikipedia：5-MeO-DPAC",
+      "source_url": "https://en.wikipedia.org/wiki/5-MeO-DPAC",
+      "title": "5-MeO-DPAC",
+      "excerpt": "5-MeO-DPAC, also known as 5-methoxy-3-(dipropylamino)chroman, is a potent and highly selective serotonin 5-HT1A receptor full agonist related to 8-OH-DPAT. It is a derivative of 3-aminochroman, in which in the 5th position of the benzene ring there is a methoxy group, and in the 3rd position of dipropylamine. The drug shows no affinity for other serotonin receptors or for the dopamine D2 receptor. It acts at very low concentrations, albeit with lower potency than 8-OH-DPAT, and unlike 8-OH-DPAT, does not bind to presynaptic serotonin 5-HT1A receptors in the striatum. The mechanism of action of 5-MeO-DPAC is to reduce the synthesis and turnover of serotonin in the brain through selective activation of serotonin 5-HT1A autoreceptors, which is mediated through a negative feedback system without a direct effect on striatal binding sites. Several analogues and positional isomers of 5-MeO-DPAC have also been described. 5-MeO-DPAC was first described in the scientific literature by 1987.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-24T17:55:13.425077Z"
+    },
+    {
+      "source_id": "wiki-random:zh:7701976",
+      "source_name": "ZH Wikipedia：PicoLisp",
+      "source_url": "https://zh.wikipedia.org/wiki/PicoLisp",
+      "title": "PicoLisp",
+      "excerpt": "PicoLisp是Lisp语言的一个方言。它运行在包括Linux和其他兼容“可移植操作系统接口”（POSIX）的操作系统之上。它的显著特征是简单性和极简主义。它建造一个内部数据类型之上：单元（cell）。在语言层面上，编程者可以使用由单元表示的三种数据类型（数、符号和列表），由单元结束处的位元来区分。它是在MIT许可证（X11）下发行的自由及开放源代码软件。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-24T17:55:13.425594Z"
+    },
+    {
+      "source_id": "wiki-random:zh:1666146",
+      "source_name": "ZH Wikipedia：坍塌搜救專隊訓練場",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%9D%8D%E5%A1%8C%E6%90%9C%E6%95%91%E5%B0%88%E9%9A%8A%E8%A8%93%E7%B7%B4%E5%A0%B4",
+      "title": "坍塌搜救專隊訓練場",
+      "excerpt": "消防處坍塌搜救專隊訓練場（英語：Fire Services Department Training Ground for Urban Search & Rescue Team）為香港消防處坍塌搜救專隊的訓練基地，位於香港新界上水彩順街近落馬洲支線上水通風大樓，耗資500萬港元建造，於2011年9月15日啟用，面積達2,770平方米。坍塌搜救專隊訓練場模擬不同種類的建築物在受到災害後的環境，可以訓練人員在狹窄、坍塌及密閉場地中熟練使用爆破、搜索及拯救等工具，進行城市搜索及拯救等進階密集式的訓練。消防及救護學院於2016年3月竣工後，坍塌搜救專隊訓練場已經關閉，交還地政總署（但目前該地仍用作消防處臨時物料倉）。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-24T17:55:13.427847Z"
+    },
+    {
+      "source_id": "wiki-random:en:65060382",
+      "source_name": "EN Wikipedia：1877 Central Cumberland colonial by-election",
+      "source_url": "https://en.wikipedia.org/wiki/1877_Central_Cumberland_colonial_by-election",
+      "title": "1877 Central Cumberland colonial by-election",
+      "excerpt": "A by-election was held for the New South Wales Legislative Assembly electorate of Central Cumberland on 31 August 1877 because the seats of William Long and John Lackey were declared vacant as they had been appointed to positions in the fourth Robertson ministry. Long was appointed Colonial Treasurer, and Lackey was appointed Minister of Justice and Public Instruction. Such ministerial by-elections were usually uncontested however on this occasion, only Thomas Garrett (Camden) and Ezekiel Baker (Goldfields South) were unopposed. While the other ministers, John Robertson (West Sydney), John Davies (East Sydney) and Edward Combes (Orange) were opposed, all were re-elected.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-24T17:55:13.429071Z"
+    },
+    {
+      "source_id": "wiki-random:en:1517328",
+      "source_name": "EN Wikipedia：Demographics of Paris",
+      "source_url": "https://en.wikipedia.org/wiki/Demographics_of_Paris",
+      "title": "Demographics of Paris",
+      "excerpt": "The city of Paris (also called the Commune or Department of Paris) had a population of 2,047,602 people within its administrative city limits as of 1 January 2026. It is surrounded by the Paris unité urbaine, or urban area, the most populous urban area in the European Union. In 2023 the unité urbaine had a population of 11,013,774 in 2,824 km2 (1,090 sq mi). The Paris Region, or Île-de-France, covers 12,012 km2 (4,638 sq mi), and has its own regional council and president. It has a population of 12,463,067 as of January 2023, or 18.3 percent of the population of France. The metropolitan or functional area (aire d'attraction) of Paris covers 18,941 km2 (7,313 sq mi) and has 13,320,752 inhabitants (2023). The population of the city of Paris reached a historic high of 2.9 million in 1921 but then declined; between 1954 and 1999 it declined at every census, falling to 2,125,246 in 1999. After that it began to climb again, reaching 2,240,621 in 2012, but falling to 2,103,778 in 2023. The city's population loss reflected the experience of most other core cities in the developed world that have not expanded their boundaries. The principal factors in the process were a significant decline in...",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-24T17:55:13.429698Z"
+    },
+    {
+      "source_id": "wiki-random:zh:710242",
+      "source_name": "ZH Wikipedia：四足類",
+      "source_url": "https://zh.wikipedia.org/wiki/%E5%9B%9B%E8%B6%B3%E9%A1%9E",
+      "title": "四足類",
+      "excerpt": "四足類（英語：tetrapod）是一支主要为适应陆地环境而演化的有颌类脊椎动物，在生物分类学上组成了四足总纲或四足超纲（學名：Tetrapoda），包含两栖动物和羊膜动物两类，前者包括仅存的滑体类和已灭绝的离片椎类与壳椎类，后者包括合弓纲（现生的哺乳类及其已灭绝的兽孔目和盘龙目亲族）和蜥形纲（现生的爬行类、鸟类和其已灭绝的各类史前亲族）两大演化支。四足动物是四足形類的冠群，由泥盆紀晚期的淡水肉鳍鱼类演化而来，是肉鳍鱼现存的主要后裔。除少数两栖鱼类外，所有陆生和半水生的脊椎动物都是四足类。 作为陆生演化支，四足类动物的成体都用与鱼鳔同源的肺直接呼吸空气进行气体交换，其中两栖类在幼体阶段为水生会暂时使用鳃呼吸，有些物种（两栖类和少数爬行类）在成年后还可以通过皮肤或肠道呼吸。如其名所示，大部分四足类都擁有左右对称的前后两对共四个肢体（包括鳍肢和翅膀等特化肢体），同源对应鱼类的两对偶鳍（胸鳍和腹鳍），且每个肢体都由有关节相连的内骨骼支撑并配带骨骼肌。但也有一些物种（蛇类、蛇蜥和蚓螈）因为Hox基因变异在演化过程中退化失去了四肢，仅在少数群体中残留肉眼可见的痕迹器官。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-24T17:55:53.089822Z"
+    },
+    {
+      "source_id": "wiki-random:en:56008516",
+      "source_name": "EN Wikipedia：RelationShipped",
+      "source_url": "https://en.wikipedia.org/wiki/RelationShipped",
+      "title": "RelationShipped",
+      "excerpt": "RelationShipped is an American reality series that premiered on November 9, 2017, on Facebook Watch. The interactive series, produced by BuzzFeed, allows viewers to influence decisions and events in each episode. Facebook users select the show's protagonist, the \"Suitor\", from eligible single men in the first episode. He hosts female competitors in a Los Angeles–based mansion, where they each vie for his affection. In subsequent episodes, the audience has the ability to nominate new prospective competitors to be introduced, and the opportunity to select date ideas, amongst other decisions. New episodes are released twice weekly, on Monday and Thursday.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-24T17:55:53.090062Z"
+    },
+    {
+      "source_id": "wiki-random:en:18932344",
+      "source_name": "EN Wikipedia：Inshas",
+      "source_url": "https://en.wikipedia.org/wiki/Inshas",
+      "title": "Inshas",
+      "excerpt": "Inshas (Arabic: أنشاص الرمل) is a village located in Bilbeis, Sharqia Governorate, 60 kilometers east of Cairo, Egypt. It holds the first experimental nuclear reactor to be operated in Egypt ETRR-1 as well as the second experimental reactor ETRR-2, the Egyptian Atomic Energy Authority Experimental Farm, unauthorized IAEA. Following the creation of the Arab League in March 1945, Inshas held the first Arab League Summit in May 1946. Inshas hosts the Thunderbolt School, a training facility for the Egyptian army's El-Sa'ka Forces. The facility was used to train Palestinian commandos (fedayeen), including members of the Arab Nationalist Movement between 1962 and 1965. The village has a mosque, named for King Farouk I and managed by the Egyptian Ministry of Religious Endowments. Construction of the mosque begun in 1923, during the reign of Farouk's predecessor, King Fuad I, and was completed in preparation for the 1946 Arab Summit.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-24T17:55:53.090257Z"
+    },
+    {
+      "source_id": "wiki-random:en:42774063",
+      "source_name": "EN Wikipedia：Rois sans couronne",
+      "source_url": "https://en.wikipedia.org/wiki/Rois_sans_couronne",
+      "title": "Rois sans couronne",
+      "excerpt": "Rois sans couronne is the second studio album by French rapper Nessbeal. It was released on June 9, 2008, by Nouvelle Donne Music and Because Éditions for digital download. The album entered the French Albums Charts at number 18, where it had since peaked.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-24T17:55:53.091395Z"
+    },
+    {
+      "source_id": "wiki-random:zh:7921231",
+      "source_name": "ZH Wikipedia：世贸中心定向爆破阴谋论",
+      "source_url": "https://zh.wikipedia.org/wiki/%E4%B8%96%E8%B4%B8%E4%B8%AD%E5%BF%83%E5%AE%9A%E5%90%91%E7%88%86%E7%A0%B4%E9%98%B4%E8%B0%8B%E8%AE%BA",
+      "title": "世贸中心定向爆破阴谋论",
+      "excerpt": "一些阴谋论主张，世界貿易中心倒塌不仅仅是由九一一袭击事件中客机撞击及其引起的火灾所造成的，而且是由预先装在建筑中的爆炸物造成的。定向爆破理论是九一一事件阴谋论的主要组成部分。 该理论的早期拥护者包括物理学家史蒂文·E·琼斯、建筑师理查德·盖奇、软件工程师吉姆·霍夫曼和神学家大卫·雷·格里芬。他们提出，飞机撞击及其引起的火灾并不能彻底削弱建筑物并引发灾难性坍塌。而且，如果没有额外的能量来削弱其结构，这些建筑不会完全倒塌，更不会以它们实际倒塌的速度而倒塌。 美国国家标准技术研究所（National Institute of Standards and Technology，简称NIST）和《大众力学》杂志审查并否定了这些理论。结构力学和结构工程专家接受了“世贸中心建筑由火灾引起、由重力造成坍塌”的模型，该解释并不涉及使用炸药。NIST“没有发现确凿的证据，能够支持其它假说，例如主张世贸中心塔楼是由定向爆破摧毁的，而使用的炸药是在2001年9月11日之前埋入大楼的。”一些教授，如西北大学的兹德涅克·巴赞特、麻省理工学院的托马斯·伊格（Thomas Eagar）和马里兰大学的詹姆斯·昆蒂尔，也驳斥了定向爆破阴谋论。 2006年，琼斯猜测，一些政府内部人员可能使用铝热剂或超级铝热剂来摧毁这些建筑，他们既可以获取此类材料，又可以进入建筑物本身。2009年4月，琼斯、戴恩·尼尔斯·H·哈里特（Dane Niels H. Harrit）和其他7位作者在《开放化学物理杂志》（The Open Chemical Physics Journal）上发表了一篇论文，导致了编辑玛丽-保尔·皮莱尼教授的辞职，她指责出版商在她不知情的情况下出版了该文；这篇文章的标题是《在九一一世贸中心灾难的灰尘中发现的活性热敏材料》（Active Thermitic Material Discovered in Dust from the 9/11 World Trade Center Catastrophe），并称他们在世贸中心塔楼坍塌期间所产生的灰尘样本中，发现了纳米铝热剂的证据。NIST回应说，没有“明确的监管链”来证明这四个灰尘样本来自世贸中心现场。琼斯邀请NIST使用他们自己的在已知“监管链”下的粉尘进行他们自己的研究，但NIST并没有进行此研究。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-24T17:55:53.091596Z"
+    },
+    {
+      "source_id": "wiki-random:en:45223703",
+      "source_name": "EN Wikipedia：Thessaloniki Programme",
+      "source_url": "https://en.wikipedia.org/wiki/Thessaloniki_Programme",
+      "title": "Thessaloniki Programme",
+      "excerpt": "The Thessaloniki Programme is a manifesto adopted by the Greek Coalition of the Radical Left (SYRIZA), first presented by party leader Alexis Tsipras at the Thessaloniki International Fair on 13 September 2014, proposing a set of policies oriented towards reversing austerity measures while maintaining a balanced budget. At the start of 2015, while still Leader of the Opposition, Tsipras stated that the programme is \"not negotiable\". After Syriza won a majority in legislative elections held on 25 January 2015, Tsipras became Prime Minister of Greece and brokered a coalition with the right-wing anti-austerity Independent Greeks with the shared goal of immediate realisation of the programme. An official Syriza statement promised that the \"new government will implement the Thessaloniki program to end the humanitarian crisis\". On 13 July 2015, the Greek government and the European creditors reached an agreement under which the government had to implement harsh austerity measures, which effectively made the major economic measures proposed by the Thessaloniki programme virtually impossible to implement.",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-24T17:55:53.093500Z"
+    },
+    {
+      "source_id": "wiki-random:zh:6348117",
+      "source_name": "ZH Wikipedia：纸莎草学",
+      "source_url": "https://zh.wikipedia.org/wiki/%E7%BA%B8%E8%8E%8E%E8%8D%89%E5%AD%A6",
+      "title": "纸莎草学",
+      "excerpt": "纸莎（suō）草学（英語：Papyrology）是研究古代文献、信件和法律文书等书写于莎草纸上的手稿，这种记录方式是古埃及、古希腊和古罗马文明时期的常用方式。 纸莎草学包括转录翻译各种语言的古代文献，以及保存珍稀沙草纸原件。 纸莎草学作为一个系统化学科的建立可追溯到1890年代。当时，考古学家在埃及多地，如阿尔西诺伊(法尤姆)和俄克喜林庫斯，发现了大量保存完好的的沙草纸。其建立着有维也纳的阿拉伯纸莎草学者约瑟夫·冯·卡拉巴契克，德国的希腊纸草学者威廉·舒巴特，以及奥地利的西奥多·格拉夫，他们在埃及得到了超过10万份希腊、阿拉伯、科普特和波斯的莎草纸，后被奥地利的大公莱纳购得；格鲁吉亚科学家采列泰利发表了俄罗斯和格鲁吉亚的莎草纸收集；以及其它一些科学家。 维也纳的基督教、非基督教和阿拉伯的沙草纸被称为莱纳莎草纸，代表了首次在埃及法尤姆大量发现的莎草纸手稿。大约1880年时， 代表冯·卡拉巴契克的一位地毯交易商在开罗得到了超过1万份莎草纸以及一些写有文字的麻织物，其中超过3000份是用阿拉伯语书写的。1882年，这些莎草纸鹤织物被出口到维也纳公开展示，并引起轰动。随后，莱纳大公买下了它们，并展示于维也纳的皇家科学院。 最早的西方莎草纸卷由韦莱特里的枢机主教斯特法诺·鲍尔吉亚于1778年发，表标题为《Charta papyracea Graece scripta Museums Borgiani Velitris》，亦被称为《Charta Borgiana》。",
+      "category_hint": "综合",
+      "source_rank": 4,
+      "added_at": "2026-08-24T17:55:53.094105Z"
     }
   ]
 }

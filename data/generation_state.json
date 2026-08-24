@@ -314,7 +314,7 @@
       "reason": ""
     },
     "wiki-topic:en:23789867": {
-      "last_seen": "2026-07-13T20:50:53.917443Z",
+      "last_seen": "2026-08-24T17:58:25.143739Z",
       "source_url": "https://en.wikipedia.org/wiki/Critical_language_awareness",
       "outcome": "reviewed_not_saved",
       "reason": ""
@@ -410,9 +410,9 @@
       "reason": ""
     },
     "wiki-topic:en:24544": {
-      "last_seen": "2026-07-13T20:50:53.917513Z",
+      "last_seen": "2026-08-24T17:58:25.143804Z",
       "source_url": "https://en.wikipedia.org/wiki/Photosynthesis",
-      "outcome": "reviewed_not_saved",
+      "outcome": "accepted",
       "reason": ""
     },
     "wiki-topic:en:10469455": {
@@ -428,7 +428,7 @@
       "reason": ""
     },
     "wiki-topic:en:7555": {
-      "last_seen": "2026-07-13T20:50:53.917524Z",
+      "last_seen": "2026-08-24T17:58:25.143841Z",
       "source_url": "https://en.wikipedia.org/wiki/Casimir_effect",
       "outcome": "reviewed_not_saved",
       "reason": ""
@@ -470,13 +470,13 @@
       "reason": ""
     },
     "wiki-topic:en:52634": {
-      "last_seen": "2026-07-14T20:51:11.667798Z",
+      "last_seen": "2026-08-24T17:58:25.143787Z",
       "source_url": "https://en.wikipedia.org/wiki/Baking",
       "outcome": "reviewed_not_saved",
       "reason": ""
     },
     "wiki-topic:en:58687": {
-      "last_seen": "2026-07-14T20:51:11.667801Z",
+      "last_seen": "2026-08-24T17:58:25.143792Z",
       "source_url": "https://en.wikipedia.org/wiki/Aggression",
       "outcome": "no_proposal",
       "reason": ""
@@ -488,7 +488,7 @@
       "reason": ""
     },
     "wiki-topic:en:1710634": {
-      "last_seen": "2026-07-14T20:51:11.667807Z",
+      "last_seen": "2026-08-24T17:58:25.143796Z",
       "source_url": "https://en.wikipedia.org/wiki/Dramaturgy_(sociology)",
       "outcome": "no_proposal",
       "reason": ""
@@ -518,9 +518,9 @@
       "reason": ""
     },
     "wiki-topic:en:295888": {
-      "last_seen": "2026-07-14T20:51:11.667821Z",
+      "last_seen": "2026-08-24T17:58:25.143768Z",
       "source_url": "https://en.wikipedia.org/wiki/History_of_calendars",
-      "outcome": "reviewed_not_saved",
+      "outcome": "no_proposal",
       "reason": ""
     },
     "wiki-topic:en:6012335": {
@@ -530,13 +530,13 @@
       "reason": ""
     },
     "wiki-topic:en:1676383": {
-      "last_seen": "2026-07-14T20:51:11.667826Z",
+      "last_seen": "2026-08-24T17:58:25.143778Z",
       "source_url": "https://en.wikipedia.org/wiki/History_of_agricultural_science",
       "outcome": "reviewed_not_saved",
       "reason": ""
     },
     "wiki-topic:en:18053246": {
-      "last_seen": "2026-07-14T20:51:11.667829Z",
+      "last_seen": "2026-08-24T17:58:25.143773Z",
       "source_url": "https://en.wikipedia.org/wiki/History_of_condoms",
       "outcome": "reviewed_not_saved",
       "reason": ""
@@ -548,15 +548,15 @@
       "reason": ""
     },
     "wiki-topic:en:909363": {
-      "last_seen": "2026-07-14T20:51:11.667833Z",
+      "last_seen": "2026-08-24T17:58:25.143809Z",
       "source_url": "https://en.wikipedia.org/wiki/Biotinylation",
-      "outcome": "reviewed_not_saved",
+      "outcome": "accepted",
       "reason": ""
     },
     "wiki-topic:en:35215882": {
-      "last_seen": "2026-07-14T20:51:11.667835Z",
+      "last_seen": "2026-08-24T17:58:25.143813Z",
       "source_url": "https://en.wikipedia.org/wiki/Isothermal_microcalorimetry",
-      "outcome": "reviewed_not_saved",
+      "outcome": "accepted",
       "reason": ""
     },
     "wiki-topic:en:38454300": {
@@ -602,7 +602,7 @@
       "reason": ""
     },
     "wiki-topic:en:30946399": {
-      "last_seen": "2026-07-15T18:44:13.780650Z",
+      "last_seen": "2026-08-24T17:58:25.143760Z",
       "source_url": "https://en.wikipedia.org/wiki/Displacement_(linguistics)",
       "outcome": "reviewed_not_saved",
       "reason": ""
@@ -680,7 +680,7 @@
       "reason": ""
     },
     "wiki-topic:en:4008035": {
-      "last_seen": "2026-07-15T18:44:13.780712Z",
+      "last_seen": "2026-08-24T17:58:25.143783Z",
       "source_url": "https://en.wikipedia.org/wiki/Efficiency_movement",
       "outcome": "no_proposal",
       "reason": ""
@@ -704,15 +704,15 @@
       "reason": ""
     },
     "wiki-topic:en:23535218": {
-      "last_seen": "2026-07-15T18:44:13.780725Z",
+      "last_seen": "2026-08-24T17:58:25.143825Z",
       "source_url": "https://en.wikipedia.org/wiki/Industrial_engineering",
       "outcome": "no_proposal",
       "reason": ""
     },
     "wiki-topic:en:184495": {
-      "last_seen": "2026-07-15T18:44:13.780729Z",
+      "last_seen": "2026-08-24T17:58:25.143837Z",
       "source_url": "https://en.wikipedia.org/wiki/Biefeld%E2%80%93Brown_effect",
-      "outcome": "reviewed_not_saved",
+      "outcome": "accepted",
       "reason": ""
     },
     "wiki-topic:en:5279341": {
@@ -722,9 +722,9 @@
       "reason": "证据未能在原文中匹配"
     },
     "wiki-topic:en:7783": {
-      "last_seen": "2026-07-15T18:44:13.780737Z",
+      "last_seen": "2026-08-24T17:58:25.143845Z",
       "source_url": "https://en.wikipedia.org/wiki/Coriolis_force",
-      "outcome": "reviewed_not_saved",
+      "outcome": "accepted",
       "reason": ""
     },
     "wiki-topic:en:33149795": {
@@ -734,7 +734,7 @@
       "reason": ""
     },
     "wiki-topic:en:16250616": {
-      "last_seen": "2026-07-15T18:44:13.780743Z",
+      "last_seen": "2026-08-24T17:58:25.143849Z",
       "source_url": "https://en.wikipedia.org/wiki/Epicentral_distance",
       "outcome": "reviewed_not_saved",
       "reason": ""
@@ -764,7 +764,7 @@
       "reason": ""
     },
     "wiki-topic:en:53782753": {
-      "last_seen": "2026-07-16T18:38:45.310945Z",
+      "last_seen": "2026-08-24T17:58:25.143799Z",
       "source_url": "https://en.wikipedia.org/wiki/Behavior_change_(individual)",
       "outcome": "no_proposal",
       "reason": ""
@@ -968,7 +968,7 @@
       "reason": ""
     },
     "wiki-topic:en:1525710": {
-      "last_seen": "2026-07-17T18:35:57.230423Z",
+      "last_seen": "2026-08-24T17:58:25.143817Z",
       "source_url": "https://en.wikipedia.org/wiki/Assimilation_(biology)",
       "outcome": "no_proposal",
       "reason": ""
@@ -980,7 +980,7 @@
       "reason": ""
     },
     "wiki-topic:en:17787631": {
-      "last_seen": "2026-07-17T18:35:57.230430Z",
+      "last_seen": "2026-08-24T17:58:25.143821Z",
       "source_url": "https://en.wikipedia.org/wiki/Bi-isotropic_material",
       "outcome": "no_proposal",
       "reason": ""
@@ -1094,7 +1094,7 @@
       "reason": ""
     },
     "wiki-topic:en:49223016": {
-      "last_seen": "2026-07-18T18:15:55.220272Z",
+      "last_seen": "2026-08-24T17:58:25.143857Z",
       "source_url": "https://en.wikipedia.org/wiki/Electrolithoautotroph",
       "outcome": "reviewed_not_saved",
       "reason": ""
@@ -1130,7 +1130,7 @@
       "reason": ""
     },
     "wiki-topic:en:29637793": {
-      "last_seen": "2026-07-18T18:15:55.220311Z",
+      "last_seen": "2026-08-24T17:58:25.143829Z",
       "source_url": "https://en.wikipedia.org/wiki/Aerospace_materials",
       "outcome": "no_proposal",
       "reason": ""
@@ -1238,9 +1238,9 @@
       "reason": ""
     },
     "wiki-topic:en:26114602": {
-      "last_seen": "2026-07-19T18:17:49.516008Z",
+      "last_seen": "2026-08-24T17:58:25.143853Z",
       "source_url": "https://en.wikipedia.org/wiki/Back-story_(production)",
-      "outcome": "reviewed_not_saved",
+      "outcome": "no_proposal",
       "reason": ""
     },
     "wiki-topic:en:40399359": {
@@ -1418,7 +1418,7 @@
       "reason": ""
     },
     "wiki-topic:en:601958": {
-      "last_seen": "2026-07-20T19:15:53.358095Z",
+      "last_seen": "2026-08-24T17:58:25.143833Z",
       "source_url": "https://en.wikipedia.org/wiki/Process_engineering",
       "outcome": "no_proposal",
       "reason": ""
@@ -4664,5 +4664,5 @@
       "reason": ""
     }
   },
-  "updated_at": "2026-08-24T17:55:53.102656Z"
+  "updated_at": "2026-08-24T17:58:25.154074Z"
 }

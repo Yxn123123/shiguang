@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-23T20:31:34.753544Z",
+  "updated_at": "2026-10-24T19:35:06.867688Z",
   "approved_cards": 194,
   "pending_candidates": 383,
   "last_run": {
@@ -1937,10 +1937,10 @@
     }
   ],
   "last_harvest": {
-    "github_run_id": "40019856417",
+    "github_run_id": "40125944677",
     "source": "harvest_schedule",
-    "started_at": "2026-10-23T20:31:34.653786Z",
-    "finished_at": "2026-10-23T20:31:34.746733Z",
+    "started_at": "2026-10-24T19:35:06.769990Z",
+    "finished_at": "2026-10-24T19:35:06.861192Z",
     "passes": 0,
     "fetched": 0,
     "added": 0,
